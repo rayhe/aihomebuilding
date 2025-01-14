@@ -8,7 +8,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:#f8f8f8;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -52,7 +52,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:100px 20px;
 }
 
-/* = Full Screen Blocs 
+/* = Full Screen Blocs
 -------------------------------------------------------------- */
 
 .bloc-fill-screen{
@@ -120,7 +120,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 .dropdown-menu .dropdown-menu{
 	border:none}
 @media (min-width:576px){
-	
+
 .navbar-expand-sm .dropdown-menu .dropdown-menu{
 	border:1px solid rgba(0,0,0,.15);
 	position:absolute;
@@ -344,13 +344,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 991px)
@@ -365,7 +365,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding-left:0;padding-right:0;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     .voffset{
         margin-top:5px;
@@ -401,7 +401,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.hero-subheader{
 		font-size:30px;
 	}
-	
+
 }
 
 @media (max-width: 767px){
@@ -411,13 +411,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.hero-subheader{
 		font-size:22px;
 	}
-	
+
 }
 
 @media (max-width: 575px){
 	.hero-header-text{
 		font-size:50px;
 	}
-	
-}
 
+}
