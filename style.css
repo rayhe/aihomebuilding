@@ -26,6 +26,7 @@ body::before {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-color: rgba(244, 244, 244, 0.6); /* Adjust alpha for transparency (0.5 = 50% opaque) */
 	background-blend-mode: overlay; /* Blends the image with the background color */
 	filter: blur(50px); /* Blurs the entire background image */
 }
