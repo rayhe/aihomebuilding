@@ -5,6 +5,7 @@
 	Version: 1.0
 	Built with Blocs
 -----------------------------------------------------------------------------------*/
+
 body{
 	margin:0;
 	padding:0;
@@ -12,14 +13,25 @@ body{
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-	background-image: url('your-background-image.jpg'); /* Replace with your image URL */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-blend-mode: overlay; /* Blends the image with the background color */
-            filter: blur(5px); /* Blurs the entire background image */
 }
-.page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
+
+body::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('bg.webp'); /* Replace with your image URL */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: overlay; /* Blends the image with the background color */
+	filter: blur(50px); /* Blurs the entire background image */
+}
+.page-container{
+	overflow: hidden;
+} /* Prevents unwanted scroll space when scroll FX used. */
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
