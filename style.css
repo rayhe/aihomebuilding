@@ -12,6 +12,12 @@ body{
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	background-image: url('your-background-image.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode: overlay; /* Blends the image with the background color */
+            filter: blur(5px); /* Blurs the entire background image */
 }
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
