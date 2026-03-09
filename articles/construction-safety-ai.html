@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1,032 Construction Workers Died Last Year. AI Cameras Could Have Saved Hundreds. — AI Home Building</title>
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 0 24px 40px;
+			color: #fff;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.article-meta .journalist { color: var(--accent); font-weight: 600; }
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 48px 24px 80px;
+			font-size: 1.1rem;
+		}
+		.article-body p:first-of-type::first-letter {
+			font-family: 'Playfair Display', serif;
+			font-size: 3.4em;
+			float: left;
+			line-height: 0.8;
+			margin: 6px 10px 0 0;
+			color: var(--accent);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.6rem;
+			margin: 2.5em 0 0.8em;
+		}
+		.article-body blockquote {
+			border-left: 4px solid var(--accent);
+			margin: 2em 0;
+			padding: 1em 1.5em;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 2em 0;
+			margin: 2em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			display: block;
+		}
+		.pull-stat .label {
+			font-size: 0.95rem;
+			color: var(--text-muted);
+		}
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.reading-time {
+			display: inline-block;
+			background: rgba(255,255,255,0.15);
+			padding: 2px 10px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+			margin-left: 12px;
+		}
+		@media (max-width: 600px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.7rem; }
+			.article-body { padding: 32px 16px 60px; font-size: 1rem; }
+		}
+		.related-section {
+			max-width: 680px;
+			margin: 3rem auto 2rem;
+			padding: 2rem 0 0;
+			border-top: 2px solid var(--border);
+		}
+		.related-section h3 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.4rem;
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.related-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 1.2rem;
+		}
+		@media (max-width: 600px) {
+			.related-grid { grid-template-columns: 1fr; }
+		}
+		.related-card {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 10px;
+			overflow: hidden;
+			transition: transform 0.2s, box-shadow 0.2s;
+			text-decoration: none;
+			color: inherit;
+			display: block;
+		}
+		.related-card:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+		}
+		.related-card img {
+			width: 100%;
+			height: 120px;
+			object-fit: cover;
+		}
+		.related-card .related-card-body {
+			padding: 0.8rem 1rem;
+		}
+		.related-card .related-card-body h4 {
+			font-family: 'Playfair Display', serif;
+			font-size: 0.95rem;
+			margin: 0;
+			line-height: 1.4;
+			color: var(--text-primary);
+		}
+		.related-card .related-card-body span {
+			font-size: 0.75rem;
+			color: var(--accent);
+			margin-top: 0.3rem;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<a href="../" class="back-link">&larr; AI Home Building</a>
+
+	<div class="article-header">
+		<img src="../images/construction-safety-ai.jpg" alt="Construction site with AI safety monitoring cameras and workers in safety gear">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<h1>1,032 Construction Workers Died Last Year. AI Cameras Could Have Saved Hundreds.</h1>
+			<div class="article-meta">
+				By <span class="journalist">Marcus &ldquo;Steel&rdquo; Washington</span> &middot; March 9, 2026
+				<span class="reading-time">&#9749; 5 min</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="article-body">
+		<p>Construction kills more American workers than any other industry. In 2024, <strong>1,032 construction and extraction workers</strong> died on the job &mdash; nearly three people every single day. Falls alone accounted for 370 of those deaths, down slightly from 400 in 2023 but still staggering. OSHA calls them the &ldquo;Fatal Four&rdquo;: falls, struck-by incidents, caught-in/between accidents, and electrocutions. Together they account for the vast majority of construction fatalities every year. And a new generation of AI-powered safety tools is finally attacking all four.</p>
+
+		<div class="pull-stat">
+			<span class="number">1,032</span>
+			<span class="label">Construction worker fatalities in the U.S. in 2024 &mdash; OSHA</span>
+		</div>
+
+		<h2>Eyes That Never Blink</h2>
+
+		<p>The most mature AI safety technology is <strong>computer vision</strong> &mdash; cameras that watch job sites the way a safety manager would, except they never take breaks, never look away, and never get distracted by a phone call. Platforms like <strong>EarthCam</strong>, <strong>Smartvid.io</strong> (now Newmetrix, acquired by Oracle), and <strong>Intsite</strong> use machine learning to detect over 85 types of hazards in real time.</p>
+
+		<p>Missing hard hat? The system flags it in seconds. Worker standing too close to a crane&rsquo;s swing radius? Alert sent to the site super&rsquo;s phone. Guardrail removed from a scaffolding platform? Documented and escalated before anyone steps to the edge.</p>
+
+		<blockquote>&ldquo;Behind every labor statistic is someone&rsquo;s mortgage payment. Behind every fatality statistic is someone who didn&rsquo;t come home. The technology to prevent most of these deaths exists right now.&rdquo;</blockquote>
+
+		<p>The accuracy is getting remarkable. EarthCam&rsquo;s latest AI models detect PPE compliance with over <strong>95% accuracy</strong> and can identify spatial relationships between workers and equipment &mdash; recognizing not just that a forklift is present, but that a worker is in its blind spot.</p>
+
+		<h2>Wearables That Watch Your Back</h2>
+
+		<p>Smart helmets and wearable sensors represent the next frontier. Companies like <strong>Spot-r</strong> (Triax Technologies) and <strong>Redpoint Positioning</strong> clip sensors onto workers&rsquo; hard hats or vests that track location, detect falls, and monitor environmental conditions like heat and toxic gas exposure.</p>
+
+		<p>The data is transformative. If a framer working in July shows elevated skin temperature and slowed movement patterns, the AI can flag a potential <strong>heat stroke risk</strong> before the worker even feels it. Construction accounts for the highest rate of heat-related deaths of any industry &mdash; 36% of all occupational heat fatalities &mdash; and that number is rising with climate change.</p>
+
+		<div class="pull-stat">
+			<span class="number">36%</span>
+			<span class="label">Of all occupational heat fatalities occur in construction</span>
+		</div>
+
+		<h2>What This Means for Your Home Build</h2>
+
+		<p>If you&rsquo;re building a custom home, your builder&rsquo;s safety record should be on your checklist right next to their portfolio and references. Here&rsquo;s why it matters to you directly:</p>
+
+		<p><strong>Safety incidents cause delays.</strong> An OSHA investigation after a serious injury can shut down your job site for days or weeks. AI safety monitoring dramatically reduces that risk.</p>
+
+		<p><strong>Insurance costs flow downstream.</strong> Builders with poor safety records pay higher workers&rsquo; comp premiums &mdash; and those costs end up in your bid. Companies using AI safety platforms report <strong>20&ndash;40% reductions</strong> in recordable incident rates, which translates to lower overhead.</p>
+
+		<p><strong>It signals professionalism.</strong> A builder who invests in Smartvid.io or site safety cameras is running a modern operation. That same attention to systems and process usually shows up in their scheduling, budgeting, and quality control.</p>
+
+		<h2>The Hard Truth</h2>
+
+		<p>Most residential builders haven&rsquo;t adopted this technology yet. The platforms were built for commercial construction &mdash; high-rise towers, hospitals, infrastructure projects with eight-figure budgets. A custom home builder running three crews isn&rsquo;t paying $2,000/month for an AI safety platform.</p>
+
+		<p>But the technology is getting cheaper fast. <strong>Versatile Natures</strong> offers AI site monitoring starting at $300/month. Simple camera-based PPE detection can run on a $200 Raspberry Pi with open-source models. And the <strong>OSHA penalty</strong> for a single serious violation is now <strong>$16,131</strong> &mdash; with willful violations reaching $161,323. The math is starting to work even for small builders.</p>
+
+		<p>Three workers died today. Three will die tomorrow. The tools to change that are here. The question is whether the industry will use them before the next family gets a phone call no one should have to answer.</p>
+	</div>
+
+	<div class="related-section">
+		<h3>Keep Reading</h3>
+		<div class="related-grid">
+		<a href="construction-workforce.html" class="related-card">
+			<img src="../images/construction-workforce.jpg" alt="What Happens to 8 Million Construction Workers When the Robots Arrive?" loading="lazy">
+			<div class="related-card-body">
+				<h4>What Happens to 8 Million Construction Workers When the Robots Arrive?</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		<a href="drone-site-monitoring.html" class="related-card">
+			<img src="../images/drone-site-monitoring.jpg" alt="Drones Are Watching Your Home Get Built" loading="lazy">
+			<div class="related-card-body">
+				<h4>Drones Are Watching Your Home Get Built &mdash; And Catching Mistakes</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		</div>
+	</div>
+
+	<script>
+		if (localStorage.getItem('theme') === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	</script>
+</body>
+</html>
