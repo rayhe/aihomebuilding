@@ -71,7 +71,7 @@
 - [ ] "Submit a tip" form for industry insiders
 
 ### Phase 6: Advanced
-- [ ] RSS feed generation
+- [x] RSS feed generation — `feed.xml` with all 18 articles, auto-discovery `<link>` in `<head>`, 📡 icon in nav ✅ (Cycle 20 — March 10, 2026)
 - [x] SEO optimization (Open Graph, Twitter Cards, JSON-LD Article schema, canonical URLs) ✅ (Cycle 16 — March 10, 2026)
 - [ ] Performance optimization (image lazy loading, critical CSS)
 - [ ] AMP versions of articles
