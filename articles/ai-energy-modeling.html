@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AI Can Now Model Your Home's Energy Use Before You Break Ground — AI Home Building</title>
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 32px 24px;
+			color: white;
+			width: 100%;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: white;
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			padding: 4px 10px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-header .byline {
+			font-size: 0.85rem;
+			color: rgba(255,255,255,0.7);
+		}
+		.article-header .byline strong { color: white; }
+		.article-body {
+			max-width: 680px;
+			margin: 0 auto;
+			padding: 40px 24px 80px;
+			font-size: 1.05rem;
+		}
+		.article-body p { margin-bottom: 1.4em; }
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.5rem;
+			margin: 2em 0 0.8em;
+		}
+		.article-body .pullstat {
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			text-align: center;
+			padding: 24px 0;
+			margin: 1.5em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.back-link {
+			display: inline-block;
+			position: fixed;
+			top: 20px;
+			left: 20px;
+			z-index: 100;
+			background: rgba(0,0,0,0.6);
+			color: white;
+			text-decoration: none;
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-size: 0.85rem;
+			backdrop-filter: blur(8px);
+		}
+		.back-link:hover { background: var(--accent); color: white; }
+		@media (max-width: 768px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.6rem; }
+		}
+	</style>
+</head>
+<body>
+	<a href="../" class="back-link">← AI Home Building</a>
+
+	<div class="article-header">
+		<img src="../images/ai-energy-modeling.jpg" alt="Modern passive house with energy efficiency visualization overlay">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<span class="badge">Sustainability</span>
+			<h1>AI Can Now Model Your Home's Energy Use Before You Break Ground</h1>
+			<div class="byline"><strong>Priya Greenwood</strong> · March 9, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-body">
+		<p>Energy modeling used to be an afterthought — something consultants ran late in the design process, after the floor plan was locked and the window placement was fixed. By then, the expensive decisions were already made. The model would confirm what everyone suspected: the house would use too much energy, and fixing it would cost too much to bother.</p>
+
+		<p>That dynamic is collapsing. A new generation of AI-powered energy simulation tools is pushing thermal modeling into the earliest minutes of the design process, when changes are free and every wall, window, and roof angle is still negotiable.</p>
+
+		<div class="pullstat">80% reduction in energy modeling time — from 40 hours to 8</div>
+
+		<h2>The Speed Revolution</h2>
+
+		<p>Traditional energy modeling with tools like EnergyPlus or the Passive House Planning Package (PHPP) requires specialists who spend 20–40 hours building a single-home thermal model. The inputs are painstaking: wall assemblies, glazing ratios, thermal bridging coefficients, orientation, shading, infiltration rates. Get one wrong and the simulation is useless.</p>
+
+		<p>Companies like <strong>cove.tool</strong> and <strong>IES Virtual Environment</strong> now use machine learning to generate energy predictions in seconds from basic geometry. Upload a floor plan, specify your climate zone, and the AI estimates heating loads, cooling demand, and annual energy consumption before you've drawn a single HVAC duct. Cove.tool reports that their platform has been used on over 30,000 projects worldwide, generating compliance reports for ASHRAE 90.1 and LEED in a fraction of the traditional timeline.</p>
+
+		<h2>Passive House Gets Accessible</h2>
+
+		<p>The Passive House standard — which limits heating demand to 15 kWh/m²/year — has long been the gold standard of residential energy efficiency. But achieving certification requires obsessive attention to air sealing, insulation continuity, and thermal bridge elimination. The PHPP spreadsheet alone has over 30 interconnected worksheets.</p>
+
+		<p>AI is changing who can attempt it. Tools like <strong>Autodesk Forma</strong> (formerly Spacemaker) now run real-time solar analysis and wind simulations on building massing, letting architects optimize passive solar gain before committing to a design. <strong>BricsCAD</strong> integrates AI-driven energy analysis directly into the CAD workflow — no exporting to a separate tool required.</p>
+
+		<p>The result: firms that previously avoided Passive House projects because of the modeling overhead are now taking them on. The Passive House Institute reports a <strong>60% increase</strong> in certified residential projects globally since 2022, partly driven by software accessibility.</p>
+
+		<h2>What This Means for Homeowners</h2>
+
+		<p>For someone building a custom home, the implications are concrete. An AI energy model run during schematic design can answer questions like: Will moving the master bedroom to the south wall reduce your heating bill by $400/year? Is triple-pane glazing worth the $12,000 premium given your climate? Should you invest in a heat pump or stick with a high-efficiency gas furnace?</p>
+
+		<p>These are decisions that used to require gut instinct or expensive consulting. Now they're data-driven — and available at the stage where the answers actually matter.</p>
+
+		<p>Every kilowatt-hour the building wastes is a design failure. AI just makes it much harder to fail accidentally.</p>
+	</div>
+</body>
+</html>
