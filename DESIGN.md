@@ -46,7 +46,7 @@
 - [ ] Build article backlog to 15+ stories
 - [x] Add article reading time estimates ✅ (Cycle 6 — March 9, 2026)
 - [x] Improve article page typography ✅ (Cycle 6 — drop caps, blockquote styling, link styling)
-- [ ] Add "Related Articles" section at bottom of articles
+- [x] Add "Related Articles" section at bottom of articles ✅ (Cycle 8 — March 9, 2026)
 
 ### Phase 3: Site Features
 - [ ] Category filter pages (click "Workforce" → see all workforce articles)
