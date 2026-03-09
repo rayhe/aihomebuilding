@@ -199,7 +199,51 @@
 			margin-top: 0.3rem;
 			display: block;
 		}
-	</style>
+	
+    /* ── Social Sharing ── */
+    .share-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 32px 0;
+      padding: 16px 0;
+      border-top: 1px solid var(--border, #E8E8E4);
+      border-bottom: 1px solid var(--border, #E8E8E4);
+    }
+    .share-bar .share-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted, #888);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      border: 1px solid var(--border, #E8E8E4);
+      color: var(--text-secondary, #555);
+      background: transparent;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+    }
+    .share-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .share-btn.twitter { border-color: #1da1f2; color: #1da1f2; }
+    .share-btn.twitter:hover { background: #1da1f2; color: white; }
+    .share-btn.linkedin { border-color: #0077b5; color: #0077b5; }
+    .share-btn.linkedin:hover { background: #0077b5; color: white; }
+    .share-btn.facebook { border-color: #1877f2; color: #1877f2; }
+    .share-btn.facebook:hover { background: #1877f2; color: white; }
+    .share-btn.copy-link { border-color: var(--accent, #FF6B35); color: var(--accent, #FF6B35); }
+    .share-btn.copy-link:hover { background: var(--accent, #FF6B35); color: white; }
+
+    </style>
 </head>
 <body>
 	<a href="../" class="back-link">&larr; AI Home Building</a>
@@ -294,5 +338,29 @@
 			document.documentElement.setAttribute('data-theme', 'dark');
 		}
 	</script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var shareBar = document.querySelector('.share-bar');
+      if (!shareBar) return;
+      var title = encodeURIComponent(document.title);
+      var url = encodeURIComponent(window.location.href);
+      var tw = shareBar.querySelector('.twitter');
+      var li = shareBar.querySelector('.linkedin');
+      var fb = shareBar.querySelector('.facebook');
+      var cp = shareBar.querySelector('.copy-link');
+      if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
+      if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+      if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+      if (cp) cp.addEventListener('click', function(e) {
+        e.preventDefault();
+        navigator.clipboard.writeText(window.location.href).then(function() {
+          cp.textContent = '✓ Copied!';
+          setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
+        });
+      });
+    });
+    </script>
+
 </body>
 </html>

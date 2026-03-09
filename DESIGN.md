@@ -49,10 +49,10 @@
 - [x] Add "Related Articles" section at bottom of articles ✅ (Cycle 8 — March 9, 2026)
 
 ### Phase 3: Site Features
-- [ ] Category filter pages (click "Workforce" → see all workforce articles)
+- [x] Category filter bar with pill buttons on homepage ✅ (Cycle 12 — March 9, 2026)
 - [ ] Search functionality (client-side, lunr.js or similar)
 - [ ] Newsletter signup form (design only, or integrate with a service)
-- [ ] Social sharing buttons on articles
+- [x] Social sharing buttons on articles ✅ (Cycle 12 — March 9, 2026)
 - [ ] Article table of contents for longer pieces
 - [ ] Sticky reading progress bar on article pages ✅ (Cycle 6 — March 9, 2026)
 

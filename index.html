@@ -322,6 +322,56 @@
 			.article-grid { grid-template-columns: 1fr; }
 			.footer-inner { grid-template-columns: 1fr; gap: 24px; }
 		}
+
+		/* ── Category Filter Bar ── */
+		.filter-bar {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px 24px 0;
+			display: flex;
+			gap: 8px;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		.filter-bar .filter-label {
+			font-size: 0.8rem;
+			font-weight: 600;
+			color: var(--text-muted);
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			margin-right: 4px;
+		}
+		.filter-pill {
+			padding: 6px 14px;
+			border-radius: 20px;
+			border: 1px solid var(--border);
+			background: transparent;
+			color: var(--text-secondary);
+			font-family: 'Inter', sans-serif;
+			font-size: 0.8rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.2s;
+			white-space: nowrap;
+		}
+		.filter-pill:hover {
+			border-color: var(--accent);
+			color: var(--accent);
+		}
+		.filter-pill.active {
+			background: var(--accent);
+			border-color: var(--accent);
+			color: white;
+		}
+		.article-card.filtered-out {
+			display: none !important;
+		}
+		.filter-count {
+			font-size: 0.75rem;
+			color: var(--text-muted);
+			margin-left: 8px;
+			font-weight: 400;
+		}
 	</style>
 </head>
 <body>
@@ -369,8 +419,20 @@
 	<div class="section-label">Latest Stories</div>
 
 	<!-- Article Grid -->
+	
+	<div class="filter-bar" id="filterBar">
+		<span class="filter-label">Filter:</span>
+		<button class="filter-pill active" data-filter="all">All</button>
+		<button class="filter-pill" data-filter="design">🎨 Design</button>
+		<button class="filter-pill" data-filter="construction">🏗️ Construction</button>
+		<button class="filter-pill" data-filter="management">📋 Management</button>
+		<button class="filter-pill" data-filter="workforce">👷 Workforce</button>
+		<button class="filter-pill" data-filter="sustainability">🌿 Sustainability</button>
+		<span class="filter-count" id="filterCount">10 articles</span>
+	</div>
+
 	<div class="article-grid">
-		<article class="article-card">
+		<article class="article-card" data-category="construction">
 			<a href="articles/modular-prefab-ai.html">
 				<img src="images/modular-prefab-ai.jpg" alt="Modern modular home factory with robotic arms assembling prefabricated wall panels">
 			</a>
@@ -381,7 +443,7 @@
 				<div class="meta">Mike "Rebar" Rodriguez · March 9, 2026</div>
 			</div>
 		</article>
-		<article class="article-card">
+		<article class="article-card" data-category="workforce">
 			<a href="articles/construction-safety-ai.html">
 				<img src="images/construction-safety-ai.jpg" alt="Construction site with AI safety cameras monitoring workers">
 			</a>
@@ -392,7 +454,7 @@
 				<div class="meta">Marcus "Steel" Washington · March 9, 2026</div>
 			</div>
 		</article>
-		<article class="article-card">
+		<article class="article-card" data-category="management">
 			<a href="articles/ai-cost-estimation.html">
 				<img src="images/ai-cost-estimation.jpg" alt="Construction office desk with blueprints and AI cost analysis on laptop">
 			</a>
@@ -403,7 +465,7 @@
 				<div class="meta">Frank "The Foreman" DeLuca · March 9, 2026</div>
 			</div>
 		</article>
-		<article class="article-card">
+		<article class="article-card" data-category="construction">
 			<a href="articles/digital-twins.html">
 				<img src="images/digital-twins.jpg" alt="Modern house with holographic digital twin overlay showing BIM wireframes">
 			</a>
@@ -414,7 +476,7 @@
 				<div class="meta">Sasha Blueprint · March 9, 2026</div>
 			</div>
 		</article>
-		<article class="article-card">
+		<article class="article-card" data-category="construction">
 			<a href="articles/drone-site-monitoring.html">
 				<img src="images/drone-site-monitoring.jpg" alt="Drone surveying a residential construction site from above">
 			</a>
@@ -425,7 +487,7 @@
 				<div class="meta">Jake "Jackhammer" Kowalski · March 9, 2026</div>
 			</div>
 		</article>
-		<article class="article-card">
+		<article class="article-card" data-category="sustainability">
 			<a href="articles/ai-energy-modeling.html">
 				<img src="images/ai-energy-modeling.jpg" alt="Modern passive house with energy efficiency visualization">
 			</a>
@@ -436,19 +498,19 @@
 				<div class="meta">Priya Greenwood · March 9, 2026</div>
 			</div>
 		</article>
-		<article class="article-card">
+		<article class="article-card" data-category="construction">
 			<a href="articles/3d-printed-homes.html">
 				<img src="images/3d-printed-homes.jpg" alt="3D printer extruding concrete walls for a modern home">
 			</a>
 			<div class="card-body">
-				<div class="badge">Construction Technology</div>
+				<div class="badge">Construction Tech</div>
 				<h3><a href="articles/3d-printed-homes.html">Your Next Home Could Be Printed in 48 Hours. Here's What That Actually Means.</a></h3>
 				<p class="excerpt">ICON's Vulcan printer can build structural walls in 2 days. Mighty Buildings prints UV-cured panels that snap together like LEGO. At $150–$275/sqft fully finished, 3D-printed homes are now cost-competitive. But building codes haven't caught up.</p>
 				<div class="byline">By <strong>Jake "Jackhammer" Kowalski</strong> · March 9, 2026</div>
 			</div>
 		</article>
 
-		<article class="article-card">
+		<article class="article-card" data-category="workforce">
 			<a href="articles/construction-workforce.html">
 				<img src="images/construction-workforce.jpg" alt="Construction workers on a modern building site">
 			</a>
@@ -460,7 +522,7 @@
 			</div>
 		</article>
 
-		<article class="article-card">
+		<article class="article-card" data-category="management">
 			<a href="articles/ai-project-management.html">
 				<img src="images/ai-project-management.jpg" alt="AI project management dashboard for construction">
 			</a>
@@ -679,5 +741,31 @@ function switchTab(tabId, clickedLink) {
 </script>
 
 <script src="./js/bootstrap.bundle.min.js"></script>
+<script>
+	// Category filtering
+	(function() {
+		const bar = document.getElementById('filterBar');
+		const countEl = document.getElementById('filterCount');
+		if (!bar) return;
+		bar.addEventListener('click', function(e) {
+			const pill = e.target.closest('.filter-pill');
+			if (!pill) return;
+			const filter = pill.dataset.filter;
+			bar.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+			pill.classList.add('active');
+			const cards = document.querySelectorAll('.article-card');
+			let visible = 0;
+			cards.forEach(card => {
+				if (filter === 'all' || card.dataset.category === filter) {
+					card.classList.remove('filtered-out');
+					visible++;
+				} else {
+					card.classList.add('filtered-out');
+				}
+			});
+			countEl.textContent = visible + ' article' + (visible !== 1 ? 's' : '');
+		});
+	})();
+	</script>
 </body>
 </html>
