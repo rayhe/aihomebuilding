@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Architect Used to Guess What You Wanted. Now AI Shows You. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-architect-client.html">
+
+	<!-- JSON-LD Article Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Architect Used to Guess What You Wanted. Now AI Shows You.",
+		"description": "AI visualization tools are collapsing the architect-client feedback loop from months to minutes — and fundamentally changing who holds creative power in home design.",
+		"image": "https://aihomebuilding.pages.dev/images/ai-architect-client.jpg",
+		"datePublished": "2026-03-09",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.pages.dev/articles/ai-architect-client.html"
+		}
+	}
+	</script>
+
+	<!-- Open Graph / Social -->
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Architect Used to Guess What You Wanted. Now AI Shows You.">
+	<meta property="og:description" content="AI visualization tools are collapsing the architect-client feedback loop from months to minutes — and fundamentally changing who holds creative power in home design.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/ai-architect-client.html">
+	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/ai-architect-client.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Architect Used to Guess What You Wanted. Now AI Shows You.">
+	<meta name="twitter:description" content="AI visualization tools are collapsing the architect-client feedback loop from months to minutes — and fundamentally changing who holds creative power in home design.">
+	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-architect-client.jpg">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 0 24px 40px;
+			color: #fff;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.article-meta .journalist { color: var(--accent); font-weight: 600; }
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 48px 24px 80px;
+			font-size: 1.1rem;
+		}
+		.article-body p:first-of-type::first-letter {
+			font-family: 'Playfair Display', serif;
+			font-size: 3.4em;
+			float: left;
+			line-height: 0.8;
+			margin: 6px 10px 0 0;
+			color: var(--accent);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.6rem;
+			margin: 2.5em 0 0.8em;
+		}
+		.article-body blockquote {
+			border-left: 4px solid var(--accent);
+			margin: 2em 0;
+			padding: 1em 1.5em;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 2em 0;
+			margin: 2em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			display: block;
+		}
+		.pull-stat .label {
+			font-size: 0.95rem;
+			color: var(--text-muted);
+		}
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.reading-time {
+			display: inline-block;
+			background: rgba(255,255,255,0.15);
+			padding: 2px 10px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+			margin-left: 12px;
+		}
+		@media (max-width: 600px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.7rem; }
+			.article-body { padding: 32px 16px 60px; font-size: 1rem; }
+		}
+		.related-section {
+			max-width: 680px;
+			margin: 3rem auto 2rem;
+			padding: 2rem 0 0;
+			border-top: 2px solid var(--border);
+		}
+		.related-section h3 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.4rem;
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.related-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 1.2rem;
+		}
+		@media (max-width: 600px) {
+			.related-grid { grid-template-columns: 1fr; }
+		}
+		.related-card {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 10px;
+			overflow: hidden;
+			text-decoration: none;
+			color: inherit;
+			transition: transform 0.2s, box-shadow 0.2s;
+		}
+		.related-card:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+		}
+		.related-card img {
+			width: 100%; height: 140px;
+			object-fit: cover;
+		}
+		.related-card-body {
+			padding: 12px 16px;
+		}
+		.related-card h4 {
+			font-size: 0.95rem;
+			margin: 0 0 8px;
+			line-height: 1.3;
+		}
+		.related-card span {
+			font-size: 0.8rem;
+			color: var(--accent);
+			font-weight: 600;
+		}
+		.share-bar {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 0 24px;
+			display: flex;
+			gap: 10px;
+			flex-wrap: wrap;
+		}
+		.share-bar a {
+			display: inline-block;
+			padding: 6px 14px;
+			border-radius: 6px;
+			font-size: 0.8rem;
+			font-weight: 600;
+			text-decoration: none;
+			color: #fff;
+			transition: opacity 0.2s;
+		}
+		.share-bar a:hover { opacity: 0.85; }
+		.share-bar .twitter { background: #1DA1F2; }
+		.share-bar .linkedin { background: #0A66C2; }
+		.share-bar .facebook { background: #1877F2; }
+		.share-bar .copy-link { background: var(--text-muted); cursor: pointer; }
+	</style>
+</head>
+<body>
+
+	<a href="../" class="back-link">&larr; AI Home Building</a>
+
+	<header class="article-header">
+		<img src="../images/ai-architect-client.jpg" alt="Architect and client collaborating with AI visualization tools">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<h1>Your Architect Used to Guess What You Wanted. Now AI Shows You.</h1>
+			<div class="article-meta">
+				<span class="journalist">Elena Vasquez</span> &middot; March 9, 2026
+				<span class="reading-time">&cir; 4 min read</span>
+			</div>
+		</div>
+	</header>
+
+	<div class="share-bar">
+		<a href="#" class="twitter" target="_blank" rel="noopener">&#x1D54F; Share</a>
+		<a href="#" class="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+		<a href="#" class="facebook" target="_blank" rel="noopener">Facebook</a>
+		<a href="#" class="copy-link">&#x1F517; Copy Link</a>
+	</div>
+
+	<article class="article-body">
+		<p>The oldest frustration in residential architecture has never been structural. It&rsquo;s linguistic. A homeowner says &ldquo;I want something modern but warm,&rdquo; and the architect translates that into a flat roof with wood cladding &mdash; only to discover three revisions later that &ldquo;modern&rdquo; meant &ldquo;clean lines&rdquo; and &ldquo;warm&rdquo; meant &ldquo;Tuscan stone.&rdquo; The entire design process has been, at its core, an expensive game of telephone.</p>
+
+		<p>AI is ending that game. Not someday &mdash; right now. Tools like Hover, Maket AI, and Snaptrude are compressing what used to be months of iterative misunderstanding into real-time visual conversations. And in doing so, they&rsquo;re reshaping the fundamental power dynamic between the person who designs the home and the person who lives in it.</p>
+
+		<h2>From Weeks to Seconds</h2>
+
+		<p>Hover&rsquo;s AI platform, used by remodelers and design-build firms, lets contractors photograph an existing home and generate a full 3D model in minutes. From there, clients can see proposed changes &mdash; new roofing, siding, window configurations &mdash; overlaid on their actual house. Not a generic rendering. <em>Their</em> house, from <em>their</em> street.</p>
+
+		<div class="pull-stat">
+			<span class="number">73%</span>
+			<span class="label">of homeowners say visualizing changes on their own home increased confidence in design decisions (Hover 2025 survey)</span>
+		</div>
+
+		<p>Maket AI takes a different approach: generative floor plans. Describe your needs &mdash; three bedrooms, open kitchen, home office with natural light &mdash; and the system produces dozens of layout options in seconds, each compliant with local zoning setbacks. An architect might spend 40 hours sketching four concepts. Maket generates 40 in the time it takes to pour coffee.</p>
+
+		<p>At Design &amp; Construction Week 2026, Hover product manager Levi Schoenfeld &mdash; a former architect himself &mdash; put it bluntly: &ldquo;Design shows set unrealistic expectations, condensing six months of iterations into 30 minutes. AI lets us actually meet those expectations. You can present all the options, make edits, and get the contract signed &mdash; all in the first meeting.&rdquo;</p>
+
+		<h2>The Power Shift</h2>
+
+		<p>This speed creates a subtle but profound redistribution of creative authority. Traditionally, the architect held interpretive power. Clients described desires in natural language; architects translated those desires into technical drawings that clients couldn&rsquo;t fully read. The knowledge gap was the architect&rsquo;s moat.</p>
+
+		<p>AI fills that gap. When a homeowner can see 15 facade options on their actual house before the architect has sharpened a pencil, the conversation shifts from &ldquo;trust me, this will look good&rdquo; to &ldquo;which of these do you prefer?&rdquo; The architect&rsquo;s role moves from interpreter to curator &mdash; still essential, but differently so.</p>
+
+		<blockquote>&ldquo;What used to take hours with complicated software, hand-drawn illustrations, and cardboard models can now be showcased in seconds, on their own home.&rdquo; &mdash; Shannon Cook, On-Site Builders</blockquote>
+
+		<p>Snaptrude&rsquo;s platform, one of 18 AI tools now targeting architects specifically, converts 2D sketches into full 3D BIM models with automatic structural analysis. The global AI-in-architecture market hit $3.1 billion in 2025 and is projected to reach $11.4 billion by 2030, growing at 30% annually. That growth isn&rsquo;t speculative &mdash; it reflects architects buying tools that directly improve client satisfaction and close rates.</p>
+
+		<h2>What Gets Lost</h2>
+
+		<p>Not everyone celebrates. Some architects worry that instant visualization flattens the design process, reducing homes to Pinterest mood boards rather than thoughtful responses to site, light, and human behavior. There&rsquo;s a difference between showing a client what they <em>think</em> they want and designing what they <em>actually need</em>.</p>
+
+		<p>The best firms are finding a middle path: using AI to rapidly establish shared visual language in the first meeting, then applying architectural expertise to refine, challenge, and elevate those initial preferences. The technology eliminates the translation problem without eliminating the translator &mdash; it just redefines what translation means.</p>
+
+		<p>For homeowners, the message is clear: the era of paying $15,000 in design fees before seeing a single realistic image of your home is ending. The architects who thrive will be the ones who treat AI visualization not as a threat to their expertise, but as the fastest path to proving it.</p>
+	</article>
+
+	<div class="related-section" style="max-width:680px;margin:0 auto;padding:0 24px 3rem;">
+		<h3>Keep Reading</h3>
+		<div class="related-grid">
+		<a href="ai-interior-design.html" class="related-card">
+			<img src="../images/ai-interior-design.jpg" alt="AI interior design visualization" loading="lazy">
+			<div class="related-card-body">
+				<h4>Upload a Photo of Your Room. Get a New One in 10 Seconds.</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		<a href="ai-architectural-design.html" class="related-card">
+			<img src="../images/ai-architectural-design.jpg" alt="AI architectural design tools" loading="lazy">
+			<div class="related-card-body">
+				<h4>The Algorithm That Designs Your Home Knows Something Your Architect Doesn&rsquo;t</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		</div>
+	</div>
+
+	<script>
+		if (localStorage.getItem('theme') === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	</script>
+
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var shareBar = document.querySelector('.share-bar');
+		if (!shareBar) return;
+		var title = encodeURIComponent(document.title);
+		var url = encodeURIComponent(window.location.href);
+		var tw = shareBar.querySelector('.twitter');
+		var li = shareBar.querySelector('.linkedin');
+		var fb = shareBar.querySelector('.facebook');
+		var cp = shareBar.querySelector('.copy-link');
+		if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
+		if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+		if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+		if (cp) cp.addEventListener('click', function(e) {
+			e.preventDefault();
+			navigator.clipboard.writeText(window.location.href).then(function() {
+				cp.textContent = '✓ Copied!';
+				setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
+			});
+		});
+	});
+	</script>
+
+</body>
+</html>
