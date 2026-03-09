@@ -36,10 +36,12 @@ Active and planned research topics. Each thread has a status, key sources, and a
 
 ## Construction Technology
 
-### 5. ⚪ Robotic Bricklaying: Hadrian X Deep Dive
+### 5. 🟢 Robotic Bricklaying: Hadrian X Deep Dive
 - FBR (Fastbrick Robotics) — Australia
-- 200 blocks/hour, 24/7 operation
-- Commercial deployments, residential timeline
+- 360 blocks/hour, 30m telescopic boom with DST
+- First US home completed Sept 2024 with CRH Ventures
+- Construction Robotics SAM100, Okibo tiling robot
+- **Published:** "This Robot Lays 360 Blocks an Hour" (Jake Kowalski)
 
 ### 6. ⚪ Autonomous Heavy Equipment (Built Robotics)
 - Retrofit kits for excavators, dozers, compactors

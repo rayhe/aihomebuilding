@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>This Robot Lays 360 Blocks an Hour. Your Bricklayer Does 40. — AI Home Building</title>
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 0 24px 40px;
+			color: #fff;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.article-meta .journalist { color: var(--accent); font-weight: 600; }
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 48px 24px 80px;
+			font-size: 1.1rem;
+		}
+		.article-body p:first-of-type::first-letter {
+			font-family: 'Playfair Display', serif;
+			font-size: 3.4em;
+			float: left;
+			line-height: 0.8;
+			margin: 6px 10px 0 0;
+			color: var(--accent);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.6rem;
+			margin: 2.5em 0 0.8em;
+		}
+		.article-body blockquote {
+			border-left: 4px solid var(--accent);
+			margin: 2em 0;
+			padding: 1em 1.5em;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 2em 0;
+			margin: 2em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			display: block;
+		}
+		.pull-stat .label {
+			font-size: 0.95rem;
+			color: var(--text-muted);
+		}
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.reading-time {
+			display: inline-block;
+			background: rgba(255,255,255,0.15);
+			padding: 2px 10px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+			margin-left: 12px;
+		}
+		@media (max-width: 600px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.7rem; }
+			.article-body { padding: 32px 16px 60px; font-size: 1rem; }
+		}
+		.related-section {
+			max-width: 680px;
+			margin: 3rem auto 2rem;
+			padding: 2rem 0 0;
+			border-top: 2px solid var(--border);
+		}
+		.related-section h3 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.4rem;
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.related-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 1.2rem;
+		}
+		@media (max-width: 600px) {
+			.related-grid { grid-template-columns: 1fr; }
+		}
+		.related-card {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 10px;
+			overflow: hidden;
+			transition: transform 0.2s, box-shadow 0.2s;
+			text-decoration: none;
+			color: inherit;
+			display: block;
+		}
+		.related-card:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+		}
+		.related-card img {
+			width: 100%;
+			height: 120px;
+			object-fit: cover;
+		}
+		.related-card .related-card-body {
+			padding: 0.8rem 1rem;
+		}
+		.related-card .related-card-body h4 {
+			font-family: 'Playfair Display', serif;
+			font-size: 0.95rem;
+			margin: 0;
+			line-height: 1.4;
+			color: var(--text-primary);
+		}
+		.related-card .related-card-body span {
+			font-size: 0.75rem;
+			color: var(--accent);
+			margin-top: 0.3rem;
+			display: block;
+		}
+
+    /* ── Social Sharing ── */
+    .share-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 32px 0;
+      padding: 16px 0;
+      border-top: 1px solid var(--border, #E8E8E4);
+      border-bottom: 1px solid var(--border, #E8E8E4);
+    }
+    .share-bar .share-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted, #888);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      border: 1px solid var(--border, #E8E8E4);
+      color: var(--text-secondary, #555);
+      background: transparent;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+    }
+    .share-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .share-btn.twitter { border-color: #1da1f2; color: #1da1f2; }
+    .share-btn.twitter:hover { background: #1da1f2; color: white; }
+    .share-btn.linkedin { border-color: #0077b5; color: #0077b5; }
+    .share-btn.linkedin:hover { background: #0077b5; color: white; }
+    .share-btn.facebook { border-color: #1877f2; color: #1877f2; }
+    .share-btn.facebook:hover { background: #1877f2; color: white; }
+    .share-btn.copy-link { border-color: var(--accent, #FF6B35); color: var(--accent, #FF6B35); }
+    .share-btn.copy-link:hover { background: var(--accent, #FF6B35); color: white; }
+
+    </style>
+</head>
+<body>
+	<a href="../" class="back-link">&larr; AI Home Building</a>
+
+	<div class="article-header">
+		<img src="../images/robotic-bricklaying.jpg" alt="A robotic arm laying concrete blocks on a residential construction site">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<h1>This Robot Lays 360 Blocks an Hour. Your Bricklayer Does 40.</h1>
+			<div class="article-meta">
+				By <span class="journalist">Jake &ldquo;Jackhammer&rdquo; Kowalski</span> &middot; March 9, 2026
+				<span class="reading-time">&#9749; 5 min</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="article-body">
+		<p>Last September, a 30-meter robotic arm mounted on a truck rolled onto a residential lot somewhere in the United States and built the walls of a house. Not a demo wall. Not a lab prototype. A full, code-compliant home, certified to local building standards, built in partnership with CRH Ventures &mdash; one of the world&rsquo;s largest building materials companies. The machine was FBR&rsquo;s <strong>Hadrian X</strong>, and it lays blocks at a pace that makes human bricklayers look like they&rsquo;re working in slow motion.</p>
+
+		<div class="pull-stat">
+			<span class="number">360</span>
+			<span class="label">Concrete blocks per hour &mdash; FBR Hadrian X (vs. ~40 for a skilled human mason)</span>
+		</div>
+
+		<h2>How It Actually Works</h2>
+
+		<p>The Hadrian X isn&rsquo;t a humanoid robot pretending to be a bricklayer. It&rsquo;s a <strong>30-meter telescopic boom</strong> mounted on a truck chassis, guided by a proprietary system FBR calls <strong>Dynamic Stabilisation Technology (DST)</strong>. The boom compensates for wind, vibration, and its own flex in real time, placing blocks with millimeter accuracy even at full extension.</p>
+
+		<p>Blocks are fed through the boom on a conveyor system. Adhesive is applied automatically &mdash; no mortar, no trowels, no mixing. The machine reads a 3D CAD model of the house and translates it directly into block placement sequences. Window openings, door frames, electrical conduit channels, plumbing chases &mdash; all accounted for in the digital model before the first block is placed.</p>
+
+		<blockquote>&ldquo;If it can&rsquo;t survive a job site, it doesn&rsquo;t belong on one. The Hadrian X was designed for Australian heat, American humidity, and the general chaos of residential construction. It&rsquo;s not a lab toy.&rdquo;</blockquote>
+
+		<h2>The Numbers That Matter</h2>
+
+		<p>A skilled bricklayer in the US lays roughly <strong>300&ndash;500 bricks per day</strong> &mdash; about 40&ndash;60 per hour during productive time. The Hadrian X lays <strong>360 large-format blocks per hour</strong>, each one significantly bigger than a standard brick. In volumetric terms, one Hadrian X replaces a crew of 4&ndash;6 masons working a full shift.</p>
+
+		<p>But speed isn&rsquo;t the whole story. The construction industry has been hemorrhaging skilled tradespeople for years. The US is short an estimated <strong>500,000 construction workers</strong> right now. The median age of a bricklayer is 42 and climbing. Young workers aren&rsquo;t entering the trade at anywhere near replacement rates. Hadrian X doesn&rsquo;t solve the shortage &mdash; it sidesteps it entirely.</p>
+
+		<div class="pull-stat">
+			<span class="number">500K</span>
+			<span class="label">Estimated US construction worker shortage in 2025</span>
+		</div>
+
+		<h2>From Australia to America</h2>
+
+		<p>FBR is an Australian company, publicly traded on the ASX, and the Hadrian X has been building homes in Perth since 2023. The <strong>US Demonstration Program</strong> with CRH Ventures, completed in September 2024, was the first international deployment. The walls passed all relevant US building code inspections &mdash; a critical milestone for commercial viability.</p>
+
+		<p>The company isn&rsquo;t alone. <strong>Construction Robotics</strong> in New York builds the SAM100 (Semi-Automated Mason), which works alongside human masons rather than replacing them. <strong>Okibo</strong> in Israel makes a tiling robot. <strong>Canvas</strong> (acquired by Dusty Robotics) automates drywall finishing. But FBR&rsquo;s Hadrian X is the only system that builds entire wall structures autonomously from a digital model.</p>
+
+		<h2>What This Means for Your Home</h2>
+
+		<p>Don&rsquo;t expect a robot to build your house next year. FBR is still scaling from demonstration to commercial deployment, and the Hadrian X works best with large-format blocks &mdash; not every home design is compatible. But the trajectory is clear: <strong>the construction robotics market is projected to reach $426 million by 2030</strong>, growing at over 15% annually.</p>
+
+		<p>When robotic construction goes mainstream, expect three things: <strong>faster build times</strong> (wall framing in days, not weeks), <strong>more consistent quality</strong> (millimeter precision beats human variability), and &mdash; eventually &mdash; <strong>lower costs</strong> as the labor premium disappears from the most physically demanding trades.</p>
+
+		<p>The bricklayer isn&rsquo;t obsolete yet. But the 30-meter arm on the truck is patient, and it doesn&rsquo;t take lunch breaks.</p>
+
+		<div class="share-bar">
+			<span class="share-label">Share</span>
+			<a href="#" class="share-btn twitter">𝕏 Tweet</a>
+			<a href="#" class="share-btn linkedin">in LinkedIn</a>
+			<a href="#" class="share-btn facebook">f Facebook</a>
+			<button class="share-btn copy-link">🔗 Copy Link</button>
+		</div>
+	</div>
+
+	<div class="related-section">
+		<h3>Keep Reading</h3>
+		<div class="related-grid">
+		<a href="construction-workforce.html" class="related-card">
+			<img src="../images/construction-workforce.jpg" alt="What Happens to 8 Million Construction Workers When the Robots Arrive?" loading="lazy">
+			<div class="related-card-body">
+				<h4>What Happens to 8 Million Construction Workers When the Robots Arrive?</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		<a href="3d-printed-homes.html" class="related-card">
+			<img src="../images/3d-printed-homes.jpg" alt="Your Next Home Could Be Printed in 48 Hours" loading="lazy">
+			<div class="related-card-body">
+				<h4>Your Next Home Could Be Printed in 48 Hours</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		</div>
+	</div>
+
+	<script>
+		if (localStorage.getItem('theme') === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	</script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var shareBar = document.querySelector('.share-bar');
+      if (!shareBar) return;
+      var title = encodeURIComponent(document.title);
+      var url = encodeURIComponent(window.location.href);
+      var tw = shareBar.querySelector('.twitter');
+      var li = shareBar.querySelector('.linkedin');
+      var fb = shareBar.querySelector('.facebook');
+      var cp = shareBar.querySelector('.copy-link');
+      if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
+      if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+      if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+      if (cp) cp.addEventListener('click', function(e) {
+        e.preventDefault();
+        navigator.clipboard.writeText(window.location.href).then(function() {
+          cp.textContent = '✓ Copied!';
+          setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
+        });
+      });
+    });
+    </script>
+
+</body>
+</html>
