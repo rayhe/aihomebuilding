@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Architect Missed a Code Violation. The AI Didn&rsquo;t. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-code-compliance.html">
+
+	<!-- JSON-LD Article Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Architect Missed a Code Violation. The AI Didn't.",
+		"description": "UpCodes, Testfit, and 2Build.ai are turning 75,000 pages of building codes into instant automated compliance checks — catching violations humans routinely miss.",
+		"image": "https://aihomebuilding.pages.dev/images/ai-code-compliance.jpg",
+		"datePublished": "2026-03-09",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.pages.dev/articles/ai-code-compliance.html"
+		}
+	}
+	</script>
+
+	<!-- Open Graph / Social -->
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Architect Missed a Code Violation. The AI Didn't.">
+	<meta property="og:description" content="UpCodes, Testfit, and 2Build.ai are turning 75,000 pages of building codes into instant automated compliance checks — catching violations humans routinely miss.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/ai-code-compliance.html">
+	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/ai-code-compliance.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Architect Missed a Code Violation. The AI Didn't.">
+	<meta name="twitter:description" content="UpCodes, Testfit, and 2Build.ai are turning 75,000 pages of building codes into instant automated compliance checks — catching violations humans routinely miss.">
+	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-code-compliance.jpg">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 0 24px 40px;
+			color: #fff;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.article-meta .journalist { color: var(--accent); font-weight: 600; }
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 48px 24px 80px;
+			font-size: 1.1rem;
+		}
+		.article-body p:first-of-type::first-letter {
+			font-family: 'Playfair Display', serif;
+			font-size: 3.4em;
+			float: left;
+			line-height: 0.8;
+			margin: 6px 10px 0 0;
+			color: var(--accent);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.6rem;
+			margin: 2.5em 0 0.8em;
+		}
+		.article-body blockquote {
+			border-left: 4px solid var(--accent);
+			margin: 2em 0;
+			padding: 1em 1.5em;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 2em 0;
+			margin: 2em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			display: block;
+		}
+		.pull-stat .label {
+			font-size: 0.95rem;
+			color: var(--text-muted);
+		}
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.reading-time {
+			display: inline-block;
+			background: rgba(255,255,255,0.15);
+			padding: 2px 10px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+			margin-left: 12px;
+		}
+		@media (max-width: 600px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.7rem; }
+			.article-body { padding: 32px 16px 60px; font-size: 1rem; }
+		}
+		.related-section {
+			max-width: 680px;
+			margin: 3rem auto 2rem;
+			padding: 2rem 0 0;
+			border-top: 2px solid var(--border);
+		}
+		.related-section h3 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.4rem;
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.related-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 1.2rem;
+		}
+		@media (max-width: 600px) {
+			.related-grid { grid-template-columns: 1fr; }
+		}
+		.related-card {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 10px;
+			overflow: hidden;
+			transition: transform 0.2s, box-shadow 0.2s;
+			text-decoration: none;
+			color: inherit;
+			display: block;
+		}
+		.related-card:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+		}
+		.related-card img {
+			width: 100%;
+			height: 120px;
+			object-fit: cover;
+		}
+		.related-card .related-card-body {
+			padding: 0.8rem 1rem;
+		}
+		.related-card .related-card-body h4 {
+			font-family: 'Playfair Display', serif;
+			font-size: 0.95rem;
+			margin: 0;
+			line-height: 1.4;
+			color: var(--text-primary);
+		}
+		.related-card .related-card-body span {
+			font-size: 0.75rem;
+			color: var(--accent);
+			margin-top: 0.3rem;
+			display: block;
+		}
+		.share-bar {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin: 32px 0;
+			padding: 16px 0;
+			border-top: 1px solid var(--border);
+			border-bottom: 1px solid var(--border);
+		}
+		.share-bar .share-label {
+			font-size: 0.8rem;
+			font-weight: 600;
+			color: var(--text-muted);
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+		}
+		.share-btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 8px 14px;
+			border-radius: 6px;
+			font-size: 0.8rem;
+			font-weight: 600;
+			text-decoration: none;
+			transition: all 0.2s;
+			border: 1px solid var(--border);
+			color: var(--text-secondary);
+			background: transparent;
+			cursor: pointer;
+			font-family: 'Inter', sans-serif;
+		}
+		.share-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+		.share-btn.twitter { border-color: #1da1f2; color: #1da1f2; }
+		.share-btn.twitter:hover { background: #1da1f2; color: white; }
+		.share-btn.linkedin { border-color: #0077b5; color: #0077b5; }
+		.share-btn.linkedin:hover { background: #0077b5; color: white; }
+		.share-btn.facebook { border-color: #1877f2; color: #1877f2; }
+		.share-btn.facebook:hover { background: #1877f2; color: white; }
+		.share-btn.copy-link { border-color: var(--accent); color: var(--accent); }
+	</style>
+</head>
+<body>
+	<a href="../" class="back-link">&larr; AI Home Building</a>
+
+	<div class="article-header">
+		<img src="../images/ai-code-compliance.jpg" alt="AI-powered building code compliance checking on architectural blueprints">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<h1>Your Architect Missed a Code Violation. The AI Didn&rsquo;t.</h1>
+			<div class="article-meta">
+				<span class="journalist">Catherine &ldquo;Code&rdquo; Chen</span> &middot; March 9, 2026
+				<span class="reading-time">&#9749; 4 min read</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="article-body">
+		<p>There are approximately <strong>75,000 pages</strong> of building codes governing residential construction in the United States. That&rsquo;s not a typo. Between the International Residential Code, the International Building Code, local amendments, zoning overlays, energy codes, fire codes, and accessibility standards, the regulatory burden on a single residential project can span thousands of requirements. No human being can hold all of it in their head. And for decades, we&rsquo;ve pretended otherwise.</p>
+
+		<div class="pull-stat">
+			<span class="number">75,000+</span>
+			<span class="label">Pages of building codes governing US residential construction</span>
+		</div>
+
+		<h2>The Human Error Rate Is Staggering</h2>
+
+		<p>Studies by the International Code Council estimate that <strong>25&ndash;30% of residential plan submissions contain code violations</strong> that survive the design process. These aren&rsquo;t exotic edge cases &mdash; they&rsquo;re missed setback distances, undersized egress windows, incorrect stair riser heights, and insufficient fire separation between garages and living spaces. The kinds of errors that kill people in fires and earthquakes, or at minimum trigger costly rework during inspection.</p>
+
+		<p>The traditional solution is plan review &mdash; a licensed examiner cross-referencing your drawings against code. But reviewers are overwhelmed. The average municipal plan reviewer handles <strong>200&ndash;400 projects per year</strong> while monitoring changes across 20+ code volumes that update on 3-year cycles. Burnout is endemic, and the talent pipeline is drying up as experienced reviewers retire.</p>
+
+		<h2>AI That Actually Reads the Code</h2>
+
+		<p><strong>UpCodes</strong> has built arguably the most comprehensive AI-powered compliance platform in the industry. Their system indexes building codes from all 50 states and over 30,000 jurisdictions, cross-references them against submitted plans, and flags violations in seconds. More than <strong>800,000 construction professionals</strong> use the platform. The AI doesn&rsquo;t just find the relevant code section &mdash; it interprets spatial relationships in drawings to check whether your stairway headroom actually meets the 6&rsquo;8&quot; minimum, or whether your bedroom window qualifies as emergency egress.</p>
+
+		<p><strong>2Build.ai</strong> takes a different approach, specializing in automated plan review for building departments themselves. Their system ingests BIM models and CAD drawings, then runs them against jurisdictional code requirements and produces a detailed compliance report. Early municipal pilots report <strong>70% reductions in initial review time</strong> for standard residential projects &mdash; from weeks to hours.</p>
+
+		<blockquote>&ldquo;Building code compliance is fundamentally a pattern-matching problem. Humans are bad at checking 2,000 requirements consistently. Machines are excellent at it. The question was never whether AI could do this &mdash; it was when the data would be digitized enough to make it practical.&rdquo;</blockquote>
+
+		<h2>Where AI Excels &mdash; and Where It Doesn&rsquo;t</h2>
+
+		<p>AI compliance tools excel at <strong>deterministic checks</strong>: dimensions, distances, ratios, material specifications, and prescriptive requirements with clear pass/fail criteria. Does the guardrail meet the 42-inch minimum? Is the lot coverage under 40%? Is there adequate ventilation per the mechanical code? These represent roughly <strong>60&ndash;70% of all code requirements</strong>, and machines check them faster and more accurately than any human.</p>
+
+		<p>Where AI still struggles is <strong>performance-based codes</strong> and <strong>engineering judgment calls</strong>. Alternative compliance paths, innovative materials not covered by prescriptive standards, and site-specific conditions that require professional discretion &mdash; these still need human expertise. The best current tools flag these items for human review rather than attempting automated rulings.</p>
+
+		<div class="pull-stat">
+			<span class="number">60&ndash;70%</span>
+			<span class="label">Of code requirements are deterministic checks that AI can automate today</span>
+		</div>
+
+		<h2>What This Means for Your Build</h2>
+
+		<p>If you&rsquo;re hiring an architect or designer for a residential project in 2026, ask whether they use AI-powered code checking tools. UpCodes offers professional plans starting at <strong>$49/month</strong>. 2Build.ai is available to building departments and large firms. Even free tools like the ICC&rsquo;s digital code library have improved dramatically.</p>
+
+		<p>The payoff is tangible: fewer rejected submissions, fewer costly change orders during construction, and fewer inspection failures that delay your move-in date. One rejected plan resubmission can add <strong>4&ndash;8 weeks</strong> to your project timeline. AI code checking won&rsquo;t eliminate every surprise, but it catches the errors that shouldn&rsquo;t happen in the first place &mdash; the ones that exist only because no human can memorize 75,000 pages of rules.</p>
+
+		<p>The code doesn&rsquo;t care about your timeline. But now, at least, you can know what it says before it says no.</p>
+
+		<div class="share-bar">
+			<span class="share-label">Share</span>
+			<a href="#" class="share-btn twitter">&#x1d54f; Tweet</a>
+			<a href="#" class="share-btn linkedin">in LinkedIn</a>
+			<a href="#" class="share-btn facebook">f Facebook</a>
+			<button class="share-btn copy-link">&#x1f517; Copy Link</button>
+		</div>
+	</div>
+
+	<div class="related-section">
+		<h3>Keep Reading</h3>
+		<div class="related-grid">
+		<a href="ai-permit-automation.html" class="related-card">
+			<img src="../images/ai-permit-automation.jpg" alt="AI permit automation for building departments" loading="lazy">
+			<div class="related-card-body">
+				<h4>Your Building Permit Takes 4 Months. AI Can Review It in 4 Minutes.</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		<a href="housing-shortage-ai-policy.html" class="related-card">
+			<img src="../images/housing-shortage-ai-policy.jpg" alt="AI and housing shortage policy" loading="lazy">
+			<div class="related-card-body">
+				<h4>America Is 4.7 Million Homes Short. AI Won&rsquo;t Fix That Alone.</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		</div>
+	</div>
+
+	<script>
+		if (localStorage.getItem('theme') === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	</script>
+
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var shareBar = document.querySelector('.share-bar');
+		if (!shareBar) return;
+		var title = encodeURIComponent(document.title);
+		var url = encodeURIComponent(window.location.href);
+		var tw = shareBar.querySelector('.twitter');
+		var li = shareBar.querySelector('.linkedin');
+		var fb = shareBar.querySelector('.facebook');
+		var cp = shareBar.querySelector('.copy-link');
+		if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
+		if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+		if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+		if (cp) cp.addEventListener('click', function(e) {
+			e.preventDefault();
+			navigator.clipboard.writeText(window.location.href).then(function() {
+				cp.textContent = '✓ Copied!';
+				setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
+			});
+		});
+	});
+	</script>
+
+</body>
+</html>
