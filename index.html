@@ -874,11 +874,11 @@
 		</div>
 		<div>
 			<h4>Topics</h4>
-			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Architecture & Design</a></p>
-			<p><a href="#" onclick="switchTab('tools', document.querySelectorAll('.nav-links a')[1]); return false;">Construction Technology</a></p>
-			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Workforce & Labor</a></p>
-			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Green Building</a></p>
-			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Policy & Regulation</a></p>
+			<p><a href="#" onclick="filterFromFooter('design'); return false;">Architecture & Design</a></p>
+			<p><a href="#" onclick="filterFromFooter('construction'); return false;">Construction Technology</a></p>
+			<p><a href="#" onclick="filterFromFooter('workforce'); return false;">Workforce & Labor</a></p>
+			<p><a href="#" onclick="filterFromFooter('sustainability'); return false;">Green Building</a></p>
+			<p><a href="#" onclick="filterFromFooter('management'); return false;">Policy & Regulation</a></p>
 		</div>
 		<div>
 			<h4>Data Sources</h4>
@@ -952,6 +952,17 @@ function switchTab(tabId, clickedLink) {
 			countEl.textContent = visible + ' article' + (visible !== 1 ? 's' : '');
 		});
 	})();
+
+	// Helper: click a footer topic link → switch to Articles tab, activate the matching filter pill, and scroll up
+	function filterFromFooter(category) {
+		// Switch to articles tab
+		switchTab('articles', document.querySelectorAll('.nav-links a')[0]);
+		// Click the matching filter pill
+		const pill = document.querySelector('.filter-pill[data-filter="' + category + '"]');
+		if (pill) pill.click();
+		// Scroll to top
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}
 	</script>
 <script>
 // Tools directory filtering
