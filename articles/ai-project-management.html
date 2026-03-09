@@ -129,9 +129,62 @@
 			.article-header { height: 300px; }
 			.article-header h1 { font-size: 1.6rem; }
 		}
+	
+		/* Reading progress bar */
+		.reading-progress {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 0%;
+			height: 3px;
+			background: var(--accent);
+			z-index: 9999;
+			transition: width 0.1s linear;
+		}
+		/* Reading time badge */
+		.reading-time {
+			display: inline-block;
+			background: rgba(255,255,255,0.15);
+			padding: 2px 8px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+			margin-left: 8px;
+		}
+		/* Typography enhancements */
+		.article-body p:first-of-type::first-letter {
+			float: left;
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 3.4em;
+			line-height: 0.8;
+			padding-right: 8px;
+			padding-top: 6px;
+			color: var(--accent);
+			font-weight: 800;
+		}
+		.article-body blockquote {
+			border-left: 4px solid var(--accent);
+			margin: 1.5em 0;
+			padding: 0.8em 1.2em;
+			background: rgba(255,107,53,0.04);
+			border-radius: 0 8px 8px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		[data-theme="dark"] .article-body blockquote {
+			background: rgba(255,107,53,0.08);
+		}
+		.article-body strong { color: var(--text-primary); }
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.article-body a:hover { text-decoration-thickness: 2px; }
 	</style>
 </head>
 <body>
+	<div class="reading-progress"></div>
+
 <a href="../index.html" class="back-link">← AI Home Building</a>
 
 <header class="article-header">
@@ -140,7 +193,7 @@
 	<div class="header-text">
 		<div class="badge">Project Management</div>
 		<h1>From 14 Months to 10: How AI Project Management Is Compressing Home Build Timelines</h1>
-		<div class="byline">By <strong>Frank "The Foreman" DeLuca</strong> · March 8, 2026 · 5 min read</div>
+		<div class="byline">By <strong>Frank "The Foreman" DeLuca</strong> · March 8, 2026 <span class="reading-time">☕ 5 min read</span> · 5 min read</div>
 	</div>
 </header>
 
@@ -194,5 +247,21 @@
 	if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
 })();
 </script>
+
+	<script>
+		// Reading progress bar
+		(function() {
+			const bar = document.querySelector('.reading-progress');
+			const body = document.querySelector('.article-body');
+			if (!bar || !body) return;
+			window.addEventListener('scroll', function() {
+				const rect = body.getBoundingClientRect();
+				const total = body.scrollHeight;
+				const scrolled = Math.max(0, -rect.top);
+				const pct = Math.min(100, (scrolled / (total - window.innerHeight)) * 100);
+				bar.style.width = pct + '%';
+			});
+		})();
+	</script>
 </body>
 </html>

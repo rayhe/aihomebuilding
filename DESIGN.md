@@ -44,8 +44,8 @@
 - [ ] Publish 2 articles per day via hourly cron
 - [ ] Cover all 6 journalist beats
 - [ ] Build article backlog to 15+ stories
-- [ ] Add article reading time estimates
-- [ ] Improve article page typography
+- [x] Add article reading time estimates ✅ (Cycle 6 — March 9, 2026)
+- [x] Improve article page typography ✅ (Cycle 6 — drop caps, blockquote styling, link styling)
 - [ ] Add "Related Articles" section at bottom of articles
 
 ### Phase 3: Site Features
@@ -54,7 +54,7 @@
 - [ ] Newsletter signup form (design only, or integrate with a service)
 - [ ] Social sharing buttons on articles
 - [ ] Article table of contents for longer pieces
-- [ ] Sticky reading progress bar on article pages
+- [ ] Sticky reading progress bar on article pages ✅ (Cycle 6 — March 9, 2026)
 
 ### Phase 4: Data & Interactivity
 - [ ] Industry data dashboard page (construction stats, labor data)
