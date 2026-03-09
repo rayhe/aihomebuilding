@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drones Are Watching Your Home Get Built — And Catching Mistakes You'd Never See — AI Home Building</title>
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 32px 24px;
+			color: white;
+			width: 100%;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: white;
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			padding: 4px 10px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-header .byline {
+			font-size: 0.85rem;
+			color: rgba(255,255,255,0.7);
+		}
+		.article-header .byline strong { color: white; }
+		.article-body {
+			max-width: 680px;
+			margin: 0 auto;
+			padding: 40px 24px 80px;
+			font-size: 1.05rem;
+		}
+		.article-body p { margin-bottom: 1.4em; }
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.5rem;
+			margin: 2em 0 0.8em;
+		}
+		.article-body .pullstat {
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			text-align: center;
+			padding: 24px 0;
+			margin: 1.5em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.back-link {
+			display: inline-block;
+			position: fixed;
+			top: 20px;
+			left: 20px;
+			z-index: 100;
+			background: rgba(0,0,0,0.6);
+			color: white;
+			text-decoration: none;
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-size: 0.85rem;
+			backdrop-filter: blur(8px);
+		}
+		.back-link:hover { background: var(--accent); color: white; }
+		@media (max-width: 768px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.6rem; }
+		}
+		.reading-progress {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 0%;
+			height: 3px;
+			background: var(--accent);
+			z-index: 9999;
+			transition: width 0.1s linear;
+		}
+		.reading-time {
+			display: inline-block;
+			background: rgba(255,255,255,0.15);
+			padding: 2px 8px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+			margin-left: 8px;
+		}
+		.article-body p:first-of-type::first-letter {
+			float: left;
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 3.4em;
+			line-height: 0.8;
+			padding-right: 8px;
+			padding-top: 6px;
+			color: var(--accent);
+			font-weight: 800;
+		}
+		.article-body blockquote {
+			border-left: 4px solid var(--accent);
+			margin: 1.5em 0;
+			padding: 0.8em 1.2em;
+			background: rgba(255,107,53,0.04);
+			border-radius: 0 8px 8px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		[data-theme="dark"] .article-body blockquote {
+			background: rgba(255,107,53,0.08);
+		}
+		.article-body strong { color: var(--text-primary); }
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.article-body a:hover { text-decoration-thickness: 2px; }
+	</style>
+</head>
+<body>
+	<div class="reading-progress"></div>
+
+	<a href="../" class="back-link">← AI Home Building</a>
+
+	<div class="article-header">
+		<img src="../images/drone-site-monitoring.jpg" alt="Drone surveying a residential construction site from above">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<span class="badge">Construction Tech</span>
+			<h1>Drones Are Watching Your Home Get Built — And Catching Mistakes You'd Never See</h1>
+			<div class="byline"><strong>Jake "Jackhammer" Kowalski</strong> · March 9, 2026 <span class="reading-time">☕ 3 min read</span></div>
+		</div>
+	</div>
+
+	<div class="article-body">
+		<p>Here's a stat that should bother anyone who's ever written a check to a general contractor: the average residential construction project loses <strong>11% of total material</strong> to waste, rework, and errors that nobody catches until it's too late. On a $500,000 custom home, that's $55,000 evaporating into bad cuts, misaligned foundations, and work that has to be torn out and redone.</p>
+
+		<p>Drones paired with AI are quietly eliminating that waste — and they're doing it for the price of a decent table saw.</p>
+
+		<div class="pullstat">$14.3 billion — projected value of drones in construction by 2027</div>
+
+		<h2>From Aerial Photos to AI Inspectors</h2>
+
+		<p>Five years ago, a construction drone meant a DJI Phantom taking pretty aerial photos for the project website. Today, platforms like <strong>Propeller Aero</strong>, <strong>Skydio</strong>, and <strong>DroneDeploy</strong> are turning those photos into centimeter-accurate 3D models that AI compares against the architectural plans in real time.</p>
+
+		<p>The workflow is deceptively simple: fly a Skydio X10 over the site for 15 minutes, upload the imagery, and the software generates an orthomosaic map and point cloud. The AI overlay then compares what's actually been built against the BIM model. Foundation off by two inches? Flagged. Framing lumber placed 18 inches on center instead of 16? Caught. Roof truss bearing point shifted from the plans? Red alert, before the sheathing goes on and hides it forever.</p>
+
+		<p><strong>Propeller Aero</strong> reports that their platform processes over 300,000 drone surveys annually across construction sites, with AI detecting discrepancies as small as 2 centimeters from plan specifications. That precision used to require a licensed surveyor with a total station and a full day on-site.</p>
+
+		<h2>The Real Money: Schedule Tracking</h2>
+
+		<p>Catching physical errors is valuable, but the bigger win is schedule intelligence. AI-powered progress monitoring compares weekly drone flights against the project timeline and flags when work is falling behind — often before the superintendent notices.</p>
+
+		<p><strong>OpenSpace</strong>, originally built for commercial projects, has expanded into residential, using 360° cameras and AI to create photographic records of every inch of a build. Their system automatically calculates percent-complete for each trade, turning subjective "we're about 60% done with framing" into precise, image-verified metrics. Builders using OpenSpace report catching schedule slippage <strong>3–4 weeks earlier</strong> than traditional methods.</p>
+
+		<p>For custom homebuilders, this translates directly to money. Every week a project runs over schedule costs the owner in construction loan interest, temporary housing, and delayed move-in. A typical construction loan at today's rates adds roughly <strong>$1,200–$1,800 per week</strong> in interest alone.</p>
+
+		<h2>What a Homeowner Can Actually Do With This</h2>
+
+		<p>The barrier to entry has collapsed. A <strong>DJI Mini 4 Pro</strong> costs $760 and pairs with DroneDeploy's starter plan at $299/month. A homeowner — or their project manager — can fly the site weekly in 20 minutes and generate a detailed progress report without setting foot on a ladder.</p>
+
+		<p>More practically, services like <strong>DroneBase</strong> will send a licensed pilot to your site for $300–$500 per visit. For a 12-month custom build, that's $3,600–$6,000 for comprehensive aerial documentation — insurance against the $55,000 in potential waste.</p>
+
+		<p>The best part? The photographic record becomes permanent. If a subcontractor disputes what was installed behind a wall, you've got timestamped, geo-referenced proof. If a warranty claim arises five years later, you can show exactly what the roof looked like before the first shingle went on.</p>
+
+		<blockquote>If it can't survive a job site, it doesn't belong on one. These drones are built to get dirty.</blockquote>
+
+		<p>The construction industry has operated on trust, handshakes, and walk-throughs for centuries. Drones don't replace the trust — they verify it. And in an industry where the average dispute costs $39,000 to resolve, verification is worth every penny of the flight time.</p>
+	</div>
+
+	<script>
+		(function() {
+			const bar = document.querySelector('.reading-progress');
+			const body = document.querySelector('.article-body');
+			if (!bar || !body) return;
+			window.addEventListener('scroll', function() {
+				const rect = body.getBoundingClientRect();
+				const total = body.scrollHeight;
+				const scrolled = Math.max(0, -rect.top);
+				const pct = Math.min(100, (scrolled / (total - window.innerHeight)) * 100);
+				bar.style.width = pct + '%';
+			});
+		})();
+	</script>
+</body>
+</html>
