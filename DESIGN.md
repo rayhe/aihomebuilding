@@ -51,7 +51,7 @@
 ### Phase 3: Site Features
 - [x] Category filter bar with pill buttons on homepage ✅ (Cycle 12 — March 9, 2026)
 - [x] Search functionality — client-side instant search with debounce, clear button, no-results state ✅ (Cycle 18 — March 10, 2026)
-- [ ] Newsletter signup form (design only, or integrate with a service)
+- [x] Newsletter signup form — orange gradient CTA banner above footer, email validation, localStorage persistence, already-subscribed detection ✅ (Cycle 22 — March 10, 2026)
 - [x] Social sharing buttons on articles ✅ (Cycle 12 — March 9, 2026)
 - [ ] Article table of contents for longer pieces
 - [ ] Sticky reading progress bar on article pages ✅ (Cycle 6 — March 9, 2026)
