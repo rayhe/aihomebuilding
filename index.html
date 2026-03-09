@@ -310,6 +310,10 @@
 			color: rgba(255,255,255,0.3);
 		}
 
+		/* ── Tab Panes ── */
+		.tab-pane { animation: fadeIn 0.3s ease; }
+		@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
 		/* ── Responsive ── */
 		@media (max-width: 768px) {
 			.masthead-brand { font-size: 2rem; }
@@ -334,7 +338,10 @@
 <nav class="site-nav">
 	<div class="nav-inner">
 		<div class="nav-links">
-			<a href="index.html" class="active">Latest</a>
+			<a href="#" class="active" onclick="switchTab('articles', this); return false;">Articles</a>
+			<a href="#" onclick="switchTab('tools', this); return false;">AI Tools</a>
+			<a href="#" onclick="switchTab('data', this); return false;">Industry Data</a>
+			<a href="#" onclick="switchTab('about', this); return false;">About</a>
 		</div>
 		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
 	</div>
@@ -342,6 +349,8 @@
 
 <!-- Content -->
 <main class="content-wrap">
+	<!-- Tab: Articles -->
+	<div id="tab-articles" class="tab-pane active">
 	<div class="section-label">Featured</div>
 
 	<!-- Featured Article -->
@@ -385,6 +394,145 @@
 			</div>
 		</article>
 	</div>
+</div>
+
+	<!-- Tab: AI Tools -->
+	<div id="tab-tools" class="tab-pane" style="display:none;">
+		<div class="section-label">AI Construction Tools Directory</div>
+		<div class="tools-intro" style="max-width:720px; margin-bottom:32px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
+			A curated directory of AI-powered tools transforming how homes are designed, built, and managed. From generative floor plan engines to autonomous equipment, these are the tools reshaping the industry.
+		</div>
+		<div class="article-grid">
+			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Design</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Maket AI</h3>
+				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">Generative floor plan design. Describe your requirements in plain English and get dozens of buildable layouts in minutes. Used by 10,000+ architects.</p>
+				<a href="https://www.maket.ai/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Design</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Finch3D</h3>
+				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI-powered building design optimization. Evaluates floor plans for daylight, energy, cost, and livability — then suggests improvements automatically.</p>
+				<a href="https://www.finch3d.com/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Construction</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Buildots</h3>
+				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI construction monitoring via hardhat-mounted 360° cameras. Automatically compares as-built progress against BIM models and flags deviations in real time.</p>
+				<a href="https://www.buildots.com/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Project Management</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Alice Technologies</h3>
+				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI-powered construction scheduling and simulation. Generates thousands of schedule scenarios and optimizes for cost, time, and resource constraints.</p>
+				<a href="https://www.alicetechnologies.com/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Robotics</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Hadrian X</h3>
+				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">Autonomous bricklaying robot by FBR. Lays 200+ bricks per hour from a 3D CAD model. Can build the walls of a full house in about 3 days.</p>
+				<a href="https://www.fbr.com.au/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Estimation</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Togal.AI</h3>
+				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI takeoff and estimating software. Reads blueprints, auto-detects rooms, walls, and areas, then generates accurate quantity takeoffs in minutes instead of days.</p>
+				<a href="https://www.togal.ai/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Tab: Industry Data -->
+	<div id="tab-data" class="tab-pane" style="display:none;">
+		<div class="section-label">Industry Data & Statistics</div>
+		<div style="max-width:720px; margin-bottom:32px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
+			Key statistics on the U.S. construction industry, AI adoption rates, labor shortages, and the economic forces driving automation in homebuilding.
+		</div>
+		<div class="article-grid">
+			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
+				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">$2.1T</div>
+				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Global Construction Market</div>
+				<div style="font-size:0.825rem; color:var(--text-muted);">Annual market size, projected to reach $3.2T by 2030. The largest industry still largely untouched by AI.</div>
+			</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
+				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">501K</div>
+				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">U.S. Construction Worker Shortage</div>
+				<div style="font-size:0.825rem; color:var(--text-muted);">Open positions in 2025, per AGC of America. 73% of contractors report difficulty finding skilled workers.</div>
+			</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
+				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">1.3%</div>
+				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Annual Productivity Growth</div>
+				<div style="font-size:0.825rem; color:var(--text-muted);">Construction productivity has barely budged in 50 years. Manufacturing grew 3.6× in the same period. AI is the first technology that might close the gap.</div>
+			</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
+				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">30%</div>
+				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Schedule Compression</div>
+				<div style="font-size:0.825rem; color:var(--text-muted);">Average time savings reported by contractors using AI scheduling tools like Alice Technologies and Procore AI.</div>
+			</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
+				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">8.3%</div>
+				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">AI Adoption in Construction</div>
+				<div style="font-size:0.825rem; color:var(--text-muted);">Share of U.S. construction firms actively using AI tools, per McKinsey. Lowest of any major industry. Massive room to grow.</div>
+			</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
+				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">47</div>
+				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Median Age of Construction Workers</div>
+				<div style="font-size:0.825rem; color:var(--text-muted);">The workforce is aging out. 1 in 5 construction workers is over 55. The pipeline of young workers isn't replacing them fast enough.</div>
+			</div>
+		</div>
+		<p style="font-size:0.8rem; color:var(--text-muted); margin-top:16px;">Sources: McKinsey Global Institute, AGC of America, Bureau of Labor Statistics, U.S. Census Bureau.</p>
+	</div>
+
+	<!-- Tab: About -->
+	<div id="tab-about" class="tab-pane" style="display:none;">
+		<div class="section-label">About</div>
+		<div style="max-width:720px;">
+			<h2 style="font-family:'Playfair Display',Georgia,serif; font-size:2rem; font-weight:800; margin:0 0 20px; line-height:1.2;">Where AI Meets Construction</h2>
+			<p style="font-size:1.05rem; line-height:1.8; color:var(--text-secondary); margin-bottom:20px;">AI Home Building is an independent research publication tracking how artificial intelligence, robotics, and automation are transforming the $2.1 trillion global construction industry.</p>
+			<p style="font-size:1.05rem; line-height:1.8; color:var(--text-secondary); margin-bottom:20px;">We cover the full stack — from generative design tools that produce thousands of floor plan variations in minutes, to autonomous bricklaying robots building walls in days, to AI project management platforms compressing 14-month build timelines down to 10.</p>
+			<p style="font-size:1.05rem; line-height:1.8; color:var(--text-secondary); margin-bottom:20px;">But we also cover the human side: the 500,000 missing construction workers, the aging workforce, the policy gaps, and what happens to skilled tradespeople when machines can do their jobs faster and cheaper.</p>
+
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.4rem; font-weight:700; margin:32px 0 16px;">What We Cover</h3>
+			<div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:32px;">
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; border-left:3px solid var(--accent);">
+					<strong style="font-size:0.9rem;">Architecture & Design</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Generative design, AI floor plans, parametric architecture</p>
+				</div>
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; border-left:3px solid var(--accent);">
+					<strong style="font-size:0.9rem;">Construction Technology</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">3D printing, robotics, autonomous equipment, prefab</p>
+				</div>
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; border-left:3px solid var(--accent);">
+					<strong style="font-size:0.9rem;">Workforce & Labor</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Labor shortages, upskilling, displacement, demographics</p>
+				</div>
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; border-left:3px solid var(--accent);">
+					<strong style="font-size:0.9rem;">Policy & Regulation</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Building codes, permitting AI, safety standards, zoning</p>
+				</div>
+			</div>
+
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.4rem; font-weight:700; margin:32px 0 16px;">Our Journalists</h3>
+			<div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
+					<strong style="font-size:0.95rem;">Elena Vasquez</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Architecture & design beat. Former practicing architect, now covers how AI is reshaping the creative process.</p>
+				</div>
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
+					<strong style="font-size:0.95rem;">Marcus "Steel" Washington</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Labor & workforce correspondent. 15 years on job sites before turning to journalism. Covers the human cost of automation.</p>
+				</div>
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
+					<strong style="font-size:0.95rem;">Frank "The Foreman" DeLuca</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Project management & operations. Tests every AI tool on real builds. If it doesn't survive a job site, he'll tell you.</p>
+				</div>
+				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
+					<strong style="font-size:0.95rem;">Dr. Priya Nair</strong>
+					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Sustainability & green building. Environmental engineer covering how AI can reduce construction's 39% share of global emissions.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </main>
 
 <!-- Footer -->
@@ -400,11 +548,11 @@
 		</div>
 		<div>
 			<h4>Topics</h4>
-			<p><a href="#design">Architecture & Design</a></p>
-			<p><a href="#construction">Construction Technology</a></p>
-			<p><a href="#workforce">Workforce & Labor</a></p>
-			<p><a href="#sustainability">Green Building</a></p>
-			<p><a href="#policy">Policy & Regulation</a></p>
+			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Architecture & Design</a></p>
+			<p><a href="#" onclick="switchTab('tools', document.querySelectorAll('.nav-links a')[1]); return false;">Construction Technology</a></p>
+			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Workforce & Labor</a></p>
+			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Green Building</a></p>
+			<p><a href="#" onclick="switchTab('about', document.querySelectorAll('.nav-links a')[3]); return false;">Policy & Regulation</a></p>
 		</div>
 		<div>
 			<h4>Data Sources</h4>
@@ -427,6 +575,18 @@ function toggleTheme() {
 	body.setAttribute('data-theme', next);
 	localStorage.setItem('theme', next);
 	document.querySelector('.theme-toggle').textContent = next === 'dark' ? '☀️' : '🌙';
+}
+function switchTab(tabId, clickedLink) {
+	// Hide all tab panes
+	document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
+	// Show selected
+	const target = document.getElementById('tab-' + tabId);
+	if (target) target.style.display = '';
+	// Update nav active state
+	document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+	if (clickedLink) clickedLink.classList.add('active');
+	// Scroll to top of content
+	window.scrollTo({ top: document.querySelector('.content-wrap').offsetTop - 60, behavior: 'smooth' });
 }
 (function() {
 	const saved = localStorage.getItem('theme');
