@@ -72,7 +72,7 @@
 
 ### Phase 6: Advanced
 - [ ] RSS feed generation
-- [ ] SEO optimization (structured data, Open Graph, Twitter cards)
+- [x] SEO optimization (Open Graph, Twitter Cards, JSON-LD Article schema, canonical URLs) ✅ (Cycle 16 — March 10, 2026)
 - [ ] Performance optimization (image lazy loading, critical CSS)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
