@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The 500,000 Missing Workers — AI Home Building</title>
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 32px 24px;
+			color: white;
+			width: 100%;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: white;
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			padding: 4px 10px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 12px;
+		}
+		.article-header .byline {
+			font-size: 0.85rem;
+			color: rgba(255,255,255,0.7);
+		}
+		.article-header .byline strong { color: white; }
+		.article-body {
+			max-width: 680px;
+			margin: 0 auto;
+			padding: 40px 24px 80px;
+			font-size: 1.05rem;
+		}
+		.article-body p { margin-bottom: 1.4em; }
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.5rem;
+			margin: 2em 0 0.8em;
+		}
+		.article-body .pullstat {
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			text-align: center;
+			padding: 24px 0;
+			margin: 1.5em 0;
+			border-top: 2px solid var(--border);
+			border-bottom: 2px solid var(--border);
+		}
+		.back-link {
+			display: inline-block;
+			position: fixed;
+			top: 20px;
+			left: 20px;
+			z-index: 100;
+			background: rgba(0,0,0,0.6);
+			color: white;
+			text-decoration: none;
+			padding: 8px 16px;
+			border-radius: 8px;
+			font-size: 0.85rem;
+			font-weight: 600;
+			backdrop-filter: blur(8px);
+		}
+		.back-link:hover { background: var(--accent); color: white; }
+		@media (max-width: 768px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.6rem; }
+		}
+	</style>
+</head>
+<body>
+<a href="../index.html" class="back-link">← AI Home Building</a>
+
+<header class="article-header">
+	<img src="../images/construction-workforce.jpg" alt="Construction workers on a modern building site">
+	<div class="overlay"></div>
+	<div class="header-text">
+		<div class="badge">Workforce & Labor</div>
+		<h1>The 500,000 Missing Workers: Can AI and Robots Fill Construction's Labor Gap?</h1>
+		<div class="byline">By <strong>Marcus "Steel" Washington</strong> · March 8, 2026 · 6 min read</div>
+	</div>
+</header>
+
+<article class="article-body">
+	<p>There are 500,000 construction jobs sitting empty in the United States right now. Not projected. Not seasonal. Right now, today, as you read this, half a million positions in framing, electrical, plumbing, and general labor have no one to fill them.</p>
+
+	<p>The Associated General Contractors of America has been tracking this number with increasing alarm. Their 2024 workforce survey found that <strong>73% of construction firms report difficulty filling positions</strong> — the highest in the survey's history. The median age of a construction worker is 42 and climbing. The pipeline of young apprentices has thinned to a trickle.</p>
+
+	<div class="pullstat">73% of construction firms can't find enough workers</div>
+
+	<h2>The Robots Are Here (Sort Of)</h2>
+
+	<p>Into this gap come the machines. Hadrian X, built by Australian company FBR (Fastbrick Robotics), lays 200 large-format blocks per hour — roughly the output of two skilled masons working an eight-hour shift, but Hadrian works 24/7 without breaks, back injuries, or callbacks. It's been deployed on commercial projects in Australia and is now targeting the U.S. residential market.</p>
+
+	<p>Built Robotics, based in San Francisco, retrofits conventional heavy equipment — excavators, dozers, compactors — with autonomous guidance systems. Their machines handle site preparation, trenching, and grading with GPS-level precision. The company has raised $112 million and deployed across solar farm construction, but residential applications are next.</p>
+
+	<p>Then there's ICON, the Austin-based startup that 3D-prints homes. Their Vulcan printer extrudes a proprietary concrete mixture called Lavacrete, building walls layer by layer. A 2,000-square-foot home takes about a week of print time. ICON has printed 200+ structures, including a planned community in Georgetown, Texas — 100 homes, all 3D-printed.</p>
+
+	<h2>What the Numbers Actually Say</h2>
+
+	<p>Here's where the narrative gets complicated. The Bureau of Labor Statistics projects <strong>construction employment will grow 4% through 2032</strong>, adding roughly 300,000 jobs. That's net growth despite automation. Why? Because the housing shortage is so severe — the National Association of Realtors estimates the U.S. is <strong>5.5 million homes short</strong> of demand — that even with robots, we need more humans too.</p>
+
+	<p>McKinsey's 2023 report on construction productivity found that the industry's labor productivity has been essentially flat for 30 years. Every other major sector — manufacturing, agriculture, mining — has at least doubled output per worker. Construction hasn't. AI and robotics aren't replacing a thriving workforce; they're propping up a declining one.</p>
+
+	<p>The trades most resistant to automation are the ones requiring adaptive, fine-motor work in unpredictable environments: electricians routing wire through existing walls, plumbers fitting pipes in cramped crawl spaces, finish carpenters matching trim to warped old houses. A robot that can lay bricks on a flat slab is one thing. A robot that can snake a wire through a 1940s attic is science fiction.</p>
+
+	<h2>The Human Cost of Doing Nothing</h2>
+
+	<p>The construction industry lost 1,075 workers to fatal injuries in 2022, according to OSHA — the highest of any sector. Another 170,000 suffered non-fatal injuries serious enough to require days off work. Back injuries, falls, repetitive stress, heat exposure. The physical toll is staggering.</p>
+
+	<p>Robots don't fall off scaffolding. Autonomous dozers don't get heatstroke. 3D printers don't develop chronic back pain. The safety argument for automation may be stronger than the efficiency argument.</p>
+
+	<h2>What Happens to the Workers?</h2>
+
+	<p>The honest answer: it depends on who you are. A 55-year-old framer who's been hanging joists for 30 years is in a different position than a 25-year-old apprentice who can learn to operate and maintain robotic systems. The AGC reports that firms investing in automation are also investing in operator training — you need people who understand both construction and the machines.</p>
+
+	<p>The transition isn't robot replaces worker. It's robot + worker builds 3× what worker alone could build, and the worker's knees last 20 years longer.</p>
+
+	<p>But only if we invest in retraining. And historically, we're terrible at that.</p>
+</article>
+
+<script>
+(function() {
+	const saved = localStorage.getItem('theme');
+	if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+})();
+</script>
+</body>
+</html>

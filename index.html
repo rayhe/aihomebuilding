@@ -1,164 +1,453 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<!-- Metadata -->
-    <meta charset="utf-8">
-    <meta name="keywords" content="cloudflare, pages, template, edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta charset="utf-8">
+	<meta name="keywords" content="AI, homebuilding, construction, architecture, design, automation">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="robots" content="index, follow">
-	<title>Efficient Design with AI Homebuilding</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-	<!-- Metadata END -->
+	<meta name="description" content="AI Home Building — Where artificial intelligence meets construction. Research, analysis, and reporting on how AI is transforming home design, building, and project management.">
+	<title>AI Home Building — Where AI Meets Construction</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
 
-	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1563">
 	<link rel="stylesheet" type="text/css" href="style.css?2909">
 	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?7190">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
-	<!-- Stylesheets END -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 
-	<!-- Here HTMLRewriter will write the Metadata from _middleware.js -->
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--accent-dark: #E55A2B;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+			--shadow: 0 2px 12px rgba(0,0,0,0.06);
+			--shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+		}
+
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+			--shadow: 0 2px 12px rgba(0,0,0,0.3);
+			--shadow-hover: 0 8px 30px rgba(0,0,0,0.5);
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			padding: 0;
+			line-height: 1.6;
+			transition: background 0.3s, color 0.3s;
+		}
+
+		/* ── Masthead ── */
+		.masthead {
+			background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
+			color: white;
+			padding: 0;
+			position: relative;
+			overflow: hidden;
+		}
+		.masthead::before {
+			content: '';
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: url('bg.webp') center/cover;
+			opacity: 0.15;
+		}
+		.masthead-inner {
+			position: relative;
+			z-index: 1;
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 40px 24px 32px;
+		}
+		.masthead-brand {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.8rem;
+			font-weight: 800;
+			letter-spacing: -0.02em;
+			margin: 0;
+			line-height: 1.1;
+		}
+		.masthead-brand span { color: var(--accent); }
+		.masthead-tagline {
+			font-size: 1.1rem;
+			font-weight: 400;
+			color: rgba(255,255,255,0.7);
+			margin-top: 8px;
+		}
+
+		/* ── Navigation ── */
+		.site-nav {
+			background: var(--bg-card);
+			border-bottom: 1px solid var(--border);
+			position: sticky;
+			top: 0;
+			z-index: 100;
+			transition: background 0.3s;
+		}
+		.nav-inner {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 24px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 16px;
+		}
+		.nav-links {
+			display: flex;
+			gap: 4px;
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+		.nav-links a {
+			padding: 14px 16px;
+			font-size: 0.875rem;
+			font-weight: 600;
+			color: var(--text-secondary);
+			text-decoration: none;
+			white-space: nowrap;
+			border-bottom: 2px solid transparent;
+			transition: color 0.2s, border-color 0.2s;
+		}
+		.nav-links a:hover, .nav-links a.active {
+			color: var(--accent);
+			border-bottom-color: var(--accent);
+		}
+		.theme-toggle {
+			background: none;
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			padding: 6px 10px;
+			font-size: 1.1rem;
+			cursor: pointer;
+			color: var(--text-primary);
+			transition: background 0.2s;
+		}
+		.theme-toggle:hover { background: var(--border); }
+
+		/* ── Content ── */
+		.content-wrap {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 40px 24px 60px;
+		}
+		.section-label {
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: var(--accent);
+			margin-bottom: 20px;
+		}
+
+		/* ── Featured Article ── */
+		.featured-article {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 32px;
+			margin-bottom: 48px;
+			background: var(--bg-card);
+			border-radius: 16px;
+			overflow: hidden;
+			box-shadow: var(--shadow);
+			transition: box-shadow 0.3s;
+		}
+		.featured-article:hover { box-shadow: var(--shadow-hover); }
+		.featured-img {
+			width: 100%;
+			height: 100%;
+			min-height: 320px;
+			object-fit: cover;
+		}
+		.featured-text {
+			padding: 32px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.featured-text .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: white;
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			padding: 4px 10px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+			width: fit-content;
+		}
+		.featured-text h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.8rem;
+			font-weight: 800;
+			line-height: 1.2;
+			margin: 0 0 12px;
+		}
+		.featured-text h2 a {
+			color: var(--text-primary);
+			text-decoration: none;
+		}
+		.featured-text h2 a:hover { color: var(--accent); }
+		.featured-text .excerpt {
+			color: var(--text-secondary);
+			font-size: 0.95rem;
+			line-height: 1.6;
+			margin-bottom: 16px;
+		}
+		.byline {
+			font-size: 0.8rem;
+			color: var(--text-muted);
+		}
+		.byline strong { color: var(--text-secondary); font-weight: 600; }
+
+		/* ── Article Grid ── */
+		.article-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+			gap: 28px;
+			margin-bottom: 48px;
+		}
+		.article-card {
+			background: var(--bg-card);
+			border-radius: 12px;
+			overflow: hidden;
+			box-shadow: var(--shadow);
+			transition: transform 0.2s, box-shadow 0.3s;
+		}
+		.article-card:hover {
+			transform: translateY(-4px);
+			box-shadow: var(--shadow-hover);
+		}
+		.article-card img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		}
+		.article-card .card-body {
+			padding: 20px;
+		}
+		.article-card .card-body .badge {
+			display: inline-block;
+			background: rgba(255,107,53,0.1);
+			color: var(--accent);
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			padding: 3px 8px;
+			border-radius: 4px;
+			margin-bottom: 8px;
+		}
+		.article-card h3 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.2rem;
+			font-weight: 700;
+			line-height: 1.3;
+			margin: 0 0 8px;
+		}
+		.article-card h3 a {
+			color: var(--text-primary);
+			text-decoration: none;
+		}
+		.article-card h3 a:hover { color: var(--accent); }
+		.article-card .excerpt {
+			font-size: 0.875rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+			margin-bottom: 12px;
+		}
+
+		/* ── Footer ── */
+		.site-footer {
+			background: #1A1A1A;
+			color: rgba(255,255,255,0.6);
+			padding: 48px 24px 32px;
+		}
+		.footer-inner {
+			max-width: 1200px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 2fr 1fr 1fr;
+			gap: 40px;
+		}
+		.footer-inner h4 {
+			color: white;
+			font-size: 0.875rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			margin-bottom: 16px;
+		}
+		.footer-inner p, .footer-inner a {
+			font-size: 0.85rem;
+			line-height: 1.7;
+			color: rgba(255,255,255,0.5);
+		}
+		.footer-inner a:hover { color: var(--accent); }
+		.footer-bottom {
+			max-width: 1200px;
+			margin: 32px auto 0;
+			padding-top: 24px;
+			border-top: 1px solid rgba(255,255,255,0.1);
+			font-size: 0.75rem;
+			text-align: center;
+			color: rgba(255,255,255,0.3);
+		}
+
+		/* ── Responsive ── */
+		@media (max-width: 768px) {
+			.masthead-brand { font-size: 2rem; }
+			.featured-article { grid-template-columns: 1fr; }
+			.featured-img { min-height: 200px; }
+			.article-grid { grid-template-columns: 1fr; }
+			.footer-inner { grid-template-columns: 1fr; gap: 24px; }
+		}
+	</style>
 </head>
 <body>
 
-<!-- Preloader -->
-<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
-<!-- Preloader END -->
+<!-- Masthead -->
+<header class="masthead">
+	<div class="masthead-inner">
+		<h1 class="masthead-brand">AI Home <span>Building</span></h1>
+		<p class="masthead-tagline">Research & reporting on how artificial intelligence is transforming home design, construction, and project management</p>
+	</div>
+</header>
 
-<!-- Main container -->
-<div class="page-container">
+<!-- Navigation -->
+<nav class="site-nav">
+	<div class="nav-inner">
+		<div class="nav-links">
+			<a href="index.html" class="active">Latest</a>
+			<a href="#design">Design & Architecture</a>
+			<a href="#construction">Construction Tech</a>
+			<a href="#workforce">Workforce</a>
+			<a href="#policy">Policy</a>
+			<a href="#about">About</a>
+		</div>
+		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+	</div>
+</nav>
 
-<!-- bloc-0 -->
-<div class="bloc bloc-fill-screen l-bloc " id="bloc-0">
-	<div class="container fill-bloc-top-edge">
-		<div class="row">
-			<div class="col-12">
-				<nav class="navbar navbar-light row navbar-expand-md" role="navigation">
-					<div class="container-fluid ">
-						<a class="navbar-brand" href="index.html"><!-- linkback --> </a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-35092">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse navbar-120 navbar-29706 navbar-45188 navbar-18426 navbar-42371 navbar-35092">
-							<ul class="site-navigation nav navbar-nav ms-auto">
-								<li class="nav-item">
-									<a href="index.html" class="nav-link a-btn">Home</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+<!-- Content -->
+<main class="content-wrap">
+	<div class="section-label">Featured</div>
+
+	<!-- Featured Article -->
+	<article class="featured-article">
+		<a href="articles/ai-architectural-design.html">
+			<img class="featured-img" src="images/ai-architectural-design.jpg" alt="AI-generated architectural design visualization">
+		</a>
+		<div class="featured-text">
+			<div class="badge">Architecture & Design</div>
+			<h2><a href="articles/ai-architectural-design.html">The Architect's New Brain: How AI Is Redesigning Home Design From the Ground Up</a></h2>
+			<p class="excerpt">Generative design tools like Autodesk's Dreamcatcher and Hypar are producing thousands of floor plan variations in minutes. The $2.1 trillion global construction industry is about to find out what happens when algorithms can out-design humans.</p>
+			<div class="byline">By <strong>Elena Vasquez</strong> · March 8, 2026</div>
+		</div>
+	</article>
+
+	<div class="section-label">Latest Stories</div>
+
+	<!-- Article Grid -->
+	<div class="article-grid">
+		<article class="article-card">
+			<a href="articles/construction-workforce.html">
+				<img src="images/construction-workforce.jpg" alt="Construction workers on a modern building site">
+			</a>
+			<div class="card-body">
+				<div class="badge">Workforce & Labor</div>
+				<h3><a href="articles/construction-workforce.html">The 500,000 Missing Workers: Can AI and Robots Fill Construction's Labor Gap?</a></h3>
+				<p class="excerpt">The U.S. construction industry needs half a million more workers than it has. Hadrian X lays 200 bricks per hour. Built Robotics runs autonomous dozers. But 73% of contractors say they still can't find enough people.</p>
+				<div class="byline">By <strong>Marcus "Steel" Washington</strong> · March 8, 2026</div>
 			</div>
+		</article>
+
+		<article class="article-card">
+			<a href="articles/ai-project-management.html">
+				<img src="images/ai-project-management.jpg" alt="AI project management dashboard for construction">
+			</a>
+			<div class="card-body">
+				<div class="badge">Project Management</div>
+				<h3><a href="articles/ai-project-management.html">From 14 Months to 10: How AI Project Management Is Compressing Home Build Timelines</a></h3>
+				<p class="excerpt">Alice Technologies claims 30% schedule compression. Procore's AI flags delays 3 weeks early. ALICE, Buildots, and Doxel are turning construction's worst trait — going over time and budget — into a solvable problem.</p>
+				<div class="byline">By <strong>Frank "The Foreman" DeLuca</strong> · March 8, 2026</div>
+			</div>
+		</article>
+	</div>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+	<div class="footer-inner">
+		<div>
+			<h4>About AI Home Building</h4>
+			<p>We cover the intersection of artificial intelligence, robotics, and residential construction. From generative design tools that produce thousands of floor plan variations to autonomous bricklaying robots, we track how technology is reshaping how homes get designed, built, and managed.</p>
+			<p style="margin-top: 12px;">
+				<a href="mailto:info@aihomebuilding.com">info@aihomebuilding.com</a> · 
+				<a href="mailto:editorial@aihomebuilding.com">editorial@aihomebuilding.com</a>
+			</p>
+		</div>
+		<div>
+			<h4>Topics</h4>
+			<p><a href="#design">Architecture & Design</a></p>
+			<p><a href="#construction">Construction Technology</a></p>
+			<p><a href="#workforce">Workforce & Labor</a></p>
+			<p><a href="#sustainability">Green Building</a></p>
+			<p><a href="#policy">Policy & Regulation</a></p>
+		</div>
+		<div>
+			<h4>Data Sources</h4>
+			<p><a href="https://www.bls.gov/" target="_blank">Bureau of Labor Statistics</a></p>
+			<p><a href="https://www.census.gov/construction" target="_blank">U.S. Census Construction</a></p>
+			<p><a href="https://www.agc.org/" target="_blank">AGC of America</a></p>
+			<p><a href="https://www.mckinsey.com/" target="_blank">McKinsey Global Institute</a></p>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h1 class="text-center mg-clear hero-header-text text-blue-gradient">
-					Welcome<br>
-				</h1>
-				<h3 class="mg-md float-none text-center hero-subheader tc-black">
-					Bring Your Dream Build to Life: Streamlined Project Management Powered by AI for Faster, Smarter, and Cost-Effective Construction – Turning Vision into Reality with Unmatched Efficiency.
-				</h3>
-			</div>
-		</div>
+	<div class="footer-bottom">
+		© 2026 AI Home Building. Built with data, not drywall.
 	</div>
-	<div class="container fill-bloc-bottom-edge">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-center">
-					<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md animated bounce animDelay08"></span></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-0 END -->
+</footer>
 
-<!-- bloc-1 -->
-<div class="bloc l-bloc" id="bloc-1">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-lg-12 hero-first-col-mb">
-				<h1 class="mg-md text-center">
-					Process
-				</h1>
-				<div class="">
-					<p>Traditional homebuilding is plagued by inefficiencies: repeated site visits, poor communication, misaligned teams, and delays caused by misunderstandings of critical milestones. We're here to revolutionize the process with streamlined systems, the right vendors, and efficiency-driven practices.</p>
-					<ul>
-						<li>
-							<strong>Partner with Industry-Leading Vendors:</strong>
-							<ul>
-								<li>Work with vendors known for reliability and adherence to schedules.</li>
-								<li>Ensure all suppliers and contractors use standardized communication and documentation tools for transparency.</li>
-								<li>Negotiate contracts that incentivize efficiency without compromising quality.</li>
-							</ul>
-						</li>
-						<li>
-							<strong>Streamlined Communication Systems:</strong>
-							<ul>
-								<li>Implement centralized platforms for real-time updates, progress tracking, and team collaboration.</li>
-								<li>Use AI-driven tools to analyze schedules and anticipate roadblocks.</li>
-								<li>Facilitate regular virtual check-ins to minimize unnecessary site visits.</li>
-							</ul>
-						</li>
-						<li>
-							<strong>Prioritize Key Milestones:</strong>
-							<ul>
-								<li>Identify "long poles" (critical paths) early and allocate resources accordingly.</li>
-								<li>Train teams on the importance of meeting milestone dependencies to avoid bottlenecks.</li>
-								<li>Leverage predictive tools to foresee and mitigate delays before they occur.</li>
-							</ul>
-						</li>
-						<li>
-							<strong>Maximize Parallel Pathing Opportunities:</strong>
-							<ul>
-								<li>Coordinate trades to work concurrently without overlap or interference.</li>
-								<li>Plan inspections, material deliveries, and construction phases in tandem to reduce downtime.</li>
-								<li>Utilize prefabrication and modular construction where possible to accelerate timelines.</li>
-							</ul>
-						</li>
-						<li>
-							<strong>Efficiency Targets and Metrics:</strong>
-							<ul>
-								<li>Set clear, measurable goals for time, cost, and quality benchmarks.</li>
-								<li>Monitor progress using AI and data analytics to ensure continuous improvement.</li>
-								<li>Conduct regular reviews to adjust strategies and maintain alignment with project objectives.</li>
-							</ul>
-						</li>
-					</ul>
-					<p>By addressing traditional inefficiencies and leveraging cutting-edge tools and practices, we’ll bring your dream build to life on time, within budget, and with superior quality.</p>
+<script>
+function toggleTheme() {
+	const body = document.documentElement;
+	const current = body.getAttribute('data-theme');
+	const next = current === 'dark' ? 'light' : 'dark';
+	body.setAttribute('data-theme', next);
+	localStorage.setItem('theme', next);
+	document.querySelector('.theme-toggle').textContent = next === 'dark' ? '☀️' : '🌙';
+}
+(function() {
+	const saved = localStorage.getItem('theme');
+	if (saved === 'dark') {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		document.addEventListener('DOMContentLoaded', () => {
+			const btn = document.querySelector('.theme-toggle');
+			if (btn) btn.textContent = '☀️';
+		});
+	}
+})();
+</script>
 
-				</div>
-				<h1 class="mg-md text-center">
-					Contact
-				</h1>
-				<div class="text-center">
-					<span><a style="color: #3e02c9; font-weight: bold; font-size: 1.2em; text-decoration: none;" href="mailto:hello@aihomebuilding.com">hello@aihomebuilding.com</a></span>
-					<span><a style="color: #3e02c9; font-weight: bold; font-size: 1.2em; text-decoration: none;" href="mailto:hello@efficientdesign.net">hello@efficientdesign.net</a></span>
-				</div>
-			</div>
-			<div class="offset-md-2 col-md-8 col-lg-8 offset-lg-2">
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-1 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
-<!-- ScrollToTop Button END-->
-
-
-</div>
-<!-- Main container END -->
-
-
-
-<!-- Additional JS -->
-<script src="./js/bootstrap.bundle.min.js?8537"></script>
-<script src="./js/blocs.min.js?4639"></script>
-<script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
-
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
