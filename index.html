@@ -561,47 +561,200 @@
 	<!-- Tab: AI Tools -->
 	<div id="tab-tools" class="tab-pane" style="display:none;">
 		<div class="section-label">AI Construction Tools Directory</div>
-		<div class="tools-intro" style="max-width:720px; margin-bottom:32px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
-			A curated directory of AI-powered tools transforming how homes are designed, built, and managed. From generative floor plan engines to autonomous equipment, these are the tools reshaping the industry.
+		<div style="max-width:720px; margin-bottom:24px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
+			A curated directory of 20 AI-powered tools transforming how homes are designed, built, and managed — from generative floor plans to autonomous bricklayers.
 		</div>
-		<div class="article-grid">
-			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Design</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Maket AI</h3>
-				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">Generative floor plan design. Describe your requirements in plain English and get dozens of buildable layouts in minutes. Used by 10,000+ architects.</p>
-				<a href="https://www.maket.ai/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+		<div id="toolsFilterBar" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px;">
+			<button class="tool-filter active" data-cat="all" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--accent); color:#fff; font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">All <span class="tool-count">20</span></button>
+			<button class="tool-filter" data-cat="design" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🎨 Design</button>
+			<button class="tool-filter" data-cat="construction" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🏗️ Construction</button>
+			<button class="tool-filter" data-cat="management" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">📋 Management</button>
+			<button class="tool-filter" data-cat="robotics" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🤖 Robotics</button>
+			<button class="tool-filter" data-cat="estimation" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">💰 Estimation</button>
+			<button class="tool-filter" data-cat="safety" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">⛑️ Safety</button>
+			<button class="tool-filter" data-cat="monitoring" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">📡 Monitoring</button>
+		</div>
+		<div class="article-grid" id="toolsGrid">
+			<!-- Design Tools -->
+			<div class="tc" data-cat="design" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🎨 Design</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Maket AI</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Generative floor plan design — describe requirements in plain English and get dozens of buildable layouts in minutes. Used by 10,000+ architects.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.maket.ai/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-architectural-design.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
 			</div>
-			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Design</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Finch3D</h3>
-				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI-powered building design optimization. Evaluates floor plans for daylight, energy, cost, and livability — then suggests improvements automatically.</p>
-				<a href="https://www.finch3d.com/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			<div class="tc" data-cat="design" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🎨 Design</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Finch3D</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-powered building design optimization. Evaluates floor plans for daylight, energy, cost, and livability — then suggests improvements automatically.</p>
+				<a href="https://www.finch3d.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
 			</div>
-			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Construction</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Buildots</h3>
-				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI construction monitoring via hardhat-mounted 360° cameras. Automatically compares as-built progress against BIM models and flags deviations in real time.</p>
-				<a href="https://www.buildots.com/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			<div class="tc" data-cat="design" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🎨 Design</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Autodesk Forma</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Cloud-based design platform with real-time AI analysis: wind, daylight, noise, energy — all computed as you sketch. The successor to Spacemaker.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.autodesk.com/products/forma/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-energy-modeling.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
 			</div>
-			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Project Management</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Alice Technologies</h3>
-				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI-powered construction scheduling and simulation. Generates thousands of schedule scenarios and optimizes for cost, time, and resource constraints.</p>
-				<a href="https://www.alicetechnologies.com/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			<!-- Construction / 3D Printing -->
+			<div class="tc" data-cat="construction" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏗️ Construction</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">ICON</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">3D-printed homes using the Vulcan printer. 100-home community in Texas (Wolf Ranch). Walls printed in 48 hours, $150–$275/sqft fully finished.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.iconbuild.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/3d-printed-homes.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
 			</div>
-			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Robotics</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Hadrian X</h3>
-				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">Autonomous bricklaying robot by FBR. Lays 200+ bricks per hour from a 3D CAD model. Can build the walls of a full house in about 3 days.</p>
-				<a href="https://www.fbr.com.au/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			<div class="tc" data-cat="construction" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏗️ Construction</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Mighty Buildings</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Robotic 3D printing of prefab panels using thermoset composites. Light-cured materials allow for complex geometries impossible with concrete printing.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.mightybuildings.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/3d-printed-homes.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
 			</div>
-			<div class="tool-card" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-				<div class="badge" style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">Estimation</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.2rem; margin:0 0 8px;">Togal.AI</h3>
-				<p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:8px;">AI takeoff and estimating software. Reads blueprints, auto-detects rooms, walls, and areas, then generates accurate quantity takeoffs in minutes instead of days.</p>
-				<a href="https://www.togal.ai/" target="_blank" style="font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			<div class="tc" data-cat="construction" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏗️ Construction</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Autovol</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-managed robotic factory lines for modular homes. Under 1% defect rate, 20–50% faster timelines, and 10–20% cost savings vs site-built construction.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.autovol.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/modular-prefab-ai.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<!-- Management -->
+			<div class="tc" data-cat="management" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📋 Management</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Alice Technologies</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI construction scheduling. Generates thousands of scenarios and optimizes for cost, time, and resource constraints. 15–30% schedule compression.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.alicetechnologies.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-project-management.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="management" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📋 Management</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Buildots</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Hardhat-mounted 360° cameras compare as-built progress against BIM models in real time. Catches schedule slippage 3–4 weeks before humans notice.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.buildots.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-project-management.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="management" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📋 Management</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">PermitFlow</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI permit management platform. Auto-generates permit applications, tracks status across jurisdictions, and reduces approval timelines by 40–60%.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.permitflow.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-permit-automation.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<!-- Robotics -->
+			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Hadrian X (FBR)</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous bricklaying robot. 360 blocks/hour from a 3D CAD model. First US home completed in Florida (2024). Walls of a full house in ~3 days.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.fbr.com.au/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/robotic-bricklaying.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Built Robotics</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous excavators and dozers. Retrofits existing heavy equipment with AI guidance systems. Used on solar farms, pipelines, and residential grading.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.builtrobotics.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/robotic-bricklaying.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Canvas</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-controlled drywall finishing robot. Scans walls with lidar and applies joint compound with robotic precision. Acquired by Dusty Robotics parent.</p>
+				<a href="https://www.canvas.build/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Dusty Robotics</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous layout robot — prints full-scale BIM floor plans directly onto concrete slabs with millimeter precision. Eliminates tape-measure layout errors.</p>
+				<a href="https://www.dustyrobotics.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+			</div>
+			<!-- Estimation -->
+			<div class="tc" data-cat="estimation" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">💰 Estimation</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Togal.AI</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Reads blueprints, auto-detects rooms, walls, and areas, then generates quantity takeoffs in minutes instead of days. 3–5% bid accuracy vs 15–25% traditional.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.togal.ai/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-cost-estimation.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="estimation" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">💰 Estimation</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">ConWize</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI bid management that analyzes historical project data to predict optimal pricing. Helps contractors win more bids at better margins.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.conwize.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/ai-cost-estimation.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<!-- Safety -->
+			<div class="tc" data-cat="safety" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">⛑️ Safety</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">EarthCam AI</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-powered jobsite cameras that detect 85+ hazard types with 95%+ PPE accuracy. Automated time-lapse, progress tracking, and safety alerts.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.earthcam.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/construction-safety-ai.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="safety" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">⛑️ Safety</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Triax Spot-r</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Wearable sensor clip for construction workers. Tracks location, detects falls and near-misses, monitors environmental exposure. 20–40% reduction in recordable incidents.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.triaxtec.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/construction-safety-ai.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<!-- Monitoring -->
+			<div class="tc" data-cat="monitoring" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📡 Monitoring</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">OpenSpace</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">360° reality capture platform. Walk the site with a hardhat camera and AI maps every inch to BIM. Catches deviations, tracks progress, creates a visual timeline.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.openspace.ai/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/digital-twins.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="monitoring" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📡 Monitoring</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Skydio X10</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous drone with AI obstacle avoidance. Flies pre-programmed survey routes, generates orthomosaic maps, and detects 2cm discrepancies from plans.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://www.skydio.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/drone-site-monitoring.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
+			</div>
+			<div class="tc" data-cat="monitoring" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📡 Monitoring</div>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Matterport</h3>
+				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">3D digital twin capture for buildings. Scan a space with a phone or Pro3 camera and get a navigable virtual model. Used for as-built documentation, remote inspections, and renovation planning.</p>
+				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+					<a href="https://matterport.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
+					<a href="articles/digital-twins.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
+				</div>
 			</div>
 		</div>
+		<p style="font-size:0.8rem; color:var(--text-muted); margin-top:20px;">Know a tool we should add? Reach out via our About page.</p>
 	</div>
 
 	<!-- Tab: Industry Data -->
@@ -789,5 +942,35 @@ function switchTab(tabId, clickedLink) {
 		});
 	})();
 	</script>
+<script>
+// Tools directory filtering
+(function() {
+	const bar = document.getElementById('toolsFilterBar');
+	if (!bar) return;
+	bar.addEventListener('click', function(e) {
+		const btn = e.target.closest('.tool-filter');
+		if (!btn) return;
+		const cat = btn.dataset.cat;
+		bar.querySelectorAll('.tool-filter').forEach(b => {
+			b.classList.remove('active');
+			b.style.background = 'var(--bg-card)';
+			b.style.color = 'var(--text-secondary)';
+		});
+		btn.classList.add('active');
+		btn.style.background = 'var(--accent)';
+		btn.style.color = '#fff';
+		const cards = document.querySelectorAll('#toolsGrid .tc');
+		let count = 0;
+		cards.forEach(c => {
+			if (cat === 'all' || c.dataset.cat === cat) {
+				c.style.display = '';
+				count++;
+			} else {
+				c.style.display = 'none';
+			}
+		});
+	});
+})();
+</script>
 </body>
 </html>

@@ -59,7 +59,7 @@
 ### Phase 4: Data & Interactivity
 - [ ] Industry data dashboard page (construction stats, labor data)
 - [ ] Interactive charts (Chart.js) — workforce trends, AI adoption rates
-- [ ] AI tools directory page — curated list of construction AI tools
+- [x] AI tools directory page — curated list of 20 construction AI tools with category filtering ✅ (Cycle 14 — March 9, 2026)
 - [ ] Company profiles for key players (ICON, Built Robotics, etc.)
 - [ ] Cost comparison calculators (traditional vs. AI-assisted builds)
 
