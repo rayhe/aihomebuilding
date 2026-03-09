@@ -398,6 +398,81 @@
 		.article-card.filtered-out {
 			display: none !important;
 		}
+		/* ── Search Bar ── */
+		.search-bar {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px 24px 0;
+		}
+		.search-wrapper {
+			position: relative;
+			max-width: 420px;
+		}
+		.search-wrapper svg {
+			position: absolute;
+			left: 14px;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 16px;
+			height: 16px;
+			color: var(--text-muted);
+			pointer-events: none;
+		}
+		.search-input {
+			width: 100%;
+			padding: 10px 38px 10px 40px;
+			border: 1px solid var(--border);
+			border-radius: 24px;
+			background: var(--card-bg);
+			color: var(--text-primary);
+			font-family: 'Inter', sans-serif;
+			font-size: 0.9rem;
+			outline: none;
+			transition: border-color 0.2s, box-shadow 0.2s;
+		}
+		.search-input::placeholder {
+			color: var(--text-muted);
+		}
+		.search-input:focus {
+			border-color: var(--accent);
+			box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.12);
+		}
+		.search-clear {
+			position: absolute;
+			right: 12px;
+			top: 50%;
+			transform: translateY(-50%);
+			background: none;
+			border: none;
+			color: var(--text-muted);
+			font-size: 1.1rem;
+			cursor: pointer;
+			padding: 2px 6px;
+			border-radius: 50%;
+			line-height: 1;
+			display: none;
+			transition: color 0.15s;
+		}
+		.search-clear:hover {
+			color: var(--accent);
+		}
+		.search-no-results {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 40px 24px;
+			text-align: center;
+			color: var(--text-muted);
+			font-size: 1rem;
+			display: none;
+		}
+		.search-no-results strong {
+			color: var(--text-primary);
+		}
+		.search-highlight {
+			background: rgba(255, 107, 53, 0.2);
+			border-radius: 2px;
+			padding: 0 1px;
+		}
 		.filter-count {
 			font-size: 0.75rem;
 			color: var(--text-muted);
@@ -452,6 +527,15 @@
 
 	<!-- Article Grid -->
 	
+	<div class="search-bar">
+		<div class="search-wrapper">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+			<input type="text" class="search-input" id="articleSearch" placeholder="Search articles…" autocomplete="off">
+			<button class="search-clear" id="searchClear" title="Clear search">&times;</button>
+		</div>
+	</div>
+	<div class="search-no-results" id="searchNoResults">No articles match <strong id="searchQueryDisplay"></strong></div>
+
 	<div class="filter-bar" id="filterBar">
 		<span class="filter-label">Filter:</span>
 		<button class="filter-pill active" data-filter="all">All</button>
@@ -1028,6 +1112,104 @@ function switchTab(tabId, clickedLink) {
 		// Scroll to top
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
+
+	// ── Article Search ──
+	(function() {
+		const input = document.getElementById('articleSearch');
+		const clearBtn = document.getElementById('searchClear');
+		const noResults = document.getElementById('searchNoResults');
+		const queryDisplay = document.getElementById('searchQueryDisplay');
+		const countEl = document.getElementById('filterCount');
+		if (!input) return;
+
+		// Cache card text for fast search
+		const cards = Array.from(document.querySelectorAll('.article-card'));
+		const cardData = cards.map(card => {
+			const title = (card.querySelector('h3') || {}).textContent || '';
+			const excerpt = (card.querySelector('.card-body > p') || {}).textContent || '';
+			const meta = (card.querySelector('.card-meta') || {}).textContent || '';
+			const badge = (card.querySelector('.badge') || {}).textContent || '';
+			return {
+				el: card,
+				text: (title + ' ' + excerpt + ' ' + meta + ' ' + badge).toLowerCase(),
+				title: title,
+				excerpt: excerpt
+			};
+		});
+
+		let searchTimeout;
+		input.addEventListener('input', function() {
+			clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(runSearch, 150);
+			clearBtn.style.display = input.value ? 'block' : 'none';
+		});
+
+		clearBtn.addEventListener('click', function() {
+			input.value = '';
+			clearBtn.style.display = 'none';
+			runSearch();
+			input.focus();
+		});
+
+		// Escape key clears
+		input.addEventListener('keydown', function(e) {
+			if (e.key === 'Escape') {
+				input.value = '';
+				clearBtn.style.display = 'none';
+				runSearch();
+			}
+		});
+
+		function runSearch() {
+			const q = input.value.trim().toLowerCase();
+			// Reset active category filter to "All" when searching
+			const allPill = document.querySelector('.filter-pill[data-filter="all"]');
+			if (q && allPill && !allPill.classList.contains('active')) {
+				document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+				allPill.classList.add('active');
+			}
+
+			if (!q) {
+				// Show all (respect active category filter)
+				const activeFilter = document.querySelector('.filter-pill.active');
+				const cat = activeFilter ? activeFilter.dataset.filter : 'all';
+				let visible = 0;
+				cardData.forEach(d => {
+					if (cat === 'all' || d.el.dataset.category === cat) {
+						d.el.classList.remove('filtered-out');
+						d.el.classList.remove('search-hidden');
+						visible++;
+					} else {
+						d.el.classList.add('filtered-out');
+					}
+				});
+				noResults.style.display = 'none';
+				if (countEl) countEl.textContent = visible + ' article' + (visible !== 1 ? 's' : '');
+				return;
+			}
+
+			const terms = q.split(/\s+/).filter(Boolean);
+			let visible = 0;
+			cardData.forEach(d => {
+				const match = terms.every(t => d.text.includes(t));
+				if (match) {
+					d.el.classList.remove('filtered-out');
+					d.el.classList.remove('search-hidden');
+					visible++;
+				} else {
+					d.el.classList.add('filtered-out');
+				}
+			});
+
+			if (countEl) countEl.textContent = visible + ' result' + (visible !== 1 ? 's' : '');
+			if (visible === 0) {
+				queryDisplay.textContent = '"' + input.value.trim() + '"';
+				noResults.style.display = 'block';
+			} else {
+				noResults.style.display = 'none';
+			}
+		}
+	})();
 	</script>
 <script>
 // Tools directory filtering

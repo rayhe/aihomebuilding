@@ -50,7 +50,7 @@
 
 ### Phase 3: Site Features
 - [x] Category filter bar with pill buttons on homepage ✅ (Cycle 12 — March 9, 2026)
-- [ ] Search functionality (client-side, lunr.js or similar)
+- [x] Search functionality — client-side instant search with debounce, clear button, no-results state ✅ (Cycle 18 — March 10, 2026)
 - [ ] Newsletter signup form (design only, or integrate with a service)
 - [x] Social sharing buttons on articles ✅ (Cycle 12 — March 9, 2026)
 - [ ] Article table of contents for longer pieces
