@@ -204,3 +204,12 @@ When you discover a new topic worth covering, add it here with:
 - Rheaply reuse marketplace, EU Waste Framework Directive 70% recovery target
 - Material passports document what goes into buildings so future demolition knows what to salvage
 - **Published:** "Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble." (Priya Greenwood)
+
+### 27. 🟢 AI Concrete Mix Optimization & Low-Carbon Cement
+- Cement production = 8% of global CO₂ — more than aviation + shipping combined
+- Concrete.ai Copilot: 30% carbon reduction, $5.04/yd savings across 2M+ cubic yards
+- CarbonCure: CO₂ injection into fresh concrete, $80M+ funded, 30+ countries
+- Giatec SmartMix: 27% cement reduction, 13% cost savings on first batch
+- Meta open-source Bayesian optimizer for low-carbon concrete (BoTorch/Ax)
+- California Buy Clean Act + EPA Inflation Reduction Act driving regulatory demand
+- **Published:** "Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third." (Priya Greenwood)
