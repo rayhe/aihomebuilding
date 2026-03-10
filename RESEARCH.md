@@ -183,3 +183,14 @@ When you discover a new topic worth covering, add it here with:
 - Status emoji
 - 3-4 bullet points of key angles
 - Potential journalist assignment
+
+---
+
+## Recently Added
+
+### 26. 🟢 AI-Powered Construction Waste Sorting & Circular Materials
+- 600M tons/year of C&D waste in the US — more than double municipal garbage
+- AMP Robotics ($91M Series D), ZenRobotics (9,200 picks/hour), Madaster material passports
+- Rheaply reuse marketplace, EU Waste Framework Directive 70% recovery target
+- Material passports document what goes into buildings so future demolition knows what to salvage
+- **Published:** "Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble." (Priya Greenwood)
