@@ -43,10 +43,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Construction Robotics SAM100, Okibo tiling robot
 - **Published:** "This Robot Lays 360 Blocks an Hour" (Jake Kowalski)
 
-### 6. ⚪ Autonomous Heavy Equipment (Built Robotics)
+### 6. 🟢 Autonomous Heavy Equipment (Built Robotics)
 - Retrofit kits for excavators, dozers, compactors
 - $112M raised, solar farm deployments
 - Path to residential construction
+- **Published:** "The Excavator Dug Your Foundation. Nobody Was Driving It." (Jake Kowalski)
 
 ### 7. ⚪ 3D-Printed Homes: ICON and Beyond
 - ICON Vulcan printer, Lavacrete material
