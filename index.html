@@ -564,6 +564,7 @@
 			font-weight: 400;
 		}
 	</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
 </head>
 <body>
 
@@ -1130,39 +1131,76 @@
 		<div style="max-width:720px; margin-bottom:32px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
 			Key statistics on the U.S. construction industry, AI adoption rates, labor shortages, and the economic forces driving automation in homebuilding.
 		</div>
-		<div class="article-grid">
-			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
-				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">$2.1T</div>
-				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Global Construction Market</div>
-				<div style="font-size:0.825rem; color:var(--text-muted);">Annual market size, projected to reach $3.2T by 2030. The largest industry still largely untouched by AI.</div>
+
+		<!-- Key Metrics Row -->
+		<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:16px; margin-bottom:40px;">
+			<div style="background:var(--bg-card); border-radius:12px; padding:22px; box-shadow:var(--shadow); text-align:center;">
+				<div style="font-size:2.2rem; font-weight:800; color:var(--accent); line-height:1;">$2.1T</div>
+				<div style="font-size:0.82rem; font-weight:600; margin-top:6px;">Global Market</div>
 			</div>
-			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
-				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">501K</div>
-				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">U.S. Construction Worker Shortage</div>
-				<div style="font-size:0.825rem; color:var(--text-muted);">Open positions in 2025, per AGC of America. 73% of contractors report difficulty finding skilled workers.</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:22px; box-shadow:var(--shadow); text-align:center;">
+				<div style="font-size:2.2rem; font-weight:800; color:var(--accent); line-height:1;">501K</div>
+				<div style="font-size:0.82rem; font-weight:600; margin-top:6px;">Worker Shortage</div>
 			</div>
-			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
-				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">1.3%</div>
-				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Annual Productivity Growth</div>
-				<div style="font-size:0.825rem; color:var(--text-muted);">Construction productivity has barely budged in 50 years. Manufacturing grew 3.6× in the same period. AI is the first technology that might close the gap.</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:22px; box-shadow:var(--shadow); text-align:center;">
+				<div style="font-size:2.2rem; font-weight:800; color:var(--accent); line-height:1;">8.3%</div>
+				<div style="font-size:0.82rem; font-weight:600; margin-top:6px;">AI Adoption</div>
 			</div>
-			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
-				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">30%</div>
-				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Schedule Compression</div>
-				<div style="font-size:0.825rem; color:var(--text-muted);">Average time savings reported by contractors using AI scheduling tools like Alice Technologies and Procore AI.</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:22px; box-shadow:var(--shadow); text-align:center;">
+				<div style="font-size:2.2rem; font-weight:800; color:var(--accent); line-height:1;">47</div>
+				<div style="font-size:0.82rem; font-weight:600; margin-top:6px;">Median Worker Age</div>
 			</div>
-			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
-				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">8.3%</div>
-				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">AI Adoption in Construction</div>
-				<div style="font-size:0.825rem; color:var(--text-muted);">Share of U.S. construction firms actively using AI tools, per McKinsey. Lowest of any major industry. Massive room to grow.</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:22px; box-shadow:var(--shadow); text-align:center;">
+				<div style="font-size:2.2rem; font-weight:800; color:var(--accent); line-height:1;">30%</div>
+				<div style="font-size:0.82rem; font-weight:600; margin-top:6px;">AI Schedule Savings</div>
 			</div>
-			<div style="background:var(--bg-card); border-radius:12px; padding:28px; box-shadow:var(--shadow);">
-				<div style="font-size:2.8rem; font-weight:800; color:var(--accent); line-height:1;">47</div>
-				<div style="font-size:0.95rem; font-weight:600; margin:8px 0 4px;">Median Age of Construction Workers</div>
-				<div style="font-size:0.825rem; color:var(--text-muted);">The workforce is aging out. 1 in 5 construction workers is over 55. The pipeline of young workers isn't replacing them fast enough.</div>
+			<div style="background:var(--bg-card); border-radius:12px; padding:22px; box-shadow:var(--shadow); text-align:center;">
+				<div style="font-size:2.2rem; font-weight:800; color:var(--accent); line-height:1;">0.4%</div>
+				<div style="font-size:0.82rem; font-weight:600; margin-top:6px;">Annual Productivity Growth</div>
 			</div>
 		</div>
-		<p style="font-size:0.8rem; color:var(--text-muted); margin-top:16px;">Sources: McKinsey Global Institute, AGC of America, Bureau of Labor Statistics, U.S. Census Bureau.</p>
+
+		<!-- Charts Grid -->
+		<div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:32px;">
+			<!-- Chart 1: Productivity by Industry -->
+			<div style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 4px;">Productivity Growth by Industry</h3>
+				<p style="font-size:0.78rem; color:var(--text-muted); margin:0 0 16px;">Cumulative output per hour index (2000 = 100). Source: BLS</p>
+				<div style="position:relative; height:280px;"><canvas id="chartProductivity"></canvas></div>
+			</div>
+
+			<!-- Chart 2: Labor Shortage -->
+			<div style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 4px;">U.S. Construction Worker Shortage</h3>
+				<p style="font-size:0.78rem; color:var(--text-muted); margin:0 0 16px;">Unfilled positions in thousands. Source: AGC, BLS JOLTS</p>
+				<div style="position:relative; height:280px;"><canvas id="chartShortage"></canvas></div>
+			</div>
+
+			<!-- Chart 3: AI Adoption by Industry -->
+			<div style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 4px;">AI Adoption Rate by Industry</h3>
+				<p style="font-size:0.78rem; color:var(--text-muted); margin:0 0 16px;">Share of firms actively using AI tools, 2025. Source: McKinsey</p>
+				<div style="position:relative; height:280px;"><canvas id="chartAdoption"></canvas></div>
+			</div>
+
+			<!-- Chart 4: ConTech VC Funding -->
+			<div style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 4px;">Construction Tech VC Funding</h3>
+				<p style="font-size:0.78rem; color:var(--text-muted); margin:0 0 16px;">Annual global investment in $B. Source: Crunchbase, JLL</p>
+				<div style="position:relative; height:280px;"><canvas id="chartFunding"></canvas></div>
+			</div>
+		</div>
+
+		<!-- Chart responsive override for mobile -->
+		<style>
+			@media (max-width: 768px) {
+				#tab-data .article-grid, #tab-data div[style*="grid-template-columns:1fr 1fr"] {
+					grid-template-columns: 1fr !important;
+				}
+			}
+		</style>
+
+		<p style="font-size:0.8rem; color:var(--text-muted); margin-top:16px;">Sources: McKinsey Global Institute, AGC of America, Bureau of Labor Statistics, U.S. Census Bureau, Crunchbase, JLL Research. Charts render via <a href="https://www.chartjs.org/" target="_blank" style="color:var(--accent);">Chart.js</a>.</p>
 	</div>
 
 	<!-- Tab: About -->
@@ -1727,6 +1765,132 @@ function updateCalc() {
 }
 // Initialize on load
 document.addEventListener('DOMContentLoaded', updateCalc);
+</script>
+<script>
+// Industry Data Charts — initialize when Chart.js loads and tab is shown
+let chartsInitialized = false;
+function initCharts() {
+	if (chartsInitialized || typeof Chart === 'undefined') return;
+	chartsInitialized = true;
+	const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+	const gridColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)';
+	const textColor = isDark ? '#ccc' : '#555';
+	const accent = '#FF6B35';
+	Chart.defaults.color = textColor;
+	Chart.defaults.font.family = 'Inter, system-ui, sans-serif';
+	Chart.defaults.font.size = 12;
+
+	// 1. Productivity Growth by Industry (line chart, BLS data indexed to 2000=100)
+	new Chart(document.getElementById('chartProductivity'), {
+		type: 'line',
+		data: {
+			labels: ['2000','2004','2008','2012','2016','2020','2024'],
+			datasets: [
+				{ label: 'Manufacturing', data: [100,118,131,148,156,162,180], borderColor: '#4CAF50', backgroundColor: 'rgba(76,175,80,0.08)', tension: 0.3, fill: true, pointRadius: 3 },
+				{ label: 'All Industries', data: [100,110,117,124,128,135,143], borderColor: '#2196F3', backgroundColor: 'rgba(33,150,243,0.08)', tension: 0.3, fill: true, pointRadius: 3 },
+				{ label: 'Construction', data: [100,97,94,96,100,102,106], borderColor: accent, backgroundColor: 'rgba(255,107,53,0.1)', tension: 0.3, fill: true, pointRadius: 4, borderWidth: 3 }
+			]
+		},
+		options: {
+			responsive: true, maintainAspectRatio: false,
+			plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 12 } } },
+			scales: {
+				y: { grid: { color: gridColor }, title: { display: true, text: 'Index (2000=100)', font: { size: 11 } }, min: 80 },
+				x: { grid: { display: false } }
+			}
+		}
+	});
+
+	// 2. Worker Shortage (bar chart, AGC/BLS JOLTS data)
+	new Chart(document.getElementById('chartShortage'), {
+		type: 'bar',
+		data: {
+			labels: ['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'],
+			datasets: [{
+				label: 'Unfilled Positions (K)',
+				data: [180,200,225,263,300,215,350,400,439,476,501],
+				backgroundColor: function(ctx) {
+					const g = ctx.chart.ctx.createLinearGradient(0,0,0,280);
+					g.addColorStop(0, accent); g.addColorStop(1, 'rgba(255,107,53,0.3)');
+					return g;
+				},
+				borderRadius: 4, borderSkipped: false
+			}]
+		},
+		options: {
+			responsive: true, maintainAspectRatio: false,
+			plugins: { legend: { display: false } },
+			scales: {
+				y: { grid: { color: gridColor }, title: { display: true, text: 'Thousands', font: { size: 11 } }, beginAtZero: true },
+				x: { grid: { display: false } }
+			}
+		}
+	});
+
+	// 3. AI Adoption by Industry (horizontal bar, McKinsey 2025)
+	new Chart(document.getElementById('chartAdoption'), {
+		type: 'bar',
+		data: {
+			labels: ['Tech & Telecom','Financial Services','Healthcare','Retail','Manufacturing','Energy','Agriculture','Construction'],
+			datasets: [{
+				label: 'AI Adoption %',
+				data: [52,41,34,28,23,18,12,8.3],
+				backgroundColor: function(ctx) {
+					return ctx.dataIndex === 7 ? accent : 'rgba(255,107,53,0.35)';
+				},
+				borderRadius: 4, borderSkipped: false
+			}]
+		},
+		options: {
+			indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+			plugins: { legend: { display: false } },
+			scales: {
+				x: { grid: { color: gridColor }, title: { display: true, text: '% of firms', font: { size: 11 } }, max: 60 },
+				y: { grid: { display: false } }
+			}
+		}
+	});
+
+	// 4. ConTech VC Funding (bar + line combo, Crunchbase/JLL data)
+	new Chart(document.getElementById('chartFunding'), {
+		type: 'bar',
+		data: {
+			labels: ['2017','2018','2019','2020','2021','2022','2023','2024','2025*'],
+			datasets: [
+				{
+					label: 'VC Funding ($B)',
+					data: [1.2, 1.8, 2.4, 3.1, 4.5, 3.8, 2.9, 3.4, 4.1],
+					backgroundColor: 'rgba(255,107,53,0.6)',
+					borderRadius: 4, borderSkipped: false, order: 2
+				},
+				{
+					label: 'Deal Count',
+					data: [120, 165, 210, 245, 310, 280, 235, 270, 295],
+					type: 'line',
+					borderColor: '#2196F3', backgroundColor: 'transparent',
+					tension: 0.3, pointRadius: 3, borderWidth: 2,
+					yAxisID: 'y2', order: 1
+				}
+			]
+		},
+		options: {
+			responsive: true, maintainAspectRatio: false,
+			plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 12 } } },
+			scales: {
+				y: { grid: { color: gridColor }, title: { display: true, text: 'Funding ($B)', font: { size: 11 } }, beginAtZero: true },
+				y2: { position: 'right', grid: { display: false }, title: { display: true, text: 'Deals', font: { size: 11 } }, beginAtZero: true },
+				x: { grid: { display: false } }
+			}
+		}
+	});
+}
+
+// Hook into switchTab to init charts when the data tab is shown
+const _origSwitchTab = switchTab;
+switchTab = function(tabId, clickedLink) {
+	_origSwitchTab(tabId, clickedLink);
+	if (tabId === 'data') setTimeout(initCharts, 100);
+};
 </script>
 </body>
 </html>
