@@ -139,10 +139,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - How outdated codes prevent innovative construction
 - Model code organizations' AI stance
 
-### 21. ⚪ Zoning AI: Algorithmically Optimizing Land Use
+### 21. 🟢 Zoning AI: Algorithmically Optimizing Land Use
 - AI tools for zoning analysis (Envelope, Deepblocks)
 - ADU (Accessory Dwelling Unit) boom + AI
 - Political implications of algorithmic zoning
+- **Published:** "Your Backyard Could Fit an ADU. The Algorithm Already Knows." (Catherine Chen)
 
 ### 22. 🟢 Insurance and AI-Built Homes
 - How insurers evaluate robot-built structures
