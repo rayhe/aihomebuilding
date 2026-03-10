@@ -54,7 +54,9 @@
 - [x] Newsletter signup form — orange gradient CTA banner above footer, email validation, localStorage persistence, already-subscribed detection ✅ (Cycle 22 — March 10, 2026)
 - [x] Social sharing buttons on articles ✅ (Cycle 12 — March 9, 2026)
 - [x] Article table of contents for longer pieces ✅ (June 8, 2026 — auto-generated TOC from h2/h3 headings, scroll spy, collapsible on mobile, dark/light mode)
-- [ ] Sticky reading progress bar on article pages ✅ (Cycle 6 — March 9, 2026)
+- [x] Sticky reading progress bar on article pages ✅ (Cycle 6 — March 9, 2026)
+- [x] Load More pagination — shows first 12 articles, loads 6 more per click, integrates with filter/search, auto-resets on filter change ✅ (June 8, 2026)
+- [x] Back to Top floating button — appears after 600px scroll, smooth scroll, orange accent styling ✅ (June 8, 2026)
 
 ### Phase 4: Data & Interactivity
 - [ ] Industry data dashboard page (construction stats, labor data)

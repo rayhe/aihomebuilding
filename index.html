@@ -482,6 +482,74 @@
 		.article-card.filtered-out {
 			display: none !important;
 		}
+		.article-card.paginated-hidden {
+			display: none !important;
+		}
+		/* ── Load More Button ── */
+		.load-more-wrap {
+			text-align: center;
+			padding: 32px 24px 8px;
+		}
+		.load-more-btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 12px 32px;
+			background: var(--accent);
+			color: #fff;
+			border: none;
+			border-radius: 28px;
+			font-family: 'Inter', sans-serif;
+			font-size: 0.95rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: background 0.2s, transform 0.15s;
+			box-shadow: 0 2px 8px rgba(255,107,53,0.3);
+		}
+		.load-more-btn:hover {
+			background: var(--accent-dark);
+			transform: translateY(-1px);
+			box-shadow: 0 4px 14px rgba(255,107,53,0.4);
+		}
+		.load-more-btn:active { transform: translateY(0); }
+		.load-more-btn .remaining-count {
+			background: rgba(255,255,255,0.25);
+			padding: 2px 8px;
+			border-radius: 12px;
+			font-size: 0.8rem;
+		}
+		/* ── Back to Top ── */
+		.back-to-top {
+			position: fixed;
+			bottom: 28px;
+			right: 28px;
+			width: 44px;
+			height: 44px;
+			border-radius: 50%;
+			background: var(--accent);
+			color: #fff;
+			border: none;
+			font-size: 1.3rem;
+			cursor: pointer;
+			box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(12px);
+			transition: opacity 0.3s, visibility 0.3s, transform 0.3s, background 0.2s;
+			z-index: 999;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.back-to-top.visible {
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+		}
+		.back-to-top:hover {
+			background: var(--accent-dark);
+			transform: translateY(-2px);
+		}
 		/* ── Search Bar ── */
 		.search-bar {
 			max-width: 1200px;
@@ -947,7 +1015,17 @@
 			</div>
 		</article>
 	</div>
+
+	<!-- Load More -->
+	<div class="load-more-wrap" id="loadMoreWrap">
+		<button class="load-more-btn" id="loadMoreBtn" onclick="loadMoreArticles()">
+			Load More <span class="remaining-count" id="remainingCount"></span>
+		</button>
+	</div>
 </div>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
 
 	<!-- Tab: AI Tools -->
 	<div id="tab-tools" class="tab-pane" style="display:none;">
@@ -1600,6 +1678,100 @@ function switchTab(tabId, clickedLink) {
 		}
 	})();
 	</script>
+<script>
+// ── Load More Pagination ──
+(function() {
+	const INITIAL_SHOW = 12;
+	const LOAD_MORE_COUNT = 6;
+	const grid = document.querySelector('.article-grid');
+	const btn = document.getElementById('loadMoreBtn');
+	const wrap = document.getElementById('loadMoreWrap');
+	const countSpan = document.getElementById('remainingCount');
+	if (!grid || !btn) return;
+
+	let visibleLimit = INITIAL_SHOW;
+
+	function applyPagination() {
+		const cards = Array.from(grid.querySelectorAll('.article-card'));
+		// Only paginate cards that aren't already filtered out by category/search
+		const visibleCards = cards.filter(c => !c.classList.contains('filtered-out'));
+		let shown = 0;
+		visibleCards.forEach((card, i) => {
+			if (i < visibleLimit) {
+				card.classList.remove('paginated-hidden');
+				shown++;
+			} else {
+				card.classList.add('paginated-hidden');
+			}
+		});
+		const remaining = visibleCards.length - shown;
+		if (remaining <= 0) {
+			wrap.style.display = 'none';
+		} else {
+			wrap.style.display = '';
+			countSpan.textContent = remaining + ' more';
+		}
+	}
+
+	window.loadMoreArticles = function() {
+		visibleLimit += LOAD_MORE_COUNT;
+		applyPagination();
+		// Smooth scroll to newly visible cards
+		const cards = grid.querySelectorAll('.article-card:not(.filtered-out):not(.paginated-hidden)');
+		if (cards.length > 0) {
+			const target = cards[Math.max(0, cards.length - LOAD_MORE_COUNT)];
+			target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+		}
+	};
+
+	// Reset pagination when filter/search changes
+	window.resetPagination = function() {
+		visibleLimit = INITIAL_SHOW;
+		applyPagination();
+	};
+
+	// Hook into filter pills
+	const bar = document.getElementById('filterBar');
+	if (bar) {
+		bar.addEventListener('click', function(e) {
+			if (e.target.closest('.filter-pill')) {
+				setTimeout(function() { window.resetPagination(); }, 10);
+			}
+		});
+	}
+
+	// Hook into search
+	const searchInput = document.getElementById('articleSearch');
+	if (searchInput) {
+		searchInput.addEventListener('input', function() {
+			setTimeout(function() { window.resetPagination(); }, 200);
+		});
+	}
+
+	// Initial apply
+	applyPagination();
+})();
+
+// ── Back to Top Button ──
+(function() {
+	const btn = document.getElementById('backToTop');
+	if (!btn) return;
+	let ticking = false;
+	window.addEventListener('scroll', function() {
+		if (!ticking) {
+			requestAnimationFrame(function() {
+				if (window.scrollY > 600) {
+					btn.classList.add('visible');
+				} else {
+					btn.classList.remove('visible');
+				}
+				ticking = false;
+			});
+			ticking = true;
+		}
+	});
+})();
+</script>
 <script>
 // Tools directory filtering
 (function() {
