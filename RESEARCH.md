@@ -17,10 +17,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - 30-50% design phase reduction claims
 - **Published:** "The Architect's New Brain" (Elena Vasquez)
 
-### 2. ⚪ Parametric Design & Mass Customization
+### 2. 🟢 Parametric Design & Mass Customization
 - Grasshopper/Rhino + AI plugins
 - How parametric tools enable unique homes at scale
 - Case study: Wikihouse open-source parametric homes
+- **Published:** "Every Wall Is a Variable. Parametric Design Turns Custom Homes into Solvable Equations." (Elena Vasquez)
 
 ### 3. ⚪ AI-Powered Interior Design Tools
 - Planner 5D, Homestyler, AI Room Planner
