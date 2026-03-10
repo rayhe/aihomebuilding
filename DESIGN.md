@@ -63,6 +63,9 @@
 - [x] Interactive charts (Chart.js) — workforce trends, AI adoption rates ✅ (March 10, 2026 — 4 interactive charts: Productivity by Industry line chart, Worker Shortage bar chart, AI Adoption horizontal bar, ConTech VC Funding bar+line combo. Lazy-init on tab switch. Mobile responsive grid.)
 - [x] AI tools directory page — curated list of 20 construction AI tools with category filtering ✅ (Cycle 14 — March 9, 2026)
 - [ ] Company profiles for key players (ICON, Built Robotics, etc.)
+- [x] Enhanced "Our Journalists" section — full writer cards with avatar initials, beat badges, bios, article counts and links, mobile responsive ✅ (March 10, 2026)
+- [x] "Writers" nav link — scrolls to team section in About tab ✅ (March 10, 2026)
+- [x] RSS feed updated to all 32 articles ✅ (March 10, 2026 — was stale at 18)
 - [x] Cost comparison calculators (traditional vs. AI-assisted builds) ✅ (March 10, 2026 — interactive calculator with sqft/quality/region inputs, 6 AI/robotics options with per-category savings, side-by-side cost breakdown, timeline comparison, savings bar, mobile responsive)
 
 ### Phase 5: Community & Comments

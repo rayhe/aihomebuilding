@@ -437,6 +437,7 @@
 			#tab-calculator [style*="grid-template-columns:1fr 1fr 1fr"] > div { margin-bottom:12px; }
 			#tab-calculator [style*="grid-template-columns: 1fr 1fr"],
 			#tab-calculator [style*="grid-template-columns:1fr 1fr"] { grid-template-columns:1fr !important; }
+			.writer-grid { grid-template-columns:1fr !important; }
 		}
 
 		/* ── Category Filter Bar ── */
@@ -653,6 +654,7 @@
 			<a href="#" onclick="switchTab('data', this); return false;">Industry Data</a>
 			<a href="#" onclick="switchTab('calculator', this); return false;">🧮 Calculator</a>
 			<a href="#" onclick="switchTab('about', this); return false;">About</a>
+			<a href="#" onclick="switchTab('about', this); setTimeout(function(){document.getElementById('our-team').scrollIntoView({behavior:'smooth'})},100); return false;">✍️ Writers</a>
 		</div>
 		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
 		<a href="feed.xml" class="theme-toggle" title="RSS Feed" style="text-decoration:none;margin-left:6px">📡</a>
@@ -1474,24 +1476,123 @@
 				</div>
 			</div>
 
-			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.4rem; font-weight:700; margin:32px 0 16px;">Our Journalists</h3>
-			<div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
-				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
-					<strong style="font-size:0.95rem;">Elena Vasquez</strong>
-					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Architecture & design beat. Former practicing architect, now covers how AI is reshaping the creative process.</p>
+			<h3 id="our-team" style="font-family:'Playfair Display',Georgia,serif; font-size:1.4rem; font-weight:700; margin:32px 0 16px;">Our Journalists</h3>
+			<div class="writer-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+
+				<div class="writer-card" style="padding:20px; background:var(--bg-card); border-radius:12px; box-shadow:var(--shadow); border-top:3px solid var(--accent);">
+					<div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+						<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#FF6B35,#E55A2B);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">EV</div>
+						<div>
+							<strong style="font-size:1rem; display:block;">Elena Vasquez</strong>
+							<span style="font-size:0.75rem; background:rgba(255,107,53,0.12); color:var(--accent); padding:2px 8px; border-radius:12px; font-weight:600;">Architecture &amp; Design</span>
+						</div>
+					</div>
+					<p style="font-size:0.85rem; color:var(--text-secondary); margin:0 0 12px; line-height:1.6;">Elegant, precise prose with an eye for aesthetic detail. Draws connections between classical architecture and computational design. Former architecture critic with a Master&rsquo;s in architectural history.</p>
+					<div style="font-size:0.8rem; color:var(--text-muted);">
+						✏️ <strong>5 articles</strong> &mdash;
+						<a href="articles/ai-architectural-design.html" style="color:var(--accent);text-decoration:none;">The Architect&rsquo;s New Brain</a>,
+						<a href="articles/parametric-design.html" style="color:var(--accent);text-decoration:none;">Every Wall Is a Variable</a>,
+						<a href="articles/ai-renovation.html" style="color:var(--accent);text-decoration:none;">Gut-Renovate with AI</a>,
+						<a href="articles/ai-architect-client.html" style="color:var(--accent);text-decoration:none;">AI Shows You First</a>,
+						<a href="articles/ai-interior-design.html" style="color:var(--accent);text-decoration:none;">Upload a Photo of Your Room</a>
+					</div>
 				</div>
-				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
-					<strong style="font-size:0.95rem;">Marcus "Steel" Washington</strong>
-					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Labor & workforce correspondent. 15 years on job sites before turning to journalism. Covers the human cost of automation.</p>
+
+				<div class="writer-card" style="padding:20px; background:var(--bg-card); border-radius:12px; box-shadow:var(--shadow); border-top:3px solid var(--accent);">
+					<div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+						<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#4A90D9,#2C5F8A);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">JK</div>
+						<div>
+							<strong style="font-size:1rem; display:block;">Jake &ldquo;Jackhammer&rdquo; Kowalski</strong>
+							<span style="font-size:0.75rem; background:rgba(74,144,217,0.12); color:#4A90D9; padding:2px 8px; border-radius:12px; font-weight:600;">Construction Technology</span>
+						</div>
+					</div>
+					<p style="font-size:0.85rem; color:var(--text-secondary); margin:0 0 12px; line-height:1.6;">Punchy, no-nonsense tech journalism. Gets excited about robots and hardware. Former construction worker who became a tech writer. Still has calluses. If it can&rsquo;t survive a job site, it doesn&rsquo;t belong on one.</p>
+					<div style="font-size:0.8rem; color:var(--text-muted);">
+						✏️ <strong>9 articles</strong> &mdash;
+						<a href="articles/robotic-bricklaying.html" style="color:var(--accent);text-decoration:none;">360 Blocks an Hour</a>,
+						<a href="articles/autonomous-heavy-equipment.html" style="color:var(--accent);text-decoration:none;">Nobody Was Driving It</a>,
+						<a href="articles/3d-printed-homes.html" style="color:var(--accent);text-decoration:none;">Printed in 48 Hours</a>,
+						<a href="articles/ai-predictive-maintenance.html" style="color:var(--accent);text-decoration:none;">Furnace Knows It&rsquo;s Dying</a>,
+						+5 more
+					</div>
 				</div>
-				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
-					<strong style="font-size:0.95rem;">Frank "The Foreman" DeLuca</strong>
-					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Project management & operations. Tests every AI tool on real builds. If it doesn't survive a job site, he'll tell you.</p>
+
+				<div class="writer-card" style="padding:20px; background:var(--bg-card); border-radius:12px; box-shadow:var(--shadow); border-top:3px solid var(--accent);">
+					<div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+						<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#7B8A6E,#4A5A3D);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">FD</div>
+						<div>
+							<strong style="font-size:1rem; display:block;">Frank &ldquo;The Foreman&rdquo; DeLuca</strong>
+							<span style="font-size:0.75rem; background:rgba(123,138,110,0.12); color:#7B8A6E; padding:2px 8px; border-radius:12px; font-weight:600;">Project Management</span>
+						</div>
+					</div>
+					<p style="font-size:0.85rem; color:var(--text-secondary); margin:0 0 12px; line-height:1.6;">Methodical, process-oriented. Loves timelines, Gantt charts, and efficiency metrics. 20 years as a general contractor before becoming a writer. PMP certified. Thinks in critical paths.</p>
+					<div style="font-size:0.8rem; color:var(--text-muted);">
+						✏️ <strong>5 articles</strong> &mdash;
+						<a href="articles/ai-project-management.html" style="color:var(--accent);text-decoration:none;">From 14 Months to 10</a>,
+						<a href="articles/construction-productivity-ai.html" style="color:var(--accent);text-decoration:none;">Flat for 30 Years</a>,
+						<a href="articles/contech-vc-investment.html" style="color:var(--accent);text-decoration:none;">Katerra Vanished</a>,
+						<a href="articles/ai-land-acquisition.html" style="color:var(--accent);text-decoration:none;">10,000 Parcels</a>,
+						+1 more
+					</div>
 				</div>
-				<div style="padding:16px; background:var(--bg-card); border-radius:8px; box-shadow:var(--shadow);">
-					<strong style="font-size:0.95rem;">Dr. Priya Nair</strong>
-					<p style="font-size:0.825rem; color:var(--text-muted); margin:4px 0 0;">Sustainability & green building. Environmental engineer covering how AI can reduce construction's 39% share of global emissions.</p>
+
+				<div class="writer-card" style="padding:20px; background:var(--bg-card); border-radius:12px; box-shadow:var(--shadow); border-top:3px solid var(--accent);">
+					<div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+						<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#C0392B,#8E2C20);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">MW</div>
+						<div>
+							<strong style="font-size:1rem; display:block;">Marcus &ldquo;Steel&rdquo; Washington</strong>
+							<span style="font-size:0.75rem; background:rgba(192,57,43,0.12); color:#C0392B; padding:2px 8px; border-radius:12px; font-weight:600;">Workforce &amp; Labor</span>
+						</div>
+					</div>
+					<p style="font-size:0.85rem; color:var(--text-secondary); margin:0 0 12px; line-height:1.6;">Investigative, human-centered. Tells construction stories through the workers who live them. Labor reporter who covered manufacturing automation before pivoting to construction. Union family.</p>
+					<div style="font-size:0.8rem; color:var(--text-muted);">
+						✏️ <strong>4 articles</strong> &mdash;
+						<a href="articles/construction-workforce.html" style="color:var(--accent);text-decoration:none;">500,000 Missing Workers</a>,
+						<a href="articles/robot-operator-workforce.html" style="color:var(--accent);text-decoration:none;">Supervises Three</a>,
+						<a href="articles/ai-agents-construction.html" style="color:var(--accent);text-decoration:none;">AI Agent Contractor</a>,
+						<a href="articles/construction-safety-ai.html" style="color:var(--accent);text-decoration:none;">1,032 Workers Died</a>
+					</div>
 				</div>
+
+				<div class="writer-card" style="padding:20px; background:var(--bg-card); border-radius:12px; box-shadow:var(--shadow); border-top:3px solid var(--accent);">
+					<div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+						<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#27AE60,#1E8449);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">PG</div>
+						<div>
+							<strong style="font-size:1rem; display:block;">Priya Greenwood</strong>
+							<span style="font-size:0.75rem; background:rgba(39,174,96,0.12); color:#27AE60; padding:2px 8px; border-radius:12px; font-weight:600;">Sustainability</span>
+						</div>
+					</div>
+					<p style="font-size:0.85rem; color:var(--text-secondary); margin:0 0 12px; line-height:1.6;">Passionate but evidence-based. Connects environmental data to building practices. Environmental engineer turned journalist. Previously worked at a net-zero design firm. Every kilowatt-hour wasted is a design failure.</p>
+					<div style="font-size:0.8rem; color:var(--text-muted);">
+						✏️ <strong>2 articles</strong> &mdash;
+						<a href="articles/embodied-carbon-ai.html" style="color:var(--accent);text-decoration:none;">Carbon Footprint Decided Before Move-In</a>,
+						<a href="articles/ai-energy-modeling.html" style="color:var(--accent);text-decoration:none;">Energy Model Before You Break Ground</a>
+					</div>
+				</div>
+
+				<div class="writer-card" style="padding:20px; background:var(--bg-card); border-radius:12px; box-shadow:var(--shadow); border-top:3px solid var(--accent);">
+					<div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+						<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#8E44AD,#6C3483);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">CC</div>
+						<div>
+							<strong style="font-size:1rem; display:block;">Catherine &ldquo;Code&rdquo; Chen</strong>
+							<span style="font-size:0.75rem; background:rgba(142,68,173,0.12); color:#8E44AD; padding:2px 8px; border-radius:12px; font-weight:600;">Policy &amp; Regulation</span>
+						</div>
+					</div>
+					<p style="font-size:0.85rem; color:var(--text-secondary); margin:0 0 12px; line-height:1.6;">Sharp, analytical legal/policy journalism. Translates building codes, zoning laws, and regulatory frameworks into readable prose. JD from Georgetown, practiced construction law for 5 years. The code doesn&rsquo;t care about your timeline.</p>
+					<div style="font-size:0.8rem; color:var(--text-muted);">
+						✏️ <strong>5 articles</strong> &mdash;
+						<a href="articles/ai-code-compliance.html" style="color:var(--accent);text-decoration:none;">AI Caught the Code Violation</a>,
+						<a href="articles/ai-permit-automation.html" style="color:var(--accent);text-decoration:none;">Permit in 4 Minutes</a>,
+						<a href="articles/ai-zoning-analysis.html" style="color:var(--accent);text-decoration:none;">ADU Algorithm</a>,
+						<a href="articles/insurance-ai-homes.html" style="color:var(--accent);text-decoration:none;">Robot-Built Insurance</a>,
+						+1 more
+					</div>
+				</div>
+
+			</div>
+
+			<div style="margin-top:24px; padding:16px; background:var(--bg-card); border-radius:8px; text-align:center; color:var(--text-muted); font-size:0.85rem;">
+				📊 <strong>32 articles published</strong> across 6 beats &middot; New stories added daily
 			</div>
 		</div>
 	</div>
