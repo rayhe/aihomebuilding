@@ -166,10 +166,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Is AI finally the unlock?
 - **Published:** "Construction Productivity Has Been Flat for 30 Years. AI Might Finally Break the Curse." (Frank DeLuca)
 
-### 25. ⚪ Venture Capital in Construction Tech
+### 25. 🟢 Venture Capital in Construction Tech
 - $5.4B invested in contech 2020-2024
 - Which categories attract the most funding
 - Failure rate: Katerra lessons
+- **Published:** "Investors Poured $2 Billion Into Katerra. It Vanished. Now They're Back." (Frank DeLuca)
 
 ---
 
