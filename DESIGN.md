@@ -61,7 +61,7 @@
 - [ ] Interactive charts (Chart.js) — workforce trends, AI adoption rates
 - [x] AI tools directory page — curated list of 20 construction AI tools with category filtering ✅ (Cycle 14 — March 9, 2026)
 - [ ] Company profiles for key players (ICON, Built Robotics, etc.)
-- [ ] Cost comparison calculators (traditional vs. AI-assisted builds)
+- [x] Cost comparison calculators (traditional vs. AI-assisted builds) ✅ (March 10, 2026 — interactive calculator with sqft/quality/region inputs, 6 AI/robotics options with per-category savings, side-by-side cost breakdown, timeline comparison, savings bar, mobile responsive)
 
 ### Phase 5: Community & Comments
 - [ ] Google Auth login via Firebase
