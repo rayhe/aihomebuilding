@@ -57,6 +57,7 @@
 - [x] Sticky reading progress bar on article pages ✅ (Cycle 6 — March 9, 2026)
 - [x] Load More pagination — shows first 12 articles, loads 6 more per click, integrates with filter/search, auto-resets on filter change ✅ (June 8, 2026)
 - [x] Back to Top floating button — appears after 600px scroll, smooth scroll, orange accent styling ✅ (June 8, 2026)
+- [x] Mobile hamburger menu — slide-in drawer replaces horizontal scroll nav on ≤768px, backdrop overlay, Escape to close, body scroll lock, drawer icons, dark mode support ✅ (March 11, 2026)
 
 ### Phase 4: Data & Interactivity
 - [ ] Industry data dashboard page (construction stats, labor data)
