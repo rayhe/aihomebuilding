@@ -175,6 +175,14 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Failure rate: Katerra lessons
 - **Published:** "Investors Poured $2 Billion Into Katerra. It Vanished. Now They're Back." (Frank DeLuca)
 
+### 26. 🟢 Mass Timber + AI: Engineering the Wood Revolution
+- CLT Toolbox + Mercer Mass Timber digital integration (July 2025)
+- Cadwork parametric timber modeling, CNC-ready output
+- 75-80% embodied carbon reduction vs steel (Bowdoin College LCA)
+- $4.46B CLT residential market (2025), projected $10.3B by 2032
+- Fire performance: CLT chars predictably, outperforms steel in fire testing
+- **Published:** "Your Next Home Could Be Built from Trees. AI Is Making Sure It Doesn't Burn Down." (Priya Greenwood)
+
 ---
 
 ## Adding New Threads
