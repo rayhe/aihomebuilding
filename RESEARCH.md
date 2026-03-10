@@ -160,10 +160,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 
 ## Cross-Cutting Themes
 
-### 24. ⚪ The $2.1 Trillion Question: Why Construction Productivity Hasn't Grown
+### 24. 🟢 The $2.1 Trillion Question: Why Construction Productivity Hasn't Grown
 - McKinsey analysis: flat for 30 years
 - Comparison to manufacturing, agriculture, mining
 - Is AI finally the unlock?
+- **Published:** "Construction Productivity Has Been Flat for 30 Years. AI Might Finally Break the Curse." (Frank DeLuca)
 
 ### 25. ⚪ Venture Capital in Construction Tech
 - $5.4B invested in contech 2020-2024
