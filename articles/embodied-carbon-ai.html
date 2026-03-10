@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Home&rsquo;s Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/embodied-carbon-ai.html">
+
+	<!-- JSON-LD Article Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.",
+		"description": "Buildings account for 37% of global carbon emissions, and nearly a third of that is locked in before anyone flips a light switch. AI tools like EC3 and One Click LCA are making embodied carbon visible — and reducible — for the first time.",
+		"image": "https://aihomebuilding.pages.dev/images/embodied-carbon-ai.jpg",
+		"datePublished": "2026-03-10",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.pages.dev/articles/embodied-carbon-ai.html"
+		}
+	}
+	</script>
+
+	<!-- Open Graph / Social -->
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.">
+	<meta property="og:description" content="Buildings account for 37% of global carbon emissions, and nearly a third of that is locked in before anyone flips a light switch. AI tools are making embodied carbon visible — and reducible — for the first time.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/embodied-carbon-ai.html">
+	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/embodied-carbon-ai.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.">
+	<meta name="twitter:description" content="Buildings account for 37% of global carbon emissions, and nearly a third of that is locked in before anyone flips a light switch. AI tools are making embodied carbon visible — and reducible — for the first time.">
+	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/embodied-carbon-ai.jpg">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			min-height: 400px;
+			display: flex;
+			align-items: flex-end;
+			overflow: hidden;
+		}
+		.article-header img {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.1) 100%);
+		}
+		.article-header .header-content {
+			position: relative;
+			z-index: 2;
+			max-width: 680px;
+			margin: 0 auto;
+			padding: 2rem 24px;
+			color: #fff;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: clamp(1.8rem, 4vw, 2.6rem);
+			font-weight: 800;
+			line-height: 1.2;
+			margin: 0 0 0.75rem;
+		}
+		.article-meta {
+			font-size: 0.85rem;
+			opacity: 0.85;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			align-items: center;
+		}
+		.back-home {
+			display: inline-block;
+			margin: 1rem 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-size: 0.9rem;
+			font-weight: 500;
+		}
+		.back-home:hover { text-decoration: underline; }
+		.article-body {
+			max-width: 680px;
+			margin: 0 auto;
+			padding: 0 24px 3rem;
+			font-size: 1.05rem;
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+		}
+		.article-body p { margin: 0 0 1.4rem; }
+		.article-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 2rem 0;
+			padding: 1rem 1.5rem;
+			background: var(--bg-card);
+			border-radius: 0 6px 6px 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 2rem 1rem;
+			margin: 2rem 0;
+			border-top: 1px solid var(--border);
+			border-bottom: 1px solid var(--border);
+		}
+		.pull-stat .number {
+			display: block;
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			max-width: 360px;
+			margin: 0.5rem auto 0;
+		}
+		.share-bar {
+			max-width: 680px;
+			margin: 0 auto;
+			padding: 0.75rem 24px;
+			display: flex;
+			gap: 0.5rem;
+			flex-wrap: wrap;
+		}
+		.share-bar a {
+			display: inline-block;
+			padding: 6px 14px;
+			border-radius: 4px;
+			font-size: 0.8rem;
+			font-weight: 500;
+			text-decoration: none;
+			background: var(--bg-card);
+			color: var(--text-secondary);
+			border: 1px solid var(--border);
+			transition: background 0.15s, color 0.15s;
+		}
+		.share-bar a:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+		.reading-time {
+			background: rgba(255,255,255,0.15);
+			padding: 2px 8px;
+			border-radius: 3px;
+			font-size: 0.8rem;
+		}
+		.related-section h3 {
+			font-family: 'Playfair Display', Georgia, serif;
+			margin-bottom: 1rem;
+		}
+		.related-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+			gap: 1rem;
+		}
+		.related-card {
+			text-decoration: none;
+			color: var(--text-primary);
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			overflow: hidden;
+			transition: transform 0.2s, box-shadow 0.2s;
+			background: var(--bg-card);
+		}
+		.related-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+		.related-card img { width: 100%; height: 140px; object-fit: cover; }
+		.related-card-body { padding: 0.75rem; }
+		.related-card h4 { font-size: 0.9rem; margin: 0 0 0.25rem; line-height: 1.3; }
+		.related-card span { font-size: 0.8rem; color: var(--accent); font-weight: 500; }
+	</style>
+</head>
+<body>
+
+	<a href="../" class="back-home">&larr; AI Home Building</a>
+
+	<header class="article-header">
+		<img loading="eager" decoding="async" src="../images/embodied-carbon-ai.jpg" alt="Construction site with building materials showing carbon footprint data overlays">
+		<div class="overlay"></div>
+		<div class="header-content">
+			<h1>Your Home&rsquo;s Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.</h1>
+			<div class="article-meta">
+				<span>By Priya Greenwood</span>
+				<span>&middot;</span>
+				<span>March 10, 2026</span>
+				<span>&middot;</span>
+				<span class="reading-time">&#9711; 5 min read</span>
+			</div>
+		</div>
+	</header>
+
+	<div class="share-bar">
+		<a href="#" class="twitter" target="_blank" rel="noopener">&#x1D54F; Share</a>
+		<a href="#" class="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+		<a href="#" class="facebook" target="_blank" rel="noopener">Facebook</a>
+		<a href="#" class="copy-link">&#x1F517; Copy Link</a>
+	</div>
+
+	<article class="article-body">
+		<p>Here&rsquo;s a number the solar panel salespeople never mention: roughly <strong>11% of global carbon emissions</strong> come from manufacturing building materials. Concrete, steel, aluminum, glass &mdash; the stuff your house is literally made of generates greenhouse gases long before a thermostat gets set or a light switch gets flipped. This is <em>embodied carbon</em>, and for decades it was essentially invisible. Nobody measured it. Nobody asked about it. Nobody could.</p>
+
+		<p>That&rsquo;s changing fast, and AI is the reason.</p>
+
+		<h2>The Carbon You Can&rsquo;t Insulate Away</h2>
+
+		<p>The building sector accounts for <strong>37% of global energy-related CO&#x2082; emissions</strong>, according to the UN Environment Programme. About two-thirds of that is operational &mdash; heating, cooling, lighting &mdash; the stuff energy codes and heat pumps address. But the remaining third is embodied: the carbon baked into producing concrete, firing steel, transporting lumber. For a new home, embodied carbon can represent <strong>50&ndash;70% of total lifetime emissions</strong> over a 60-year span, especially as operational efficiency improves.</p>
+
+		<p>The problem was never awareness. Architects and engineers knew concrete was carbon-intensive. The problem was <em>data</em>. A typical residential project uses hundreds of distinct materials from dozens of suppliers. Each supplier&rsquo;s concrete mix, steel alloy, or insulation batch has a different carbon profile. Calculating all of it manually? Weeks of work that nobody was paying for.</p>
+
+		<div class="pull-stat">
+			<span class="number">250,000+</span>
+			<span class="label">Product carbon records in One Click LCA&rsquo;s Materials Compass &mdash; the world&rsquo;s largest construction carbon database</span>
+		</div>
+
+		<h2>EC3: The Tool That Made Carbon Countable</h2>
+
+		<p>The <strong>Embodied Carbon in Construction Calculator (EC3)</strong>, developed by the Carbon Leadership Forum at the University of Washington, was the first tool to make embodied carbon practically measurable. It cross-references building material quantities from estimates or BIM models against a database of third-party verified <strong>Environmental Product Declarations (EPDs)</strong> &mdash; essentially carbon nutrition labels for building products.</p>
+
+		<p>The breakthrough: EC3 doesn&rsquo;t just calculate total carbon. It shows alternatives. Swap this concrete mix for that one from a supplier 40 miles away, and your foundation drops 30% in embodied carbon at the same structural performance and nearly identical cost. The tool does in seconds what used to require a sustainability consultant and a month of spreadsheets.</p>
+
+		<h2>AI Takes It Further</h2>
+
+		<p><strong>One Click LCA</strong>, the Helsinki-based lifecycle assessment platform, launched <strong>Materials Compass</strong> in 2025 &mdash; a database of over 250,000 product carbon records that uses machine learning to identify lower-carbon substitutes automatically. A 2025 survey by One Click LCA found that <strong>31% of architecture, engineering, and construction professionals</strong> reported achieving carbon reductions of up to 20% through construction lifecycle assessments &mdash; and most said the tools paid for themselves in client differentiation alone.</p>
+
+		<p>The AI layer matters because the substitution problem is combinatorial. A 2,000-square-foot home might have 400+ material specifications. Finding the lowest-carbon combination that still meets structural, thermal, moisture, and cost constraints is exactly the kind of multi-variable optimization problem that machine learning excels at &mdash; and humans are terrible at doing manually.</p>
+
+		<blockquote>&ldquo;Every kilowatt-hour the building wastes is a design failure. But so is every ton of carbon locked into materials nobody thought to question.&rdquo;</blockquote>
+
+		<h2>What This Means If You&rsquo;re Building</h2>
+
+		<p>California&rsquo;s <strong>Buy Clean Act</strong> already requires state-funded projects to meet embodied carbon limits for steel, glass, insulation, and concrete. Colorado, New York, and Oregon have similar legislation in progress. Residential codes are next &mdash; the 2030 targets in several state climate plans explicitly include embodied carbon in new construction.</p>
+
+		<p>For homeowners and builders, the practical takeaway is straightforward: <strong>ask your builder for an embodied carbon estimate</strong>. Tools like EC3 and One Click LCA are free or low-cost. A builder who can&rsquo;t provide one in 2026 is like a builder who couldn&rsquo;t provide an energy model in 2016 &mdash; not necessarily bad, but definitely behind.</p>
+
+		<p>The concrete in your foundation, the steel in your beams, the insulation in your walls &mdash; they carry a carbon debt that lasts the lifetime of the building. For the first time, AI makes that debt visible before the first truck arrives. The question is whether enough people will look.</p>
+	</article>
+
+	<div class="related-section" style="max-width:680px;margin:0 auto;padding:0 24px 3rem;">
+		<h3>Keep Reading</h3>
+		<div class="related-grid">
+		<a href="ai-energy-modeling.html" class="related-card">
+			<img loading="lazy" decoding="async" src="../images/ai-energy-modeling.jpg" alt="AI energy modeling for residential construction">
+			<div class="related-card-body">
+				<h4>Your Architect Guessed Your Energy Bill. AI Knows It to the Penny.</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		<a href="ai-supply-chain-construction.html" class="related-card">
+			<img loading="lazy" decoding="async" src="../images/ai-supply-chain-construction.jpg" alt="AI supply chain optimization for construction">
+			<div class="related-card-body">
+				<h4>Your Lumber Order Used to Be a Guess. AI Turned It Into a Prediction.</h4>
+				<span>Read More &rarr;</span>
+			</div>
+		</a>
+		</div>
+	</div>
+
+	<script>
+		if (localStorage.getItem('theme') === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	</script>
+
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var shareBar = document.querySelector('.share-bar');
+		if (!shareBar) return;
+		var title = encodeURIComponent(document.title);
+		var url = encodeURIComponent(window.location.href);
+		var tw = shareBar.querySelector('.twitter');
+		var li = shareBar.querySelector('.linkedin');
+		var fb = shareBar.querySelector('.facebook');
+		var cp = shareBar.querySelector('.copy-link');
+		if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
+		if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+		if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+		if (cp) cp.addEventListener('click', function(e) {
+			e.preventDefault();
+			navigator.clipboard.writeText(window.location.href).then(function() {
+				cp.textContent = '✓ Copied!';
+				setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
+			});
+		});
+	});
+	</script>
+
+<script src="../js/article-toc.js"></script>
+</body>
+</html>

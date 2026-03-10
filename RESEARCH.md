@@ -94,10 +94,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Passive house optimization via AI
 - ROI: energy savings vs. design cost
 
-### 14. ⚪ Embodied Carbon Calculation with AI
+### 14. 🟢 Embodied Carbon Calculation with AI
 - EC3 (Embodied Carbon in Construction Calculator)
 - AI tools that suggest lower-carbon material alternatives
 - Lifecycle assessment automation
+- **Published:** "Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It." (Priya Greenwood)
 
 ### 15. ⚪ Smart Home AI Integration During Construction
 - Designing for AI from the ground up
