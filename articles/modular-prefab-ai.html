@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Factory-Built Home Is Finally Ready. AI Made It Possible. &mdash; AI Home Building</title>
+	<title>Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works. &mdash; AI Home Building</title>
 	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/modular-prefab-ai.html">
 
 	<!-- JSON-LD Article Schema -->
@@ -11,13 +11,13 @@
 	{
 		"@context": "https://schema.org",
 		"@type": "Article",
-		"headline": "The Factory-Built Home Is Finally Ready. AI Made It Possible.",
-		"description": "AI-managed factory lines are achieving under 1% defect rates in modular home construction. The 57B global market is finally ready.",
+		"headline": "Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.",
+		"description": "Katerra burned $2 billion. Veev raised $600 million and shut down. The modular housing dream kept dying because factories couldn't handle construction's chaos. Now AI-powered production lines, robotic assembly, and machine vision QC are rewriting the economics — and the survivors are learning from the dead.",
 		"image": "https://aihomebuilding.pages.dev/images/modular-prefab-ai.jpg",
-		"datePublished": "2026-03-09",
+		"datePublished": "2026-03-10",
 		"author": {
 			"@type": "Person",
-			"name": "Mike Rodriguez"
+			"name": "Jake Kowalski"
 		},
 		"publisher": {
 			"@type": "Organization",
@@ -36,14 +36,14 @@
 
 	<!-- Open Graph / Social -->
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="The Factory-Built Home Is Finally Ready. AI Made It Possible.">
-	<meta property="og:description" content="AI-managed factory lines are achieving under 1% defect rates in modular home construction. The 57B global market is finally ready.">
+	<meta property="og:title" content="Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.">
+	<meta property="og:description" content="Katerra burned $2 billion. Veev burned $600 million. Now AI-powered factories, robotic assembly, and machine vision QC are rewriting modular housing economics.">
 	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/modular-prefab-ai.html">
 	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/modular-prefab-ai.jpg">
 	<meta property="og:site_name" content="AI Home Building">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="The Factory-Built Home Is Finally Ready. AI Made It Possible.">
-	<meta name="twitter:description" content="AI-managed factory lines are achieving under 1% defect rates in modular home construction. The 57B global market is finally ready.">
+	<meta name="twitter:title" content="Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.">
+	<meta name="twitter:description" content="Katerra burned $2 billion. Veev burned $600 million. Now AI-powered factories are rewriting modular housing economics.">
 	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/modular-prefab-ai.jpg">
 	<link rel="shortcut icon" type="image/png" href="../favicon.png">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
@@ -78,285 +78,282 @@
 		}
 		.article-header {
 			position: relative;
-			height: 420px;
-			overflow: hidden;
+			min-height: 400px;
 			display: flex;
 			align-items: flex-end;
+			overflow: hidden;
 		}
 		.article-header img {
 			position: absolute;
-			top: 0; left: 0;
+			inset: 0;
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 		}
 		.article-header .overlay {
 			position: absolute;
-			top: 0; left: 0; right: 0; bottom: 0;
-			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+			inset: 0;
+			background: linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.1) 100%);
 		}
-		.article-header .header-text {
+		.article-header .header-content {
 			position: relative;
-			z-index: 1;
+			z-index: 2;
+			padding: 2rem 24px;
 			max-width: 780px;
 			margin: 0 auto;
-			padding: 0 24px 40px;
+			width: 100%;
+		}
+		.article-header .badge {
+			display: inline-block;
+			font-family: 'Inter', sans-serif;
+			font-weight: 700;
+			font-size: 0.7rem;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
 			color: #fff;
+			background: var(--accent);
+			padding: 4px 12px;
+			border-radius: 4px;
+			margin-bottom: 12px;
 		}
 		.article-header h1 {
 			font-family: 'Playfair Display', serif;
-			font-size: 2.4rem;
 			font-weight: 800;
-			line-height: 1.15;
-			margin: 0 0 12px;
+			font-size: 2.4rem;
+			color: #fff;
+			line-height: 1.2;
+			margin: 0 0 12px 0;
 		}
-		.article-meta {
+		.article-header .byline {
+			color: rgba(255,255,255,0.8);
 			font-size: 0.9rem;
-			opacity: 0.85;
 		}
-		.article-meta .journalist { color: var(--accent); font-weight: 600; }
-		.article-body {
-			max-width: 720px;
+		article {
+			max-width: 680px;
 			margin: 0 auto;
-			padding: 48px 24px 80px;
-			font-size: 1.1rem;
+			padding: 2rem 24px 3rem;
+			font-size: 1.05rem;
 		}
-		.article-body p:first-of-type::first-letter {
+		article h2 {
 			font-family: 'Playfair Display', serif;
-			font-size: 3.4em;
-			float: left;
-			line-height: 0.8;
-			margin: 6px 10px 0 0;
-			color: var(--accent);
-		}
-		.article-body h2 {
-			font-family: 'Playfair Display', serif;
+			font-weight: 700;
 			font-size: 1.6rem;
-			margin: 2.5em 0 0.8em;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
 		}
-		.article-body blockquote {
-			border-left: 4px solid var(--accent);
-			margin: 2em 0;
-			padding: 1em 1.5em;
-			background: var(--bg-card);
-			border-radius: 0 8px 8px 0;
+		article p {
+			margin: 0 0 1.4rem;
+			color: var(--text-primary);
+		}
+		article a { color: var(--accent); text-decoration: underline; }
+		article a:hover { color: #E55A2B; }
+		article blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 2rem 0;
+			padding: 0.5rem 0 0.5rem 1.5rem;
 			font-style: italic;
 			color: var(--text-secondary);
+			font-size: 1.1rem;
 		}
 		.pull-stat {
 			text-align: center;
-			padding: 2em 0;
-			margin: 2em 0;
+			padding: 2rem 0;
+			margin: 2rem 0;
 			border-top: 2px solid var(--border);
 			border-bottom: 2px solid var(--border);
 		}
 		.pull-stat .number {
-			font-family: 'Playfair Display', serif;
-			font-size: 3rem;
-			font-weight: 800;
-			color: var(--accent);
 			display: block;
+			font-family: 'Inter', sans-serif;
+			font-weight: 800;
+			font-size: 2.5rem;
+			color: var(--accent);
+			line-height: 1.2;
 		}
 		.pull-stat .label {
+			display: block;
 			font-size: 0.95rem;
-			color: var(--text-muted);
+			color: var(--text-secondary);
+			margin-top: 4px;
 		}
 		.back-link {
 			display: inline-block;
-			padding: 16px 24px;
-			color: var(--accent);
+			margin: 24px;
+			font-size: 0.9rem;
+			color: var(--text-secondary);
 			text-decoration: none;
-			font-weight: 600;
-			font-size: 0.95rem;
 		}
-		.back-link:hover { text-decoration: underline; }
-		.reading-time {
-			display: inline-block;
-			background: rgba(255,255,255,0.15);
-			padding: 2px 10px;
-			border-radius: 12px;
-			font-size: 0.8rem;
-			margin-left: 12px;
-		}
-		@media (max-width: 600px) {
-			.article-header { height: 300px; }
-			.article-header h1 { font-size: 1.7rem; }
-			.article-body { padding: 32px 16px 60px; font-size: 1rem; }
-		}
-		.related-section {
+		.back-link:hover { color: var(--accent); }
+		.share-bar {
 			max-width: 680px;
-			margin: 3rem auto 2rem;
-			padding: 2rem 0 0;
-			border-top: 2px solid var(--border);
+			margin: 0 auto 1rem;
+			padding: 0 24px;
+			display: flex;
+			gap: 8px;
+			flex-wrap: wrap;
 		}
-		.related-section h3 {
-			font-family: 'Playfair Display', serif;
-			font-size: 1.4rem;
-			margin: 0 0 1.2rem;
-			color: var(--text-primary);
-		}
-		.related-grid {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			gap: 1.2rem;
-		}
-		@media (max-width: 600px) {
-			.related-grid { grid-template-columns: 1fr; }
-		}
-		.related-card {
+		.share-bar a {
+			display: inline-flex;
+			align-items: center;
+			gap: 4px;
+			font-size: 0.82rem;
+			font-weight: 600;
+			padding: 6px 12px;
+			border-radius: 6px;
+			text-decoration: none;
+			color: var(--text-secondary);
 			background: var(--bg-card);
 			border: 1px solid var(--border);
-			border-radius: 10px;
-			overflow: hidden;
-			transition: transform 0.2s, box-shadow 0.2s;
-			text-decoration: none;
-			color: inherit;
-			display: block;
+			transition: border-color 0.2s, color 0.2s;
 		}
-		.related-card:hover {
-			transform: translateY(-3px);
-			box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+		.share-bar a:hover { border-color: var(--accent); color: var(--accent); }
+		.reading-progress {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 3px;
+			background: var(--accent);
+			z-index: 9999;
+			transition: width 0.1s linear;
 		}
-		.related-card img {
-			width: 100%;
-			height: 120px;
-			object-fit: cover;
+		.reading-time {
+			display: inline-block;
+			font-size: 0.85rem;
+			color: rgba(255,255,255,0.7);
+			margin-left: 8px;
 		}
-		.related-card .related-card-body {
-			padding: 0.8rem 1rem;
-		}
-		.related-card .related-card-body h4 {
+		p:first-of-type::first-letter {
+			float: left;
 			font-family: 'Playfair Display', serif;
-			font-size: 0.95rem;
-			margin: 0;
-			line-height: 1.4;
-			color: var(--text-primary);
-		}
-		.related-card .related-card-body span {
-			font-size: 0.75rem;
+			font-size: 3.2rem;
+			line-height: 0.85;
+			padding-right: 8px;
+			padding-top: 4px;
 			color: var(--accent);
-			margin-top: 0.3rem;
-			display: block;
+			font-weight: 800;
 		}
-	
-    /* ── Social Sharing ── */
-    .share-bar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin: 32px 0;
-      padding: 16px 0;
-      border-top: 1px solid var(--border, #E8E8E4);
-      border-bottom: 1px solid var(--border, #E8E8E4);
-    }
-    .share-bar .share-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--text-muted, #888);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .share-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 14px;
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.2s;
-      border: 1px solid var(--border, #E8E8E4);
-      color: var(--text-secondary, #555);
-      background: transparent;
-      cursor: pointer;
-      font-family: 'Inter', sans-serif;
-    }
-    .share-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .share-btn.twitter { border-color: #1da1f2; color: #1da1f2; }
-    .share-btn.twitter:hover { background: #1da1f2; color: white; }
-    .share-btn.linkedin { border-color: #0077b5; color: #0077b5; }
-    .share-btn.linkedin:hover { background: #0077b5; color: white; }
-    .share-btn.facebook { border-color: #1877f2; color: #1877f2; }
-    .share-btn.facebook:hover { background: #1877f2; color: white; }
-    .share-btn.copy-link { border-color: var(--accent, #FF6B35); color: var(--accent, #FF6B35); }
-    .share-btn.copy-link:hover { background: var(--accent, #FF6B35); color: white; }
-
-    </style>
+		.related-section { max-width: 680px; margin: 0 auto; padding: 0 24px 3rem; }
+		.related-section h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1rem; }
+		.related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+		@media (max-width: 600px) { .related-grid { grid-template-columns: 1fr; } }
+		.related-card { display: block; text-decoration: none; color: var(--text-primary); background: var(--bg-card); border-radius: 10px; overflow: hidden; border: 1px solid var(--border); transition: box-shadow 0.2s; }
+		.related-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+		.related-card img { width: 100%; height: 120px; object-fit: cover; }
+		.related-card-body { padding: 12px; }
+		.related-card-body h4 { font-family: 'Playfair Display', serif; font-size: 0.95rem; margin: 0 0 6px; line-height: 1.3; }
+		.related-card-body span { font-size: 0.8rem; color: var(--accent); font-weight: 600; }
+		@media (max-width: 600px) {
+			.article-header h1 { font-size: 1.7rem; }
+		}
+	</style>
 </head>
 <body>
-	<a href="../" class="back-link">&larr; AI Home Building</a>
+	<div class="reading-progress" id="readingProgress"></div>
+	<a href="../" class="back-link">&larr; Back to AI Home Building</a>
 
-	<div class="article-header">
-		<img loading="lazy" decoding="async" src="../images/modular-prefab-ai.jpg" alt="Modern modular home factory with robotic arms assembling prefabricated wall panels">
+	<header class="article-header">
+		<img src="../images/modular-prefab-ai.jpg" alt="Modern modular home factory with robotic arms assembling wall panels on an automated production line">
 		<div class="overlay"></div>
-		<div class="header-text">
-			<h1>The Factory-Built Home Is Finally Ready. AI Made It Possible.</h1>
-			<div class="article-meta">
-				By <span class="journalist">Mike &ldquo;Rebar&rdquo; Rodriguez</span> &middot; March 9, 2026
-				<span class="reading-time">&#9749; 5 min</span>
-			</div>
+		<div class="header-content">
+			<div class="badge">Construction Technology</div>
+			<h1>Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.</h1>
+			<div class="byline">By <strong>Jake &ldquo;Jackhammer&rdquo; Kowalski</strong> &middot; March 10, 2026 <span class="reading-time">☕ 6 min read</span></div>
 		</div>
+	</header>
+
+	<div class="share-bar">
+		<a href="#" class="twitter" target="_blank" rel="noopener">𝕏 Share</a>
+		<a href="#" class="linkedin" target="_blank" rel="noopener">in Share</a>
+		<a href="#" class="facebook" target="_blank" rel="noopener">f Share</a>
+		<a href="#" class="copy-link">🔗 Copy Link</a>
 	</div>
 
-	<div class="article-body">
-		<p>Modular housing has been &ldquo;the future&rdquo; for fifty years. Architects love the concept. Economists love the math. And yet the market share of factory-built homes in the U.S. has barely budged past 3% since the 1990s. The reason isn&rsquo;t technology &mdash; it&rsquo;s coordination. Building a home in a factory and shipping it to a site requires a level of precision and logistics that traditional construction management can&rsquo;t handle. Artificial intelligence is finally closing that gap, and the numbers are starting to show it.</p>
+	<article>
+		<p>The pitch was intoxicating. Build homes in a climate-controlled factory like you build cars. Ship finished modules to site. Crane them into place. Done in weeks, not months. Katerra raised <strong>$2 billion</strong> &mdash; mostly from SoftBank &mdash; on this promise. It filed Chapter 11 in June 2021 with factories half-built and hundreds of projects in limbo. Veev raised <strong>$600 million</strong>, tried the same vertical integration playbook, and shut down in 2024. The graveyard of prefab dreams is large, expensive, and well-documented.</p>
+
+		<p>So why is anyone still trying?</p>
+
+		<p>Because the math hasn&rsquo;t changed. Factory-built homes cost <strong>10&ndash;20% less</strong> than site-built. Build times drop by <strong>30&ndash;50%</strong>. Waste falls by up to <strong>90%</strong>. And America is still short roughly <strong>4 million homes</strong> with <strong>439,000 construction jobs unfilled</strong>. What&rsquo;s changed is the technology inside the factory &mdash; and the hard-won lessons from watching predecessors burn through billions.</p>
+
+		<h2>Why Katerra and Veev Actually Died</h2>
+
+		<p>The popular story is that modular construction doesn&rsquo;t work. The real story is more specific and more useful: both companies made the same fatal mistake. They tried to own the entire value chain &mdash; lumber mills, architecture, manufacturing, installation, finishing &mdash; in an industry where every step requires deep domain expertise and local relationships.</p>
+
+		<p>Katerra bought a CLT factory, launched an architecture firm, hired thousands of field workers, and attempted to build everything from start to finish. It was <strong>16 companies crammed into one</strong>, most of them hemorrhaging cash. Veev panelized entire homes with embedded plumbing and wiring but couldn&rsquo;t make the math work outside its initial California market. CB Insights&rsquo; post-mortem cited &ldquo;difficulty scaling to new geographies&rdquo; and &ldquo;conservative industry culture&rdquo; as co-conspirators.</p>
+
+		<blockquote>&ldquo;If it can&rsquo;t survive a job site, it doesn&rsquo;t belong on one. But it also needs to survive the spreadsheet. Katerra couldn&rsquo;t do either.&rdquo;</blockquote>
+
+		<p>The lesson the survivors learned: <strong>arm the builder, don&rsquo;t try to become the builder.</strong> Solve one hard problem exceptionally well and plug into existing supply chains.</p>
 
 		<div class="pull-stat">
-			<span class="number">$157B</span>
-			<span class="label">Projected global modular construction market by 2030 &mdash; up from $91B in 2023</span>
+			<span class="number">$146.5B</span>
+			<span class="label">Global prefabricated buildings market in 2024, projected to reach $208 billion by 2030 at 6% CAGR</span>
 		</div>
 
-		<h2>The Coordination Problem AI Solves</h2>
+		<h2>The AI-Powered Factory Floor</h2>
 
-		<p>A modular home isn&rsquo;t just a house built indoors. It&rsquo;s a logistics puzzle with hundreds of interdependent variables: when does electrical rough-in happen relative to insulation? Which modules ship first? What&rsquo;s the crane schedule on delivery day? How do you handle the fact that Module 7&rsquo;s plumbing connects to Module 3&rsquo;s, and both need to be within 2mm tolerance?</p>
+		<p>Walk into a next-generation modular factory and the differences from Katerra&rsquo;s era are immediately visible. <strong>Promise Robotics</strong>, a Canadian startup, has built what it calls a &ldquo;Homebuilding Factory-as-a-Service&rdquo; &mdash; compact robotic cells that can prefabricate structural components with AI-driven perception systems that adapt in real time to material variations. A single-family home can be assembled in roughly <strong>five hours</strong>. A 64-unit apartment building in two weeks. Their robots use machine vision to handle the variability that killed rigid automation systems &mdash; lumber that&rsquo;s slightly warped, dimensions that are off by a millimeter.</p>
 
-		<p>Companies like <strong>Autovol</strong> in Boise, Idaho are using AI to orchestrate these factory production lines. Their system sequences the build like an automotive assembly line &mdash; robotic framing stations, automated insulation blowing, AI quality-control cameras inspecting every joint. Autovol produces complete home modules at a rate that would take a site-built crew three times as long, with <strong>defect rates under 1%</strong>.</p>
+		<p><strong>KUKA</strong>, the German industrial robotics giant, is partnering with <strong>Kleusberg</strong> on a system deploying five industrial robots to weld more than <strong>2,000 metres</strong> of 2D floor and ceiling frames per week, going operational in 2027. This isn&rsquo;t a startup pitch deck &mdash; it&rsquo;s an automotive-grade robotics company bringing decades of factory automation expertise to construction.</p>
 
-		<p>In Ottawa, <strong>Caivan Homes</strong> uses AI-enabled robotics to fabricate modular units that are trucked to suburban development sites and stacked into finished homes in days. Their AI handles everything from cut-list optimization (reducing lumber waste by 15&ndash;20%) to real-time quality inspection using computer vision.</p>
+		<p><strong>Merlin AI</strong>, an AI-powered enterprise platform for modular manufacturers, generates estimates <strong>up to 10&times; faster</strong> than manual methods and includes a factory configurator that optimizes production scheduling, material usage, and logistics in real time. &ldquo;In an industry where time and precision are critical, adopting AI isn&rsquo;t just about staying competitive,&rdquo; says co-founder Sneha Kumari. &ldquo;It&rsquo;s about setting a new standard for efficiency and scalability.&rdquo;</p>
 
-		<blockquote>&ldquo;The factory is just the beginning. The real breakthrough is AI making every module aware of every other module &mdash; tolerances, utilities, structural loads &mdash; before they ever leave the building.&rdquo;</blockquote>
+		<h2>Quality Control That Doesn&rsquo;t Sleep</h2>
 
-		<h2>Samsung&rsquo;s Bet on AI-Native Modular</h2>
+		<p>The old knock on prefab was quality. Some of it was deserved &mdash; early modular builders cut corners to hit price points, and the modules showed up with crooked cabinets and walls that didn&rsquo;t quite meet. AI-powered visual inspection changes this fundamentally.</p>
 
-		<p>At IFA 2025, <strong>Samsung unveiled an AI Smart Modular Home</strong> &mdash; not just a prefab with smart devices bolted on, but a home designed from the ground up around AI integration. The Samsung system uses <strong>on-device AI</strong> to manage energy, security, air quality, and appliance scheduling as a unified system rather than a collection of apps. The modular construction method lets Samsung pre-wire and pre-configure everything in the factory, so the home arrives ready to think on day one.</p>
+		<p>Computer vision systems now scan every module at multiple production stages, comparing actual dimensions against the BIM model in real time. Deviation tolerances that used to require a foreman with a tape measure are now caught by cameras that measure to the millimeter. <strong>Buildots</strong>&rsquo; hard-hat cameras, originally designed for site monitoring, are being adapted for factory QC &mdash; comparing 360-degree captures against the digital twin and flagging discrepancies automatically.</p>
 
-		<p>This matters because smart home retrofits are messy and expensive. Pre-integrating AI during modular fabrication means <strong>sensors, wiring, and compute hardware</strong> are built into walls and ceilings from the start &mdash; invisible and maintenance-free.</p>
+		<p>The result is that factory-built modules now routinely achieve <strong>tighter tolerances than site-built construction</strong>. When you control the temperature, humidity, and every tool on the line, consistency becomes the default rather than the exception.</p>
 
 		<div class="pull-stat">
-			<span class="number">&lt;1%</span>
-			<span class="label">Defect rate in AI-managed modular factories vs. 5&ndash;8% in traditional site-built construction</span>
+			<span class="number">103,300</span>
+			<span class="label">New manufactured homes shipped in the US in 2024, up from 89,169 in 2023 &mdash; a 16% increase year-over-year</span>
 		</div>
 
-		<h2>Why It Still Isn&rsquo;t Mainstream</h2>
+		<h2>Cloud Apartments and the Connection Problem</h2>
 
-		<p>Three barriers remain. First, <strong>zoning and building codes</strong> in most U.S. jurisdictions still treat modular construction with suspicion. Inspectors want to see work happen on-site, and many codes don&rsquo;t have clear pathways for factory-inspected modules. AI is helping here too &mdash; companies like <strong>Uptake</strong> use machine learning to auto-generate code compliance documentation, but regulatory culture changes slowly.</p>
+		<p>One of modular construction&rsquo;s persistent engineering challenges is what happens <em>between</em> the modules. Traditional volumetric modules require extensive field labor to connect plumbing, electrical, and HVAC systems &mdash; work that erodes the time savings from factory production.</p>
 
-		<p>Second, <strong>transportation logistics</strong>. A modular home is only as big as what fits on a flatbed truck (typically 16 feet wide max). AI routing and scheduling tools from companies like <strong>Factory OS</strong> optimize delivery sequences, but the width constraint still limits design flexibility compared to site-built homes.</p>
+		<p><strong>Cloud Apartments</strong>, a development company focused on multi-family housing, has redesigned the mechanical, electrical, and plumbing connections entirely. Their patented <strong>Cloud Connect</strong> system consolidates utility connections into a single standardized connection point per module. Instead of multiple trades spending days making horizontal and vertical connections through corridors, modules essentially plug together. It&rsquo;s the difference between wiring a custom circuit board and plugging in a USB-C cable.</p>
 
-		<p>Third, <strong>perception</strong>. &ldquo;Prefab&rdquo; still conjures images of flimsy double-wides. The reality in 2026 is that modular homes meet or exceed site-built quality standards &mdash; the Frontiers in Built Environment journal found AI-managed modular construction achieves <strong>higher structural consistency</strong> than conventional methods &mdash; but the stigma persists.</p>
+		<p>This matters because field labor inefficiency is where modular projects have historically bled money. <strong>81% of modular adopters</strong> cite speed as the primary driver, but that speed evaporates if site assembly takes as long as conventional construction. Cloud&rsquo;s approach and others like it are attacking the last bottleneck.</p>
 
-		<h2>What This Means If You&rsquo;re Building</h2>
+		<h2>The Market in 2026: Cautious but Growing</h2>
 
-		<p>If you&rsquo;re planning a new home, modular is worth serious consideration. AI-managed factories are delivering <strong>20&ndash;50% faster timelines</strong> and <strong>10&ndash;20% cost savings</strong> compared to equivalent site-built homes. The quality gap has flipped &mdash; factory QC is now better than field QC. And if you want a genuinely smart home, having AI systems integrated during fabrication rather than retrofitted afterward is a massive advantage.</p>
+		<p>The US modular construction market hit <strong>$20.3 billion</strong> in 2024, representing just <strong>5.1% of total construction activity</strong>. That&rsquo;s projected to reach $25.4 billion by 2029. These are real but modest numbers for an industry segment that keeps promising revolution.</p>
 
-		<p>The factory-built home isn&rsquo;t the future anymore. It&rsquo;s finally the present. AI just needed to solve the coordination problem that kept it in the &ldquo;someday&rdquo; category for five decades.</p>
-	</div>
+		<p>The disconnect between potential and penetration is the ghost of Katerra. Lenders are still cautious about modular projects. Appraisers struggle to comp them. Local building departments sometimes don&rsquo;t know what to do with plans that show modules being craned in rather than framed up. Every jurisdiction has its own code interpretation, and modular factories that serve multi-state markets have to navigate <strong>dozens of overlapping regulatory frameworks</strong> for every product line.</p>
+
+		<p>But the trajectory is clear. Factory shipments are accelerating. <strong>ABB and Cosmic Buildings</strong> deployed a mobile microfactory in Los Angeles to rebuild fire-damaged homes with robotic automation. The Modular Building Institute reports growing institutional interest. And the companies that survived the Katerra era have leaner operating models, better technology, and the crucial advantage of knowing exactly how their predecessors died.</p>
+
+		<blockquote>&ldquo;Every delay has a root cause. The root cause of modular&rsquo;s failures wasn&rsquo;t the concept &mdash; it was trying to do everything at once. The survivors do one thing brilliantly and let the supply chain handle the rest.&rdquo;</blockquote>
+
+		<h2>What This Means for Home Buyers</h2>
+
+		<p>If you&rsquo;re building a home in the next three to five years, modular is increasingly worth considering &mdash; not because it&rsquo;s cheap (it&rsquo;s competitive, not always cheaper) but because it&rsquo;s <em>predictable</em>. A factory doesn&rsquo;t have rain delays. It doesn&rsquo;t lose two weeks because the framing crew got pulled to another job. Your kitchen cabinets don&rsquo;t warp because they sat in an unfinished house through a humid summer.</p>
+
+		<p>The biggest practical obstacle remains finding a modular builder who serves your area. Unlike 3D printing or robotic bricklaying, which can theoretically go anywhere, modular homes need to be transported from the factory. Oversize load regulations, highway bridge clearances, and shipping distance all constrain the market radius of any given factory. Most modular manufacturers serve a <strong>300&ndash;500 mile radius</strong>, which means coverage is still spotty.</p>
+
+		<p>But the AI-powered factory model is inherently replicable. Once Promise Robotics or KUKA proves a production cell works, the same system can be deployed in a new facility in a new region. That&rsquo;s the real promise of bringing automotive-grade automation to homebuilding &mdash; not one mega-factory, but a network of smaller, smarter factories closer to where the homes are needed.</p>
+
+		<p>The graveyard of modular startups is a cautionary tale. The factories humming to life in 2026 are the next chapter. This time, the robots are smarter, the ambitions are more focused, and the lessons are paid for in someone else&rsquo;s billions.</p>
+	</article>
 
 	<div class="related-section">
 		<h3>Keep Reading</h3>
 		<div class="related-grid">
 		<a href="3d-printed-homes.html" class="related-card">
-			<img loading="lazy" decoding="async" src="../images/3d-printed-homes.jpg" alt="Your Next Home Could Be Printed in 48 Hours">
+			<img loading="lazy" decoding="async" src="../images/3d-printed-homes.jpg" alt="ICON 3D printer building homes in Texas">
 			<div class="related-card-body">
-				<h4>Your Next Home Could Be Printed in 48 Hours. Here&rsquo;s What That Actually Means.</h4>
+				<h4>A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next.</h4>
 				<span>Read More &rarr;</span>
 			</div>
 		</a>
-		<a href="ai-cost-estimation.html" class="related-card">
-			<img loading="lazy" decoding="async" src="../images/ai-cost-estimation.jpg" alt="AI-powered cost estimation for contractors">
+		<a href="contech-vc-investment.html" class="related-card">
+			<img loading="lazy" decoding="async" src="../images/contech-vc-investment.jpg" alt="Construction technology venture capital">
 			<div class="related-card-body">
-				<h4>Your Contractor&rsquo;s Bid Is a Guess. AI Is Making It a Science.</h4>
+				<h4>Investors Poured $2 Billion Into Katerra. It Vanished. Now They&rsquo;re Back.</h4>
 				<span>Read More &rarr;</span>
 			</div>
 		</a>
@@ -369,28 +366,37 @@
 		}
 	</script>
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var shareBar = document.querySelector('.share-bar');
-      if (!shareBar) return;
-      var title = encodeURIComponent(document.title);
-      var url = encodeURIComponent(window.location.href);
-      var tw = shareBar.querySelector('.twitter');
-      var li = shareBar.querySelector('.linkedin');
-      var fb = shareBar.querySelector('.facebook');
-      var cp = shareBar.querySelector('.copy-link');
-      if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
-      if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
-      if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
-      if (cp) cp.addEventListener('click', function(e) {
-        e.preventDefault();
-        navigator.clipboard.writeText(window.location.href).then(function() {
-          cp.textContent = '✓ Copied!';
-          setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
-        });
-      });
-    });
-    </script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var shareBar = document.querySelector('.share-bar');
+		if (!shareBar) return;
+		var title = encodeURIComponent(document.title);
+		var url = encodeURIComponent(window.location.href);
+		var tw = shareBar.querySelector('.twitter');
+		var li = shareBar.querySelector('.linkedin');
+		var fb = shareBar.querySelector('.facebook');
+		var cp = shareBar.querySelector('.copy-link');
+		if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
+		if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+		if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+		if (cp) cp.addEventListener('click', function(e) {
+			e.preventDefault();
+			navigator.clipboard.writeText(window.location.href).then(function() {
+				cp.textContent = '✓ Copied!';
+				setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
+			});
+		});
+	});
+	</script>
+
+	<script>
+	window.addEventListener('scroll', function() {
+		var prog = document.getElementById('readingProgress');
+		if (!prog) return;
+		var h = document.documentElement.scrollHeight - window.innerHeight;
+		prog.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+	});
+	</script>
 
 <script src="../js/article-toc.js"></script>
 </body>

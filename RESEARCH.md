@@ -62,10 +62,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - DJI Matrice, Skydio for autonomous flight
 - Photogrammetry → 3D models from drone footage
 
-### 9. ⚪ Prefab + AI: The Modular Revolution
+### 9. 🟢 Prefab + AI: The Modular Revolution
 - Factory-built homes with AI quality control
 - Veev, Cover, Plant Prefab
 - Why modular failed before and why AI changes the equation
+- **Published:** "Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works." (Jake Kowalski)
 
 ---
 
