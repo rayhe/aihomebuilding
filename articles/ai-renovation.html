@@ -220,6 +220,13 @@
 		<p>That's changing. <strong>Autodesk's Forma</strong> and <strong>TestFit</strong> are building the bridge between visual AI and structural analysis, though both currently target commercial construction. The residential crossover is inevitable — probably within 18 months.</p>
 
 		<p>For now, AI renovation tools do something profoundly simple: they make the invisible visible. And in an industry where the gap between expectation and reality costs homeowners billions in regret every year, seeing the future of your kitchen before you demolish the present one might be the most valuable upgrade of all.</p>
+			<div class="share-bar">
+			<span class="share-label">Share</span>
+			<a class="share-btn twitter" target="_blank" rel="noopener">&#120143; Twitter</a>
+			<a class="share-btn linkedin" target="_blank" rel="noopener">in LinkedIn</a>
+			<a class="share-btn facebook" target="_blank" rel="noopener">f Facebook</a>
+			<button class="share-btn copy-link">&#128279; Copy Link</button>
+		</div>
 	</article>
 
 	<script>
@@ -237,5 +244,28 @@
 		});
 	</script>
 <script src="../js/article-toc.js"></script>
+<script src="../js/related-articles.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var shareBar = document.querySelector(".share-bar");
+      if (!shareBar) return;
+      var title = encodeURIComponent(document.title);
+      var url = encodeURIComponent(window.location.href);
+      var tw = shareBar.querySelector(".twitter");
+      var li = shareBar.querySelector(".linkedin");
+      var fb = shareBar.querySelector(".facebook");
+      var cp = shareBar.querySelector(".copy-link");
+      if (tw) tw.href = "https://twitter.com/intent/tweet?text=" + title + "&url=" + url;
+      if (li) li.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + url;
+      if (fb) fb.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+      if (cp) cp.addEventListener("click", function(e) {
+        e.preventDefault();
+        navigator.clipboard.writeText(window.location.href).then(function() {
+          cp.textContent = "✓ Copied!";
+          setTimeout(function() { cp.textContent = "🔗 Copy Link"; }, 2000);
+        });
+      });
+    });
+    </script>
 </body>
 </html>

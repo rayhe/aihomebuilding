@@ -330,6 +330,13 @@
 
 		<p>The tools exist. The technology is advancing faster than anyone predicted. What's missing isn't intelligence — artificial or otherwise. It's the political courage to let people build.</p>
 
+			<div class="share-bar">
+			<span class="share-label">Share</span>
+			<a class="share-btn twitter" target="_blank" rel="noopener">&#120143; Twitter</a>
+			<a class="share-btn linkedin" target="_blank" rel="noopener">in LinkedIn</a>
+			<a class="share-btn facebook" target="_blank" rel="noopener">f Facebook</a>
+			<button class="share-btn copy-link">&#128279; Copy Link</button>
+		</div>
 	</article>
 
 	<!-- Share buttons -->
@@ -341,19 +348,6 @@
 	</div>
 
 	<!-- Related articles -->
-	<div class="related-section" style="padding-left:24px;padding-right:24px;">
-		<h3>Keep Reading</h3>
-		<div class="related-grid">
-			<a class="related-card" href="ai-permit-automation.html">
-				<img loading="lazy" decoding="async" src="../images/ai-permit-automation.jpg" alt="AI Permit Automation">
-				<span>Your Building Permit Takes 4 Months. AI Can Review It in 4 Minutes.</span>
-			</a>
-			<a class="related-card" href="construction-workforce.html">
-				<img loading="lazy" decoding="async" src="../images/construction-workforce.jpg" alt="Construction Workforce">
-				<span>1,032 Construction Workers Died Last Year. AI Cameras Could Have Saved Hundreds.</span>
-			</a>
-		</div>
-	</div>
 
 	<a href="../" class="back-link">← Back to all articles</a>
 
@@ -373,5 +367,28 @@
 		})();
 	</script>
 <script src="../js/article-toc.js"></script>
+<script src="../js/related-articles.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var shareBar = document.querySelector(".share-bar");
+      if (!shareBar) return;
+      var title = encodeURIComponent(document.title);
+      var url = encodeURIComponent(window.location.href);
+      var tw = shareBar.querySelector(".twitter");
+      var li = shareBar.querySelector(".linkedin");
+      var fb = shareBar.querySelector(".facebook");
+      var cp = shareBar.querySelector(".copy-link");
+      if (tw) tw.href = "https://twitter.com/intent/tweet?text=" + title + "&url=" + url;
+      if (li) li.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + url;
+      if (fb) fb.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+      if (cp) cp.addEventListener("click", function(e) {
+        e.preventDefault();
+        navigator.clipboard.writeText(window.location.href).then(function() {
+          cp.textContent = "✓ Copied!";
+          setTimeout(function() { cp.textContent = "🔗 Copy Link"; }, 2000);
+        });
+      });
+    });
+    </script>
 </body>
 </html>

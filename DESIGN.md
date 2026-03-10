@@ -47,6 +47,7 @@
 - [x] Add article reading time estimates ✅ (Cycle 6 — March 9, 2026)
 - [x] Improve article page typography ✅ (Cycle 6 — drop caps, blockquote styling, link styling)
 - [x] Add "Related Articles" section at bottom of articles ✅ (Cycle 8 — March 9, 2026)
+- [x] Dynamic Related Articles Engine — `js/related-articles.js` replaces hardcoded "Keep Reading" with smart category-based recommendations, reading history tracking via localStorage, unread-first prioritization. All 35 articles wired up. ✅ (March 11, 2026)
 
 ### Phase 3: Site Features
 - [x] Category filter bar with pill buttons on homepage ✅ (Cycle 12 — March 9, 2026)
