@@ -50,11 +50,12 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Path to residential construction
 - **Published:** "The Excavator Dug Your Foundation. Nobody Was Driving It." (Jake Kowalski)
 
-### 7. ⚪ 3D-Printed Homes: ICON and Beyond
+### 7. 🟢 3D-Printed Homes: ICON and Beyond
 - ICON Vulcan printer, Lavacrete material
 - 100-home community in Georgetown, TX
 - Alquist 3D, Mighty Buildings, COBOD
 - Cost: ~$10K for walls vs. $40K+ traditional
+- **Published:** "A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next." (Jake Kowalski)
 
 ### 8. ⚪ Drones in Residential Construction
 - Site surveying, progress monitoring, roof inspection
