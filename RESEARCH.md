@@ -115,10 +115,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Retraining and operator roles
 - **Published:** "The 500,000 Missing Workers" (Marcus Washington)
 
-### 17. ⚪ The New Construction Worker: Robot Operator
+### 17. 🟢 The New Construction Worker: Robot Operator
 - Training programs for autonomous equipment
 - Community college / trade school curriculum changes
 - Salary comparisons: traditional vs. tech-augmented
+- **Published:** "He Used to Drive the Excavator. Now He Supervises Three That Drive Themselves." (Marcus Washington)
 
 ### 18. ⚪ Safety AI: Reducing Construction's 1,075 Annual Deaths
 - Computer vision for PPE compliance
