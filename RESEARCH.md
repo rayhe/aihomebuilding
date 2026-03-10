@@ -142,10 +142,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - ADU (Accessory Dwelling Unit) boom + AI
 - Political implications of algorithmic zoning
 
-### 22. ⚪ Insurance and AI-Built Homes
+### 22. 🟢 Insurance and AI-Built Homes
 - How insurers evaluate robot-built structures
 - Liability: who's at fault when the robot makes an error?
 - Potential for lower premiums with AI QA
+- **Published:** "Your Insurer Has No Idea How to Price a Robot-Built Home" (Catherine Chen)
 
 ### 23. ⚪ The Org Simulation: What Happens When a Mid-Size Builder Adopts AI?
 - Model a 200-person construction company over 12 months
