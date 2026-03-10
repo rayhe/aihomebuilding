@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0a00"/>
+      <stop offset="40%" stop-color="#4a1500"/>
+      <stop offset="70%" stop-color="#ff4500"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#444"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- Hills -->
+  <ellipse cx="300" cy="675" rx="500" ry="200" fill="#1a0a00" opacity="0.6"/>
+  <ellipse cx="900" cy="675" rx="500" ry="250" fill="#0a0500" opacity="0.5"/>
+  <!-- House silhouette -->
+  <rect x="450" y="350" width="300" height="200" fill="url(#house)"/>
+  <polygon points="400,350 600,220 800,350" fill="#555"/>
+  <!-- Robot arm silhouette -->
+  <rect x="780" y="280" width="15" height="180" fill="#666" rx="4"/>
+  <rect x="730" y="260" width="120" height="12" fill="#777" rx="3"/>
+  <rect x="720" y="240" width="20" height="30" fill="#888" rx="3"/>
+  <!-- Ember particles -->
+  <circle cx="200" cy="100" r="3" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="350" cy="150" r="2" fill="#ff8c00" opacity="0.6"/>
+  <circle cx="500" cy="80" r="2.5" fill="#ff4500" opacity="0.7"/>
+  <circle cx="650" cy="120" r="2" fill="#ff6b35" opacity="0.5"/>
+  <circle cx="800" cy="60" r="3" fill="#ff8c00" opacity="0.8"/>
+  <circle cx="950" cy="140" r="2" fill="#ff4500" opacity="0.6"/>
+  <circle cx="150" cy="200" r="2" fill="#ff6b35" opacity="0.4"/>
+  <circle cx="1050" cy="90" r="2.5" fill="#ff8c00" opacity="0.7"/>
+</svg>
