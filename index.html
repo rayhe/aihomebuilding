@@ -160,6 +160,90 @@
 			color: var(--accent);
 			border-bottom-color: var(--accent);
 		}
+		/* ── Hamburger Menu ── */
+		.hamburger-btn {
+			display: none;
+			background: none;
+			border: none;
+			cursor: pointer;
+			padding: 8px;
+			z-index: 210;
+			color: var(--text-primary);
+		}
+		.hamburger-btn svg {
+			width: 24px;
+			height: 24px;
+			stroke: currentColor;
+			stroke-width: 2;
+			stroke-linecap: round;
+			fill: none;
+		}
+		.hamburger-btn .icon-close { display: none; }
+		.hamburger-btn.open .icon-menu { display: none; }
+		.hamburger-btn.open .icon-close { display: block; }
+		.mobile-drawer-backdrop {
+			display: none;
+			position: fixed;
+			inset: 0;
+			background: rgba(0,0,0,0.45);
+			z-index: 190;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+		}
+		.mobile-drawer-backdrop.visible { opacity: 1; }
+		.mobile-drawer {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 280px;
+			max-width: 80vw;
+			height: 100%;
+			background: var(--bg-card);
+			z-index: 200;
+			transform: translateX(100%);
+			transition: transform 0.3s ease;
+			box-shadow: -4px 0 24px rgba(0,0,0,0.15);
+			display: flex;
+			flex-direction: column;
+			padding-top: 64px;
+			overflow-y: auto;
+		}
+		.mobile-drawer.open { transform: translateX(0); }
+		.mobile-drawer a {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			padding: 16px 24px;
+			font-size: 1rem;
+			font-weight: 600;
+			color: var(--text-secondary);
+			text-decoration: none;
+			border-left: 3px solid transparent;
+			transition: all 0.15s ease;
+		}
+		.mobile-drawer a:hover,
+		.mobile-drawer a.active {
+			color: var(--accent);
+			background: rgba(255,107,53,0.06);
+			border-left-color: var(--accent);
+		}
+		.mobile-drawer a .drawer-icon {
+			font-size: 1.15rem;
+			width: 28px;
+			text-align: center;
+		}
+		.mobile-drawer .drawer-footer {
+			margin-top: auto;
+			padding: 20px 24px;
+			border-top: 1px solid var(--border);
+			display: flex;
+			gap: 12px;
+			align-items: center;
+		}
+		@media (max-width: 768px) {
+			.nav-links { display: none; }
+			.hamburger-btn { display: block; }
+		}
 		.theme-toggle {
 			background: none;
 			border: 1px solid var(--border);
@@ -658,6 +742,25 @@
 		</div>
 		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
 		<a href="feed.xml" class="theme-toggle" title="RSS Feed" style="text-decoration:none;margin-left:6px">📡</a>
+		<button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" onclick="toggleMobileMenu()">
+			<svg class="icon-menu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+			<svg class="icon-close" viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+		</button>
+	</div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="mobile-drawer-backdrop" id="mobileBackdrop" onclick="toggleMobileMenu()"></div>
+<nav class="mobile-drawer" id="mobileDrawer">
+	<a href="#" class="active" onclick="switchTabMobile('articles'); return false;"><span class="drawer-icon">📰</span> Articles</a>
+	<a href="#" onclick="switchTabMobile('tools'); return false;"><span class="drawer-icon">🔧</span> AI Tools</a>
+	<a href="#" onclick="switchTabMobile('data'); return false;"><span class="drawer-icon">📊</span> Industry Data</a>
+	<a href="#" onclick="switchTabMobile('calculator'); return false;"><span class="drawer-icon">🧮</span> Calculator</a>
+	<a href="#" onclick="switchTabMobile('about'); return false;"><span class="drawer-icon">ℹ️</span> About</a>
+	<a href="#" onclick="switchTabMobile('about'); setTimeout(function(){document.getElementById('our-team').scrollIntoView({behavior:'smooth'})},200); return false;"><span class="drawer-icon">✍️</span> Writers</a>
+	<div class="drawer-footer">
+		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+		<a href="feed.xml" class="theme-toggle" title="RSS Feed" style="text-decoration:none">📡</a>
 	</div>
 </nav>
 
@@ -1699,6 +1802,46 @@ function switchTab(tabId, clickedLink) {
 	// Scroll to top of content
 	window.scrollTo({ top: document.querySelector('.content-wrap').offsetTop - 60, behavior: 'smooth' });
 }
+// ── Mobile Hamburger Menu ──
+function toggleMobileMenu() {
+	const btn = document.getElementById('hamburgerBtn');
+	const drawer = document.getElementById('mobileDrawer');
+	const backdrop = document.getElementById('mobileBackdrop');
+	const isOpen = drawer.classList.contains('open');
+	if (isOpen) {
+		drawer.classList.remove('open');
+		btn.classList.remove('open');
+		backdrop.classList.remove('visible');
+		setTimeout(() => { backdrop.style.display = 'none'; }, 300);
+		document.body.style.overflow = '';
+		btn.setAttribute('aria-label', 'Open menu');
+	} else {
+		backdrop.style.display = 'block';
+		requestAnimationFrame(() => { backdrop.classList.add('visible'); });
+		drawer.classList.add('open');
+		btn.classList.add('open');
+		document.body.style.overflow = 'hidden';
+		btn.setAttribute('aria-label', 'Close menu');
+	}
+}
+function switchTabMobile(tabId) {
+	switchTab(tabId, document.querySelector('.nav-links a[onclick*="' + tabId + '"]'));
+	// Update mobile drawer active state
+	var drawerLinks = document.querySelectorAll('.mobile-drawer > a');
+	drawerLinks.forEach(function(a) {
+		a.classList.remove('active');
+		if (a.getAttribute('onclick') && a.getAttribute('onclick').indexOf(tabId) !== -1) {
+			a.classList.add('active');
+		}
+	});
+	toggleMobileMenu();
+}
+document.addEventListener('keydown', function(e) {
+	if (e.key === 'Escape') {
+		const drawer = document.getElementById('mobileDrawer');
+		if (drawer && drawer.classList.contains('open')) toggleMobileMenu();
+	}
+});
 (function() {
 	const saved = localStorage.getItem('theme');
 	if (saved === 'dark') {
