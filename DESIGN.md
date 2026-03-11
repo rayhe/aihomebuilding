@@ -83,7 +83,7 @@
 - [x] Proper sitemap.xml — rebuilt with all 40 URLs (1 homepage + 39 articles), correct domain, lastmod dates. Was broken placeholder pointing to `cloudflare-pages-template.pages.dev` with 1 URL. ✅ (March 11, 2026)
 - [x] robots.txt — fixed from `example.com` to correct domain, added `/functions/` disallow. ✅ (March 11, 2026)
 - [x] RSS feed deduplication — rebuilt from scratch using article metadata extraction, removed 2 duplicate entries (3d-printed-homes, modular-prefab-ai appeared twice). Now 39 unique items. ✅ (March 11, 2026)
-- [x] Article grid deduplication — removed 5 duplicate article cards from homepage grid (some articles appeared up to 7 times), added missing ai-architectural-design card, normalized card-meta/byline CSS, deduplicated RSS feed (44→41 items), fixed OG/Twitter images pointing to stale article, updated article count. Grid now has exactly 40 unique cards + 1 featured = 41 total matching 41 article files. ✅ (March 11, 2026)
+- [x] Article grid deduplication — **Complete rebuild June 8, 2026**: Python-generated grid from article HTML metadata. 42 unique grid cards + 1 featured = 43 total matching 43 article files. RSS feed rebuilt (43 items), sitemap rebuilt (44 URLs), stats ticker updated, Industry filter pill added. Previous manual dedup (March 11) was incomplete — articles had crept back to 57 cards for 43 files. ✅ (June 8, 2026)
 - [x] Performance optimization (image lazy loading, decoding="async") ✅ (January 7, 2026)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
