@@ -224,7 +224,16 @@ When you discover a new topic worth covering, add it here with:
 - NAHB: $10.8B annual economic impact from construction labor shortage
 - **Published:** "Your Home Has 30% More Steel Than It Needs. AI Knows Exactly How Much to Remove." (Jake Kowalski)
 
-- FHFA expanded appraisal waivers to 90% LTV (Oct 2024), inspection-based to 97%
+### 30. 🟢 AI for Aging in Place & Accessible Home Design
+- 14M seniors fall annually, $80B Medicare cost, NCOA 2025 National Falls Prevention Action Plan
+- DwellSafe: AI-powered smartphone home safety scans with clinician review (launched Oct 2025)
+- CarePredict: Tempo wearable + ML behavioral drift detection predicts falls before they happen
+- Maket AI: generative floor plans with accessibility constraints (36" hallways, zero-threshold, wheelchair turning)
+- Google Research Natively Adaptive Interfaces (NAI) framework for real-time accessibility adaptation
+- $17.2B aging-in-place renovation market (2024), projected $36.4B by 2033
+- NCOA: $45M annual investment could save $1.2B in Medicare costs (26:1 ROI)
+- **Published:** "14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes." (Catherine Chen)
+
 - Zillow Zestimate: 116M homes, 1.83% median error on listed properties
 - CoreLogic, Redfin, HouseCanary all deploy ML-based AVMs
 - Nearly 1 in 5 Freddie Mac purchase loans bypass traditional appraisal (June 2025)
