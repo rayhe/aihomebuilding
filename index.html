@@ -40,6 +40,10 @@
 	<meta name="twitter:title" content="AI Home Building — Where AI Meets Construction">
 	<meta name="twitter:description" content="Research, analysis, and reporting on how AI is transforming home design, building, and project management.">
 	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-hvac-design.jpg">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+	<link rel="apple-touch-icon" href="favicon.png">
 	<link rel="shortcut icon" type="image/png" href="favicon.png">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1563">
@@ -106,6 +110,8 @@
 			margin: 0 auto;
 			padding: 40px 24px 32px;
 		}
+		.masthead-logo-link { display: block; margin-bottom: 12px; }
+		.masthead-logo { height: 48px; width: auto; }
 		.masthead-brand {
 			font-family: 'Playfair Display', Georgia, serif;
 			font-size: 2.8rem;
@@ -579,6 +585,8 @@
 
 		/* ── Responsive ── */
 		@media (max-width: 768px) {
+		.masthead-logo-link { display: block; margin-bottom: 12px; }
+		.masthead-logo { height: 48px; width: auto; }
 			.masthead-brand { font-size: 2rem; }
 			.featured-article { grid-template-columns: 1fr; }
 			.featured-img { min-height: 200px; }
@@ -794,6 +802,7 @@
 <!-- Masthead -->
 <header class="masthead">
 	<div class="masthead-inner">
+		<a href="/" class="masthead-logo-link"><img src="images/logo.svg" alt="AI Home Building" class="masthead-logo"></a>
 		<h1 class="masthead-brand">AI Home <span>Building</span></h1>
 		<p class="masthead-tagline">Research & reporting on how artificial intelligence is transforming home design, construction, and project management</p>
 	</div>
