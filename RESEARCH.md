@@ -103,10 +103,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Lifecycle assessment automation
 - **Published:** "Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It." (Priya Greenwood)
 
-### 15. ⚪ Smart Home AI Integration During Construction
+### 15. 🟢 Smart Home AI Integration During Construction
 - Designing for AI from the ground up
 - Sensor placement, wiring for automation
 - Matter protocol and future-proofing
+- **Published:** "Your Breaker Box Is the Dumbest Thing in Your House. That's About to Change." (Jake Kowalski)
 
 ---
 

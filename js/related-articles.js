@@ -9,6 +9,7 @@
 
   // Full article catalog — category, slug, title, image alt text
   var ARTICLES = [
+    { slug: 'smart-wiring-ai', cat: 'construction-tech', title: 'Your Breaker Box Is the Dumbest Thing in Your House. That\u2019s About to Change.', img: 'smart-wiring-ai.jpg' },
     { slug: 'ai-structural-engineering', cat: 'construction-tech', title: 'Your Home Has 30% More Steel Than It Needs. AI Knows Exactly How Much to Remove.', img: 'ai-structural-engineering.jpg' },
     { slug: 'ai-home-appraisal', cat: 'policy', title: 'Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew.', img: 'ai-home-appraisal.jpg' },
     { slug: 'ai-concrete-optimization', cat: 'sustainability', title: 'Cement Produces 8% of Global CO\u2082. An Algorithm Just Cut That by a Third.', img: 'ai-concrete-optimization.jpg' },
