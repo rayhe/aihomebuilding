@@ -92,10 +92,12 @@ Active and planned research topics. Each thread has a status, key sources, and a
 
 ## Sustainability & Green Building
 
-### 13. ⚪ AI Energy Modeling for Homes
-- EnergyPlus + ML surrogate models
+### 13. 🟢 AI Energy Modeling for Homes
+- EnergyPlus + ML surrogate models (3,600× faster)
 - Passive house optimization via AI
 - ROI: energy savings vs. design cost
+- Cove.tool cloud-based parametric energy modeling
+- **Published:** "Your Architect's Energy Model Took 2 Hours. The AI Did It in 2 Seconds." (Priya Greenwood)
 
 ### 14. 🟢 Embodied Carbon Calculation with AI
 - EC3 (Embodied Carbon in Construction Calculator)
