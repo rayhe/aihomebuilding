@@ -307,3 +307,13 @@ When you discover a new topic worth covering, add it here with:
 - Smart irrigation (Rachio, RainMachine): 15,000 gal/household/year savings (EPA)
 - Full smart water stack during construction: $800-$1,500 vs $4,000-$7,000 retrofit
 - **Published:** "Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year. AI Is Finally Listening." (Jake Kowalski)
+
+### 37. 🟢 Humanoid Robots in Residential Construction
+- Unitree G1 at $13,500, 1X NEO at $20,000, EngineAI T800 at $25,000, Tesla Optimus $20K-$30K target
+- Figure AI 11-month BMW pilot: 30,000+ cars, 90,000 parts handled, 99% accuracy, 1,250+ hours each
+- McKinsey Oct 2025 report: construction should prepare now for humanoid deployment
+- Near-term tasks: material handling, site cleanup, repetitive finishing, inspection
+- BuiltWorlds: 95% positive evaluation but only 46% active deployment
+- 5-year TCO: $32K-$40K including implementation and maintenance
+- Entry-level labor displacement risk: kills the on-ramp to skilled trades
+- **Published:** "A Humanoid Robot Costs $13,500. A Construction Worker Costs $72,000. Do the Math." (Marcus Washington)
