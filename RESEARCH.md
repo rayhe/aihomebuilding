@@ -127,10 +127,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Salary comparisons: traditional vs. tech-augmented
 - **Published:** "He Used to Drive the Excavator. Now He Supervises Three That Drive Themselves." (Marcus Washington)
 
-### 18. ⚪ Safety AI: Reducing Construction's 1,075 Annual Deaths
+### 18. 🟢 Safety AI: Reducing Construction's 1,075 Annual Deaths
 - Computer vision for PPE compliance
 - Proximity detection for heavy equipment
 - Predictive safety analytics
+- **Published:** "1,034 Construction Workers Died Last Year. An AI Saw It Coming." (Marcus Washington)
 
 ---
 
