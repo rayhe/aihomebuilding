@@ -9,6 +9,7 @@
 
   // Full article catalog — category, slug, title, image alt text
   var ARTICLES = [
+    { slug: 'ai-hvac-design', cat: 'construction-tech', title: 'Half of America\u2019s HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up.', img: 'ai-hvac-design.jpg' },
     { slug: 'ai-permit-automation', cat: 'policy', title: 'Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted.', img: 'ai-permit-automation.jpg' },
     { slug: 'construction-safety-ai', cat: 'workforce', title: '1,034 Construction Workers Died Last Year. An AI Saw It Coming.', img: 'construction-safety-ai.jpg' },
     { slug: 'ai-energy-modeling', cat: 'sustainability', title: 'Your Architect\u2019s Energy Model Took 2 Hours. The AI Did It in 2 Seconds.', img: 'ai-energy-modeling.jpg' },

@@ -241,6 +241,15 @@ When you discover a new topic worth covering, add it here with:
 - NCOA: $45M annual investment could save $1.2B in Medicare costs (26:1 ROI)
 - **Published:** "14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes." (Catherine Chen)
 
+### 31. 🟢 AI HVAC Design & Manual J Load Calculations
+- 50% of US homes have oversized HVAC systems (ENERGY STAR / LBNL)
+- AutoHVAC: GPT-4 Vision reads blueprints, does Manual J in 60 seconds (vs 30-60 min traditional)
+- Oversizing causes 20-30% higher energy costs, short-cycling, humidity issues
+- AI duct routing optimization: 25-40% of HVAC energy lost through ducts (DOE)
+- Moen Flo connection: HVAC condensate failures are major water damage source
+- Next frontier: AI-powered commissioning (verify installation meets spec)
+- **Published:** "Half of America's HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up." (Jake Kowalski)
+
 - Zillow Zestimate: 116M homes, 1.83% median error on listed properties
 - CoreLogic, Redfin, HouseCanary all deploy ML-based AVMs
 - Nearly 1 in 5 Freddie Mac purchase loans bypass traditional appraisal (June 2025)
