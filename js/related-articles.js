@@ -9,6 +9,7 @@
 
   // Full article catalog — category, slug, title, image alt text
   var ARTICLES = [
+    { slug: 'ai-home-appraisal', cat: 'policy', title: 'Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew.', img: 'ai-home-appraisal.jpg' },
     { slug: 'ai-concrete-optimization', cat: 'sustainability', title: 'Cement Produces 8% of Global CO\u2082. An Algorithm Just Cut That by a Third.', img: 'ai-concrete-optimization.jpg' },
     { slug: 'modular-prefab-ai', cat: 'construction-tech', title: 'Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.', img: 'modular-prefab-ai.jpg' },
     { slug: 'ai-waste-sorting', cat: 'sustainability', title: 'Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble.', img: 'ai-waste-sorting.jpg' },
