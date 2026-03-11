@@ -1,5 +1,8 @@
-# Reference: https://developers.cloudflare.com/fundamentals/get-started/reference/cdn-cgi-endpoint/#disallow-using-robotstxt
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow: /
 Disallow: /cdn-cgi/
+Disallow: /functions/
 
-Sitemap: https://example.com/sitemap.xml
+# Sitemap
+Sitemap: https://aihomebuilding.pages.dev/sitemap.xml
