@@ -1,0 +1,1090 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AI Construction Company Directory — AI Home Building</title>
+	<meta name="description" content="Comprehensive directory of 30+ companies transforming residential construction with AI, robotics, and automation. Filterable by category with funding data and article links.">
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/companies.html">
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="AI Construction Company Directory — AI Home Building">
+	<meta property="og:description" content="30+ companies transforming residential construction with AI, robotics, and automation.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/companies.html">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary">
+
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--accent-dark: #E55A2B;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		* { box-sizing: border-box; }
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.6;
+			transition: background 0.3s, color 0.3s;
+		}
+
+		/* Header */
+		.page-header {
+			background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+			color: #fff;
+			padding: 60px 24px 50px;
+			text-align: center;
+		}
+		.page-header h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: 2.6rem;
+			margin: 0 0 12px;
+		}
+		.page-header p {
+			font-size: 1.1rem;
+			opacity: 0.85;
+			max-width: 640px;
+			margin: 0 auto;
+		}
+		.back-link {
+			display: inline-block;
+			margin-bottom: 20px;
+			color: rgba(255,255,255,0.7);
+			text-decoration: none;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { color: #fff; }
+
+		/* Stats bar */
+		.stats-bar {
+			display: flex;
+			justify-content: center;
+			gap: 32px;
+			margin-top: 28px;
+			flex-wrap: wrap;
+		}
+		.stats-bar .stat {
+			text-align: center;
+		}
+		.stats-bar .stat-num {
+			font-size: 1.8rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stats-bar .stat-label {
+			font-size: 0.75rem;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			opacity: 0.7;
+		}
+
+		/* Controls */
+		.controls {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 24px 24px 0;
+			display: flex;
+			gap: 16px;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		.search-box {
+			flex: 1;
+			min-width: 240px;
+			position: relative;
+		}
+		.search-box input {
+			width: 100%;
+			padding: 10px 16px 10px 40px;
+			border: 2px solid var(--border);
+			border-radius: 8px;
+			font-size: 0.95rem;
+			background: var(--bg-card);
+			color: var(--text-primary);
+			transition: border-color 0.2s;
+			font-family: inherit;
+		}
+		.search-box input:focus {
+			outline: none;
+			border-color: var(--accent);
+		}
+		.search-box::before {
+			content: '🔍';
+			position: absolute;
+			left: 12px;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: 1rem;
+			pointer-events: none;
+		}
+		.filter-pills {
+			display: flex;
+			gap: 8px;
+			flex-wrap: wrap;
+		}
+		.filter-pill {
+			padding: 6px 14px;
+			border: 2px solid var(--border);
+			border-radius: 20px;
+			font-size: 0.82rem;
+			font-weight: 600;
+			cursor: pointer;
+			background: var(--bg-card);
+			color: var(--text-secondary);
+			transition: all 0.2s;
+			white-space: nowrap;
+		}
+		.filter-pill:hover {
+			border-color: var(--accent);
+			color: var(--accent);
+		}
+		.filter-pill.active {
+			background: var(--accent);
+			border-color: var(--accent);
+			color: #fff;
+		}
+		.result-count {
+			font-size: 0.85rem;
+			color: var(--text-muted);
+			padding: 8px 24px 0;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		/* Grid */
+		.company-grid {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 24px;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+			gap: 20px;
+		}
+
+		/* Company Card */
+		.company-card {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 12px;
+			padding: 24px;
+			transition: transform 0.2s, box-shadow 0.2s;
+			position: relative;
+			overflow: hidden;
+		}
+		.company-card:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+		}
+		[data-theme="dark"] .company-card:hover {
+			box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+		}
+		.company-card .cat-stripe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 4px;
+		}
+
+		.company-card .card-top {
+			display: flex;
+			align-items: flex-start;
+			gap: 14px;
+			margin-bottom: 12px;
+		}
+		.company-icon {
+			width: 48px;
+			height: 48px;
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 1.5rem;
+			flex-shrink: 0;
+		}
+		.card-top h3 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.15rem;
+			margin: 0 0 2px;
+			line-height: 1.3;
+		}
+		.card-top .tagline {
+			font-size: 0.82rem;
+			color: var(--text-muted);
+			line-height: 1.4;
+		}
+		.company-card .cat-badge {
+			display: inline-block;
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			padding: 3px 8px;
+			border-radius: 4px;
+			margin-bottom: 10px;
+		}
+		.company-card .description {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			line-height: 1.6;
+			margin-bottom: 14px;
+		}
+
+		/* Stats row */
+		.card-stats {
+			display: flex;
+			gap: 16px;
+			flex-wrap: wrap;
+			margin-bottom: 14px;
+		}
+		.card-stats .stat-item {
+			font-size: 0.78rem;
+		}
+		.card-stats .stat-item .label {
+			color: var(--text-muted);
+			text-transform: uppercase;
+			letter-spacing: 0.04em;
+			font-size: 0.68rem;
+		}
+		.card-stats .stat-item .value {
+			font-weight: 700;
+			color: var(--text-primary);
+		}
+
+		/* Article links */
+		.card-articles {
+			border-top: 1px solid var(--border);
+			padding-top: 12px;
+		}
+		.card-articles .section-label {
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			color: var(--text-muted);
+			margin-bottom: 6px;
+		}
+		.card-articles a {
+			display: block;
+			font-size: 0.82rem;
+			color: var(--accent);
+			text-decoration: none;
+			padding: 3px 0;
+			line-height: 1.4;
+			transition: color 0.15s;
+		}
+		.card-articles a:hover {
+			color: var(--accent-dark);
+			text-decoration: underline;
+		}
+
+		/* External link */
+		.company-card .ext-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 4px;
+			font-size: 0.82rem;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			margin-top: 8px;
+		}
+		.company-card .ext-link:hover { text-decoration: underline; }
+
+		/* Category colors */
+		.cat-robotics { background: #e74c3c; color: #fff; }
+		.cat-robotics-stripe { background: #e74c3c; }
+		.cat-robotics-icon { background: rgba(231,76,60,0.12); }
+
+		.cat-ai-software { background: #3498db; color: #fff; }
+		.cat-ai-software-stripe { background: #3498db; }
+		.cat-ai-software-icon { background: rgba(52,152,219,0.12); }
+
+		.cat-materials { background: #27ae60; color: #fff; }
+		.cat-materials-stripe { background: #27ae60; }
+		.cat-materials-icon { background: rgba(39,174,96,0.12); }
+
+		.cat-smart-home { background: #9b59b6; color: #fff; }
+		.cat-smart-home-stripe { background: #9b59b6; }
+		.cat-smart-home-icon { background: rgba(155,89,182,0.12); }
+
+		.cat-sustainability { background: #2ecc71; color: #fff; }
+		.cat-sustainability-stripe { background: #2ecc71; }
+		.cat-sustainability-icon { background: rgba(46,204,113,0.12); }
+
+		.cat-project-mgmt { background: #f39c12; color: #fff; }
+		.cat-project-mgmt-stripe { background: #f39c12; }
+		.cat-project-mgmt-icon { background: rgba(243,156,18,0.12); }
+
+		.cat-safety { background: #e67e22; color: #fff; }
+		.cat-safety-stripe { background: #e67e22; }
+		.cat-safety-icon { background: rgba(230,126,34,0.12); }
+
+		.cat-design { background: #1abc9c; color: #fff; }
+		.cat-design-stripe { background: #1abc9c; }
+		.cat-design-icon { background: rgba(26,188,156,0.12); }
+
+		/* Dark mode toggle */
+		.theme-toggle {
+			position: fixed;
+			bottom: 24px;
+			right: 24px;
+			width: 44px;
+			height: 44px;
+			border-radius: 50%;
+			border: 2px solid var(--border);
+			background: var(--bg-card);
+			cursor: pointer;
+			font-size: 1.2rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 100;
+			transition: all 0.2s;
+		}
+		.theme-toggle:hover {
+			border-color: var(--accent);
+			transform: scale(1.1);
+		}
+
+		/* Footer */
+		.page-footer {
+			text-align: center;
+			padding: 40px 24px;
+			border-top: 1px solid var(--border);
+			margin-top: 40px;
+		}
+		.page-footer a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+		.page-footer a:hover { text-decoration: underline; }
+		.page-footer p {
+			color: var(--text-muted);
+			font-size: 0.85rem;
+			margin: 4px 0;
+		}
+
+		/* No results */
+		.no-results {
+			text-align: center;
+			padding: 60px 24px;
+			color: var(--text-muted);
+			grid-column: 1 / -1;
+		}
+		.no-results .emoji { font-size: 3rem; margin-bottom: 12px; }
+		.no-results p { font-size: 1rem; }
+
+		/* Responsive */
+		@media (max-width: 768px) {
+			.page-header h1 { font-size: 1.8rem; }
+			.stats-bar { gap: 20px; }
+			.stats-bar .stat-num { font-size: 1.4rem; }
+			.company-grid { grid-template-columns: 1fr; padding: 16px; }
+			.controls { padding: 16px 16px 0; }
+			.filter-pills { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
+		}
+	</style>
+</head>
+<body>
+	<div class="page-header">
+		<a href="index.html" class="back-link">← Back to AI Home Building</a>
+		<h1>🏗️ AI Construction Company Directory</h1>
+		<p>30+ companies transforming how homes are designed, built, and maintained — with AI, robotics, and automation.</p>
+		<div class="stats-bar">
+			<div class="stat">
+				<div class="stat-num" id="stat-companies">0</div>
+				<div class="stat-label">Companies</div>
+			</div>
+			<div class="stat">
+				<div class="stat-num" id="stat-funding">$4.8B+</div>
+				<div class="stat-label">Total Funding</div>
+			</div>
+			<div class="stat">
+				<div class="stat-num" id="stat-categories">8</div>
+				<div class="stat-label">Categories</div>
+			</div>
+			<div class="stat">
+				<div class="stat-num" id="stat-articles">46</div>
+				<div class="stat-label">Articles Referencing</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="controls">
+		<div class="search-box">
+			<input type="text" id="search" placeholder="Search companies, categories, or technologies..." autocomplete="off">
+		</div>
+		<div class="filter-pills">
+			<button class="filter-pill active" data-cat="all">All</button>
+			<button class="filter-pill" data-cat="robotics">🤖 Robotics</button>
+			<button class="filter-pill" data-cat="ai-software">🧠 AI Software</button>
+			<button class="filter-pill" data-cat="materials">🧱 Materials</button>
+			<button class="filter-pill" data-cat="smart-home">🏠 Smart Home</button>
+			<button class="filter-pill" data-cat="sustainability">🌿 Sustainability</button>
+			<button class="filter-pill" data-cat="project-mgmt">📊 Project Mgmt</button>
+			<button class="filter-pill" data-cat="safety">🦺 Safety</button>
+			<button class="filter-pill" data-cat="design">📐 Design</button>
+		</div>
+	</div>
+	<div class="result-count" id="result-count"></div>
+
+	<div class="company-grid" id="company-grid"></div>
+
+	<div class="page-footer">
+		<p><a href="index.html">AI Home Building</a> · Company Directory</p>
+		<p>Data compiled from 46 editorial investigations. Updated March 2026.</p>
+	</div>
+
+	<button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
+
+	<script>
+	const COMPANIES = [
+		{
+			name: "ICON",
+			tagline: "3D-printed homes at scale",
+			cat: "robotics",
+			icon: "🖨️",
+			description: "Pioneer of large-scale 3D-printed construction. Their Vulcan printer uses Lavacrete to print walls in 24-48 hours. Completed Wolf Ranch — 100 homes in Georgetown, TX, the world's largest 3D-printed community.",
+			founded: "2017",
+			hq: "Austin, TX",
+			funding: "$451M",
+			keyMetric: "100 homes printed",
+			url: "https://iconbuild.com",
+			articles: [
+				{ title: "A Robot Printed 100 Houses in Texas", slug: "3d-printed-homes" },
+				{ title: "Your Insurer Has No Idea How to Price a Robot-Built Home", slug: "insurance-ai-homes" }
+			]
+		},
+		{
+			name: "Built Robotics",
+			tagline: "Autonomous heavy equipment",
+			cat: "robotics",
+			icon: "🚜",
+			description: "Retrofits standard excavators, dozers, and compactors into self-driving machines. One operator can supervise 3-5 autonomous units — a 3-5× labor multiplier against the 349K worker shortage.",
+			founded: "2016",
+			hq: "San Francisco, CA",
+			funding: "$112M",
+			keyMetric: "3-5× labor multiplier",
+			url: "https://builtrobotics.com",
+			articles: [
+				{ title: "The Excavator Dug Your Foundation. Nobody Was Driving It.", slug: "autonomous-heavy-equipment" },
+				{ title: "The 500,000 Missing Workers", slug: "construction-workforce" }
+			]
+		},
+		{
+			name: "FBR (Hadrian X)",
+			tagline: "Robotic bricklaying",
+			cat: "robotics",
+			icon: "🧱",
+			description: "Hadrian X lays 360 blocks per hour with a 30m telescopic boom using Dynamic Stabilization Technology. Completed first US home in Sept 2024 with CRH Ventures partnership.",
+			founded: "2015",
+			hq: "Perth, Australia",
+			funding: "ASX listed",
+			keyMetric: "360 blocks/hour",
+			url: "https://fbr.com.au",
+			articles: [
+				{ title: "This Robot Lays 360 Blocks an Hour", slug: "robotic-bricklaying" }
+			]
+		},
+		{
+			name: "Dusty Robotics",
+			tagline: "Autonomous layout robot",
+			cat: "robotics",
+			icon: "📏",
+			description: "FieldPrinter robot marks BIM layouts directly onto concrete floors — eliminating manual chalk lines and 2-3% layout error rates. Used on $10B+ of active construction projects.",
+			founded: "2018",
+			hq: "Mountain View, CA",
+			funding: "$66M+",
+			keyMetric: "$10B+ projects",
+			url: "https://dustyrobotics.com",
+			articles: [
+				{ title: "Construction Productivity Has Been Flat for 30 Years", slug: "construction-productivity-ai" }
+			]
+		},
+		{
+			name: "COBOD",
+			tagline: "Modular 3D construction printing",
+			cat: "robotics",
+			icon: "🏗️",
+			description: "World's largest 3D construction printer. Printed a 3-bedroom home in Kampala in 12 hours. Modular gantry system ships in containers — works on any site.",
+			founded: "2017",
+			hq: "Copenhagen, Denmark",
+			funding: "$67M+",
+			keyMetric: "3-bedroom in 12 hours",
+			url: "https://cobod.com",
+			articles: [
+				{ title: "A Robot Printed 100 Houses in Texas", slug: "3d-printed-homes" }
+			]
+		},
+		{
+			name: "SafeAI",
+			tagline: "AI autonomy for heavy equipment",
+			cat: "robotics",
+			icon: "🤖",
+			description: "Retrofits Komatsu, CAT, and Volvo machines with autonomous operation capability. Focused on earthmoving — excavation, grading, and compaction.",
+			founded: "2017",
+			hq: "Santa Clara, CA",
+			funding: "$67M",
+			keyMetric: "Multi-OEM support",
+			url: "https://safeai.ai",
+			articles: [
+				{ title: "The Excavator Dug Your Foundation. Nobody Was Driving It.", slug: "autonomous-heavy-equipment" }
+			]
+		},
+		{
+			name: "Promise Robotics",
+			tagline: "Factory-as-a-Service for homes",
+			cat: "robotics",
+			icon: "🏭",
+			description: "Robotic microfactories that can assemble a single-family home in ~5 hours. 'Factory-as-a-Service' model — ship the factory to the demand, not the house to the site.",
+			founded: "2020",
+			hq: "Edmonton, Canada",
+			funding: "Seed",
+			keyMetric: "~5 hour assembly",
+			url: "https://promiserobotics.com",
+			articles: [
+				{ title: "Modular Housing Failed Twice. AI Factories Might Be the Third Attempt.", slug: "modular-prefab-ai" }
+			]
+		},
+		{
+			name: "Procore",
+			tagline: "Construction management platform",
+			cat: "project-mgmt",
+			icon: "📋",
+			description: "The dominant construction management SaaS ($10B+ IPO). Procore Assist uses AI agents for daily logs, submittals, and document Q&A. $339M quarterly revenue.",
+			founded: "2002",
+			hq: "Carpinteria, CA",
+			funding: "$10B+ (public)",
+			keyMetric: "$339M quarterly rev",
+			url: "https://procore.com",
+			articles: [
+				{ title: "Your General Contractor Just Hired an AI Agent", slug: "ai-agents-construction" },
+				{ title: "From 14 Months to 10", slug: "ai-project-management" }
+			]
+		},
+		{
+			name: "ALICE Technologies",
+			tagline: "AI schedule optimization",
+			cat: "project-mgmt",
+			icon: "📅",
+			description: "Generative construction scheduling — explores millions of build sequence permutations to find 15-25% schedule compression. Turns static Gantt charts into living, optimized plans.",
+			founded: "2016",
+			hq: "Menlo Park, CA",
+			funding: "$30M",
+			keyMetric: "15-25% faster schedules",
+			url: "https://alicetechnologies.com",
+			articles: [
+				{ title: "From 14 Months to 10", slug: "ai-project-management" },
+				{ title: "Construction Productivity Has Been Flat for 30 Years", slug: "construction-productivity-ai" }
+			]
+		},
+		{
+			name: "Buildots",
+			tagline: "AI-powered construction monitoring",
+			cat: "project-mgmt",
+			icon: "📷",
+			description: "Hard-hat cameras capture 360° images on site walks, then AI compares to BIM models to track progress and catch deviations. 75% fewer punch list defects reported.",
+			founded: "2018",
+			hq: "Tel Aviv, Israel",
+			funding: "$60M+",
+			keyMetric: "75% fewer defects",
+			url: "https://buildots.com",
+			articles: [
+				{ title: "Your Builder Missed 26 Defects. The AI Camera Found Every One.", slug: "ai-quality-inspection" },
+				{ title: "Construction Productivity Has Been Flat for 30 Years", slug: "construction-productivity-ai" }
+			]
+		},
+		{
+			name: "OpenSpace",
+			tagline: "360° reality capture platform",
+			cat: "project-mgmt",
+			icon: "🌐",
+			description: "2.3B+ sq ft documented. Auto-captures site conditions during walks, creates navigable digital twins, flags schedule and quality issues vs. BIM. 20% fewer RFIs.",
+			founded: "2017",
+			hq: "San Francisco, CA",
+			funding: "$119M",
+			keyMetric: "2.3B+ sq ft captured",
+			url: "https://openspace.ai",
+			articles: [
+				{ title: "Your Builder Missed 26 Defects. The AI Camera Found Every One.", slug: "ai-quality-inspection" },
+				{ title: "Your General Contractor Just Hired an AI Agent", slug: "ai-agents-construction" }
+			]
+		},
+		{
+			name: "Concrete.ai",
+			tagline: "AI concrete mix optimization",
+			cat: "materials",
+			icon: "🧪",
+			description: "AI Copilot optimizes concrete mixes for strength, carbon, and cost simultaneously. Achieves 30% carbon reduction with $5.04/yard savings across 2M+ cubic yards.",
+			founded: "2019",
+			hq: "San Francisco, CA",
+			funding: "Venture-backed",
+			keyMetric: "30% carbon reduction",
+			url: "https://concrete.ai",
+			articles: [
+				{ title: "Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third.", slug: "ai-concrete-optimization" }
+			]
+		},
+		{
+			name: "CarbonCure",
+			tagline: "CO₂ injection in concrete",
+			cat: "materials",
+			icon: "💨",
+			description: "Injects captured CO₂ into fresh concrete during mixing. The CO₂ mineralizes, creating nano-scale limestone that actually increases compressive strength. Active in 30+ countries.",
+			founded: "2012",
+			hq: "Halifax, Canada",
+			funding: "$80M+",
+			keyMetric: "30+ countries",
+			url: "https://carboncure.com",
+			articles: [
+				{ title: "Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third.", slug: "ai-concrete-optimization" },
+				{ title: "Your Home's Carbon Footprint Was Decided Before You Moved In", slug: "embodied-carbon-ai" }
+			]
+		},
+		{
+			name: "Giatec Scientific",
+			tagline: "Smart concrete sensors",
+			cat: "materials",
+			icon: "📡",
+			description: "SmartMix AI optimizes cement content per batch. SmartRock sensors embedded in concrete monitor real-time curing. 27% cement reduction and 13% cost savings on first batch.",
+			founded: "2010",
+			hq: "Ottawa, Canada",
+			funding: "$30M+",
+			keyMetric: "27% cement reduction",
+			url: "https://giatec.ca",
+			articles: [
+				{ title: "Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third.", slug: "ai-concrete-optimization" }
+			]
+		},
+		{
+			name: "AMP Robotics",
+			tagline: "AI-powered recycling robots",
+			cat: "sustainability",
+			icon: "♻️",
+			description: "Computer vision + robotic arms sort construction and demolition waste at 80+ picks/minute. $91M Series D. Processing C&D materials that used to go straight to landfill.",
+			founded: "2014",
+			hq: "Louisville, CO",
+			funding: "$191M",
+			keyMetric: "80+ picks/minute",
+			url: "https://amprobotics.com",
+			articles: [
+				{ title: "Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble.", slug: "ai-waste-sorting" }
+			]
+		},
+		{
+			name: "Moen Flo",
+			tagline: "Smart water monitoring",
+			cat: "smart-home",
+			icon: "💧",
+			description: "Takes 240 measurements/second on your main water line, learns your household's water fingerprint. Detects micro-leaks, freezing pipes, and abnormal flow — auto-shutoff in emergencies.",
+			founded: "Acquired by Moen",
+			hq: "Los Angeles, CA",
+			funding: "Moen (Fortune Brands)",
+			keyMetric: "240 reads/second",
+			url: "https://meetflo.com",
+			articles: [
+				{ title: "Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year.", slug: "ai-water-management" },
+				{ title: "Your Furnace Knows It's Dying. It Just Can't Tell You Yet.", slug: "ai-predictive-maintenance" }
+			]
+		},
+		{
+			name: "Phyn",
+			tagline: "Ultrasonic water intelligence",
+			cat: "smart-home",
+			icon: "🔊",
+			description: "Analyzes ultrasonic pressure waves to identify 30+ fixture signatures. Sub-second auto-shutoff. Can tell the difference between a shower, toilet flush, and a pipe leak.",
+			founded: "2016",
+			hq: "Cerritos, CA",
+			funding: "Belkin/Uponor JV",
+			keyMetric: "30+ fixture signatures",
+			url: "https://phyn.com",
+			articles: [
+				{ title: "Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year.", slug: "ai-water-management" }
+			]
+		},
+		{
+			name: "SPAN",
+			tagline: "Smart electrical panel",
+			cat: "smart-home",
+			icon: "⚡",
+			description: "Replaces dumb breaker boxes with intelligent panels that manage EVs, solar, batteries, and heat pumps. $3,400-$4,600 installed, saves $5-10K in future upgrades.",
+			founded: "2018",
+			hq: "San Francisco, CA",
+			funding: "$115M+",
+			keyMetric: "Saves $5-10K future cost",
+			url: "https://span.io",
+			articles: [
+				{ title: "Your Breaker Box Is the Dumbest Thing in Your House.", slug: "smart-wiring-ai" }
+			]
+		},
+		{
+			name: "DwellSafe",
+			tagline: "AI home safety scanning",
+			cat: "smart-home",
+			icon: "🏥",
+			description: "AI-powered smartphone scans assess fall risks and safety hazards for aging-in-place. Generates clinician-reviewed safety reports with specific modification recommendations.",
+			founded: "2024",
+			hq: "USA",
+			funding: "Seed",
+			keyMetric: "Smartphone-based",
+			url: "https://dwellsafe.com",
+			articles: [
+				{ title: "14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes.", slug: "ai-aging-in-place" }
+			]
+		},
+		{
+			name: "CarePredict",
+			tagline: "Wearable behavioral AI for seniors",
+			cat: "smart-home",
+			icon: "⌚",
+			description: "Tempo wearable + ML detects behavioral drift (gait changes, activity drops) and predicts falls before they happen. Learns individual baselines over time.",
+			founded: "2013",
+			hq: "Fort Lauderdale, FL",
+			funding: "$30M+",
+			keyMetric: "Predictive fall detection",
+			url: "https://carepredict.com",
+			articles: [
+				{ title: "14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes.", slug: "ai-aging-in-place" }
+			]
+		},
+		{
+			name: "Hypar",
+			tagline: "Open-source building logic",
+			cat: "design",
+			icon: "📐",
+			description: "Cloud-based parametric design platform. Architects define building logic as code, then explore thousands of variations instantly. Open-source, API-first architecture.",
+			founded: "2018",
+			hq: "San Francisco, CA",
+			funding: "$10M+",
+			keyMetric: "Code-first design",
+			url: "https://hypar.io",
+			articles: [
+				{ title: "Every Wall Is a Variable. Parametric Design.", slug: "parametric-design" },
+				{ title: "The Architect's New Brain", slug: "ai-architectural-design" }
+			]
+		},
+		{
+			name: "TestFit",
+			tagline: "AI feasibility studies in seconds",
+			cat: "design",
+			icon: "🏘️",
+			description: "Generative design for real estate — input a parcel, constraints, and unit mix; get optimized site plans in seconds. Used by developers and architects for instant feasibility.",
+			founded: "2015",
+			hq: "Dallas, TX",
+			funding: "$20M+",
+			keyMetric: "Seconds to feasibility",
+			url: "https://testfit.io",
+			articles: [
+				{ title: "The Architect's New Brain", slug: "ai-architectural-design" },
+				{ title: "Every Wall Is a Variable. Parametric Design.", slug: "parametric-design" }
+			]
+		},
+		{
+			name: "Maket AI",
+			tagline: "Generative floor plans",
+			cat: "design",
+			icon: "🏠",
+			description: "AI-powered residential floor plan generator. Input constraints (lot size, rooms, accessibility requirements) and get optimized layouts in seconds. Democratizes architectural design.",
+			founded: "2020",
+			hq: "Toronto, Canada",
+			funding: "Seed",
+			keyMetric: "Instant floor plans",
+			url: "https://maket.ai",
+			articles: [
+				{ title: "You Used to Gut-Renovate on Gut Feeling.", slug: "ai-renovation" },
+				{ title: "14 Million Seniors Fall Every Year.", slug: "ai-aging-in-place" }
+			]
+		},
+		{
+			name: "Deepblocks",
+			tagline: "AI zoning & feasibility",
+			cat: "design",
+			icon: "🗺️",
+			description: "Instant zoning analysis and building feasibility in 200+ US cities. Input an address, get a 3D massing model with unit count, floor area, and financial pro forma in seconds.",
+			founded: "2018",
+			hq: "Miami, FL",
+			funding: "$5M+",
+			keyMetric: "200+ cities covered",
+			url: "https://deepblocks.com",
+			articles: [
+				{ title: "Your Backyard Could Fit an ADU. The Algorithm Already Knows.", slug: "ai-zoning-analysis" },
+				{ title: "Your Builder Used to Drive Every Lot. Now AI Scores 10,000 Parcels.", slug: "ai-land-acquisition" }
+			]
+		},
+		{
+			name: "Augmenta",
+			tagline: "Automated building design",
+			cat: "design",
+			icon: "🧮",
+			description: "Fully automated structural and MEP design platform. Claims 30% material waste reduction by optimizing load paths and member sizing. From sketch to buildable drawings.",
+			founded: "2018",
+			hq: "Helsinki, Finland",
+			funding: "$10M+",
+			keyMetric: "30% material reduction",
+			url: "https://augmenta.ai",
+			articles: [
+				{ title: "Your Home Has 30% More Steel Than It Needs.", slug: "ai-structural-engineering" }
+			]
+		},
+		{
+			name: "Hover",
+			tagline: "3D models from smartphone photos",
+			cat: "design",
+			icon: "📸",
+			description: "Take photos of a house with your phone → get a full 3D model with measurements. 500K+ users. Transforms remodeling estimates from guesswork to precision.",
+			founded: "2011",
+			hq: "San Francisco, CA",
+			funding: "$175M+",
+			keyMetric: "500K+ users",
+			url: "https://hover.to",
+			articles: [
+				{ title: "You Used to Gut-Renovate on Gut Feeling.", slug: "ai-renovation" },
+				{ title: "Your Architect Used to Guess What You Wanted.", slug: "ai-architect-client" }
+			]
+		},
+		{
+			name: "ClimateStudio",
+			tagline: "Fast daylight & energy simulation",
+			cat: "sustainability",
+			icon: "☀️",
+			description: "Hybrid Radiance + ML engine compresses daylight analysis from hours to seconds. Calculates Spatial Daylight Autonomy (sDA) for LEED and WELL compliance.",
+			founded: "Solemma LLC",
+			hq: "Cambridge, MA",
+			funding: "Private",
+			keyMetric: "100-1000× faster sims",
+			url: "https://climatestudio.com",
+			articles: [
+				{ title: "Your Architect Guessed Where to Put the Windows.", slug: "ai-daylight-optimization" }
+			]
+		},
+		{
+			name: "Treble Technologies",
+			tagline: "AI acoustics simulation",
+			cat: "design",
+			icon: "🔇",
+			description: "100× faster wave-based acoustic simulation. Predicts STC/IIC ratings before walls go up. €11M Series A with Saint-Gobain as strategic investor.",
+			founded: "2015",
+			hq: "Copenhagen, Denmark",
+			funding: "€11M",
+			keyMetric: "100× faster acoustics",
+			url: "https://trebletechnologies.com",
+			articles: [
+				{ title: "Your Neighbor's TV Is 42 Decibels Too Loud.", slug: "ai-acoustics-design" }
+			]
+		},
+		{
+			name: "Archistar",
+			tagline: "AI site assessment & compliance",
+			cat: "design",
+			icon: "🏙️",
+			description: "Instant property development feasibility across planning rules. Free AI tool deployed by California for LA wildfire rebuild permits. Automated zoning and building envelope analysis.",
+			founded: "2014",
+			hq: "Sydney, Australia",
+			funding: "$5M+",
+			keyMetric: "CA wildfire rebuild tool",
+			url: "https://archistar.ai",
+			articles: [
+				{ title: "Your Permit Application Was Rejected.", slug: "ai-permit-automation" }
+			]
+		},
+		{
+			name: "Skillit",
+			tagline: "AI construction workforce matching",
+			cat: "safety",
+			icon: "👷",
+			description: "AI-powered worker matching platform for construction. Assesses skills, certifications, and experience to match workers to projects. Addresses the 349K worker shortage.",
+			founded: "2021",
+			hq: "New York, NY",
+			funding: "$3M+",
+			keyMetric: "Skill-based matching",
+			url: "https://skillit.com",
+			articles: [
+				{ title: "Your General Contractor Just Hired an AI Agent", slug: "ai-agents-construction" }
+			]
+		},
+		{
+			name: "GreatBuildz (BidCompareAI)",
+			tagline: "AI bid comparison for homeowners",
+			cat: "ai-software",
+			icon: "💰",
+			description: "Free AI tool that normalizes contractor bids in any format, flags scope gaps and pricing anomalies. Makes the opaque bidding process transparent for homeowners.",
+			founded: "2020",
+			hq: "Los Angeles, CA",
+			funding: "Private",
+			keyMetric: "Free for homeowners",
+			url: "https://greatbuildz.com",
+			articles: [
+				{ title: "You Got Three Bids. AI Found 14 Red Flags You Missed.", slug: "ai-contractor-bidding" }
+			]
+		},
+		{
+			name: "ZenRobotics",
+			tagline: "AI waste sorting robots",
+			cat: "sustainability",
+			icon: "🗑️",
+			description: "9,200 picks/hour for construction & demolition waste sorting. Computer vision identifies materials on conveyor belts for automated separation and recycling.",
+			founded: "2007",
+			hq: "Helsinki, Finland",
+			funding: "Terex acquisition",
+			keyMetric: "9,200 picks/hour",
+			url: "https://zenrobotics.com",
+			articles: [
+				{ title: "Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble.", slug: "ai-waste-sorting" }
+			]
+		}
+	];
+
+	// ── Render ──
+	const grid = document.getElementById('company-grid');
+	const searchInput = document.getElementById('search');
+	const pills = document.querySelectorAll('.filter-pill');
+	const resultCount = document.getElementById('result-count');
+	let activeFilter = 'all';
+
+	document.getElementById('stat-companies').textContent = COMPANIES.length;
+
+	function renderCards(filter, query) {
+		let filtered = COMPANIES;
+		if (filter !== 'all') {
+			filtered = filtered.filter(c => c.cat === filter);
+		}
+		if (query) {
+			const q = query.toLowerCase();
+			filtered = filtered.filter(c =>
+				c.name.toLowerCase().includes(q) ||
+				c.tagline.toLowerCase().includes(q) ||
+				c.description.toLowerCase().includes(q) ||
+				c.cat.replace(/-/g, ' ').includes(q) ||
+				c.articles.some(a => a.title.toLowerCase().includes(q))
+			);
+		}
+
+		resultCount.textContent = filtered.length === COMPANIES.length
+			? `Showing all ${COMPANIES.length} companies`
+			: `Showing ${filtered.length} of ${COMPANIES.length} companies`;
+
+		if (filtered.length === 0) {
+			grid.innerHTML = '<div class="no-results"><div class="emoji">🔍</div><p>No companies match your search. Try a different term.</p></div>';
+			return;
+		}
+
+		grid.innerHTML = filtered.map(c => {
+			const catLabel = {
+				'robotics': 'Robotics & Automation',
+				'ai-software': 'AI Software',
+				'materials': 'Materials & Concrete',
+				'smart-home': 'Smart Home',
+				'sustainability': 'Sustainability',
+				'project-mgmt': 'Project Management',
+				'safety': 'Safety & Workforce',
+				'design': 'Design & Planning'
+			}[c.cat] || c.cat;
+
+			const articleLinks = c.articles.map(a =>
+				`<a href="articles/${a.slug}.html">📄 ${a.title}</a>`
+			).join('');
+
+			return `
+			<div class="company-card" data-cat="${c.cat}">
+				<div class="cat-stripe cat-${c.cat}-stripe"></div>
+				<div class="card-top">
+					<div class="company-icon cat-${c.cat}-icon">${c.icon}</div>
+					<div>
+						<h3>${c.name}</h3>
+						<div class="tagline">${c.tagline}</div>
+					</div>
+				</div>
+				<span class="cat-badge cat-${c.cat}">${catLabel}</span>
+				<div class="description">${c.description}</div>
+				<div class="card-stats">
+					${c.founded ? `<div class="stat-item"><div class="label">Founded</div><div class="value">${c.founded}</div></div>` : ''}
+					${c.hq ? `<div class="stat-item"><div class="label">HQ</div><div class="value">${c.hq}</div></div>` : ''}
+					${c.funding ? `<div class="stat-item"><div class="label">Funding</div><div class="value">${c.funding}</div></div>` : ''}
+					${c.keyMetric ? `<div class="stat-item"><div class="label">Key Metric</div><div class="value">${c.keyMetric}</div></div>` : ''}
+				</div>
+				<div class="card-articles">
+					<div class="section-label">Featured In</div>
+					${articleLinks}
+				</div>
+				${c.url ? `<a href="${c.url}" target="_blank" rel="noopener" class="ext-link">Visit website →</a>` : ''}
+			</div>`;
+		}).join('');
+	}
+
+	// Filters
+	pills.forEach(pill => {
+		pill.addEventListener('click', () => {
+			pills.forEach(p => p.classList.remove('active'));
+			pill.classList.add('active');
+			activeFilter = pill.dataset.cat;
+			renderCards(activeFilter, searchInput.value);
+		});
+	});
+
+	// Search
+	let searchTimeout;
+	searchInput.addEventListener('input', () => {
+		clearTimeout(searchTimeout);
+		searchTimeout = setTimeout(() => {
+			renderCards(activeFilter, searchInput.value);
+		}, 200);
+	});
+
+	// Dark mode
+	const toggle = document.getElementById('themeToggle');
+	function setTheme(dark) {
+		document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+		toggle.textContent = dark ? '☀️' : '🌙';
+		localStorage.setItem('theme', dark ? 'dark' : 'light');
+	}
+	toggle.addEventListener('click', () => {
+		const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+		setTheme(!isDark);
+	});
+	// Restore theme
+	const saved = localStorage.getItem('theme');
+	if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme:dark)').matches)) {
+		setTheme(true);
+	}
+
+	// Keyboard shortcut
+	document.addEventListener('keydown', e => {
+		if (e.key === '/' && !e.ctrlKey && !e.metaKey && document.activeElement !== searchInput) {
+			e.preventDefault();
+			searchInput.focus();
+		}
+		if (e.key === 'Escape') {
+			searchInput.value = '';
+			searchInput.blur();
+			renderCards(activeFilter, '');
+		}
+	});
+
+	// Initial render
+	renderCards('all', '');
+	</script>
+</body>
+</html>

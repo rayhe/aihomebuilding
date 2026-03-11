@@ -64,7 +64,7 @@
 - [ ] Industry data dashboard page (construction stats, labor data)
 - [x] Interactive charts (Chart.js) — workforce trends, AI adoption rates ✅ (March 10, 2026 — 4 interactive charts: Productivity by Industry line chart, Worker Shortage bar chart, AI Adoption horizontal bar, ConTech VC Funding bar+line combo. Lazy-init on tab switch. Mobile responsive grid.)
 - [x] AI tools directory page — curated list of 20 construction AI tools with category filtering ✅ (Cycle 14 — March 9, 2026)
-- [ ] Company profiles for key players (ICON, Built Robotics, etc.)
+- [x] Company profiles for key players — `companies.html` standalone directory with 32 companies, 8 category filters, search, funding data, key metrics, and article cross-links. Linked from main nav + mobile drawer. ✅ (March 11, 2026)
 - [x] Enhanced "Our Journalists" section — full writer cards with avatar initials, beat badges, bios, article counts and links, mobile responsive ✅ (March 10, 2026)
 - [x] "Writers" nav link — scrolls to team section in About tab ✅ (March 10, 2026)
 - [x] RSS feed updated to all 32 articles ✅ (March 10, 2026 — was stale at 18)
