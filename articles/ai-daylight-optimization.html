@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options. — AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.",
+		"description": "AI daylight simulation tools are transforming window placement from artistic intuition into a data-driven optimization problem — balancing natural light, energy cost, glare, and human health in seconds.",
+		"image": "https://aihomebuilding.pages.dev/images/ai-daylight-optimization.jpg",
+		"datePublished": "2026-03-11",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.">
+	<meta property="og:description" content="AI daylight simulation tools are transforming window placement from artistic intuition into a data-driven optimization problem.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html">
+	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/ai-daylight-optimization.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.">
+	<meta name="twitter:description" content="AI daylight simulation tools are transforming window placement from artistic intuition into data-driven optimization.">
+	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-daylight-optimization.jpg">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			padding: 32px 24px;
+			max-width: 800px;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 0.75rem;
+			font-weight: 600;
+			padding: 4px 12px;
+			border-radius: 4px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			color: #fff;
+			margin: 0 0 12px;
+			line-height: 1.2;
+		}
+		.byline {
+			color: rgba(255,255,255,0.8);
+			font-size: 0.9rem;
+		}
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 40px 24px 80px;
+			font-size: 1.05rem;
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.6rem;
+			font-weight: 700;
+			margin: 48px 0 16px;
+			color: var(--text-primary);
+		}
+		.article-body p {
+			margin: 0 0 20px;
+			color: var(--text-secondary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.article-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 32px 0;
+			padding: 16px 24px;
+			font-style: italic;
+			color: var(--text-secondary);
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 32px 20px;
+			margin: 36px 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			margin-top: 8px;
+		}
+		.reading-progress {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 3px;
+			background: var(--accent);
+			z-index: 1000;
+			transition: width 0.1s;
+			width: 0%;
+		}
+		.share-bar {
+			display: flex;
+			gap: 10px;
+			margin: 32px 0;
+			flex-wrap: wrap;
+		}
+		.share-btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-size: 0.85rem;
+			text-decoration: none;
+			color: #fff;
+			transition: opacity 0.2s;
+		}
+		.share-btn:hover { opacity: 0.85; }
+		.share-btn.twitter { background: #1DA1F2; }
+		.share-btn.linkedin { background: #0A66C2; }
+		.share-btn.facebook { background: #1877F2; }
+		.share-btn.email { background: #555; }
+		@media (max-width: 768px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.6rem; }
+		}
+	</style>
+</head>
+<body>
+	<div class="reading-progress" id="readingProgress"></div>
+	<a href="../" class="back-link">&larr; Back to AI Home Building</a>
+
+	<header class="article-header">
+		<img src="../images/ai-daylight-optimization.jpg" alt="Modern home interior flooded with natural sunlight through strategically placed windows, golden hour light across hardwood floors" loading="eager">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<div class="badge">Architecture &amp; Design</div>
+			<h1>Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.</h1>
+			<div class="byline">By <strong>Elena Vasquez</strong> &middot; March 11, 2026 &middot; ☕ 5 min read</div>
+		</div>
+	</header>
+
+	<article class="article-body">
+		<p>Window placement is the most consequential decision in residential architecture that almost nobody optimizes. It determines how much natural light reaches every room, how much energy the HVAC system burns fighting solar gain, whether glare makes the living room unusable at 4 PM in July, and &mdash; increasingly, the data suggests &mdash; whether the people inside stay healthy. Yet for the vast majority of the <strong>1.4 million homes</strong> started in the US each year, window placement is decided by a combination of aesthetic intuition, code minimums, and whatever the floor plan template happens to show.</p>
+
+		<p>That&rsquo;s starting to change. A new generation of AI-powered daylight simulation tools can evaluate thousands of window configurations in the time it once took to test one &mdash; turning the oldest question in architecture into a solvable optimization problem.</p>
+
+		<div class="pull-stat">
+			<span class="number">300 Lux</span>
+			<span class="label">Target illuminance for &ldquo;daylit&rdquo; spaces — the threshold where electric lights can stay off. Most US homes fall below this for 60&ndash;70% of occupied hours.</span>
+		</div>
+
+		<h2>The Metric Architects Never Measured</h2>
+
+		<p>The building science community converged years ago on a metric called <strong>Spatial Daylight Autonomy (sDA)</strong>: the percentage of regularly occupied floor area that receives at least 300 lux of daylight for at least 50% of annual occupied hours. It&rsquo;s the core daylight credit in LEED v4.1, the WELL Building Standard, and increasingly in residential green certification programs.</p>
+
+		<p>The problem is that calculating sDA requires a full annual climate-based daylight simulation &mdash; tracing light rays from 8,760 hours of sky data through every window, off every surface, into every corner. Until recently, a single simulation for a modest home took <strong>20 to 45 minutes</strong> on specialized software like Radiance. Testing 50 window variations meant an overnight batch job. Testing 10,000 was absurd.</p>
+
+		<p>That&rsquo;s where machine learning enters the picture.</p>
+
+		<h2>Simulation at the Speed of Design</h2>
+
+		<p><a href="https://climatestudiodocs.com">ClimateStudio</a>, developed by Solemma and now one of the most widely used daylight tools in architecture schools and firms, uses a hybrid Radiance engine with machine learning acceleration that compresses annual sDA calculations from minutes to <strong>seconds</strong>. Architects working in Rhino or Revit can test a window change and see the daylight impact before their coffee cools.</p>
+
+		<p><a href="https://www.ladybug.tools">Ladybug Tools</a>, the open-source environmental analysis suite used by over <strong>180,000 architects and engineers</strong>, takes a different approach: parametric simulation. Connect a Grasshopper definition to Honeybee&rsquo;s daylight engine and you can sweep through thousands of window sizes, positions, and glazing types in a single automated run &mdash; each configuration scored on sDA, Annual Sunlight Exposure (ASE), energy use, and glare probability simultaneously.</p>
+
+		<p>And <a href="https://www.covetool.com">cove.tool</a>, the cloud platform that already handles energy modeling for over <strong>37,000 projects</strong>, now offers integrated daylight analysis alongside its energy optimizer. Upload a Revit model, click &ldquo;Analyze,&rdquo; and the platform returns a combined energy + daylight score with specific recommendations: <em>increase south-facing glazing by 8%, add interior light shelf, reduce west window-to-wall ratio from 30% to 18%.</em></p>
+
+		<div class="pull-stat">
+			<span class="number">5&ndash;10%</span>
+			<span class="label">Home value premium associated with superior natural light, per NAR and Zillow market analysis</span>
+		</div>
+
+		<h2>The Tradeoff Nobody Explains to Homebuyers</h2>
+
+		<p>Here is the tension that makes daylight optimization genuinely hard: <strong>more glass means more light and more energy waste</strong>. Every 1% increase in window-to-wall ratio (WWR) adds roughly <strong>0.5&ndash;1.5%</strong> to a home&rsquo;s heating and cooling load, depending on climate and orientation. A home with 40% WWR in Phoenix will cook. The same home with 15% WWR in Seattle will feel like a cave.</p>
+
+		<p>Architects have always navigated this tradeoff by intuition and experience. The AI advantage is brute force: test every combination of window size, placement, glazing spec, and overhang depth against both daylight and energy targets simultaneously, then surface the Pareto-optimal solutions &mdash; the configurations where you <em>cannot</em> improve daylight without sacrificing energy, or vice versa.</p>
+
+		<p>Multi-objective optimization algorithms like <strong>NSGA-II</strong>, now embedded in tools like Ladybug&rsquo;s Pollination platform, can identify these Pareto fronts across 5,000 to 50,000 design variants in hours. The architect&rsquo;s job shifts from guessing to choosing: here are your 15 best options, each with a different balance of light, energy, cost, and view.</p>
+
+		<h2>The Health Argument That Changes the Conversation</h2>
+
+		<p>The economic case for daylight optimization was always modest &mdash; save a few hundred dollars a year on electric lighting, maybe bump the resale value. But the <strong>health case</strong> is rewriting the calculus entirely.</p>
+
+		<p>Research published in the <em>Journal of Clinical Sleep Medicine</em> found that workers in offices with windows received <strong>173% more white-light exposure</strong> during work hours and slept an average of <strong>46 minutes more per night</strong> than those without windows. A 2024 meta-analysis in <em>Building and Environment</em> linked chronic low-daylight exposure in homes to significantly elevated rates of <strong>seasonal affective disorder</strong>, disrupted circadian rhythms, and reduced cognitive performance in children.</p>
+
+		<p>The WELL Building Standard, which certifies buildings for human health, requires that at least <strong>75% of regularly occupied area</strong> achieve sDA of 55% or higher &mdash; a target that fewer than 30% of conventionally designed homes would meet without intentional daylight engineering. As WELL certification expands into residential (pilot programs launched in 2025), the tools to verify compliance at design stage become essential rather than optional.</p>
+
+		<blockquote>&ldquo;We used to say &lsquo;put the living room on the south side.&rsquo; That was the extent of our daylight strategy for residential. Now we can show a client exactly which rooms will be dark in November and bright in June, down to the hour.&rdquo; &mdash; Senior architect at a Bay Area residential firm using ClimateStudio</blockquote>
+
+		<h2>What&rsquo;s Still Missing</h2>
+
+		<p>The tools exist for architects who know Rhino, Revit, or Grasshopper. They don&rsquo;t exist yet for the <strong>production builders</strong> responsible for 70% of new US homes &mdash; the D.R. Hortons and Lennar corporations using standardized floor plans across dozens of climate zones. A plan optimized for daylight in Atlanta is wrong for Minneapolis. AI could generate climate-specific window variants for every plan in a builder&rsquo;s catalog automatically, but no one has built that product yet.</p>
+
+		<p>The gap is also cultural. Homebuyers will spend $15,000 upgrading a kitchen but won&rsquo;t spend $2,000 on optimized window placement that would improve every room in the house for the next 50 years. The tools are ready. The market hasn&rsquo;t caught up.</p>
+
+		<p>But the trajectory is clear. When you can test 10,000 window configurations in the time it takes to sketch one, guessing becomes indefensible. The light was always there. We just never bothered to calculate where to let it in.</p>
+
+		<div class="share-bar">
+			<a class="share-btn twitter" href="https://twitter.com/intent/tweet?text=Your%20Architect%20Guessed%20Where%20to%20Put%20the%20Windows.%20The%20Algorithm%20Tested%2010%2C000%20Options.&url=https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html" target="_blank" rel="noopener">🐦 Tweet</a>
+			<a class="share-btn linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+			<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html" target="_blank" rel="noopener">📘 Facebook</a>
+			<a class="share-btn email" href="mailto:?subject=AI%20Daylight%20Optimization%20for%20Homes&body=https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html">✉️ Email</a>
+		</div>
+	</article>
+
+	<script>
+		window.addEventListener('scroll', () => {
+			const h = document.documentElement.scrollHeight - window.innerHeight;
+			document.getElementById('readingProgress').style.width = h > 0 ? (window.scrollY / h * 100) + '%' : '0%';
+		});
+		if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+	</script>
+<script src="../js/article-toc.js"></script>
+<script src="../js/related-articles.js"></script>
+</body>
+</html>

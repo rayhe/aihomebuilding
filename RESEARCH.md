@@ -274,3 +274,14 @@ When you discover a new topic worth covering, add it here with:
 - Professional landscape design costs $1,800–$7,500 (HomeAdvisor 2025)
 - Smart irrigation market: $5.8B by 2033 at 12% CAGR (IMARC), saves 15K gal/household/year (EPA)
 - **Published:** "Your Landscaper Charged $6,000 to Guess. The AI Showed You 15 Options in 30 Seconds." (Elena Vasquez)
+
+### 34. 🟢 AI Daylight Optimization & Window Placement
+- Spatial Daylight Autonomy (sDA): 300 lux for 50% of occupied hours — core metric in LEED v4.1 and WELL
+- ClimateStudio (Solemma): hybrid Radiance + ML engine, sDA in seconds instead of minutes
+- Ladybug Tools: 180K+ users, open-source parametric daylight via Grasshopper/Honeybee + NSGA-II optimization
+- cove.tool: cloud-based combined energy + daylight analysis for 37,000+ projects
+- Window-to-wall ratio tradeoff: each 1% WWR increase adds 0.5–1.5% to HVAC load
+- Health data: workers with windows get 173% more white light, sleep 46 min more/night (J. Clinical Sleep Medicine)
+- WELL Building Standard requires 75% of occupied area at sDA 55%+ — fewer than 30% of conventional homes would pass
+- Natural light premium: 5–10% home value increase (NAR/Zillow)
+- **Published:** "Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options." (Elena Vasquez)

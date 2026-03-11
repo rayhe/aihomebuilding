@@ -9,6 +9,7 @@
 
   // Full article catalog — category, slug, title, image alt text
   var ARTICLES = [
+    { slug: 'ai-daylight-optimization', cat: 'design', title: 'Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.', img: 'ai-daylight-optimization.jpg' },
     { slug: 'ai-landscape-design', cat: 'architecture', title: 'Your Landscaper Charged $6,000 to Guess. The AI Showed You 15 Options in 30 Seconds.', img: 'ai-landscape-design.jpg' },
     { slug: 'ai-acoustics-design', cat: 'design', title: 'Your Neighbor\u2019s TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up.', img: 'ai-acoustics-design.jpg' },
     { slug: 'ai-hvac-design', cat: 'construction-tech', title: 'Half of America\u2019s HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up.', img: 'ai-hvac-design.jpg' },
