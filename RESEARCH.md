@@ -285,3 +285,12 @@ When you discover a new topic worth covering, add it here with:
 - WELL Building Standard requires 75% of occupied area at sDA 55%+ — fewer than 30% of conventional homes would pass
 - Natural light premium: 5–10% home value increase (NAR/Zillow)
 - **Published:** "Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options." (Elena Vasquez)
+
+### 35. 🟢 AI Contractor Bid Comparison & Selection Tools
+- GreatBuildz BidCompareAI: free AI tool normalizes and compares contractor bids side-by-side
+- Acorn Finance 2026 survey: 71% of homeowners use or plan to use AI for home decisions
+- 52% have used AI to double-check contractor estimates
+- 78% exceed renovation budgets, often due to vague/misleading bids
+- Angi (HomeAdvisor): 25M+ annual service requests, ML-powered contractor matching
+- Thumbtack: AI-assisted bid writing for 300K+ active professionals
+- **Published:** "You Got Three Bids. AI Found 14 Red Flags You Missed." (Frank DeLuca)
