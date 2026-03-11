@@ -328,3 +328,16 @@ When you discover a new topic worth covering, add it here with:
 - GPR + AI image recognition: continuous subsurface scanning between boreholes
 - Average new home: $495,000 (Census Q4 2025), foundation = 8–15% of cost ($40K–$75K)
 - **Published:** "Your Foundation Engineer Drilled Three Holes and Guessed. The AI Modeled 10,000 Scenarios." (Jake Kowalski)
+
+
+### 39. 🟢 AI Mortgage Underwriting for Non-Traditional Construction
+- 67% of mortgages use AI-powered underwriting (2026), approval time 45 days → 24 hours
+- AVM market: $363M (MtgeFi 2025 report), all trained on conventional construction comps
+- ICON: ~200 3D-printed structures worldwide — statistically meaningless for appraisal models
+- FHA Mortgagee Letter 2023-18: use site-built comps when <2 comparable non-traditional sales
+- Manufactured housing classification penalty: +0.5–1.0% interest rate on modular homes
+- Bowery Valuation, HouseCanary: expanding AVM features for construction method + energy performance
+- Performance-based underwriting: evaluate actual R-value, ACH50, wind rating instead of construction taxonomy
+- Insurance bottleneck: single robotics claim triggers 4–5 separate policies, actuarial void
+- America short ~4M homes (Freddie Mac); 3D printing/modular are most promising paths, but financing blocks scale
+- **Published:** "You Built a 3D-Printed Home. The Bank Has No Idea How to Finance It." (Catherine Chen)
