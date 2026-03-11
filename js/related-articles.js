@@ -9,6 +9,7 @@
 
   // Full article catalog — category, slug, title, image alt text
   var ARTICLES = [
+    { slug: 'ai-acoustics-design', cat: 'design', title: 'Your Neighbor\u2019s TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up.', img: 'ai-acoustics-design.jpg' },
     { slug: 'ai-hvac-design', cat: 'construction-tech', title: 'Half of America\u2019s HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up.', img: 'ai-hvac-design.jpg' },
     { slug: 'ai-permit-automation', cat: 'policy', title: 'Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted.', img: 'ai-permit-automation.jpg' },
     { slug: 'construction-safety-ai', cat: 'workforce', title: '1,034 Construction Workers Died Last Year. An AI Saw It Coming.', img: 'construction-safety-ai.jpg' },

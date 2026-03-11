@@ -256,3 +256,12 @@ When you discover a new topic worth covering, add it here with:
 - Bias concern: Brookings found 21-23% undervaluation in majority-Black neighborhoods
 - MIT study: computer vision image analysis improved prediction accuracy up to 89%
 - **Published:** "Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew." (Catherine Chen)
+
+### 32. 🟢 AI Acoustics & Sound Simulation for Residential Design
+- WHO: noise is second most harmful environmental stressor after air pollution
+- Treble Technologies: €11M Series A (Sept 2024), 100× faster wave-based simulation, Saint-Gobain as strategic investor
+- Sonusoft Acoulatis: neural network AI for STC/IIC prediction, 3 dB accuracy, third-octave band predictions
+- IBC requires only STC 50 (inadequate); WELL Building Standard demands much higher
+- $15B global building soundproofing market (2025), 6% CAGR
+- Standard wall: STC 33 → with $200 upgrade: STC 55+ (speech inaudible)
+- **Published:** "Your Neighbor's TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up." (Elena Vasquez)
