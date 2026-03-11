@@ -9,6 +9,7 @@
 
   // Full article catalog — category, slug, title, image alt text
   var ARTICLES = [
+    { slug: 'ai-permit-automation', cat: 'policy', title: 'Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted.', img: 'ai-permit-automation.jpg' },
     { slug: 'construction-safety-ai', cat: 'workforce', title: '1,034 Construction Workers Died Last Year. An AI Saw It Coming.', img: 'construction-safety-ai.jpg' },
     { slug: 'ai-energy-modeling', cat: 'sustainability', title: 'Your Architect\u2019s Energy Model Took 2 Hours. The AI Did It in 2 Seconds.', img: 'ai-energy-modeling.jpg' },
     { slug: 'ai-builder-org-simulation', cat: 'workforce', title: 'We Simulated What Happens When a 200-Person Builder Adopts AI. It\u2019s Not What the Vendors Promised.', img: 'ai-builder-org-simulation.jpg' },

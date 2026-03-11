@@ -137,10 +137,13 @@ Active and planned research topics. Each thread has a status, key sources, and a
 
 ## Policy & Regulation
 
-### 19. ⚪ AI-Automated Permit Review
-- San Jose pilot: 4-6 weeks → 4 days
-- Dubai automated building code check
-- Regulatory barriers to adoption
+### 19. 🟢 AI-Automated Permit Review
+- San Jose pilot: 90% of ADU applications returned for missing info
+- Honolulu: 6 months → 3 days pre-screening with RPA + CivCheck AI copilot
+- Hamilton, Ontario: 60% decrease in processing times (Bloomberg Center)
+- California/Archistar: free AI tool for LA wildfire rebuild permits
+- Seattle pilot under Mayor Harrell executive order
+- **Published:** "Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted." (Catherine Chen)
 
 ### 20. ⚪ Building Codes and AI: Friend or Foe?
 - AI compliance checking (Archistar, Deepblocks)
