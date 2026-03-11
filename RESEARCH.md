@@ -294,3 +294,16 @@ When you discover a new topic worth covering, add it here with:
 - Angi (HomeAdvisor): 25M+ annual service requests, ML-powered contractor matching
 - Thumbtack: AI-assisted bid writing for 300K+ active professionals
 - **Published:** "You Got Three Bids. AI Found 14 Red Flags You Missed." (Frank DeLuca)
+
+### 36. 🟢 AI Smart Water Management for New-Construction Homes
+- EPA: ~1 trillion gallons wasted annually from household leaks
+- Water damage = 29.4% of all homeowner insurance claims (III), avg payout $11,605
+- 14,000 Americans file water damage claims daily (1 in 60 insured homes per year)
+- Moen Flo Smart Water Network: 240 measurements/second, AI learns household fingerprint
+- Phyn Plus: ultrasonic pressure wave analysis, 30+ fixture signatures, sub-second auto-shutoff
+- Install during rough-in: $400-$600 vs $2,000-$3,500 retrofit (5× cost multiplier)
+- Insurance discounts: 5-15% for smart water monitoring
+- AI pipe acoustic analysis: 92% accuracy for blockage detection
+- Smart irrigation (Rachio, RainMachine): 15,000 gal/household/year savings (EPA)
+- Full smart water stack during construction: $800-$1,500 vs $4,000-$7,000 retrofit
+- **Published:** "Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year. AI Is Finally Listening." (Jake Kowalski)
