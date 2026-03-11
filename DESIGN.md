@@ -88,6 +88,7 @@
 - [x] Performance optimization (image lazy loading, decoding="async") ✅ (January 7, 2026)
 - [x] Reading Bookmark System — `js/reading-bookmark.js` tracks scroll position on article pages (throttled, saves section heading + % progress), shows floating "📖 Continue Reading" toast on homepage with title, progress, and section context. Auto-clears on article completion (>95%), 1h dismiss cooldown, 7-day expiry. ✅ (June 8, 2026)
 - [x] Print Stylesheet — `css/print.css` strips nav/share/TOC/footer, constrains hero images, prints link URLs, adds site attribution footer, proper @page margins. All 45 articles wired up. ✅ (June 8, 2026)
+- [x] Article Navigation — `js/article-nav.js` adds prev/next links + author bio cards at the bottom of all 49 articles. Alphabetical navigation, 3-column grid (prev | home | next), responsive mobile stacking. Author bios pulled from journalist roster with emoji avatars, beat badges, and short bios. ✅ (March 11, 2026)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
 
