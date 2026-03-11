@@ -265,3 +265,12 @@ When you discover a new topic worth covering, add it here with:
 - $15B global building soundproofing market (2025), 6% CAGR
 - Standard wall: STC 33 → with $200 upgrade: STC 55+ (speech inaudible)
 - **Published:** "Your Neighbor's TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up." (Elena Vasquez)
+
+### 33. 🟢 AI Landscape Design Tools for Homeowners
+- $184.1B US landscaping industry (IBIS World 2025), 726K businesses, 1.5M workers
+- Instant visualizers: Paintit.ai, RescapeAI, Neighborbrite — photo upload → AI renders in seconds
+- AR-first: iScape — drag virtual plants/hardscape into live camera view
+- End-to-end: Yardzen acquired by Oldcastle APG (CRH) Nov 2024 — AI + human design + contractor matching
+- Professional landscape design costs $1,800–$7,500 (HomeAdvisor 2025)
+- Smart irrigation market: $5.8B by 2033 at 12% CAGR (IMARC), saves 15K gal/household/year (EPA)
+- **Published:** "Your Landscaper Charged $6,000 to Guess. The AI Showed You 15 Options in 30 Seconds." (Elena Vasquez)
