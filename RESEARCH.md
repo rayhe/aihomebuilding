@@ -317,3 +317,14 @@ When you discover a new topic worth covering, add it here with:
 - 5-year TCO: $32K-$40K including implementation and maintenance
 - Entry-level labor displacement risk: kills the on-ramp to skilled trades
 - **Published:** "A Humanoid Robot Costs $13,500. A Construction Worker Costs $72,000. Do the Math." (Marcus Washington)
+
+### 38. 🟢 AI Geotechnical Analysis & Foundation Design Optimization
+- U.S. foundation repair market: $4.9B annually (2025)
+- Geotechnical investigation cost: $3,000–$15,000 for residential (2–4 boreholes, lab analysis)
+- Foundaxis: AI+FEM structural foundation design — auto-selects/optimizes isolated, strip, raft foundations
+- Fugro: 50% lab capacity increase, ML-automated CPT/SPT interpretation
+- McKinsey: predictive analytics reduce foundation cost overruns by up to 30%
+- Seequent GeoStudio: ML-powered settlement prediction from historical data
+- GPR + AI image recognition: continuous subsurface scanning between boreholes
+- Average new home: $495,000 (Census Q4 2025), foundation = 8–15% of cost ($40K–$75K)
+- **Published:** "Your Foundation Engineer Drilled Three Holes and Guessed. The AI Modeled 10,000 Scenarios." (Jake Kowalski)
