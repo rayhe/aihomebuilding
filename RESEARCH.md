@@ -213,3 +213,12 @@ When you discover a new topic worth covering, add it here with:
 - Meta open-source Bayesian optimizer for low-carbon concrete (BoTorch/Ax)
 - California Buy Clean Act + EPA Inflation Reduction Act driving regulatory demand
 - **Published:** "Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third." (Priya Greenwood)
+
+### 28. 🟢 AI Home Appraisal & Automated Valuation Models
+- FHFA expanded appraisal waivers to 90% LTV (Oct 2024), inspection-based to 97%
+- Zillow Zestimate: 116M homes, 1.83% median error on listed properties
+- CoreLogic, Redfin, HouseCanary all deploy ML-based AVMs
+- Nearly 1 in 5 Freddie Mac purchase loans bypass traditional appraisal (June 2025)
+- Bias concern: Brookings found 21-23% undervaluation in majority-Black neighborhoods
+- MIT study: computer vision image analysis improved prediction accuracy up to 89%
+- **Published:** "Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew." (Catherine Chen)
