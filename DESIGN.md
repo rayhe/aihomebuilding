@@ -80,6 +80,9 @@
 ### Phase 6: Advanced
 - [x] RSS feed generation — `feed.xml` with all 18 articles, auto-discovery `<link>` in `<head>`, 📡 icon in nav ✅ (Cycle 20 — March 10, 2026)
 - [x] SEO optimization (Open Graph, Twitter Cards, JSON-LD Article schema, canonical URLs) ✅ (Cycle 16 — March 10, 2026)
+- [x] Proper sitemap.xml — rebuilt with all 40 URLs (1 homepage + 39 articles), correct domain, lastmod dates. Was broken placeholder pointing to `cloudflare-pages-template.pages.dev` with 1 URL. ✅ (March 11, 2026)
+- [x] robots.txt — fixed from `example.com` to correct domain, added `/functions/` disallow. ✅ (March 11, 2026)
+- [x] RSS feed deduplication — rebuilt from scratch using article metadata extraction, removed 2 duplicate entries (3d-printed-homes, modular-prefab-ai appeared twice). Now 39 unique items. ✅ (March 11, 2026)
 - [x] Performance optimization (image lazy loading, decoding="async") ✅ (January 7, 2026)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)

@@ -123,6 +123,72 @@
 		}
 
 		/* ── Navigation ── */
+		/* ── Stats Ticker ── */
+		.stats-ticker {
+			background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+			border-bottom: 1px solid rgba(255,107,53,0.2);
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+			scrollbar-width: none;
+		}
+		.stats-ticker::-webkit-scrollbar { display: none; }
+		.stats-ticker-inner {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0;
+			padding: 0;
+			min-width: max-content;
+			margin: 0 auto;
+			max-width: 1200px;
+		}
+		.stat-chip {
+			display: flex;
+			align-items: baseline;
+			gap: 5px;
+			padding: 10px 20px;
+			white-space: nowrap;
+			position: relative;
+		}
+		.stat-chip:not(:last-child)::after {
+			content: '';
+			position: absolute;
+			right: 0;
+			top: 25%;
+			height: 50%;
+			width: 1px;
+			background: rgba(255,255,255,0.1);
+		}
+		.stat-num, .stat-num-dollar, .stat-num-pct {
+			font-family: 'Inter', sans-serif;
+			font-weight: 800;
+			font-size: 1.1rem;
+			color: #FF6B35;
+			letter-spacing: -0.02em;
+		}
+		.stat-unit {
+			font-family: 'Inter', sans-serif;
+			font-weight: 700;
+			font-size: 0.85rem;
+			color: #FF6B35;
+			margin-left: -3px;
+		}
+		.stat-label {
+			font-family: 'Inter', sans-serif;
+			font-size: 0.7rem;
+			font-weight: 500;
+			color: rgba(255,255,255,0.55);
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+		}
+		@media (max-width: 768px) {
+			.stats-ticker-inner { justify-content: flex-start; }
+			.stat-chip { padding: 8px 14px; }
+			.stat-num, .stat-num-dollar, .stat-num-pct { font-size: 0.95rem; }
+			.stat-label { font-size: 0.6rem; }
+		}
+
+		/* ── Site Nav ── */
 		.site-nav {
 			background: var(--bg-card);
 			border-bottom: 1px solid var(--border);
@@ -728,6 +794,18 @@
 		<p class="masthead-tagline">Research & reporting on how artificial intelligence is transforming home design, construction, and project management</p>
 	</div>
 </header>
+
+<!-- Stats Ticker -->
+<div class="stats-ticker">
+	<div class="stats-ticker-inner">
+		<div class="stat-chip"><span class="stat-num" data-target="4700000">0</span><span class="stat-label">US Housing Shortage</span></div>
+		<div class="stat-chip"><span class="stat-num" data-target="349000">0</span><span class="stat-label">Construction Workers Short</span></div>
+		<div class="stat-chip"><span class="stat-num-dollar" data-target="5.4">$0</span><span class="stat-unit">B</span><span class="stat-label">ConTech VC Invested</span></div>
+		<div class="stat-chip"><span class="stat-num" data-target="1075">0</span><span class="stat-label">Construction Deaths/Year</span></div>
+		<div class="stat-chip"><span class="stat-num-pct" data-target="0.4">0</span><span class="stat-unit">%</span><span class="stat-label">Annual Productivity Growth</span></div>
+		<div class="stat-chip"><span class="stat-num" data-target="39">0</span><span class="stat-label">Articles Published</span></div>
+	</div>
+</div>
 
 <!-- Navigation -->
 <nav class="site-nav">
@@ -2464,6 +2542,54 @@ switchTab = function(tabId, clickedLink) {
 	_origSwitchTab(tabId, clickedLink);
 	if (tabId === 'data') setTimeout(initCharts, 100);
 };
+
+// ── Stats Ticker Count-Up Animation ──
+(function() {
+	function animateCountUp(el, target, duration, prefix, suffix) {
+		const start = 0;
+		const startTime = performance.now();
+		prefix = prefix || '';
+		suffix = suffix || '';
+		
+		function format(n) {
+			if (target >= 1000000) return prefix + (n / 1000000).toFixed(n >= target ? 1 : 1) + suffix + 'M';
+			if (target >= 1000) return prefix + Math.round(n).toLocaleString() + suffix;
+			if (target < 1) return prefix + n.toFixed(1) + suffix;
+			return prefix + Math.round(n).toLocaleString() + suffix;
+		}
+
+		function step(now) {
+			const elapsed = now - startTime;
+			const progress = Math.min(elapsed / duration, 1);
+			const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+			const current = start + (target - start) * eased;
+			el.textContent = format(current);
+			if (progress < 1) requestAnimationFrame(step);
+		}
+		requestAnimationFrame(step);
+	}
+
+	const observer = new IntersectionObserver(function(entries) {
+		entries.forEach(function(entry) {
+			if (!entry.isIntersecting) return;
+			const chips = entry.target.querySelectorAll('.stat-chip');
+			chips.forEach(function(chip, i) {
+				setTimeout(function() {
+					const numEl = chip.querySelector('.stat-num');
+					const dollarEl = chip.querySelector('.stat-num-dollar');
+					const pctEl = chip.querySelector('.stat-num-pct');
+					if (numEl) animateCountUp(numEl, parseFloat(numEl.dataset.target), 1500, '', '');
+					if (dollarEl) animateCountUp(dollarEl, parseFloat(dollarEl.dataset.target), 1500, '$', '');
+					if (pctEl) animateCountUp(pctEl, parseFloat(pctEl.dataset.target), 1500, '', '');
+				}, i * 120);
+			});
+			observer.unobserve(entry.target);
+		});
+	}, { threshold: 0.3 });
+
+	const ticker = document.querySelector('.stats-ticker-inner');
+	if (ticker) observer.observe(ticker);
+})();
 </script>
 </body>
 </html>
