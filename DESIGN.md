@@ -85,6 +85,8 @@
 - [x] RSS feed deduplication — rebuilt from scratch using article metadata extraction, removed 2 duplicate entries (3d-printed-homes, modular-prefab-ai appeared twice). Now 39 unique items. ✅ (March 11, 2026)
 - [x] Article grid deduplication — **Complete rebuild June 8, 2026**: Python-generated grid from article HTML metadata. 42 unique grid cards + 1 featured = 43 total matching 43 article files. RSS feed rebuilt (43 items), sitemap rebuilt (44 URLs), stats ticker updated, Industry filter pill added. Previous manual dedup (March 11) was incomplete — articles had crept back to 57 cards for 43 files. ✅ (June 8, 2026)
 - [x] Performance optimization (image lazy loading, decoding="async") ✅ (January 7, 2026)
+- [x] Reading Bookmark System — `js/reading-bookmark.js` tracks scroll position on article pages (throttled, saves section heading + % progress), shows floating "📖 Continue Reading" toast on homepage with title, progress, and section context. Auto-clears on article completion (>95%), 1h dismiss cooldown, 7-day expiry. ✅ (June 8, 2026)
+- [x] Print Stylesheet — `css/print.css` strips nav/share/TOC/footer, constrains hero images, prints link URLs, adds site attribution footer, proper @page margins. All 45 articles wired up. ✅ (June 8, 2026)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
 
