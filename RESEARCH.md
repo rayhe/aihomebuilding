@@ -214,7 +214,15 @@ When you discover a new topic worth covering, add it here with:
 - California Buy Clean Act + EPA Inflation Reduction Act driving regulatory demand
 - **Published:** "Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third." (Priya Greenwood)
 
-### 28. 🟢 AI Home Appraisal & Automated Valuation Models
+### 29. 🟢 AI Structural Engineering & Design Optimization
+- Thornton Tomasetti's Asterisk: computational structural AI platform, instant member sizing + embodied carbon
+- Augmenta: fully automated building design platform, claims 30% material waste reduction
+- Topology optimization: 30-50% material savings via organic load-path-following shapes
+- Residential overdesign problem: 20-30% excess structural material from conservative engineering tradition
+- Structural engineer fees: $350-$800 inspection, $5K-$7.5K for full plans (2-3% of budget)
+- NAHB: $10.8B annual economic impact from construction labor shortage
+- **Published:** "Your Home Has 30% More Steel Than It Needs. AI Knows Exactly How Much to Remove." (Jake Kowalski)
+
 - FHFA expanded appraisal waivers to 90% LTV (Oct 2024), inspection-based to 97%
 - Zillow Zestimate: 116M homes, 1.83% median error on listed properties
 - CoreLogic, Redfin, HouseCanary all deploy ML-based AVMs
