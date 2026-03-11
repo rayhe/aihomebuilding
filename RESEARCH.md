@@ -156,11 +156,12 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Potential for lower premiums with AI QA
 - **Published:** "Your Insurer Has No Idea How to Price a Robot-Built Home" (Catherine Chen)
 
-### 23. ⚪ The Org Simulation: What Happens When a Mid-Size Builder Adopts AI?
+### 23. 🟢 The Org Simulation: What Happens When a Mid-Size Builder Adopts AI?
 - Model a 200-person construction company over 12 months
 - Track roles: estimators, PMs, supers, laborers, office staff
 - Who thrives, who struggles, who leaves
 - Policy implications for workforce transition
+- **Published:** "We Simulated What Happens When a 200-Person Builder Adopts AI. It's Not What the Vendors Promised." (Marcus Washington)
 
 ---
 
