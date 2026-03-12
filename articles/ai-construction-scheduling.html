@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>98% of Construction Projects Run Late. AI Recovers 42 Days on Average. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-construction-scheduling.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "98% of Construction Projects Run Late. AI Recovers 42 Days on Average.",
+		"description": "ALICE Technologies, nPlan, and a new generation of AI scheduling tools are compressing project timelines by 17%. Frank DeLuca on why your Gantt chart is lying to you.",
+		"image": "https://aihomebuilding.pages.dev/images/ai-construction-scheduling.jpg",
+		"datePublished": "2026-03-12",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.pages.dev/articles/ai-construction-scheduling.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="98% of Construction Projects Run Late. AI Recovers 42 Days on Average.">
+	<meta property="og:description" content="ALICE Technologies, nPlan, and a new generation of AI scheduling tools are compressing project timelines by 17%. Frank DeLuca on why your Gantt chart is lying to you.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/ai-construction-scheduling.html">
+	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/ai-construction-scheduling.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="98% of Construction Projects Run Late. AI Recovers 42 Days on Average.">
+	<meta name="twitter:description" content="AI scheduling tools compress project timelines by 17%. Your Gantt chart is lying to you.">
+	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-construction-scheduling.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			padding: 32px 24px;
+			max-width: 800px;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 0.75rem;
+			font-weight: 600;
+			padding: 4px 12px;
+			border-radius: 4px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: clamp(1.6rem, 4vw, 2.4rem);
+			color: #fff;
+			margin: 0 0 12px 0;
+			line-height: 1.2;
+		}
+		.article-header .byline {
+			color: #ccc;
+			font-size: 0.9rem;
+		}
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 40px 24px 60px;
+		}
+		.article-body p {
+			margin-bottom: 1.4em;
+			font-size: 1.05rem;
+			color: var(--text-secondary);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.5rem;
+			margin: 2em 0 0.8em;
+			color: var(--text-primary);
+		}
+		.pull-stat {
+			border-left: 4px solid var(--accent);
+			padding: 16px 24px;
+			margin: 2em 0;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .context {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 4px;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5em 0;
+			font-size: 0.95rem;
+		}
+		th, td {
+			padding: 10px 14px;
+			text-align: left;
+			border-bottom: 1px solid var(--border);
+		}
+		th {
+			font-weight: 600;
+			color: var(--text-primary);
+			background: var(--bg-card);
+		}
+		td { color: var(--text-secondary); }
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		section.sources {
+			border-top: 1px solid var(--border);
+			margin-top: 2em;
+			padding-top: 1.5em;
+		}
+		section.sources h3 {
+			font-size: 1rem;
+			font-weight: 600;
+			margin-bottom: 0.8em;
+		}
+		section.sources ul {
+			list-style: none;
+			padding: 0;
+		}
+		section.sources li {
+			font-size: 0.85rem;
+			color: var(--text-muted);
+			margin-bottom: 0.5em;
+			padding-left: 1em;
+			text-indent: -1em;
+		}
+		section.sources a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+		section.sources a:hover { text-decoration: underline; }
+	</style>
+</head>
+<body>
+	<a href="../" class="back-link">&larr; AI Home Building</a>
+	<header class="article-header">
+		<img src="../images/ai-construction-scheduling.jpg" alt="Construction superintendent reviewing a project timeline on a screen in a site trailer">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<div class="badge">Project Management</div>
+			<h1>98% of Construction Projects Run Late. AI Recovers 42 Days on Average.</h1>
+			<div class="byline">By <strong>Frank DeLuca</strong> &middot; March 12, 2026</div>
+		</div>
+	</header>
+
+	<div class="article-body">
+
+		<p>I ran a custom home in 2017 that went sideways because a framing crew no-showed for nine days during a stretch of unexpected rain. The schedule said we had float. We didn&rsquo;t. The electrician was booked three weeks out. The drywall sub pushed back a month. A nine-day weather delay cascaded into 47 lost days and $38,000 in carrying costs.</p>
+
+		<p>The schedule had lied to me. Not because someone drew it wrong, but because nobody could calculate what happens when three dependencies fail simultaneously during a weather window that closes in November.</p>
+
+		<p>That&rsquo;s what AI scheduling tools are actually solving. Not the easy part&mdash;sequencing tasks on a Gantt chart. The hard part: predicting which delays will cascade and recovering before they compound.</p>
+
+		<div class="pull-stat">
+			<div class="number">98%</div>
+			<div class="context">of construction projects in North America experience delays, with average durations extending 37% beyond original projections &mdash; Projul analysis of industry data, 2025</div>
+		</div>
+
+		<h2>The Delay Math</h2>
+
+		<p>According to a <a href="https://projul.com/blog/construction-cost-overruns-prevention-guide/">Projul analysis of North American construction data</a>, 98% of projects face delays. The average overrun is 37% of the original schedule. Large projects run 20% behind with budget blowouts up to 80%.</p>
+
+		<p>Residential is worse than commercial in some ways. A $500 million hospital has a full-time scheduler running Primavera P6 with 8,000 activity lines. A $600,000 custom home has a GC with a whiteboard and a phone full of subcontractor texts. The hospital might overrun by 20%. The house overruns by 40% and nobody tracks it precisely enough to know.</p>
+
+		<p>The causes are depressingly consistent. A <a href="https://buildern.com/resources/blog/project-delays-in-construction/">Buildern 2025 study of construction delay metrics</a> identified the top four: weather and site conditions (uncontrollable), labor availability (semi-controllable), material lead times (trackable), and permitting/inspection bottlenecks (predictable but ignored). AI can&rsquo;t control the weather. But it can model what happens to a schedule when it rains for nine days in Week 12.</p>
+
+		<h2>Who&rsquo;s Actually Shipping</h2>
+
+		<table>
+			<thead>
+				<tr><th>Platform</th><th>Approach</th><th>Claimed Results</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>ALICE Technologies</td><td>Generative scheduling &mdash; tests thousands of sequence permutations</td><td>17% duration reduction, 14% labor cost reduction</td></tr>
+				<tr><td>nPlan</td><td>Predictive analytics on 750K+ historical schedules ($2T+ in spend)</td><td>Activity-level delay forecasting</td></tr>
+				<tr><td>ALICE Plan</td><td>2D visual scheduling on drawings (no 3D model required)</td><td>Suffolk recovered 42 days on a life sciences project</td></tr>
+				<tr><td>Buildots</td><td>360&deg; camera + AI progress tracking vs. schedule</td><td>$45M raised, used on residential projects</td></tr>
+			</tbody>
+		</table>
+
+		<p><a href="https://blog.alicetechnologies.com/case-studies">ALICE Technologies</a> is the one I&rsquo;d watch closest. Founded by Ren&eacute; Morkos out of Stanford, their platform generates thousands of possible construction sequences and evaluates each one for duration, cost, and resource utilization. The 17% duration reduction and 14% labor cost savings come from their deployed project data&mdash;not a lab test. Suffolk Construction used ALICE to recover 42 days on a single project by resequencing activities around a delay that would have cascaded through four trades.</p>
+
+		<p>That recovery number matters more than the prevention number. Every GC knows the schedule will break. The question is how fast you can build a new one.</p>
+
+		<h2>nPlan: 750,000 Schedules Worth of Hindsight</h2>
+
+		<p><a href="https://www.nplan.io/">nPlan</a> takes a different approach. Instead of generating optimal sequences forward, they predict delays backward from history. Their deep learning engine trains on over 750,000 historical construction schedules representing more than $2 trillion in completed work. Feed it your schedule, and it flags which activities are most likely to slip and by how much.</p>
+
+		<p>For residential, the use case is less about individual activity prediction and more about portfolio pattern recognition. A production builder doing 200 homes a year could use nPlan to identify that their HVAC rough-in consistently slips by 4 days in Q4 because the same three subcontractors are overbooked. That&rsquo;s not a scheduling problem. It&rsquo;s a procurement problem wearing a scheduling costume.</p>
+
+		<div class="pull-stat">
+			<div class="number">17%</div>
+			<div class="context">average project duration reduction reported by ALICE Technologies across deployed projects &mdash; ALICE case studies, 2025</div>
+		</div>
+
+		<h2>The Residential Gap</h2>
+
+		<p>Every tool I just described was built for commercial and infrastructure projects. ALICE&rsquo;s sweet spot is $50M+ jobs. nPlan trains on megaproject data. Buildots mounts cameras in buildings with concrete cores and curtain walls.</p>
+
+		<p>A custom home builder running six projects a year with four-person crews is not the target customer. The ROI math doesn&rsquo;t work at a $400/month SaaS price point when your total project value is $600K and your scheduler is the same person who orders the lumber.</p>
+
+		<p>Where AI scheduling actually lands in residential today:</p>
+
+		<p><strong>Production builders (50+ homes/year)</strong> &mdash; these are the first adopters. Lennar, D.R. Horton, and Taylor Morrison have the volume to justify the software and the data to make predictions meaningful. A 17% schedule compression across 200 starts per year is tens of millions in recovered carrying costs.</p>
+
+		<p><strong>Weather integration</strong> &mdash; this is the lowest-hanging fruit and the one I wish I&rsquo;d had in 2017. Several scheduling platforms now integrate 14-day weather forecasts directly into timeline projections. When rain shows up in the forecast, the schedule automatically flags at-risk activities and suggests resequencing. ALICE Plan does this through its 2D canvas&mdash;no BIM model required, which removes the biggest adoption barrier for residential.</p>
+
+		<p><strong>Subcontractor coordination</strong> &mdash; the real scheduling bottleneck in residential isn&rsquo;t task sequencing. It&rsquo;s that your electrician also works for three other GCs and just moved your Tuesday start to next Thursday. AI tools that aggregate subcontractor availability across multiple projects could compress the coordination overhead that adds 2&ndash;3 weeks to every residential job. Nobody has nailed this yet, but it&rsquo;s coming.</p>
+
+		<h2>What I&rsquo;d Actually Do</h2>
+
+		<p>If I were still running custom jobs, three moves:</p>
+
+		<p><strong>Track weather windows religiously.</strong> Free. NOAA&rsquo;s <a href="https://www.weather.gov/">14-day forecasts</a> are good enough. Block exterior work around rain probabilities above 40%, not above 80%. My 2017 disaster happened because I scheduled framing through a &ldquo;chance of showers&rdquo; week. Chance was 60%. It rained for nine straight days.</p>
+
+		<p><strong>Log actual vs. planned durations.</strong> Every trade, every project. After 10 projects, you have your own nPlan. You&rsquo;ll discover that your HVAC guy always takes 6 days even though he quotes 4, and your roofer always beats his estimate by a day. Build the schedule around reality, not quotes.</p>
+
+		<p><strong>Watch ALICE Plan.</strong> It&rsquo;s the first tool from the AI scheduling world that doesn&rsquo;t require a 3D model. You upload 2D drawings, drag activities onto them, and the system generates a visual schedule synced to the actual layout. For a GC who thinks in floorplans, not Gantt charts, this is the interface that could finally make AI scheduling accessible below the $10M project threshold.</p>
+
+		<p>The schedule is always going to break. What AI changes is how fast you see it breaking and how many recovery options you have before the cascade hits.</p>
+
+		<section class="sources">
+			<h3>Sources</h3>
+			<ul>
+				<li>Projul (2025). &ldquo;Construction Cost Overruns Prevention Guide.&rdquo; Analysis of North American construction delay data. <a href="https://projul.com/blog/construction-cost-overruns-prevention-guide/" target="_blank" rel="noopener">projul.com</a></li>
+				<li>Buildern (2025). &ldquo;On-Time Delivery and Project Delays in Construction: Key Metrics for 2026.&rdquo; <a href="https://buildern.com/resources/blog/project-delays-in-construction/" target="_blank" rel="noopener">buildern.com</a></li>
+				<li>ALICE Technologies. Case studies: 17% duration reduction, 14% labor cost reduction, 12% equipment cost reduction across deployed projects. Suffolk Construction: 42-day recovery. <a href="https://blog.alicetechnologies.com/case-studies" target="_blank" rel="noopener">blog.alicetechnologies.com</a></li>
+				<li>ALICE Technologies (2025). &ldquo;ALICE Plan: 2D Visual Project Planning Tool.&rdquo; Press release. <a href="https://www.constructionowners.com/press-release/alice-technologies-launches-alice-plan-new-2d-project-planning-tool" target="_blank" rel="noopener">constructionowners.com</a></li>
+				<li>nPlan. AI-first platform for project controls, trained on 750,000+ historical construction schedules ($2T+ in spend). <a href="https://www.nplan.io/" target="_blank" rel="noopener">nplan.io</a></li>
+				<li>AI Tinkerers. &ldquo;nPlan: AI for Project Controls and Delivery.&rdquo; Technology overview. <a href="https://aitinkerers.org/technologies/nplan" target="_blank" rel="noopener">aitinkerers.org</a></li>
+				<li>AI Dive (2025). &ldquo;Suffolk Construction used ALICE to optimize key milestones on a life sciences project, recover 42 days.&rdquo; <a href="https://aidive.org/en/ai/openspace" target="_blank" rel="noopener">aidive.org</a></li>
+				<li>NOAA National Weather Service. 14-day extended forecast. <a href="https://www.weather.gov/" target="_blank" rel="noopener">weather.gov</a></li>
+			</ul>
+		</section>
+
+	</div>
+</body>
+</html>

@@ -445,7 +445,15 @@ When you discover a new topic worth covering, add it here with:
 - Errors in residential electrical plans: ~15% rejection rate at permit review (NFPA research)
 - Journalist: Catherine Chen (policy/regulation beat) or Jake Kowalski
 
-### 48. ⚪ AI Construction Scheduling: Weather, Supply Chain, and Labor Prediction
+### 48. 🟢 AI Construction Scheduling: Weather, Supply Chain, and Labor Prediction
+- ALICE Technologies: generative scheduling, 17% duration reduction, 14% labor cost reduction
+- nPlan: 750K+ historical schedules, $2T+ in spend, activity-level delay forecasting
+- Suffolk Construction: 42-day recovery using ALICE
+- Buildern 2025: top delay causes — weather, labor, materials, permitting
+- Projul: 98% of NA projects delayed, average 37% overrun
+- Residential gap: tools built for $50M+ projects, not $600K custom homes
+- ALICE Plan: 2D visual scheduling without BIM — first residential-accessible tool
+- **Published:** "98% of Construction Projects Run Late. AI Recovers 42 Days on Average." (Frank DeLuca)
 - Residential builds average 7.2 months (Census 2024), but variance is enormous
 - Alice Technologies: 4D construction scheduling with ML-optimized sequencing
 - Rhumbix (now Procore): field time tracking + ML productivity prediction
