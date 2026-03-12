@@ -357,3 +357,13 @@ When you discover a new topic worth covering, add it here with:
 - CTA-2045 open standard for grid-interactive water heaters
 - Diversity factor math breaks down when all loads are electric
 - **Published:** "Your 200-Amp Panel Can't Handle Your All-Electric Future. Smart Panels Are Buying You Time." (Jake Kowalski)
+
+### 41. 🟢 Building Performance Gap & AI Verification
+- IPEEC 2019 global review: buildings use 25% more energy than designed (average), up to 250% at worst
+- 50% of new homes fail first blower door test when modern IECC codes adopted (PNNL/Eric Nelson)
+- Build Test Solutions Heat3D: FLIR One Pro + AI calculates actual U-values (ISO 9869-2 compliant)
+- MDPI Buildings 2025 study: deep learning thermal anomaly detection 92% precision vs 72% conventional
+- Buildots: $45M at $300M valuation (May 2025), 360° camera + CV compares build vs BIM model
+- Inspekt AI: drone-based thermal facade scans, 200+ buildings inspected
+- Mid-construction thermal verification: scan after insulation, before drywall — $200 vs $3K rework
+- **Published:** "Your Home Uses 25% More Energy Than Its Plans Promised. AI Is Finally Catching the Difference." (Jake Kowalski)
