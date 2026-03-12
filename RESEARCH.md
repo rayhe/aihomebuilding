@@ -78,10 +78,15 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Computer vision for progress tracking
 - **Published:** "From 14 Months to 10" (Frank DeLuca)
 
-### 11. ⚪ AI Cost Estimation
-- ProEst, Buildxact, STACK AI
-- How machine learning predicts costs from plans
-- Accuracy: AI vs. experienced estimators
+### 11. 🟢 AI Cost Estimation
+- AACE 17R-97 five-class system (Class 5 at −50%/+100% to Class 1 at −10%/+15%)
+- 9 in 10 projects overrun budgets by avg 28% (Propeller Aero/Oxford meta-analysis)
+- AI strongest at Class 3–4 (quantity takeoff 95–97% accuracy, completed in minutes vs hours)
+- ProEst ($200–400/mo), Buildxact, STACK, Togal.AI, CostToBuild.net
+- AI weakest on renovations (site-specific unknowns not in blueprints) and local subcontractor pricing
+- Combined human+AI approach beats either alone
+- 78% of homeowners exceed renovation budgets (Clever Real Estate, n=1,000)
+- **Published:** "Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently." (Frank DeLuca)
 
 ### 12. ⚪ Supply Chain AI for Construction
 - Material price prediction, lead time forecasting
