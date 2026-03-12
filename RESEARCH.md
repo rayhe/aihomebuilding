@@ -376,3 +376,12 @@ When you discover a new topic worth covering, add it here with:
 - Inspekt AI: drone-based thermal facade scans, 200+ buildings inspected
 - Mid-construction thermal verification: scan after insulation, before drywall — $200 vs $3K rework
 - **Published:** "Your Home Uses 25% More Energy Than Its Plans Promised. AI Is Finally Catching the Difference." (Jake Kowalski)
+
+### 21. 🟢 Wildfire-Resilient Home Design & AI Risk Assessment
+- ZestyAI: 126M properties assessed, 4.3M at high risk, $2.15T exposed
+- IBHS Wildfire Prepared Home standard updated June 2025
+- Cape Analytics: computer vision property-level wildfire assessment
+- California Chapter 7A WUI building code tightening (2025 cycle)
+- Insurance crisis: FAIR Plan at $724B exposure, forward-looking catastrophe models
+- WUI construction cost premium: $5K-$16K on a new build (1-4%)
+- **Published:** "$2.15 Trillion in Homes at Wildfire Risk. AI Can See Which Ones Will Survive." (Priya Greenwood)
