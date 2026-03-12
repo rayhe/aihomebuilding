@@ -407,7 +407,7 @@ When you discover a new topic worth covering, add it here with:
 - Residential adoption lag: most wearable deployments are commercial/infrastructure
 - Journalist: Marcus Washington (workforce/labor beat)
 
-### 44. ⚪ AI Mold & Moisture Detection for New Construction
+### 44. 🟢 AI Mold & Moisture Detection for New Construction
 - Mold remediation costs: $1,500–$30,000+ for residential
 - 50% of US buildings have dampness conditions (NIOSH)
 - ML models detect moisture anomalies in thermal imaging before visible damage
@@ -415,6 +415,8 @@ When you discover a new topic worth covering, add it here with:
 - Sensirion SEN6x: multi-parameter sensors (VOC, humidity, temperature, particulates)
 - Pre-drywall moisture scanning: $300 vs $15K mold remediation
 - Insurance: water damage is #1 homeowner claim category (29.4% of all claims)
+- Sensor Innovation (Norway): 30-year battery wireless AI moisture sensors
+- **Published:** "47% of American Buildings Have a Moisture Problem. The Walls Won't Tell You Until It's Too Late." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
 
 ### 45. ⚪ Generative AI Floor Plans: Consumer Tools vs Professional Design
