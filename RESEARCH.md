@@ -492,11 +492,11 @@ When you discover a new topic worth covering, add it here with:
 - PEX adoption at 60%+ of new residential (2025 PMI survey), enables more flexible AI routing
 - Journalist: Jake Kowalski (construction tech beat)
 
-### 51. ⚪ AI for Accessible Home Design Beyond Aging-in-Place
+### 51. 🟢 AI for Accessible Home Design Beyond Aging-in-Place
 - 61 million Americans live with disabilities (CDC 2024)
 - Universal design principles vs ADA minimum compliance
 - Maket AI: accessible constraint-based floor plans (wheelchair turning radii, zero-thresholds)
 - Sidewalk Labs generative design: optimizing shared spaces for mobility diversity
 - Visitability legislation: growing movement for basic accessibility in all new homes
 - Cost of universal design at construction: 1–3% premium. Retrofit: 10–30× more
-- Journalist: Catherine Chen (policy beat) or Marcus Washington (human-centered)
+- **Published:** "97% of American Homes Fail a Wheelchair. AI Won't Fix That — But It Makes Excuses Harder." (Catherine Chen)
