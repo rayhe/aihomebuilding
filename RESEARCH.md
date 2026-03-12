@@ -88,10 +88,14 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - 78% of homeowners exceed renovation budgets (Clever Real Estate, n=1,000)
 - **Published:** "Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently." (Frank DeLuca)
 
-### 12. ⚪ Supply Chain AI for Construction
+### 12. 🟢 Supply Chain AI for Construction
 - Material price prediction, lead time forecasting
-- Lumber price volatility and AI hedging
-- Just-in-time delivery optimization
+- Lumber price volatility: $350→$1,711/mbf in 14 months (2020-2021)
+- BLS PPI data: steel +62.6%, gypsum +50.7%, concrete +38.3% in 4 years
+- Briq ($150M valuation), CMiC ERP, ALICE Technologies
+- Demand forecasting, supplier risk scoring, JIT delivery, price prediction
+- Honest assessment: most tools built for $50M+ portfolios, ROI thin for custom builders
+- **Published:** "Lumber Went from $350 to $1,700 in a Year. Nobody Saw It Coming. AI Might." (Frank DeLuca)
 
 ---
 
