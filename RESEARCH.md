@@ -28,10 +28,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Consumer vs. professional tools
 - Impact on interior design profession
 
-### 4. ⚪ Digital Twins for Home Design
+### 4. 🟢 Digital Twins for Home Design
 - Virtual replicas that simulate performance before building
 - Autodesk Tandem, Bentley iTwin
 - Energy, acoustics, airflow simulation
+- **Published:** "Your House Exists Twice. The Digital One Catches the Mistakes." (Elena Vasquez)
 
 ---
 
