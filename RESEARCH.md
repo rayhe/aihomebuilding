@@ -476,12 +476,13 @@ When you discover a new topic worth covering, add it here with:
 - Small builders still use Excel/paper: <20% use scheduling software (NAHB 2024)
 - Journalist: Frank DeLuca (project management beat)
 
-### 49. ⚪ AI Radon Testing & Mitigation Design for New Homes
+### 49. 🟢 AI Radon Testing & Mitigation Design for New Homes
 - Radon is #1 cause of lung cancer in non-smokers: 21,000 deaths/year (EPA)
 - 1 in 15 US homes has elevated radon (>4 pCi/L)
 - Airthings: continuous radon monitoring with ML trend analysis and alerts
 - RadonEye RD200: 10-minute readings vs traditional 48-hour charcoal tests
 - Sub-slab depressurization system during construction: $800–$1,200 (vs $1,500–$3,000 retrofit)
+- **Published:** "21,000 Americans Die From Radon Every Year. Your Builder Doesn't Test for It." (Priya Greenwood)
 - AI soil gas prediction: USGS radon potential maps + ML for parcel-level risk
 - New IRC requirement: radon-resistant construction in Zone 1 counties
 - Journalist: Priya Greenwood (sustainability/health beat)
