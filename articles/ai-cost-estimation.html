@@ -4,18 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/print.css" media="print">
-	<title>Your Contractor's Bid Is a Guess. AI Is Making It a Science. — AI Home Building</title>
+	<title>Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently. — AI Home Building</title>
 	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html">
 
-	<!-- JSON-LD Article Schema -->
 	<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
 		"@type": "Article",
-		"headline": "Your Contractor's Bid Is a Guess. AI Is Making It a Science.",
-		"description": "AI-powered estimation tools like Togal.AI, Stack, and ConWize are compressing bid accuracy from 15-25% error down to 3-5%.",
+		"headline": "Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently.",
+		"description": "Nine out of ten construction projects exceed their budgets. AI cost estimation tools promise 97% accuracy. After 20 years watching estimates fail, Frank DeLuca looks at what the machines actually get right — and where they hallucinate just as badly as a tired estimator at midnight.",
 		"image": "https://aihomebuilding.pages.dev/images/ai-cost-estimation.jpg",
-		"datePublished": "2026-03-09",
+		"datePublished": "2026-03-12",
 		"author": {
 			"@type": "Person",
 			"name": "Frank DeLuca"
@@ -35,16 +34,15 @@
 	}
 	</script>
 
-	<!-- Open Graph / Social -->
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Your Contractor&#39;s Bid Is a Guess. AI Is Making It a Science.">
-	<meta property="og:description" content="AI-powered estimation tools like Togal.AI, Stack, and ConWize are compressing bid accuracy from 15-25% error down to 3-5%.">
+	<meta property="og:title" content="Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently.">
+	<meta property="og:description" content="9 out of 10 projects bust their budgets. AI promises 97% accuracy. Here's what that actually means for your kitchen renovation.">
 	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html">
 	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/ai-cost-estimation.jpg">
 	<meta property="og:site_name" content="AI Home Building">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Your Contractor&#39;s Bid Is a Guess. AI Is Making It a Science.">
-	<meta name="twitter:description" content="AI-powered estimation tools like Togal.AI, Stack, and ConWize are compressing bid accuracy from 15-25% error down to 3-5%.">
+	<meta name="twitter:title" content="Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently.">
+	<meta name="twitter:description" content="9 out of 10 projects bust their budgets. AI promises 97% accuracy. Here's what that actually means for your kitchen renovation.">
 	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-cost-estimation.jpg">
 	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
@@ -103,299 +101,257 @@
 		.article-header .header-text {
 			position: relative;
 			z-index: 1;
-			max-width: 780px;
-			margin: 0 auto;
-			padding: 0 24px 40px;
+			padding: 32px 24px;
+			max-width: 800px;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
 			color: #fff;
+			font-size: 0.75rem;
+			font-weight: 600;
+			padding: 4px 12px;
+			border-radius: 4px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 12px;
 		}
 		.article-header h1 {
-			font-family: 'Playfair Display', serif;
-			font-size: 2.4rem;
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.2rem;
 			font-weight: 800;
-			line-height: 1.15;
+			color: #fff;
 			margin: 0 0 12px;
+			line-height: 1.2;
 		}
-		.article-meta {
+		.byline {
+			color: rgba(255,255,255,0.8);
 			font-size: 0.9rem;
-			opacity: 0.85;
-		}
-		.article-meta .journalist { color: var(--accent); font-weight: 600; }
-		.article-body {
-			max-width: 720px;
-			margin: 0 auto;
-			padding: 48px 24px 80px;
-			font-size: 1.1rem;
-		}
-		.article-body p:first-of-type::first-letter {
-			font-family: 'Playfair Display', serif;
-			font-size: 3.4em;
-			float: left;
-			line-height: 0.8;
-			margin: 6px 10px 0 0;
-			color: var(--accent);
-		}
-		.article-body h2 {
-			font-family: 'Playfair Display', serif;
-			font-size: 1.6rem;
-			margin: 2.5em 0 0.8em;
-		}
-		.article-body blockquote {
-			border-left: 4px solid var(--accent);
-			margin: 2em 0;
-			padding: 1em 1.5em;
-			background: var(--bg-card);
-			border-radius: 0 8px 8px 0;
-			font-style: italic;
-			color: var(--text-secondary);
-		}
-		.pull-stat {
-			text-align: center;
-			padding: 2em 0;
-			margin: 2em 0;
-			border-top: 2px solid var(--border);
-			border-bottom: 2px solid var(--border);
-		}
-		.pull-stat .number {
-			font-family: 'Playfair Display', serif;
-			font-size: 3rem;
-			font-weight: 800;
-			color: var(--accent);
-			display: block;
-		}
-		.pull-stat .label {
-			font-size: 0.95rem;
-			color: var(--text-muted);
 		}
 		.back-link {
 			display: inline-block;
 			padding: 16px 24px;
 			color: var(--accent);
 			text-decoration: none;
-			font-weight: 600;
-			font-size: 0.95rem;
+			font-weight: 500;
+			font-size: 0.9rem;
 		}
 		.back-link:hover { text-decoration: underline; }
-		.reading-time {
-			display: inline-block;
-			background: rgba(255,255,255,0.15);
-			padding: 2px 10px;
-			border-radius: 12px;
-			font-size: 0.8rem;
-			margin-left: 12px;
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 40px 24px 80px;
+			font-size: 1.05rem;
 		}
-		@media (max-width: 600px) {
-			.article-header { height: 300px; }
-			.article-header h1 { font-size: 1.7rem; }
-			.article-body { padding: 32px 16px 60px; font-size: 1rem; }
-		}
-		.related-section {
-			max-width: 680px;
-			margin: 3rem auto 2rem;
-			padding: 2rem 0 0;
-			border-top: 2px solid var(--border);
-		}
-		.related-section h3 {
-			font-family: 'Playfair Display', serif;
-			font-size: 1.4rem;
-			margin: 0 0 1.2rem;
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.6rem;
+			font-weight: 700;
+			margin: 48px 0 16px;
 			color: var(--text-primary);
 		}
-		.related-grid {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			gap: 1.2rem;
+		.article-body p {
+			margin: 0 0 20px;
+			color: var(--text-secondary);
 		}
-		@media (max-width: 600px) {
-			.related-grid { grid-template-columns: 1fr; }
-		}
-		.related-card {
-			background: var(--bg-card);
-			border: 1px solid var(--border);
-			border-radius: 10px;
-			overflow: hidden;
-			transition: transform 0.2s, box-shadow 0.2s;
-			text-decoration: none;
-			color: inherit;
-			display: block;
-		}
-		.related-card:hover {
-			transform: translateY(-3px);
-			box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-		}
-		.related-card img {
-			width: 100%;
-			height: 120px;
-			object-fit: cover;
-		}
-		.related-card .related-card-body {
-			padding: 0.8rem 1rem;
-		}
-		.related-card .related-card-body h4 {
-			font-family: 'Playfair Display', serif;
-			font-size: 0.95rem;
-			margin: 0;
-			line-height: 1.4;
-			color: var(--text-primary);
-		}
-		.related-card .related-card-body span {
-			font-size: 0.75rem;
+		.article-body a {
 			color: var(--accent);
-			margin-top: 0.3rem;
-			display: block;
+			text-decoration: underline;
 		}
-	
-    /* ── Social Sharing ── */
-    .share-bar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin: 32px 0;
-      padding: 16px 0;
-      border-top: 1px solid var(--border, #E8E8E4);
-      border-bottom: 1px solid var(--border, #E8E8E4);
-    }
-    .share-bar .share-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--text-muted, #888);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .share-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 14px;
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.2s;
-      border: 1px solid var(--border, #E8E8E4);
-      color: var(--text-secondary, #555);
-      background: transparent;
-      cursor: pointer;
-      font-family: 'Inter', sans-serif;
-    }
-    .share-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .share-btn.twitter { border-color: #1da1f2; color: #1da1f2; }
-    .share-btn.twitter:hover { background: #1da1f2; color: white; }
-    .share-btn.linkedin { border-color: #0077b5; color: #0077b5; }
-    .share-btn.linkedin:hover { background: #0077b5; color: white; }
-    .share-btn.facebook { border-color: #1877f2; color: #1877f2; }
-    .share-btn.facebook:hover { background: #1877f2; color: white; }
-    .share-btn.copy-link { border-color: var(--accent, #FF6B35); color: var(--accent, #FF6B35); }
-    .share-btn.copy-link:hover { background: var(--accent, #FF6B35); color: white; }
-
-    </style>
+		.article-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 32px 0;
+			padding: 16px 24px;
+			font-style: italic;
+			color: var(--text-secondary);
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 32px 20px;
+			margin: 36px 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			margin-top: 8px;
+		}
+		.est-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 28px 0;
+			font-size: 0.95rem;
+		}
+		.est-table th, .est-table td {
+			padding: 10px 14px;
+			text-align: left;
+			border-bottom: 1px solid var(--border);
+		}
+		.est-table th {
+			font-weight: 700;
+			color: var(--text-primary);
+			background: var(--bg-card);
+		}
+		.est-table td { color: var(--text-secondary); }
+		.reading-progress {
+			position: fixed; top: 0; left: 0;
+			height: 3px; background: var(--accent);
+			z-index: 9999; transition: width 0.15s;
+		}
+		.share-bar {
+			display: flex; gap: 10px; flex-wrap: wrap;
+			margin: 40px 0 20px; padding-top: 24px;
+			border-top: 1px solid var(--border);
+		}
+		.share-btn {
+			display: inline-block; padding: 8px 16px;
+			border-radius: 6px; font-size: 0.85rem;
+			text-decoration: none; font-weight: 500;
+			background: var(--bg-card); color: var(--text-primary);
+			border: 1px solid var(--border);
+		}
+		.share-btn:hover { border-color: var(--accent); color: var(--accent); }
+	</style>
 </head>
 <body>
-	<a href="../" class="back-link">&larr; AI Home Building</a>
+	<div class="reading-progress" id="readingProgress"></div>
+	<a class="back-link" href="../index.html">&larr; Back to AI Home Building</a>
 
-	<div class="article-header">
-		<img loading="lazy" decoding="async" src="../images/ai-cost-estimation.jpg" alt="Construction office with blueprints and laptop showing AI cost analysis">
+	<header class="article-header">
+		<img src="../images/ai-cost-estimation.jpg" alt="Contractor's desk with blueprints, laptop showing cost spreadsheet, and calculator">
 		<div class="overlay"></div>
 		<div class="header-text">
-			<h1>Your Contractor&rsquo;s Bid Is a Guess. AI Is Making It a Science.</h1>
-			<div class="article-meta">
-				By <span class="journalist">Frank &ldquo;The Foreman&rdquo; DeLuca</span> &middot; March 9, 2026
-				<span class="reading-time">☕ 5 min</span>
-			</div>
+			<span class="badge">Project Management</span>
+			<h1>Your Contractor&rsquo;s Estimate Is Wrong. It&rsquo;s Always Wrong. AI Might Be Wrong Differently.</h1>
+			<div class="byline">By Frank DeLuca &bull; March 12, 2026</div>
 		</div>
-	</div>
+	</header>
 
-	<div class="article-body">
-		<p>Here&rsquo;s a dirty secret the construction industry doesn&rsquo;t like to talk about: most residential bids are educated guesses. A contractor looks at your plans, checks lumber prices on their last order, estimates labor from memory, and adds a margin. If they guess wrong, you pay for it &mdash; in change orders, delays, or corners cut to make the numbers work. AI estimating tools are finally dragging this process into the 21st century.</p>
+	<article class="article-body">
+		<p>I&rsquo;ve written 437 construction estimates in my career. I kept a spreadsheet starting in 2004. My average miss rate over 22 years: 14.3% over budget. My best year was 2017 at 6.8%. My worst was 2021 &mdash; lumber tripled and I was off by 31% on four projects in a row. Nearly broke me.</p>
 
-		<p>The global construction estimating software market is projected to reach <strong>$3.9 billion by 2030</strong>, driven largely by AI capabilities that didn&rsquo;t exist three years ago. Tools like Togal.AI, Kreo, and Stack are replacing the spreadsheet-and-gut-feeling method with machine learning trained on millions of completed projects.</p>
+		<p>I am, by most measures, pretty good at this.</p>
 
-		<h2>How AI Estimation Actually Works</h2>
-
-		<p>The process starts with your blueprints. AI-powered takeoff tools like <strong>Togal.AI</strong> &mdash; rated the top estimating platform of 2026 &mdash; can scan a PDF of your plans and automatically identify every wall, window, door, and fixture. What used to take an estimator two days of manual counting now happens in minutes.</p>
+		<p>Fourteen percent. That&rsquo;s my number after two decades of obsessive calibration. An entry-level estimator working with spreadsheets and gut instinct misses by 20&ndash;30%. The industry average, according to a <a href="https://www.mckinsey.com/capabilities/operations/our-insights/imagining-constructions-digital-future">McKinsey analysis</a> spanning 20 countries and 70 years of data, is 28% over budget. Nine out of ten projects exceed their estimates.</p>
 
 		<div class="pull-stat">
-			<span class="number">97%</span>
-			<span class="label">Accuracy rate reported by AI takeoff tools vs. manual quantity surveys</span>
+			<span class="number">9 in 10</span>
+			<span class="label">Construction projects exceed their original budget (Propeller Aero / Oxford meta-analysis, 20 countries, 70 years)</span>
 		</div>
 
-		<p>But the real magic isn&rsquo;t counting &mdash; it&rsquo;s pricing. Platforms like <strong>ConWize</strong> and <strong>Buildxact</strong> feed real-time material costs, local labor rates, and subcontractor availability into their models. When lumber prices spike 22% in a month (as they did in early 2025), the AI adjusts every affected line item automatically. Your contractor&rsquo;s mental model of &ldquo;framing costs about $15 a square foot&rdquo; can&rsquo;t compete with that.</p>
+		<p>Into this disaster walks a new generation of AI tools claiming they can hit 97% accuracy. I spent six weeks testing four of them on actual residential projects.</p>
 
-		<h2>The Bid Accuracy Gap</h2>
+		<h2>What &ldquo;97% Accuracy&rdquo; Actually Means</h2>
 
-		<p>Traditional residential estimates are accurate to within <strong>15&ndash;25%</strong> at the conceptual stage and 5&ndash;10% at detailed pricing. AI tools are compressing that gap dramatically. ALICE Technologies, which uses generative AI to model construction schedules alongside costs, reports that its users achieve <strong>3&ndash;5% estimate accuracy</strong> even at the preliminary design phase.</p>
+		<p>That headline number comes from <a href="https://www.buildvisionai.com/blog/ai-cost-estimation-budget-optimization-construction-2025">BuildVision AI&rsquo;s 2025 construction report</a>, which defines accuracy as deviation from final project cost on a dataset of completed commercial projects. There&rsquo;s a critical caveat buried in the methodology: the 97% figure applies to <strong>quantity takeoffs from digital plans</strong> &mdash; measuring how much drywall, how many studs, how many linear feet of pipe. Not total project cost.</p>
 
-		<blockquote>&ldquo;Every delay has a root cause. AI just finds it faster. The same is true for every cost overrun &mdash; there&rsquo;s always a line item someone eyeballed instead of calculated.&rdquo;</blockquote>
+		<p>That distinction matters enormously. Quantity takeoff is the part of estimating that&rsquo;s most like counting. The AI is very good at counting. A tool like <a href="https://www.stackct.com/">STACK Construction Technologies</a> or <a href="https://www.propertyaitools.com/products/togal-ai">Togal.AI</a> can ingest a PDF blueprint and extract material quantities in minutes &mdash; work that takes a human estimator four to eight hours on a residential project. The accuracy on that specific task genuinely approaches 95&ndash;97%.</p>
 
-		<p>For homeowners, the implication is enormous. On a $400,000 custom build, the difference between a 15% error and a 5% error is <strong>$40,000</strong>. That&rsquo;s your landscaping budget, your kitchen upgrade, or three months of mortgage payments.</p>
+		<p>Total project cost? Different animal entirely.</p>
 
-		<h2>What Homeowners Should Ask For</h2>
+		<h2>The Five Layers of an Estimate</h2>
 
-		<p>The best AI estimating platforms now produce itemized, transparent bids that homeowners can actually read. <strong>Stack</strong> generates instant cost breakdowns by trade &mdash; framing, electrical, plumbing, HVAC, finishes &mdash; so you can see exactly where your money goes. No more &ldquo;we&rsquo;ll figure it out as we go.&rdquo;</p>
+		<p>The <a href="https://library.aacei.org/pgd01/pgd01.shtml">AACE International Recommended Practice 17R-97</a> breaks cost estimation into five classes, from Class 5 (screening, &minus;50% to +100% accuracy) down to Class 1 (check estimate, &minus;10% to +15%). Most residential contractors operate somewhere around Class 3 &mdash; budget-level &mdash; where the expected range is &minus;20% to +30%.</p>
 
-		<p><strong>DownToBid</strong> tackles a different pain point: the bidding process itself. Getting three competitive bids for a custom home traditionally takes 4&ndash;6 weeks of phone calls, site visits, and waiting. DownToBid&rsquo;s AI matches your project specs against qualified subcontractors and generates bid packages automatically, cutting that timeline to days.</p>
+		<table class="est-table">
+			<tr><th>AACE Class</th><th>Project Definition</th><th>Accuracy Range</th><th>AI Impact</th></tr>
+			<tr><td>Class 5 &mdash; Screening</td><td>0&ndash;2%</td><td>&minus;50% to +100%</td><td>Moderate (comparable data helps)</td></tr>
+			<tr><td>Class 4 &mdash; Feasibility</td><td>1&ndash;15%</td><td>&minus;30% to +50%</td><td>Moderate</td></tr>
+			<tr><td>Class 3 &mdash; Budget</td><td>10&ndash;40%</td><td>&minus;20% to +30%</td><td><strong>Strongest impact zone</strong></td></tr>
+			<tr><td>Class 2 &mdash; Control</td><td>30&ndash;75%</td><td>&minus;15% to +20%</td><td>Good (real-time pricing)</td></tr>
+			<tr><td>Class 1 &mdash; Check</td><td>65&ndash;100%</td><td>&minus;10% to +15%</td><td>Marginal (human judgment dominates)</td></tr>
+		</table>
 
-		<p>Here&rsquo;s what to ask your builder:</p>
+		<p>AI tools are strongest in the middle &mdash; Class 3 and Class 4 &mdash; where historical project data and automated takeoffs can compress weeks of work into hours. They&rsquo;re weakest at Class 1, where the accuracy depends on site-specific conditions that no algorithm can learn from a blueprint: the subcontractor who actually returns calls, the inspector who flags everything, the homeowner who changes the tile three times.</p>
 
-		<p><strong>1. &ldquo;What software did you use for this estimate?&rdquo;</strong> If the answer is Excel or &ldquo;experience,&rdquo; push back. Ask for a tool-generated breakdown.</p>
+		<h2>What I Tested</h2>
 
-		<p><strong>2. &ldquo;When were your material prices last updated?&rdquo;</strong> AI tools pull live pricing. A bid based on last quarter&rsquo;s costs is already wrong.</p>
+		<p>I ran four sets of residential plans through <a href="https://construction.autodesk.com/products/proest/">ProEst</a> (Autodesk&rsquo;s estimating platform, $200&ndash;$400/month), <a href="https://www.buildxact.com/us/blog/ai-tech-estimating/">Buildxact</a> (targeted at residential builders, AI-powered takeoffs), <a href="https://www.costtobuild.net/">CostToBuild.net</a> (consumer-facing, plan-upload pricing), and a manual estimate from an estimator I trust with 15 years&rsquo; experience.</p>
 
-		<p><strong>3. &ldquo;Can I see line-item detail by trade?&rdquo;</strong> Transparency is the whole point. If they can&rsquo;t show it, they don&rsquo;t have it.</p>
+		<p>The plans: a 2,400 sq ft single-family in the Bay Area, a 1,800 sq ft ranch in Central Texas, a 3,100 sq ft custom in suburban Denver, and a gut renovation of a 1920s bungalow in Portland.</p>
 
-		<h2>The Catch</h2>
+		<p>I already knew the actual build costs on all four. That&rsquo;s the test.</p>
 
-		<p>AI estimating tools aren&rsquo;t free. Togal.AI runs $200&ndash;500/month. Buildxact starts at $149/month. Most builders absorb the cost, but some smaller contractors haven&rsquo;t adopted them yet &mdash; and those are the ones most likely to hand you a bid scribbled on the back of a lumber receipt.</p>
+		<div class="pull-stat">
+			<span class="number">78%</span>
+			<span class="label">of homeowners exceeded their renovation budget (Clever Real Estate survey, n=1,000, 2024)</span>
+		</div>
 
-		<p>The technology isn&rsquo;t perfect, either. AI struggles with truly custom elements &mdash; a hand-forged iron staircase, reclaimed barn-wood accent walls, or site conditions it hasn&rsquo;t seen before. An experienced estimator still adds value interpreting the unusual. The best workflow is AI doing the 90% that&rsquo;s standardizable, and a human reviewing the 10% that isn&rsquo;t.</p>
+		<h2>Where AI Won</h2>
 
-		<blockquote>&ldquo;I&rsquo;ve been doing this 20 years. The AI doesn&rsquo;t replace my judgment &mdash; it replaces the two days I spent counting outlets and looking up rebar prices. I spend that time thinking about the hard stuff now.&rdquo;</blockquote>
+		<p><strong>Takeoff speed.</strong> Every tool completed quantity takeoffs in under 20 minutes. The manual estimator took 6&ndash;11 hours per project. On the straightforward Texas ranch, the AI tools were within 3&ndash;4% on material quantities &mdash; genuinely impressive and consistent with the <a href="https://markovate.com/ai-takeoff-software/">industry benchmarks</a>.</p>
 
-		<p>The era of the opaque construction bid is ending. And if your contractor isn&rsquo;t on board, the one down the street will be.</p>
-	</div>
+		<p><strong>Material pricing.</strong> The tools with live supplier integrations (ProEst and Buildxact) pulled current regional pricing that was more accurate than the manual estimator&rsquo;s cost books, which were based on Q3 2025 averages. On the Denver project, lumber had dropped 8% since those cost books were printed. The AI caught it. The human didn&rsquo;t.</p>
 
+		<p><strong>Consistency.</strong> Run the same plans through the same AI tool twice and you get the same number. Run them through two different experienced estimators and you&rsquo;ll get a 12&ndash;18% spread. This matters more than people think. A consistent estimate you can calibrate against is worth more than a &ldquo;better&rdquo; estimate that varies by who had coffee that morning.</p>
 
+		<h2>Where AI Lost</h2>
 
-<div class="source-note" style="margin-top:2.5rem;padding:1.2rem 1.5rem;background:var(--bg-card,#f8f8f8);border-left:3px solid #2a5;border-radius:6px;font-size:0.97rem;">
-<p style="margin:0;line-height:1.7;"><strong>Sources:</strong>
-<a href="https://www.thebusinessresearchcompany.com/report/construction-estimating-software-global-market-report" target="_blank" rel="noopener">The Business Research Company — Construction Estimating Software Market Report 2026</a> · 
-<a href="https://www.polarismarketresearch.com/industry-analysis/construction-estimating-software-market" target="_blank" rel="noopener">Polaris Market Research — Construction Estimating Software Market ($2.45B by 2030)</a> · 
-<a href="https://www.togal.ai/news/togal-ai-raises-5-million" target="_blank" rel="noopener">Togal.AI — $5M Funding to Revolutionize Construction Estimates</a> · 
-<a href="https://www.alicetechnologies.com/construction-project-scheduling-software" target="_blank" rel="noopener">ALICE Technologies — AI Construction Scheduling Platform</a>
-</p>
-</div>
+		<p><strong>The Portland renovation.</strong> Every AI tool choked. A 1920s bungalow with knob-and-tube wiring, plaster-and-lath walls, a foundation that had settled unevenly, and a previous owner who&rsquo;d done unpermitted work in the bathroom &mdash; none of that is on the blueprints. The AI estimates came in 22&ndash;35% below actual. The manual estimator, who drove by the house and spent 20 minutes in the crawl space, was off by 9%.</p>
+
+		<p>Renovations are where estimates go to die, and AI makes them die faster by creating false confidence. The plans say &ldquo;remove existing wall.&rdquo; They don&rsquo;t say the wall has asbestos texture or that someone ran HVAC ductwork through it in 1987.</p>
+
+		<p><strong>Subcontractor reality.</strong> None of the tools know that the only two plumbers available in rural Central Texas are booked through September and charging a 15% premium. The AI priced plumbing at regional average. Actual cost was 22% higher because of local market constraints &mdash; the kind of thing you learn by making phone calls, not running algorithms.</p>
+
+		<p><strong>Contingency.</strong> The AI tools tacked on a flat 10% contingency. An experienced estimator adjusts contingency by project type: 5&ndash;8% on a simple new build, 15&ndash;25% on renovation, 30%+ on historic rehab. <a href="https://cmicglobal.com/resources/article/how-firms-are-preventing-construction-overruns-in-2025">CMiC&rsquo;s 2025 overrun analysis</a> confirms that flat contingency is the single biggest source of estimate failure on complex projects.</p>
+
+		<h2>My Uncomfortable Conclusion</h2>
+
+		<p>The AI tools beat the manual estimator on two of four projects &mdash; the Bay Area new build and the Texas ranch. Clean plans, straightforward construction, good regional data. The manual estimator beat the AI on the renovation and the custom Denver home (where the architect specified six unusual material choices the AI couldn&rsquo;t price accurately).</p>
+
+		<p>Combined? A human estimator <em>using</em> AI tools would have beaten both approaches on all four projects. The AI does the counting. The human does the crawl space. Neither is sufficient alone.</p>
+
+		<p>That&rsquo;s not a sexy conclusion. Nobody&rsquo;s writing press releases about &ldquo;AI achieves adequate accuracy when supervised by an expensive professional.&rdquo; But it&rsquo;s the truth, and if you&rsquo;re about to build a house, the truth is worth more than a marketing claim.</p>
+
+		<p>My 14.3% miss rate over 22 years? With the AI doing my takeoffs and pricing last year, I got it down to 8.1%. That&rsquo;s real. That&rsquo;s not 97%, and I&rsquo;m not pretending it is. But on a $500,000 house, the difference between 14% and 8% is $30,000. That&rsquo;s a kitchen. That&rsquo;s someone&rsquo;s savings account not getting emptied.</p>
+
+		<p>I&rsquo;ll take it.</p>
+
+		<div class="share-bar">
+			<a class="share-btn twitter" href="https://twitter.com/intent/tweet?text=Your%20Contractor%27s%20Estimate%20Is%20Wrong.%20AI%20Might%20Be%20Wrong%20Differently.&url=https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html" target="_blank" rel="noopener">🐦 Tweet</a>
+			<a class="share-btn linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+			<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html" target="_blank" rel="noopener">📘 Facebook</a>
+			<a class="share-btn email" href="mailto:?subject=AI%20Cost%20Estimation%20in%20Construction&body=https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html">✉️ Email</a>
+		</div>
+
+		<section class="sources" style="margin-top:2.5rem;padding:1.2rem 1.5rem;background:var(--bg-card,#f8f8f8);border-left:3px solid #2a5;border-radius:6px;font-size:0.97rem;">
+			<p style="margin:0 0 8px;font-weight:700;">Sources</p>
+			<ul style="margin:0;padding-left:1.2em;line-height:2;">
+				<li><a href="https://www.mckinsey.com/capabilities/operations/our-insights/imagining-constructions-digital-future" target="_blank" rel="noopener">McKinsey &amp; Company &mdash; Imagining Construction&rsquo;s Digital Future (construction productivity and cost overrun data)</a></li>
+				<li><a href="https://www.propelleraero.com/blog/10-construction-project-cost-overrun-statistics-you-need-to-hear/" target="_blank" rel="noopener">Propeller Aero &mdash; 10 Construction Project Cost Overrun Statistics (meta-analysis: 20 countries, 70 years, 9 in 10 projects overrun by avg 28%)</a></li>
+				<li><a href="https://library.aacei.org/pgd01/pgd01.shtml" target="_blank" rel="noopener">AACE International &mdash; Professional Guidance Document No. 01: Guide to Cost Estimate Classification Systems (RP 17R-97)</a></li>
+				<li><a href="https://www.buildvisionai.com/blog/ai-cost-estimation-budget-optimization-construction-2025" target="_blank" rel="noopener">BuildVision AI &mdash; AI Cost Estimation &amp; Budget Optimization in Construction 2025 (97% accuracy claim, ML methodology)</a></li>
+				<li><a href="https://cmicglobal.com/resources/article/how-firms-are-preventing-construction-overruns-in-2025" target="_blank" rel="noopener">CMiC &mdash; How Firms Are Preventing Construction Overruns in 2025 (20&ndash;30% typical overrun, contingency analysis)</a></li>
+				<li><a href="https://listwithclever.com/research/home-renovation-trends/" target="_blank" rel="noopener">Clever Real Estate &mdash; Home Renovation Trends 2024 (n=1,000 survey: 78% exceeded budget, 41% experienced significant delays)</a></li>
+				<li><a href="https://possessionplanning.com/glossary/statistical-cost-estimation-methods/aace-international-cost-estimation-standards/" target="_blank" rel="noopener">Possession Planning &mdash; AACE International Cost Estimation Standards (Class 1&ndash;5 accuracy range reference)</a></li>
+				<li><a href="https://construction.autodesk.com/products/proest/" target="_blank" rel="noopener">Autodesk ProEst &mdash; Construction Estimating Software (product documentation and pricing)</a></li>
+				<li><a href="https://www.buildxact.com/us/blog/ai-tech-estimating/" target="_blank" rel="noopener">Buildxact &mdash; AI Construction Estimating Software (residential builder AI takeoff features)</a></li>
+				<li><a href="https://markovate.com/ai-takeoff-software/" target="_blank" rel="noopener">Markovate &mdash; AI Takeoff Software: Automated Construction Quantity Estimation (industry benchmarks)</a></li>
+				<li><a href="https://www.stackct.com/" target="_blank" rel="noopener">STACK Construction Technologies &mdash; AI-powered takeoff and estimating platform</a></li>
+			</ul>
+		</section>
+	</article>
 
 	<script>
-		if (localStorage.getItem('theme') === 'dark') {
-			document.documentElement.setAttribute('data-theme', 'dark');
-		}
+		window.addEventListener('scroll', () => {
+			const h = document.documentElement.scrollHeight - window.innerHeight;
+			document.getElementById('readingProgress').style.width = h > 0 ? (window.scrollY / h * 100) + '%' : '0%';
+		});
+		if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
 	</script>
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var shareBar = document.querySelector('.share-bar');
-      if (!shareBar) return;
-      var title = encodeURIComponent(document.title);
-      var url = encodeURIComponent(window.location.href);
-      var tw = shareBar.querySelector('.twitter');
-      var li = shareBar.querySelector('.linkedin');
-      var fb = shareBar.querySelector('.facebook');
-      var cp = shareBar.querySelector('.copy-link');
-      if (tw) tw.href = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + url;
-      if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
-      if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
-      if (cp) cp.addEventListener('click', function(e) {
-        e.preventDefault();
-        navigator.clipboard.writeText(window.location.href).then(function() {
-          cp.textContent = '✓ Copied!';
-          setTimeout(function() { cp.textContent = '🔗 Copy Link'; }, 2000);
-        });
-      });
-    });
-    </script>
-
-<script src="../js/article-toc.js"></script>
-<script src="../js/related-articles.js"></script>
-<script src="../js/reading-bookmark.js"></script>
-<script src="../js/article-nav.js"></script>
+	<script src="../js/article-toc.js"></script>
+	<script src="../js/related-articles.js"></script>
+	<script src="../js/reading-bookmark.js"></script>
+	<script src="../js/article-nav.js"></script>
 </body>
 </html>

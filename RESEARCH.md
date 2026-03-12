@@ -155,6 +155,7 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - ADU (Accessory Dwelling Unit) boom + AI
 - Political implications of algorithmic zoning
 - **Published:** "Your Backyard Could Fit an ADU. The Algorithm Already Knows." (Catherine Chen)
+- **Published:** "18 States Legalized Your Backyard Cottage. AI Will Tell You If You Can Actually Build One." (Catherine Chen) — 2026 update with Mercatus 18-state taxonomy, Shovels 2.8M permit data, FutureLot, San Diego Bonus ADU findings
 
 ### 22. 🟢 Insurance and AI-Built Homes
 - How insurers evaluate robot-built structures
