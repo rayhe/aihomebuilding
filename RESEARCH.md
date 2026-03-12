@@ -159,10 +159,11 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Seattle pilot under Mayor Harrell executive order
 - **Published:** "Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted." (Catherine Chen)
 
-### 20. ⚪ Building Codes and AI: Friend or Foe?
-- AI compliance checking (Archistar, Deepblocks)
-- How outdated codes prevent innovative construction
-- Model code organizations' AI stance
+### 20. 🟢 Building Codes and AI: Permit Automation
+- AI compliance checking (Archistar eCheck, Rescope, Cove.tool)
+- Honolulu 60× improvement, Hamilton 60% reduction, LA wildfire fast-track
+- Pre-submission validation vs municipal automation
+- **Published:** "Your Building Permit Took Six Months. Honolulu's Takes Three Days." (Catherine Chen)
 
 ### 21. 🟢 Zoning AI: Algorithmically Optimizing Land Use
 - AI tools for zoning analysis (Envelope, Deepblocks)
