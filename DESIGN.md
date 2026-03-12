@@ -71,6 +71,9 @@
 - [x] RSS feed updated to all 32 articles ✅ (March 10, 2026 — was stale at 18)
 - [x] Cost comparison calculators (traditional vs. AI-assisted builds) ✅ (March 10, 2026 — interactive calculator with sqft/quality/region inputs, 6 AI/robotics options with per-category savings, side-by-side cost breakdown, timeline comparison, savings bar, mobile responsive)
 
+### Maintenance Tools
+- [x] `tools/rebuild_grid.py` — programmatic grid deduplication. Reads all articles/ HTML, extracts metadata (title, author, date, category, image, excerpt), rebuilds the article grid between `<!-- ARTICLE-GRID-START -->` and `<!-- ARTICLE-GRID-END -->` markers. Also updates featured article to the most recently added. Run with `python3 tools/rebuild_grid.py` after any manual grid edits. ✅ (June 9, 2026 — fixed 70→54 cards, eliminated recurring duplication bug)
+
 ### Phase 5: Community & Comments
 - [ ] Google Auth login via Firebase
 - [ ] Comment system on articles (Firebase RTDB)
