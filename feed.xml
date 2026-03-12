@@ -1,340 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
 <channel>
   <title>AI Home Building</title>
-  <link>https://aihomebuilding.pages.dev</link>
-  <description>Data-driven journalism about AI in home construction</description>
-  <language>en-us</language>
-  <atom:link href="https://aihomebuilding.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://rayhe.github.io/aihomebuilding/</link>
+  <description>AI-powered insights for home building and construction</description>
   <item>
-    <title>A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/3d-printed-homes.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/3d-printed-homes.html</guid>
+    <title>A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/3d-printed-homes.html</link>
+    <description>ICON's Vulcan printer just completed the world's largest 3D-printed housing community. With wall costs as low as $10,000, the technology is ready. The question is whether the industry can keep up.</description>
   </item>
   <item>
     <title>Your Neighbor's TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-acoustics-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-acoustics-design.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-acoustics-design.html</link>
+    <description>Sound simulation tools are letting architects hear how a home will sound before construction begins. The invisible dimension of residential design is finally getting the AI treatment.</description>
   </item>
   <item>
-    <title>Your General Contractor Just Hired an AI Agent. Here&amp;rsquo;s What It Does All Day. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-agents-construction.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-agents-construction.html</guid>
+    <title>18 States Legalized Your Backyard Cottage. AI Will Tell You If You Can Actually Build One.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-adu-planning.html</link>
+    <description>2.8 million ADU permits nationwide, 18 states with preemption laws, and most homeowners still can't figure out what they're allowed to build. AI zoning platforms are closing that gap.</description>
+  </item>
+  <item>
+    <title>Your General Contractor Just Hired an AI Agent. Here's What It Does All Day.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-agents-construction.html</link>
+    <description>Construction firms are deploying AI agents that write daily reports, flag safety issues, and generate submittals — while 349,000 jobs go unfilled and 41% of the workforce heads toward retirement.</description>
   </item>
   <item>
     <title>14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-aging-in-place.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-aging-in-place.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-aging-in-place.html</link>
+    <description>AI-powered home safety platforms are turning smartphones into accessibility assessors while smart sensors make aging in place safer — and cheaper — than nursing homes.</description>
   </item>
   <item>
-    <title>Your Architect Used to Guess What You Wanted. Now AI Shows You. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-architect-client.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-architect-client.html</guid>
+    <title>Your Architect Used to Guess What You Wanted. Now AI Shows You.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-architect-client.html</link>
+    <description>AI visualization tools are collapsing the architect-client feedback loop from months to minutes — and fundamentally changing who holds creative power in home design.</description>
   </item>
   <item>
     <title>The Architect's New Brain: How AI Is Redesigning Home Design</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-architectural-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-architectural-design.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-architectural-design.html</link>
+    <description>AI tools like Maket, Finch3D, and Autodesk Forma are transforming how architects design homes — generating thousands of options in seconds.</description>
   </item>
   <item>
-    <title>We Simulated What Happens When a 200-Person Builder Adopts AI. It's Not What the Vendors Promised.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-builder-org-simulation.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-builder-org-simulation.html</guid>
+    <title>We Simulated What Happens When a 200-Person Builder Adopts AI.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-builder-org-simulation.html</link>
+    <description>A 12-month simulation of a mid-size home builder adopting AI reveals a J-curve dip, a 38% role transformation rate, and an uncomfortable truth about who actually thrives.</description>
   </item>
   <item>
-    <title>Your Architect Missed a Code Violation. The AI Didn&amp;rsquo;t. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-code-compliance.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-code-compliance.html</guid>
+    <title>Your Architect Missed a Code Violation. The AI Didn't.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-code-compliance.html</link>
+    <description>UpCodes, Testfit, and 2Build.ai are turning 75,000 pages of building codes into instant automated compliance checks — catching violations humans routinely miss.</description>
   </item>
   <item>
     <title>Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-concrete-optimization.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-concrete-optimization.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-concrete-optimization.html</link>
+    <description>AI-powered concrete mix optimization tools like Concrete.ai, CarbonCure, and Giatec SmartMix are slashing cement usage by 20-30% without sacrificing strength.</description>
   </item>
   <item>
     <title>Your Job Site Lost $30,000 Last Weekend. The AI Camera Saw Everything.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-construction-security.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-construction-security.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-construction-security.html</link>
+    <description>Construction site theft costs the US industry up to $1 billion annually with only 20% recovery rates. AI-powered security cameras are turning jobsites from soft targets into smart perimeters.</description>
   </item>
   <item>
     <title>You Got Three Bids. AI Found 14 Red Flags You Missed.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-contractor-bidding.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-contractor-bidding.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-contractor-bidding.html</link>
+    <description>AI-powered bid comparison tools are transforming how homeowners evaluate contractor quotes — flagging missing scope, unrealistic pricing, and hidden change-order traps before a single nail is driven.</description>
   </item>
   <item>
-    <title>Your Contractor's Bid Is a Guess. AI Is Making It a Science.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-cost-estimation.html</guid>
+    <title>Your Contractor's Estimate Is Wrong. It's Always Wrong. AI Might Be Wrong Differently.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-cost-estimation.html</link>
+    <description>9 out of 10 projects bust their budgets. AI promises 97% accuracy. Here's what that actually means for your kitchen renovation.</description>
   </item>
   <item>
     <title>Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-daylight-optimization.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-daylight-optimization.html</link>
+    <description>AI daylight simulation tools are transforming window placement from artistic intuition into a data-driven optimization problem.</description>
   </item>
   <item>
-    <title>The Palisades Fire Destroyed 16,000 Homes. Robots Are Building Them Back Fireproof. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-disaster-resilient-homes.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-disaster-resilient-homes.html</guid>
+    <title>The Palisades Fire Destroyed 16,000 Homes. Robots Are Building Them Back Fireproof.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-disaster-resilient-homes.html</link>
+    <description>ABB and Cosmic Buildings are deploying AI-powered mobile microfactories in Pacific Palisades to rebuild wildfire-destroyed homes with non-combustible materials — 70% faster and 30% cheaper than conventional construction.</description>
   </item>
   <item>
     <title>Your Architect's Energy Model Took 2 Hours. The AI Did It in 2 Seconds.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-energy-modeling.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-energy-modeling.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-energy-modeling.html</link>
+    <description>AI surrogate models are compressing hours of energy simulation into seconds, enabling architects to test hundreds of configurations and design homes that use 40–60% less energy.</description>
   </item>
   <item>
     <title>Your Foundation Engineer Drilled Three Holes and Guessed. The AI Modeled 10,000 Scenarios.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-foundation-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-foundation-design.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-foundation-design.html</link>
+    <description>AI geotechnical tools are replacing guesswork in residential foundation design — predicting settlement, optimizing footing sizes, and catching soil problems before the first shovel breaks ground.</description>
   </item>
   <item>
-    <title>Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-home-appraisal.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-home-appraisal.html</guid>
+    <title>Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-home-appraisal.html</link>
+    <description>AI-powered automated valuation models are replacing the $500 home appraisal visit. Zillow's Zestimate hits 1.83% median error, and FHFA just expanded appraisal waivers to 90% LTV.</description>
   </item>
   <item>
     <title>Your Home Inspector Missed the Mold. The Algorithm Found It in a Photo.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-home-inspection-buyers.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-home-inspection-buyers.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-home-inspection-buyers.html</link>
+    <description>AI-powered inspection tools are catching defects that human inspectors miss at alarming rates — and the 2 million Americans buying homes each year are starting to notice.</description>
   </item>
   <item>
     <title>Half of America's HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-hvac-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-hvac-design.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-hvac-design.html</link>
+    <description>AI-powered Manual J load calculations compress 30-60 minutes into 60 seconds, attacking the root cause of the most expensive comfort failure in residential construction.</description>
   </item>
   <item>
-    <title>Upload a Photo of Your Room. Get a New One in 10 Seconds. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-interior-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-interior-design.html</guid>
+    <title>Upload a Photo of Your Room. Get a New One in 10 Seconds.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-interior-design.html</link>
+    <description>Interior AI, Collov, and HomeDesigns AI let you snap a photo of any room and get a full redesign in seconds. The market hit .18B in 2026.</description>
   </item>
   <item>
-    <title>Your Builder Used to Drive Every Lot. Now AI Scores 10,000 Parcels Before Breakfast. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-land-acquisition.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-land-acquisition.html</guid>
+    <title>Your Builder Used to Drive Every Lot. Now AI Scores 10,000 Parcels Before Breakfast.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-land-acquisition.html</link>
+    <description>AI is transforming how builders and homebuyers find building lots — compressing weeks of due diligence into seconds and reshaping the economics of America's 4.7-million-unit housing deficit.</description>
   </item>
   <item>
     <title>Your Landscaper Charged $6,000 to Guess. The AI Showed You 15 Options in 30 Seconds.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-landscape-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-landscape-design.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-landscape-design.html</link>
+    <description>AI landscape design tools are collapsing a $184 billion industry's design bottleneck. Upload a photo, pick a style, see renders in seconds.</description>
   </item>
   <item>
     <title>You Built a 3D-Printed Home. The Bank Has No Idea How to Finance It.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-mortgage-underwriting.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-mortgage-underwriting.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-mortgage-underwriting.html</link>
+    <description>AI mortgage underwriting can approve a conventional home in 8 minutes. But when the walls are 3D-printed concrete or the frame was assembled by robots, lenders freeze — no comps, no precedent, no loan.</description>
   </item>
   <item>
-    <title>Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-permit-automation.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-permit-automation.html</guid>
+    <title>Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-permit-automation.html</link>
+    <description>From Honolulu to Los Angeles, cities are deploying AI to slash building permit wait times from months to days. The technology isn't replacing plan reviewers — it's making sure applications arrive ready to approve.</description>
   </item>
   <item>
     <title>Your Furnace Knows It's Dying. It Just Can't Tell You Yet.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-predictive-maintenance.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-predictive-maintenance.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-predictive-maintenance.html</link>
+    <description>AI sensor platforms are turning reactive home repair into predictive maintenance — catching leaks, HVAC failures, and electrical faults before they become emergencies.</description>
   </item>
   <item>
     <title>From 14 Months to 10: AI Project Management</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-project-management.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-project-management.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-project-management.html</link>
+    <description>AI project management tools are compressing 14-month residential builds to 10 months through predictive scheduling and risk detection.</description>
   </item>
   <item>
     <title>Your Builder Missed 26 Defects. The AI Camera Found Every One.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-quality-inspection.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-quality-inspection.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-quality-inspection.html</link>
+    <description>AI-powered visual inspection platforms like OpenSpace and Buildots are catching construction defects that human eyes miss — saving homeowners thousands in rework costs.</description>
   </item>
   <item>
     <title>You Used to Gut-Renovate on Gut Feeling. Now AI Shows You the Finished Kitchen First.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-renovation.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-renovation.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-renovation.html</link>
+    <description>AI renovation tools like HomeDesigns AI and RoomGPT are letting homeowners visualize remodels in seconds — collapsing the gap between imagination and reality before a single wall comes down.</description>
   </item>
   <item>
     <title>Your Home Has 30% More Steel Than It Needs. AI Knows Exactly How Much to Remove.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-structural-engineering.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-structural-engineering.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-structural-engineering.html</link>
+    <description>AI structural engineering tools are eliminating decades of conservative overdesign — cutting material waste by 20-30% while maintaining code compliance.</description>
   </item>
   <item>
     <title>90% of Builders Had Materials Show Up Late Last Year. AI Knows Why.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-supply-chain-construction.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-supply-chain-construction.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-supply-chain-construction.html</link>
+    <description>90% of builders experienced material delays last year. AI supply chain tools are finally solving construction's .6 trillion logistics problem.</description>
   </item>
   <item>
-    <title>Your Builder&amp;rsquo;s Warranty Is 365 Days. The Failures Start at 366. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-warranty-prediction.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-warranty-prediction.html</guid>
+    <title>Your Builder’s Warranty Is 365 Days. The Failures Start at 366.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-warranty-prediction.html</link>
+    <description>Home builders sit on massive warranty claim databases and use them for almost nothing. AI tools are starting to predict which homes will break and when.</description>
   </item>
   <item>
     <title>Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-waste-sorting.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-waste-sorting.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-waste-sorting.html</link>
+    <description>AI-powered robotic sorting systems and material passport platforms are turning construction demolition waste from a $7.4 billion landfill problem into a circular economy opportunity.</description>
   </item>
   <item>
     <title>Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year. AI Is Finally Listening.</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-water-management.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-water-management.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-water-management.html</link>
+    <description>Smart water systems installed during construction are turning plumbing from passive pipes into intelligent networks that detect leaks in real time, shut off automatically, and cut insurance premiums.</description>
   </item>
   <item>
-    <title>Your Backyard Could Fit an ADU. The Algorithm Already Knows. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/ai-zoning-analysis.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/ai-zoning-analysis.html</guid>
+    <title>Your Backyard Could Fit an ADU. The Algorithm Already Knows.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/ai-zoning-analysis.html</link>
+    <description>AI-powered zoning platforms like Deepblocks and FutureLot are decoding America's 30,000+ zoning jurisdictions in seconds — unlocking hidden housing capacity on lots homeowners didn't know they had.</description>
+  </item>
+  <item>
+    <title>Your 200-Amp Panel Can't Handle Your All-Electric Future. Smart Panels Are Buying You Time.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/all-electric-panel-crisis.html</link>
+    <description>Heat pumps, EV chargers, induction cooktops, and battery storage are crushing residential panels. Smart load management is the $2K alternative to a $9K upgrade — but it has limits.</description>
   </item>
   <item>
     <title>The Excavator Dug Your Foundation. Nobody Was Driving It.</title>
-    <link>https://aihomebuilding.pages.dev/articles/autonomous-heavy-equipment.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/autonomous-heavy-equipment.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/autonomous-heavy-equipment.html</link>
+    <description>Built Robotics, SafeAI, and Caterpillar are turning excavators into autonomous machines. The $7.3B autonomous construction equipment market is coming for site prep.</description>
   </item>
   <item>
-    <title>You Paid for the Blueprints. You Don&amp;rsquo;t Own the Data. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/construction-data-ownership.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/construction-data-ownership.html</guid>
+    <title>Your Home Uses 25% More Energy Than Its Plans Promised. AI Is Finally Catching the Difference.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/building-performance-gap.html</link>
+    <description>The performance gap between designed efficiency and actual energy use is 25% on average, 250% at worst. Thermal AI, automated testing, and computer vision are finally closing it.</description>
   </item>
   <item>
-    <title>The Guy Who Knows Why That Pipe Is There Is Retiring. Nobody Recorded Him. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/construction-knowledge-extinction.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/construction-knowledge-extinction.html</guid>
+    <title>You Paid for the Blueprints. You Don’t Own the Data.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/construction-data-ownership.html</link>
+    <description>When your architect's AI tool shuts down or your builder's PM platform pivots, who owns the digital model of your home? Nobody has a good answer.</description>
   </item>
   <item>
-    <title>Construction Productivity Has Been Flat for 30 Years. AI Might Finally Break the Curse. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/construction-productivity-ai.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/construction-productivity-ai.html</guid>
+    <title>The Guy Who Knows Why That Pipe Is There Is Retiring. Nobody Recorded Him.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/construction-knowledge-extinction.html</link>
+    <description>41% of the construction workforce retires by 2031. Most of what they know has never been written down.</description>
   </item>
   <item>
-    <title>1,034 Construction Workers Died Last Year. An AI Saw It Coming. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/construction-safety-ai.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/construction-safety-ai.html</guid>
+    <title>Construction Productivity Has Been Flat for 30 Years. AI Might Finally Break the Curse.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/construction-productivity-ai.html</link>
+    <description>Construction productivity has grown just 0.4% annually since 2000 — while manufacturing hit 3%. AI might finally be the unlock.</description>
+  </item>
+  <item>
+    <title>1,034 Construction Workers Died Last Year. An AI Saw It Coming.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/construction-safety-ai.html</link>
+    <description>AI-powered safety systems are predicting construction site hazards before they kill — with predictive analytics identifying high-risk situations 85% of the time. But adoption remains painfully slow in the industry that needs it most.</description>
   </item>
   <item>
     <title>The 500,000 Missing Workers</title>
-    <link>https://aihomebuilding.pages.dev/articles/construction-workforce.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/construction-workforce.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/construction-workforce.html</link>
+    <description>The construction industry is short 500,000 workers. AI and robotics are filling the gap — but the transition isn't simple.</description>
   </item>
   <item>
-    <title>I Spent 20 Years on Job Sites. Half These AI Tools Would Get Laughed Off One. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/contech-reality-check.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/contech-reality-check.html</guid>
+    <title>I Spent 20 Years on Job Sites. Half These AI Tools Would Get Laughed Off One.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/contech-reality-check.html</link>
+    <description>A veteran contractor's honest scorecard on construction AI: what's actually shipping, what's a demo reel, and what died with its Series B.</description>
   </item>
   <item>
-    <title>Investors Poured $2 Billion Into Katerra. It Vanished. Now They&amp;rsquo;re Back. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/contech-vc-investment.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/contech-vc-investment.html</guid>
+    <title>Investors Poured $2 Billion Into Katerra. It Vanished. Now They're Back.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/contech-vc-investment.html</link>
+    <description>Katerra burned through $2B and collapsed. But VC is flooding back into contech — smarter, more targeted, and laser-focused on AI.</description>
   </item>
   <item>
     <title>Your Home's Digital Twin Knows It Better Than You Do</title>
-    <link>https://aihomebuilding.pages.dev/articles/digital-twins.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/digital-twins.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/digital-twins.html</link>
+    <description>Digital twins are transforming home construction with real-time monitoring, clash detection, and 4-6% cost savings. A 9.49B market by 2029.</description>
   </item>
   <item>
     <title>Drones Are Watching Your Home Get Built — And Catching Mistakes You'd Never See</title>
-    <link>https://aihomebuilding.pages.dev/articles/drone-site-monitoring.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/drone-site-monitoring.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/drone-site-monitoring.html</link>
+    <description>AI-powered drones detect 2cm discrepancies on construction sites, catching mistakes humans miss. The market hits 4.3B by 2027.</description>
   </item>
   <item>
-    <title>Your Home&amp;rsquo;s Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/embodied-carbon-ai.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/embodied-carbon-ai.html</guid>
+    <title>Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/embodied-carbon-ai.html</link>
+    <description>Buildings account for 37% of global carbon emissions, and nearly a third of that is locked in before anyone flips a light switch. AI tools are making embodied carbon visible — and reducible — for the first time.</description>
   </item>
   <item>
     <title>America Is 4.7 Million Homes Short. AI Won't Fix That Alone.</title>
-    <link>https://aihomebuilding.pages.dev/articles/housing-shortage-ai-policy.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/housing-shortage-ai-policy.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/housing-shortage-ai-policy.html</link>
+    <description>The US housing deficit hit 4.7 million units despite a construction surge. AI is accelerating land analysis, permitting, and design — but zoning and labor shortages remain stubbornly human problems.</description>
   </item>
   <item>
     <title>A Humanoid Robot Costs $13,500. A Construction Worker Costs $72,000. Do the Math.</title>
-    <link>https://aihomebuilding.pages.dev/articles/humanoid-robots-construction.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/humanoid-robots-construction.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/humanoid-robots-construction.html</link>
+    <description>Humanoid robots are plunging below $16,000. McKinsey says construction should prepare now. But the math that makes CFOs salivate is the same math that should terrify a workforce already short 349,000 people.</description>
   </item>
   <item>
-    <title>Your Insurer Has No Idea How to Price a Robot-Built Home &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/insurance-ai-homes.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/insurance-ai-homes.html</guid>
+    <title>Your Insurer Has No Idea How to Price a Robot-Built Home</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/insurance-ai-homes.html</link>
+    <description>As 3D-printed walls, robotic bricklaying, and AI quality control reshape residential construction, the insurance industry is scrambling to underwrite structures it doesn't yet understand.</description>
   </item>
   <item>
-    <title>Your Next Home Could Be Built from Trees. AI Is Making Sure It Doesn&amp;rsquo;t Burn Down. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/mass-timber-ai.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/mass-timber-ai.html</guid>
+    <title>Your Next Home Could Be Built from Trees. AI Is Making Sure It Doesn't Burn Down.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/mass-timber-ai.html</link>
+    <description>Mass timber is the fastest-growing structural material in North America. AI tools are solving the engineering bottleneck that kept it out of residential — while cutting embodied carbon by up to 80%.</description>
   </item>
   <item>
-    <title>Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/modular-prefab-ai.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/modular-prefab-ai.html</guid>
+    <title>Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/modular-prefab-ai.html</link>
+    <description>Katerra burned $2 billion. Veev burned $600 million. Now AI-powered factories, robotic assembly, and machine vision QC are rewriting modular housing economics.</description>
   </item>
   <item>
     <title>Every Wall Is a Variable. Parametric Design Turns Custom Homes into Solvable Equations.</title>
-    <link>https://aihomebuilding.pages.dev/articles/parametric-design.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/parametric-design.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/parametric-design.html</link>
+    <description>WikiHouse, Hypar, and Grasshopper are making it possible to design unique homes by tweaking parameters instead of redrawing plans — cutting custom design costs by 60%.</description>
   </item>
   <item>
-    <title>He Used to Drive the Excavator. Now He Supervises Three That Drive Themselves. &amp;mdash; AI Home Building</title>
-    <link>https://aihomebuilding.pages.dev/articles/robot-operator-workforce.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/robot-operator-workforce.html</guid>
+    <title>He Used to Drive the Excavator. Now He Supervises Three That Drive Themselves.</title>
+    <link>https://rayhe.github.io/aihomebuilding/articles/robot-operator-workforce.html</link>
+    <description>The IUOE and Built Robotics are training 400,000 union operators to become Robotic Equipment Operators — a new role that pays more, is safer, and might be the first genuinely successful blue-collar AI transition story.</description>
   </item>
   <item>
     <title>This Robot Lays 360 Blocks an Hour. Your Bricklayer Does 40.</title>
-    <link>https://aihomebuilding.pages.dev/articles/robotic-bricklaying.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/robotic-bricklaying.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/robotic-bricklaying.html</link>
+    <description>Hadrian X lays 360 blocks per hour vs 40 for human bricklayers. Construction robotics hits 26.7B by 2030.</description>
   </item>
   <item>
     <title>Wire It Smart During Framing or Pay 5× More Later. Here's What to Run.</title>
-    <link>https://aihomebuilding.pages.dev/articles/smart-home-construction.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/smart-home-construction.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/smart-home-construction.html</link>
+    <description>Smart home pre-wiring during construction costs $2,000–$5,000. Retrofitting the same setup later? $15,000–$25,000.</description>
   </item>
   <item>
     <title>Your Breaker Box Is the Dumbest Thing in Your House. That's About to Change.</title>
-    <link>https://aihomebuilding.pages.dev/articles/smart-wiring-ai.html</link>
-    <description></description>
-    <guid>https://aihomebuilding.pages.dev/articles/smart-wiring-ai.html</guid>
+    <link>https://rayhe.github.io/aihomebuilding/articles/smart-wiring-ai.html</link>
+    <description>Smart panels, AI wiring design, and the Matter protocol are transforming the home electrical system from a passive conduit into an intelligent energy brain.</description>
   </item>
 </channel>
 </rss>
