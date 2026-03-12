@@ -388,14 +388,14 @@ When you discover a new topic worth covering, add it here with:
 - WUI construction cost premium: $5K-$16K on a new build (1-4%)
 - **Published:** "$2.15 Trillion in Homes at Wildfire Risk. AI Can See Which Ones Will Survive." (Priya Greenwood)
 
-### 42. ⚪ AI-Powered Roofing Inspection & Repair Estimation
+### 42. 🟢 AI-Powered Roofing Inspection & Repair Estimation
 - Drone + AI replaces manual roof inspections — faster, safer, more accurate
 - Loveland Innovations (IMGING): AI property scans for insurance and roofers
 - EagleView TrueDesign: aerial imagery + ML measures every roof plane to ±0.5 inches
 - GAF QuickMeasure: 6 million+ reports generated, integrates with contractor CRMs
 - Average manual roof inspection: $200–$500. Drone + AI: $100–$250 with 3× coverage
 - Insurance: aerial AI assessments reduce claims cycle by 60%+ (Nearmap)
-- Journalist: Jake Kowalski (construction tech beat)
+- **Published:** "Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed." (Jake Kowalski)
 
 ### 43. ⚪ Smart Wearables & Safety Helmets on Residential Job Sites
 - Triax SitePulse: real-time location, fall detection, heat stress alerts

@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-roof-inspection.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed.",
+		"description": "Roof claims hit $31 billion in 2024. AI drone inspections cut costs, eliminate falls, and find damage humans miss. Jake Kowalski on the tech replacing the most dangerous 15 minutes in residential construction.",
+		"image": "https://aihomebuilding.pages.dev/images/ai-roof-inspection.jpg",
+		"datePublished": "2026-03-12",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.pages.dev/articles/ai-roof-inspection.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed.">
+	<meta property="og:description" content="AI drone roof inspections are faster, cheaper, and safer. Here's what's actually working.">
+	<meta property="og:url" content="https://aihomebuilding.pages.dev/articles/ai-roof-inspection.html">
+	<meta property="og:image" content="https://aihomebuilding.pages.dev/images/ai-roof-inspection.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed.">
+	<meta name="twitter:description" content="AI drone roof inspections: $31B in claims, 370 fall deaths, and the tech that changes both numbers.">
+	<meta name="twitter:image" content="https://aihomebuilding.pages.dev/images/ai-roof-inspection.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		.article-header img {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			padding: 32px 24px;
+			max-width: 800px;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 0.75rem;
+			font-weight: 600;
+			padding: 4px 12px;
+			border-radius: 4px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: clamp(1.6rem, 4vw, 2.4rem);
+			color: #fff;
+			margin: 0 0 12px 0;
+			line-height: 1.2;
+		}
+		.article-header .byline {
+			color: #ccc;
+			font-size: 0.9rem;
+		}
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 40px 24px 60px;
+		}
+		.article-body p {
+			margin-bottom: 1.4em;
+			font-size: 1.05rem;
+			color: var(--text-secondary);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.5rem;
+			margin: 2em 0 0.8em;
+			color: var(--text-primary);
+		}
+		.pull-stat {
+			border-left: 4px solid var(--accent);
+			padding: 16px 24px;
+			margin: 2em 0;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .context {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 4px;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5em 0;
+			font-size: 0.95rem;
+		}
+		th, td {
+			padding: 10px 14px;
+			text-align: left;
+			border-bottom: 1px solid var(--border);
+		}
+		th {
+			font-weight: 600;
+			color: var(--text-primary);
+			background: var(--bg-card);
+		}
+		td { color: var(--text-secondary); }
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		section.sources {
+			border-top: 1px solid var(--border);
+			margin-top: 2em;
+			padding-top: 1.5em;
+		}
+		section.sources h3 {
+			font-size: 1rem;
+			font-weight: 600;
+			margin-bottom: 0.8em;
+		}
+		section.sources ul {
+			list-style: none;
+			padding: 0;
+		}
+		section.sources li {
+			font-size: 0.85rem;
+			color: var(--text-muted);
+			margin-bottom: 0.5em;
+			padding-left: 1em;
+			text-indent: -1em;
+		}
+		section.sources a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+		section.sources a:hover { text-decoration: underline; }
+	</style>
+</head>
+<body>
+	<a href="../" class="back-link">&larr; AI Home Building</a>
+	<header class="article-header">
+		<img src="../images/ai-roof-inspection.jpg" alt="Drone hovering above residential rooftop inspecting shingles for damage">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<div class="badge">Construction Tech</div>
+			<h1>Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed.</h1>
+			<div class="byline">By <strong>Jake Kowalski</strong> &middot; March 12, 2026</div>
+		</div>
+	</header>
+
+	<div class="article-body">
+
+		<p>Three hundred and seventy construction workers died from falls in 2024, according to the <a href="https://www.safetyandhealthmagazine.com/on-the-job-deaths-drop-4-in-2024-bls/">Bureau of Labor Statistics</a>. Down from 400 the year before, which the BLS apparently considers progress. A significant chunk of those falls happened on roofs.</p>
+
+		<p>Meanwhile, roof repair and replacement claims hit <strong>$31 billion</strong> in 2024&mdash;a 30% surge since 2022, per <a href="https://www.verisk.com/company/newsroom/u.s.-roof-claims-costs-reached-over-$30-billion-in-2024-underscoring-evolving-risks/">Verisk&rsquo;s U.S. Roofing Realities Trend Report</a>. Wind and hail accounted for more than half. Thirty-eight percent of American homes have roofs in moderate-to-poor condition, and those homes generate 60% higher loss costs than homes with roofs in good shape.</p>
+
+		<p>So: people are dying to inspect roofs that are costing $31 billion a year to fix. And most of those inspections are a guy with a ladder, a flashlight, and twenty years of pattern recognition that may or may not catch the hairline crack on the third tab of a hip ridge shingle fourteen feet from the eave.</p>
+
+		<p>Drones do this better. That&rsquo;s not an opinion anymore.</p>
+
+		<div class="pull-stat">
+			<div class="number">$31B</div>
+			<div class="context">U.S. roof repair and replacement claim costs in 2024 &mdash; Verisk Roofing Realities Trend Report</div>
+		</div>
+
+		<h2>The Machines</h2>
+
+		<table>
+			<thead>
+				<tr><th>Platform</th><th>What It Does</th><th>Scale</th></tr>
+			</thead>
+			<tbody>
+				<tr><td><strong>EagleView Assess</strong></td><td>Drone capture &rarr; AI anomaly detection &rarr; branded report</td><td>3.5B+ image library, 94% US population coverage</td></tr>
+				<tr><td><strong>EagleView TrueDesign</strong></td><td>Aerial measurement: roof lines, area, slope</td><td>98.77% accurate vs independent benchmark</td></tr>
+				<tr><td><strong>GAF QuickMeasure</strong></td><td>AI roof measurement reports from aerial imagery</td><td>6M+ reports generated</td></tr>
+				<tr><td><strong>Loveland Innovations (IMGING)</strong></td><td>Smartphone/drone capture &rarr; AI damage assessment</td><td>Comprehensive property inspection suite (launched Oct 2023)</td></tr>
+				<tr><td><strong>Nearmap</strong></td><td>High-frequency aerial surveys &rarr; ML property condition</td><td>Used by insurers for portfolio-scale assessment</td></tr>
+			</tbody>
+		</table>
+
+		<p>EagleView is the 800-pound gorilla. Their <a href="https://www.eagleview.com/eagleview/eagleview-roof-measurements-confirmed-to-be-98-77-accurate-compared-to-independent-benchmark-measurements/">TrueDesign measurements</a> hit 98.77% accuracy for roof lines, 98.43% for area, and 98.49% for slope&mdash;verified by an independent benchmark study. Their Assess product expanded in September 2025 to handle multi-faceted roofs, churches, triplexes, and apartment buildings. The AI doesn&rsquo;t just measure&mdash;it flags anomalies: cracked shingles, lifted flashing, ponding evidence, missing ridge caps.</p>
+
+		<p>GAF&mdash;the largest roofing manufacturer in North America&mdash;hit 6 million QuickMeasure reports. That&rsquo;s not a pilot. That&rsquo;s an industry standard hiding in plain sight.</p>
+
+		<h2>What a Drone Catches That Eyes Miss</h2>
+
+		<p>I&rsquo;ve been on roofs. I was a framer, not a roofer, but I&rsquo;ve walked enough of them to know the inspection is a performance as much as an assessment. You&rsquo;re balancing, you&rsquo;re watching your footing, you&rsquo;re conscious of the gutter edge. Your attention budget is split between staying alive and spotting damage.</p>
+
+		<p>A drone doesn&rsquo;t care about the gutter edge. It shoots every facet from multiple angles in ten minutes, stitches a high-resolution orthomosaic, and runs it through a damage detection model trained on millions of labeled images. It finds the stuff the human was too busy not falling to notice.</p>
+
+		<p>Specific failure modes drones excel at:</p>
+
+		<ul style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1.4em;">
+			<li><strong>Granule loss patterns</strong> invisible from ladder angle but obvious from above</li>
+			<li><strong>Thermal anomalies</strong> indicating moisture intrusion (with IR-equipped drones)</li>
+			<li><strong>Flashing separation</strong> at chimneys and valleys&mdash;the #1 leak source</li>
+			<li><strong>Hail bruising</strong> on asphalt that leaves no visible mark at eye level but shows as dimpling from overhead</li>
+		</ul>
+
+		<h2>The Economics</h2>
+
+		<table>
+			<thead>
+				<tr><th>Method</th><th>Cost</th><th>Time</th><th>Coverage</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>Manual (ladder + inspector)</td><td>$200&ndash;$500</td><td>30&ndash;60 min</td><td>Partial (accessible faces only)</td></tr>
+				<tr><td>Drone + AI report</td><td>$100&ndash;$250</td><td>10&ndash;15 min flight + processing</td><td>Complete (every facet, every angle)</td></tr>
+			</tbody>
+		</table>
+
+		<p>Half the cost. A third of the time. Full coverage versus partial. And nobody dies.</p>
+
+		<p>The insurance side is where the money math gets dramatic. Verisk reports the average claim cycle hit 32.4 days in 2024&mdash;the longest ever recorded. <a href="https://www.esri.com/partners/nearmap-a2T70000000TeEOEA0/nearmap-for-insuranc-a2d5x000005vfWQAAY">Nearmap estimates</a> AI aerial assessments cut claims cycle time by 60% or more. When you&rsquo;re processing a $31 billion annual claims volume, shaving 20 days off each claim is worth billions in float alone.</p>
+
+		<div class="pull-stat">
+			<div class="number">98.77%</div>
+			<div class="context">EagleView TrueDesign roof line measurement accuracy vs independent benchmark</div>
+		</div>
+
+		<h2>The Honest Limitations</h2>
+
+		<p>Drones can&rsquo;t walk on a roof. That matters.</p>
+
+		<p>A tactile inspection&mdash;pressing shingles to feel for soft spots, lifting tabs to check adhesion, testing flashing seals by hand&mdash;catches things cameras cannot. IR drones detect moisture patterns, but they can&rsquo;t tell you whether that dark spot is a leak or condensation from a poorly vented bathroom fan.</p>
+
+		<p>Weather constraints are real. FAA Part 107 restricts flights in winds above 25 mph. Rain grounds most consumer and prosumer drones. In hail-prone states where inspections are most needed, the weather that causes the damage also delays the assessment.</p>
+
+		<p>And there&rsquo;s the airspace problem. Homes near airports, military installations, or in controlled airspace require waivers. The FAA&rsquo;s LAANC (Low Altitude Authorization and Notification Capability) system handles most of this automatically now, but it adds friction that a guy with a ladder doesn&rsquo;t face.</p>
+
+		<h2>What This Means If You Own a Home</h2>
+
+		<p>Get a drone inspection before your next insurance renewal. Not instead of a manual inspection&mdash;before one. Use the drone report to identify areas that need hands-on verification, then send the human up with a targeted checklist instead of a general walkabout.</p>
+
+		<p>If your roofer refuses to look at the drone data, find a different roofer. The report isn&rsquo;t a threat to their expertise. It&rsquo;s a briefing. The ones who treat it as one tend to be the ones worth hiring.</p>
+
+		<p>And if you&rsquo;re buying a home: a $150 drone roof scan before closing is the cheapest insurance you&rsquo;ll ever buy against a $12,000 surprise six months later. Thirty-eight percent of American roofs are in moderate-to-poor condition. Find out if yours is one of them before you sign.</p>
+
+		<section class="sources">
+			<h3>Sources</h3>
+			<ul>
+				<li>Verisk (2024). &ldquo;U.S. Roofing Realities Trend Report.&rdquo; Roof claims costs reached over $30 billion in 2024. <a href="https://www.verisk.com/company/newsroom/u.s.-roof-claims-costs-reached-over-$30-billion-in-2024-underscoring-evolving-risks/" target="_blank" rel="noopener">verisk.com</a></li>
+				<li>Bureau of Labor Statistics (2025). Census of Fatal Occupational Injuries, 2024. 370 construction fall deaths (down from 400 in 2023), 1,032 total construction deaths. <a href="https://www.safetyandhealthmagazine.com/on-the-job-deaths-drop-4-in-2024-bls/" target="_blank" rel="noopener">safetyandhealthmagazine.com</a></li>
+				<li>EagleView (2025). &ldquo;EagleView Roof Measurements Confirmed to Be 98.77% Accurate.&rdquo; Independent benchmark validation of TrueDesign platform. <a href="https://www.eagleview.com/eagleview/eagleview-roof-measurements-confirmed-to-be-98-77-accurate-compared-to-independent-benchmark-measurements/" target="_blank" rel="noopener">eagleview.com</a></li>
+				<li>EagleView (2025). &ldquo;Eagleview Assess Expands Drone Roof Inspection Solution.&rdquo; September 10, 2025 press release. <a href="https://www.eagleview.com/eagleview/eagleview-assess-expands-drone-roof-inspection-solution/" target="_blank" rel="noopener">eagleview.com</a></li>
+				<li>GAF. QuickMeasure AI roof measurement reports. 6M+ reports generated. <a href="https://www.gaf.com/en-us/resources/business-services" target="_blank" rel="noopener">gaf.com</a></li>
+				<li>Loveland Innovations (2023). Launch of IMGING Inspect comprehensive property inspection suite. <a href="https://markets.financialcontent.com/stocks/article/accwirecq-2023-10-31-loveland-innovations-introduces-comprehensive-property-inspection-suite-with-launch-of-imging-inspect" target="_blank" rel="noopener">financialcontent.com</a></li>
+				<li>Nearmap. AI property condition assessment for insurance. Claims cycle reduction estimates. <a href="https://www.esri.com/partners/nearmap-a2T70000000TeEOEA0/nearmap-for-insuranc-a2d5x000005vfWQAAY" target="_blank" rel="noopener">esri.com/partners/nearmap</a></li>
+				<li>TGS Insurance (2025). &ldquo;Roof Claims Surge: A 30% Increase from 2022 to 2024.&rdquo; Summary of Verisk findings. <a href="https://tgsinsurance.com/roof-claims-surge/" target="_blank" rel="noopener">tgsinsurance.com</a></li>
+			</ul>
+		</section>
+
+	</div>
+</body>
+</html>
