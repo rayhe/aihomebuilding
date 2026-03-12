@@ -439,7 +439,14 @@ When you discover a new topic worth covering, add it here with:
 - Cost: green infrastructure $3–$15/sqft vs traditional $5–$25/sqft (EPA Green Infrastructure toolkit)
 - Journalist: Priya Greenwood (sustainability beat)
 
-### 47. ⚪ AI-Powered Electrical Design & NEC Compliance
+### 47. 🟢 AI-Powered Electrical Design & NEC Compliance
+- NEC 2026 edition: 30+ technical changes affecting residential
+- WSCAD ELECTRIX AI 2026: first AI-powered electrical CAD
+- Housecall Pro electrical toolkit: camera-based compliance checking
+- NFPA: 52% of home electrical fires from faulty wiring
+- 200 residential electrocution deaths/year (NFPA)
+- Panel upgrade costs $1,500–$2,800 for 200A (HomeAdvisor 2025)
+- **Published:** "The NEC Has 1,100 Pages. Your Electrician Reads Maybe 40." (Catherine Chen)
 - Residential electrical design still mostly manual: panel schedules, circuit routing, load calculations
 - ETAP PowerStation AI: automated short circuit, load flow, arc flash analysis
 - Trace Software elecworks: AI-assisted residential wiring design
