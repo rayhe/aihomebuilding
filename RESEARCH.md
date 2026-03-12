@@ -57,10 +57,15 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Cost: ~$10K for walls vs. $40K+ traditional
 - **Published:** "A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next." (Jake Kowalski)
 
-### 8. ⚪ Drones in Residential Construction
+### 8. 🟢 Drones in Residential Construction
 - Site surveying, progress monitoring, roof inspection
-- DJI Matrice, Skydio for autonomous flight
-- Photogrammetry → 3D models from drone footage
+- DJI Mavic 3E, Skydio X10, DroneDeploy, Propeller Aero
+- Photogrammetry → 2cm orthomosaics from 20-min flights
+- FAA Part 107: 405,682 certificates (Dec 2024), 966K commercial fleet
+- Cost collapse: traditional survey $1,500-$6,000 vs drone $200-$1,200
+- Limitations: can't do boundary surveys or foundation staking
+- Construction drone market: $7.2B (2024) → $14.8B by 2033 (IMARC)
+- **Published:** "Your Surveyor Spent Three Days Staking a Lot. A Drone Did It During Lunch." (Jake Kowalski)
 
 ### 9. 🟢 Prefab + AI: The Modular Revolution
 - Factory-built homes with AI quality control
