@@ -434,13 +434,14 @@ When you discover a new topic worth covering, add it here with:
 - Price democratization: $0–$50/plan vs $3K–$10K architect-designed
 - Journalist: Elena Vasquez (architecture/design beat)
 
-### 46. ⚪ AI Stormwater Management for Residential Development
+### 46. 🟢 AI Stormwater Management for Residential Development
 - EPA: stormwater runoff is #1 source of water pollution in urban areas
 - Green infrastructure AI: Autocase, OptiRTC for real-time stormwater system control
 - ML-based flood risk modeling at parcel level (First Street Foundation, Jupiter Intelligence)
 - Permeable surface optimization: AI calculates minimum impervious area for zoning compliance
 - New builds often required to manage 100% of first-inch rainfall on-site
 - Cost: green infrastructure $3–$15/sqft vs traditional $5–$25/sqft (EPA Green Infrastructure toolkit)
+- **Published:** "Your Lot Sends 27,000 Gallons of Runoff Into the Street Every Year. AI Knows Exactly Where It Goes." (Priya Greenwood)
 - Journalist: Priya Greenwood (sustainability beat)
 
 ### 47. 🟢 AI-Powered Electrical Design & NEC Compliance
