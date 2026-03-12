@@ -397,15 +397,16 @@ When you discover a new topic worth covering, add it here with:
 - Insurance: aerial AI assessments reduce claims cycle by 60%+ (Nearmap)
 - **Published:** "Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed." (Jake Kowalski)
 
-### 43. ⚪ Smart Wearables & Safety Helmets on Residential Job Sites
+### 43. 🟢 Smart Wearables & Safety Helmets on Residential Job Sites
 - Triax SitePulse: real-time location, fall detection, heat stress alerts
 - Spot-r (Trimble): worker proximity to equipment, automated muster reports
-- WakeCap: solar-powered helmet sensor, under-$1/worker/day
-- Samsung SmartThings partnership with Kenzen for heat stress AI
-- 1,034 construction deaths/year (BLS 2024), falls still #1 at 36.4%
-- Smart PPE market: $3.2B → $8.4B by 2032 (Mordor Intelligence)
+- WakeCap: solar-powered helmet sensor, under-$1/worker/day, $28M Series A (May 2025)
+- Kenzen: wristband core body temp modeling, personalized heat alerts
+- Soter Analytics: $12M raised, spinal motion tracking, ergonomic coaching
+- 1,034 construction deaths/year (BLS 2024), falls still #1 at 38%
+- Smart PPE market: $5.39B in 2026, 16.2% CAGR (The Business Research Company)
 - Residential adoption lag: most wearable deployments are commercial/infrastructure
-- Journalist: Marcus Washington (workforce/labor beat)
+- **Published:** "Your Hard Hat Hasn't Changed Since 1953. The One With Sensors Might Save Your Life." (Marcus Washington)
 
 ### 44. 🟢 AI Mold & Moisture Detection for New Construction
 - Mold remediation costs: $1,500–$30,000+ for residential
