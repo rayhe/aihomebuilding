@@ -1,8 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
 Disallow: /functions/
 
-# Sitemap
 Sitemap: https://aihomebuilding.pages.dev/sitemap.xml
