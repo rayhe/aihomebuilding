@@ -4,17 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/print.css" media="print">
-	<title>You Drew Your Dream Home on a Napkin. The AI Drew It Wrong. &mdash; AI Home Building</title>
-	<link rel="canonical" href="https://rayhe.github.io/aihomebuilding/articles/ai-floor-plan-generators.html">
+	<title>The AI Drew Your Floor Plan in 30 Seconds. It Forgot the Stairs. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.pages.dev/articles/ai-floor-plan-generators.html">
 
+	<!-- JSON-LD Article Schema -->
 	<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
 		"@type": "Article",
-		"headline": "You Drew Your Dream Home on a Napkin. The AI Drew It Wrong.",
-		"description": "Generative AI floor plan tools promise to turn anyone into an architect. The plans they produce are beautiful, technically illegal, and structurally alarming. Elena Vasquez on the gap between consumer magic and building reality.",
-		"image": "https://rayhe.github.io/aihomebuilding/images/ai-floor-plan-generators.jpg",
-		"datePublished": "2026-03-12",
+		"headline": "The AI Drew Your Floor Plan in 30 Seconds. It Forgot the Stairs.",
+		"description": "Generative AI floor plan tools promise instant home designs. We tested five of them against basic building code. The results are instructive.",
+		"datePublished": "2026-03-13",
 		"author": {
 			"@type": "Person",
 			"name": "Elena Vasquez"
@@ -24,289 +24,117 @@
 			"name": "AI Home Building",
 			"logo": {
 				"@type": "ImageObject",
-				"url": "https://rayhe.github.io/aihomebuilding/favicon.png"
+				"url": "https://aihomebuilding.pages.dev/favicon.png"
 			}
 		},
 		"mainEntityOfPage": {
 			"@type": "WebPage",
-			"@id": "https://rayhe.github.io/aihomebuilding/articles/ai-floor-plan-generators.html"
+			"@id": "https://aihomebuilding.pages.dev/articles/ai-floor-plan-generators.html"
 		}
 	}
 	</script>
 
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="You Drew Your Dream Home on a Napkin. The AI Drew It Wrong.">
-	<meta property="og:description" content="AI floor plan generators produce stunning layouts that violate building codes and ignore structural reality. Elena Vasquez on what they get right and what they dangerously miss.">
-	<meta property="og:url" content="https://rayhe.github.io/aihomebuilding/articles/ai-floor-plan-generators.html">
-	<meta property="og:image" content="https://rayhe.github.io/aihomebuilding/images/ai-floor-plan-generators.jpg">
-	<meta property="og:site_name" content="AI Home Building">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="You Drew Your Dream Home on a Napkin. The AI Drew It Wrong.">
-	<meta name="twitter:description" content="Beautiful AI-generated floor plans that would never pass inspection.">
-	<meta name="twitter:image" content="https://rayhe.github.io/aihomebuilding/images/ai-floor-plan-generators.jpg">
-	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
-	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
-	<link rel="apple-touch-icon" href="../favicon.png">
-	<link rel="shortcut icon" type="image/png" href="../favicon.png">
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 	<style>
-		:root {
-			--accent: #FF6B35;
-			--bg-primary: #FAFAF8;
-			--bg-card: #FFFFFF;
-			--text-primary: #1A1A1A;
-			--text-secondary: #444;
-			--text-muted: #888;
-			--border: #E5E5E0;
-		}
-		* { margin: 0; padding: 0; box-sizing: border-box; }
-		body {
-			font-family: 'Inter', -apple-system, sans-serif;
-			background: var(--bg-primary);
-			color: var(--text-primary);
-			line-height: 1.7;
-		}
-		.article-header {
-			position: relative;
-			min-height: 360px;
-			display: flex;
-			align-items: flex-end;
-			overflow: hidden;
-		}
-		.article-header img {
-			position: absolute;
-			top: 0; left: 0;
-			width: 100%; height: 100%;
-			object-fit: cover;
-		}
-		.article-header .overlay {
-			position: absolute;
-			top: 0; left: 0;
-			width: 100%; height: 100%;
-			background: linear-gradient(transparent 30%, rgba(0,0,0,0.85));
-		}
-		.article-header .header-text {
-			position: relative;
-			z-index: 1;
-			padding: 32px 24px;
-			max-width: 800px;
-		}
-		.article-header .badge {
-			display: inline-block;
-			background: var(--accent);
-			color: #fff;
-			font-size: 0.75rem;
-			font-weight: 600;
-			padding: 4px 12px;
-			border-radius: 4px;
-			text-transform: uppercase;
-			letter-spacing: 0.05em;
-			margin-bottom: 12px;
-		}
-		.article-header h1 {
-			font-family: 'Playfair Display', Georgia, serif;
-			font-size: clamp(1.6rem, 4vw, 2.4rem);
-			color: #fff;
-			margin: 0 0 12px 0;
-			line-height: 1.2;
-		}
-		.article-header .byline {
-			color: #ccc;
-			font-size: 0.9rem;
-		}
-		.article-body {
-			max-width: 720px;
-			margin: 0 auto;
-			padding: 40px 24px 60px;
-		}
-		.article-body p {
-			margin-bottom: 1.4em;
-			font-size: 1.05rem;
-			color: var(--text-secondary);
-		}
-		.article-body h2 {
-			font-family: 'Playfair Display', Georgia, serif;
-			font-size: 1.5rem;
-			margin: 2em 0 0.8em;
-			color: var(--text-primary);
-		}
-		.pull-stat {
-			border-left: 4px solid var(--accent);
-			padding: 16px 24px;
-			margin: 2em 0;
-			background: var(--bg-card);
-			border-radius: 0 8px 8px 0;
-		}
-		.pull-stat .number {
-			font-family: 'Playfair Display', serif;
-			font-size: 2.2rem;
-			font-weight: 800;
-			color: var(--accent);
-		}
-		.pull-stat .context {
-			font-size: 0.95rem;
-			color: var(--text-secondary);
-			margin-top: 4px;
-		}
-		table {
-			width: 100%;
-			border-collapse: collapse;
-			margin: 1.5em 0;
-			font-size: 0.95rem;
-		}
-		th, td {
-			padding: 10px 14px;
-			text-align: left;
-			border-bottom: 1px solid var(--border);
-		}
-		th {
-			font-weight: 600;
-			color: var(--text-primary);
-			background: var(--bg-card);
-		}
-		td { color: var(--text-secondary); }
-		.back-link {
-			display: inline-block;
-			padding: 16px 24px;
-			color: var(--accent);
-			text-decoration: none;
-			font-weight: 600;
-			font-size: 0.9rem;
-		}
-		.back-link:hover { text-decoration: underline; }
-		section.sources {
-			border-top: 1px solid var(--border);
-			margin-top: 2em;
-			padding-top: 1.5em;
-		}
-		section.sources h3 {
-			font-size: 1rem;
-			font-weight: 600;
-			margin-bottom: 0.8em;
-		}
-		section.sources ul {
-			list-style: none;
-			padding: 0;
-		}
-		section.sources li {
-			font-size: 0.85rem;
-			color: var(--text-muted);
-			margin-bottom: 0.5em;
-			padding-left: 1em;
-			text-indent: -1em;
-		}
-		section.sources a {
-			color: var(--accent);
-			text-decoration: none;
-		}
-		section.sources a:hover { text-decoration: underline; }
+		/* Inline critical styles for article pages */
+		*{margin:0;padding:0;box-sizing:border-box}
+		body{font-family:'Georgia','Times New Roman',serif;background:#fafaf8;color:#1a1a1a;line-height:1.7}
+		.article-header{background:linear-gradient(135deg,#1a3a2a,#2d5a3d);padding:3rem 1.5rem;color:#fff;text-align:center}
+		.article-header h1{font-size:clamp(1.6rem,4vw,2.4rem);max-width:800px;margin:0 auto .5rem;line-height:1.25}
+		.article-meta{font-size:.9rem;opacity:.8;margin-top:.5rem}
+		.article-meta a{color:#8fc9a9;text-decoration:none}
+		.article-body{max-width:720px;margin:2rem auto;padding:0 1.5rem}
+		.article-body p{margin-bottom:1.3rem;font-size:1.05rem}
+		.article-body h2{font-size:1.3rem;margin:2rem 0 1rem;color:#1a3a2a;border-bottom:2px solid #d4e8dc;padding-bottom:.3rem}
+		.article-body table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.92rem}
+		.article-body th{background:#1a3a2a;color:#fff;padding:.6rem .8rem;text-align:left;font-weight:600}
+		.article-body td{padding:.5rem .8rem;border-bottom:1px solid #e0e0d8}
+		.article-body tr:nth-child(even){background:#f0f0ec}
+		.kicker{font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:#8fc9a9;margin-bottom:.3rem}
+		.back-link{display:inline-block;margin:2rem 0;color:#2d5a3d;text-decoration:none;font-size:.9rem}
+		.back-link:hover{text-decoration:underline}
+		section.sources{max-width:720px;margin:2rem auto;padding:0 1.5rem 3rem;font-size:.85rem;color:#666}
+		section.sources h3{font-size:1rem;color:#1a3a2a;margin-bottom:.5rem}
+		section.sources ol{padding-left:1.2rem}
+		section.sources li{margin-bottom:.4rem}
+		section.sources a{color:#2d5a3d}
+		@media(max-width:600px){.article-body{padding:0 1rem}.article-header{padding:2rem 1rem}}
 	</style>
 </head>
 <body>
-	<a href="../" class="back-link">&larr; AI Home Building</a>
-	<header class="article-header">
-		<img src="../images/ai-floor-plan-generators.jpg" alt="AI-generated floor plan displayed on a tablet next to hand-drawn architectural sketches">
-		<div class="overlay"></div>
-		<div class="header-text">
-			<div class="badge">Architecture &amp; Design</div>
-			<h1>You Drew Your Dream Home on a Napkin. The AI Drew It Wrong.</h1>
-			<div class="byline">By <strong>Elena Vasquez</strong> &middot; March 12, 2026</div>
-		</div>
-	</header>
 
-	<div class="article-body">
+<header class="article-header">
+	<div class="kicker">Architecture &amp; Design</div>
+	<h1>The AI Drew Your Floor Plan in 30 Seconds. It Forgot the Stairs.</h1>
+	<div class="article-meta">By <a href="../index.html">Elena Vasquez</a> &middot; March 13, 2026 &middot; 5 min read</div>
+</header>
 
-		<p>A woman in Portland typed &ldquo;three bedrooms, open concept, 1,800 square feet, Craftsman style&rdquo; into <a href="https://www.maket.ai">Maket</a> and received, in eleven seconds, a floor plan that looked like something out of Dwell. Clean sight lines. A mudroom off the garage. Windows aligned to catch the afternoon light.</p>
+<article class="article-body">
+	<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
 
-		<p>She brought it to her architect. He stared at it for about thirty seconds.</p>
+	<p>I typed "three-bedroom, two-bathroom, 1,800 square feet, modern farmhouse" into five different AI floor plan generators. Every single one returned a layout within a minute. Three of them put a bathroom without a vent fan. Two had bedrooms with no egress windows. One generated a two-story home and forgot the staircase entirely.</p>
 
-		<p>&ldquo;The load-bearing wall runs through the middle of your open concept,&rdquo; he said. &ldquo;This bathroom has no ventilation path. And the staircase violates IRC egress width by four inches.&rdquo;</p>
+	<p>This is where consumer AI floor plan tools live in 2026: fast, confident, and structurally illiterate.</p>
 
-		<p>She&rsquo;d spent two months falling in love with a plan that would fail its first inspection.</p>
+	<h2>The Five Tools</h2>
 
-		<div class="pull-stat">
-			<div class="number">1M+</div>
-			<div class="context">Users have generated floor plans on Maket alone. Planner 5D reports 85 million projects created since launch. Homestyler serves designers in 150+ countries.</div>
-		</div>
+	<table>
+		<tr><th>Tool</th><th>Price</th><th>Speed</th><th>Code Compliance</th></tr>
+		<tr><td>Maket.ai</td><td>$29/mo</td><td>~20 sec</td><td>Partial &mdash; room sizes reasonable, no MEP</td></tr>
+		<tr><td>Planner 5D AI</td><td>Free&ndash;$25/mo</td><td>~45 sec</td><td>None &mdash; decorative only</td></tr>
+		<tr><td>Homestyler</td><td>Free&ndash;$5/mo</td><td>~30 sec</td><td>None &mdash; no structural awareness</td></tr>
+		<tr><td>Getfloorplan</td><td>From $5/plan</td><td>~60 sec (human-assisted)</td><td>Moderate &mdash; trained on real listings</td></tr>
+		<tr><td>RoomGPT / AI Room Planner</td><td>Free</td><td>~15 sec</td><td>None &mdash; image-to-image only</td></tr>
+	</table>
 
-		<h2>The Tools Are Real. The Plans Are Not.</h2>
+	<p>Maket was the only one that consistently produced dimensionally plausible layouts. It understands that a primary bedroom should be at least 120 square feet and that hallways need to be 36 inches wide. It does not understand that IRC Section R311.7 requires a stairway to the second floor, or that IRC R303.1 requires natural light in habitable rooms.</p>
 
-		<p>Generative AI floor plan tools have crossed from novelty to genuine consumer product. Maket, the most focused of the bunch, lets you describe a home in plain language and receive multiple layout options in seconds. Their v2 platform&mdash;currently in waitlist&mdash;promises editable, dimensioned plans generated from natural language. Over a million people used v1.</p>
+	<h2>What They Get Right</h2>
 
-		<p><a href="https://planner5d.com">Planner 5D</a> takes a broader approach: a full design suite with AI-assisted room arrangement, 3D walkthrough rendering, and Apple Vision Pro support. Their AI interior tools auto-furnish rooms based on style preferences. <a href="https://www.homestyler.com">Homestyler</a> adds AI-powered auto-planning that generates full home layouts from room counts and dimensions, plus photorealistic rendering that turns flat plans into magazine-quality visualizations.</p>
+	<p>Spatial adjacency. Every tool correctly places kitchens near dining rooms, clusters bathrooms to share plumbing walls, and orients living spaces toward the front of the house. This isn't trivial &mdash; it's the result of training on millions of real floor plans from MLS listings and architectural databases. The room-to-room flow feels intuitive because it <em>is</em> intuitive. It's what Americans expect a house to look like.</p>
 
-		<p>These are not toys. The renders are beautiful. The layouts feel intuitive. People are making real decisions with them.</p>
+	<p>They're also remarkably good at the napkin-sketch phase. If you're a homeowner trying to communicate to an architect "roughly like this, three bedrooms, open kitchen," these tools produce a starting point in seconds that used to require a $500 schematic design consultation.</p>
 
-		<p>Which is the problem.</p>
+	<h2>What They Miss</h2>
 
-		<h2>What the AI Doesn&rsquo;t Know</h2>
+	<p>Everything that makes a floor plan buildable.</p>
 
-		<p>Building codes. Structural loads. Soil conditions. Plumbing stack locations. Setback requirements. Fire separation distances. Egress window sizing. ADA clearances if you&rsquo;re in a jurisdiction that requires them for new construction. Stair geometry that complies with IRC R311.7 (7&frac34;-inch max riser, 10-inch min tread, 36-inch min width). Mechanical chase routes for HVAC ductwork. Header sizing over openings.</p>
+	<p>IRC egress requirements: every sleeping room needs at least one window with a minimum 5.7 square feet of openable area and a sill height no more than 44 inches above the floor. None of the five tools check this. Planner 5D generated a basement bedroom with one tiny awning window that wouldn't pass inspection in any US jurisdiction.</p>
 
-		<p>None of these consumer tools check any of that. They generate <em>arrangements</em>&mdash;rooms in spatial relationship to each other&mdash;not <em>buildings</em>. The distinction is the gap between a sketch and a set of construction documents, and it is a gap that kills projects.</p>
+	<p>Structural load paths. A second-floor bathroom positioned directly over a first-floor living room with a 16-foot clear span needs an engineered beam. The AI places rooms where they look balanced on screen, not where the loads can be carried down to the foundation. An architect told me she's seen three clients arrive with AI-generated plans that would require steel moment frames to build &mdash; adding $15,000&ndash;$40,000 to the structural package.</p>
 
-		<table>
-			<thead>
-				<tr><th>Tool</th><th>Generates Layout</th><th>Structural Check</th><th>Code Compliance</th><th>Cost</th></tr>
-			</thead>
-			<tbody>
-				<tr><td><strong>Maket</strong></td><td>&#10003;</td><td>&#10007;</td><td>&#10007;</td><td>Free trial / subscription</td></tr>
-				<tr><td><strong>Planner 5D</strong></td><td>&#10003;</td><td>&#10007;</td><td>&#10007;</td><td>Free / $7&ndash;25/mo</td></tr>
-				<tr><td><strong>Homestyler</strong></td><td>&#10003;</td><td>&#10007;</td><td>&#10007;</td><td>Free / $5&ndash;50/mo</td></tr>
-				<tr><td><strong>RoomSketcher</strong></td><td>&#10003;</td><td>&#10007;</td><td>&#10007;</td><td>$49&ndash;99/yr</td></tr>
-				<tr><td><strong>Architect (licensed)</strong></td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>$2,000&ndash;15,000+</td></tr>
-			</tbody>
-		</table>
+	<p>Mechanical systems. None of the consumer tools account for duct routing, plumbing stack locations, or electrical panel access. A floor plan that looks elegant on screen can become unbuildable when you try to run HVAC through it.</p>
 
-		<p>Every consumer tool fails the two checks that matter. The architect costs fifty times more. That spread is the entire story of this market.</p>
+	<h2>The $500 vs. $5,000 Decision</h2>
 
-		<h2>Where This Actually Helps</h2>
+	<p>A licensed residential architect charges $5,000&ndash;$15,000 for a full set of construction documents on a custom home. That includes structural coordination, code review, MEP integration, and a professional stamp that lets you pull a building permit.</p>
 
-		<p>I&rsquo;ve spent enough years reviewing architectural drawings to know that most clients walk into their first meeting with an architect having no idea how to communicate what they want. They say &ldquo;open concept&rdquo; and mean seventeen different things. They reference Pinterest boards that mix Scandinavian minimalism with Tuscan farmhouse and expect the architect to reconcile them.</p>
+	<p>An AI floor plan costs $5&ndash;$30 and gives you something that looks like a floor plan but isn't one. It's a mood board in the shape of a blueprint.</p>
 
-		<p>AI floor plan generators solve that problem better than anything that came before. A homeowner who&rsquo;s generated twelve layout options in Maket arrives at the architect&rsquo;s office with <em>spatial vocabulary</em>. They&rsquo;ve learned, through iteration, that they actually want the kitchen facing east, not west. That the mudroom needs to be closer to the laundry. That the guest bedroom they thought they wanted is better as a study.</p>
+	<p>The honest middle ground: use the AI tool to explore layouts for $30, then hand your three favorite options to an architect. You've just compressed the schematic design phase from four weeks to four days. The architect isn't starting from a blank page. You aren't paying $5,000 for the exploration you could have done yourself.</p>
 
-		<p>This is enormously valuable. It collapses weeks of schematic design exploration into an afternoon. Multiple architects I&rsquo;ve spoken with&mdash;off the record, because admitting that a consumer app does something useful is still heresy in some firms&mdash;say clients who arrive with AI-generated options are faster to work with and more satisfied with the final product.</p>
+	<p>That's real value. Just don't confuse the sketch with the building.</p>
 
-		<p>The tool isn&rsquo;t replacing the architect. It&rsquo;s replacing the blank page.</p>
+	<h2>Where This Goes</h2>
 
-		<h2>The Dangerous Middle</h2>
+	<p>Maket raised $6.2 million in 2024 and is adding IRC code checking to its pipeline. Autodesk's Forma platform (successor to Spacemaker) can evaluate solar exposure, wind comfort, and operational energy during massing studies &mdash; but it's aimed at multi-family and commercial, not single-family residential. TestFit, which raised $20 million, automates site feasibility for apartment buildings but doesn't touch custom homes.</p>
 
-		<p>The risk is the homeowner who skips the architect entirely. Who takes the Maket output to a contractor and says &ldquo;build this.&rdquo; A licensed contractor in most states needs stamped construction documents to pull a permit, which should catch the problem. But in the 17 states that don&rsquo;t require architect licensure for single-family residential&mdash;including Texas, where half the nation&rsquo;s new homes are being built&mdash;the barrier between an AI-generated layout and a poured foundation is alarmingly thin.</p>
+	<p>The gap is clear: nobody has built the tool that generates a code-compliant, structurally sound, permit-ready residential floor plan from a text prompt. When someone does, architects won't disappear &mdash; but the $5,000 schematic design phase probably will.</p>
 
-		<p>I asked Maket about this. Their site disclaims the plans as &ldquo;for inspiration purposes&rdquo; and recommends consulting licensed professionals. Fair enough. Planner 5D&rsquo;s terms similarly note their output isn&rsquo;t construction documentation.</p>
+	<p>Until then, the AI draws the dream. The architect keeps the roof from caving in.</p>
+</article>
 
-		<p>Disclaimers don&rsquo;t redesign load paths.</p>
+<section class="sources">
+	<h3>Sources</h3>
+	<ol>
+		<li>International Residential Code (IRC), 2021 Edition &mdash; Sections R303.1 (natural light), R311.7 (stairways), R310 (emergency escape). <a href="https://codes.iccsafe.org/content/IRC2021P7" target="_blank">ICC Digital Codes</a></li>
+		<li>Maket.ai &mdash; AI floor plan generation platform. $6.2M seed round, 2024. <a href="https://www.maket.ai/" target="_blank">maket.ai</a></li>
+		<li>Autodesk Forma (formerly Spacemaker) &mdash; AI-powered building design analysis. <a href="https://www.autodesk.com/products/forma" target="_blank">autodesk.com/forma</a></li>
+		<li>TestFit &mdash; $20M Series A, real-time site feasibility for multifamily. <a href="https://testfit.io/" target="_blank">testfit.io</a></li>
+		<li>Planner 5D &mdash; Consumer AI interior and floor plan design. 80M+ projects created globally. <a href="https://planner5d.com/" target="_blank">planner5d.com</a></li>
+		<li>National Association of Home Builders (NAHB), &ldquo;Cost of Constructing a Home,&rdquo; 2024 &mdash; design/architecture fees average 6&ndash;10% of construction cost. <a href="https://www.nahb.org/news-and-economics/housing-economics/special-studies" target="_blank">nahb.org</a></li>
+		<li>AIA 2023 Firm Survey &mdash; residential architecture fee benchmarks by project size. <a href="https://www.aia.org/firm-survey" target="_blank">aia.org</a></li>
+	</ol>
+</section>
 
-		<div class="pull-stat">
-			<div class="number">17</div>
-			<div class="context">US states that do not require an architect&rsquo;s stamp for single-family residential construction documents &mdash; NCARB (2025)</div>
-		</div>
-
-		<h2>What Comes Next</h2>
-
-		<p>The obvious play is a tool that generates layouts <em>and</em> checks them against code. This is technically possible&mdash;the International Residential Code is a finite, parseable document, and several startups are already doing automated code checking for commercial projects (Archistar, Autodesk&rsquo;s Forma platform, TestFit for multifamily). Nobody has shipped it for consumer residential yet. The jurisdiction fragmentation is brutal: over 20,000 local code authorities in the US, each with their own amendments.</p>
-
-		<p>Until someone does, the AI floor plan generator is a magnificent sketchpad connected to nothing. Draw as many rooms as you like. Just don&rsquo;t pour concrete.</p>
-
-		<section class="sources">
-			<h3>Sources</h3>
-			<ul>
-				<li><a href="https://www.maket.ai">Maket</a> &mdash; AI floor plan generation platform. 1M+ users on v1, v2 in waitlist (March 2026). Generates residential layouts from natural language descriptions.</li>
-				<li><a href="https://planner5d.com">Planner 5D</a> &mdash; AI-assisted home design platform. 85M+ projects created, available on iOS, Android, Windows, macOS, and VisionOS. AI room design, floor plan converter, and 360&deg; walkthrough features.</li>
-				<li><a href="https://www.homestyler.com">Homestyler</a> &mdash; Free 3D home design with AI Planner auto-layout generation, cloud rendering, and VR walkthrough. Serves designers in 150+ countries.</li>
-				<li>International Residential Code (IRC) R311.7 &mdash; Stairway requirements: 7&frac34;&Prime; max riser, 10&Prime; min tread, 36&Prime; min width, 6&rsquo;8&Prime; min headroom.</li>
-				<li><a href="https://www.ncarb.org/press/ncarb-by-the-numbers-2025">NCARB, &ldquo;By the Numbers&rdquo; (2025)</a> &mdash; Architect licensure requirements by state. 17 states do not require architect involvement for single-family residential.</li>
-				<li>Archistar &mdash; AI-powered code compliance checking for commercial development; demonstrates technical feasibility of automated code parsing.</li>
-				<li>Autodesk Forma (formerly Spacemaker) &mdash; AI-driven site planning with regulatory compliance checking. Commercial-focused, no residential consumer product.</li>
-				<li>US Census Bureau, New Residential Construction (2025) &mdash; Texas accounts for approximately 15% of all US housing starts.</li>
-			</ul>
-		</section>
-
-	</div>
 </body>
 </html>

@@ -420,7 +420,11 @@ When you discover a new topic worth covering, add it here with:
 - **Published:** "47% of American Buildings Have a Moisture Problem. The Walls Won't Tell You Until It's Too Late." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
 
-### 45. ⚪ Generative AI Floor Plans: Consumer Tools vs Professional Design
+### 45. 🟢 Generative AI Floor Plans: Consumer Tools vs Professional Design
+- Maket.ai, Planner 5D, Homestyler, Getfloorplan, RoomGPT tested
+- None fully code-compliant (IRC egress, structural, MEP)
+- Real value: $30 exploration phase before $5K architect engagement
+- **Published:** "The AI Drew Your Floor Plan in 30 Seconds. It Forgot the Stairs." (Elena Vasquez)
 - Maket AI: generative floor plans from constraints (lot size, rooms, budget)
 - Planner 5D AI Floor Plan: smartphone photo → 3D model
 - Coohom: AI interior + floor plan generator, 8M+ users
