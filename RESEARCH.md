@@ -387,3 +387,98 @@ When you discover a new topic worth covering, add it here with:
 - Insurance crisis: FAIR Plan at $724B exposure, forward-looking catastrophe models
 - WUI construction cost premium: $5K-$16K on a new build (1-4%)
 - **Published:** "$2.15 Trillion in Homes at Wildfire Risk. AI Can See Which Ones Will Survive." (Priya Greenwood)
+
+### 42. ⚪ AI-Powered Roofing Inspection & Repair Estimation
+- Drone + AI replaces manual roof inspections — faster, safer, more accurate
+- Loveland Innovations (IMGING): AI property scans for insurance and roofers
+- EagleView TrueDesign: aerial imagery + ML measures every roof plane to ±0.5 inches
+- GAF QuickMeasure: 6 million+ reports generated, integrates with contractor CRMs
+- Average manual roof inspection: $200–$500. Drone + AI: $100–$250 with 3× coverage
+- Insurance: aerial AI assessments reduce claims cycle by 60%+ (Nearmap)
+- Journalist: Jake Kowalski (construction tech beat)
+
+### 43. ⚪ Smart Wearables & Safety Helmets on Residential Job Sites
+- Triax SitePulse: real-time location, fall detection, heat stress alerts
+- Spot-r (Trimble): worker proximity to equipment, automated muster reports
+- WakeCap: solar-powered helmet sensor, under-$1/worker/day
+- Samsung SmartThings partnership with Kenzen for heat stress AI
+- 1,034 construction deaths/year (BLS 2024), falls still #1 at 36.4%
+- Smart PPE market: $3.2B → $8.4B by 2032 (Mordor Intelligence)
+- Residential adoption lag: most wearable deployments are commercial/infrastructure
+- Journalist: Marcus Washington (workforce/labor beat)
+
+### 44. ⚪ AI Mold & Moisture Detection for New Construction
+- Mold remediation costs: $1,500–$30,000+ for residential
+- 50% of US buildings have dampness conditions (NIOSH)
+- ML models detect moisture anomalies in thermal imaging before visible damage
+- Bry-Air + AWS IoT: continuous humidity monitoring in sealed cavities
+- Sensirion SEN6x: multi-parameter sensors (VOC, humidity, temperature, particulates)
+- Pre-drywall moisture scanning: $300 vs $15K mold remediation
+- Insurance: water damage is #1 homeowner claim category (29.4% of all claims)
+- Journalist: Jake Kowalski (construction tech beat)
+
+### 45. ⚪ Generative AI Floor Plans: Consumer Tools vs Professional Design
+- Maket AI: generative floor plans from constraints (lot size, rooms, budget)
+- Planner 5D AI Floor Plan: smartphone photo → 3D model
+- Coohom: AI interior + floor plan generator, 8M+ users
+- REimagineHome: text prompt → rendered room designs
+- Professional pushback: NCARB 2025 report on AI and licensing
+- Quality gap: AI floor plans lack structural logic, egress compliance, HVAC routing
+- Price democratization: $0–$50/plan vs $3K–$10K architect-designed
+- Journalist: Elena Vasquez (architecture/design beat)
+
+### 46. ⚪ AI Stormwater Management for Residential Development
+- EPA: stormwater runoff is #1 source of water pollution in urban areas
+- Green infrastructure AI: Autocase, OptiRTC for real-time stormwater system control
+- ML-based flood risk modeling at parcel level (First Street Foundation, Jupiter Intelligence)
+- Permeable surface optimization: AI calculates minimum impervious area for zoning compliance
+- New builds often required to manage 100% of first-inch rainfall on-site
+- Cost: green infrastructure $3–$15/sqft vs traditional $5–$25/sqft (EPA Green Infrastructure toolkit)
+- Journalist: Priya Greenwood (sustainability beat)
+
+### 47. ⚪ AI-Powered Electrical Design & NEC Compliance
+- Residential electrical design still mostly manual: panel schedules, circuit routing, load calculations
+- ETAP PowerStation AI: automated short circuit, load flow, arc flash analysis
+- Trace Software elecworks: AI-assisted residential wiring design
+- NEC 2023 updates: GFCI expansion to 250V, outdoor receptacle changes, rapid shutdown for solar
+- Code complexity: NEC is 1,000+ pages, updated every 3 years, adopted at different speeds per state
+- Errors in residential electrical plans: ~15% rejection rate at permit review (NFPA research)
+- Journalist: Catherine Chen (policy/regulation beat) or Jake Kowalski
+
+### 48. ⚪ AI Construction Scheduling: Weather, Supply Chain, and Labor Prediction
+- Residential builds average 7.2 months (Census 2024), but variance is enormous
+- Alice Technologies: 4D construction scheduling with ML-optimized sequencing
+- Rhumbix (now Procore): field time tracking + ML productivity prediction
+- Weather delay prediction: DTN + ML forecasting reduces idle days by 20–30%
+- Labor availability prediction: subcontractor no-show rate averages 15–20%
+- Small builders still use Excel/paper: <20% use scheduling software (NAHB 2024)
+- Journalist: Frank DeLuca (project management beat)
+
+### 49. ⚪ AI Radon Testing & Mitigation Design for New Homes
+- Radon is #1 cause of lung cancer in non-smokers: 21,000 deaths/year (EPA)
+- 1 in 15 US homes has elevated radon (>4 pCi/L)
+- Airthings: continuous radon monitoring with ML trend analysis and alerts
+- RadonEye RD200: 10-minute readings vs traditional 48-hour charcoal tests
+- Sub-slab depressurization system during construction: $800–$1,200 (vs $1,500–$3,000 retrofit)
+- AI soil gas prediction: USGS radon potential maps + ML for parcel-level risk
+- New IRC requirement: radon-resistant construction in Zone 1 counties
+- Journalist: Priya Greenwood (sustainability/health beat)
+
+### 50. ⚪ AI Plumbing Layout Optimization
+- Residential plumbing design: still hand-drawn on most custom homes
+- Autodesk Revit MEP + AI-assisted routing: automated pipe sizing, slope calculations
+- Wait-time optimization: AI reduces hot water wait from 60+ seconds to <10 seconds
+- Cross-bore detection: AI + GPR identifies buried utility conflicts before trenching
+- Water heater sizing: DOE EnergyGuide + ML-based usage prediction
+- Manifold (home-run) vs trunk-and-branch: AI can optimize layout for each
+- PEX adoption at 60%+ of new residential (2025 PMI survey), enables more flexible AI routing
+- Journalist: Jake Kowalski (construction tech beat)
+
+### 51. ⚪ AI for Accessible Home Design Beyond Aging-in-Place
+- 61 million Americans live with disabilities (CDC 2024)
+- Universal design principles vs ADA minimum compliance
+- Maket AI: accessible constraint-based floor plans (wheelchair turning radii, zero-thresholds)
+- Sidewalk Labs generative design: optimizing shared spaces for mobility diversity
+- Visitability legislation: growing movement for basic accessibility in all new homes
+- Cost of universal design at construction: 1–3% premium. Retrofit: 10–30× more
+- Journalist: Catherine Chen (policy beat) or Marcus Washington (human-centered)
