@@ -95,6 +95,13 @@
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
 
+### Maintenance & Housekeeping
+- [x] Custom 404 page — construction-themed "Page Not Found" with dark mode support, homepage and series links ✅ (March 13, 2026)
+- [x] `tools/rebuild_feeds.py` — programmatic sitemap.xml and feed.xml rebuild from article metadata. Generates clean sitemap (80 URLs) and RSS feed (50 most recent). ✅ (March 13, 2026)
+- [x] Series page sync — added 3 missing articles (ai-interior-design-tools, ai-battery-storage-design, ai-construction-draw), updated series counts and article total (77). ✅ (March 13, 2026)
+- [x] Grid deduplication run — rebuild_grid.py fixed 91→77 cards in index.html. ✅ (March 13, 2026)
+- [x] robots.txt sitemap URL fix — pointed to correct canonical domain (rayhe.github.io). ✅ (March 13, 2026)
+
 ---
 
 ## Design Principles

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page Not Found — AI Home Building</title>
+	<meta name="robots" content="noindex">
+	<link rel="icon" href="/aihomebuilding/favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--accent-dark: #E55A2B;
+			--bg: #FAFAF8;
+			--text: #1A1A1A;
+			--text-secondary: #555;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg: #111;
+			--text: #F0F0F0;
+			--text-secondary: #BBB;
+			--border: #2A2A2A;
+		}
+		* { margin: 0; padding: 0; box-sizing: border-box; }
+		body {
+			font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+			background: var(--bg);
+			color: var(--text);
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 40px 24px;
+			text-align: center;
+		}
+		.error-code {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 8rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+			margin-bottom: 16px;
+			letter-spacing: -0.03em;
+		}
+		h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2rem;
+			font-weight: 700;
+			margin-bottom: 16px;
+		}
+		.message {
+			font-size: 1.1rem;
+			color: var(--text-secondary);
+			max-width: 480px;
+			line-height: 1.7;
+			margin-bottom: 32px;
+		}
+		.actions {
+			display: flex;
+			gap: 16px;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.btn {
+			display: inline-block;
+			padding: 12px 28px;
+			border-radius: 8px;
+			font-weight: 600;
+			font-size: 0.95rem;
+			text-decoration: none;
+			transition: all 0.2s;
+		}
+		.btn-primary {
+			background: var(--accent);
+			color: #fff;
+		}
+		.btn-primary:hover {
+			background: var(--accent-dark);
+			transform: translateY(-1px);
+		}
+		.btn-secondary {
+			background: transparent;
+			color: var(--text);
+			border: 2px solid var(--border);
+		}
+		.btn-secondary:hover {
+			border-color: var(--accent);
+			color: var(--accent);
+		}
+		.hardhat {
+			font-size: 4rem;
+			margin-bottom: 24px;
+		}
+		.footer-note {
+			margin-top: 48px;
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+		}
+		.footer-note a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+		.footer-note a:hover {
+			text-decoration: underline;
+		}
+		@media (max-width: 480px) {
+			.error-code { font-size: 5rem; }
+			h1 { font-size: 1.5rem; }
+			.message { font-size: 1rem; }
+		}
+	</style>
+</head>
+<body>
+	<div class="hardhat">🚧</div>
+	<div class="error-code">404</div>
+	<h1>This Page Is Still Under Construction</h1>
+	<p class="message">
+		Looks like this blueprint doesn't match any page on our site. The foundation was never poured here — but we've got 77 articles worth exploring back at the homepage.
+	</p>
+	<div class="actions">
+		<a href="/aihomebuilding/" class="btn btn-primary">← Back to Homepage</a>
+		<a href="/aihomebuilding/series.html" class="btn btn-secondary">Browse Reading Paths</a>
+	</div>
+	<p class="footer-note">
+		<a href="/aihomebuilding/">AI Home Building</a> — Where AI Meets Construction
+	</p>
+	<script>
+		// Respect dark mode preference
+		(function() {
+			var saved = localStorage.getItem('theme');
+			if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+			}
+		})();
+	</script>
+</body>
+</html>
