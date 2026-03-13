@@ -92,6 +92,8 @@
 - [x] Reading Bookmark System — `js/reading-bookmark.js` tracks scroll position on article pages (throttled, saves section heading + % progress), shows floating "📖 Continue Reading" toast on homepage with title, progress, and section context. Auto-clears on article completion (>95%), 1h dismiss cooldown, 7-day expiry. ✅ (June 8, 2026)
 - [x] Print Stylesheet — `css/print.css` strips nav/share/TOC/footer, constrains hero images, prints link URLs, adds site attribution footer, proper @page margins. All 45 articles wired up. ✅ (June 8, 2026)
 - [x] Article Navigation — `js/article-nav.js` adds prev/next links + author bio cards at the bottom of all 49 articles. Alphabetical navigation, 3-column grid (prev | home | next), responsive mobile stacking. Author bios pulled from journalist roster with emoji avatars, beat badges, and short bios. ✅ (March 11, 2026)
+- [x] Writer Archive Page — `writers.html` standalone page with 6 journalist profiles, bios, article counts, and full article listings. Sticky nav with scroll spy, dark mode, responsive. Generated via `tools/build_writers.py` using `tools/extract_metadata.py`. Linked from main nav, mobile drawer, series footer, companies footer. ✅ (March 13, 2026)
+- [x] Metadata Extraction Tool — `tools/extract_metadata.py` robustly extracts slug, title, journalist, date, category, description, image, and read time from all 79 articles. Handles 6+ byline format variants, normalizes journalist names to canonical forms. ✅ (March 13, 2026)
 - [ ] AMP versions of articles
 - [ ] Podcast/audio versions of articles (TTS)
 
