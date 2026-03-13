@@ -572,3 +572,17 @@ When you discover a new topic worth covering, add it here with:
 - Harvard 2015 study: cognitive decline measurable at 1,000 ppm CO₂
 - **Published:** "Your Builder Bragged About a Tight Envelope. Nobody Mentioned You'd Be Breathing Your Own CO₂." (Priya Greenwood)
 - Journalist: Priya Greenwood (sustainability beat)
+
+### 56. 🟢 AI Pre-Drywall Documentation & 360° Capture
+- $31.3B annual US construction rework costs, 52% from documentation errors (CII/NIST)
+- Pre-drywall window: ~2 weeks between rough-in and drywall, then permanent darkness
+- OpenSpace: $102M Series D, 10,000+ jobsites, CV-based 360° mapping to floor plans
+- iGUIDE: $300–$500 dimensionally accurate 360° walkthroughs, originally real estate marketing
+- Polycam + iPhone LiDAR: consumer-grade 3D mesh, ~1cm accuracy at close range
+- Buildots: $45M at $300M valuation, 360° camera + CV compares build vs BIM
+- Residential gap: enterprise tools (OpenSpace, Buildots) built for $50M+ portfolios
+- Pre-drywall inspection: $250–$500 (Angi), catches code violations the camera doesn't
+- Water damage: 29.4% of all homeowner claims (III), behind-wall remediation $1,500–$4,000
+- AI component-level tagging (individual pipe/wire recognition) not yet shipping for residential
+- **Published:** "Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What's Inside Them." (Jake Kowalski)
+- Journalist: Jake Kowalski (construction tech beat)
