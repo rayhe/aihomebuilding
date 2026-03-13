@@ -556,3 +556,19 @@ When you discover a new topic worth covering, add it here with:
 - 70% of contractors say payment delays threaten the industry (Built/Talker Research, n=250)
 - **Published:** "Your Draw Request Took 10 Days. Your Plumber Left on Day 3." (Frank DeLuca)
 - Journalist: Frank DeLuca (project management beat)
+
+
+### 55. 🟢 AI Smart Ventilation & Demand-Controlled Fresh Air for Tight Homes
+- EPA: indoor air 2–5× more polluted than outdoor; tight homes amplify this
+- 2021 IECC mandates 3 ACH50 in zones 3–8, but most builders don't design ventilation
+- Build Equinox CERV2: combined ventilation/heating/cooling with CO₂ + VOC sensors, AI pattern learning
+- Broan AI Series ERV ($1,500–$3,000): sensor-driven demand control, residential price point
+- Panasonic Intelli-Balance 200 ($500–$900): constant-run baseline, ASHRAE 62.2 compliant
+- MDPI Buildings 2026 systematic review: DCV saves 15–60% energy vs constant-run; MPC/DRL systems with learned household patterns achieve 18–25% better energy-IAQ tradeoffs
+- Global ventilation system market: $34.3B (2025) → $69.7B by 2034, 8.3% CAGR (Fortune Business Insights)
+- ERV market at 5.71% CAGR to 2035 (Market Research Future)
+- New-construction ventilation install: $800–$1,500 vs $3,000–$6,000 retrofit
+- Sensor drift: CO₂ NDIR sensors 2–5%/year, VOC MOS sensors up to 15% first year
+- Harvard 2015 study: cognitive decline measurable at 1,000 ppm CO₂
+- **Published:** "Your Builder Bragged About a Tight Envelope. Nobody Mentioned You'd Be Breathing Your Own CO₂." (Priya Greenwood)
+- Journalist: Priya Greenwood (sustainability beat)
