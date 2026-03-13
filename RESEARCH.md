@@ -535,3 +535,16 @@ When you discover a new topic worth covering, add it here with:
 - Sizing problem: most homeowners oversized or undersized due to installer incentives and complex variable interactions
 - **Published:** "28% of Solar Buyers Added a Battery Last Year. Most Bought the Wrong Size." (Priya Greenwood)
 - Journalist: Priya Greenwood (sustainability beat)
+
+
+### 54. 🟢 AI Construction Draw Processing & Payment Automation
+- $280 billion annual cost of slow payments in U.S. construction (Rabbet 2024)
+- Draw requests take 7–10 business days; 82% of contractors face 30+ day delays
+- 97% of GCs increased bids in 2024 to compensate for payment risk
+- Built Technologies Draw Agent: AI reviews draw packages in minutes (Audit/Assist/Automate modes)
+- Built claims 400% increase in risks detected, 95% time-on-task reduction
+- Rabbet and Land Gorilla: draw management platforms for institutional lenders
+- Community bank adoption gap: most custom-home lenders still fully manual
+- 70% of contractors say payment delays threaten the industry (Built/Talker Research, n=250)
+- **Published:** "Your Draw Request Took 10 Days. Your Plumber Left on Day 3." (Frank DeLuca)
+- Journalist: Frank DeLuca (project management beat)
