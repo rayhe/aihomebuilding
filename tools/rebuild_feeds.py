@@ -65,7 +65,7 @@ def rebuild_sitemap(articles):
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>''']
-    for page in ['series.html', 'companies.html']:
+    for page in ['series.html', 'companies.html', 'writers.html']:
         urls.append(f'''  <url>
     <loc>{SITE_URL}/{page}</loc>
     <lastmod>{datetime.now().strftime('%Y-%m-%d')}</lastmod>

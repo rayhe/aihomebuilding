@@ -1,0 +1,1111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Meet the journalists of AI Home Building. Six writers covering AI's impact on residential construction — from architecture to policy.">
+    <title>Our Writers — AI Home Building</title>
+    <link rel="canonical" href="https://rayhe.github.io/aihomebuilding/writers.html">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1563">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Writers — AI Home Building">
+    <meta property="og:description" content="Meet the journalists of AI Home Building. Six writers covering AI's impact on residential construction.">
+    <meta property="og:url" content="https://rayhe.github.io/aihomebuilding/writers.html">
+
+    <style>
+        :root {
+            --accent: #FF6B35;
+            --accent-dark: #E55A2B;
+            --bg-primary: #FAFAF8;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1A1A;
+            --text-secondary: #555555;
+            --text-muted: #888888;
+            --border: #E8E8E4;
+            --shadow: 0 2px 12px rgba(0,0,0,0.06);
+            --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+        }
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-card: #1A1A1A;
+            --text-primary: #F0F0F0;
+            --text-secondary: #BBBBBB;
+            --text-muted: #888888;
+            --border: #2A2A2A;
+            --shadow: 0 2px 12px rgba(0,0,0,0.3);
+            --shadow-hover: 0 8px 30px rgba(0,0,0,0.5);
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            margin: 0; padding: 0;
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+        }
+        
+        /* Header */
+        .page-header {
+            background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
+            color: white;
+            padding: 48px 24px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('bg.webp') center/cover;
+            opacity: 0.1;
+        }
+        .page-header-inner {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .page-header h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin: 0 0 12px;
+        }
+        .page-header h1 span { color: var(--accent); }
+        .page-header p {
+            font-size: 1.05rem;
+            color: rgba(255,255,255,0.7);
+            margin: 0;
+            line-height: 1.6;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .back-link:hover { text-decoration: underline; }
+        
+        /* Nav strip */
+        .writer-nav {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 0;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .writer-nav::-webkit-scrollbar { display: none; }
+        .writer-nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            max-width: 1200px;
+            margin: 0 auto;
+            min-width: max-content;
+        }
+        .writer-nav a {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 14px 18px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            white-space: nowrap;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        .writer-nav a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        .writer-nav a .nav-emoji {
+            font-size: 1.1rem;
+        }
+        .writer-nav a .nav-count {
+            background: var(--bg-primary);
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--text-muted);
+        }
+        
+        /* Writer section */
+        .content { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+        
+        .writer-section {
+            padding: 48px 0 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .writer-section:last-child { border-bottom: none; }
+        
+        .writer-header {
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+            margin-bottom: 32px;
+        }
+        .writer-avatar {
+            width: 80px; height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+        .writer-info h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin: 0 0 4px;
+        }
+        .writer-beat {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .writer-bio {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin: 0 0 8px;
+        }
+        .writer-catchphrase {
+            font-style: italic;
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .writer-stats {
+            display: flex;
+            gap: 24px;
+            margin: 20px 0;
+        }
+        .writer-stat {
+            text-align: center;
+        }
+        .writer-stat-num {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--accent);
+        }
+        .writer-stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        
+        /* Article list */
+        .article-list {
+            display: grid;
+            gap: 16px;
+        }
+        .article-item {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: box-shadow 0.2s, transform 0.15s;
+        }
+        .article-item:hover {
+            box-shadow: var(--shadow-hover);
+            transform: translateY(-2px);
+        }
+        .article-item img {
+            width: 100px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .article-item-body h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin: 0 0 6px;
+            line-height: 1.3;
+            color: var(--text-primary);
+        }
+        .article-item-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        
+        @media (max-width: 640px) {
+            .writer-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .writer-stats {
+                justify-content: center;
+            }
+            .article-item {
+                grid-template-columns: 1fr;
+            }
+            .article-item img {
+                width: 100%;
+                height: 140px;
+            }
+            .page-header h1 { font-size: 1.8rem; }
+            .writer-nav a { padding: 12px 14px; font-size: 0.8rem; }
+        }
+        
+        /* Dark mode toggle */
+        .theme-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 200;
+            transition: all 0.2s;
+        }
+        .theme-toggle:hover {
+            box-shadow: var(--shadow-hover);
+            transform: scale(1.1);
+        }
+        
+        /* Footer */
+        .site-footer {
+            background: #1A1A1A;
+            color: rgba(255,255,255,0.6);
+            text-align: center;
+            padding: 32px 24px;
+            font-size: 0.8rem;
+            margin-top: 48px;
+        }
+        .site-footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <div class="page-header-inner">
+            <h1>Our <span>Writers</span></h1>
+            <p>Six journalists covering every angle of AI&rsquo;s impact on residential construction &mdash; from the job site to the code book, from the factory floor to the utility bill.</p>
+            <a href="index.html" class="back-link">&larr; Back to AI Home Building</a>
+        </div>
+    </div>
+
+    <nav class="writer-nav">
+        <div class="writer-nav-inner">
+            <a href="#elena-vasquez"><span class="nav-emoji">🏛️</span> Vasquez <span class="nav-count">11</span></a>
+            <a href="#jake-kowalski"><span class="nav-emoji">🔨</span> Kowalski <span class="nav-count">24</span></a>
+            <a href="#frank-deluca"><span class="nav-emoji">📋</span> DeLuca <span class="nav-count">12</span></a>
+            <a href="#priya-greenwood"><span class="nav-emoji">🌿</span> Greenwood <span class="nav-count">10</span></a>
+            <a href="#marcus-washington"><span class="nav-emoji">⚙️</span> Washington <span class="nav-count">8</span></a>
+            <a href="#catherine-chen"><span class="nav-emoji">⚖️</span> Chen <span class="nav-count">13</span></a>
+        </div>
+    </nav>
+
+    <div class="content">
+
+        <section class="writer-section" id="elena-vasquez">
+            <div class="writer-header">
+                <div class="writer-avatar">🏛️</div>
+                <div class="writer-info">
+                    <h2>Elena Vasquez</h2>
+                    <span class="writer-beat">Architecture &amp; Design</span>
+                    <p class="writer-bio">Elegant, precise prose with an eye for aesthetic detail. Draws connections between classical architecture and computational design.</p>
+                    <p class="writer-bio" style="font-size:0.85rem;">Former architecture critic for a major metro paper. Holds a Master&#x27;s in architectural history.</p>
+                    <p class="writer-catchphrase">&ldquo;The blueprint is dead. Long live the algorithm.&rdquo;</p>
+                    <div class="writer-stats">
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">11</div>
+                            <div class="writer-stat-label">Articles</div>
+                        </div>
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">56</div>
+                            <div class="writer-stat-label">Min Total Read</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-list">
+                <a href="articles/ai-floor-plan-generators.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-architectural-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The AI Drew Your Floor Plan in 30 Seconds. It Forgot the Stairs.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-interior-design-tools.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-interior-design-tools.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>You Hired an AI Interior Designer for $29 a Month. It Picked the Same Sofa as Everyone Else.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 7 min read</div>
+                    </div>
+                </a>
+                <a href="articles/digital-twins-home-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/digital-twins-home-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your House Exists Twice. The Digital One Catches the Mistakes.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-acoustics-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-acoustics-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Neighbor&#x27;s TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-daylight-optimization.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-daylight-optimization.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-landscape-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-landscape-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Landscaper Charged $6,000 to Guess. The AI Showed You 15 Options in 30 Seconds.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-renovation.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-renovation.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>You Used to Gut-Renovate on Gut Feeling. Now AI Shows You the Finished Kitchen First.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/parametric-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/parametric-design.svg" alt="">
+                    <div class="article-item-body">
+                        <h3>Every Wall Is a Variable. Parametric Design Turns Custom Homes into Solvable Equations.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-architect-client.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-architect-client.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Architect Used to Guess What You Wanted. Now AI Shows You.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 4 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-interior-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-interior-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Upload a Photo of Your Room. Get a New One in 10 Seconds.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-architectural-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-architectural-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The Architect&#x27;s New Brain: How AI Is Redesigning Home Design</h3>
+                        <div class="article-item-meta">March 8, 2026 &middot; ☕ 4 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="writer-section" id="jake-kowalski">
+            <div class="writer-header">
+                <div class="writer-avatar">🔨</div>
+                <div class="writer-info">
+                    <h2>Jake &quot;Jackhammer&quot; Kowalski</h2>
+                    <span class="writer-beat">Construction Technology</span>
+                    <p class="writer-bio">Punchy, no-nonsense tech journalism. Gets excited about robots and hardware. Writes like he&#x27;s explaining cool machines to a smart friend at a bar.</p>
+                    <p class="writer-bio" style="font-size:0.85rem;">Former construction worker who became a tech writer. Still has calluses.</p>
+                    <p class="writer-catchphrase">&ldquo;If it can&#x27;t survive a job site, it doesn&#x27;t belong on one.&rdquo;</p>
+                    <div class="writer-stats">
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">24</div>
+                            <div class="writer-stat-label">Articles</div>
+                        </div>
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">122</div>
+                            <div class="writer-stat-label">Min Total Read</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-list">
+                <a href="articles/ai-plumbing-layout.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-plumbing-layout.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>You Waste 11,000 Gallons a Year Waiting for Hot Water. Your Plumbing Layout Is Why.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-predrywall-documentation.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-predrywall-documentation.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What’s Inside Them.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-solar-panel-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-solar-panel-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Solar Quote Took Three Hours. The AI Did It in Five Minutes.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-mold-moisture-detection.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-mold-moisture-detection.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>47% of American Buildings Have a Moisture Problem. The Walls Won’t Tell You Until It’s Too Late.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-roof-inspection.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-roof-inspection.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/all-electric-panel-crisis.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/all-electric-panel-crisis.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your 200-Amp Panel Can&#x27;t Handle Your All-Electric Future. Smart Panels Are Buying You Time.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/building-performance-gap.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/building-performance-gap.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Home Uses 25% More Energy Than Its Plans Promised. AI Is Finally Catching the Difference.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 7 min read</div>
+                    </div>
+                </a>
+                <a href="articles/drone-surveying-residential.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/drone-surveying-residential.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Surveyor Spent Three Days Staking a Lot. A Drone Did It During Lunch.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-construction-security.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-construction-security.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Job Site Lost $30,000 Last Weekend. The AI Camera Saw Everything.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-foundation-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-foundation-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Foundation Engineer Drilled Three Holes and Guessed. The AI Modeled 10,000 Scenarios.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-home-inspection-buyers.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-home-inspection-buyers.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Home Inspector Missed the Mold. The Algorithm Found It in a Photo.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-hvac-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-hvac-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Half of America&#x27;s HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-structural-engineering.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-structural-engineering.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Home Has 30% More Steel Than It Needs. AI Knows Exactly How Much to Remove.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-water-management.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-water-management.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year. AI Is Finally Listening.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/smart-wiring-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/smart-wiring-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Breaker Box Is the Dumbest Thing in Your House. That&#x27;s About to Change.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/3d-printed-homes.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/3d-printed-homes.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-disaster-resilient-homes.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-disaster-resilient-homes.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The Palisades Fire Destroyed 16,000 Homes. Robots Are Building Them Back Fireproof.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-predictive-maintenance.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-predictive-maintenance.svg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Furnace Knows It&#x27;s Dying. It Just Can&#x27;t Tell You Yet.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-quality-inspection.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-quality-inspection.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Builder Missed 26 Defects. The AI Camera Found Every One.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/autonomous-heavy-equipment.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/autonomous-heavy-equipment.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The Excavator Dug Your Foundation. Nobody Was Driving It.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/modular-prefab-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/modular-prefab-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/drone-site-monitoring.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/drone-site-monitoring.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Drones Are Watching Your Home Get Built — And Catching Mistakes You&#x27;d Never See</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 3 min read</div>
+                    </div>
+                </a>
+                <a href="articles/robotic-bricklaying.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/robotic-bricklaying.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>This Robot Lays 360 Blocks an Hour. Your Bricklayer Does 40.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/smart-home-construction.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/smart-home-construction.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Wire It Smart During Framing or Pay 5× More Later. Here&#x27;s What to Run.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="writer-section" id="frank-deluca">
+            <div class="writer-header">
+                <div class="writer-avatar">📋</div>
+                <div class="writer-info">
+                    <h2>Frank &quot;The Foreman&quot; DeLuca</h2>
+                    <span class="writer-beat">Project Management &amp; Operations</span>
+                    <p class="writer-bio">Methodical, process-oriented. Loves timelines, Gantt charts, and efficiency metrics. Twenty years of projects going sideways — he&#x27;s seen it all.</p>
+                    <p class="writer-bio" style="font-size:0.85rem;">20 years as a general contractor before becoming a writer. PMP certified. Thinks in critical paths.</p>
+                    <p class="writer-catchphrase">&ldquo;Every delay has a root cause. AI just finds it faster.&rdquo;</p>
+                    <div class="writer-stats">
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">12</div>
+                            <div class="writer-stat-label">Articles</div>
+                        </div>
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">63</div>
+                            <div class="writer-stat-label">Min Total Read</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-list">
+                <a href="articles/ai-construction-draw.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-construction-draw.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Draw Request Took 10 Days. Your Plumber Left on Day 3.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-construction-scheduling.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-construction-scheduling.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>98% of Construction Projects Run Late. AI Recovers 42 Days on Average.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-cost-estimation.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-cost-estimation.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Contractor&#x27;s Estimate Is Wrong. It&#x27;s Always Wrong. AI Might Be Wrong Differently.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/supply-chain-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/supply-chain-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Lumber Went from $350 to $1,700 in a Year. Nobody Saw It Coming. AI Might.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 7 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-contractor-bidding.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-contractor-bidding.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>You Got Three Bids. AI Found 14 Red Flags You Missed.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-warranty-prediction.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-warranty-prediction.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Builder’s Warranty Is 365 Days. The Failures Start at 366.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/contech-reality-check.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/contech-reality-check.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>I Spent 20 Years on Job Sites. Half These AI Tools Would Get Laughed Off One.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-land-acquisition.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-land-acquisition.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Builder Used to Drive Every Lot. Now AI Scores 10,000 Parcels Before Breakfast.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/construction-productivity-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/construction-productivity-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Construction Productivity Has Been Flat for 30 Years. AI Might Finally Break the Curse.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/contech-vc-investment.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/contech-vc-investment.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Investors Poured $2 Billion Into Katerra. It Vanished. Now They’re Back.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-supply-chain-construction.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-supply-chain-construction.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>90% of Builders Had Materials Show Up Late Last Year. AI Knows Why.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-project-management.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-project-management.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>From 14 Months to 10: AI Project Management</h3>
+                        <div class="article-item-meta">March 8, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="writer-section" id="priya-greenwood">
+            <div class="writer-header">
+                <div class="writer-avatar">🌿</div>
+                <div class="writer-info">
+                    <h2>Priya Greenwood</h2>
+                    <span class="writer-beat">Sustainability &amp; Green Building</span>
+                    <p class="writer-bio">Passionate but evidence-based. Connects environmental data to building practices. Makes energy modeling feel urgent and accessible.</p>
+                    <p class="writer-bio" style="font-size:0.85rem;">Environmental engineer turned journalist. Previously worked at a net-zero design firm.</p>
+                    <p class="writer-catchphrase">&ldquo;Every kilowatt-hour the building wastes is a design failure.&rdquo;</p>
+                    <div class="writer-stats">
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">10</div>
+                            <div class="writer-stat-label">Articles</div>
+                        </div>
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">51</div>
+                            <div class="writer-stat-label">Min Total Read</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-list">
+                <a href="articles/ai-battery-storage-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-battery-storage-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>28% of Solar Buyers Added a Battery Last Year. Most Bought the Wrong Size.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-smart-ventilation.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-smart-ventilation.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Builder Bragged About a Tight Envelope. Nobody Mentioned You’d Be Breathing Your Own CO₂.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-radon-testing.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-radon-testing.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>21,000 Americans Die From Radon Every Year. Your Builder Doesn’t Test for It.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-stormwater-management.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-stormwater-management.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Lot Sends 27,000 Gallons of Runoff Into the Street Every Year. AI Knows Exactly Where It Goes.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/wildfire-resilient-homes.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/wildfire-resilient-homes.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>$2.15 Trillion in Homes at Wildfire Risk. AI Can See Which Ones Will Survive.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-energy-modeling.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-energy-modeling.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Architect&#x27;s Energy Model Took 2 Hours. The AI Did It in 2 Seconds.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-concrete-optimization.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-concrete-optimization.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-waste-sorting.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-waste-sorting.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/embodied-carbon-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/embodied-carbon-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Home’s Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/mass-timber-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/mass-timber-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Next Home Could Be Built from Trees. AI Is Making Sure It Doesn’t Burn Down.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="writer-section" id="marcus-washington">
+            <div class="writer-header">
+                <div class="writer-avatar">⚙️</div>
+                <div class="writer-info">
+                    <h2>Marcus &quot;Steel&quot; Washington</h2>
+                    <span class="writer-beat">Workforce &amp; Labor</span>
+                    <p class="writer-bio">Investigative, human-centered. Tells construction stories through the workers who live them. Not afraid of uncomfortable conclusions.</p>
+                    <p class="writer-bio" style="font-size:0.85rem;">Labor reporter who covered manufacturing automation before pivoting to construction. Union family.</p>
+                    <p class="writer-catchphrase">&ldquo;Behind every labor statistic is someone&#x27;s mortgage payment.&rdquo;</p>
+                    <div class="writer-stats">
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">8</div>
+                            <div class="writer-stat-label">Articles</div>
+                        </div>
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">39</div>
+                            <div class="writer-stat-label">Min Total Read</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-list">
+                <a href="articles/smart-safety-wearables.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/smart-safety-wearables.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Hard Hat Hasn’t Changed Since 1953. The One With Sensors Might Save Your Life.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-builder-org-simulation.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-builder-org-simulation.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>We Simulated What Happens When a 200-Person Builder Adopts AI. It&#x27;s Not What the Vendors Promised.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/construction-knowledge-extinction.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/construction-knowledge-extinction.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The Guy Who Knows Why That Pipe Is There Is Retiring. Nobody Recorded Him.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/construction-safety-ai.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/construction-safety-ai.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>1,034 Construction Workers Died Last Year. An AI Saw It Coming.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/humanoid-robots-construction.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/humanoid-robots-construction.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>A Humanoid Robot Costs $13,500. A Construction Worker Costs $72,000. Do the Math.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/robot-operator-workforce.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/robot-operator-workforce.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>He Used to Drive the Excavator. Now He Supervises Three That Drive Themselves.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-agents-construction.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-agents-construction.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your General Contractor Just Hired an AI Agent. Here’s What It Does All Day.</h3>
+                        <div class="article-item-meta">March 09, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/construction-workforce.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/construction-workforce.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The 500,000 Missing Workers</h3>
+                        <div class="article-item-meta">March 8, 2026 &middot; ☕ 4 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="writer-section" id="catherine-chen">
+            <div class="writer-header">
+                <div class="writer-avatar">⚖️</div>
+                <div class="writer-info">
+                    <h2>Catherine &quot;Code&quot; Chen</h2>
+                    <span class="writer-beat">Policy &amp; Regulation</span>
+                    <p class="writer-bio">Sharp, analytical legal/policy journalism. Translates building codes, zoning laws, and regulatory frameworks into readable prose.</p>
+                    <p class="writer-bio" style="font-size:0.85rem;">JD from Georgetown, practiced construction law for 5 years before becoming a policy journalist.</p>
+                    <p class="writer-catchphrase">&ldquo;The code doesn&#x27;t care about your timeline.&rdquo;</p>
+                    <div class="writer-stats">
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">13</div>
+                            <div class="writer-stat-label">Articles</div>
+                        </div>
+                        <div class="writer-stat">
+                            <div class="writer-stat-num">65</div>
+                            <div class="writer-stat-label">Min Total Read</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-list">
+                <a href="articles/ai-accessible-home-design.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-accessible-home-design.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>97% of American Homes Fail a Wheelchair. AI Won&#x27;t Fix That — But It Makes Excuses Harder.</h3>
+                        <div class="article-item-meta">March 13, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-adu-planning.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-adu-planning.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>18 States Legalized Your Backyard Cottage. AI Will Tell You If You Can Actually Build One.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-building-permits.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-building-permits.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Building Permit Took Six Months. Honolulu’s Takes Three Days.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/electrical-design-nec.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/electrical-design-nec.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>The NEC Has 1,100 Pages. Your Electrician Reads Maybe 40. AI Could Read All of Them.</h3>
+                        <div class="article-item-meta">March 12, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-aging-in-place.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-aging-in-place.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-home-appraisal.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-home-appraisal.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-mortgage-underwriting.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-mortgage-underwriting.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>You Built a 3D-Printed Home. The Bank Has No Idea How to Finance It.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-permit-automation.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-permit-automation.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/construction-data-ownership.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/construction-data-ownership.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>You Paid for the Blueprints. You Don’t Own the Data.</h3>
+                        <div class="article-item-meta">March 11, 2026 &middot; ☕ 6 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-zoning-analysis.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-zoning-analysis.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Backyard Could Fit an ADU. The Algorithm Already Knows.</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/insurance-ai-homes.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/insurance-ai-homes.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Insurer Has No Idea How to Price a Robot-Built Home</h3>
+                        <div class="article-item-meta">March 10, 2026 &middot; ☕ 5 min read</div>
+                    </div>
+                </a>
+                <a href="articles/ai-code-compliance.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/ai-code-compliance.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>Your Architect Missed a Code Violation. The AI Didn’t.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 4 min read</div>
+                    </div>
+                </a>
+                <a href="articles/housing-shortage-ai-policy.html" class="article-item">
+                    <img loading="lazy" decoding="async" src="images/housing-shortage-ai-policy.jpg" alt="">
+                    <div class="article-item-body">
+                        <h3>America Is 4.7 Million Homes Short. AI Won&#x27;t Fix That Alone.</h3>
+                        <div class="article-item-meta">March 9, 2026 &middot; ☕ 4 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="site-footer">
+        <p><strong>78 articles</strong> across 6 beats &middot; <a href="index.html">AI Home Building</a> &middot; <a href="series.html">Reading Paths</a> &middot; <a href="companies.html">Company Directory</a></p>
+        <p style="margin-top:8px;">&copy; 2026 AI Home Building. Built for builders, by algorithms and editors.</p>
+    </footer>
+
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+
+    <script>
+        // Dark mode
+        function toggleTheme() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            document.querySelector('.theme-toggle').textContent = next === 'dark' ? '☀️' : '🌙';
+        }
+        (function() {
+            const saved = localStorage.getItem('theme');
+            if (saved) {
+                document.documentElement.setAttribute('data-theme', saved);
+                if (saved === 'dark') document.querySelector('.theme-toggle').textContent = '☀️';
+            } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                document.querySelector('.theme-toggle').textContent = '☀️';
+            }
+        })();
+        
+        // Smooth scroll for nav
+        document.querySelectorAll('.writer-nav a').forEach(a => {
+            a.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.querySelector('.writer-nav').offsetHeight;
+                    const y = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 12;
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+                }
+            });
+        });
+        
+        // Highlight active nav on scroll
+        const sections = document.querySelectorAll('.writer-section');
+        const navLinks = document.querySelectorAll('.writer-nav a');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.id;
+                    navLinks.forEach(a => {
+                        a.style.borderBottomColor = a.getAttribute('href') === '#' + id ? 'var(--accent)' : 'transparent';
+                        a.style.color = a.getAttribute('href') === '#' + id ? 'var(--accent)' : '';
+                    });
+                }
+            });
+        }, { rootMargin: '-30% 0px -60% 0px' });
+        sections.forEach(s => observer.observe(s));
+    </script>
+</body>
+</html>
