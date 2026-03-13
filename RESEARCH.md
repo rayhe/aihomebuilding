@@ -507,3 +507,18 @@ When you discover a new topic worth covering, add it here with:
 - Visitability legislation: growing movement for basic accessibility in all new homes
 - Cost of universal design at construction: 1–3% premium. Retrofit: 10–30× more
 - **Published:** "97% of American Homes Fail a Wheelchair. AI Won't Fix That — But It Makes Excuses Harder." (Catherine Chen)
+
+
+### 52. 🟢 AI Residential Solar Panel Design & Layout Optimization
+- US residential solar: 43.2 GW installed in 2025 (SEIA/Wood Mackenzie), 14% decline from 2024
+- Soft costs are 55% of US residential solar CAPEX (NREL 2024 ATB) — design, permitting, sales, overhead
+- US solar $2.70–$4.40/W vs Australia $0.89/W — 3–5× cost premium driven by soft costs
+- Aurora Solar: $536M raised, $4B valuation, AI roof detection from LIDAR in 15–30 seconds vs 30–45 min manual
+- SurgePV: auto-generates single-line diagrams alongside panel layout for permit packages
+- OpenSolar: free tier for budget installers, basic multi-plane support
+- LIDAR: ±1° pitch accuracy vs ±3–5° satellite-only; 5° error costs 8–12% annual yield
+- Solarponics case study: 90% site visit reduction, doubled installations with Aurora
+- SolarAPP+ (DOE): automated residential solar permits in minutes, but adoption spotty
+- Customer acquisition costs: 20–25% of total system price, not addressable by design tools alone
+- **Published:** "Your Solar Quote Took Three Hours. The AI Did It in Five Minutes." (Jake Kowalski)
+- Journalist: Jake Kowalski (construction tech beat)
