@@ -522,3 +522,16 @@ When you discover a new topic worth covering, add it here with:
 - Customer acquisition costs: 20–25% of total system price, not addressable by design tools alone
 - **Published:** "Your Solar Quote Took Three Hours. The AI Did It in Five Minutes." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
+
+### 53. 🟢 AI Home Battery Storage Sizing & Virtual Power Plants
+- Battery attachment rate surged from 12% to 28% in one year (This Old House / SEIA)
+- Residential battery market: $6.85B globally in 2025, projected $32.36B by 2034 at 17.8% CAGR (Fortune Business Insights)
+- Installed cost: $800–$1,200/kWh, or $8,000–$16,000 per system (VeCharged 2025)
+- VPP residential enrollments grew 153% YoY in 2025, total VPP capacity 38 GW (Ohm Analytics)
+- Tesla paid Powerwall owners $9.9M in 2024 for grid support; PG&E VPP pays $2/kWh during emergencies
+- Savant Power: circuit-level AI energy management, solar/battery orchestration, TOU optimization
+- Pre-wiring for battery during construction: $400–$800 vs $2,000–$4,500 retrofit
+- Battery prices declining ~15% since 2023, expected 5–10% annual continued decline
+- Sizing problem: most homeowners oversized or undersized due to installer incentives and complex variable interactions
+- **Published:** "28% of Solar Buyers Added a Battery Last Year. Most Bought the Wrong Size." (Priya Greenwood)
+- Journalist: Priya Greenwood (sustainability beat)
