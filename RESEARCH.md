@@ -488,7 +488,7 @@ When you discover a new topic worth covering, add it here with:
 - New IRC requirement: radon-resistant construction in Zone 1 counties
 - Journalist: Priya Greenwood (sustainability/health beat)
 
-### 50. ⚪ AI Plumbing Layout Optimization
+### 50. 🟢 AI Plumbing Layout Optimization
 - Residential plumbing design: still hand-drawn on most custom homes
 - Autodesk Revit MEP + AI-assisted routing: automated pipe sizing, slope calculations
 - Wait-time optimization: AI reduces hot water wait from 60+ seconds to <10 seconds
@@ -496,6 +496,7 @@ When you discover a new topic worth covering, add it here with:
 - Water heater sizing: DOE EnergyGuide + ML-based usage prediction
 - Manifold (home-run) vs trunk-and-branch: AI can optimize layout for each
 - PEX adoption at 60%+ of new residential (2025 PMI survey), enables more flexible AI routing
+- **Published:** "You Waste 11,000 Gallons a Year Waiting for Hot Water. Your Plumbing Layout Is Why." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
 
 ### 51. 🟢 AI for Accessible Home Design Beyond Aging-in-Place
