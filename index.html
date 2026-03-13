@@ -829,10 +829,9 @@
 			<a href="#" onclick="switchTab('data', this); return false;">Industry Data</a>
 			<a href="#" onclick="switchTab('calculator', this); return false;">🧮 Calculator</a>
 			<a href="#" onclick="switchTab('about', this); return false;">About</a>
-			<a href="#" onclick="switchTab('about', this); setTimeout(function(){document.getElementById('our-team').scrollIntoView({behavior:'smooth'})},100); return false;">✍️ Writers</a>
+			<a href="writers.html">✍️ Writers</a>
 			<a href="companies.html">🏢 Companies</a>
 			<a href="series.html">📚 Series</a>
-			<a href="writers.html">✍️ Writers</a>
 		</div>
 		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
 		<a href="feed.xml" class="theme-toggle" title="RSS Feed" style="text-decoration:none;margin-left:6px">📡</a>
@@ -851,10 +850,9 @@
 	<a href="#" onclick="switchTabMobile('data'); return false;"><span class="drawer-icon">📊</span> Industry Data</a>
 	<a href="#" onclick="switchTabMobile('calculator'); return false;"><span class="drawer-icon">🧮</span> Calculator</a>
 	<a href="#" onclick="switchTabMobile('about'); return false;"><span class="drawer-icon">ℹ️</span> About</a>
-	<a href="#" onclick="switchTabMobile('about'); setTimeout(function(){document.getElementById('our-team').scrollIntoView({behavior:'smooth'})},200); return false;"><span class="drawer-icon">✍️</span> Writers</a>
+	<a href="writers.html"><span class="drawer-icon">✍️</span> Writers</a>
 	<a href="companies.html"><span class="drawer-icon">🏢</span> Companies</a>
 	<a href="series.html"><span class="drawer-icon">📚</span> Series</a>
-	<a href="writers.html"><span class="drawer-icon">✍️</span> Writers</a>
 	<div class="drawer-footer">
 		<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
 		<a href="feed.xml" class="theme-toggle" title="RSS Feed" style="text-decoration:none">📡</a>
@@ -870,7 +868,7 @@
 	<!-- Featured Article -->
 							<article class="featured-article">
 		<a href="articles/ai-predrywall-documentation.html">
-			<div class="featured-img" style="width:100%;height:100%;background:linear-gradient(135deg, #2a1f0e 0%, #3d2b14 40%, #1a2838 100%);" role="img" aria-label="Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What's Inside Them."></div>
+			<img class="featured-img" src="images/ai-predrywall-documentation.jpg" alt="Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What's Inside Them." style="width:100%;height:100%;object-fit:cover;">
 		</a>
 		<div class="featured-text">
 			<div class="badge">🏗️ Construction Technology</div>
@@ -910,7 +908,7 @@
 <!-- ARTICLE GRID START -->
 		<article class="article-card" data-category="construction">
 			<a href="articles/ai-predrywall-documentation.html">
-				<div style="width:100%;aspect-ratio:16/10;background:linear-gradient(135deg, #2a1f0e 0%, #3d2b14 40%, #1a2838 100%);border-radius:12px 12px 0 0;" role="img" aria-label="AI Pre-Drywall Documentation"></div>
+				<img loading="lazy" decoding="async" src="images/ai-predrywall-documentation.jpg" alt="Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What's Inside Them.">
 			</a>
 			<div class="card-body">
 				<span class="badge">🏗️ Construction Tech</span>
@@ -920,7 +918,7 @@
 		</article>
 		<article class="article-card" data-category="sustainability">
 			<a href="articles/ai-smart-ventilation.html">
-				<div style="width:100%;aspect-ratio:16/10;background:linear-gradient(135deg, #1a3a4a 0%, #0d2233 40%, #2d5016 100%);border-radius:12px 12px 0 0;" role="img" aria-label="AI Smart Ventilation"></div>
+				<img loading="lazy" decoding="async" src="images/ai-smart-ventilation.jpg" alt="Your Builder Bragged About a Tight Envelope. Nobody Mentioned You'd Be Breathing Your Own CO₂.">
 			</a>
 			<div class="card-body">
 				<span class="badge">🌿 Sustainability</span>
