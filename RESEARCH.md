@@ -23,10 +23,18 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Case study: Wikihouse open-source parametric homes
 - **Published:** "Every Wall Is a Variable. Parametric Design Turns Custom Homes into Solvable Equations." (Elena Vasquez)
 
-### 3. ⚪ AI-Powered Interior Design Tools
+### 3. 🟢 AI-Powered Interior Design Tools
 - Planner 5D, Homestyler, AI Room Planner
 - Consumer vs. professional tools
 - Impact on interior design profession
+- RoomGPT (2M+ users), Interior AI, ArchiVinci, Collov
+- $3.3B market (2025), 20.9% CAGR to $15B by 2033 (Grand View Research)
+- Professional interior design: $28.9B US industry, 7.2% growth (Kentley Insights)
+- Havenly hybrid model ($75–$1,849): AI exploration + human designer
+- 71% of homeowners use or plan to use AI for design (Acorn Finance 2026)
+- AI tools $10–$39/mo vs. professional $200–$300/hr
+- Style transfer is powerful for exploration, weak for spatial design
+- **Published:** "You Hired an AI Interior Designer for $29 a Month. It Picked the Same Sofa as Everyone Else." (Elena Vasquez)
 
 ### 4. 🟢 Digital Twins for Home Design
 - Virtual replicas that simulate performance before building
