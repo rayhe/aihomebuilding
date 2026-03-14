@@ -586,3 +586,15 @@ When you discover a new topic worth covering, add it here with:
 - AI component-level tagging (individual pipe/wire recognition) not yet shipping for residential
 - **Published:** "Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What's Inside Them." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
+
+### 57. 🟡 AI-Powered Finishing Robots: Drywall, Painting, and Tiling Automation
+- Canvas: $43M raised (Menlo Ventures, Suffolk), UR10e cobot, 5–7 day finish → 2 days, 40% labor reduction
+- Okibo (Tel Aviv): AI + 3D scanning, autonomous drywall finishing, deployed with Performance Contracting Inc.
+- PaintJet Bravo: autonomous exterior painting, 25% less paint via predictive analytics imaging
+- Construction robots market: $1.46B (2025) → $6.06B by 2035 at 15.3% CAGR (Research Nester)
+- CPWR: average construction worker age 42.1 (2023), 4.1M Americans turning 65 between 2024–2027
+- Residential gap: all current systems built for commercial; custom homes too varied for current tech
+- Production builders (Lennar, D.R. Horton) as bridge to residential adoption
+- Musculoskeletal injuries: overhead taping, stilts, silica dust — finishing trades hardest on bodies
+- **Draft:** "Your Drywall Finisher's Shoulder Gave Out at 47. A Robot Just Did His Week's Work in Two Days." (Jake Kowalski)
+- Journalist: Jake Kowalski (construction tech beat)

@@ -1,13 +1,27 @@
 {
-  "stage": "published",
-  "slug": "ai-predrywall-documentation",
-  "headline": "Your Walls Sealed Shut 14 Days After Framing. Nobody Photographed What's Inside Them.",
+  "stage": "draft-review",
+  "slug": "ai-finishing-robots",
+  "headline": "Your Drywall Finisher's Shoulder Gave Out at 47. A Robot Just Did His Week's Work in Two Days.",
   "journalist": "Jake \"Jackhammer\" Kowalski",
   "category": "Construction Technology",
-  "created": "2026-03-13",
-  "published": "2026-03-13",
-  "totalRevisions": 3,
+  "created": "2026-03-14",
+  "published": null,
+  "totalRevisions": 1,
   "articleCount": 79,
   "lastSiteImprovement": "2026-03-13",
-  "siteImprovementNote": "Writers archive page (writers.html), metadata extraction tools, nav cross-links, sitemap/feed rebuild, series count fix"
+  "siteImprovementNote": "Writers archive page (writers.html), metadata extraction tools, nav cross-links, sitemap/feed rebuild, series count fix",
+  "criticScores": {
+    "generalEditor": 8.5,
+    "voiceCoach": 9.0,
+    "ethics": 9.0,
+    "socialShare": 8.5,
+    "legal": 8.5,
+    "researchRigor": 8.0
+  },
+  "nextSteps": [
+    "Strengthen research rigor: add specific Canvas deployment project examples",
+    "Generate hero image",
+    "Final voice polish pass",
+    "Publish when all critics at 8.5+"
+  ]
 }
