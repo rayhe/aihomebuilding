@@ -428,7 +428,7 @@ When you discover a new topic worth covering, add it here with:
 - **Published:** "47% of American Buildings Have a Moisture Problem. The Walls Won't Tell You Until It's Too Late." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
 
-### 58. 🟡 AI Geothermal Heat Pump Design & Loop Field Optimization for New Homes
+### 58. 🟢 AI Geothermal Heat Pump Design & Loop Field Optimization for New Homes
 - US geothermal heat pump market: $696.6M (2023) → $1.07B by 2032 at 4.8% CAGR
 - Over-drilling endemic: 15-30% safety margin adds $3K-$8K unnecessary cost per install
 - GHE Analysis: neural network TRT interpretation, automated ASHRAE borefield sizing
@@ -439,6 +439,7 @@ When you discover a new topic worth covering, add it here with:
 - New construction 20-40% cheaper than retrofit; excavation equipment already on site
 - 25D residential tax credit (30%) expired Dec 31, 2025 under One Big Beautiful Bill — commercial 48 ITC survives through 2034
 - Oak Ridge National Lab: 70% building adoption could avoid 7 gigatons CO₂ by 2050
+- **Published:** "Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface." (Priya Greenwood)
 - Journalist: Priya Greenwood (sustainability beat)
 
 ### 45. 🟢 Generative AI Floor Plans: Consumer Tools vs Professional Design
@@ -611,3 +612,16 @@ When you discover a new topic worth covering, add it here with:
 - Musculoskeletal injuries: overhead taping, stilts, silica dust — finishing trades hardest on bodies
 - **Published:** "Your Drywall Finisher's Shoulder Gave Out at 47. A Robot Just Did His Week's Work in Two Days." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
+
+### 59. 🟡 AI-Powered Land Acquisition & Site Feasibility for Residential Builders
+- NAHB: 64% of single-family builders report lot shortage (May 2025 HMI survey)
+- Zillow: US short 4.7M homes; lot scarcity is a key bottleneck
+- D.R. Horton (largest US homebuilder) deployed Prophetic AI org-wide across 30+ states (Nov 2025)
+- Prophetic: 183,000 parcels analyzed, 3,000+ high-potential sites identified; ZoneAI™, SiteAI™, DevMap™, DealDesk™, SearchAI™
+- Acres.com: 150M+ parcels, plain-language AI search, zoning intelligence; AcreTrader $60M Series B
+- Deepblocks: AI zoning interpretation + financial feasibility, 3D massing, portfolio-level parcel screening
+- TestFit: $20M Series A, 6,200+ users, 30× faster site planning, connects pro forma to design
+- NAHB 2024: average finished lot cost ~$91,100 (13.7% of $665,298 sale price)
+- Traditional land due diligence: 2-6 weeks per site; AI compresses to minutes
+- Counterargument: local relationships, politics, neighbor objections can't be algorithmed — AI pre-qualifies, humans close
+- Journalist: Frank DeLuca (project management/operations beat)
