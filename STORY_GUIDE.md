@@ -111,3 +111,41 @@ Each journalist sounds different. If you can swap bylines between two articles a
 - Generate via imagine skill, landscape orientation.
 - Style: realistic construction/architecture scenes, warm lighting.
 - Avoid: stock photo clichés (handshakes, generic office shots, clip-art robots).
+
+---
+
+## Scholarly Rigor Requirements
+Modeled on the traits shared by highly-cited scholarly papers. Every article must meet these standards:
+
+### Original Contribution (Required)
+Every article must contain at least one original finding, calculation, or novel analysis — not just synthesis of vendor claims or press releases. Examples:
+- A cost comparison nobody calculated ("At current lumber prices, 3D-printed walls break even at X sq ft")
+- A code compliance cross-reference nobody checked ("Cross-referencing IRC 2021 with AI plan review outputs reveals...")
+- A permitting timeline analysis from real county data
+- A dataset combination nobody made (e.g., OSHA incident reports × adoption rates for a specific tool)
+
+Summarizing vendor claims or aggregating press releases does not count. If the article doesn't discover something, it's a press release with better formatting.
+
+### Limitations Acknowledgment (Required)
+Every article must explicitly state what it did NOT prove, what data was missing, and where uncertainty remains. Not inline hedging ("to be sure...") but a dedicated, honest accounting of blind spots. Include near the end of the article.
+
+Bad: "Of course, results may vary depending on the project."
+Good: "This cost analysis uses ICON's published pricing for Vulcan II prints. We couldn't verify per-unit costs on multi-home projects, and no third-party audit of their timeline claims exists. The 30% savings figure assumes Austin, TX labor rates — in union markets like Chicago, the gap narrows to 12-18%."
+
+### Strongest Counterargument (Required)
+The best case against the article's thesis must be stated at full strength — not strawmanned, not immediately dismissed. If AI tools have real drawbacks in construction (liability, code compliance gaps, contractor resistance, job displacement), engage with them seriously.
+
+### Verifiability (Required)
+Every factual claim must be traceable to a cited source the reader can check. Hyperlink sources inline. No vague attribution.
+
+### Methodology Transparency (Required for numerical claims)
+When the article makes claims involving numbers — cost savings, timeline reductions, ROI projections — show the math with inputs, assumptions, and calculation.
+
+### For Flagship Articles
+Run 6 critics instead of the standard single-critic pipeline:
+1. 🔍 General Editor — overall quality, structure, engagement
+2. 🗣️ Voice Coach — AI tells, banned phrases, rhythm
+3. ⚖️ Ethics Reviewer — moral reasoning, self-congratulation, positions
+4. 📱 Social/Shareability — pull quotes, share triggers, virality
+5. ⚖️ Legal Accuracy — citations, case law, statutory references
+6. 🔬 Research Rigor — novel contribution, limitations, counterarguments, verifiability, methodology
