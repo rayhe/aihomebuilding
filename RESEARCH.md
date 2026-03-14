@@ -428,6 +428,19 @@ When you discover a new topic worth covering, add it here with:
 - **Published:** "47% of American Buildings Have a Moisture Problem. The Walls Won't Tell You Until It's Too Late." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
 
+### 58. 🟡 AI Geothermal Heat Pump Design & Loop Field Optimization for New Homes
+- US geothermal heat pump market: $696.6M (2023) → $1.07B by 2032 at 4.8% CAGR
+- Over-drilling endemic: 15-30% safety margin adds $3K-$8K unnecessary cost per install
+- GHE Analysis: neural network TRT interpretation, automated ASHRAE borefield sizing
+- GHEtool (open-source, KU Leuven): simultaneous depth + borefield size optimization
+- Bedrock Energy ($20.5M raised): AI subsurface simulation + intelligent construction platform, Hayden CO municipal network
+- Eversource Framingham: first US utility-led geothermal network, 140 customers, $8.6M DOE grant to double
+- Dandelion Energy ($174.5M raised): GaaS lease model eliminates upfront cost barrier
+- New construction 20-40% cheaper than retrofit; excavation equipment already on site
+- 25D residential tax credit (30%) expired Dec 31, 2025 under One Big Beautiful Bill — commercial 48 ITC survives through 2034
+- Oak Ridge National Lab: 70% building adoption could avoid 7 gigatons CO₂ by 2050
+- Journalist: Priya Greenwood (sustainability beat)
+
 ### 45. 🟢 Generative AI Floor Plans: Consumer Tools vs Professional Design
 - Maket.ai, Planner 5D, Homestyler, Getfloorplan, RoomGPT tested
 - None fully code-compliant (IRC egress, structural, MEP)

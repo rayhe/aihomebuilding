@@ -1,25 +1,14 @@
 {
-  "stage": "published",
-  "slug": "ai-finishing-robots",
-  "headline": "Your Drywall Finisher's Shoulder Gave Out at 47. A Robot Just Did His Week's Work in Two Days.",
-  "journalist": "Jake \"Jackhammer\" Kowalski",
-  "category": "Construction Technology",
-  "created": "2026-03-14",
-  "published": "2026-03-14",
-  "totalRevisions": 2,
-  "articleCount": 80,
-  "lastSiteImprovement": "2026-03-14",
-  "siteImprovementNote": "Published AI finishing robots article with specific deployment examples (Newark Civic Center, Netflix House), hero image generated",
-  "criticScores": {
-    "generalEditor": 9.0,
-    "voiceCoach": 9.0,
-    "ethics": 9.0,
-    "socialShare": 8.5,
-    "legal": 8.5,
-    "researchRigor": 8.5
+  "current": {
+    "slug": "ai-geothermal-design",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "headline": "The Most Efficient HVAC System on Earth Costs $35,000. AI Is Trying to Cut That in Half.",
+    "category": "Sustainability & Green Building",
+    "started": "2026-03-14T08:20:00Z",
+    "scores": {}
   },
-  "nextSteps": [
-    "Start research on next queued topic from RESEARCH.md",
-    "Continue site improvements"
-  ]
+  "articleCount": 80,
+  "lastPublished": "ai-finishing-robots",
+  "lastPublishedDate": "2026-03-14"
 }
