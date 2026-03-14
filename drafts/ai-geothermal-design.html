@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface.",
+		"description": "Geothermal heat pumps deliver COP 3.5–5.0 and cut energy bills in half, but over-drilling adds $3,000–$8,000 in waste. AI design tools from GHEtool, Bedrock Energy, and GHE Analysis are eliminating the guesswork — while networked systems and lease models attack the upfront cost barrier.",
+		"image": "https://rayhe.github.io/aihomebuilding/images/ai-geothermal-design.jpg",
+		"datePublished": "2026-03-16",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://rayhe.github.io/aihomebuilding/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface.">
+	<meta property="og:description" content="AI-powered bore field design tools are cutting geothermal installation costs by eliminating over-drilling. But the 30% tax credit just expired.">
+	<meta property="og:url" content="https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html">
+	<meta property="og:image" content="https://rayhe.github.io/aihomebuilding/images/ai-geothermal-design.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface.">
+	<meta name="twitter:description" content="AI bore field design tools are slashing geothermal costs by eliminating guesswork drilling.">
+	<meta name="twitter:image" content="https://rayhe.github.io/aihomebuilding/images/ai-geothermal-design.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-header {
+			position: relative;
+			height: 420px;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+			background: linear-gradient(135deg, #1a3a2a 0%, #2a4838 40%, #1a2838 100%);
+		}
+		.article-header .overlay {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(transparent 30%, rgba(0,0,0,0.8));
+		}
+		.article-header .header-text {
+			position: relative;
+			z-index: 1;
+			padding: 32px 24px;
+			max-width: 800px;
+		}
+		.article-header .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 0.75rem;
+			font-weight: 600;
+			padding: 4px 12px;
+			border-radius: 4px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 12px;
+		}
+		.article-header h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			color: #fff;
+			margin: 0 0 12px;
+			line-height: 1.2;
+		}
+		.byline {
+			color: rgba(255,255,255,0.8);
+			font-size: 0.9rem;
+		}
+		.back-link {
+			display: inline-block;
+			padding: 16px 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 40px 24px 80px;
+			font-size: 1.05rem;
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-size: 1.6rem;
+			font-weight: 700;
+			margin: 48px 0 16px;
+			color: var(--text-primary);
+		}
+		.article-body p {
+			margin: 0 0 20px;
+			color: var(--text-secondary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.article-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 32px 0;
+			padding: 16px 24px;
+			font-style: italic;
+			color: var(--text-secondary);
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 32px 20px;
+			margin: 36px 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			margin-top: 8px;
+		}
+		.reading-progress {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 3px;
+			background: var(--accent);
+			z-index: 1000;
+			transition: width 0.1s;
+			width: 0%;
+		}
+		.share-bar {
+			display: flex;
+			gap: 10px;
+			margin: 32px 0;
+			flex-wrap: wrap;
+		}
+		.share-btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-size: 0.85rem;
+			text-decoration: none;
+			color: #fff;
+			transition: opacity 0.2s;
+		}
+		.share-btn:hover { opacity: 0.85; }
+		.share-btn.twitter { background: #1DA1F2; }
+		.share-btn.linkedin { background: #0A66C2; }
+		.share-btn.facebook { background: #1877F2; }
+		.share-btn.email { background: #555; }
+		@media (max-width: 768px) {
+			.article-header { height: 300px; }
+			.article-header h1 { font-size: 1.6rem; }
+		}
+	</style>
+</head>
+<body>
+	<div class="reading-progress" id="readingProgress"></div>
+	<a href="../" class="back-link">&larr; Back to AI Home Building</a>
+
+	<header class="article-header">
+		<img src="../images/ai-geothermal-design.jpg" alt="Cross-section illustration of a home with AI-optimized geothermal loop field beneath the foundation" loading="eager">
+		<div class="overlay"></div>
+		<div class="header-text">
+			<div class="badge">Sustainability &amp; Green Building</div>
+			<h1>Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface.</h1>
+			<div class="byline">By <strong>Priya Greenwood</strong> &middot; March 16, 2026 &middot; &#9749; 8 min read</div>
+		</div>
+	</header>
+
+	<article class="article-body">
+		<p>A geothermal installer in suburban Denver drills a vertical borehole for a four-ton residential system. He punches through 280 feet of sandstone and shale, hits water at 250, and decides to go to 300 for safety. His thermal response test took three hours on a Tuesday morning. His bore depth came from a rule of thumb: 150 to 250 feet per ton of capacity, plus a buffer because the soil conductivity data from two miles away said &ldquo;mixed sedimentary.&rdquo; He charged $22,000 for the loop field. Forty feet of that drilling was insurance against uncertainty.</p>
+
+		<p>That uncertainty costs the industry billions. Without accurate subsurface thermal data, installers routinely add 15 to 30 percent safety margin to bore depth. On a typical residential job, that translates to $3,000 to $8,000 in unnecessary drilling. Multiply by the roughly 60,000 geothermal heat pump systems installed in the U.S. each year, and you get a market-wide tax on imprecision that makes an already expensive technology even harder to justify.</p>
+
+		<p>Geothermal heat pumps remain the most efficient HVAC technology available to homebuilders. A coefficient of performance (COP) between 3.5 and 5.0 means the system delivers 3.5 to 5.0 units of heat for every unit of electricity consumed. Air source heat pumps top out around 3.0 in cold weather. Gas furnaces cap at 0.98. The underground loop lasts 50-plus years; indoor components run 20 to 25 years. Annual energy savings range from $1,000 to $3,000 per household.</p>
+
+		<p>None of that matters if the upfront price scares off the builder before the first borehole gets drilled.</p>
+
+		<div class="pull-stat">
+			<span class="number">COP 3.5&ndash;5.0</span>
+			<span class="label">Geothermal heat pumps deliver 3.5&ndash;5.0 units of heat per unit of electricity &mdash; the highest efficiency of any residential HVAC system (IGSHPA)</span>
+		</div>
+
+		<h2>Where the Money Goes</h2>
+
+		<p>A residential geothermal system runs $15,000 to $40,000 installed, according to EnergySage&rsquo;s 2025 data. New construction knocks 20 to 40 percent off that range because excavation equipment is already on-site, the landscape isn&rsquo;t established, and ductwork can be designed from scratch for geothermal-specific airflow. That puts a new-build system at $9,000 to $32,000 before incentives.</p>
+
+		<p>Labor accounts for 50 to 70 percent of the total cost. Drilling is the single biggest line item. A vertical bore typically runs $15 to $25 per linear foot, so the difference between drilling 250 feet and 300 feet across four boreholes is $3,000 to $5,000 in raw drilling cost alone, plus mobilization time and wear on the rig.</p>
+
+		<p>For comparison, an air source heat pump averages about $16,000 installed. It delivers roughly 80 percent of the efficiency gain at 40 percent of the price. That&rsquo;s the competitive reality geothermal faces, and it&rsquo;s why the drilling optimization problem isn&rsquo;t academic. Every unnecessary foot of bore depth widens the gap between geothermal and its cheaper rival.</p>
+
+		<h2>Neural Networks Read What Spreadsheets Can&rsquo;t</h2>
+
+		<p><a href="https://www.gheanalysis.com/">GHE Analysis</a> builds software for geothermal bore field design that runs hourly simulations of ground loop performance. Their core innovation sits in how they interpret thermal response tests (TRTs), the field measurement that determines soil thermal conductivity at a specific site.</p>
+
+		<p>A standard TRT runs 48 to 72 hours and produces a clean dataset. But real-world tests get interrupted. Equipment fails. Power fluctuates. A conventional analysis method requires continuous, uninterrupted data to produce a reliable conductivity number. An interrupted test generates noise that most software simply can&rsquo;t parse.</p>
+
+		<p>GHE Analysis trained a neural network to interpret interrupted TRT data, extracting usable conductivity values from messy field measurements that would otherwise be thrown out. That means fewer repeat tests, faster project timelines, and more accurate bore sizing on the first pass. Their system also optimizes seasonal COP using temperature-dependent performance curves, which matters in climates where the heating and cooling loads are dramatically different.</p>
+
+		<p>For a builder, this translates to a bore field sized to actual site conditions rather than regional averages and safety buffers. The neural network doesn&rsquo;t eliminate drilling. It eliminates over-drilling.</p>
+
+		<h2>Open-Source Optimization from KU Leuven</h2>
+
+		<p><a href="https://github.com/wouterpeere/GHEtool">GHEtool</a> takes a different approach. Developed by researchers at KU Leuven in Belgium, with support from Boydens Engineering, Sweco, and FH Aachen, it&rsquo;s an open-source Python library that automates the two most labor-intensive parts of bore field design: determining optimal bore depth and determining the optimal number of boreholes.</p>
+
+		<p>Traditionally, a designer picks a bore field layout (say, eight holes in a 2x4 grid) and then manually iterates on depth until the system meets the thermal load. GHEtool runs both dimensions simultaneously, testing configurations that a human designer wouldn&rsquo;t explore because the calculation time makes it impractical. Sometimes eight shallow holes beat six deep ones. Sometimes a staggered layout outperforms a grid. The tool evaluates these trade-offs in seconds.</p>
+
+		<p>Because it&rsquo;s open source, any HVAC engineer or geothermal contractor can download it, run it against their project parameters, and get a defensible design without paying for proprietary software. The academic pedigree (peer-reviewed publications, institutional backing) gives it credibility that a startup&rsquo;s marketing deck doesn&rsquo;t always carry.</p>
+
+		<p>GHEtool won&rsquo;t replace field experience. An engineer still needs to understand soil conditions, building loads, and local drilling constraints. But it replaces the spreadsheet-and-rule-of-thumb phase where most over-drilling decisions get made.</p>
+
+		<div class="pull-stat">
+			<span class="number">$3,000&ndash;$8,000</span>
+			<span class="label">Estimated cost of over-drilling per residential geothermal installation due to safety margins on imprecise subsurface data</span>
+		</div>
+
+		<h2>Bedrock Energy: AI Meets the Drill Rig</h2>
+
+		<p><a href="https://www.sunya.ai/news/bedrock-energy-raises-12m-series-a-to-scale-geothermal-heating-and-cooling">Bedrock Energy</a> raised a $12 million Series A in January 2025 (led by Titanium Ventures and Energy Impact Partners) to build what they call an &ldquo;intelligent construction platform&rdquo; for geothermal installation. Their total funding sits at roughly $20.5 million.</p>
+
+		<p>CTO Silviu Livescu came from Baker Hughes, where he served as Chief Scientist for Pressure Pumping. That oil-and-gas pedigree matters because the subsurface modeling techniques Bedrock uses borrow from petroleum exploration, where companies spend millions on seismic surveys and wellbore simulations before drilling. Bedrock applies similar computational rigor to shallow geothermal, running advanced thermal simulation across the entire subsurface profile at a project site before a single bore gets drilled.</p>
+
+		<p>Their first deployments are in Colorado and Utah. In Hayden, Colorado, Bedrock is building the first municipal geothermal network for a new business park. Rather than individual loops for each building, the system shares bore field infrastructure across the development, cutting per-building cost through shared capacity.</p>
+
+		<p>Bedrock claims their approach cuts energy bills by half and reduces air pollutants by 90 percent compared to combustion-based HVAC. Those numbers track with standard geothermal performance data, but the company hasn&rsquo;t published independent verification of their AI-specific cost savings yet. Watch for third-party case studies as Hayden comes online.</p>
+
+		<h2>When the Grid Goes Underground</h2>
+
+		<p>Individual geothermal loops have a scaling problem. Each home needs its own bore field, its own drilling crew, its own thermal testing. Networked geothermal flips that equation by running shared loops through a neighborhood like a water main, connecting buildings to a common underground thermal reservoir.</p>
+
+		<p>Eversource&rsquo;s <a href="https://www.canarymedia.com/articles/utilities/first-utility-owned-geothermal-network-to-double-in-size-with-doe-funds">Framingham, Massachusetts pilot</a> is the proof case. Phase 1, completed in 2024, connected roughly 140 residential and commercial customers to the first utility-owned geothermal network in the United States. Boreholes drilled several hundred feet tap into a steady 55&deg;F underground temperature. Water circulates through the bore field to buildings, where individual heat pumps boost the temperature as needed.</p>
+
+		<p>In December 2025, the Department of Energy awarded an $8.6 million grant to double the network&rsquo;s size, adding about 140 more customers. Phase 2 is expected to cost roughly half as much per customer as Phase 1. That cost curve tells the real story: shared infrastructure gets cheaper with each connection, and the learning curve from Phase 1 compresses installation time.</p>
+
+		<p>HEET, the nonprofit that led the research partnership, is monitoring system performance across the network. Their data on actual vs. predicted thermal output will be some of the most useful field evidence the industry has produced in decades.</p>
+
+		<blockquote>&ldquo;Just hire a good HVAC contractor&rdquo; works when you&rsquo;re connecting one house to one loop. Networked geothermal operates at the infrastructure scale, where per-unit costs drop with every new building that taps in.</blockquote>
+
+		<h2>The Lease Model: No $30,000 Check Required</h2>
+
+		<p><a href="https://dandelionenergy.com/leasing">Dandelion Energy</a>, based in Mount Kisco, New York, has raised $174.5 million (including a $40 million Series C in September 2024, backed by Breakthrough Energy Ventures) to attack the upfront cost barrier from a different angle entirely. Instead of making geothermal cheaper to install, they made it cheaper to buy.</p>
+
+		<p>Their lease program works like rooftop solar financing. Homeowners pay a monthly fee instead of writing a $15,000 to $40,000 check. Dandelion owns the equipment. The homeowner gets geothermal heating and cooling without the capital outlay. If the monthly payment is less than their current energy bill, the system pays for itself from day one.</p>
+
+		<p>Dandelion operates primarily in the Northeast, where heating costs are high enough to make the lease math work. Whether that model extends to milder climates with lower energy bills is an open question. But for regions where winter heating costs regularly exceed $300/month, a geothermal lease that replaces gas or oil at comparable monthly cost removes the single biggest objection builders and buyers raise.</p>
+
+		<h2>The Tax Credit Problem</h2>
+
+		<p>Here&rsquo;s where it gets uncomfortable. The 25D Residential Clean Energy Credit, which provided a 30 percent tax credit on geothermal heat pump installations, expired on December 31, 2025 under the One Big Beautiful Bill Act. For a $30,000 system, that was a $9,000 write-off. Gone.</p>
+
+		<p>Commercial installations still qualify for the 48 Investment Tax Credit through 2034 (full 100 percent for projects starting construction by end of 2025). And geothermal is one of the few clean energy technologies that survived the broader IRA repeal, which killed credits for solar, wind, and EVs. Trump&rsquo;s Day 1 energy emergency executive order explicitly included geothermal as a supported energy source.</p>
+
+		<p>For residential builders, though, that $9,000 gap now has to come from somewhere else. Either the technology gets cheaper (AI design tools), the financing gets creative (Dandelion&rsquo;s lease), or the infrastructure gets shared (Eversource&rsquo;s network). Probably all three.</p>
+
+		<div class="pull-stat">
+			<span class="number">$696.6M &rarr; $1.07B</span>
+			<span class="label">U.S. geothermal heat pump market, 2023 to 2032 at 4.8% CAGR (Global Market Insights)</span>
+		</div>
+
+		<h2>The Honest Case Against (And For)</h2>
+
+		<p>Air source heat pumps deliver 80 percent of the efficiency gain at 40 percent of the price. A Mitsubishi or Daikin mini-split doesn&rsquo;t require drilling, doesn&rsquo;t need subsurface modeling, and installs in a day. For a production builder cranking out 200 homes a year, the simplicity of air source is hard to beat.</p>
+
+		<p>Geothermal&rsquo;s advantages become meaningful in specific conditions: cold climates where air source COP drops below 2.0 (geothermal holds steady at 3.5+), new developments where shared bore fields distribute cost, and buyers who plan to stay long enough to capture the 10-to-15-year payback period.</p>
+
+		<p>Oak Ridge National Laboratory&rsquo;s potential study found that adopting geothermal in 70 percent of U.S. buildings could avoid 7 gigatons of carbon-equivalent emissions by 2050 and save 24,500 miles of transmission line construction by offsetting grid demand. Those are system-level benefits that don&rsquo;t show up on a homeowner&rsquo;s utility bill, but they shape policy decisions and utility investment.</p>
+
+		<p>The strongest version of the geothermal case isn&rsquo;t about individual homes. It&rsquo;s about developments. A 150-unit subdivision with a shared bore field, AI-optimized loop design, and a utility partnership that amortizes infrastructure cost across all units starts to compete with air source on first cost while destroying it on operating cost over 20 years.</p>
+
+		<h2>What Builders Should Actually Do</h2>
+
+		<p>If you&rsquo;re a production builder in the Northeast or Mountain West, run the numbers on a community geothermal system for your next 50+ unit development. Contact Bedrock Energy for site assessment. Model the per-unit cost against air source with a 20-year TCO comparison.</p>
+
+		<p>If you&rsquo;re a custom builder doing one-off homes in cold climates, use GHEtool to right-size your bore field before your driller starts punching holes. The software is free. The over-drilling it prevents is not.</p>
+
+		<p>If you&rsquo;re a homebuyer considering geothermal, ask your installer whether they use computational bore field design or rules of thumb. If the answer involves a spreadsheet and &ldquo;we usually go 250 feet,&rdquo; get a second opinion. Better yet, ask about Dandelion&rsquo;s lease program and find out whether the monthly payment beats your current heating bill.</p>
+
+		<p>Geothermal won&rsquo;t dominate residential HVAC in 2026. The economics still favor air source for most single-family projects. But the tools that make it competitive are maturing fast. AI-optimized bore field design eliminates the margin of error that inflated costs for decades. Networked systems distribute capital across communities. Lease models remove the sticker shock. When those three forces converge on a single development, the math changes.</p>
+
+		<p>Your installer&rsquo;s spreadsheet got you a working system. The AI model will get you a cheaper one. And the community network will get your neighbors one too.</p>
+
+		<div class="share-bar">
+			<a class="share-btn twitter" href="https://twitter.com/intent/tweet?text=Your%20Geothermal%20Installer%20Drilled%20300%20Feet%20Based%20on%20a%20Spreadsheet.%20AI%20Modeled%20Your%20Entire%20Subsurface.&url=https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html" target="_blank" rel="noopener">&#x1F426; Tweet</a>
+			<a class="share-btn linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html" target="_blank" rel="noopener">&#x1F4BC; LinkedIn</a>
+			<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html" target="_blank" rel="noopener">&#x1F4D8; Facebook</a>
+			<a class="share-btn email" href="mailto:?subject=AI%20Geothermal%20Heat%20Pump%20Design&body=https://rayhe.github.io/aihomebuilding/articles/ai-geothermal-design.html">&#x2709;&#xFE0F; Email</a>
+		</div>
+
+<div class="source-note" style="margin-top:2.5rem;padding:1.2rem 1.5rem;background:var(--bg-card,#f8f8f8);border-left:3px solid #2a5;border-radius:6px;font-size:0.97rem;">
+<p style="margin:0;line-height:1.7;"><strong>Sources:</strong>
+<a href="https://www.gheanalysis.com/" target="_blank" rel="noopener">GHE Analysis &mdash; Neural Network TRT Interpretation &amp; Bore Field Design Software</a> &middot;
+<a href="https://github.com/wouterpeere/GHEtool" target="_blank" rel="noopener">GHEtool &mdash; Open-Source Borefield Sizing (KU Leuven, Boydens, Sweco, FH Aachen)</a> &middot;
+<a href="https://www.sunya.ai/news/bedrock-energy-raises-12m-series-a-to-scale-geothermal-heating-and-cooling" target="_blank" rel="noopener">Sunya/Bedrock Energy &mdash; $12M Series A for AI Geothermal Platform (Jan 2025)</a> &middot;
+<a href="https://www.canarymedia.com/articles/utilities/first-utility-owned-geothermal-network-to-double-in-size-with-doe-funds" target="_blank" rel="noopener">Canary Media &mdash; Eversource Framingham Geothermal Network Doubles with DOE Funds</a> &middot;
+<a href="https://dandelionenergy.com/leasing" target="_blank" rel="noopener">Dandelion Energy &mdash; Geothermal Lease Program</a> &middot;
+<a href="https://www.ngwa.org/detail/news/2025/07/07/final-budget-reconciliation-bill-has-major-implications-for-geothermal-and-solar-tax-credits" target="_blank" rel="noopener">NGWA &mdash; Budget Reconciliation Bill Implications for Geothermal Tax Credits</a> &middot;
+<a href="https://www.energysage.com/heat-pumps/geothermal/" target="_blank" rel="noopener">EnergySage &mdash; Geothermal Heat Pump Cost Data (2025)</a> &middot;
+<a href="https://www.ornl.gov" target="_blank" rel="noopener">Oak Ridge National Laboratory &mdash; Geothermal Heat Pump Adoption Potential Study</a>
+</p>
+</div>
+
+	</article>
+
+	<script>
+		window.addEventListener('scroll', () => {
+			const h = document.documentElement.scrollHeight - window.innerHeight;
+			document.getElementById('readingProgress').style.width = h > 0 ? (window.scrollY / h * 100) + '%' : '0%';
+		});
+		if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+	</script>
+<script src="../js/article-toc.js"></script>
+<script src="../js/related-articles.js"></script>
+<script src="../js/reading-bookmark.js"></script>
+<script src="../js/article-nav.js"></script>
+</body>
+</html>
