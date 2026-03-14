@@ -1,12 +1,12 @@
 {
   "current": {
     "slug": "ai-land-acquisition-feasibility",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Frank DeLuca",
     "headline": "64% of Builders Can't Find Enough Lots. The Algorithm Found 3,000.",
     "category": "Project Management & Operations",
     "started": "2026-03-14T16:30:00Z",
-    "round": 1,
+    "round": 2,
     "self_score": 7.5,
     "scores": {
       "round_1": {
@@ -17,20 +17,28 @@
         "legal": 8.5,
         "research_rigor": 8.0,
         "average": 8.25
+      },
+      "round_2": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics": 8.5,
+        "social_share": 8.5,
+        "legal": 8.5,
+        "research_rigor": 8.5,
+        "average": 8.50
       }
     },
-    "revisions": [
-      "Vendor attribution at first mention (Prophetic sourced to PRNewswire Nov 2025)",
-      "Platform section rewritten in Frank's voice with opinions",
-      "Unattributed blockquote merged into Frank's narrative",
-      "Entitlement risk added as strongest counterargument",
-      "BLS data sourcing for $85/hr loaded rate",
-      "Sensitivity analysis on rejection rate variable",
-      "Compounding uncertainty caveat on $7M-$23M savings",
-      "Displacement paragraph added",
-      "What Algorithm Actually Sees section folded/cut",
-      "The starters trimmed 12→8",
-      "Softened 'nobody publishes' claim"
+    "revisions_round_2": [
+      "Frank voice strengthened in all 3 platform reviews with first-person skepticism",
+      "Prophetic 183K claim explicitly flagged as press release marketing language",
+      "TestFit 30x claim flagged as company's own, not independently verified",
+      "Acres data freshness questioned with practical verification suggestion",
+      "65% rejection rate methodology transparently documented as inference",
+      "NAHB data distinguished from rejection rate (different metrics)",
+      "False confidence failure mode added to savings calculation caveat",
+      "$2.3M entitlement failure anecdote added for lived experience",
+      "Em dashes trimmed 7→4",
+      "Compounding uncertainty strengthened with 'none published' acknowledgment"
     ]
   },
   "articleCount": 81,
