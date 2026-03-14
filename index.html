@@ -2621,37 +2621,8 @@ document.addEventListener('keydown', function(e) {
 		});
 	});
 
-	// ── Newsletter Signup ──
-	function subscribeNewsletter() {
-		var emailInput = document.getElementById('newsletterEmail');
-		var email = emailInput.value.trim();
-		if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-			emailInput.style.borderColor = '#ff4444';
-			emailInput.setAttribute('placeholder', 'Please enter a valid email');
-			setTimeout(function() {
-				emailInput.style.borderColor = 'rgba(255,255,255,0.3)';
-				emailInput.setAttribute('placeholder', 'your@email.com');
-			}, 2000);
-			return;
-		}
-		// Store in localStorage
-		var subs = JSON.parse(localStorage.getItem('aihome_newsletter') || '[]');
-		if (subs.indexOf(email) === -1) subs.push(email);
-		localStorage.setItem('aihome_newsletter', JSON.stringify(subs));
-		// Show success
-		document.getElementById('newsletterForm').style.display = 'none';
-		document.getElementById('newsletterSuccess').style.display = 'block';
-	}
-	// Hide CTA if already subscribed
-	(function() {
-		var subs = JSON.parse(localStorage.getItem('aihome_newsletter') || '[]');
-		if (subs.length > 0) {
-			var form = document.getElementById('newsletterForm');
-			var success = document.getElementById('newsletterSuccess');
-			if (form) form.style.display = 'none';
-			if (success) { success.style.display = 'block'; success.innerHTML = '<span class="check">✅</span> You\'re subscribed! Check back for our next briefing.'; }
-		}
-	})();
+	// ── Newsletter Signup (Firebase-backed) ──
+	// Newsletter logic handled by newsletter-shared.js — init below
 })();
 </script>
 
@@ -2956,5 +2927,7 @@ switchTab = function(tabId, clickedLink) {
 })();
 </script>
 <script src="js/reading-bookmark.js"></script>
+<script src="newsletter-shared.js"></script>
+<script>Newsletter.init('aihomebuilding', { formId: 'newsletterForm', emailId: 'newsletterEmail', successId: 'newsletterSuccess' });</script>
 </body>
 </html>
