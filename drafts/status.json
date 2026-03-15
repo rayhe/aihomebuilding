@@ -1,47 +1,21 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 82,
+  "lastPublished": "ai-land-acquisition-feasibility",
+  "lastPublishedDate": "2026-03-15",
+  "last_completed": {
     "slug": "ai-land-acquisition-feasibility",
-    "phase": "SHIP",
-    "journalist": "Frank DeLuca",
     "headline": "64% of Builders Can't Find Enough Lots. The Algorithm Found 3,000.",
-    "category": "Project Management & Operations",
-    "started": "2026-03-14T16:30:00Z",
-    "round": 2,
-    "self_score": 7.5,
-    "scores": {
-      "round_1": {
-        "general_editor": 8.5,
-        "voice_coach": 8.0,
-        "ethics": 8.0,
-        "social_share": 8.5,
-        "legal": 8.5,
-        "research_rigor": 8.0,
-        "average": 8.25
-      },
-      "round_2": {
-        "general_editor": 8.5,
-        "voice_coach": 8.5,
-        "ethics": 8.5,
-        "social_share": 8.5,
-        "legal": 8.5,
-        "research_rigor": 8.5,
-        "average": 8.50
-      }
-    },
-    "revisions_round_2": [
-      "Frank voice strengthened in all 3 platform reviews with first-person skepticism",
-      "Prophetic 183K claim explicitly flagged as press release marketing language",
-      "TestFit 30x claim flagged as company's own, not independently verified",
-      "Acres data freshness questioned with practical verification suggestion",
-      "65% rejection rate methodology transparently documented as inference",
-      "NAHB data distinguished from rejection rate (different metrics)",
-      "False confidence failure mode added to savings calculation caveat",
-      "$2.3M entitlement failure anecdote added for lived experience",
-      "Em dashes trimmed 7→4",
-      "Compounding uncertainty strengthened with 'none published' acknowledgment"
-    ]
-  },
-  "articleCount": 81,
-  "lastPublished": "ai-geothermal-design",
-  "lastPublishedDate": "2026-03-14"
+    "journalist": "Frank DeLuca",
+    "published": "2026-03-15",
+    "final_scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 8.5,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "average": 8.50
+    }
+  }
 }
