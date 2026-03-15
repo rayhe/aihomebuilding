@@ -1,32 +1,13 @@
 {
-  "current": {
-    "slug": "ai-permit-review-bottleneck",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
-    "headline": "Your Permit Application Waited 6 Months. The AI Read It in 3 Minutes.",
-    "started": "2026-03-15T06:52:00Z",
-    "round": 1,
-    "self_score": 7.8,
-    "scores": {
-      "round_1": {
-        "general": 8.5,
-        "voice": 8.5,
-        "ethics": 8.5,
-        "social": 8.5,
-        "legal": 8.5,
-        "rigor": 8.5,
-        "average": 8.5
-      }
-    }
-  },
+  "current": null,
   "articleCount": 83,
   "lastPublished": "ai-permit-review-bottleneck",
   "lastPublishedDate": "2026-03-16",
   "last_completed": {
-    "slug": "ai-land-acquisition-feasibility",
-    "headline": "64% of Builders Can't Find Enough Lots. The Algorithm Found 3,000.",
+    "slug": "ai-permit-review-bottleneck",
+    "headline": "Your Permit Application Waited 6 Months. The AI Read It in 3 Minutes.",
     "journalist": "Frank DeLuca",
-    "published": "2026-03-15",
+    "published": "2026-03-16",
     "final_scores": {
       "general": 8.5,
       "voice": 8.5,
@@ -34,7 +15,7 @@
       "social": 8.5,
       "legal": 8.5,
       "rigor": 8.5,
-      "average": 8.50
+      "average": 8.5
     }
   }
 }
