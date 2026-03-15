@@ -1,13 +1,23 @@
 {
   "current": {
     "slug": "ai-permit-review-bottleneck",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Frank DeLuca",
     "headline": "Your Permit Application Waited 6 Months. The AI Read It in 3 Minutes.",
     "started": "2026-03-15T06:52:00Z",
-    "round": 0,
+    "round": 1,
     "self_score": 7.8,
-    "scores": {}
+    "scores": {
+      "round_1": {
+        "general": 8.5,
+        "voice": 8.5,
+        "ethics": 8.5,
+        "social": 8.5,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "average": 8.5
+      }
+    }
   },
   "articleCount": 82,
   "lastPublished": "ai-land-acquisition-feasibility",
