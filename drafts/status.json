@@ -1,13 +1,23 @@
 {
   "current": {
     "slug": "data-center-siphoning-residential-workforce",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "started": "2026-03-17T14:23:00Z",
     "headline": "Data Centers Are Hiring Your Electrician. Here's What That Costs Your Home.",
-    "round": 0,
+    "round": 1,
     "self_score": 7.9,
-    "scores": {}
+    "scores": {
+      "round_1": {
+        "general": 8.5,
+        "voice": 8.5,
+        "ethics": 8.5,
+        "social": 8.5,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "average": 8.5
+      }
+    }
   },
   "articleCount": 85,
   "lastPublished": "tariff-tax-ai-procurement",
