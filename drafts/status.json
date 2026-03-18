@@ -1,12 +1,19 @@
 {
   "current": {
     "slug": "ai-termite-pest-prevention",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
     "started": "2026-03-18T09:55:00Z",
-    "round": 0,
+    "round": 1,
     "self_score": 8.0,
-    "scores": {}
+    "scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 8.5,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5
+    }
   },
   "articleCount": 86,
   "lastPublished": "data-center-siphoning-residential-workforce",
