@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 88,
+  "lastPublished": "ai-concrete-mix-optimization",
+  "lastPublishedDate": "2026-03-20",
+  "last_completed": {
     "slug": "ai-concrete-mix-optimization",
     "headline": "Your Foundation Dumped 4 Tons of CO\u2082 Into the Atmosphere. An Algorithm Says Half That Cement Wasn't Necessary.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Priya Greenwood",
-    "started": "2026-03-20T19:01:00Z",
-    "critique_scores": {
+    "published": "2026-03-20",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 8.5,
       "voice": 9.0,
       "ethics": 9.0,
@@ -14,25 +17,6 @@
       "legal": 9.0,
       "rigor": 9.0,
       "average": 8.83
-    }
-  },
-  "articleCount": 88,
-  "lastPublished": "ai-termite-pest-prevention",
-  "lastPublishedDate": "2026-03-20",
-  "last_completed": {
-    "slug": "ai-termite-pest-prevention",
-    "headline": "Termites Cost $6.8 Billion a Year. Your Builder Spent $400 Pretending They Won't.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-03-20",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 8.5,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "average": 8.67
     }
   }
 }
