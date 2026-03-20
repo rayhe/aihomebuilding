@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Foundation Dumped 4 Tons of CO&sub2; Into the Atmosphere. An Algorithm Says Half That Cement Wasn&rsquo;t Necessary. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-concrete-mix-optimization.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Foundation Dumped 4 Tons of CO₂ Into the Atmosphere. An Algorithm Says Half That Cement Wasn't Necessary.",
+		"description": "AI tools can cut cement content in residential concrete by 30% — saving $200+ per home and 2.2 million metric tons of CO₂ annually across U.S. housing starts. But almost nobody building houses knows these tools exist.",
+		"image": "https://aihomebuilding.com/images/ai-concrete-mix-optimization.jpg?v=e18be08e",
+		"datePublished": "2026-03-20",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-concrete-mix-optimization.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Foundation Dumped 4 Tons of CO₂ Into the Atmosphere. An Algorithm Says Half That Cement Wasn't Necessary.">
+	<meta property="og:description" content="AI tools cut cement in residential concrete by 30%, saving $200+ per home and millions of tons of CO₂. The residential sector hasn't noticed.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-concrete-mix-optimization.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-concrete-mix-optimization.jpg?v=e18be08e">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Foundation Dumped 4 Tons of CO₂ Into the Atmosphere. An Algorithm Says Half That Cement Wasn't Necessary.">
+	<meta name="twitter:description" content="AI tools cut cement in residential concrete by 30%, saving $200+ per home. Residential builders haven't noticed.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-concrete-mix-optimization.jpg?v=e18be08e">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.article-container {
+			max-width: 740px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			margin-bottom: 1.5rem;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body {
+			font-size: 1.05rem;
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2rem 0 1rem;
+			color: var(--text-primary);
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-secondary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.article-body blockquote {
+			border-left: 3px solid var(--accent);
+			padding-left: 1.2rem;
+			margin: 1.5rem 0;
+			color: var(--text-muted);
+			font-style: italic;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+			display: block;
+		}
+		.pull-stat .label {
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			margin-top: 0.25rem;
+		}
+		.data-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.data-table th {
+			text-align: left;
+			padding: 0.6rem 0.8rem;
+			border-bottom: 2px solid var(--accent);
+			font-weight: 700;
+			color: var(--text-primary);
+		}
+		.data-table td {
+			padding: 0.5rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			color: var(--text-secondary);
+		}
+		.dark-toggle {
+			position: fixed;
+			top: 1rem;
+			right: 1rem;
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			font-size: 1.2rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 100;
+			transition: background 0.3s;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.article-container { padding: 1.5rem 1rem 3rem; }
+		}
+	</style>
+</head>
+<body>
+	<button class="dark-toggle" onclick="document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));" aria-label="Toggle dark mode">🌓</button>
+	<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+
+	<div class="article-hero">
+		<img src="../images/ai-concrete-mix-optimization.jpg?v=e18be08e" alt="Close-up of wet concrete being poured into residential foundation forms on a sunny construction site, with rebar visible and a ready-mix truck in the background" loading="eager">
+		<div class="overlay">
+			<span class="badge">Sustainability &amp; Green Building</span>
+			<h1>Your Foundation Dumped 4 Tons of CO&sub2; Into the Atmosphere. An Algorithm Says Half That Cement Wasn&rsquo;t Necessary.</h1>
+			<div class="byline">By Priya Greenwood &middot; March 20, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>Forty-five cubic yards. That is roughly how much concrete goes into a typical 2,500-square-foot American home&mdash;foundation, slab, driveway, sidewalks, garage floor. At <a href="https://shuntool.com/article/how-many-yards-of-concrete-in-a-house-foundation" target="_blank">$160 to $195 per cubic yard</a> for materials alone, the concrete bill lands somewhere between $7,200 and $8,775 before labor touches it.</p>
+
+			<p>Nobody building that home questioned the mix design. The builder called the ready-mix plant, ordered 3,000 or 4,000 PSI concrete, and a truck showed up. The mix that arrived was designed to hit the target strength with a comfortable safety margin&mdash;which, in practice, means it carried substantially more Portland cement than the structure required. That excess cement exists to protect the ready-mix producer from a failed cylinder test, not to protect your foundation.</p>
+
+			<p>Portland cement production generates roughly <a href="https://www.chathamhouse.org/2018/06/making-concrete-change-innovation-low-carbon-cement-and-concrete" target="_blank">900 kilograms of CO&sub2; per ton</a>. A standard residential concrete mix contains about 500 to 600 pounds of cement per cubic yard. Multiply that across 45 yards and the foundation under your house produced approximately 4.1 metric tons of CO&sub2; before you ever turned a key.</p>
+
+			<div class="pull-stat">
+				<span class="number">4.1 metric tons</span>
+				<span class="label">Approximate CO&sub2; from concrete in a typical 2,500 sq ft home&rsquo;s foundation, slab, and flatwork</span>
+			</div>
+
+			<h2>What AI Mix Design Actually Does</h2>
+
+			<p>A startup called <a href="https://www.concrete.ai/" target="_blank">Concrete.ai</a> launched a platform called Concrete Copilot that generates optimized mix designs using generative AI. Feed it a producer&rsquo;s ingredient inventory, local aggregate properties, and the target performance spec. In seconds, it evaluates millions of possible formulations and returns the one that meets the strength requirement with the least cement, lowest cost, and smallest carbon footprint.</p>
+
+			<p>The numbers from field deployment are specific. Over <a href="http://constructionhq.world/issue-sections/digital-construction/ai/concrete-copilot-ai-optimizes-concrete-mixes-for-cost-and-carbon-efficiency/" target="_blank">2 million cubic yards</a> of AI-optimized concrete produced across U.S. plants. Average material savings: $5.04 per cubic yard. Average carbon reduction: 30%. Results visible within one month of activation.</p>
+
+			<p>Meta went further. In July 2025, Meta partnered with <a href="https://www.amrize.com/us/en/newsroom/amrize-and-meta-partner-on-ai-optimized-concrete.html" target="_blank">Amrize (the former Holcim North America, NYSE: AMRZ)</a> and the University of Illinois to develop an AI-optimized concrete mix for a data center in Rosemount, Minnesota. The system used Bayesian optimization&mdash;Meta&rsquo;s open-source <a href="https://github.com/facebookresearch/SustainableConcrete" target="_blank">BoTorch and Ax frameworks</a>&mdash;to simultaneously optimize for strength, curing speed, finishability, and carbon reduction. The result: a 35% reduction in the concrete&rsquo;s total carbon footprint. Meta published the AI models as open source.</p>
+
+			<p>&ldquo;AI-driven mix design lets us optimize concrete for performance, cost and carbon in one step,&rdquo; said Nishant Garg, a professor at the University of Illinois Grainger College of Engineering who led the data-generation effort.</p>
+
+			<h2>The Residential Math Nobody Ran</h2>
+
+			<p>Here is a calculation that, as far as we can find, nobody has published for the residential sector specifically.</p>
+
+			<p>The U.S. Census Bureau reports roughly 900,000 single-family housing starts per year. If each home uses approximately 45 cubic yards of concrete, and AI optimization saves $5 per yard in material costs, the arithmetic is straightforward:</p>
+
+			<table class="data-table">
+				<thead>
+					<tr>
+						<th>Metric</th>
+						<th>Per Home</th>
+						<th>Annual (900K Starts)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><strong>Material savings at $5.04/yd</strong></td>
+						<td>$227</td>
+						<td>$204 million</td>
+					</tr>
+					<tr>
+						<td><strong>Cement reduction (30%)</strong></td>
+						<td>~3,400 lbs</td>
+						<td>1.38 million tons</td>
+					</tr>
+					<tr>
+						<td><strong>CO&sub2; avoided</strong></td>
+						<td>~1.2 metric tons</td>
+						<td>~1.1 million metric tons</td>
+					</tr>
+					<tr>
+						<td><strong>Equivalent cars off road</strong></td>
+						<td>&mdash;</td>
+						<td>~239,000 vehicles</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>That last line deserves a beat. Optimizing the concrete in new homes alone&mdash;without touching commercial, infrastructure, or multifamily&mdash;could eliminate emissions equivalent to pulling nearly a quarter-million passenger cars off American roads annually. The technology exists. The field data is published. The cost premium is negative: it <em>saves</em> money.</p>
+
+			<div class="pull-stat">
+				<span class="number">$204 million</span>
+				<span class="label">Potential annual savings in residential concrete materials if AI mix optimization reached all U.S. single-family starts</span>
+			</div>
+
+			<h2>Why Your Builder Has Never Heard of This</h2>
+
+			<p>Residential builders do not design concrete mixes. They order concrete by strength class&mdash;3,000 PSI for flatwork, 4,000 PSI for foundations in most jurisdictions&mdash;and the ready-mix plant delivers whatever formulation hits that number. The builder has no reason to care whether the mix uses 500 or 350 pounds of cement per yard, as long as the cylinder breaks at spec.</p>
+
+			<p>AI mix optimization lives at the ready-mix plant, not on the job site. <a href="https://www.concrete.ai/" target="_blank">Concrete Copilot</a> sells to concrete producers, not builders. <a href="https://www.converge.io/intelligence-platform/mix-ai" target="_blank">Converge&rsquo;s Mix AI</a> does the same. The builder never sees the formulation change. The concrete that shows up is the same slump, same color, same set time. It just happens to contain less cement, more supplementary cementitious materials&mdash;fly ash, slag, calcined clay&mdash;and sometimes admixtures that maintain workability at lower water-to-cement ratios.</p>
+
+			<p>That invisibility is both the technology&rsquo;s strength and its adoption problem. Builders cannot demand what they do not know exists. And ready-mix producers have limited incentive to optimize mixes for small residential pours. A 5-yard driveway pour does not move the needle. The economics work at scale&mdash;production homebuilders ordering 500 homes worth of concrete from a single plant.</p>
+
+			<h2>Regulation Is Coming Whether Builders Notice or Not</h2>
+
+			<p>Marin County, California became the <a href="https://www.marincounty.gov/departments/cda/sustainability/green-build-req/lcc" target="_blank">first U.S. jurisdiction to mandate low-carbon concrete</a> in November 2019. The code established two compliance pathways: a cement content limit (pounds of cement per cubic yard, tiered by strength class) and an embodied carbon limit (kg CO&sub2;e per cubic meter, verified by Environmental Product Declarations).</p>
+
+			<p>Since Marin, the list has grown. <a href="https://berkeley.municipal.codes/BMC/19.37.010" target="_blank">Berkeley</a>. <a href="https://www.portland.gov/omf/brfs/procurement/sustainable-procurement-program/sp-initiatives" target="_blank">Portland</a>. New York State passed <a href="https://ogs.ny.gov/nys-buy-clean-concrete-guidelines-0" target="_blank">Buy Clean Concrete guidelines</a> effective June 2022, with mandatory GWP limits tightening in January 2027. California&rsquo;s Buy Clean Act applies to state-funded projects. The American Concrete Institute published <a href="https://www.concrete.org/" target="_blank">ACI 323-24</a>, the world&rsquo;s first model code for low-carbon concrete. The <a href="https://my.nrmca.org/Main/EPD/Embodied_Carbon_Legislation.aspx" target="_blank">National Ready Mixed Concrete Association</a> now tracks embodied carbon legislation in a public database because there is too much to follow informally.</p>
+
+			<p>Most of these codes currently apply to government-funded and commercial projects. Private residential is largely exempt. But the trajectory is obvious. Bay Area jurisdictions already publish <a href="https://www.stopwaste.org/concrete" target="_blank">sample residential specifications</a> for low-carbon concrete, with simplified compliance forms designed for single-family and small multifamily projects. A case study of a San Francisco residential renovation showed all concrete submittals coming in below the working group&rsquo;s cement thresholds. The Berkeley Way Apartments project achieved <a href="https://rmi.org/case-studies-in-the-economics-of-low-embodied-carbon-buildings/" target="_blank">55% less cement</a> than national averages.</p>
+
+			<h2>The Counterargument Deserves Its Full Hearing</h2>
+
+			<p>Ready-mix producers have been making concrete for a long time without algorithms. Overdesign margins exist for a reason: variability in aggregate moisture, temperature swings during curing, batching tolerances, and the reality that a failed cylinder test costs the producer far more than the extra $5 of cement. If the AI optimizes too aggressively and a load fails spec, the producer eats the cost of rejection, replacement, and reputation damage.</p>
+
+			<p>Concrete.ai&rsquo;s $5.04-per-yard savings figure comes from commercial and infrastructure projects. Residential is different. Smaller pours, fewer repeat orders from the same spec, more variability in placement conditions. A production homebuilder doing 500 slabs a year from one plant is a good candidate for AI optimization. A custom builder ordering 8 yards for a patio is not. The per-home savings of $227 assumes the technology reaches every pour, which it won&rsquo;t.</p>
+
+			<p>And supplementary cementitious materials are not universally available. Fly ash supply has declined as coal plants retire. Slag depends on proximity to steel production. Calcined clay is scaling but remains regional. An AI can design a mix with 40% fly ash replacement, but if the nearest supply is 200 miles away, the trucking carbon may offset the cement savings. Local supply chain realities constrain how much optimization is actually possible at any given plant.</p>
+
+			<h2>What Would Actually Move the Needle</h2>
+
+			<p>Three things need to happen for AI concrete optimization to reach the residential sector at scale.</p>
+
+			<p>First, production homebuilders&mdash;the D.R. Hortons and Lennar Homes of the world, who collectively build a third of new U.S. homes&mdash;need to specify low-carbon concrete in their procurement contracts. Not because they care about carbon (though some do), but because AI-optimized mixes cost less. A builder doing 10,000 homes a year saves $2.27 million annually in concrete materials alone. That gets a CFO&rsquo;s attention.</p>
+
+			<p>Second, jurisdictions need to extend low-carbon concrete codes to private residential construction. Marin County&rsquo;s model is adaptable. The compliance paperwork for residential is <a href="https://www.stopwaste.org/buildings-construction/sustainable-materials/policies/low-carbon-concrete-code" target="_blank">one page</a>. The ready-mix producer fills it out, the builder submits it with the permit application, and the inspector checks it against the threshold. No structural changes. No additional testing. Just a different mix in the same truck.</p>
+
+			<p>Third, Meta&rsquo;s decision to <a href="https://github.com/facebookresearch/SustainableConcrete" target="_blank">open-source its concrete AI</a> matters more than it first appears. Commercial platforms like Concrete Copilot charge subscription fees that small producers may not absorb. An open model, trained on real data from the University of Illinois, lowers the barrier. A regional producer with 3 plants and 40 trucks could run the model against their own ingredient inventory without a SaaS contract. Whether they will is another question. But the tool is public.</p>
+
+			<h2>What This Doesn&rsquo;t Prove</h2>
+
+			<p>This analysis has real gaps. Concrete.ai&rsquo;s published savings data comes from commercial projects; we inferred residential applicability from the per-yard economics, but no published study has tracked AI-optimized mixes across a residential production builder&rsquo;s portfolio specifically. The 45-cubic-yard-per-home estimate varies substantially by region and foundation type&mdash;a slab-on-grade in Texas requires half the concrete of a full basement in Minnesota. The carbon calculation uses industry-average emission factors, not project-specific Environmental Product Declarations. And the Meta/Amrize partnership has demonstrated results in a single data center application; residential deployment remains theoretical.</p>
+
+			<p>We also cannot quantify what percentage of U.S. ready-mix plants currently use any form of AI-assisted mix design. Concrete.ai reports 2 million cubic yards optimized, against an industry that pours <a href="https://www.nrmca.org/" target="_blank">roughly 400 million cubic yards</a> annually. That is 0.5% penetration. The residential fraction of that 0.5% is likely near zero.</p>
+
+			<p>The gap between what the technology can do and what the housing industry is using it for is wide enough to drive a concrete truck through. The $204 million in potential annual savings and 1.1 million metric tons of avoided CO&sub2; are ceiling numbers. The floor is wherever the industry decides to stop ignoring the concrete under its feet.</p>
+
+		</article>
+
+		<section class="sources" style="margin-top:2.5rem;padding:1.2rem 1.5rem;background:var(--bg-card,#f8f8f8);border-left:3px solid #2a5;border-radius:6px;font-size:0.97rem;">
+			<h3 style="margin-top:0;font-size:1.1rem;">Sources</h3>
+			<ul style="padding-left:1.2rem;margin:0.5rem 0 0;">
+				<li><a href="https://www.concrete.ai/" target="_blank">Concrete.ai. Concrete Copilot platform: 2M+ cubic yards optimized, $5.04/yd avg savings, 30% avg carbon reduction.</a></li>
+				<li><a href="https://www.amrize.com/us/en/newsroom/amrize-and-meta-partner-on-ai-optimized-concrete.html" target="_blank">Amrize (NYSE: AMRZ). &ldquo;Amrize and Meta Partner on AI-Optimized Concrete.&rdquo; July 16, 2025. Rosemount, MN data center, 35% carbon reduction.</a></li>
+				<li><a href="https://www.concretepavements.org/2025/10/26/meta-develops-open-source-ai-to-accelerate-low-carbon-concrete-innovation/" target="_blank">Int&rsquo;l Society for Concrete Pavements. &ldquo;Meta Develops Open-Source AI to Accelerate Low-Carbon Concrete Innovation.&rdquo; Oct 26, 2025.</a></li>
+				<li><a href="https://rmi.org/case-studies-in-the-economics-of-low-embodied-carbon-buildings/" target="_blank">RMI &amp; Skanska. &ldquo;Case Studies in Cost-Effective Low Embodied Carbon Buildings.&rdquo; Feb 2026. 19&ndash;46% reductions at &lt;1% cost premium.</a></li>
+				<li><a href="https://www.stopwaste.org/concrete" target="_blank">StopWaste.org / Bay Area AQMD. Low Carbon Concrete Code resources, sample residential specifications, compliance forms.</a></li>
+				<li><a href="https://ogs.ny.gov/nys-buy-clean-concrete-guidelines-0" target="_blank">NYS Office of General Services. Buy Clean Concrete Guidelines (S542A). GWP limits effective June 2022, tightening Jan 2027.</a></li>
+				<li><a href="https://my.nrmca.org/Main/EPD/Embodied_Carbon_Legislation.aspx" target="_blank">National Ready Mixed Concrete Association. Embodied Carbon Legislation database.</a></li>
+				<li><a href="https://shuntool.com/article/how-many-yards-of-concrete-in-a-house-foundation" target="_blank">ShunTool. Residential concrete calculator: 23&ndash;28 CY for 1,500 sq ft slab, $160&ndash;$195/CY materials (2026).</a></li>
+				<li><a href="https://www.chathamhouse.org/2018/06/making-concrete-change-innovation-low-carbon-cement-and-concrete" target="_blank">Chatham House. &ldquo;Making Concrete Change.&rdquo; Cement production ~8% global CO&sub2;, ~900 kg CO&sub2;/ton cement.</a></li>
+				<li><a href="https://github.com/facebookresearch/SustainableConcrete" target="_blank">Meta / Facebook Research. SustainableConcrete &mdash; open-source Bayesian optimization for concrete mix design (BoTorch/Ax).</a></li>
+			</ul>
+		</section>
+
+		<section class="methodology" style="margin-top:1.5rem;padding:1.2rem 1.5rem;background:var(--bg-card,#f8f8f8);border-left:3px solid var(--accent);border-radius:6px;font-size:0.92rem;color:var(--text-muted);">
+			<h3 style="margin-top:0;font-size:1rem;color:var(--text-secondary);">Methodology Note</h3>
+			<p style="margin:0.5rem 0 0;">Per-home concrete volume (45 CY) estimated from ProBuilder and ShunTool data for a 2,500 sq ft home with slab foundation, driveway, sidewalks, and garage floor. Foundation type significantly affects this figure: slab-on-grade homes may use 25&ndash;30 CY; full-basement homes 55&ndash;65 CY. Material savings of $5.04/CY from Concrete.ai&rsquo;s published field data across 2M+ CY of commercial/infrastructure pours; residential-specific savings data is not yet published. CO&sub2; calculation: 550 lbs cement/CY &times; 45 CY = 24,750 lbs cement &times; 0.9 tons CO&sub2;/ton cement = ~4.1 metric tons CO&sub2; per home (before accounting for transport and mixing energy). The 30% reduction figure yields ~1.2 metric tons CO&sub2; avoided per home. Annual industry projection uses 900,000 single-family starts (Census Bureau 2024 estimate). Car equivalency uses EPA&rsquo;s 4.6 metric tons CO&sub2;/vehicle/year. All figures are ceiling estimates assuming universal adoption, which is unrealistic; actual near-term impact depends on adoption rate among production homebuilders and ready-mix producers.</p>
+		</section>
+	</div>
+
+	<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
