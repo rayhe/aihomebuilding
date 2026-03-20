@@ -2,10 +2,19 @@
   "current": {
     "slug": "ai-concrete-mix-optimization",
     "headline": "Your Foundation Dumped 4 Tons of CO₂ Into the Atmosphere. An Algorithm Says Half That Cement Wasn't Necessary.",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Priya Greenwood",
-    "started": "2026-03-20T19:01:00Z"
+    "started": "2026-03-20T19:01:00Z",
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "average": 8.83
+    }
   },
   "articleCount": 87,
   "lastPublished": "ai-termite-pest-prevention",
