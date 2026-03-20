@@ -66,7 +66,7 @@ echo ""
 
 # 5. Every image referenced in index.html must exist on disk
 echo "=== Image File References ==="
-grep -oP 'src="images/[^"]+' index.html | sed 's/src="//' | sort -u | while read -r img; do
+grep -oP 'src="images/[^"]+' index.html | sed 's/src="//' | sed 's/?.*//' | sort -u | while read -r img; do
     if [ ! -f "$img" ]; then
         echo "  ❌ MISSING file: $img"
         # Can't increment ERRORS in subshell, use temp file
@@ -81,7 +81,7 @@ fi
 
 # Also check article image references
 for f in articles/*.html; do
-    grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null | sed 's/src="//' | sed 's|../||' | while read -r img; do
+    grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null | sed 's/src="//' | sed 's|../||' | sed 's/?.*//' | while read -r img; do
         if [ ! -f "$img" ]; then
             echo "  ❌ MISSING file in $(basename "$f"): $img"
             echo "1" >> /tmp/aih_validate_errors
