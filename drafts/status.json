@@ -1,28 +1,12 @@
 {
-  "current": {
-    "slug": "ai-scheduling-data-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Frank DeLuca",
-    "started": "2026-03-21T07:02:00Z",
-    "headline": "nPlan Trained on 750,000 Schedules. Your Builder Has 200. That's the Whole Problem.",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "average": 8.75
-    }
-  },
+  "current": null,
   "articleCount": 91,
   "lastPublished": "ai-scheduling-data-gap",
   "lastPublishedDate": "2026-03-21",
   "last_completed": {
-    "slug": "ai-design-liability-insurance-gap",
-    "headline": "Your Architect's AI Picked the Wrong Beam Size. Their Insurance Won't Pay for It.",
-    "journalist": "Catherine Chen",
+    "slug": "ai-scheduling-data-gap",
+    "headline": "nPlan Trained on 750,000 Schedules. Your Builder Has 200. That's the Whole Problem.",
+    "journalist": "Frank DeLuca",
     "published": "2026-03-21",
     "total_rounds": 1,
     "final_scores": {
@@ -31,8 +15,8 @@
       "ethics": 9.0,
       "social": 9.0,
       "legal": 8.5,
-      "rigor": 9.0,
-      "average": 8.83
+      "rigor": 8.5,
+      "average": 8.75
     }
   }
 }
