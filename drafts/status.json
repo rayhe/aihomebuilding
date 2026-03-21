@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 90,
+  "lastPublished": "ai-design-liability-insurance-gap",
+  "lastPublishedDate": "2026-03-21",
+  "last_completed": {
     "slug": "ai-design-liability-insurance-gap",
     "headline": "Your Architect's AI Picked the Wrong Beam Size. Their Insurance Won't Pay for It.",
     "journalist": "Catherine Chen",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-03-21T05:01:00Z",
-    "critique_scores": {
+    "published": "2026-03-21",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 9.0,
       "voice": 8.5,
       "ethics": 9.0,
@@ -14,25 +17,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "average": 8.83
-    }
-  },
-  "articleCount": 90,
-  "lastPublished": "ai-design-liability-insurance-gap",
-  "lastPublishedDate": "2026-03-21",
-  "last_completed": {
-    "slug": "ai-reclaimed-lumber-grading",
-    "headline": "29.6 Million Tons of Demolition Wood Goes to Landfills Each Year. A Phone Camera Could Grade It for Reuse.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-03-21",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "average": 8.75
     }
   }
 }
