@@ -3,9 +3,18 @@
     "slug": "ai-design-liability-insurance-gap",
     "headline": "Your Architect's AI Picked the Wrong Beam Size. Their Insurance Won't Pay for It.",
     "journalist": "Catherine Chen",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-03-21T05:01:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-03-21T05:01:00Z",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "average": 8.83
+    }
   },
   "articleCount": 89,
   "lastPublished": "ai-reclaimed-lumber-grading",
