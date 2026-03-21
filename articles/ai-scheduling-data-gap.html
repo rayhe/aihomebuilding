@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>nPlan Trained on 750,000 Schedules. Your Builder Has 200. That&rsquo;s the Whole Problem. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-scheduling-data-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "nPlan Trained on 750,000 Schedules. Your Builder Has 200. That's the Whole Problem.",
+		"description": "AI scheduling tools can predict delays on billion-dollar infrastructure projects. But custom home builders don't have enough historical data to feed them. We did the math on what it would actually take.",
+		"image": "https://aihomebuilding.com/images/ai-scheduling-data-gap.jpg?v=a09c99bf",
+		"datePublished": "2026-03-21",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-scheduling-data-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="nPlan Trained on 750,000 Schedules. Your Builder Has 200. That's the Whole Problem.">
+	<meta property="og:description" content="AI scheduling tools can predict delays on billion-dollar infrastructure projects. But your custom home builder doesn't have enough data to feed them.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-scheduling-data-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-scheduling-data-gap.jpg?v=a09c99bf">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="nPlan Trained on 750,000 Schedules. Your Builder Has 200. That's the Whole Problem.">
+	<meta name="twitter:description" content="AI scheduling tools predict delays on billion-dollar projects. Custom home builders don't have the data to use them.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-scheduling-data-gap.jpg?v=a09c99bf">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.article-container {
+			max-width: 740px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			margin-bottom: 1.5rem;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body {
+			font-size: 1.05rem;
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2rem 0 1rem;
+			color: var(--text-primary);
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-secondary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.article-body blockquote {
+			border-left: 3px solid var(--accent);
+			padding-left: 1.2rem;
+			margin: 1.5rem 0;
+			color: var(--text-muted);
+			font-style: italic;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+			display: block;
+		}
+		.pull-stat .label {
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			margin-top: 0.25rem;
+		}
+		.data-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.data-table th {
+			text-align: left;
+			padding: 0.6rem 0.8rem;
+			border-bottom: 2px solid var(--accent);
+			font-weight: 700;
+			color: var(--text-primary);
+		}
+		.data-table td {
+			padding: 0.5rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			color: var(--text-secondary);
+		}
+		.dark-toggle {
+			position: fixed;
+			top: 1rem;
+			right: 1rem;
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			font-size: 1.2rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 100;
+			transition: background 0.3s;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.article-container { padding: 1.5rem 1rem 3rem; }
+		}
+	</style>
+</head>
+<body>
+	<button class="dark-toggle" onclick="document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));" aria-label="Toggle dark mode">🌓</button>
+	<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+
+	<div class="article-hero">
+		<img src="../images/ai-scheduling-data-gap.jpg?v=a09c99bf" alt="A weathered construction schedule whiteboard on a job site with sticky notes showing delayed tasks, a laptop open to an AI scheduling tool in the background" loading="eager">
+		<div class="overlay">
+			<div class="badge">Project Management</div>
+			<h1>nPlan Trained on 750,000 Schedules. Your Builder Has 200. That&rsquo;s the Whole Problem.</h1>
+			<div class="byline">By Frank DeLuca &bull; March 21, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>Last month I watched a demo of an AI scheduling tool that promised to &ldquo;predict delays before they happen.&rdquo; Impressive deck. The presenter showed a 250-day delay averted on a &pound;4.1 billion rail tunnel in London. The AI had flagged risk patterns hidden in a database of 750,000 historical project schedules and &pound;120 million in potential overruns. The audience clapped.</p>
+
+			<p>I raised my hand. &ldquo;How many of those 750,000 schedules are single-family residential?&rdquo;</p>
+
+			<p>Long pause. &ldquo;Our data set focuses on capital projects.&rdquo;</p>
+
+			<p>Right.</p>
+
+			<div class="pull-stat">
+				<span class="number">750,000 vs. 200</span>
+				<span class="label">Historical schedules in nPlan&rsquo;s AI training set vs. what a typical custom home builder accumulates in a 15-year career</span>
+			</div>
+
+			<h2>The Machine Learning Data Problem Nobody Mentions</h2>
+
+			<p><a href="https://www.nplan.io/" target="_blank">nPlan</a>, the London-based AI scheduling platform, has trained its models on 750,000 historical project schedules representing over $2 trillion in construction spend. The sectors it covers: highways, rail, public buildings, commercial construction, heavy infrastructure, oil and gas, utilities, data centers. Its AI currently manages <a href="https://www.nplan.io/" target="_blank">$500 billion in active projects</a>. Those are serious numbers.</p>
+
+			<p>Now look at who builds your house.</p>
+
+			<p>A productive custom home builder completes 10 to 20 homes per year. After 15 years in business, that&rsquo;s 150 to 300 completed project records. A large regional production builder doing 100 homes annually for two decades has 2,000. Even <a href="https://eyeonhousing.org/" target="_blank">D.R. Horton</a>, the nation&rsquo;s largest homebuilder, closes roughly 90,000 homes a year. They&rsquo;d need a decade just to approach the data volume nPlan used from day one.</p>
+
+			<p>Machine learning models don&rsquo;t care about your intentions. They care about sample size, variance, and signal-to-noise ratio. When nPlan identifies that sewer lining work on a London rail project carries a 73% probability of exceeding baseline duration, that prediction rests on thousands of comparable tasks across hundreds of similar projects. When your builder says &ldquo;framing usually takes three weeks,&rdquo; that estimate rests on gut feel and a spreadsheet nobody updated since 2019.</p>
+
+			<h2>Custom Homes Break the Pattern</h2>
+
+			<p>The data problem runs deeper than volume. Production homebuilders repeat the same floor plans across subdivisions. Their schedules are transferable because the work is standardized. A three-bedroom ranch in Phase II is close enough to the same house in Phase I that historical duration data actually predicts something.</p>
+
+			<p>Custom homes aren&rsquo;t that. A cantilevered deck on a hillside lot in Marin has almost nothing in common with a slab-on-grade colonial in suburban Dallas. The soil is different. The structural requirements are different. The subcontractor pool is different. The permit timeline is different. You can&rsquo;t train an algorithm on one and expect it to predict the other any better than a coin flip.</p>
+
+			<p>This is why nPlan&rsquo;s listed sectors don&rsquo;t include residential. Not because they forgot about it. Because the statistical foundation doesn&rsquo;t exist.</p>
+
+			<h2>What Your Builder Actually Has</h2>
+
+			<p>The residential scheduling tools that builders actually use tell a different story than the AI hype cycle suggests.</p>
+
+			<table class="data-table">
+				<tr>
+					<th>Tool</th>
+					<th>Scheduling Features</th>
+					<th>AI Prediction</th>
+				</tr>
+				<tr>
+					<td><a href="https://buildertrend.com" target="_blank">Buildertrend</a></td>
+					<td>Drag-and-drop Gantt charts, task lists, calendars</td>
+					<td>None</td>
+				</tr>
+				<tr>
+					<td><a href="https://www.coconstruct.com" target="_blank">CoConstruct</a></td>
+					<td>Basic scheduling, task assignments</td>
+					<td>None</td>
+				</tr>
+				<tr>
+					<td><a href="https://www.procore.com" target="_blank">Procore</a></td>
+					<td>Advanced project controls, resource management</td>
+					<td>Commercial-focused analytics</td>
+				</tr>
+				<tr>
+					<td><a href="https://www.nplan.io/" target="_blank">nPlan</a></td>
+					<td>AI schedule risk analysis, forecasting</td>
+					<td>Yes &mdash; for $100M+ capital projects</td>
+				</tr>
+			</table>
+
+			<p>Buildertrend and CoConstruct are the tools most residential builders can afford. Useful for organizing the chaos, sure. But they&rsquo;re glorified digital whiteboards. They tell you what should happen next Tuesday. They can&rsquo;t tell you the probability that it won&rsquo;t. I&rsquo;ve watched a $1.2 million custom build in Westchester slip six weeks because a tile subcontractor took a bigger commercial job and didn&rsquo;t mention it until the day before rough-in. No scheduling tool on earth flags that.</p>
+
+			<h2>The Actual Delay Numbers</h2>
+
+			<p>Meanwhile, the residential scheduling problem remains brutal. <a href="https://buildern.com/resources/blog/project-delays-in-construction/" target="_blank">Industry data from 2024&ndash;2025</a> shows 98% of construction projects face delays, with the average project duration running 37% longer than originally projected. The 2023 <a href="https://blog.associationofprofessionalbuilders.com/true-cost-of-project-delay" target="_blank">SORCI Report</a> from the Association of Professional Builders found that 35.1% of residential projects ran late, and an average $750,000 build costs the builder approximately $670 per day in delay expenses.</p>
+
+			<p>Worse: 48.3% of builders don&rsquo;t even know their fixed expenses per job per day. Half the industry can&rsquo;t calculate what delays cost them.</p>
+
+			<p>Census Bureau data from 2024 pegs the <a href="https://eyeonhousing.org/2025/09/single-family-homes-are-built-faster-in-2024/" target="_blank">average single-family home at 9.1 months start to finish</a>: 1.4 months for permitting, 7.6 months for construction. A 37% overrun on that 7.6-month build phase adds 2.8 months. At $670/day, that&rsquo;s roughly $57,000 in delay costs per house, absorbed entirely by the builder or passed to the buyer as a change order that breeds resentment and Yelp reviews.</p>
+
+			<div class="pull-stat">
+				<span class="number">$57,000</span>
+				<span class="label">Estimated delay cost per average single-family build, at $670/day &times; 85 days (37% overrun on 7.6 months)</span>
+			</div>
+
+			<h2>What Would Actually Work</h2>
+
+			<p>I&rsquo;ve managed residential projects for two decades. The honest answer is that the scheduling problem in custom homes isn&rsquo;t a prediction problem. It&rsquo;s a coordination problem. Your framing crew is ready. Your electrician ghosted you. The inspector canceled. The trusses arrived a week late because the lumberyard prioritized a commercial order. No algorithm trained on London rail tunnels can predict that your plumber&rsquo;s truck broke down on I-95.</p>
+
+			<p>What actually moves the needle for a 15-person residential operation:</p>
+
+			<p><strong>Weather-integrated scheduling.</strong> Connect a weather API to your critical-path schedule. If there&rsquo;s a 70% chance of rain on your pour day, the system bumps it automatically and notifies the concrete sub. <a href="https://n8n.io/workflows/13687-predict-construction-delays-with-claude-openweather-and-slack-alerts/" target="_blank">Open-source tools like n8n</a> can wire this up with Claude or GPT and Slack alerts for under $50/month.</p>
+
+			<p><strong>Subcontractor reliability scoring.</strong> Track which subs hit their dates and which don&rsquo;t. After 30 projects, you have enough data to rank your electricians by on-time percentage. That&rsquo;s not machine learning. It&rsquo;s a spreadsheet. But it works better than any AI tool that has never seen your market.</p>
+
+			<p><strong>Rule-based cascade alerts.</strong> If the foundation pour slips three days, auto-reschedule framing, notify the truss supplier, and push the rough-in dates. This is if-then logic, not artificial intelligence. Buildertrend can do most of it with task dependencies. Most builders don&rsquo;t bother setting them up because it takes effort upfront and the payoff isn&rsquo;t obvious until you&rsquo;re already behind.</p>
+
+			<h2>The Counterargument: Just Pool the Data</h2>
+
+			<p>An industry consortium could theoretically aggregate scheduling data from thousands of residential builders into a shared training set. Pool 10,000 builders at 15 homes/year each, and you&rsquo;d have 150,000 new project schedules annually. Within five years, you&rsquo;d approach nPlan&rsquo;s dataset volume.</p>
+
+			<p>The argument has surface appeal. In practice, it hits three walls. First, builders view their scheduling data as competitive intelligence and won&rsquo;t share it. Second, inconsistent data formats across dozens of scheduling tools would require massive standardization. Third, and this is the hard one: custom home schedules carry so much project-specific variance (lot conditions, local subcontractor markets, jurisdiction-specific permitting timelines) that aggregation may not produce the transferable patterns that machine learning requires. A framing duration in Phoenix means something different than a framing duration in Minneapolis in January.</p>
+
+			<p>nPlan&rsquo;s own case study material acknowledges this implicitly. Their <a href="https://www.scheduletraininghub.com/post/nplan-case-study-ai-at-work" target="_blank">SCS JV partnership on the HS2 rail project</a> identified 140 risk insights across a single &pound;4.1 billion program. That density of insight is possible because mega-infrastructure has repeatable task patterns at scale. Residential doesn&rsquo;t.</p>
+
+			<h2>What This Doesn&rsquo;t Prove</h2>
+
+			<p>The $57,000 delay cost estimate is a napkin calculation: $670/day (SORCI 2023, based on average $750K builds) multiplied by 85 delay days (37% overrun applied to the Census Bureau&rsquo;s 7.6-month average build time). It uses a general construction delay rate, not a residential-specific one, because residential-specific overrun data is scarce. The 37% figure comes from <a href="https://buildern.com/resources/blog/project-delays-in-construction/" target="_blank">Buildern&rsquo;s 2025 metrics report</a> covering all construction types. Residential-only delays may be shorter or longer. The $670/day figure reflects 2023 costs and hasn&rsquo;t been adjusted for 2026 inflation, which would push it higher. I couldn&rsquo;t find a rigorous residential-only overrun study published in the last three years. That gap in the data is, itself, part of the story.</p>
+
+			<p>nPlan&rsquo;s dataset size and sector coverage are from their public website as of March 2026. I have no access to their internal model accuracy metrics for residential-adjacent projects, if any exist.</p>
+
+			<p>The builder data volumes (150&ndash;300 schedules for a custom builder, 2,000 for a regional production builder) are my estimates based on typical annual completions per <a href="https://www.nahb.org/" target="_blank">NAHB builder-size surveys</a>, not a formal census. The average NAHB member builds fewer than 25 homes per year; the numbers I used are generous.</p>
+
+			<p>The conclusion &mdash; that AI scheduling prediction doesn&rsquo;t work yet for custom residential &mdash; is a data-availability argument, not a claim that the technology is fundamentally incapable. If someone builds the dataset, the math changes. Nobody has built it yet.</p>
+
+		</article>
+	</div>
+</body>
+</html>
