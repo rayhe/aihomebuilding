@@ -1,37 +1,21 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 93,
+  "lastPublished": "ai-floor-plans-orientation-blind",
+  "lastPublishedDate": "2026-03-21",
+  "last_completed": {
     "slug": "ai-floor-plans-orientation-blind",
     "headline": "Your AI Floor Plan Doesn't Know Which Way the Sun Rises. That'll Cost You $200 a Year.",
-    "phase": "QA",
     "journalist": "Elena Vasquez",
-    "started": "2026-03-21T15:00:00Z",
-    "round": 1,
-    "scores": {
+    "published": "2026-03-21",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 9.0,
       "voice": 8.5,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 8.5,
       "rigor": 9.0,
-      "average": 8.83
-    }
-  },
-  "articleCount": 93,
-  "lastPublished": "ai-floor-plans-orientation-blind",
-  "lastPublishedDate": "2026-03-21",
-  "last_completed": {
-    "slug": "vr-training-apprenticeship-dropout",
-    "headline": "You'll Spend $24,000 Training an Apprentice. There's a 47% Chance He Quits.",
-    "journalist": "Marcus Washington",
-    "published": "2026-03-21",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
       "average": 8.83
     }
   }
