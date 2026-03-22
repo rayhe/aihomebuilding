@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 100,
+  "lastPublished": "ai-construction-site-theft-cameras",
+  "lastPublishedDate": "2026-03-22",
+  "last_completed": {
     "slug": "ai-construction-site-theft-cameras",
     "headline": "Someone Stole $2,000 of Copper From Your Job Site Last Night. The Camera That Would Have Stopped Them Costs $15 a Day.",
     "journalist": "Jake Kowalski",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-03-22T15:00:00Z",
-    "critique_scores": {
+    "published": "2026-03-22",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 8.5,
       "voice": 9.0,
       "ethics": 8.5,
@@ -14,27 +17,6 @@
       "legal": 9.0,
       "rigor": 8.5,
       "average": 8.67
-    },
-    "hero_image_ready": true,
-    "published": "2026-03-22T23:00:00Z"
-  },
-  "articleCount": 100,
-  "lastPublished": "ai-construction-site-theft-cameras",
-  "lastPublishedDate": "2026-03-22",
-  "last_completed": {
-    "slug": "ai-thermal-scan-insulation-defects",
-    "headline": "No US Jurisdiction Requires a Thermal Scan Before the Drywall Goes Up. Your Insulation Defects Thank Them.",
-    "journalist": "Catherine Chen",
-    "published": "2026-03-22",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "average": 8.75
     }
   }
 }
