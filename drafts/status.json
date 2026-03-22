@@ -3,9 +3,19 @@
     "slug": "ai-construction-site-theft-cameras",
     "headline": "Someone Stole $2,000 of Copper From Your Job Site Last Night. The Camera That Would Have Stopped Them Costs $15 a Day.",
     "journalist": "Jake Kowalski",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-03-22T15:00:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-03-22T15:00:00Z",
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 8.5,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "average": 8.67
+    },
+    "ship_blocked": "1/day limit — #99 published today 2026-03-22. Article #100 ready for next cycle."
   },
   "articleCount": 99,
   "lastPublished": "ai-thermal-scan-insulation-defects",
