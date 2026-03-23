@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>70% of Home HVAC Systems Are the Wrong Size. The Code That Would Fix It Goes Unenforced. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/hvac-oversizing-manual-j-ai.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "70% of Home HVAC Systems Are the Wrong Size. The Code That Would Fix It Goes Unenforced.",
+		"description": "Building codes require Manual J load calculations for HVAC sizing in most US jurisdictions. Contractors skip it. Inspectors don't check. AI tools now automate the process in 60 seconds. The enforcement gap persists anyway.",
+		"image": "https://aihomebuilding.com/images/hvac-oversizing-manual-j-ai.jpg?v=772c6626",
+		"datePublished": "2026-03-23",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/hvac-oversizing-manual-j-ai.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="70% of Home HVAC Systems Are the Wrong Size. The Code That Would Fix It Goes Unenforced.">
+	<meta property="og:description" content="Building codes require Manual J load calculations for HVAC sizing. Contractors skip it. Inspectors don't check. AI now automates the process in 60 seconds. The enforcement gap persists.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/hvac-oversizing-manual-j-ai.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/hvac-oversizing-manual-j-ai.jpg?v=772c6626">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="70% of Home HVAC Systems Are the Wrong Size. The Code That Would Fix It Goes Unenforced.">
+	<meta name="twitter:description" content="Building codes require Manual J. Contractors skip it. AI can do it in 60 seconds. Nobody enforces any of this.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/hvac-oversizing-manual-j-ai.jpg?v=772c6626">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.stat-callout .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.back-link {
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-body { font-size: 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/hvac-oversizing-manual-j-ai.jpg?v=772c6626" alt="A residential HVAC condenser unit next to a new construction home, afternoon light, copper refrigerant lines visible">
+		<div class="overlay">
+			<div class="badge">Policy &amp; Regulation</div>
+			<h1>70% of Home HVAC Systems Are the Wrong Size. The Code That Would Fix It Goes Unenforced.</h1>
+			<div class="meta">By Catherine Chen &middot; March 23, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>A contractor walks into your 2,200-square-foot house, looks around for five minutes, and declares you need a 4-ton air conditioner. He didn&rsquo;t measure a single window. Didn&rsquo;t ask about your insulation. Didn&rsquo;t check which direction the house faces. He divided square footage by 500 and rounded up.</p>
+
+			<p>That 4-ton system will cost you $6,800 installed. A properly calculated 3-ton unit would have run $5,500 and kept you more comfortable. Over 15 years, the oversized system will waste roughly <a href="https://accalculator.com/blog/oversizing-problem.html" target="_blank">$7,800 in excess energy, repairs, and premature replacement costs</a>.</p>
+
+			<p>The code says this shouldn&rsquo;t happen. The International Energy Conservation Code (IECC) and the International Residential Code (IRC) both require load calculations per <a href="https://www.acca.org/standards/manuals/manual-j" target="_blank">ACCA Manual J</a> for new HVAC installations. California&rsquo;s Title 24 mandates them explicitly. Most US jurisdictions that have adopted the 2021 IECC or later technically require a load calculation before a mechanical permit is issued.</p>
+
+			<p>Technically.</p>
+
+			<div class="stat-callout">
+				<div class="number">70%</div>
+				<div class="label">Percentage of US residential HVAC systems that are improperly sized, per ACCA industry data and multiple independent analyses</div>
+			</div>
+
+			<h2>The Five-Minute Sizing Method That Costs Billions</h2>
+
+			<p>The rule of thumb&mdash;&ldquo;one ton of cooling per 500 square feet&rdquo;&mdash;has been in contractor lore for decades. It ignores everything that actually determines how much heating and cooling a house needs: insulation R-values, window area and orientation, air infiltration rates, duct losses, local climate design temperatures, internal heat gains from occupants and appliances, and solar exposure. <a href="https://fieldcamp.ai/blog/manual-j-calculation/" target="_blank">ACCA data shows</a> rule-of-thumb sizing delivers &plusmn;30% accuracy. Manual J, performed properly, hits &plusmn;5%.</p>
+
+			<p>Two homes on the same street, both 2,000 square feet, can have wildly different load requirements. One faces west with single-pane windows and R-13 walls. The other faces north with double-pane low-E glass and R-21 insulation. The rule of thumb gives them identical 4-ton systems. Manual J might size the first at 3.5 tons and the second at 2.5. Installing 4 tons in both is wrong for both&mdash;one is slightly oversized, the other is 60% oversized.</p>
+
+			<p>And oversizing isn&rsquo;t a harmless waste of capacity. It&rsquo;s an active harm.</p>
+
+			<h2>What Happens When Your System Is Too Big</h2>
+
+			<p>An oversized air conditioner cools a room so fast it shuts off before completing a full cycle. Then it kicks back on 10 minutes later when the temperature drifts up. This short cycling creates a cascade of problems:</p>
+
+			<p><strong>Energy waste.</strong> Compressors draw 3&ndash;5x normal power during startup. An oversized system cycles 2&ndash;3x more often than a properly sized one. All those surge draws compound into 20&ndash;40% higher energy bills, per <a href="https://accalculator.com/blog/oversizing-problem.html" target="_blank">ACCalculator&rsquo;s analysis</a> of field data.</p>
+
+			<p><strong>Humidity failure.</strong> Air conditioners remove moisture by running the evaporator coil long enough for water to condense on it. Short cycles never reach that threshold. In humid climates (ASHRAE zones 1&ndash;3), the result is indoor humidity stuck at 60&ndash;70% instead of a comfortable 40&ndash;50%. Your thermostat says 72&deg;F but it feels like 76. People crank the AC lower, wasting more energy, and the cycle accelerates.</p>
+
+			<p><strong>Equipment death.</strong> Most compressor damage occurs during startup. A normal system runs 3&ndash;4 cycles per hour; an oversized one runs 8&ndash;10. That&rsquo;s 32,000&ndash;40,000 cycles in a decade, versus 12,000&ndash;16,000 over 15 years for a right-sized unit. Contactors wear out. Capacitors fail. Refrigerant leaks develop from thermal expansion stress. The oversized system dies at 8&ndash;10 years instead of 15&ndash;20.</p>
+
+			<table>
+				<tr><th>Metric</th><th>Correctly Sized (3-ton)</th><th>Oversized (4-ton)</th></tr>
+				<tr><td>Upfront cost</td><td>$5,500</td><td>$6,800 (+24%)</td></tr>
+				<tr><td>15-year energy</td><td>$12,000</td><td>$16,800 (+40%)</td></tr>
+				<tr><td>15-year repairs</td><td>$2,500</td><td>$4,200 (+68%)</td></tr>
+				<tr><td>Total 15-year cost</td><td>$20,000</td><td>$27,800</td></tr>
+			</table>
+
+			<p>The $7,800 gap is conservative. It assumes a moderate climate zone. In Phoenix or Houston, where systems run harder, the spread widens.</p>
+
+			<h2>Why Contractors Oversize on Purpose</h2>
+
+			<p>Contractor incentives are asymmetric. An undersized system generates an immediate, furious callback: &ldquo;My house hit 85 degrees on the hottest day of the year.&rdquo; An oversized system generates no complaint for years. The homeowner doesn&rsquo;t know their humidity is wrong. They don&rsquo;t know their compressor is cycling too fast. They just know the house feels cold when they want cold.</p>
+
+			<p>Then buffer stacking kicks in. The Manual J calculation says 2.67 tons. The contractor adds a 15% &ldquo;safety factor&rdquo;&mdash;now 3.07. He rounds up to the next available equipment size: 3.5 tons. The homeowner says, &ldquo;Shouldn&rsquo;t we go a little bigger, just in case?&rdquo; The contractor sells them a 4-ton unit. Result: 50% oversizing, compounded from four layers of conservative rounding, each one individually defensible, collectively ruinous.</p>
+
+			<h2>The Code Exists. Enforcement Doesn&rsquo;t.</h2>
+
+			<p>I pulled the relevant sections. The <a href="https://codes.iccsafe.org/content/IECC2021P7" target="_blank">2021 IECC Section R403.7</a> requires heating and cooling equipment to be sized per ACCA Manual J or other approved load calculation methodologies for residential buildings. The IRC references the same standard. California&rsquo;s Title 24 Part 6 explicitly requires load calculations for both new construction and HVAC replacements, documented on the CF-1R compliance form.</p>
+
+			<p>In practice, what happens at the permit counter is this: the mechanical permit application has a box for load calculation documentation. In many jurisdictions, a contractor can write a BTU number in that box without attaching the calculation. The inspector reviews the installation&mdash;refrigerant line sizes, disconnect placement, clearances&mdash;and never asks how the tonnage was determined. No jurisdiction I found routinely audits whether the installed equipment matches a proper Manual J.</p>
+
+			<p>This is a category of code failure that differs from, say, a missing smoke detector. Smoke detector compliance is binary: it&rsquo;s there or it isn&rsquo;t. HVAC sizing compliance requires reviewing a multi-page engineering document against the actual building envelope. Inspectors don&rsquo;t have time. Many don&rsquo;t have training. The code gives them no practical enforcement mechanism beyond trusting the contractor&rsquo;s number.</p>
+
+			<h2>AI Just Removed the Last Excuse</h2>
+
+			<p>Manual J has always been the fix. The problem was friction. A proper Manual J takes 1&ndash;8 hours of manual data entry: measuring rooms, cataloging windows, assessing insulation, looking up climate design temperatures. Professional calculation services charge <a href="https://fieldcamp.ai/blog/manual-j-calculation/" target="_blank">$79&ndash;$800 per report</a>. Incumbent software like <a href="https://www.wrightsoft.com/store/" target="_blank">Wrightsoft Right-Suite Universal</a> costs $495/month plus $2,500 in setup fees and $3,500 in training.</p>
+
+			<p>AI compressed that process into something absurd.</p>
+
+			<p><a href="https://autohvac.ai/" target="_blank">AutoHVAC</a>, launched in late 2025, processes a PDF blueprint upload and returns a Manual J report in 60 seconds. It uses a dual-engine approach&mdash;a deterministic calculation engine for the math and a computer vision model to extract room dimensions, window locations, and wall assemblies from architectural drawings. The cost: $47/month, unlimited calculations, no setup fee. The output follows ACCA Manual J 8th Edition methodology, though it isn&rsquo;t formally ACCA-certified software.</p>
+
+			<p>CoolCalc and other cloud platforms offer similar automation at slightly higher price points. The category is small but growing. What they all share is this: the excuse that Manual J is too slow, too expensive, or too complicated to perform on every job has evaporated.</p>
+
+			<div class="stat-callout">
+				<div class="number">60&times;</div>
+				<div class="label">Speed improvement: AI-automated Manual J (60 seconds from blueprint upload) vs. traditional manual calculation (1&ndash;8 hours of data entry)</div>
+			</div>
+
+			<h2>The Enforcement Gap Persists Anyway</h2>
+
+			<p>Here is the uncomfortable part. Automating the calculation doesn&rsquo;t fix the enforcement problem. A contractor who didn&rsquo;t bother with Manual J before isn&rsquo;t going to subscribe to an AI tool voluntarily. The bottleneck was never that the math was too hard&mdash;Wrightsoft has existed since the 1990s. The bottleneck is that nobody checks. The incentive structure rewards oversizing and penalizes right-sizing. Until inspectors verify load calculations against installed equipment, and until permit offices reject applications that don&rsquo;t include one, AI tools are solving the wrong half of the problem.</p>
+
+			<p>Where AI could genuinely close the gap is on the inspection side. If a building department required a digital Manual J submission&mdash;machine-readable, standardized format&mdash;an AI system could flag mismatches between the load calculation and the equipment listed on the permit. A 2.8-ton calculation paired with a 4-ton installation triggers an automatic review. That workflow is technically trivial. No jurisdiction has implemented it.</p>
+
+			<h2>The Heat Pump Complication</h2>
+
+			<p>Oversizing matters even more with heat pumps, which are rapidly displacing furnace-and-AC splits in new construction. Unlike a gas furnace that produces constant heat regardless of outdoor temperature, a heat pump&rsquo;s capacity drops as the temperature falls. An oversized heat pump short-cycles in mild weather (wrecking efficiency and humidity control) and may still struggle on the coldest design day if the sizing was done by rule of thumb rather than by analyzing the actual heating load at the local design temperature.</p>
+
+			<p>The Department of Energy&rsquo;s push toward electrification makes this urgent. Heat pump installations are growing rapidly, and they are unforgiving of sloppy sizing in a way that gas systems were not. A gas furnace oversized by 50% wastes energy and short-cycles, but it keeps the house warm. A heat pump oversized by 50% short-cycles <em>and</em> may leave you cold when it matters most, because the contractor sized it for cooling and didn&rsquo;t verify the heating capacity at your local winter design temperature.</p>
+
+			<h2>A Rough Cost of Doing Nothing</h2>
+
+			<p>Here&rsquo;s a back-of-the-envelope calculation I haven&rsquo;t seen anyone else publish:</p>
+
+			<p>There are approximately <a href="https://www.census.gov/housing/hvs/index.html" target="_blank">130 million housing units in the US</a> (Census Bureau, 2024). If 70% have improperly sized HVAC, that&rsquo;s 91 million homes. ACCA data indicates properly sized systems save 15&ndash;30% on heating and cooling costs versus oversized ones. At an average annual HVAC energy cost of roughly $1,800&mdash;heating and cooling consume <a href="https://www.eia.gov/consumption/residential/data/2024/" target="_blank">30&ndash;50% of household energy</a> (EIA RECS 2024), and the median household electric bill is $2,400&ndash;$3,600 depending on region&mdash;that puts the per-home annual waste from improper sizing in the range of $270&ndash;$540.</p>
+
+			<p>Midpoint: $405/year &times; 91 million homes = <strong>$36.9 billion per year</strong> in wasted energy from improper HVAC sizing.</p>
+
+			<p>That figure carries wide error bars. It assumes every improperly sized system is oversized (some are undersized). It uses national averages that flatten enormous regional variation. Not every one of those 91 million homes has the same degree of mis-sizing. But even at half this estimate, we&rsquo;re talking $18 billion annually&mdash;enough to fund the DOE&rsquo;s Weatherization Assistance Program roughly 50 times over.</p>
+
+			<h2>The Best Case Against Mandating AI Load Calculations</h2>
+
+			<p>A fair counterargument: adding another compliance requirement to an already slow permitting process will increase costs and delays for homeowners. Building departments are understaffed. Contractors are already drowning in paperwork. Requiring digital Manual J submissions with automated verification sounds elegant in theory but adds friction to a housing construction pipeline that desperately needs less of it.</p>
+
+			<p>That&rsquo;s a legitimate objection. It&rsquo;s also the same objection used to resist energy code enforcement for 40 years. At some point, the cost of non-enforcement ($18&ndash;$37 billion/year in wasted energy, millions of prematurely dead compressors, billions of pounds of excess carbon) outweighs the cost of checking a calculation that code already requires.</p>
+
+			<h2>What I Didn&rsquo;t Prove</h2>
+
+			<p>The 70% figure is widely cited by ACCA and independent analysts, but I couldn&rsquo;t find a single peer-reviewed national study that measured it with a large, random sample. The number likely originates from field audits and contractor surveys aggregated over years. It could be 55%. It could be 80%. The directional conclusion&mdash;a majority of systems are improperly sized&mdash;is supported by every source I checked, but the precision of &ldquo;70%&rdquo; should be treated as approximate.</p>
+
+			<p>My cost-of-doing-nothing calculation is a rough order-of-magnitude estimate, not a peer-reviewed analysis. The $36.9 billion figure uses national averages and assumes uniform mis-sizing severity. Actual national waste is somewhere between half and double that number, depending on assumptions about the distribution of oversizing severity and regional energy costs.</p>
+
+			<p>I also haven&rsquo;t verified AutoHVAC&rsquo;s accuracy claims against a traditional Manual J performed by a certified professional on the same building. The company claims ACCA 8th Edition methodology compliance, but it is not ACCA-certified software. Wrightsoft, EnergyGauge, and CoolCalc are. How closely the AI output matches a credentialed tool on a real building remains an open question I couldn&rsquo;t answer from published data.</p>
+
+			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
+				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>
+				<ul style="font-size:0.9rem; line-height:1.7; color:var(--text-secondary);">
+					<li><a href="https://www.acca.org/standards/manuals/manual-j" target="_blank">ACCA Manual J 8th Edition</a> &mdash; ANSI/ACCA 2 residential load calculation standard; &plusmn;5% sizing accuracy; industry benchmark for proper HVAC sizing</li>
+					<li><a href="https://fieldcamp.ai/blog/manual-j-calculation/" target="_blank">FieldCamp, &ldquo;Manual J Calculation: The Complete Guide&rdquo; (2026)</a> &mdash; 70% improper sizing stat, rule-of-thumb vs. Manual J accuracy comparison, professional cost range $79&ndash;$800</li>
+					<li><a href="https://accalculator.com/blog/oversizing-problem.html" target="_blank">ACCalculator, &ldquo;The Oversizing Problem: Why Bigger Isn&rsquo;t Better&rdquo; (2025)</a> &mdash; 15-year TCO analysis showing $7,800 waste from 1-ton oversizing, short cycling mechanics, humidity failure</li>
+					<li><a href="https://www.eia.gov/consumption/residential/data/2024/" target="_blank">EIA Residential Energy Consumption Survey (RECS) 2024</a> &mdash; HVAC accounts for 30&ndash;50% of household energy consumption</li>
+					<li><a href="https://www.census.gov/housing/hvs/index.html" target="_blank">US Census Bureau, Housing Vacancies and Homeownership (2024)</a> &mdash; approximately 130 million housing units in the US</li>
+					<li><a href="https://autohvac.ai/" target="_blank">AutoHVAC</a> &mdash; AI-powered Manual J in 60 seconds from blueprint upload, $47/month, ACCA 8th Edition methodology (not ACCA-certified)</li>
+					<li><a href="https://www.wrightsoft.com/store/" target="_blank">Wrightsoft Right-Suite Universal</a> &mdash; industry incumbent HVAC design software, $495/month + $2,500 setup + $3,500 training, ACCA-certified</li>
+					<li><a href="https://codes.iccsafe.org/content/IECC2021P7" target="_blank">2021 IECC Section R403.7</a> &mdash; residential HVAC equipment sizing per ACCA Manual J or approved load calculation methodologies</li>
+				</ul>
+			</section>
+		</article>
+	</div>
+
+	<a href="../" class="back-link" style="display:block; text-align:center; padding:0 0 3rem;">&larr; Back to all articles</a>
+	<script src="../js/article-nav.js"></script>
+</body>
+</html>
