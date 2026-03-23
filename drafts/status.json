@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-building-permit-plan-review-automation",
+    "headline": "Your Permit Application Got Rejected Three Times. The Code Violations Were on Page 2.",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Catherine Chen",
+    "started": "2026-03-23T05:05:00Z",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "average": 8.75
+    },
+    "ship_blocked": "1/day limit — #102 published today (2026-03-23). Article #103 ready for next cycle."
+  },
   "articleCount": 102,
   "lastPublished": "ai-concrete-maturity-sensors-residential",
   "lastPublishedDate": "2026-03-23",
