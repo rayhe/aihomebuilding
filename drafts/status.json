@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 104,
+  "lastPublished": "ai-estimating-workforce-transformation",
+  "lastPublishedDate": "2026-03-23",
+  "last_completed": {
     "slug": "ai-estimating-workforce-transformation",
     "headline": "Your Estimator Spends 6 Hours Counting Windows. The Software Does It in 90 Seconds.",
     "journalist": "Marcus Washington",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-03-23T11:00:00Z",
-    "scores": {
+    "published": "2026-03-23",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 8.5,
       "voice": 8.5,
       "ethics": 9.0,
@@ -14,25 +17,6 @@
       "legal": 9.0,
       "rigor": 8.5,
       "average": 8.67
-    }
-  },
-  "articleCount": 104,
-  "lastPublished": "ai-estimating-workforce-transformation",
-  "lastPublishedDate": "2026-03-23",
-  "last_completed": {
-    "slug": "ai-building-permit-plan-review-automation",
-    "headline": "Your Permit Application Got Rejected Three Times. The Code Violations Were on Page 2.",
-    "journalist": "Catherine Chen",
-    "published": "2026-03-23",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "average": 8.75
     }
   }
 }
