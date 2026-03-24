@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 111,
+  "lastPublished": "ai-wearable-predict-construction-injury",
+  "lastPublishedDate": "2026-03-24",
+  "last_completed": {
     "slug": "ai-wearable-predict-construction-injury",
     "headline": "Your Framing Crew Has a 1-in-4 Chance of Filing a Back Injury Claim. A $22 Sensor Sees It Coming.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Marcus Washington",
-    "started": "2026-03-24T17:00:00Z",
-    "scores": {
+    "published": "2026-03-24",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 9.0,
       "voice": 8.5,
       "ethics": 9.0,
@@ -14,25 +17,6 @@
       "legal": 9.0,
       "rigor": 8.5,
       "average": 8.75
-    }
-  },
-  "articleCount": 111,
-  "lastPublished": "ai-wearable-predict-construction-injury",
-  "lastPublishedDate": "2026-03-24",
-  "last_completed": {
-    "slug": "ai-wildfire-risk-new-construction",
-    "headline": "Your Builder Checked the Soil Report. Nobody Checked the Fire Risk. AI Did.",
-    "journalist": "Catherine Chen",
-    "published": "2026-03-24",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "average": 8.83
     }
   }
 }
