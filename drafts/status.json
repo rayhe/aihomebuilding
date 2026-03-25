@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "ai-scheduling-residential-delay-cost",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank DeLuca",
-    "started": "2026-03-25T01:04:00Z"
+    "started": "2026-03-25T01:04:00Z",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "average": 8.75
+    }
   },
   "articleCount": 112,
   "lastPublished": "ai-autonomous-grading-residential-break-even",
