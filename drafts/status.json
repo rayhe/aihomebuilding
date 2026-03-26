@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "adu-permit-ai-plan-review",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
     "started": "2026-03-26T09:02:00Z",
-    "headline": "Every Week Your ADU Permit Sits in Queue Costs You $1,100. California Just Made the Queue Illegal."
+    "headline": "Every Week Your ADU Permit Sits in Queue Costs You $1,100. California Just Made the Queue Illegal.",
+    "critique_round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "average": 8.83
+    }
   },
   "articleCount": 117,
   "lastPublished": "data-centers-stealing-electricians",
