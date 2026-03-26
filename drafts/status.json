@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "data-centers-stealing-electricians",
-    "headline": "Data Centers Are Paying Your Electrician $20 an Hour More Than You Are. He Left.",
-    "phase": "CRITIQUE",
+    "headline": "Your Electrician Quit on Friday. By Monday He Was Wiring a Data Center for 30% More.",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "started": "2026-03-26T05:00:00Z",
-    "round": 0
+    "round": 1,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "average": 8.75
+    }
   },
   "articleCount": 116,
   "lastPublished": "your-floor-plan-faces-wrong-way",
