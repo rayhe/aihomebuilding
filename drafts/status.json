@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 117,
+  "lastPublished": "data-centers-stealing-electricians",
+  "lastPublishedDate": "2026-03-26",
+  "last_completed": {
     "slug": "data-centers-stealing-electricians",
     "headline": "Your Electrician Quit on Friday. By Monday He Was Wiring a Data Center for 30% More.",
-    "phase": "QA",
     "journalist": "Marcus Washington",
-    "started": "2026-03-26T05:00:00Z",
-    "round": 1,
-    "critique_scores": {
+    "published": "2026-03-26",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 9.0,
       "voice": 8.5,
       "ethics": 9.0,
@@ -14,25 +17,6 @@
       "legal": 8.5,
       "rigor": 8.5,
       "average": 8.75
-    }
-  },
-  "articleCount": 117,
-  "lastPublished": "data-centers-stealing-electricians",
-  "lastPublishedDate": "2026-03-26",
-  "last_completed": {
-    "slug": "your-floor-plan-faces-wrong-way",
-    "headline": "Your Builder Used the Same Floor Plan on Every Lot. Half of Them Face the Wrong Way.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-03-26",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "average": 8.58
     }
   }
 }
