@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 118,
+  "lastPublished": "adu-permit-ai-plan-review",
+  "lastPublishedDate": "2026-03-26",
+  "last_completed": {
     "slug": "adu-permit-ai-plan-review",
-    "phase": "QA",
-    "journalist": "Catherine Chen",
-    "started": "2026-03-26T09:02:00Z",
     "headline": "Every Week Your ADU Permit Sits in Queue Costs You $1,100. California Just Made the Queue Illegal.",
-    "critique_round": 1,
-    "scores": {
+    "journalist": "Catherine Chen",
+    "published": "2026-03-26",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
@@ -14,25 +17,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "average": 8.83
-    }
-  },
-  "articleCount": 118,
-  "lastPublished": "adu-permit-ai-plan-review",
-  "lastPublishedDate": "2026-03-26",
-  "last_completed": {
-    "slug": "data-centers-stealing-electricians",
-    "headline": "Your Electrician Quit on Friday. By Monday He Was Wiring a Data Center for 30% More.",
-    "journalist": "Marcus Washington",
-    "published": "2026-03-26",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "average": 8.75
     }
   }
 }
