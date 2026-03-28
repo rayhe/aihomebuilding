@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 122,
+  "lastPublished": "ai-aerial-insurance-scoring-new-construction",
+  "lastPublishedDate": "2026-03-28",
+  "last_completed": {
     "slug": "ai-aerial-insurance-scoring-new-construction",
-    "phase": "QA",
-    "journalist": "Catherine Chen",
     "headline": "Your Insurer Just Scored Your Roof From a Satellite Photo. You Weren't Invited to the Exam.",
-    "started": "2026-03-28T07:07:00Z",
-    "round": 2,
-    "critique_scores": {
+    "journalist": "Catherine Chen",
+    "published": "2026-03-28",
+    "total_rounds": 2,
+    "final_scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
@@ -14,31 +17,6 @@
       "legal": 8.5,
       "rigor": 8.5,
       "average": 8.92
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 10.4,
-      "banned_phrases": 0
-    },
-    "published_at": "2026-03-28T23:00:00Z"
-  },
-  "articleCount": 122,
-  "lastPublished": "ai-aerial-insurance-scoring-new-construction",
-  "lastPublishedDate": "2026-03-28",
-  "last_completed": {
-    "slug": "ai-adoption-gap-residential-builders",
-    "headline": "The Software Costs $99 a Month. The Waste It Prevents Costs $45,000 Per Home. Guess Which One Builders Skip.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-03-28",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "average": 8.83
     }
   }
 }
