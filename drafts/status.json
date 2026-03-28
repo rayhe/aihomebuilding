@@ -1,11 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 121,
+  "lastPublished": "ai-adoption-gap-residential-builders",
+  "lastPublishedDate": "2026-03-28",
+  "last_completed": {
     "slug": "ai-adoption-gap-residential-builders",
-    "phase": "QA",
+    "headline": "The Software Costs $99 a Month. The Waste It Prevents Costs $45,000 Per Home. Guess Which One Builders Skip.",
     "journalist": "Frank DeLuca",
-    "started": "2026-03-28T05:00:00Z",
-    "round": 1,
-    "scores": {
+    "published": "2026-03-28",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
@@ -13,25 +17,6 @@
       "legal": 9.0,
       "rigor": 8.5,
       "average": 8.83
-    }
-  },
-  "articleCount": 121,
-  "lastPublished": "ai-adoption-gap-residential-builders",
-  "lastPublishedDate": "2026-03-28",
-  "last_completed": {
-    "slug": "net-zero-performance-gap",
-    "headline": "Your 'Net-Zero' Home Uses Twice the Energy the Model Promised. Here's What No One Measured.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-03-28",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 8.5,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "average": 8.67
     }
   }
 }
