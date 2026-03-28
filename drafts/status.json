@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-adoption-gap-residential-builders",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-03-28T05:00:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "average": 8.83
+    },
+    "ship_blocked": "1/day gate - Publish #120 already shipped 2026-03-28 01:02 UTC"
+  },
   "articleCount": 120,
   "lastPublished": "net-zero-performance-gap",
   "lastPublishedDate": "2026-03-28",
