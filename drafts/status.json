@@ -1,12 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "articleCount": 120,
+  "lastPublished": "net-zero-performance-gap",
+  "lastPublishedDate": "2026-03-28",
+  "last_completed": {
     "slug": "net-zero-performance-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Priya Greenwood",
-    "started": "2026-03-27T01:07:00Z",
     "headline": "Your 'Net-Zero' Home Uses Twice the Energy the Model Promised. Here's What No One Measured.",
-    "critique_scores": {
+    "journalist": "Priya Greenwood",
+    "published": "2026-03-28",
+    "total_rounds": 1,
+    "final_scores": {
       "general": 8.5,
       "voice": 9.0,
       "ethics": 8.5,
@@ -14,25 +17,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "average": 8.67
-    }
-  },
-  "articleCount": 120,
-  "lastPublished": "net-zero-performance-gap",
-  "lastPublishedDate": "2026-03-28",
-  "last_completed": {
-    "slug": "layout-robots-residential-break-even",
-    "headline": "Layout Robots Print Blueprints on Your Slab at 1/16-Inch Accuracy. Residential Builders Can't Justify the Price — Yet.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-03-27",
-    "total_rounds": 1,
-    "final_scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "average": 8.75
     }
   }
 }
