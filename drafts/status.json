@@ -1,33 +1,31 @@
 {
   "current": {
-    "slug": "ai-underground-radar-utility-strike-prevention",
+    "slug": "ai-contract-review-homeowner-construction",
     "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-03-29T05:00:00Z",
-    "article_number": 124,
-    "headline": "Your Excavator Is About to Hit a Gas Line. The Bucket Knows Before You Do.",
-    "ship_blocked_reason": "1/day gate: Publish #123 already shipped 2026-03-29. Ready for 2026-03-30.",
-    "critique": {
-      "round": 1,
-      "scores": {
-        "general_editor": 8.5,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 8.5,
-        "research_rigor": 8.5
-      },
-      "average": 8.67,
-      "em_dashes": 0,
-      "the_starters_pct": 10.0,
-      "banned_phrases": 0,
-      "hard_gates": "PASS"
-    }
+    "round": 1,
+    "journalist": "Catherine Chen",
+    "headline": "You Signed a $450,000 Contract Without Reading It. An AI Would Have Flagged 9 Problems in 4 Minutes.",
+    "started": "2026-03-29T07:00:00Z",
+    "badge": "Policy & Regulation",
+    "critique_avg": 8.75,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 5.3,
+      "banned_phrases": 0
+    },
+    "ship_blocked": "1/day gate — #123 already published 2026-03-29. This is #125, waiting for 2026-03-30.",
+    "hero_image": true,
+    "hero_image_verified_jpeg": true,
+    "cache_buster": "d74d892c"
   },
-  "last_completed": {
-    "slug": "ai-construction-labor-platforms-gig-economy",
-    "number": 123,
-    "date": "2026-03-29",
-    "journalist": "Marcus Washington"
-  }
+  "last_completed": null,
+  "note": "#124 ai-underground-radar-utility-strike-prevention also in drafts/ awaiting SHIP (no hero image yet). Queue: #124 then #125."
 }
