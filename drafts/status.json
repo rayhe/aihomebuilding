@@ -2,43 +2,30 @@
   "current": {
     "slug": "ai-underground-radar-utility-strike-prevention",
     "phase": "SHIP",
-    "round": 1,
     "journalist": "Jake Kowalski",
-    "headline": "Your Excavator Is About to Hit a Gas Line. The Bucket Knows Before You Do.",
-    "started": "2026-03-29T05:00:00Z",
-    "badge": "Construction Technology",
+    "article_number": 124,
+    "started": "2026-03-29T05:08:01Z",
     "critique_avg": 8.67,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 7.9,
-      "banned_phrases": 0
-    },
-    "ship_blocked": "1/day gate — #123 already published 2026-03-29. This is #124, ship on 2026-03-30.",
-    "hero_image": true,
-    "hero_image_verified_jpeg": true,
-    "cache_buster": "e77a7c93"
+    "hero_image_ready": true,
+    "cache_buster": true,
+    "notes": "Ready to ship. 1/day gate blocked on 2026-03-29 (published #123). Next eligible: 2026-03-30."
   },
   "queue": [
     {
       "slug": "ai-contract-review-homeowner-construction",
       "phase": "SHIP",
       "journalist": "Catherine Chen",
-      "headline": "You Signed a $450,000 Contract Without Reading It. An AI Would Have Flagged 9 Problems in 4 Minutes.",
-      "badge": "Policy & Regulation",
+      "article_number": 125,
       "critique_avg": 8.75,
-      "hero_image": true,
-      "hero_image_verified_jpeg": true,
-      "cache_buster": "d74d892c",
-      "note": "#125 — ship after #124"
+      "hero_image_ready": true,
+      "cache_buster": true,
+      "notes": "Ships after #124."
     }
   ],
-  "last_completed": null
+  "last_completed": {
+    "slug": "ai-construction-labor-platforms-gig-economy",
+    "article_number": 123,
+    "journalist": "Marcus Washington",
+    "published": "2026-03-29T03:09:51Z"
+  }
 }
