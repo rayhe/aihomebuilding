@@ -1,31 +1,20 @@
 {
   "current": {
-    "slug": "ai-underground-radar-utility-strike-prevention",
+    "slug": "ai-contract-review-homeowner-construction",
     "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "article_number": 124,
-    "started": "2026-03-29T05:08:01Z",
-    "critique_avg": 8.67,
+    "journalist": "Catherine Chen",
+    "article_number": 125,
+    "started": "2026-03-29T23:01:00Z",
+    "critique_avg": 8.75,
     "hero_image_ready": true,
     "cache_buster": true,
-    "notes": "Ready to ship. 1/day gate blocked on 2026-03-29 (published #123). Next eligible: 2026-03-30."
+    "notes": "Promoted from queue after #124 shipped. 1/day gate active — next eligible after 2026-03-30."
   },
-  "queue": [
-    {
-      "slug": "ai-contract-review-homeowner-construction",
-      "phase": "SHIP",
-      "journalist": "Catherine Chen",
-      "article_number": 125,
-      "critique_avg": 8.75,
-      "hero_image_ready": true,
-      "cache_buster": true,
-      "notes": "Ships after #124."
-    }
-  ],
+  "queue": [],
   "last_completed": {
-    "slug": "ai-construction-labor-platforms-gig-economy",
-    "article_number": 123,
-    "journalist": "Marcus Washington",
-    "published": "2026-03-29T03:09:51Z"
+    "slug": "ai-underground-radar-utility-strike-prevention",
+    "article_number": 124,
+    "journalist": "Jake Kowalski",
+    "published": "2026-03-29T23:01:00Z"
   }
 }
