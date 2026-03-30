@@ -1,10 +1,32 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-pre-inspection-hidden-cost-failures",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-03-30T17:01:00Z",
+    "article_number": 129,
+    "critique": {
+      "round": 1,
+      "avg_score": 8.83,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 1,
+        "the_starters_pct": 7.6,
+        "banned_phrases": 0
+      }
+    },
+    "ship_blocked": "1/day limit: 3 articles published 2026-03-30 (#125, #126, #128)"
+  },
   "last_completed": {
     "slug": "painting-robots-residential-break-even",
-    "headline": "A $25,000 Robot Painted 6,200 Square Feet of Wall in Two Days. It Still Can't Cut In Around a Window.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-03-30",
-    "number": 128
+    "number": 128,
+    "date": "2026-03-30"
   }
 }
