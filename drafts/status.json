@@ -7,14 +7,22 @@
     "started": "2026-03-30T01:04:00Z",
     "critique_avg": 8.75,
     "hero_image_ready": true,
+    "hero_image_verified_jpeg": true,
     "cache_buster": true,
-    "notes": "All 6 critics 8.5+. 0 em dashes. 3/75 The-starters (4%). 0 banned phrases. Ready to ship but 1/day gate active (published #125 today 2026-03-30). Next eligible: 2026-03-31."
+    "files_staged": {
+      "article_in_articles_dir": true,
+      "hero_in_images_dir": true,
+      "added_to_index": false,
+      "added_to_sitemap": false,
+      "added_to_feed": false
+    },
+    "notes": "All 6 critics 8.5+. 0 em dashes. 3/75 The-starters (4%). 0 banned phrases. 1/day gate active: #125 published 2026-03-30T01:02:26Z. Next eligible: 2026-03-31. Use --since with ISO timestamp (e.g. 2026-03-31T00:00:00Z) for reliable gate check."
   },
   "queue": [],
   "last_completed": {
     "slug": "ai-contract-review-homeowner-construction",
     "article_number": 125,
     "journalist": "Catherine Chen",
-    "published": "2026-03-30T01:00:00Z"
+    "published": "2026-03-30T01:02:26Z"
   }
 }
