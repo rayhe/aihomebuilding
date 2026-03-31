@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-pre-inspection-hidden-cost-failures",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Frank DeLuca",
     "started": "2026-03-30T17:01:00Z",
     "article_number": 129,
@@ -17,12 +17,12 @@
         "research_rigor": 9.0
       },
       "hard_gates": {
-        "em_dashes": 1,
-        "the_starters_pct": 7.6,
+        "em_dashes": 0,
+        "the_starters_pct": 11.9,
         "banned_phrases": 0
       }
     },
-    "ship_blocked": "1/day limit: 3 articles published 2026-03-30 (#125, #126, #128). Checked 23:00Z, still blocked. Next eligible: 2026-03-31."
+    "shipped": "2026-03-31T01:00:00Z"
   },
   "last_completed": {
     "slug": "painting-robots-residential-break-even",
