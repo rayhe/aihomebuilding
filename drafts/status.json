@@ -1,29 +1,19 @@
 {
   "current": {
-    "slug": "ai-construction-worker-surveillance-retention",
+    "slug": "ai-duct-design-manual-d-gap",
     "phase": "SHIP",
-    "journalist": "Marcus Washington",
-    "started": "2026-03-31T07:05:00Z",
-    "article_number": 131,
+    "round": 1,
+    "journalist": "Jake Kowalski",
+    "started": "2026-03-31T13:00:00Z",
+    "headline": "Your Ducts Are Bleeding $320 a Year. Your Contractor Never Did the Math.",
+    "critique_avg": 8.67,
     "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "average": 8.83
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 0.9
-    },
-    "ship_blocked": "1/day gate: 2 already published 2026-03-31 (#129, #130)"
-  },
-  "last_completed": {
-    "slug": "ai-floor-plan-generators-code-compliance-gap",
-    "number": 130,
-    "date": "2026-03-31"
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0
+    }
   }
 }
