@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>You Built a $550,000 Home. The Assessor Thinks It&rsquo;s Worth $630,000. An Algorithm Disagrees. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-property-tax-new-construction-overassessment.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "You Built a $550,000 Home. The Assessor Thinks It's Worth $630,000. An Algorithm Disagrees.",
+		"description": "New construction homes are systematically overassessed for property taxes because assessors use cost-to-build instead of market value. AI tools now file appeals in minutes. The gap costs you $1,200 a year.",
+		"image": "https://aihomebuilding.com/images/ai-property-tax-new-construction-overassessment.jpg?v=467e608f",
+		"datePublished": "2026-03-31",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-property-tax-new-construction-overassessment.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="You Built a $550,000 Home. The Assessor Thinks It's Worth $630,000. An Algorithm Disagrees.">
+	<meta property="og:description" content="New construction homes are systematically overassessed because assessors use cost-to-build, not market value. AI tools now file appeals in minutes.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-property-tax-new-construction-overassessment.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-property-tax-new-construction-overassessment.jpg?v=467e608f">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="You Built a $550,000 Home. The Assessor Thinks It's Worth $630,000. An Algorithm Disagrees.">
+	<meta name="twitter:description" content="New construction is overassessed. The county uses cost-to-build. The market says otherwise. AI files the appeal.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-property-tax-new-construction-overassessment.jpg?v=467e608f">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555;
+			--text-muted: #888;
+			--border: #E0DDD8;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+		}
+		.article-hero {
+			position: relative;
+			width: 100%;
+			max-height: 480px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			display: block;
+			object-fit: cover;
+			max-height: 480px;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 2rem 2rem 1.5rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.75));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.stat-callout .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.back-link {
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-body { font-size: 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-property-tax-new-construction-overassessment.jpg?v=467e608f" alt="Suburban new construction home with a property tax assessment notice on the front door, warm afternoon light across fresh landscaping">
+		<div class="overlay">
+			<div class="badge">Policy &amp; Regulation</div>
+			<h1>You Built a $550,000 Home. The Assessor Thinks It&rsquo;s Worth $630,000. An Algorithm Disagrees.</h1>
+			<div class="meta">By Catherine Chen &middot; March 31, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<a href="../" class="back-link">&larr; All articles</a>
+		<article class="story-body">
+
+			<p>A scenario, built from real numbers: Denton County, Texas, 2025. A homeowner finishes a 2,400-square-foot build at $200 per square foot. Total construction cost including land: roughly $630,000. First property tax assessment arrives. Assessed value: $630,000. Market comps for similar finished homes in the subdivision: $550,000.</p>
+
+			<p>That $80,000 gap, at Denton County's effective tax rate of roughly 1.87% (<a href="https://smartasset.com/taxes/denton-county-texas-property-tax" target="_blank">SmartAsset</a>), adds $1,496 per year to the tax bill. Over a decade, that's nearly $15,000 in taxes on value that doesn't exist in the resale market.</p>
+
+			<p>An AI-powered appeal tool could resolve this in minutes. Four minutes of data entry. An algorithm pulls comparable sales, generates adjustment calculations, produces a ready-to-file evidence packet. Assessed value drops to $562,000. Annual savings: $1,272.</p>
+
+			<div class="stat-callout">
+				<div class="number">30&ndash;60%</div>
+				<div class="label">of U.S. properties are overassessed, per the National Taxpayers Union Foundation</div>
+			</div>
+
+			<h2>Why New Construction Gets Hit Hardest</h2>
+
+			<p>Assessors use three valuation methods: comparable sales, income capitalization, and cost approach. For new construction, the cost approach dominates. The <a href="https://www.iaao.org/media/standards/StandardOnRatioStudies.pdf" target="_blank">International Association of Assessing Officers (IAAO)</a> says an acceptable assessment-to-sale ratio falls between 0.90 and 1.10 with a coefficient of dispersion under 15%. In practice, new homes assessed by cost approach routinely land above that window because assessors treat construction expenditure as market value. They are not the same thing.</p>
+
+			<p>Except it doesn't.</p>
+
+			<p>Construction cost and market value diverge for reasons that are obvious to anyone who has sold a house and invisible to anyone who hasn't. Builder-grade finishes that cost $40,000 to install might add $15,000 in market value. Custom architectural features that ran $25,000 often add nothing, because the next buyer wants to rip them out. A lot premium of $50,000 for the corner parcel means nothing to buyers who prefer the interior lot's privacy.</p>
+
+			<p>In fast-moving markets, the divergence cuts the other direction. But in the 2024-2026 environment of elevated mortgage rates and cooling demand, construction costs have remained high while resale values have softened. National average construction costs hit $150 to $300 per square foot in 2026, per <a href="https://www.amerisave.com/learn/how-much-does-it-cost-to-build-a-house-in-a-complete-cost-breakdown" target="_blank">Angi</a>. Yet resale prices in many markets have plateaued or declined. Assessors relying on cost-approach models are pricing homes based on what it took to build them, not what a buyer would actually pay.</p>
+
+			<h2>A $774 Problem That 86% of People Can Fix</h2>
+
+			<p>Enter the AI appeal tools. <a href="https://www.ownwell.com/" target="_blank">Ownwell</a>, which raised <a href="https://www.inman.com/2026/02/25/ownwell-raises-50m-to-grow-its-property-tax-appeal-fintech/" target="_blank">$50 million in Series B funding</a> in February 2026, is the most aggressive player. The company reports an 86% success rate on property tax appeals and average annual savings of $774 per customer. It charges 25% of savings, no upfront fee. Traditional firms typically charge 40%.</p>
+
+			<p>Ownwell's new National Appeals Packet uses AI to generate personalized, ready-to-file evidence packages. It pulls comparable sales data, applies mathematical adjustments for square footage, age, and lot characteristics, and produces the paperwork your county requires. In their primary markets of Texas, Illinois, Florida, Georgia, California, Washington, and New York, they handle the full appeal process end to end.</p>
+
+			<p>Run the math on a new construction home. Assume a $600,000 assessed value, a $520,000 market-supported value, and a 1.5% effective tax rate. Annual overpayment: $1,200. With Ownwell's 86% success rate, expected annual savings are $1,032. Net after their 25% fee: $774. Compare that to a traditional firm at 40%: net $619.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Scenario</th>
+						<th>Assessed</th>
+						<th>Market</th>
+						<th>Excess Tax/Year</th>
+						<th>Net Savings (AI)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Modest gap (8%)</td>
+						<td>$540K</td>
+						<td>$500K</td>
+						<td>$600</td>
+						<td>$387</td>
+					</tr>
+					<tr>
+						<td>Typical gap (13%)</td>
+						<td>$600K</td>
+						<td>$530K</td>
+						<td>$1,050</td>
+						<td>$677</td>
+					</tr>
+					<tr>
+						<td>Large gap (18%)</td>
+						<td>$650K</td>
+						<td>$550K</td>
+						<td>$1,500</td>
+						<td>$968</td>
+					</tr>
+				</tbody>
+			</table>
+			<p style="font-size:0.85rem; color:var(--text-secondary);">Assumes 1.5% effective tax rate, 86% success rate, 25% AI service fee. Traditional firm at 40% fee would net 23% less.</p>
+
+			<h2>Counties Are Buying AI Too</h2>
+
+			<p>If you think the advantage belongs to homeowners, wait.</p>
+
+			<p>Riverside County, California signed a <a href="https://c3.ai/products/c3-ai-property-appraisal/" target="_blank">five-year contract with C3 AI</a> in 2023 for residential and commercial property appraisal. Before the deal, the Assessor-County Recorder's office juggled 30 separate appraisal models and piles of manual analysis. After deployment: four unified AI models, 40% faster processing, running on Google Cloud.</p>
+
+			<p>C3 AI's pitch is accuracy and transparency. AI-generated appraisals produce evidence packages and sales comparables explaining how the value was calculated. In theory, better models mean fewer errors in both directions. Overassessed homes get corrected. Underassessed ones get caught.</p>
+
+			<p>Cook County, which includes most of Chicago, released <a href="https://github.com/MisterClean/cook-county-tax-estimator" target="_blank">PTAXSIM</a> in 2022, a publicly available property tax simulator. Researchers can model the effects of assessments, levies, and tax increment financing on actual bills. It's not an AI assessment tool, but it's the transparency infrastructure that makes AI-driven appeals possible.</p>
+
+			<p>This creates what looks like an arms race but functions more like a ratchet. Counties get more accurate. Homeowners get better at finding the remaining errors. In equilibrium, assessments converge on market value, which is what the law requires in the first place. Nobody is supposed to be overpaying or underpaying.</p>
+
+			<h2>Against My Own Thesis</h2>
+
+			<p>AI assessment tools could make the overassessment problem worse for new construction, not better. Machine learning models trained on construction permit data, aerial imagery, and material cost indices might actually increase assessed values by detecting features that human assessors miss. Solar panel arrays, smart home systems, premium landscaping, upgraded insulation. Each adds construction cost. Whether they add market value is a separate question, and one that most AI valuation models don't distinguish.</p>
+
+			<p>County AI doesn't have a bias toward fairness. It has a bias toward consistency with training data. If the training data reflects historical overassessment of new homes, the model learns to reproduce that pattern more efficiently. Faster overassessment is still overassessment.</p>
+
+			<p>Ownwell's 86% success rate, meanwhile, likely reflects self-selection. People who suspect overassessment are right more often than a random sample of homeowners would be. The marginal homeowner who signs up after seeing an ad may have a weaker case.</p>
+
+			<p>And there's an equity problem the AI appeal tools haven't solved. The homeowners most likely to find and use a digital appeal service are younger, wealthier, and more tech-literate. Low-income homeowners, the ones the Philadelphia Fed found paying 50% higher effective rates, are the least likely to download an app. AI assessment tools on the county side affect everyone. AI appeal tools disproportionately benefit people who were already better positioned to fight back.</p>
+
+			<h2>What the Research Shows</h2>
+
+			<p>A <a href="https://www.philadelphiafed.org/consumer-finance/mortgage-markets/why-are-residential-property-tax-rates-regressive" target="_blank">2022 Philadelphia Fed working paper</a> by Natee Amornsiripanitch found that owners of inexpensive homes pay nearly 50% higher effective property tax rates than owners of expensive homes in the same jurisdiction. Sixty percent of that regressivity comes from flawed valuation methods. Another 40% from infrequent reappraisals.</p>
+
+			<p>Research on Atlanta's property taxes by the University of Chicago's <a href="https://harris.uchicago.edu/research-impact/centers-institutes/center-municipal-finance" target="_blank">Center for Municipal Finance</a> found 69% of the lowest-value properties were over-assessed, compared to 32% of the highest-value ones.</p>
+
+			<p>New construction intersects both problems. It's fresh enough that there's no reappraisal lag, but the cost-approach methodology is flawed in the exact way the Philadelphia Fed describes: ignoring variation in how the market actually prices specific house and neighborhood characteristics.</p>
+
+			<h2>What I Didn't Prove</h2>
+
+			<p>No published study isolates the overassessment rate specifically for new residential construction versus existing homes. My calculation of an $80,000 gap on a $630,000 assessment is illustrative, built from national average construction costs and typical cost-approach versus market-value divergence patterns. Your gap could be zero. It could be larger.</p>
+
+			<p>Ownwell's savings figures are self-reported and represent their customer base, not a random sample of homeowners. Their 86% success rate drops if you include the people who looked at the tool and decided not to file, presumably because the estimated savings were too small.</p>
+
+			<p>Riverside County's C3 AI deployment improved speed and consolidated models. Whether it improved accuracy for homeowners or for the county's revenue is not independently verified. A 40% faster process that produces the same systematic errors isn't progress. It's faster error production.</p>
+
+			<p>Assessment methodology varies by state, by county, and sometimes by assessor. What holds in Texas, where property tax protest culture is robust and well-documented, may not apply to states with assessment caps, homestead exemptions, or infrequent revaluation cycles. California's Proposition 13, for example, caps assessment increases at 2% per year on existing homes, which makes new construction the one category where full market-rate assessment actually applies.</p>
+
+			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
+				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>
+				<ul style="font-size:0.9rem; line-height:1.7; color:var(--text-secondary);">
+					<li><a href="https://www.philadelphiafed.org/consumer-finance/mortgage-markets/why-are-residential-property-tax-rates-regressive" target="_blank">Amornsiripanitch, N. (2022). "Why Are Residential Property Tax Rates Regressive?" Philadelphia Fed WP 22-02</a> &ndash; owners of inexpensive homes pay ~50% higher effective tax rates</li>
+					<li><a href="https://www.inman.com/2026/02/25/ownwell-raises-50m-to-grow-its-property-tax-appeal-fintech/" target="_blank">Inman (Feb 2026). "Ownwell Raises $50M"</a> &ndash; 86% success rate, $774 average savings, National Appeals Packet</li>
+					<li><a href="https://c3.ai/products/c3-ai-property-appraisal/" target="_blank">C3 AI Property Appraisal</a> &ndash; Riverside County five-year contract, 30 models reduced to 4, 40% faster</li>
+					<li><a href="https://github.com/MisterClean/cook-county-tax-estimator" target="_blank">Cook County PTAXSIM</a> &ndash; open-source property tax simulator for assessment, levy, and TIF modeling</li>
+					<li><a href="https://harris.uchicago.edu/research-impact/centers-institutes/center-municipal-finance" target="_blank">University of Chicago Center for Municipal Finance</a> &ndash; Atlanta assessment regressivity: 69% of lowest-value properties over-assessed</li>
+					<li><a href="https://www.amerisave.com/learn/how-much-does-it-cost-to-build-a-house-in-a-complete-cost-breakdown" target="_blank">Angi / AmeriSave (2026). "How Much Does It Cost to Build a House?"</a> &ndash; national average $150-$300/sq ft</li>
+					<li><a href="https://www.texastaxprotest.com/blog/property-tax-new-construction/" target="_blank">Texas Tax Protest, "Property Tax for New Construction"</a> &ndash; January 1 assessment date, partial vs. full assessment, overvaluation causes</li>
+				</ul>
+			</section>
+		</article>
+	</div>
+
+	<a href="../" class="back-link" style="display:block; text-align:center; padding:0 0 3rem;">&larr; Back to all articles</a>
+	<script src="../js/article-nav.js"></script>
+</body>
+</html>
