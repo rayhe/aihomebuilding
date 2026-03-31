@@ -1,10 +1,25 @@
 {
   "current": {
     "slug": "ai-construction-worker-surveillance-retention",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "started": "2026-03-31T07:05:00Z",
-    "article_number": 131
+    "article_number": 131,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "average": 8.83
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.9
+    },
+    "ship_blocked": "1/day gate: 2 already published 2026-03-31 (#129, #130)"
   },
   "last_completed": {
     "slug": "ai-floor-plan-generators-code-compliance-gap",
