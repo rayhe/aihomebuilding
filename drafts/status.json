@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "wearable-heat-sensors-construction-worker-resistance",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "number": 133,
-    "started": "2026-04-01T05:01:00Z"
+    "started": "2026-04-01T05:01:00Z",
+    "critique_avg": 8.67,
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5
+    },
+    "ship_blocked_until": "2026-04-02"
   },
   "last_completed": {
     "slug": "ai-property-tax-new-construction-overassessment",
