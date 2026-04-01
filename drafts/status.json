@@ -1,43 +1,18 @@
 {
   "current": {
-    "slug": "wearable-heat-sensors-construction-worker-resistance",
+    "slug": "ai-silica-dust-monitoring-residential",
     "phase": "SHIP",
     "journalist": "Marcus Washington",
-    "number": 133,
-    "started": "2026-04-01T05:01:00Z",
-    "critique_avg": 8.67,
+    "started": "2026-04-01T15:00:00Z",
+    "round": 2,
+    "critique_avg": 8.58,
     "critique_scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5
-    },
-    "ship_blocked_until": "2026-04-02",
-    "last_checked": "2026-04-01T13:00:00Z",
-    "ship_check_note": "Blocked: #132 published 2026-04-01T03:02Z, waiting for 2026-04-02. Soil article pre-researched as #134."
-  },
-  "last_completed": {
-    "slug": "ai-property-tax-new-construction-overassessment",
-    "number": 132,
-    "journalist": "Catherine Chen",
-    "date": "2026-04-01"
-  },
-  "queued": {
-    "slug": "ai-soil-risk-screening-skip-geotech",
-    "journalist": "Jake Kowalski",
-    "number": 134,
-    "phase": "SHIP_READY",
-    "critique_avg": 8.87,
-    "critique_scores": {
-      "general": 8.7,
-      "voice": 9.0,
+      "general_editor": 8.5,
+      "voice_coach": 8.5,
       "ethics": 9.0,
       "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0
-    },
-    "note": "Pre-researched at 2026-04-01T09:00Z, ready to ship after #133"
+      "legal": 8.5,
+      "rigor": 8.5
+    }
   }
 }
