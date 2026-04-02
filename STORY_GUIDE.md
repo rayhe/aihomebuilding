@@ -36,6 +36,12 @@ We're a trade publication for people who build things. Not a tech blog. Not a Mc
 
 ---
 
+## Actionable Insights (Required — HARD GATE)
+Every article MUST include actionable takeaways. This is a publishing gate. The reader is a builder, architect, or homeowner with a project on the line. They need to know: should I use this tool? What does it cost? What are the gotchas? What's the ROI timeline? Who's actually using it successfully?
+
+Not acceptable: "AI is transforming the construction industry."
+Acceptable: "If you're a GC running $2-5M residential projects: Buildots costs $3-5K/month and catches ~60% of deviations that site walks miss. Break-even is one avoided rework event per quarter. If your rework rate is under 2%, skip it."
+
 ## Journalist Voices
 
 Each journalist sounds different. If you can swap bylines between two articles and nobody notices, the writing has failed. Specific differentiation:
