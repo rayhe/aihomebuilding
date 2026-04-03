@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "interior-wall-stc-acoustic-gap",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
     "headline": "You Spent $500,000 on Your Home. Your Bedroom Wall Has the Acoustic Privacy of a Motel Partition.",
-    "started": "2026-04-03T01:06:00Z",
+    "journalist": "Elena Vasquez",
+    "published": "2026-04-03T03:07:00Z",
+    "article_number": 139,
     "scores": {
       "general": 8.5,
       "voice": 9.0,
@@ -13,22 +14,6 @@
       "legal": 9.0,
       "rigor": 8.5,
       "average": 8.75
-    }
-  },
-  "last_completed": {
-    "slug": "concrete-maturity-sensors-carrying-cost",
-    "headline": "Your Foundation Hit Strength at Day 3. Your Builder Waited Until Day 7. That Cost You $2,000.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-04-03T01:00:00Z",
-    "article_number": 138,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "average": 8.67
     }
   }
 }
