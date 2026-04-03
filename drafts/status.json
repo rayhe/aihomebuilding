@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "construction-language-barrier-ai-translation",
-    "phase": "QA",
+    "headline": "A Third of Your Builder's Crew Doesn't Speak English. Half Won't Report an Injury. A $200 Fix Exists.",
     "journalist": "Marcus Washington",
-    "started": "2026-04-03T15:00:00Z",
-    "critique_round": 1,
+    "published": "2026-04-03T17:00:00Z",
+    "article_number": 142,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -13,22 +14,6 @@
       "legal": 9.0,
       "rigor": 9.0,
       "average": 8.92
-    }
-  },
-  "last_completed": {
-    "slug": "heat-pump-water-heater-builder-economics",
-    "headline": "Heat Pump Water Heaters Pay for Themselves in Year One. 96% of New Homes Don't Have One.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-04-03T13:05:00Z",
-    "article_number": 141,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "average": 8.67
     }
   }
 }
