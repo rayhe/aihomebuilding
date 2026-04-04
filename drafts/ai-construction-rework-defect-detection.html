@@ -214,17 +214,13 @@
 
 			<p><strong><a href="https://www.buildots.com" target="_blank">Buildots</a></strong> ($45M raised at a $300M valuation, May 2025) goes further. Their hardhat-mounted cameras feed into an AI engine that automatically compares actual construction against the BIM model, identifying missing fire stops, incorrect pipe routing, insulation gaps, and mechanical conflicts. It integrates with Autodesk BIM 360. The system does not just document what was built. It tells you what was built wrong.</p>
 
-			<p><strong><a href="https://www.doxel.ai" target="_blank">Doxel</a></strong> ($40M+ raised, led by Andreessen Horowitz) uses deep learning on HD photos and LIDAR scans. Their autonomous rovers scan interiors after the workday ends, cross-referencing installed quantities against the budget and schedule. The company claims an 88% reduction in cost overruns on a medical center project, though that figure has not been independently verified.</p>
-
-			<p>Procore's Construction IQ takes a different angle entirely, using machine learning to predict risk from project data rather than visual inspection. It scores subcontractor quality based on historical performance and flags high-risk items before they become problems.</p>
+			<p><strong><a href="https://www.doxel.ai" target="_blank">Doxel</a></strong> ($40M+ raised, led by Andreessen Horowitz) uses deep learning on HD photos and LIDAR scans. Autonomous rovers scan interiors after the workday, cross-referencing installed quantities against the budget and schedule. The company claims an 88% reduction in cost overruns on a medical center project. That number has not been independently verified, so treat it as aspirational until someone else confirms it.</p>
 
 			<h2>Water Gets In, Money Goes Out</h2>
 
-			<p>Water intrusion is the single most expensive defect category in new residential construction. Building envelope failures at windows, flashing, and penetration points cause the majority. And they share one brutal characteristic: almost all of them are invisible after drywall goes up.</p>
+			<p>Water intrusion is the single most expensive defect category in new residential construction. Envelope failures at windows, flashing, and penetration points cause the majority, and they share one characteristic: invisible after drywall.</p>
 
-			<p>Pre-drywall inspection is the critical window. Once walls close, you are betting that your weekly site walk caught every flashing detail, every window integration, every pipe penetration seal. On a 3,000-square-foot home with 40+ windows and dozens of penetrations, that is a bet you will occasionally lose.</p>
-
-			<p>In California, homeowner associations have a 10-year window to sue over construction defects. Insurance brokers estimate that 80-85% of condominium projects in the state eventually face defect litigation. The <a href="https://ternercenter.berkeley.edu" target="_blank">Terner Center at UC Berkeley</a> found that construction defect insurance alone adds $8,000-$18,000 per unit for condos compared to equivalent rental buildings. Comprehensive visual documentation captured during construction is the single best legal defense. The cost of that documentation is a fraction of the cost of one deposition.</p>
+			<p>Pre-drywall inspection is the critical window. Once walls close, you are betting that your weekly site walk caught every flashing detail across 40+ windows and dozens of penetrations on a 3,000-square-foot home. In California, HOAs have a 10-year window to sue over construction defects. Insurance brokers estimate 80-85% of condo projects in the state eventually face defect litigation. The <a href="https://ternercenter.berkeley.edu" target="_blank">Terner Center at UC Berkeley</a> found that defect insurance alone adds $8,000-$18,000 per condo unit. A comprehensive visual record captured during construction is the best legal defense you can buy, and it costs a fraction of one deposition.</p>
 
 			<h2>A Calculation Nobody Published</h2>
 
@@ -282,15 +278,11 @@
 
 			<h2>Why Almost Nobody Uses This Stuff</h2>
 
-			<p>Here is the problem with that math. It works on paper. On a job site, things are messier.</p>
+			<p>Most AI QA/QC tools were designed for commercial and multifamily construction, where BIM models are standard and project values justify the overhead. Residential is different. Custom home builders rarely produce full BIM models. A set of 2D architectural drawings and a structural package is the norm. Without a BIM model, Buildots and OpenSpace BIM+ lose their best feature: automated deviation detection.</p>
 
-			<p>Most AI QA/QC tools were designed for commercial and multifamily construction, where BIM models are standard, project values justify the overhead, and a single owner or developer manages the entire build. Residential is different. Custom home builders rarely produce full BIM models. A set of 2D architectural drawings and a structural package is still the norm. Without a BIM model, tools like Buildots and OpenSpace BIM+ lose their most powerful feature: automated deviation detection that compares what was built against what was designed.</p>
+			<p>Photo documentation without BIM comparison is not really "AI." It is good practice with a nice interface. Valuable, sure. But the promise of an AI that catches your framing crew hanging the wrong header before insulation covers it requires a digital model to compare against. Most residential builders do not have one.</p>
 
-			<p>Photo documentation alone, without the BIM comparison, is not really "AI." It is good practice with a nice interface. Valuable? Absolutely. The visual record alone reduces warranty disputes and catches obvious errors. But the transformative promise, an AI that tells you your framing crew hung the wrong header before insulation covers it, requires a digital model to compare against. Most residential builders do not have one.</p>
-
-			<p>Production builders are starting to move. D.R. Horton, Lennar, and Toll Brothers have the scale and the standardized plans to justify AI QA/QC adoption. But a custom builder doing eight homes a year in different configurations? The BIM investment alone might cost more than the QA/QC tooling.</p>
-
-			<p>Cost is also a factor at the low end. OpenSpace at $5,000 per year is reasonable for a builder doing $5M or more annually. For a small remodeler running three projects a year, $1,667 per project in QA/QC software is a harder sell, especially when the project values are $150K-$300K and the rework savings are proportionally smaller.</p>
+			<p>Production builders are moving. D.R. Horton, Lennar, and Toll Brothers have the scale and standardized plans to make AI QA/QC work. A custom builder doing eight homes a year in eight different configurations faces a harder sell. OpenSpace at $5,000 per year is reasonable above $5M in annual revenue. For a small remodeler running three $200K projects, $1,667 per job in QA/QC software is tougher math.</p>
 
 			<h2>What You Should Actually Do</h2>
 
@@ -298,17 +290,15 @@
 
 			<p><strong>If you are building a custom home as an owner:</strong> Ask your builder whether they do pre-drywall photo documentation. If the answer is no, you are trusting that a once-a-week walkthrough caught every mistake in a four-month build. Ask for it. Offer to pay for it. At $500 per home, it is the cheapest insurance you will buy on a half-million-dollar project.</p>
 
-			<p><strong>If you are a production builder doing 50+ homes per year:</strong> You should already be evaluating Buildots or Doxel alongside OpenSpace. At your scale, the per-home cost drops below $100, the BIM models exist because your plans are standardized, and the automated deviation detection catches the systemic errors that hurt worst: a framing subcontractor consistently installing headers one size down, an HVAC crew routing ducts through structural members, a plumber missing fire stops on every third penetration. Those patterns cost millions across a 200-home development. An AI that flags them after week two instead of month eight is worth multiples of its cost.</p>
+			<p><strong>If you are a production builder doing 50+ homes per year:</strong> Evaluate Buildots or Doxel alongside OpenSpace. At your scale, per-home cost drops below $100, BIM models exist because your plans are standardized, and automated deviation detection catches systemic errors: a framing sub consistently installing headers one size down, an HVAC crew routing ducts through structural members, a plumber missing fire stops on every third penetration. Those patterns cost millions across a 200-home development. An AI that flags them in week two instead of month eight is worth multiples of its cost.</p>
 
 			<h2>What This Analysis Cannot Prove</h2>
 
-			<p>No peer-reviewed study has measured the specific impact of AI-powered visual inspection tools on residential construction rework rates. My ROI calculations use estimated reduction percentages (20-30%) based on the general finding from PlanRadar that consistent QA/QC programs reduce rework from 6-10% to under 2%. Whether AI visual inspection delivers that level of improvement, or something less, is unproven in the residential context.</p>
+			<p>Nobody has run a proper study on whether AI visual inspection actually moves the needle on residential rework rates. My ROI numbers use estimated reductions (20-30%) extrapolated from PlanRadar's finding that consistent QA/QC drops rework from 6-10% to under 2%. Whether strapping a 360-degree camera to a hardhat delivers that level of improvement is genuinely unproven in the residential context.</p>
 
-			<p>Company-claimed results require scrutiny. Doxel's 88% reduction in cost overruns comes from a single medical center case study published by the company itself. No independent audit has confirmed the figure. Buildots and OpenSpace publish customer testimonials, not controlled studies. Apply appropriate skepticism.</p>
+			<p>Company claims need scrutiny. Doxel's 88% reduction comes from a single case study the company published about itself. Buildots and OpenSpace have testimonials, not controlled studies. That is standard for construction tech startups, but it means the ROI math above is built on estimates, not measurements.</p>
 
-			<p>Rework cost data is thinner for residential than for commercial construction. Liu et al. (2018) is the strongest residential-specific source at 4.95%, but it analyzed a limited sample. Commercial studies with larger datasets report wider ranges (2-20%), and the residential subset may behave differently due to the fragmented nature of the home building industry, where a four-person crew and a 500-employee firm face completely different error profiles.</p>
-
-			<p>Regional cost variation is significant. My calculations use the national average home price of $495,000. In markets like Austin or Phoenix, where median new home prices are lower, the dollar savings shrink proportionally. In San Francisco or New York, they grow. Labor costs, material costs, and local building code complexity all affect rework rates in ways that a national average cannot capture.</p>
+			<p>Rework data is thinner for houses than for hospitals and office towers. Liu et al. (2018) at 4.95% is the strongest residential number, but from a limited sample. And my calculations use the national average of $495,000. In a market where median new builds run $350K, the dollar savings shrink. In San Francisco, they explode. Your mileage will vary by region, labor costs, and how complicated your local code is.</p>
 
 			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
 				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>

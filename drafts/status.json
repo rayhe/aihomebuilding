@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "ai-construction-rework-defect-detection",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-04-04T03:07:00Z",
-    "headline": "You're Paying $25,000 Per Home in Rework. A $500 Camera System Catches Most of It Before Drywall."
+    "headline": "You're Paying $25,000 Per Home in Rework. A $500 Camera System Catches Most of It Before Drywall.",
+    "scores": {
+      "general": 8.6,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 8.7,
+      "legal": 8.5,
+      "rigor": 8.7,
+      "average": 8.67
+    }
   },
   "last_completed": {
     "slug": "ai-permit-review-liability-gap",
