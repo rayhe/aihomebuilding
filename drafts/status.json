@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-appraisal-new-construction-valuation-gap",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Catherine Chen",
     "headline": "Six Federal Agencies Just Regulated AI Home Appraisals. None of Them Fixed the Problem That Costs New-Construction Buyers the Most.",
-    "started": "2026-04-05T01:07:00Z",
-    "ship_blocked": "1/day gate: #146 already published 2026-04-05 UTC, will ship next run after 2026-04-06T00:00:00Z",
+    "journalist": "Catherine Chen",
+    "published": "2026-04-05T07:01:00Z",
+    "article_number": 147,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -15,22 +14,6 @@
       "legal": 8.6,
       "rigor": 8.6,
       "average": 8.65
-    }
-  },
-  "last_completed": {
-    "slug": "ai-flood-risk-prediction-fema-gap",
-    "headline": "FEMA Says Your Lot Won't Flood. An AI Model Disagrees. That Gap Could Cost You $120,000.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-04-05T01:00:00Z",
-    "article_number": 146,
-    "scores": {
-      "general": 8.6,
-      "voice": 8.7,
-      "ethics": 8.8,
-      "social": 8.6,
-      "legal": 8.8,
-      "rigor": 8.6,
-      "average": 8.68
     }
   }
 }
