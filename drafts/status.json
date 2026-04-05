@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-flood-risk-prediction-fema-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Priya Greenwood",
     "headline": "FEMA Says Your Lot Won't Flood. An AI Model Disagrees. That Gap Could Cost You $120,000.",
-    "started": "2026-04-04T09:07:00Z",
+    "journalist": "Priya Greenwood",
+    "published": "2026-04-05T01:00:00Z",
+    "article_number": 146,
     "scores": {
       "general": 8.6,
       "voice": 8.7,
@@ -14,26 +14,6 @@
       "legal": 8.8,
       "rigor": 8.6,
       "average": 8.68
-    },
-    "hero_image": "images/ai-flood-risk-prediction-fema-gap.jpg",
-    "hero_hash": "5bcf6dd5",
-    "published": "2026-04-05T01:00:00Z",
-    "article_number": 146
-  },
-  "last_completed": {
-    "slug": "ai-construction-rework-defect-detection",
-    "headline": "You're Paying $25,000 Per Home in Rework. A $500 Camera System Catches Most of It Before Drywall.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-04T07:00:00Z",
-    "article_number": 145,
-    "scores": {
-      "general": 8.6,
-      "voice": 8.7,
-      "ethics": 8.8,
-      "social": 8.7,
-      "legal": 8.5,
-      "rigor": 8.7,
-      "average": 8.67
     }
   }
 }
