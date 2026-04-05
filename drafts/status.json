@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-appraisal-new-construction-valuation-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Catherine Chen",
     "headline": "Six Federal Agencies Just Regulated AI Home Appraisals. None of Them Fixed the Problem That Costs New-Construction Buyers the Most.",
-    "started": "2026-04-05T01:07:00Z"
+    "started": "2026-04-05T01:07:00Z",
+    "ship_blocked": "1/day gate: #146 already published 2026-04-05 UTC, will ship after midnight",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 8.7,
+      "social": 8.5,
+      "legal": 8.6,
+      "rigor": 8.6,
+      "average": 8.65
+    }
   },
   "last_completed": {
     "slug": "ai-flood-risk-prediction-fema-gap",
