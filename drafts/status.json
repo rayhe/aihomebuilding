@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "ai-roofing-material-lifecycle-climate-mismatch",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
     "started": "2026-04-05T17:05:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.6,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "average": 8.68
+    },
+    "ship_blocked": "1/day gate — #147 and #148 already published 2026-04-05 UTC"
   },
   "last_completed": {
     "slug": "ai-passive-house-modeling-cost-barrier",
