@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "ai-contractor-financial-scoring-homeowner-risk",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Frank DeLuca",
     "started": "2026-04-06T01:07:00Z",
-    "headline": "Your Builder Is Three Bad Months From Bankruptcy. Nobody Told You How to Check."
+    "headline": "Your Builder Is Three Bad Months From Bankruptcy. Nobody Told You How to Check.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.9,
+      "ethics": 9.0,
+      "social": 8.6,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "average": 8.70
+    }
   },
   "last_completed": {
     "slug": "ai-roofing-material-lifecycle-climate-mismatch",
