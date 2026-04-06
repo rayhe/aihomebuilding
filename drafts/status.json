@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-roofing-material-lifecycle-climate-mismatch",
-    "phase": "QA",
+    "headline": "Your Builder Picked Your Roof Material Based on Price Per Square. AI Says That Will Cost You $33,000.",
     "journalist": "Jake Kowalski",
-    "started": "2026-04-05T17:05:00Z",
-    "round": 1,
+    "published": "2026-04-06T01:00:00Z",
+    "article_number": 149,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -13,24 +14,6 @@
       "legal": 8.5,
       "rigor": 8.5,
       "average": 8.68
-    },
-    "published": "2026-04-06T01:00:00Z",
-    "article_number": 149
-  },
-  "last_completed": {
-    "slug": "ai-passive-house-modeling-cost-barrier",
-    "headline": "The Best Building Standard in America Requires 80 Hours of Spreadsheet Work. That's Why Almost Nobody Uses It.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-04-05T15:02:00Z",
-    "article_number": 148,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.8,
-      "social": 8.5,
-      "legal": 8.6,
-      "rigor": 8.9,
-      "average": 8.72
     }
   }
 }
