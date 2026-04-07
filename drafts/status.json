@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-compaction-monitoring-foundation-pad-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
     "started": "2026-04-07T05:00:00Z",
-    "headline": "Your Builder Compacts 2,000 Square Feet of Pad. The Engineer Tests 6 Spots. That's 0.24% Coverage."
+    "headline": "Your Builder Compacts 2,000 Square Feet of Pad. The Engineer Tests 6 Spots. That's 0.24% Coverage.",
+    "critique_round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 8.6,
+      "legal": 8.5,
+      "rigor": 8.7,
+      "average": 8.65
+    },
+    "ship_blocked": "1/day gate — article #152 already published 2026-04-07T01:02:43Z"
   },
   "last_completed": {
     "slug": "ai-tree-preservation-lot-clearing-value",
