@@ -1,12 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-land-acquisition-site-feasibility",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
     "headline": "You Evaluate 150 Lots a Year. An AI Just Screened 183,000. The Difference Isn't Speed.",
-    "started": "2026-04-07T13:02:00Z",
-    "critique_passed": "2026-04-07T15:08:00Z",
-    "shipped": "2026-04-07T19:00:00Z",
+    "journalist": "Frank DeLuca",
+    "published": "2026-04-07T19:00:00Z",
     "article_number": 154,
     "scores": {
       "general": 8.7,
@@ -15,22 +13,6 @@
       "social": 8.5,
       "legal": 8.7,
       "rigor": 8.6,
-      "average": 8.65
-    }
-  },
-  "last_completed": {
-    "slug": "ai-compaction-monitoring-foundation-pad-gap",
-    "headline": "Your Builder Compacts 2,000 Square Feet of Pad. The Engineer Tests 6 Spots. That's 0.24% Coverage.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-07T09:02:00Z",
-    "article_number": 153,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.8,
-      "social": 8.6,
-      "legal": 8.5,
-      "rigor": 8.7,
       "average": 8.65
     }
   }
