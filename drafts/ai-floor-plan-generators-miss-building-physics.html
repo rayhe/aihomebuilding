@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An AI Designed Your Floor Plan in 90 Seconds. It Has No Idea Where the Sun Is. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-floor-plan-generators-miss-building-physics.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An AI Designed Your Floor Plan in 90 Seconds. It Has No Idea Where the Sun Is.",
+		"description": "AI floor plan generators optimize for room adjacency and square footage while ignoring solar orientation, daylighting, and thermal performance. A Tsinghua study found 60% of AI-generated layouts are practically unusable. The cost of building from one anyway: $30,000 or more.",
+		"image": "https://aihomebuilding.com/images/ai-floor-plan-generators-miss-building-physics.jpg",
+		"datePublished": "2026-04-08",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-floor-plan-generators-miss-building-physics.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An AI Designed Your Floor Plan in 90 Seconds. It Has No Idea Where the Sun Is.">
+	<meta property="og:description" content="AI floor plan generators optimize for room adjacency while ignoring the physics that make rooms livable. A Tsinghua study found 60% of AI layouts are unusable. The cost gap: $30,000+.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-floor-plan-generators-miss-building-physics.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-floor-plan-generators-miss-building-physics.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An AI Designed Your Floor Plan in 90 Seconds. It Has No Idea Where the Sun Is.">
+	<meta name="twitter:description" content="AI floor plan generators skip solar orientation, daylighting, and circulation efficiency. The cost of a pretty-but-wrong plan: $30,000+.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-floor-plan-generators-miss-building-physics.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.stat-callout .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.back-link {
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-body { font-size: 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-floor-plan-generators-miss-building-physics.jpg" alt="Sunlight streaming through tall windows of an unfinished residential home, casting long diagonal shadows across bare concrete floors, with architectural blueprints scattered on a sawhorse table">
+		<div class="overlay">
+			<div class="badge">Architecture &amp; Design</div>
+			<h1>An AI Designed Your Floor Plan in 90 Seconds. It Has No Idea Where the Sun Is.</h1>
+			<div class="meta">By Elena Vasquez &middot; April 8, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>I asked <a href="https://www.maket.ai" target="_blank">Maket.ai</a> to design a three-bedroom, 2,200-square-foot house. I specified an open-concept kitchen and living room, a primary suite with walk-in closet, two kids' bedrooms sharing a bath. I did not specify a lot orientation, a climate zone, or which direction the morning light should enter. I got back four layouts in under two minutes.</p>
+
+			<p>Every one of them placed the living room's largest window wall facing a direction the software selected at random. Not south. Not toward the garden. Not away from the western afternoon glare. Just wherever the algorithm decided windows ought to go based on how many other rooms needed adjacency to the kitchen.</p>
+
+			<p>At $200 per square foot, those four plans represent $440,000 homes. Not one accounts for the path of the sun.</p>
+
+			<h2>What AI Floor Plan Tools Actually Optimize</h2>
+
+			<p>A new generation of AI layout tools, including Maket, <a href="https://planner5d.com" target="_blank">Planner 5D</a>, Homestyler, and even ChatGPT itself, can produce residential floor plans from a text prompt. Room count, square footage targets, adjacency preferences. The speed is remarkable. The outputs look professional. And the underlying models are getting better fast: Maket raised <a href="https://betakit.com/maket-secures-3-4-million-to-make-floor-planning-quicker-with-ai/" target="_blank">$3.4 million in October 2025</a> and has over a million registered users.</p>
+
+			<p>But these tools solve a graph problem, not a physics problem. They optimize for room adjacency, circulation connectivity, and dimensional fit within a boundary. They do not model solar gain, prevailing wind, thermal mass, acoustic separation, or duct routing. They generate geometry. Architecture requires understanding how light, air, and heat move through that geometry across seasons.</p>
+
+			<div class="stat-callout">
+				<div class="number">60%+</div>
+				<div class="label">of AI-generated residential floor plans found &ldquo;practically unusable&rdquo; in a <a href="https://arxiv.org/html/2512.00406v1" target="_blank">Tsinghua University study</a>, due to excessive energy use and flawed spatial-functional design</div>
+			</div>
+
+			<h2>60% Unusable</h2>
+
+			<p>Researchers at <a href="https://arxiv.org/html/2512.00406v1" target="_blank">Tsinghua University</a> built a framework called GreenPlanner to evaluate AI-generated residential layouts on energy performance and spatial-functional validity. Their finding was blunt: over 60% of plans in existing generative datasets are "practically unusable." Some models failed to generate windows at all. Others produced rooms with no viable connection to plumbing stacks or mechanical chases.</p>
+
+			<p>Separately, a <a href="https://doi.org/10.1017/S0890060425100085" target="_blank">2025 study published by Cambridge University Press</a> tested AI-generated floor plans from ChatGPT, Microsoft Copilot, and LookX across five climate zones. Of 31 plans generated, only eight were architecturally legible enough to reconstruct in AutoCAD and simulate for daylight performance. None consistently integrated solar orientation. None adjusted window sizing for seasonal lighting variation. LookX was excluded entirely because its outputs could not be interpreted as buildable plans.</p>
+
+			<p>These are not fringe academic exercises. These are the same generation tools that homeowners are using right now to design their houses.</p>
+
+			<h2>The $30,800 Hallway</h2>
+
+			<p>Solar orientation is the headline failure, but circulation waste may be the more expensive one. Trained architects treat hallway and transition space as a cost to minimize. A well-designed 2,200-square-foot home typically devotes 6&ndash;10% of its footprint to circulation: hallways, landings, stair transitions, pass-throughs. That range is a product of decades of plan refinement, builder feedback, and the economic reality that every square foot of hallway is a square foot that isn't a bedroom, a closet, or usable living area.</p>
+
+			<p>AI-generated layouts, optimized for room adjacency rather than spatial economy, routinely produce 13&ndash;18% circulation space. The algorithm needs connective tissue between rooms and defaults to generous hallways because narrower ones risk dimensional violations. It has no incentive to route traffic through dual-purpose spaces the way a skilled designer would.</p>
+
+			<p>Run the numbers on a 2,200-square-foot home at $200 per square foot:</p>
+
+			<table>
+				<tr><th>Scenario</th><th>Circulation %</th><th>Hallway sqft</th><th>Construction cost</th></tr>
+				<tr><td>Architect-designed (8%)</td><td>8%</td><td>176</td><td>$35,200</td></tr>
+				<tr><td>AI-generated (15%)</td><td>15%</td><td>330</td><td>$66,000</td></tr>
+				<tr><td><strong>Difference</strong></td><td></td><td><strong>154</strong></td><td><strong>$30,800</strong></td></tr>
+			</table>
+
+			<p>That $30,800 would pay for rooftop solar, a high-efficiency HVAC system, or, notably, the architect whose involvement would have prevented the problem.</p>
+
+			<h2>Orientation Is Not a Detail</h2>
+
+			<p>The U.S. Department of Energy's <a href="https://www.energy.gov/energysaver/consumer-guide-passive-solar-home-design-fact-sheet" target="_blank">passive solar design guidelines</a> are unambiguous: in most American climate zones, orienting a home's long axis east-west with the primary glazing facing south reduces heating and cooling loads by 20&ndash;30%. This is not exotic green building. It is the single cheapest energy decision in residential construction, because it costs nothing during the design phase and costs a fortune to fix after the foundation is poured.</p>
+
+			<p>The <a href="https://www.eia.gov/electricity/monthly/" target="_blank">EIA</a> reports that the average American household spends approximately $2,040 per year on electricity. Space heating and cooling account for roughly half that. A 20&ndash;30% reduction in HVAC load translates to $200&ndash;$300 in annual savings. Over a 30-year mortgage at a 3% discount rate, the net present value of proper orientation is $3,900&ndash;$5,900.</p>
+
+			<p>Not life-changing. But combined with circulation waste, the total penalty of an unreviewed AI floor plan climbs to $34,700&ndash;$36,700, and that assumes you catch the mechanical conflicts before construction.</p>
+
+			<h2>What Else the Algorithm Doesn't See</h2>
+
+			<p>A floor plan is a promise to a structural engineer, a mechanical contractor, and a plumber. AI tools make promises they can't keep. Beyond orientation and circulation, the common failures include:</p>
+
+			<p><strong>HVAC duct routing.</strong> A central air system needs a path from the air handler to every room. That means soffits, chases, or attic runs. AI floor plans regularly place bedrooms and bathrooms in configurations that create impossible duct routes without visible bulkheads. A mechanical engineer would flag this in plan review. An AI tool doesn't model it.</p>
+
+			<p><strong>Plumbing stack alignment.</strong> Bathrooms stacked vertically share a plumbing wall, saving thousands in pipe runs. AI layouts scatter wet rooms across the plan because the algorithm doesn't weigh plumbing adjacency.</p>
+
+			<p><strong>Structural grid.</strong> Load-bearing walls and beam spans follow a structural logic. Open-concept living areas need properly spaced columns or engineered headers. An AI plan that shows a 22-foot clear span between kitchen and living room may be requesting a $4,000 steel beam that a 16-foot span wouldn't need.</p>
+
+			<p><strong>Egress compliance.</strong> The IRC mandates minimum window sizes for bedroom egress (5.7 sqft opening, 24" min height, 20" min width, sill no more than 44" above floor). AI tools don't validate this. Neither, apparently, do most users.</p>
+
+			<h2>The Strongest Case for These Tools</h2>
+
+			<p>I want to be fair about what AI floor plan generators do well, because the dismissive take is wrong. They democratize spatial exploration. A homeowner who could never afford an architect's schematic design phase can now iterate on layouts, test room sizes against their furniture, and arrive at a first meeting with real spatial preferences instead of a Pinterest board. Maket's <a href="https://illustrarch.com/articles/design-softwares/73352-maket-ai-review.html" target="_blank">$30/month Pro plan</a> replaces nothing an architect does, but it gives a client the vocabulary to have a better conversation with one.</p>
+
+			<p>Used as a conversation starter, these tools are genuinely valuable. Used as construction documents, they are a $30,000 mistake.</p>
+
+			<h2>What You Should Do</h2>
+
+			<p><strong>If you're using an AI floor plan tool to explore ideas:</strong> keep using it. Generate 10 or 15 layouts. Identify what you like about room relationships, entry sequences, and spatial flow. Print your favorite. Then take it to a licensed architect or experienced residential designer. Budget $3,000&ndash;$8,000 for schematic design on a custom home. That fee will save multiples of itself.</p>
+
+			<p><strong>If you're a builder whose client arrives with an AI-generated plan:</strong> run it through your standard plan review checklist. Check window egress dimensions against IRC R310. Trace the duct routing. Verify the plumbing stack can reach every wet room without heroics. Ask which direction the lot faces and whether the plan accounts for it. If the answer is "I don't know," you've identified the design conversation that needs to happen before anything gets permitted.</p>
+
+			<p><strong>If you want to test an AI plan's orientation before involving a professional:</strong> open Google Maps satellite view for your lot. Note which edge faces south. Compare that to where the AI placed the living room's primary windows. If they don't align, the plan needs to be mirrored or rotated. This takes two minutes. It could save you $4,000&ndash;$6,000 over the life of the home.</p>
+
+			<h2>What I Didn't Prove</h2>
+
+			<p>My circulation percentage estimates come from architectural literature on efficient residential design, not from a controlled study measuring AI-generated plans specifically. The 13&ndash;18% range for AI tools is my assessment based on reviewing outputs from Maket and ChatGPT; nobody has published a rigorous survey of AI layout circulation efficiency.</p>
+
+			<p>The Tsinghua GreenPlanner study used Chinese residential datasets. American building patterns, lot dimensions, and code requirements differ significantly. The 60% unusability figure may not translate directly to US-market tools, though the underlying failure modes (missing windows, ignored energy performance, flawed spatial logic) are platform-agnostic.</p>
+
+			<p>The energy penalty calculations use national averages from the EIA. In Phoenix, where cooling dominates, wrong orientation costs far more than $300 per year. In San Diego, where the climate is mild year-round, it costs far less. Climate zone matters enormously, and these tools don't account for it.</p>
+
+			<p>I also cannot prove that homeowners are building directly from AI-generated plans without professional review. But with over a million users on a single platform and no mandatory architect involvement in many US jurisdictions for single-family homes under a certain size, the risk is not hypothetical.</p>
+
+			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
+				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>
+				<ul style="font-size:0.9rem; line-height:1.7; color:var(--text-secondary);">
+					<li><a href="https://arxiv.org/html/2512.00406v1" target="_blank">Zeng et al., &ldquo;GreenPlanner: Practical Floorplan Layout Generation via an Energy-Aware and Function-Feasible Generative Framework&rdquo; (Tsinghua University, 2025)</a> &mdash; 60%+ of AI-generated floor plans practically unusable; some models fail to generate windows</li>
+					<li><a href="https://doi.org/10.1017/S0890060425100085" target="_blank">&Ccedil;elik, &ldquo;Evaluating daylight performance of AI-generated housing plans via diffusion models and climate-based simulation&rdquo; (Cambridge University Press / Ostim Technical University, 2025)</a> &mdash; 8 of 31 AI plans reconstructable; none integrate solar orientation</li>
+					<li><a href="https://www.energy.gov/energysaver/consumer-guide-passive-solar-home-design-fact-sheet" target="_blank">U.S. Department of Energy, &ldquo;Consumer Guide to Passive Solar Home Design&rdquo;</a> &mdash; 20&ndash;30% heating/cooling reduction from proper orientation</li>
+					<li><a href="https://www.eia.gov/electricity/monthly/" target="_blank">U.S. Energy Information Administration, Electric Power Monthly</a> &mdash; average residential electricity expenditure data</li>
+					<li><a href="https://www.maket.ai" target="_blank">Maket.ai</a> &mdash; AI floor plan generator, 1M+ registered users, $30/month Pro plan, $3.4M seed (October 2025)</li>
+					<li><a href="https://illustrarch.com/articles/design-softwares/73352-maket-ai-review.html" target="_blank">Illustrarch, &ldquo;Maket.ai Review 2026&rdquo; (March 2026)</a> &mdash; professional critique of zoning compliance features and limitations</li>
+					<li><a href="https://betakit.com/maket-secures-3-4-million-to-make-floor-planning-quicker-with-ai/" target="_blank">BetaKit, &ldquo;Maket secures $3.4 million&rdquo; (October 2025)</a> &mdash; seed funding, Amiral Ventures</li>
+				</ul>
+			</section>
+		</article>
+	</div>
+
+	<a href="../" class="back-link" style="display:block; text-align:center; padding:0 0 3rem;">&larr; Back to all articles</a>
+	<script src="../js/article-nav.js"></script>
+</body>
+</html>
