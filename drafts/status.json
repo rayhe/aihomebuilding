@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-construction-loan-draw-delay-carrying-cost",
     "headline": "AI Can Approve Your Construction Loan Draw in Hours. Your Lender Still Takes Two Weeks.",
     "journalist": "Frank DeLuca",
-    "phase": "SHIP",
-    "started": "2026-04-08T15:00:00Z",
-    "round": 1,
+    "published": "2026-04-08T19:01:00Z",
+    "article_number": 157,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -15,30 +15,6 @@
       "rigor": 8.7,
       "data": 8.6,
       "average": 8.63
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 1.0,
-      "banned_phrases": 0
-    },
-    "hero_image": true,
-    "hero_image_hash": "528ef14a"
-  },
-  "last_completed": {
-    "slug": "ai-surveillance-worker-turnover-cost",
-    "headline": "The GPS Tracker in Your Roofer's Pocket Costs $8/Month. The Worker It Drove Away Costs $4,500 to Replace.",
-    "journalist": "Marcus Washington",
-    "published": "2026-04-08T13:00:00Z",
-    "article_number": 156,
-    "scores": {
-      "general": 8.6,
-      "voice": 8.7,
-      "ethics": 8.6,
-      "social": 8.7,
-      "legal": 8.5,
-      "rigor": 8.6,
-      "data": 8.5,
-      "average": 8.60
     }
   }
 }
