@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-concrete-mix-optimization-overdesign-carbon",
-    "phase": "QA",
+    "headline": "Your Foundation Has 3,850 Pounds of Cement It Doesn't Need. An Algorithm Could Have Caught That.",
     "journalist": "Priya Greenwood",
-    "started": "2026-04-09T07:00:00Z",
-    "headline_wip": "Your Foundation Has 3,850 Pounds of Cement It Doesn't Need. An Algorithm Could Have Caught That.",
-    "critique_round": 2,
+    "published": "2026-04-09T15:00:00Z",
+    "article_number": 160,
     "scores": {
       "general": 8.6,
       "voice": 8.6,
@@ -15,32 +15,6 @@
       "rigor": 8.6,
       "data": 8.5,
       "average": 8.59
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 0.0,
-      "banned_phrases": 0,
-      "word_count_body": 1199
-    },
-    "hero_image": "images/ai-concrete-mix-optimization-overdesign-carbon.jpg",
-    "article_number": 160,
-    "published_at": "2026-04-09T15:00:00Z"
-  },
-  "last_completed": {
-    "slug": "ai-hvac-load-calculation-oversizing-epidemic",
-    "headline": "Your HVAC Contractor Sized Your System With a Calculator From 1990. AI Did It in 60 Seconds From Your Blueprint.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-09T05:00:00Z",
-    "article_number": 159,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.8,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.7,
-      "data": 8.6,
-      "average": 8.63
     }
   }
 }
