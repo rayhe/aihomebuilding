@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done.",
+		"description": "Governor Newsom deployed Archistar's AI-powered eCheck to speed LA wildfire rebuilding permits. The tool works. But county data shows permits account for roughly 28% of the rebuild timeline, and only 0.2% of destroyed homes have been rebuilt. The bottleneck was never permits.",
+		"image": "https://aihomebuilding.com/images/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.jpg?v=0d1bbfad",
+		"datePublished": "2026-04-10",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done.">
+	<meta property="og:description" content="Archistar's AI-powered eCheck can pre-screen building plans in minutes. The LA County rebuild pipeline has deeper problems that no algorithm can fix.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.jpg?v=0d1bbfad">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done.">
+	<meta name="twitter:description" content="AI permit tools work. The LA fire rebuild data shows permits were never the bottleneck. Insurance, labor, and cost are.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.jpg?v=0d1bbfad">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.stat-callout .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.back-link {
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-body { font-size: 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-permit-tool-la-fire-rebuild-wrong-bottleneck.jpg?v=0d1bbfad" alt="Burned residential lots in a Los Angeles hillside neighborhood with scattered foundation outlines visible, a few homes under construction amid rows of empty parcels, late afternoon light">
+		<div class="overlay">
+			<div class="badge">Policy &amp; Regulation</div>
+			<h1>California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done.</h1>
+			<div class="meta">By Catherine Chen &middot; April 10, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>On April 30, 2025, Governor Gavin Newsom stood in Los Angeles and announced that California would deploy <a href="https://www.gov.ca.gov/2025/04/30/governor-newsom-announces-launch-of-new-ai-tool-to-supercharge-the-approval-of-building-permits-and-speed-recovery-from-los-angeles-fires/" target="_blank">Archistar&rsquo;s AI-powered eCheck software</a> to &ldquo;supercharge&rdquo; building permit approvals for fire survivors. Autodesk and Amazon pitched in. Philanthropies covered the cost. Homeowners got it free. Steadfast LA chairman Rick Caruso called it &ldquo;a process that can happen in hours or days.&rdquo;</p>
+
+			<p>Eleven months later, <a href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/" target="_blank">LA County&rsquo;s own recovery dashboard</a> tells a different story. Of the 13,142 parcels destroyed by the Eaton and Palisades fires, 28 buildings have been rebuilt. Twenty-eight.</p>
+
+			<div class="stat-callout">
+				<div class="number">0.2%</div>
+				<div class="label">Percentage of destroyed LA County parcels with completed rebuilds as of February 2026 (28 out of 13,142 parcels, per <a href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/" target="_blank">LA County Recovers</a>)</div>
+			</div>
+
+			<p>That 0.2% completion rate is not a permitting failure. Permits are actually moving faster than normal in fire zones. It is an everything-else failure. And the AI tool California deployed with such ceremony is solving a problem that, in this disaster, barely registers in the rebuild timeline.</p>
+
+			<h2>What the Pipeline Actually Looks Like</h2>
+
+			<p>The county dashboard breaks down the numbers with unusual transparency. Start with 13,142 destroyed parcels representing 14,834 housing units. Of those, <a href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/" target="_blank">6,116 homeowners have filed rebuild applications</a>. Already a drop: fewer than half the affected homeowners have even started.</p>
+
+			<p>Of those 6,116 applications, 2,894 have received permits. That is a 47% approval rate, which sounds low until you learn the average fire-zone permit timeline is roughly 100 days. Compare that to the <a href="https://www.carriermanagement.com/news/2025/09/30/279930.htm" target="_blank">24-month average</a> for comparable projects in the Pacific Palisades outside the disaster zone, or the eight months typical in Altadena pre-fire. One hundred days is fast by California standards.</p>
+
+			<p>Of the 2,894 permitted projects, 1,420 are under construction. Of those 1,420 under construction, 28 are complete.</p>
+
+			<table>
+				<tr><th>Pipeline stage</th><th>Count</th><th>% of destroyed parcels</th></tr>
+				<tr><td>Parcels destroyed</td><td>13,142</td><td>100%</td></tr>
+				<tr><td>Applications filed</td><td>6,116</td><td>46.5%</td></tr>
+				<tr><td>Permits issued</td><td>2,894</td><td>22.0%</td></tr>
+				<tr><td>Under construction</td><td>1,420</td><td>10.8%</td></tr>
+				<tr><td>Completed</td><td>28</td><td>0.2%</td></tr>
+			</table>
+
+			<p>Look at where the pipeline narrows. More than half of all destroyed-parcel owners never filed an application. Of those who did, half got permits within 100 days. Construction, once permitted, is grinding slowly. A full 98% of active construction projects remain unfinished after months of work.</p>
+
+			<h2>Where AI Enters the Picture</h2>
+
+			<p>Archistar&rsquo;s eCheck uses computer vision and machine learning to scan building plans against local zoning and building codes. Think of it as a pre-submission spell-checker for blueprints. Homeowners upload their plans, the AI flags conflicts with setback requirements, height limits, lot coverage ratios, and parking minimums, and the homeowner fixes the issues before submitting to the city. Fewer deficient submissions means fewer rejection-resubmission cycles, which means faster permits.</p>
+
+			<p>Data from <a href="https://www.archistar.ai/blog/city-of-surrey/" target="_blank">Surrey, British Columbia</a>, where the same tool launched in March 2026, illustrates the value proposition. Jerome Thibaudeau, the city&rsquo;s business transformation manager, reported that roughly 80% of residential permit applications contained significant zoning deficiencies, requiring an average of 1.6 resubmissions. Each resubmission adds weeks. If Archistar catches most of those deficiencies before submission, the math works: 1.6 fewer cycles at two to four weeks each saves applicants one to three months.</p>
+
+			<p>The eCheck <a href="https://www.archistar.ai/blog/echeck-beta-now-live-in-la/" target="_blank">beta launched in LA on July 15, 2025</a>, targeting single-family homes in R-1 residential zones damaged by the Eaton and Palisades fires. Initial turnaround: up to 10 business days. Better than the months a manual review takes, but a long way from &ldquo;hours or days.&rdquo;</p>
+
+			<h2>The Math on What AI Can Fix</h2>
+
+			<p>Even if we grant the most generous assumptions about AI permit tools, the numbers expose their limits in this specific disaster.</p>
+
+			<p>Permitting takes roughly 100 days in LA&rsquo;s fire zones. A full rebuild cycle from application to completion is running about 12 months for the earliest finishers. That makes permitting roughly 28% of the total timeline. If AI slashed permit processing to 10 days, you recover 90 days. On a 365-day build cycle, that is a 25% time savings.</p>
+
+			<p>Not nothing. But it only matters for the homeowners who filed applications. And 53.5% of destroyed-parcel owners have not filed.</p>
+
+			<p>Why not? You cannot permit a house you cannot pay for.</p>
+
+			<h2>Insurance Is the Bottleneck No One Handed to an Algorithm</h2>
+
+			<p>California&rsquo;s homeowner insurance market was <a href="https://www.mckinsey.com/industries/financial-services/our-insights/forging-a-resilient-future-for-californias-homeowners-and-insurers" target="_blank">already fracturing</a> before the fires. State Farm, Allstate, and other major carriers had been pulling out of high-fire-risk areas for years. Many Palisades and Altadena homeowners were insured through the California FAIR Plan, the state&rsquo;s insurer of last resort, which covers the structure but not the full replacement cost. Others were underinsured because their coverage limits reflected 2015 construction costs, not 2025 reality.</p>
+
+			<p><a href="https://thedailyeconomy.org/article/with-fewer-than-16-homes-rebuilt-in-a-year-whats-blocking-las-fire-recovery/" target="_blank">The Daily Economy</a> identified insurance as the primary constraint on rebuilding. If your policy maxes out at $800,000 and your rebuild estimate is $1.4 million, you are looking at a $600,000 gap. No AI permit tool addresses that. No governor&rsquo;s press conference addressed it either, because the insurance problem requires either federal backstops or state regulatory overhaul, both of which involve fights with entrenched interests.</p>
+
+			<h2>Construction Cost Is the Second Bottleneck</h2>
+
+			<p>Rebuilding 13,000+ homes simultaneously in a single metro area creates a demand shock. Labor, materials, and equipment costs spike when every contractor within 100 miles is booked. <a href="https://www.nahb.org/news-and-economics/press-releases/2025/02/home-builders-tell-congress-how-permitting-roadblocks-raise-housing-costs" target="_blank">NAHB estimated in 2021</a> that regulatory costs alone account for 24% of a new home&rsquo;s price. Layer on fire-zone surcharges, limited contractor availability, and post-disaster material demand, and rebuilds in the Palisades are pricing well above pre-fire appraisals.</p>
+
+			<p>The Woolsey Fire precedent is sobering. In 2018, that fire destroyed <a href="https://www.carriermanagement.com/news/2025/09/30/279930.htm" target="_blank">488 homes in Malibu</a>. Years later, roughly 40% have been rebuilt. A 40% completion rate on 488 homes over several years suggests the LA fires, at 27 times the scale, will take a generation without structural intervention that goes well beyond permitting.</p>
+
+			<h2>Strongest Case for AI Permitting Tools</h2>
+
+			<p>It would be a mistake to dismiss Archistar because it solves the wrong bottleneck today. Bottlenecks migrate.</p>
+
+			<p>If insurance settlements accelerate, if FEMA funding flows, if construction costs stabilize, the permit queue could swell from 6,116 applications to 10,000 or more. At that volume, the 80% deficiency rate observed in Surrey becomes catastrophic. Each deficient application that enters the manual review queue and bounces back adds weeks of reviewer time and delays every application behind it. AI pre-check, by catching deficiencies before submission, could prevent a second-order bottleneck from forming as the pipeline matures.</p>
+
+			<p>That is a real value proposition. It is just not the value proposition that was advertised in April 2025.</p>
+
+			<blockquote>The tool works. The diagnosis was wrong. Giving a faster engine to a car stuck in traffic does not move it forward. But when traffic clears, the engine matters.</blockquote>
+
+			<h2>What You Can Do If You Are Rebuilding After a Fire</h2>
+
+			<p><strong>Start with insurance, not permits.</strong> Before you hire an architect, get a written statement from your insurer on your coverage limit, your deductible, and whether your policy covers code-upgrade costs. Many rebuilds must comply with current building codes that did not exist when the original home was built. If your policy does not cover the code-upgrade delta, you are absorbing it.</p>
+
+			<p><strong>Use the AI pre-check tool if it is available in your area.</strong> Archistar eCheck is free for LA fire survivors and genuinely useful. Upload your plans before submitting to the city. If it flags setback violations or lot coverage issues, fix them before you enter the formal queue. You save yourself one to three months of back-and-forth.</p>
+
+			<p><strong>Get three contractor bids, and be skeptical of the lowest one.</strong> Post-disaster construction markets attract fly-by-night operators. Verify contractor licenses through the <a href="https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx" target="_blank">California Contractors State License Board</a>. Ask for references from recent fire-rebuild projects, not just general construction.</p>
+
+			<p><strong>Expect 18 to 24 months, minimum.</strong> Even with AI-assisted permitting, the construction phase on a full residential rebuild runs 9 to 14 months after the permit is issued. Add permitting, insurance negotiation, and design. Temporary housing at $3,500 to $5,500 per month in western LA County means $63,000 to $132,000 in rent over that period. Build those costs into your financial model from day one.</p>
+
+			<h2>What This Analysis Does Not Cover</h2>
+
+			<p>The LA County dashboard data used here is a snapshot from February 5, 2026. The pipeline is dynamic, and the completion count may have risen since. No published data from Archistar quantifies how many LA fire survivors have used eCheck, what deficiency rate it found, or how much time it saved on average. Surrey&rsquo;s 80% deficiency rate may not transfer to LA&rsquo;s fire zones, where homeowners are often rebuilding identical floor plans on the same lot rather than designing new structures.</p>
+
+			<p>Insurance underwriting data is proprietary. Precise figures on the number of underinsured or uninsured LA fire homeowners have not been published by any carrier or regulator. The characterization of insurance as the primary bottleneck draws on <a href="https://thedailyeconomy.org/article/with-fewer-than-16-homes-rebuilt-in-a-year-whats-blocking-las-fire-recovery/" target="_blank">The Daily Economy&rsquo;s analysis</a> and general reporting on the California FAIR Plan, not on homeowner-level claims data.</p>
+
+			<p>My timeline estimate (permitting = 28% of total rebuild cycle) uses the 100-day fire-zone average and a 12-month total assumption based on the earliest completions. This overstates the permitting share for longer builds and understates it for projects where construction moved quickly. Individual experiences will vary substantially depending on project complexity, lot conditions, and contractor availability.</p>
+
+			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
+				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>
+				<ul style="font-size:0.9rem; line-height:1.7; color:var(--text-secondary);">
+					<li><a href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/" target="_blank">LA County Recovers: Permitting Progress Dashboard, accessed February 2026</a></li>
+					<li><a href="https://www.gov.ca.gov/2025/04/30/governor-newsom-announces-launch-of-new-ai-tool-to-supercharge-the-approval-of-building-permits-and-speed-recovery-from-los-angeles-fires/" target="_blank">Governor Newsom: Launch of New AI Tool to Supercharge Building Permits, April 30, 2025</a></li>
+					<li><a href="https://www.archistar.ai/blog/echeck-beta-now-live-in-la/" target="_blank">Archistar: eCheck Beta Now Live in the City and County of Los Angeles, July 15, 2025</a></li>
+					<li><a href="https://www.archistar.ai/blog/city-of-surrey/" target="_blank">Archistar: City of Surrey Launches AI PreCheck, March 2026</a></li>
+					<li><a href="https://thedailyeconomy.org/article/with-fewer-than-16-homes-rebuilt-in-a-year-whats-blocking-las-fire-recovery/" target="_blank">The Daily Economy: With Fewer Than 16 Homes Rebuilt in a Year, What&rsquo;s Blocking LA&rsquo;s Fire Recovery?, February 2026</a></li>
+					<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4872147" target="_blank">UCLA Anderson: Development Approval Times and New Housing Supply (SSRN Working Paper), 2024</a></li>
+					<li><a href="https://www.nahb.org/news-and-economics/press-releases/2025/02/home-builders-tell-congress-how-permitting-roadblocks-raise-housing-costs" target="_blank">NAHB: Home Builders Tell Congress How Permitting Roadblocks Raise Housing Costs, February 2025</a></li>
+					<li><a href="https://www.mckinsey.com/industries/financial-services/our-insights/forging-a-resilient-future-for-californias-homeowners-and-insurers" target="_blank">McKinsey: Resetting California&rsquo;s Homeowners Insurance Market, 2025</a></li>
+				</ul>
+			</section>
+		</article>
+	</div>
+
+	<a href="../" class="back-link" style="display:block; text-align:center; padding:0 0 3rem;">&larr; Back to all articles</a>
+	<script src="../js/article-nav.js"></script>
+</body>
+</html>

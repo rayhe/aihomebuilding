@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-permit-tool-la-fire-rebuild-wrong-bottleneck",
+    "headline": "California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done.",
+    "journalist": "Catherine Chen",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-10T03:00:00Z",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 8.7,
+      "social": 8.5,
+      "legal": 8.6,
+      "rigor": 8.5,
+      "data": 8.6,
+      "average": 8.56
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 7.5,
+      "banned_phrases": 0
+    }
+  },
   "last_completed": {
     "slug": "ai-payroll-misclassification-homeowner-liability",
     "headline": "Your Contractor's Cheapest Bid Has a Hidden Cost: 1 in 5 Workers on Your Job Site May Have No Insurance",
