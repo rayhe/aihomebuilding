@@ -1,11 +1,27 @@
 {
   "current": {
     "slug": "bricklaying-robots-shrinking-brick-market",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
     "started": "2026-04-10T07:03:00Z",
-    "headline": "Three Startups Built Robots That Lay 1,000 Bricks an Hour. Only 19% of New Homes Use Any."
+    "headline": "Three Startups Built Robots That Lay 1,000 Bricks an Hour. Only 19% of New Homes Use Any.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.5,
+      "ethics": 8.8,
+      "social": 8.5,
+      "legal": 8.6,
+      "rigor": 8.6,
+      "data": 8.5,
+      "average": 8.60
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 3.0,
+      "banned_phrases": 0
+    },
+    "critique_rounds": 1,
+    "note": "1/day gate blocks shipping today (Publish #162 already shipped). Ready for next cycle."
   },
   "last_completed": {
     "slug": "ai-permit-tool-la-fire-rebuild-wrong-bottleneck",
