@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "bricklaying-robots-shrinking-brick-market",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-04-10T07:03:00Z",
     "headline": "Three Startups Built Robots That Lay 1,000 Bricks an Hour. Only 19% of New Homes Use Any.",
+    "journalist": "Jake Kowalski",
+    "published": "2026-04-10T11:02:00Z",
+    "article_number": 163,
     "scores": {
       "general": 8.7,
       "voice": 8.5,
@@ -14,30 +15,6 @@
       "rigor": 8.6,
       "data": 8.5,
       "average": 8.60
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 3.0,
-      "banned_phrases": 0
-    },
-    "critique_rounds": 1,
-    "note": "1/day gate blocks shipping (Publish #162 at 05:01 UTC today). Verified 09:00 UTC. Draft clean, hero JPEG valid. Ready for next available day."
-  },
-  "last_completed": {
-    "slug": "ai-permit-tool-la-fire-rebuild-wrong-bottleneck",
-    "headline": "California Gave AI the Job of Speeding Up Fire Rebuild Permits. One Year Later, 28 of 13,000 Homes Are Done.",
-    "journalist": "Catherine Chen",
-    "published": "2026-04-10T05:00:00Z",
-    "article_number": 162,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 8.7,
-      "social": 8.5,
-      "legal": 8.6,
-      "rigor": 8.5,
-      "data": 8.6,
-      "average": 8.56
     }
   }
 }
