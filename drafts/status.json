@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "water-sewer-capacity-new-subdivision-ai",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Priya Greenwood",
+    "started": "2026-04-10T13:06:00Z",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.5,
+      "ethics": 8.7,
+      "social": 8.5,
+      "legal": 8.6,
+      "rigor": 8.6,
+      "data": 8.5,
+      "average": 8.59
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 7.7,
+      "banned_phrases": 0
+    },
+    "hero_image": "images/water-sewer-capacity-new-subdivision-ai.jpg",
+    "hero_verified_jpeg": true,
+    "cache_bust": "42deceac",
+    "ship_blocked": "1/day gate: Publish #163 already shipped 2026-04-10"
+  },
   "last_completed": {
     "slug": "bricklaying-robots-shrinking-brick-market",
     "headline": "Three Startups Built Robots That Lay 1,000 Bricks an Hour. Only 19% of New Homes Use Any.",
