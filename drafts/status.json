@@ -1,11 +1,27 @@
 {
   "current": {
     "slug": "ai-construction-cost-tracking-late-discovery",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank DeLuca",
     "started": "2026-04-11T01:08:00Z",
-    "headline": "You Find Out You're Over Budget at Month Seven. By Then, the Money Is Concrete."
+    "headline": "You Find Out You're Over Budget at Month Seven. By Then, the Money Is Concrete.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.7,
+      "average": 8.74
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 4.9,
+      "banned_phrases": 0,
+      "all_passed": true
+    }
   },
   "last_completed": {
     "slug": "water-sewer-capacity-new-subdivision-ai",
