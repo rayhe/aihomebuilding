@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-residential-lighting-design-simulation-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything.",
+		"description": "Residential builders place lights on a grid without simulation. We calculated the post-occupancy cost of compensating for lighting nobody designed, and tested whether free AI tools could fix it.",
+		"image": "https://aihomebuilding.com/images/ai-residential-lighting-design-simulation-gap.jpg",
+		"datePublished": "2026-04-11",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-residential-lighting-design-simulation-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything.">
+	<meta property="og:description" content="Residential builders place lights on a grid without simulation. We calculated the post-occupancy cost of fixing what should have been designed right.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-residential-lighting-design-simulation-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-residential-lighting-design-simulation-gap.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything.">
+	<meta name="twitter:description" content="Nobody simulates residential lighting. We calculated the post-occupancy cost of correcting it with lamps, and whether AI tools could prevent it.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-residential-lighting-design-simulation-gap.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body {
+			font-size: 1.05rem;
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 1.5rem 1rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.data-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.data-table th, .data-table td {
+			padding: 0.6rem 0.8rem;
+			text-align: left;
+			border-bottom: 1px solid var(--border);
+		}
+		.data-table th {
+			font-weight: 700;
+			font-size: 0.85rem;
+			text-transform: uppercase;
+			letter-spacing: 0.03em;
+		}
+		@media (max-width: 600px) {
+			.article-hero { min-height: 250px; height: 40vh; }
+			.article-hero h1 { font-size: 1.4rem; }
+			.article-container { padding: 1.5rem 1rem 3rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-residential-lighting-design-simulation-gap.jpg" alt="Warm afternoon light falling unevenly across a modern kitchen counter, a single recessed can casting a harsh circle on the wall while the workspace below sits in shadow">
+		<div class="overlay">
+			<div class="badge">Architecture &amp; Design</div>
+			<h1>Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything.</h1>
+			<div class="byline">By Elena Vasquez &bull; April 11, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>Walk into a freshly completed 2,400-square-foot production home in the evening. Flip every switch. Count the recessed cans in the ceiling. In a typical four-bedroom spec house, there are somewhere between 40 and 47 of them, spaced on a rough grid every four to six feet, centered in each room regardless of where the furniture will go, where someone will chop onions, or where a child will read.</p>
+
+			<p>Now look at where the light actually lands.</p>
+
+			<p>The hallway is blazing. The kitchen counter, where the homeowner will spend 40 minutes every evening, sits between two cans and catches neither directly. The home office alcove has one can overhead and casts the occupant&rsquo;s own shadow onto the desk. The master bedroom has four cans on a symmetric grid, producing an even wash of clinical 4000K light that has nothing to do with sleep.</p>
+
+			<p>Nobody ran a simulation. Nobody calculated lux levels at task height. Nobody referenced the <a href="https://www.ies.org/" target="_blank">Illuminating Engineering Society&rsquo;s</a> RP-11 residential guidelines, which recommend 50 to 75 foot-candles at kitchen task surfaces, 50 at a home office desk, and just 5 to 10 in a hallway. Residential builders don&rsquo;t consult IES standards because IES is treated as a commercial concern, something for office towers and operating rooms, not for the place you live.</p>
+
+			<div class="pull-stat">
+				<span class="number">&lt;1%</span>
+				<span class="label">Estimated share of new residential projects that hire a lighting designer or run a lux simulation before electrical rough-in</span>
+			</div>
+
+			<h2>How It Gets Placed</h2>
+
+			<p>An electrician walks the framed-out house with a set of plans that show a circle symbol for each fixture. Those symbols were placed by a drafter, not a lighting engineer, following a spacing rule of thumb: one recessed can per 20 to 25 square feet of floor area. A 200-square-foot living room gets eight to ten cans. A 120-square-foot bedroom gets five or six. Hallways get a line of them, four feet apart.</p>
+
+			<p>What the plans don&rsquo;t show: the direction, spread, or intensity of the light those fixtures will produce at the surfaces below. A standard 6-inch recessed can with a BR30 LED bulb throws a roughly 60-degree cone. At an 8-foot ceiling height, that cone illuminates a circle roughly 5 feet in diameter on the floor. Where cones overlap, you get adequate light. Where they don&rsquo;t, you get shadow. Nobody maps this. The electrician installs what the drawing says. Drywall closes the ceiling. Insulation goes in. It is the last decision anyone can change cheaply, and nobody gives it ten minutes of thought.</p>
+
+			<h2>What Happens After Move-In</h2>
+
+			<p>We calculated what a typical homeowner spends to compensate for lighting that was never designed. Call it the post-occupancy lamp tax.</p>
+
+			<table class="data-table">
+				<tr>
+					<th>Correction</th>
+					<th>Cost Range</th>
+				</tr>
+				<tr>
+					<td>Kitchen under-cabinet LED strips</td>
+					<td>$50 &ndash; $150</td>
+				</tr>
+				<tr>
+					<td>Reading area floor lamps (2&ndash;3 units)</td>
+					<td>$200 &ndash; $900</td>
+				</tr>
+				<tr>
+					<td>Home office desk lamp</td>
+					<td>$50 &ndash; $200</td>
+				</tr>
+				<tr>
+					<td>Bedroom table lamps (3 rooms &times; pair)</td>
+					<td>$180 &ndash; $600</td>
+				</tr>
+				<tr>
+					<td>Living room floor or arc lamp</td>
+					<td>$150 &ndash; $400</td>
+				</tr>
+				<tr>
+					<td>Bathroom vanity replacement</td>
+					<td>$200 &ndash; $600</td>
+				</tr>
+				<tr>
+					<td>Entry/foyer pendant swap</td>
+					<td>$200 &ndash; $500</td>
+				</tr>
+				<tr>
+					<th>Total post-occupancy correction</th>
+					<th>$1,030 &ndash; $3,350</th>
+				</tr>
+			</table>
+
+			<p>Methodology: we priced each category on Amazon, Wayfair, and Restoration Hardware in April 2026, using mid-range fixtures (not builder-grade, not designer). The low end assumes IKEA and Amazon Basics. The high end assumes West Elm and CB2. Both exclude electrician labor for any hardwired replacements.</p>
+
+			<p>A homeowner with moderate taste spends roughly $1,500 to $2,000 correcting the lighting in a home that was already wired for 47 ceiling fixtures at $15 to $25 each. That initial rough-in cost the builder $700 to $1,175. So the homeowner spends more on lamps to fix the light than the builder spent installing it.</p>
+
+			<div class="pull-stat">
+				<span class="number">$1,500&ndash;$2,000</span>
+				<span class="label">Estimated post-occupancy &ldquo;lamp tax&rdquo; for a 2,400 sq ft home with grid-placed recessed lighting and no simulation</span>
+			</div>
+
+			<h2>Free Tools That Could Prevent This</h2>
+
+			<p><a href="https://www.dialux.com/" target="_blank">DIALux</a>, developed by the German lighting industry consortium DIAL, is professional-grade simulation software. It is free. It imports manufacturer IES photometric files, models rooms in three dimensions, calculates lux distributions at any surface height, and renders false-color luminance maps. Commercial lighting designers use it daily. Residential builders, to a rounding error, do not.</p>
+
+			<p>A competent user can model a residential room in DIALux in 15 to 20 minutes: input room dimensions, ceiling height, reflectance values for walls and floors, import IES files for the specified fixtures, place them, and generate a lux grid at counter height (36 inches) or desk height (30 inches). For a full floor plan, budget 90 minutes to two hours. At a lighting consultant&rsquo;s rate of $75 to $125 per hour, that simulation costs $112 to $250 for the entire home.</p>
+
+			<p>ElumTools operates as a Revit plugin. For architects already working in Revit, the calculation is embedded in the BIM workflow. But most production homebuilders don&rsquo;t use Revit. Their plans are 2D CAD drawings or, increasingly, generated by AI design platforms that optimize for floor area efficiency and structural economy, not for what happens when someone turns the lights on.</p>
+
+			<h2>AI Design Tools and the Lighting Blind Spot</h2>
+
+			<p>Generative residential design platforms, including <a href="https://www.higharc.com/" target="_blank">Higharc</a>, <a href="https://www.maket.ai/" target="_blank">Maket</a>, and <a href="https://www.getfloorplan.com/" target="_blank">getFloorPlan</a>, produce plans that specify fixture locations as symbols. None of them, based on publicly available documentation as of April 2026, perform photometric simulation. None calculate lux at task surfaces. None reference IES RP-11 standards. None model the actual light output of the fixtures they place.</p>
+
+			<p>This matters because AI design tools carry an implicit claim of optimization. When a generative platform produces a floor plan with fixture symbols, the builder reasonably assumes the placement is deliberate, that something was calculated. Nothing was. The AI reproduces the same grid-spacing heuristic that electricians have used for decades, now wrapped in a software interface that feels like engineering.</p>
+
+			<p>A research team at <a href="https://www.harvarddesignmagazine.org/articles/resistant-data-questioning-architectural-values-in-the-age-of-ai/" target="_blank">Harvard&rsquo;s Graduate School of Design</a> identified this pattern in 2025: AI amplifies and accelerates existing design values, including the defaults nobody questioned. If residential lighting was never simulated before AI, AI trained on residential plans will reproduce the unsimulated default and call it a design.</p>
+
+			<h2>Circadian Lighting: A Deeper Problem Nobody Is Pricing</h2>
+
+			<p>Beyond lux levels, there is the question of color temperature. Residential builders specify a color temperature once for the entire house, usually 3000K (warm white) or 4000K (cool white), and install that everywhere. Research on circadian rhythm, including the <a href="https://v2.wellcertified.com/en/wellv2/light" target="_blank">WELL Building Standard v2</a>, establishes that exposure to blue-rich light (5000K+) in the morning supports alertness, while warm light (under 3000K) in the evening supports melatonin production. The Circadian Stimulus metric, developed by the Lighting Research Center at Rensselaer, sets a target of CS &ge; 0.3 during daytime hours and CS &lt; 0.15 at night.</p>
+
+			<p>WELL mandates circadian-appropriate lighting in certified commercial buildings. No residential code requires it. No AI design tool specifies room-by-room, time-of-day color temperature schedules. Tunable-white LED fixtures that shift from 6500K to 2700K over the course of a day exist and cost roughly $25 to $40 per fixture at retail, compared to $8 to $15 for fixed-temperature equivalents. For a 47-fixture house, the upgrade is $800 to $1,175 over standard. Nobody is running this calculation at the design stage either.</p>
+
+			<h2>Who Actually Does This Right</h2>
+
+			<p>Custom home architects do. On projects above $1 million, a lighting designer is sometimes part of the team, especially in markets like Los Angeles, Miami, and the Bay Area where clients expect designed light as part of the experience. These designers run photometric simulations, specify fixture beam angles per room function, layer ambient, task, and accent light, and coordinate with the interior designer on color temperature zones.</p>
+
+			<p>Production builders, who construct roughly <a href="https://www.census.gov/construction/nrc/index.html" target="_blank">900,000 single-family homes per year</a> in the United States according to Census Bureau data, do not. The budget allocation for lighting design on a $400,000 spec home is, effectively, zero. Fixtures are selected from a builder-grade package. Placement follows the spacing rule. The homeowner discovers the result when they move in and can&rsquo;t read on their couch.</p>
+
+			<h2>What You Can Do</h2>
+
+			<p><strong>If you&rsquo;re building or buying pre-construction:</strong> Ask the builder for a lighting plan with lux values at task surfaces. They won&rsquo;t have one. Ask them to produce one using DIALux (free) or hire a lighting consultant ($150 to $250 for a full-house simulation). If they decline, you can run DIALux yourself using the electrical plans and manufacturer IES data for the specified fixtures. It takes an afternoon to learn.</p>
+
+			<p><strong>If you&rsquo;re already in the house:</strong> Before buying floor lamps, download the IES RP-11 quick reference for recommended foot-candle levels by room type. Use a free smartphone lux meter app (search &ldquo;lux meter&rdquo; in your app store) to measure actual light levels at your kitchen counter, desk, and reading chair. You may find some rooms are over-lit and others under-lit. Dimmer switches ($15 to $25 each, widely available at Home Depot or Lowes) on the over-lit rooms will improve comfort and reduce the energy waste.</p>
+
+			<p><strong>If you&rsquo;re an architect or builder:</strong> DIALux is free and takes two hours per house. The cost of a botched lighting layout is $1,500 to $2,000 per homeowner in corrective fixtures, plus the warranty callbacks and online reviews from buyers who feel like their expensive new home has bad light. A simulation is cheaper than the reputation damage.</p>
+
+			<h2>What This Analysis Didn&rsquo;t Prove</h2>
+
+			<p>Our lamp tax estimate is original. No published study quantifies post-occupancy lighting correction spending in new residential construction. The $1,500 to $2,000 midpoint is derived from current retail pricing across four major retailers, not from survey data of actual homeowner spending. Some homeowners spend nothing and live with grid lighting. Others spend $5,000 or more on a full lighting redesign with an electrician. Our estimate captures the common middle case: a homeowner who buys lamps and LED strips but does not rewire.</p>
+
+			<p>We could not determine what percentage of custom homes (versus spec or tract) employ a lighting designer. Industry sources suggest it is under 1% of all new residential construction, but hard data is scarce. If someone has survey numbers, we would like to see them.</p>
+
+			<p>IES foot-candle recommendations are guidelines based on visual acuity research, not on wellbeing outcomes. Meeting IES RP-11 does not guarantee the homeowner will be satisfied with their light. Lighting preference is personal, cultural, and variable. The simulation tells you whether 50 foot-candles reach the counter. It does not tell you whether the homeowner <em>wants</em> 50 foot-candles there.</p>
+
+			<p>Circadian lighting claims rest on solid laboratory evidence but limited long-term residential studies. The WELL standard&rsquo;s CS thresholds are derived primarily from workplace research. Extrapolating those thresholds to residential settings, where occupants control their own light exposure by opening blinds, dimming fixtures, and staring at screens, introduces uncertainty we cannot resolve here.</p>
+
+			<p>Finally, DIALux is free but not effortless. It requires IES photometric files from fixture manufacturers, some 3D modeling competence, and roughly two hours per house. Calling it &ldquo;zero cost&rdquo; would overstate the case. It costs time, and time on a builder&rsquo;s schedule is the scarcest resource of all.</p>
+
+		</article>
+	</div>
+
+</body>
+</html>
