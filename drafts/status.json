@@ -1,10 +1,31 @@
 {
   "current": {
     "slug": "ai-residential-lighting-design-simulation-gap",
-    "phase": "CRITIQUE",
+    "headline": "Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything.",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
     "started": "2026-04-11T07:06:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.5,
+      "data": 8.5,
+      "average": 8.66
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 0.8,
+      "banned_phrases": 0
+    },
+    "hero_image": "images/ai-residential-lighting-design-simulation-gap.jpg",
+    "hero_image_hash": "eeac8670",
+    "hero_image_verified_jpeg": true,
+    "ship_blocked_until": "2026-04-12",
+    "ship_blocked_reason": "1/day gate: Publish #165 already shipped 2026-04-11"
   },
   "last_completed": {
     "slug": "ai-construction-cost-tracking-late-discovery",
