@@ -1,5 +1,32 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-air-leakage-prediction-blower-door-gap",
+    "headline": "Your New Home Failed Its Blower Door Test. The Drywall Was Already Up.",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-04-12T01:03:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.8,
+      "rigor": 8.5,
+      "data": 8.5,
+      "average": 8.67
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 9.4,
+      "banned_phrases": 0
+    },
+    "hero_image": "images/ai-air-leakage-prediction-blower-door-gap.jpg",
+    "hero_image_hash": "d2231201",
+    "hero_image_verified_jpeg": true,
+    "ship_blocked_until": "2026-04-13",
+    "ship_blocked_reason": "1/day gate: Publish #166 already shipped 2026-04-12"
+  },
   "last_completed": {
     "slug": "ai-residential-lighting-design-simulation-gap",
     "headline": "Your Builder Installed 47 Recessed Cans. Nobody Calculated Whether They Light Anything.",
