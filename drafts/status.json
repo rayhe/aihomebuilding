@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-scheduling-inspection-wait-hidden-cost",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "headline": "Your AI Schedule Shows 8 Months. It Doesn't Count the 6 Weeks You'll Spend Waiting for Inspectors.",
+    "started": "2026-04-14T11:00:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.6,
+      "rigor": 8.7,
+      "data": 8.6,
+      "average": 8.77
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 2.1,
+      "banned_phrases": 0
+    }
+  },
   "last_completed": {
     "slug": "electrification-panel-upgrade-100-amp-myth",
     "headline": "Your Electrician Says You Need a $12,000 Panel Upgrade to Go All-Electric. Ninety-Nine Percent of Homes Don't.",
