@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-construction-contract-liability-gap",
     "headline": "Your Builder Used AI to Price Your Home. Your Contract Doesn't Mention It.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Catherine Chen",
-    "started": "2026-04-13T23:00:00Z",
+    "published": "2026-04-14T01:05:00Z",
     "article_number": 169,
     "scores": {
       "general": 8.7,
@@ -15,28 +14,6 @@
       "legal": 8.6,
       "rigor": 8.6,
       "data": 8.5,
-      "average": 8.70
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 5.6,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-construction-training-apprenticeship-dropout-gap",
-    "headline": "Half of Construction Apprentices Drop Out. AI Training Won't Fix the Reasons Why.",
-    "journalist": "Marcus Washington",
-    "published": "2026-04-13T21:42:00Z",
-    "article_number": 168,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.6,
-      "rigor": 8.5,
-      "data": 8.6,
       "average": 8.70
     }
   }
