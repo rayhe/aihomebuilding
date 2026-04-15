@@ -3,10 +3,21 @@
     "slug": "graywater-preplumbing-new-construction",
     "headline": "Your Builder Ran Every Drain Line to the Sewer. Half That Water Was Clean Enough to Flush Your Toilets.",
     "journalist": "Priya Greenwood",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "started": "2026-04-15T09:12:00Z",
-    "article_number": 174
+    "article_number": 174,
+    "ship_blocked": "1/day gate: 3 articles published 2026-04-15 (#171, #172, #173). Ship on next calendar day.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 8.6,
+      "legal": 8.7,
+      "rigor": 8.7,
+      "data": 8.6,
+      "average": 8.69
+    }
   },
   "last_completed": {
     "slug": "concrete-maturity-sensors-vs-break-tests",
