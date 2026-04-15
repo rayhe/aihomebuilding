@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-rendering-hidden-structural-cost",
-    "phase": "QA",
+    "headline": "Your Client Brought an AI Rendering to the First Meeting. Nobody Told Them the Glass Wall Alone Costs $47,000.",
     "journalist": "Elena Vasquez",
-    "started": "2026-04-15T01:12:00Z",
+    "published": "2026-04-15T05:07:00Z",
     "article_number": 172,
-    "critique_round": 1,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,29 +15,6 @@
       "rigor": 8.7,
       "data": 8.6,
       "average": 8.81
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "em_dash_note": "title separator only",
-      "the_starters_pct": 5.6,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-scheduling-inspection-wait-hidden-cost",
-    "headline": "Your AI Schedule Shows 8 Months. It Doesn't Count the 6 Weeks You'll Spend Waiting for Inspectors.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-04-15T01:01:00Z",
-    "article_number": 171,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.6,
-      "rigor": 8.7,
-      "data": 8.6,
-      "average": 8.77
     }
   }
 }
