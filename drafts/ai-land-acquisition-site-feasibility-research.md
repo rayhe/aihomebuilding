@@ -1,82 +1,94 @@
 # Research: AI-Powered Land Acquisition & Site Feasibility for Residential Builders
 
-## Topic
-AI platforms that compress land acquisition due diligence from weeks to minutes. The hidden critical path item in homebuilding.
+## Journalist: Frank "The Foreman" DeLuca
+## Beat: Project Management & Operations
 
-## Journalist
-Frank "The Foreman" DeLuca — project management/operations beat. Thinks in timelines, critical paths. World-weary humor.
+## Angle
+D.R. Horton — the nation's largest homebuilder — deployed Prophetic AI across 30+ states in November 2025, turning what used to be 2-6 weeks of site due diligence per parcel into minutes. But 64% of builders still report lot shortages. Can an algorithm navigate the political minefield of local zoning? And at what size does AI land scouting actually pencil out?
 
 ## Kill Test
-Does this help someone building or buying a home? YES — a builder reading this can evaluate whether Prophetic, Deepblocks, TestFit, or Acres.com would improve their lot pipeline. Homebuyers understand why housing supply is constrained.
+Does this help someone building or buying a home? YES — directly helps small-to-mid builders understand whether AI land tools are worth the investment, gives cost benchmarks, and explains what these tools can and can't do. Homeowners building custom can also use TestFit/Deepblocks for feasibility before buying land.
 
 ## Primary Sources
 
-### 1. NAHB HMI Survey (May 2025)
-- 64% of single-family builders report lot shortage (38% "low," 26% "very low")
-- Down from 67% (2023-2024) and peak of 76% (2021)
-- But still above pre-2016 levels despite starts under 1.5M/year
+### 1. NAHB/Wells Fargo HMI Survey (May 2025)
+- 64% of single-family builders report lot shortage (38% "low", 26% "very low")
+- Down from 67% in 2023-2024, peak of 76% in 2021
+- Shortage percentage higher than any time between 1997-2016, even when starts were 2M+
+- Annual starts under 1.5M for three years running while 64%+ report shortages
 - Source: https://www.nahb.org/blog/2025/09/lot-shortage-continues
 
-### 2. NAHB Cost of Construction Survey (2024)
-- Average home sale price: $665,298
-- Finished lot cost: 13.7% of sale price = ~$91,146
-- Construction costs: 64.4% (record high, up from 60.8% in 2022)
-- Lot share fell from 17.8% (2022) to 13.7% (2024) — construction costs ate the margin, not lot prices dropping
-- Source: https://residentialdesignmagazine.com/cost-of-constructing-a-home-in-2024/
+### 2. NAHB Builders' Top Concerns (Feb 2026)
+- 63% cited "cost/availability of developed lots" as serious problem in 2025
+- Alongside: 84% elevated mortgage rates, 81% buyers expecting price declines, 61% labor cost/availability
+- Source: https://www.nahb.org/blog/2026/02/builders-top-concerns-2026
 
-### 3. D.R. Horton + Prophetic AI (Nov 2025)
-- Largest US homebuilder, org-wide deployment across 30+ states
-- Prophetic: AI-native platform, ZoneAI (99% zoning accuracy across 20,000+ US municipalities)
-- 183,000 parcels analyzed across 20 states, 3,000+ high-potential sites identified
-- "One of the largest challenges to providing affordable housing is the identification, acquisition and entitlement of land suitable for development." — Jason Jones, VP Data Analytics, D.R. Horton
-- Source: https://www.lelezard.com/en/news-22011587.html
+### 3. Prophetic AI + D.R. Horton (Nov 2025)
+- Org-wide deployment across 30+ states
+- 183,000 parcels analyzed, 3,000+ high-potential sites identified
+- Products: ZoneAI™, SiteAI™, DevMap™, DealDesk™, SearchAI™
+- "Translates zoning rules, environmental data, and parcel records into instant, verifiable site potential"
+- "What once took weeks of analysis can now be done in minutes"
+- D.R. Horton quote (Jason Jones, VP Data Analytics): "One of the largest challenges to providing affordable housing is the identification, acquisition and entitlement of land suitable for development"
+- Source: https://contentenginellc.com/2025/11/11/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale/
 
-### 4. Prophetic SearchAI Intentions (March 2026)
-- Expanded beyond residential: 120+ development categories (data centers, hotels, senior living, energy)
-- Users can search by development intent instead of zoning codes
-- Gove Group case study: 100-200 parcels/year → 3,000 in first 12 months
-- "Individual users on the platform regularly exceed 5,000 parcels per month" — Oliver Alexander, CEO
-- Source: https://aijourn.com/prophetic-expands-searchai-with-searchai-intentions-to-find-land-based-on-what-developers-want-to-build/
+### 4. Zillow Housing Deficit
+- U.S. short 4.7M homes (Census data analysis)
+- Lot scarcity is a key bottleneck
 
-### 5. NAHB Congressional Testimony (Feb 2025)
-- Regulations account for 24% of final price of new single-family home (2021 NAHB study)
-- CWA Section 404 permits: upwards of 1 year
-- ESA consultation: several more years when required
-- "Most land developers have been forced to step away from particular parcels due to uncertainty of permitting" — Carl Harris, NAHB Chairman
-- Source: https://www.NAHB.org/news-and-economics/press-releases/2025/02/home-builders-tell-congress-how-permitting-roadblocks-raise-housing-costs
+### 5. TestFit (AI Site Planning)
+- $20M Series A, 6,200+ users
+- 30× faster site planning
+- Pricing: Urban Planner $90/mo, Data Maps $360/mo, Site Solver $10,000+/yr, Enterprise custom
+- Features: automated massing, instant cost model, quantity takeoff, yield estimator, pro forma
+- Connects pro forma to design — see if the math works before committing
+- Source: https://www.testfit.io/pricing
 
-### 6. Zillow Housing Deficit
-- US short 4.7 million homes (Zillow analysis of Census data, cited in D.R. Horton/Prophetic press release)
+### 6. Acres.com (AI Land Search)
+- 150M+ parcels in database
+- Plain-language AI search
+- Zoning intelligence
+- AcreTrader $60M Series B
+- Source: HousingWire
 
-### 7. Other Players
-- Acres.com: 150M+ parcels, AI search, zoning intelligence; AcreTrader $60M Series B
-- Deepblocks: AI zoning interpretation + financial feasibility, 3D massing, portfolio-level parcel screening
-- TestFit: $20M Series A, 6,200+ users, 30× faster site planning, connects pro forma to design
+### 7. Deepblocks (AI Zoning + Financial Feasibility)
+- AI zoning interpretation + financial feasibility
+- 3D massing and building envelope generation
+- Portfolio-level parcel screening
+- Target: developers and builders evaluating multiple sites simultaneously
 
-## Original Contribution
-Calculate the carrying cost of slow land evaluation. A builder evaluating 150 parcels/year manually vs. 5,000/month with AI — what does that evaluation gap cost in lost opportunities?
+### 8. NAHB 2024 Construction Cost Survey
+- Average finished lot cost: ~$91,100 (13.7% of $665,298 sale price)
+- Lot costs vary wildly by market — $30K rural to $300K+ coastal
 
-Math:
-- Average finished lot: $91,146 (NAHB 2024)
-- Traditional evaluation: 2-6 weeks per parcel (from research notes, confirmed by Prophetic)
-- AI evaluation: minutes per parcel
-- A builder doing $50M in annual revenue at $665K/home = ~75 homes/year
-- Need to close ~75 lots/year, but evaluate many more (10:1 to 20:1 funnel)
-- Traditional: evaluate ~150-200 parcels → close 75 lots
-- AI-assisted: evaluate 5,000+ → pick the best 75
-- The difference isn't speed — it's selection quality. More evaluation = better lots, better margins.
+## Novel Analysis: Break-Even Calculation for AI Land Tools
 
-Carrying cost angle:
-- Lot under contract for 6 months during due diligence = capital tied up
-- If interest rate on acquisition financing is 7-8%, carrying cost on $91K lot = ~$3,200-$3,650 per 6 months
-- Compress to 1 month = save ~$2,700-$3,000 per lot × 75 lots = $200K-$225K/year for a mid-size builder
+Traditional land evaluation:
+- Land analyst salary: ~$70-90K/year
+- Can evaluate: ~50-100 parcels/month manually (2-6 weeks per deep dive, but initial screening faster)
+- External consultant/broker: $5-15K per site for full due diligence
 
-## Strongest Counterargument
-Local relationships, politics, neighbor objections can't be algorithmed. The parcels Prophetic flags still need boots-on-ground due diligence. Zoning databases have errors. Municipal code interpretation varies by individual planner. AI pre-qualifies, but humans close. A builder with 30 years of relationships in one county will beat an AI screen of 5,000 parcels every time — in that county.
+AI platform costs:
+- TestFit: $10K-$50K/year depending on tier
+- Prophetic: enterprise pricing (likely $50K-200K/year based on scale)
+- Deepblocks: similar range
+- Acres: likely lower for search-only
+
+Break-even: If a mid-size builder (100-500 homes/year) needs to evaluate 500 parcels to find 20-30 buildable lots:
+- Manual: 500 parcels × $500-1,000 in labor/parcel = $250K-500K in evaluation costs
+- AI: $50K platform + 500 parcels at minutes each + human verification on top 50 = ~$100K
+- Savings: $150-400K in evaluation costs PLUS speed advantage (first-mover on good lots)
+
+But: The critical insight is that AI pre-qualifies — it doesn't close. The political, zoning-board, neighbor-objection reality still requires human relationship capital.
+
+## Counterargument
+- Local land brokers argue AI misses the political dimension: which city council members are pro-growth, which neighbors will file lawsuits, which environmental groups are active
+- Zoning codes are notoriously ambiguous — overlay districts, special use permits, variance history
+- Small builders (5-20 homes/year) may not evaluate enough parcels to justify platform costs
+- D.R. Horton can afford to be the guinea pig; the builder doing 50 homes in one MSA cannot
 
 ## Limitations
-- Prophetic's claimed 99% zoning accuracy is self-reported; no independent audit
-- Gove Group case study is a single company; results may not generalize
-- No published peer-reviewed study on AI vs. manual land acquisition outcomes
-- Cost data for Prophetic/Deepblocks/TestFit is not publicly available
-- Carrying cost calculations assume typical acquisition financing terms, which vary by builder
+- Prophetic's 183,000 parcels → 3,000 sites is self-reported; no independent audit
+- TestFit's "30× faster" claim — faster than what baseline? Hand-drawn site plans? Excel feasibility?
+- No published data on AI false positive rates (parcels flagged as buildable that aren't)
+- NAHB lot shortage figures are self-reported builder sentiment, not parcel inventory counts

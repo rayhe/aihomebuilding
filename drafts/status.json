@@ -1,5 +1,28 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-land-acquisition-site-feasibility",
+    "headline": "D.R. Horton Scanned 183,000 Parcels With AI. Your Land Guy Drove Past 12 Last Week.",
+    "journalist": "Frank DeLuca",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-16T23:00:00Z",
+    "ship_blocked": "1/day gate: #175 and #176 already published 2026-04-16",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 8.6,
+      "legal": 8.5,
+      "rigor": 8.6,
+      "data": 8.5,
+      "average": 8.6
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 2.3,
+      "banned_phrases": 0
+    }
+  },
   "last_completed": {
     "slug": "ai-apprenticeship-retention-crisis",
     "headline": "The Government Wants Your Apprentices to Learn AI. The Apprentices Want a Reason to Stay.",

@@ -613,7 +613,7 @@ When you discover a new topic worth covering, add it here with:
 - **Published:** "Your Drywall Finisher's Shoulder Gave Out at 47. A Robot Just Did His Week's Work in Two Days." (Jake Kowalski)
 - Journalist: Jake Kowalski (construction tech beat)
 
-### 59. 🟡 AI-Powered Land Acquisition & Site Feasibility for Residential Builders
+### 59. 🟢 AI-Powered Land Acquisition & Site Feasibility for Residential Builders
 - NAHB: 64% of single-family builders report lot shortage (May 2025 HMI survey)
 - Zillow: US short 4.7M homes; lot scarcity is a key bottleneck
 - D.R. Horton (largest US homebuilder) deployed Prophetic AI org-wide across 30+ states (Nov 2025)
@@ -625,3 +625,4 @@ When you discover a new topic worth covering, add it here with:
 - Traditional land due diligence: 2-6 weeks per site; AI compresses to minutes
 - Counterargument: local relationships, politics, neighbor objections can't be algorithmed — AI pre-qualifies, humans close
 - Journalist: Frank DeLuca (project management/operations beat)
+- **Published:** "D.R. Horton Scanned 183,000 Parcels With AI. Your Land Guy Drove Past 12 Last Week." (Frank DeLuca)
