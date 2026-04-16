@@ -222,6 +222,47 @@
 		}
 		.share-btn:hover { border-color: var(--accent); color: var(--accent); }
 	</style>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What “97% Accuracy” Actually Means",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That headline number comes from BuildVision AI’s 2025 construction report, which defines accuracy as deviation from final project cost on a dataset of completed commercial projects. There’s a critical caveat buried in the methodology: the 97% figure applies to quantity takeoffs from digital plans — measuring how much drywall, how many studs, how many linear feet of pipe. Not total project cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What I Tested",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I ran four sets of residential plans through ProEst (Autodesk’s estimating platform, $200–$400/month), Buildxact (targeted at residential builders, AI-powered takeoffs), CostToBuild.net (consumer-facing, plan-upload pricing), and a manual estimate from an estimator I trust with 15 years’ experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where AI Won",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Takeoff speed. Every tool completed quantity takeoffs in under 20 minutes. The manual estimator took 6–11 hours per project. On the straightforward Texas ranch, the AI tools were within 3–4% on material quantities — genuinely impressive and consistent with the industry benchmarks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where AI Lost",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Portland renovation. Every AI tool choked. A 1920s bungalow with knob-and-tube wiring, plaster-and-lath walls, a foundation that had settled unevenly, and a previous owner who’d done unpermitted work in the bathroom — none of that is on the blueprints. The AI estimates came in 22–35% below actual. The manual estimator, who drove by the house and spent 20 minutes in the crawl space, was off by 9%."
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
 	<div class="reading-progress" id="readingProgress"></div>

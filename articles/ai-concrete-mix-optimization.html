@@ -220,6 +220,47 @@
 			.article-container { padding: 1.5rem 1rem 3rem; }
 		}
 	</style>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What AI Mix Design Actually Does",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A startup called Concrete.ai launched a platform called Concrete Copilot that generates optimized mix designs using generative AI. Feed it a producer’s ingredient inventory, local aggregate properties, and the target performance spec. In seconds, it evaluates millions of possible formulations and returns the one that meets the strength requirement with the least cement, lowest cost, and smallest carbon footprint."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why Your Builder Has Never Heard of This",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Residential builders do not design concrete mixes. They order concrete by strength class—3,000 PSI for flatwork, 4,000 PSI for foundations in most jurisdictions—and the ready-mix plant delivers whatever formulation hits that number. The builder has no reason to care whether the mix uses 500 or 350 pounds of cement per yard, as long as the cylinder breaks at spec."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Would Actually Move the Needle",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three things need to happen for AI concrete optimization to reach the residential sector at scale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What This Doesn’t Prove",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This analysis has real gaps. Concrete.ai’s published savings data comes from commercial projects; we inferred residential applicability from the per-yard economics, but no published study has tracked AI-optimized mixes across a residential production builder’s portfolio specifically. The 45-cubic-yard-per-home estimate varies substantially by region and foundation type—a slab-on-grade in Texas requires half the concrete of a full basement in Minnesota. The carbon calculation uses industry-averag"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
 	<button class="dark-toggle" onclick="document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));" aria-label="Toggle dark mode">🌓</button>
