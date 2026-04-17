@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-hvac-load-calculation-oversizing-crisis",
     "headline": "Your HVAC Contractor Sized Your System With a Calculator and a Hunch. It's Twice as Big as It Needs to Be.",
-    "phase": "QA",
     "journalist": "Jake Kowalski",
-    "started": "2026-04-17T07:02:00Z",
+    "published": "2026-04-17T09:10:00Z",
     "article_number": 179,
-    "round": 1,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -16,28 +15,6 @@
       "rigor": 8.6,
       "data": 8.5,
       "average": 8.63
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 3.1,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-floor-plan-generators-livability-gap",
-    "headline": "AI Generated 10 Floor Plans in 60 Seconds. None of Them Had a Place to Set Down Groceries.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-04-17T05:04:00Z",
-    "article_number": 178,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.5,
-      "ethics": 8.8,
-      "social": 8.6,
-      "legal": 8.5,
-      "rigor": 8.6,
-      "data": 8.5,
-      "average": 8.6
     }
   }
 }
