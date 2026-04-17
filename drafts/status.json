@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-land-acquisition-site-feasibility",
     "headline": "D.R. Horton Scanned 183,000 Parcels With AI. Your Land Guy Drove Past 12 Last Week.",
     "journalist": "Frank DeLuca",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-04-16T23:00:00Z",
+    "published": "2026-04-17T01:00:00Z",
     "article_number": 177,
     "scores": {
       "general": 8.5,
@@ -16,28 +15,6 @@
       "rigor": 8.6,
       "data": 8.5,
       "average": 8.6
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 2.3,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-apprenticeship-retention-crisis",
-    "headline": "The Government Wants Your Apprentices to Learn AI. The Apprentices Want a Reason to Stay.",
-    "journalist": "Marcus Washington",
-    "published": "2026-04-16T21:00:00Z",
-    "article_number": 176,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.7,
-      "social": 8.5,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.5,
-      "average": 8.61
     }
   }
 }
