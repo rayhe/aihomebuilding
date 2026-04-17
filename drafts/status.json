@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-thermal-imaging-building-envelope-defects",
     "headline": "A $400 Thermal Scan Found 12 Insulation Gaps Before Drywall. Your Inspector Found Zero After.",
-    "phase": "QA",
     "journalist": "Priya Greenwood",
-    "started": "2026-04-17T11:02:00Z",
+    "published": "2026-04-17T13:03:00Z",
     "article_number": 180,
-    "round": 1,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -16,28 +15,6 @@
       "rigor": 8.5,
       "data": 8.5,
       "average": 8.59
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 1.7,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-hvac-load-calculation-oversizing-crisis",
-    "headline": "Your HVAC Contractor Sized Your System With a Calculator and a Hunch. It's Twice as Big as It Needs to Be.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-17T09:10:00Z",
-    "article_number": 179,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.7,
-      "social": 8.7,
-      "legal": 8.6,
-      "rigor": 8.6,
-      "data": 8.5,
-      "average": 8.63
     }
   }
 }
