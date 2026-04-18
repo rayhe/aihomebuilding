@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Fourteen Finished Specs and Zero Buyers. That's $43,400 a Month in Carrying Costs Your Spreadsheet Didn't Predict. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-spec-home-starts-demand-forecasting.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Fourteen Finished Specs and Zero Buyers. That's $43,400 a Month in Carrying Costs Your Spreadsheet Didn't Predict.",
+		"description": "Production builders decide how many spec homes to start using backward-looking sales data and gut instinct. With NAHB sentiment at 34, the penalty for guessing wrong is $3,100 per home per month. AI demand forecasting tools exist. Almost nobody uses them for the actual starts decision.",
+		"image": "https://aihomebuilding.com/images/ai-spec-home-starts-demand-forecasting.jpg",
+		"datePublished": "2026-04-18",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-spec-home-starts-demand-forecasting.html"
+		}
+	}
+	</script>
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [
+			{
+				"@type": "Question",
+				"name": "How much does an unsold spec home cost a builder per month?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "A completed but unsold spec home at the national median price of approximately $420,000 costs roughly $3,100 per month in carrying costs. This includes construction loan interest at 8% on 70% loan-to-cost (~$1,960/month), property taxes at 1.2% annually (~$420/month), builder's risk insurance (~$250/month), utilities and maintenance (~$150/month), and opportunity cost on tied-up capital (~$320/month). These figures use national medians; actual costs vary significantly by market."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "What is the NAHB Housing Market Index and why does it matter for spec home builders?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "The NAHB/Wells Fargo Housing Market Index (HMI) is a monthly survey of builder sentiment scored from 0 to 100. Any reading below 50 indicates that more builders view conditions as poor than good. In April 2026, the HMI fell to 34, an 8-month low, driven by material cost increases from oil price spikes, pricing uncertainty, and weakened sales expectations. For spec builders, a falling HMI signals that absorption rates are likely to slow, making it riskier to start new homes without committed buyers."
+				}
+			}
+		]
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Fourteen Finished Specs and Zero Buyers. That's $43,400 a Month in Carrying Costs Your Spreadsheet Didn't Predict.">
+	<meta property="og:description" content="Builder sentiment just hit 34. Spec homes take 10 months to build. AI demand forecasting exists. The actual starts decision still runs on spreadsheets.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-spec-home-starts-demand-forecasting.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-spec-home-starts-demand-forecasting.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Fourteen Finished Specs and Zero Buyers. $43,400/Month in Carrying Costs.">
+	<meta name="twitter:description" content="AI demand forecasting could prevent billions in excess spec home carrying costs. Almost nobody uses it for the starts decision.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-spec-home-starts-demand-forecasting.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.story-meta {
+			margin-bottom: 2rem;
+		}
+		.story-meta .badge {
+			background: var(--accent);
+			color: #fff;
+			padding: 4px 12px;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+		}
+		.story-meta h1 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-weight: 800;
+			font-size: clamp(1.75rem, 4vw, 2.5rem);
+			line-height: 1.15;
+			margin: 1rem 0 0.75rem;
+		}
+		.byline {
+			color: var(--text-muted);
+			font-size: 0.9rem;
+		}
+		.story-hero {
+			width: 100%;
+			border-radius: 12px;
+			margin-bottom: 2rem;
+		}
+		.story-body {
+			font-size: 1.05rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', Georgia, serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.25;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 1.5rem 0;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.source-list {
+			margin-top: 3rem;
+			padding-top: 1.5rem;
+			border-top: 1px solid var(--border);
+			font-size: 0.85rem;
+			color: var(--text-muted);
+		}
+		.source-list h3 {
+			font-size: 0.9rem;
+			margin-bottom: 0.5rem;
+			color: var(--text-secondary);
+		}
+		.source-list ol {
+			padding-left: 1.25rem;
+		}
+		.source-list li {
+			margin-bottom: 0.5rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.9rem;
+		}
+		.back-link:hover { color: var(--accent); }
+	</style>
+</head>
+<body>
+	<div class="story-page">
+		<a href="../" class="back-link">&larr; AI Home Building</a>
+		<div class="story-meta">
+			<span class="badge">&#128736; Project Management</span>
+			<h1>Fourteen Finished Specs and Zero Buyers. That's $43,400 a Month in Carrying Costs Your Spreadsheet Didn't Predict.</h1>
+			<div class="byline">By <strong>Frank DeLuca</strong> &bull; April 18, 2026</div>
+		</div>
+
+		<img class="story-hero" src="../images/ai-spec-home-starts-demand-forecasting.jpg" alt="A row of newly completed spec homes with empty driveways and for-sale signs, late afternoon light casting long shadows across vacant sidewalks">
+
+		<div class="story-body">
+		<article>
+
+			<p>A builder I know in the Phoenix East Valley started 14 spec homes last June. Good lots, three- and four-bedroom plans that had been selling in 60 days for the previous two quarters. His absorption model was a spreadsheet that looked at trailing three-month sales velocity, adjusted for seasonality with a multiplier he'd been using since 2019. It told him to start 14, so he started 14.</p>
+
+			<p>Average single-family build time in America is now <a href="https://eyeonhousing.org/2024/08/it-takes-an-average-of-10-months-to-build-a-single-family-home/">10.1 months</a>, according to Census Bureau data, three months longer than a decade ago and still climbing because of labor shortages, inspection backlogs, and material delivery disruptions that compound in ways nobody's spreadsheet accounts for. All 14 of his homes finished in March 2026, right on schedule, every single one complete and ready for buyers who never showed up.</p>
+
+			<p>Not a single one has sold.</p>
+
+			<p>The <a href="https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index">NAHB/Wells Fargo Housing Market Index</a> for April 2026 came in at 34, an 8-month low that signals something worse than caution. Below 50 means more builders view conditions as poor than good, and at 34 the sentiment is scared. Sales expectations dropped 7 points to 42, and in the West region the index cratered to 29.</p>
+
+			<p>Sixty-two percent of builders now report material cost increases tied to oil prices and the Iran conflict. Seventy percent say pricing is a problem because they can't confidently estimate what a home will cost to finish. Thirty-six percent have cut prices, averaging a 5% reduction, and the discounts aren't moving inventory fast enough.</p>
+
+			<p>My Phoenix builder's 14 specs are now bleeding money, every single month, with no clear signal of when the hemorrhaging stops.</p>
+
+			<h2>What $3,100 a Month Actually Looks Like</h2>
+
+			<p>I ran the numbers on what an unsold completed spec home costs to hold, using the national median new home price of approximately $420,000, and the arithmetic is straightforward enough that anyone can check it against their own portfolio.</p>
+
+			<p>Start with the construction loan at 70% loan-to-cost, which puts $294,000 outstanding on the books. At current construction loan rates of roughly 8%, that's $1,960 per month in interest alone, and the lender doesn't care whether you have a buyer lined up. Property taxes accrue on completed homes regardless of occupancy, running approximately $420 per month at a national average effective rate of 1.2%. Builder's risk insurance, which the <a href="https://www.amwins.com/insights-research/article/the-path-forward-for-builders-risk">AmWins H1 2025 report</a> pegged at $200 to $400 per month depending on coverage, adds another $250 in the middle of that range. Utilities to keep the home showing-ready and basic maintenance cost roughly $150 per month, and the capital tied up in the lot, the permits, the appliances sitting in a house nobody's cooking in, has an opportunity cost of approximately $320 per month at a 1.3% monthly return benchmark.</p>
+
+			<div class="pull-stat">
+				<span class="number">$3,100/mo</span>
+				<span class="label">Carrying cost per unsold completed spec home at national median price</span>
+			</div>
+
+			<p>Total: roughly $3,100 per month, per home, which means fourteen homes at $3,100 each is $43,400 every month the market stays soft. That's not an abstraction; it's a payment the builder writes while watching NAHB sentiment crater and wondering if he should cut prices 5% like everyone else, or 10% to get ahead of the slide, or hold and hope this is a one-quarter blip like the one in Q4 2023 that resolved itself by spring.</p>
+
+			<p>Scale that number to the national level and the figures become staggering. Census data shows roughly 100,000 completed new homes for sale nationally at any given time, and if poor demand forecasting extends the average time from completion to sale by just 30 days, that's $310 million per month in aggregate carrying costs that better starts timing could have reduced. Because the question was never whether to build. It was whether to build <em>this month</em>, at <em>this pace</em>, in <em>this submarket</em>.</p>
+
+			<h2>2022 Was the Dress Rehearsal</h2>
+
+			<p>The 2022 rate shock was a case study in what happens when builders start homes based on momentum and finish them into a different economy. <a href="https://investor.drhorton.com/annual-reports">D.R. Horton</a> and its peers watched cancellation rates spike above 25%, roughly double the normal 12-15% range, as mortgage rates climbed from 3% to 7% in a single calendar year. Buyers who signed contracts in March couldn't qualify in September.</p>
+
+			<p>Run the math on that spike: a 10-percentage-point increase in cancellations across 600,000 annual single-family starts means 60,000 homes that completed with no buyer waiting, and at $3,100 per month in carrying costs with an average three-month overhang, the industry absorbed approximately $558 million in excess carrying costs from that single miscalculation.</p>
+
+			<div class="pull-stat">
+				<span class="number">$558M</span>
+				<span class="label">Estimated excess carrying costs from 2022 rate shock cancellations</span>
+			</div>
+
+			<p>Nobody in production building will forget 2022, but the response was almost entirely backward-looking: builders cut starts, waited for absorption to recover, and then ramped back up once trailing-velocity spreadsheets showed improving numbers. The cycle played out over 18 months, and by mid-2024 the same models that missed the downturn were back in charge of the starts decision. April 2026 is a different crisis, slower and more geopolitically driven, with different variables, but the decision-making process hasn't evolved at all.</p>
+
+			<h2>What AI Demand Forecasting Actually Does</h2>
+
+			<p>Platforms like <a href="https://zondahome.com/">Zonda</a> aggregate real-time data at the CBSA, zip code, and individual community level, pulling together supply data, lot pipeline status, active listings, builder absorption by product type, mortgage application volume, employment trends, and migration patterns into forward-looking models that answer the question no trailing-velocity spreadsheet can: what is demand <em>going to be</em> in this submarket six to ten months from now, when the home you start today will finally be ready for a buyer?</p>
+
+			<p>Ten months is the window that matters for every starts decision. Start a home in April 2026 and it completes in February 2027. What will February 2027 look like in the East Valley of Phoenix, in Boise, or in the Raleigh-Durham exurbs? A spreadsheet that averages Q4 2025 and Q1 2026 sales has no capacity to answer that question, because it can tell you what happened but it cannot tell you what the Iran conflict, a potential Fed pivot, or a shift in remote-work policy will do to absorption rates in specific zip codes nine months from now.</p>
+
+			<p>AI tools don't predict black swans, and this deserves its full weight as the strongest objection to AI demand forecasting: no model trained on 2019-2021 data would have predicted the 2022 rate shock, and a model trained on 2023-2025 data won't predict whatever geopolitical event is next. The events that cause the most damage are precisely the ones that defy prediction.</p>
+
+			<p>But prediction accuracy isn't the real value, because scenario modeling is where these tools actually earn their keep. A well-built demand model can answer: what happens to your 14-spec portfolio if mortgage rates jump 100 basis points? What if absorption in this zip code slows 30%? What if the Iran conflict extends through Q3 and oil stays above $100? Traditional builders answer these questions on napkins, while AI answers them with probability distributions, historical analogs, and confidence intervals that translate uncertainty into ranges a finance team can actually price.</p>
+
+			<p>The difference between a napkin and a probability distribution is roughly $3,100 per month per wrong answer.</p>
+
+			<h2>Why Nobody Uses It for the Decision That Matters</h2>
+
+			<p>Large production builders subscribe to Zonda data, reference it in their IR decks and investor calls, and claim their starts decisions are informed by it. <a href="https://investor.pultegroupinc.com/financial-information/sec-filings">PulteGroup reported</a> 7,639 closings in Q2 2025 at a $559,000 average price with 27% gross margins, the kind of performance that requires disciplined land strategy and volume management.</p>
+
+			<p>But "informed by" and "optimized with" are different things, because the starts decision at most production builders still flows through a regional VP who weighs the data against gut feel about the submarket, lot option expirations, and a quarterly starts target set during a budget meeting six months earlier. When the AI model and the gut conflict, the gut usually wins because it's been winning for 30 years.</p>
+
+			<p>For mid-size builders running $4-20 million in annual revenue, the adoption gap is even wider. Glen Harris III, a builder profiled by the <a href="https://www.nahb.org/blog">NAHB Blog</a> in November 2025, systematized his scheduling by front-loading trade coordination and eliminating rework delays, and it was a genuine process improvement story, but his demand forecasting was still manual and his starts decisions were still based on local absorption data he collected himself. He described rework as the "silent thief of time," but a slow market is a louder thief, and it steals $3,100 per month per home instead of a few hundred dollars in rework costs.</p>
+
+			<p>The resistance to these tools isn't about cost or access; Zonda subscriptions run five figures annually, significant for a small builder but trivial against the carrying cost of two misjudged starts, and FRED publishes free data that would improve on any trailing-velocity spreadsheet. The resistance is about the culture of building itself. Adding an AI tool to the starts decision means admitting that the method that made you successful enough to run a multi-million-dollar operation is inadequate for a market that moves faster than trailing data can track, and that's a harder sell than any software subscription.</p>
+
+			<h2>What You Should Actually Do</h2>
+
+			<p><strong>If you're a production builder starting 20+ specs per year:</strong> Run your trailing-velocity model alongside Zonda or a comparable forward-looking platform for two quarters without replacing the spreadsheet. Track where the two models diverge and which one was right. If the AI would have prevented even one excess start per quarter, it has paid for itself in avoided carrying costs within the first year, since at $3,100 per month per home and a three-month average overhang, one correct "don't start yet" call saves $9,300, and a Zonda subscription costs considerably less than that.</p>
+
+			<p><strong>If you're a custom or semi-custom builder under $10M annual:</strong> You probably don't need Zonda-level data, but you do need to stop relying exclusively on trailing absorption. Check <a href="https://fred.stlouisfed.org/series/MSACSR">FRED's Monthly Supply of New Houses data</a>, your local MLS active listing counts, and mortgage application volume for your county, then build a simple dashboard that updates monthly so you can watch the leading indicators. When supply rises and applications drop simultaneously, that's the signal to slow your starts pace by 20-30% before the NAHB headline tells you what you already should have known.</p>
+
+			<p><strong>If you're a homebuyer watching spec home inventory:</strong> Rising spec inventory in your target submarket means you have negotiating power. Builders holding completed unsold homes are paying $3,100 per month to wait for you. A home that's been complete for 90 days has already cost the builder roughly $9,300 in carrying costs. They may not advertise a discount, but they will negotiate one. Check days-on-market data on Redfin or Zillow for new construction in your zip code. If you see 90+ days, the builder is motivated whether they admit it or not.</p>
+
+			<h2>What This Analysis Didn't Prove</h2>
+
+			<p>The per-unit carrying cost calculation above uses national median figures. A $420,000 spec home in suburban Phoenix has fundamentally different economics than a $680,000 home in Northern Virginia or a $340,000 home in the Huntsville exurbs. Construction loan rates vary by builder credit history and lender relationship. Property tax rates range from 0.3% in Hawaii to 2.2% in New Jersey. The $3,100 figure is a reasonable national average, not a universal truth, and running the same arithmetic with your local inputs is the only way to know your actual exposure.</p>
+
+			<p>Census "completed unsold" data includes a mix of true spec overbuilds and model homes that are never intended for immediate sale. The 100,000 figure overstates the problem by including homes that aren't actually bleeding carrying costs in the way described here. The actual number of distressed unsold specs is lower, though Census doesn't disaggregate the data cleanly enough to determine by how much.</p>
+
+			<p>No published peer-reviewed study has compared AI-optimized starts decisions against traditional methods in a controlled setting. Zonda and its competitors publish case studies, but these are marketing materials with selection bias baked in: builders who adopted the tools and performed well get highlighted, while builders who adopted them and still made bad calls do not. The $558 million 2022 estimate is based on reasonable assumptions about cancellation rates and carry periods, but it is an estimate, and nobody tracked the actual aggregate cost across the industry.</p>
+
+		</article>
+		</div>
+
+		<div class="source-list">
+			<h3>Sources</h3>
+			<ol>
+				<li>NAHB/Wells Fargo Housing Market Index, April 2026. HMI 34 (8-month low), sales expectations 42, 62% reporting material cost increases. <a href="https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index">nahb.org</a></li>
+				<li>U.S. Census Bureau, "Average Length of Time from Start to Completion of New Privately Owned Residential Buildings," via NAHB Eye on Housing, August 2024. Average 10.1 months for single-family. <a href="https://eyeonhousing.org/2024/08/it-takes-an-average-of-10-months-to-build-a-single-family-home/">eyeonhousing.org</a></li>
+				<li>AmWins Group, "The Path Forward for Builders Risk," H1 2025 Market Report. Builder's risk insurance rates and market conditions. <a href="https://www.amwins.com/insights-research/article/the-path-forward-for-builders-risk">amwins.com</a></li>
+				<li>D.R. Horton Annual Reports. Cancellation rate data, 2022 rate shock impact. <a href="https://investor.drhorton.com/annual-reports">investor.drhorton.com</a></li>
+				<li>PulteGroup SEC Filings. Q2 2025: 7,639 closings, $559K average price, 27% gross margin. <a href="https://investor.pultegroupinc.com/financial-information/sec-filings">investor.pultegroupinc.com</a></li>
+				<li>Zonda. Real-time housing demand analytics at CBSA, zip code, and community level. <a href="https://zondahome.com/">zondahome.com</a></li>
+				<li>NAHB Blog, "Eliminating Silent Thieves of Time," Glen Harris III builder case study, November 2025. <a href="https://www.nahb.org/blog">nahb.org/blog</a></li>
+				<li>Federal Reserve Economic Data (FRED), Monthly Supply of New Houses for Sale (MSACSR). <a href="https://fred.stlouisfed.org/series/MSACSR">fred.stlouisfed.org</a></li>
+			</ol>
+		</div>
+
+	</div>
+</body>
+</html>
