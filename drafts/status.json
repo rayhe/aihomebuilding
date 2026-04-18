@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-payroll-wage-theft-residential-invisible",
+    "phase": "SHIP",
+    "journalist": "Marcus Washington",
+    "started": "2026-04-18T01:04:00Z",
+    "round": 1,
+    "headline": "Your Contractor's Payroll App Calculates Overtime Perfectly. That's How It Knows Exactly When to Stop Scheduling It.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 8.5,
+      "legal": 8.7,
+      "rigor": 8.5,
+      "data": 8.6,
+      "average": 8.63
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 5.3,
+      "banned_phrases": 0
+    },
+    "hero_image_ready": true,
+    "ship_blocked": "1/day gate: Publish #181 already shipped 2026-04-18"
+  },
   "last_completed": {
     "slug": "ai-generated-plans-professional-stamp-liability",
     "headline": "Your Architect Used AI to Draw Your House. The Stamp on the Plans Says Otherwise.",
