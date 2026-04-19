@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-building-permit-review-plan-check-automation",
+    "headline": "Your Building Permit Sat in a Queue for Six Months. An AI Reviews It in 15 Minutes.",
+    "phase": "SHIP",
+    "journalist": "Catherine Chen",
+    "started": "2026-04-19T21:01:00Z",
+    "critique_round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.5,
+      "data": 8.7,
+      "average": 8.73
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 1.0,
+      "banned_phrases": 0,
+      "rhythm_variance": 63.1,
+      "short_sentence_pct": 11.0
+    }
+  },
   "last_completed": {
     "slug": "ai-3d-scan-framing-errors-before-drywall",
     "headline": "A $999 iPhone Scan Found 38 Framing Errors Before Drywall. Your $400 Inspector Found 4.",
