@@ -2,10 +2,21 @@
   "current": {
     "slug": "ai-3d-scan-framing-errors-before-drywall",
     "headline": "A $999 iPhone Scan Found 38 Framing Errors Before Drywall. Your $400 Inspector Found 4.",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Jake Kowalski",
-    "started": "2026-04-19T01:08:00Z"
+    "started": "2026-04-19T01:08:00Z",
+    "ship_note": "1/day gate: #184 already published 2026-04-19. Ready to ship next cycle.",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.5,
+      "data": 8.7,
+      "average": 8.73
+    }
   },
   "last_completed": {
     "slug": "ai-office-residential-conversion-algorithm-limits",
