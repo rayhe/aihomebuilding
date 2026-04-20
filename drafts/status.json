@@ -2,10 +2,20 @@
   "current": {
     "slug": "embodied-carbon-ai-material-selection-homes",
     "headline": "Your New Home Released 55 Tons of Carbon Before You Moved In. Nobody Measured It Until Now.",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Priya Greenwood",
     "started": "2026-04-20T01:01:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.5,
+      "data": 8.7,
+      "average": 8.73
+    }
   },
   "last_completed": {
     "slug": "ai-building-permit-review-plan-check-automation",
