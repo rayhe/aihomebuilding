@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-construction-dispute-resolution-documentation-gap",
     "headline": "AI Settled a $216,000 Construction Dispute for $27,000. Your Twelve Texts Won't Be Enough.",
     "journalist": "Frank DeLuca",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-04-20T05:00:00Z",
+    "published": "2026-04-20T23:00:00Z",
+    "article_number": 188,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -15,29 +15,6 @@
       "rigor": 8.7,
       "data": 8.7,
       "average": 8.84
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 3.8,
-      "banned_phrases": 0
-    },
-    "critique_note": "All 7 critics 8.5+. Ship deferred: article #187 already published 2026-04-20T03:07Z (1/day limit)."
-  },
-  "last_completed": {
-    "slug": "embodied-carbon-ai-material-selection-homes",
-    "headline": "Your New Home Released 55 Tons of Carbon Before You Moved In. Nobody Measured It Until Now.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-04-20T03:07:00Z",
-    "article_number": 187,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 8.5,
-      "data": 8.7,
-      "average": 8.73
     }
   }
 }
