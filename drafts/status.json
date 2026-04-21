@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-radar-see-through-walls-hidden-damage",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Jake Kowalski",
-    "started": "2026-04-21T01:03:00Z",
     "headline": "AI Radar Sees Damaged Steel Through Your Finished Walls. Your Inspector Sees Paint.",
+    "journalist": "Jake Kowalski",
+    "published": "2026-04-21T05:00:00Z",
+    "article_number": 189,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -15,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.89
-    }
-  },
-  "last_completed": {
-    "slug": "ai-construction-dispute-resolution-documentation-gap",
-    "headline": "AI Settled a $216,000 Construction Dispute for $27,000. Your Twelve Texts Won't Be Enough.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-04-20T23:00:00Z",
-    "article_number": 188,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.7,
-      "average": 8.84
     }
   }
 }
