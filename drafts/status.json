@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "ai-foundation-settlement-monitoring-sensors",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Jake Kowalski",
     "started": "2026-04-21T07:00:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.5,
+      "average": 8.86
+    }
   },
   "last_completed": {
     "slug": "ai-radar-see-through-walls-hidden-damage",
