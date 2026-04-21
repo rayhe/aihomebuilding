@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-foundation-settlement-monitoring-sensors",
-    "phase": "QA",
+    "headline": "Your Foundation Is Sinking Right Now. A $200 PVC Pipe Could Have Warned You.",
     "journalist": "Jake Kowalski",
-    "started": "2026-04-21T07:00:00Z",
-    "round": 1,
+    "published": "2026-04-21T11:00:00Z",
+    "article_number": 190,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -14,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.5,
       "average": 8.86
-    }
-  },
-  "last_completed": {
-    "slug": "ai-radar-see-through-walls-hidden-damage",
-    "headline": "AI Radar Sees Damaged Steel Through Your Finished Walls. Your Inspector Sees Paint.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-21T05:00:00Z",
-    "article_number": 189,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.89
     }
   }
 }
