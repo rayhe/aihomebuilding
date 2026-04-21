@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-radar-see-through-walls-hidden-damage",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-04-21T01:03:00Z",
-    "headline": "AI Radar Sees Damaged Steel Through Your Finished Walls. Your Inspector Sees Paint."
+    "headline": "AI Radar Sees Damaged Steel Through Your Finished Walls. Your Inspector Sees Paint.",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.7,
+      "average": 8.89
+    }
   },
   "last_completed": {
     "slug": "ai-construction-dispute-resolution-documentation-gap",
