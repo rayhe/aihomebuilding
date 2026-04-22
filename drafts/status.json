@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "climate-zone-shift-hvac-sizing-future-mismatch",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Priya Greenwood",
     "started": "2026-04-22T09:08:00Z",
-    "round": 0
+    "round": 1,
+    "ship_blocked": "1/day gate: 2 articles already published 2026-04-22 (#193, #194)",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.6,
+      "average": 8.80
+    }
   },
   "last_completed": {
     "slug": "data-center-labor-drain-residential-construction",
