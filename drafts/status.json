@@ -1,9 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "data-center-labor-drain-residential-construction",
-    "phase": "QA",
+    "headline": "Your Electrician Left for a Data Center. He's Making Twice as Much.",
     "journalist": "Marcus Washington",
-    "started": "2026-04-22T05:01:00Z",
+    "published": "2026-04-22T07:00:00Z",
+    "article_number": 194,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -12,23 +14,6 @@
       "legal": 9.0,
       "rigor": 8.8,
       "data": 8.5,
-      "average": 8.79
-    }
-  },
-  "last_completed": {
-    "slug": "ai-concrete-strength-sensors-replace-cylinder-break-tests",
-    "headline": "Your Concrete Was Tested by Crushing a Cylinder in a Lab. The Sensor Inside It Already Knows.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-22T03:00:00Z",
-    "article_number": 193,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.7,
-      "ethics": 9.1,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7,
       "average": 8.79
     }
   }
