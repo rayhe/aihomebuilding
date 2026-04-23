@@ -1,9 +1,29 @@
 {
   "current": {
     "slug": "ai-floor-plan-generators-ignore-sunlight",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
-    "started": "2026-04-23T03:01:00Z"
+    "started": "2026-04-23T03:01:00Z",
+    "critique_round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.6,
+      "average": 8.81
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 9.5,
+      "banned_phrases": 0,
+      "rhythm_variance": 340.7,
+      "rhythm_short_pct": 8.5,
+      "rhythm_long_pct": 47.9,
+      "rhythm_pass": true
+    }
   },
   "last_completed": {
     "slug": "climate-zone-shift-hvac-sizing-future-mismatch",
