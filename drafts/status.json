@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-scheduling-tools-ignore-residential",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
     "headline": "An AI Trained on 750,000 Schedules Can Predict Your Delay. It's Never Seen a House.",
-    "started": "2026-04-23T07:00:00Z",
-    "round": 1,
+    "journalist": "Frank DeLuca",
+    "published": "2026-04-23T23:05:00Z",
+    "article_number": 197,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -15,33 +15,6 @@
       "rigor": 8.7,
       "data": 8.6,
       "average": 8.8
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 6.4,
-      "banned_phrases": 0,
-      "rhythm": "PASS",
-      "rhythm_variance": 216.4,
-      "rhythm_short_pct": 10.2,
-      "rhythm_long_pct": 40.8
-    },
-    "article_number": 197
-  },
-  "last_completed": {
-    "slug": "ai-floor-plan-generators-ignore-sunlight",
-    "headline": "AI Drew Your Floor Plan in 30 Seconds. It Forgot Where the Sun Is.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-04-23T06:05:00Z",
-    "article_number": 196,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.6,
-      "average": 8.81
     }
   }
 }
