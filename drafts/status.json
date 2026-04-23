@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "climate-zone-shift-hvac-sizing-future-mismatch",
-    "phase": "QA",
+    "headline": "Your HVAC Was Sized for a Climate That No Longer Exists",
     "journalist": "Priya Greenwood",
-    "started": "2026-04-22T09:08:00Z",
-    "round": 1,
+    "published": "2026-04-23T01:00:00Z",
+    "article_number": 195,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -14,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.6,
       "average": 8.80
-    }
-  },
-  "last_completed": {
-    "slug": "data-center-labor-drain-residential-construction",
-    "headline": "Your Electrician Left for a Data Center. He's Making Twice as Much.",
-    "journalist": "Marcus Washington",
-    "published": "2026-04-22T07:00:00Z",
-    "article_number": 194,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.5,
-      "average": 8.79
     }
   }
 }
