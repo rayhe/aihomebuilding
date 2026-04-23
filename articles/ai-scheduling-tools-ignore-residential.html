@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An AI Trained on 750,000 Schedules Can Predict Your Delay. It&rsquo;s Never Seen a House. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-scheduling-tools-ignore-residential.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An AI Trained on 750,000 Schedules Can Predict Your Delay. It's Never Seen a House.",
+		"description": "The biggest AI scheduling platforms learned from highways, hospitals, and oil rigs. Residential construction, which accounts for more single-family starts per year than all commercial sectors combined, barely registers in their training data. We ran the delay-cost math they won't.",
+		"image": "https://aihomebuilding.com/images/ai-scheduling-tools-ignore-residential.jpg",
+		"datePublished": "2026-04-24",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-scheduling-tools-ignore-residential.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An AI Trained on 750,000 Schedules Can Predict Your Delay. It&rsquo;s Never Seen a House.">
+	<meta property="og:description" content="The biggest AI scheduling platforms learned from highways, hospitals, and oil rigs. Residential construction barely registers in their training data. We ran the delay-cost math they won't.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-scheduling-tools-ignore-residential.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-scheduling-tools-ignore-residential.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An AI Trained on 750,000 Schedules Can Predict Your Delay. It&rsquo;s Never Seen a House.">
+	<meta name="twitter:description" content="AI scheduling platforms trained on 750K commercial schedules. Zero residential. We ran the delay-cost math.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-scheduling-tools-ignore-residential.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.stat-callout .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.back-link {
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-body { font-size: 1rem; }
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-scheduling-tools-ignore-residential.jpg" alt="A construction superintendent studying a Gantt chart on a laptop inside a partially framed residential home, warm afternoon light through bare studs">
+		<div class="overlay">
+			<div class="badge">Project Management</div>
+			<h1>An AI Trained on 750,000 Schedules Can Predict Your Delay. It&rsquo;s Never Seen a House.</h1>
+			<div class="meta">By Frank DeLuca &middot; April 23, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Last month I watched a demo of <a href="https://www.nplan.io/" target="_blank">nPlan</a>, the London-based AI company that claims to predict construction delays before they happen. The pitch was smooth: their model has ingested 750,000 historical project schedules representing over $2 trillion in construction spend, and it can forecast the probability of any given task finishing late, with clients including Skanska, BAM, Shell, and Google all relying on it for projects worth hundreds of millions.</p>
+
+			<p>So I asked the obvious question: how many of those 750,000 schedules are residential?</p>
+
+			<p>Silence. Then something about how their model covers "all capital project sectors." When I pressed for a number, the answer, delivered with the practiced evasion of someone who has fielded this question before, was that residential represents "an emerging area of focus."</p>
+
+			<p>Zero. The answer is zero, or close enough that nobody will say it out loud.</p>
+
+			<div class="stat-callout">
+				<div class="number">750,000</div>
+				<div class="label">Historical schedules in nPlan's training dataset. Their published client list includes highways, rail, oil &amp; gas, and commercial buildings, but not a single residential builder.</div>
+			</div>
+
+			<h2>Where the Data Actually Lives</h2>
+
+			<p>nPlan isn't alone. <a href="https://www.alicetechnologies.com/" target="_blank">ALICE Technologies</a>, named to BuiltWorlds' Top 50 Preconstruction Tech list in 2025, simulates millions of sequencing options and runs automatic DCMA 14-point schedule checks. Their case studies feature Hawaiian Dredging Construction Company. Heavy civil. Infrastructure. Commercial towers. Autodesk Build's scheduling tool lives inside a platform designed for general contractors managing $50M+ commercial projects.</p>
+
+			<p>Meanwhile, 1.3 million single-family homes broke ground in the U.S. in 2025, each one with a schedule managed, in the vast majority of cases, by a superintendent with a whiteboard, a spreadsheet, or a $299-per-month <a href="https://constructionbids.ai/blog/coconstruct-vs-buildertrend-comparison" target="_blank">Buildertrend subscription</a> that handles task dependencies but can't predict a thing.</p>
+
+			<p>The disconnect is staggering if you think about it for longer than thirty seconds. Residential construction is the largest sector by unit volume. It experiences the same delay categories as commercial work: weather, subcontractor no-shows, material lead times, inspection bottlenecks, change orders. The <a href="https://eyeonhousing.org/2025/09/single-family-homes-are-built-faster-in-2024/" target="_blank">Census Bureau's Survey of Construction</a> shows the average single-family home took 9.1 months from permit to completion in 2024, still almost two months longer than the 2015 average, and that gap is driven by regulatory friction, labor shortages, and scheduling inefficiency. Not complexity. Inefficiency.</p>
+
+			<h2>What a Delay Day Actually Costs You</h2>
+
+			<p>Nobody calculates this for residential. Commercial developers have project controls teams that can tell you the liquidated damages per day, the cost of an idle crane, the overhead burn rate to four decimal places. Residential builders know delays cost money the way everyone knows vegetables are healthy: vaguely, without doing the math. So I did the math. Take a $500,000 custom home, which sits near the national median for new construction, midway through a 7.6-month build (the Census average for built-for-sale homes).</p>
+
+			<table>
+				<tr><th>Cost Category</th><th>Daily Cost</th><th>Assumption</th></tr>
+				<tr><td>Construction loan interest</td><td>$51</td><td>7.5% rate on $250K avg draw</td></tr>
+				<tr><td>Property tax (land)</td><td>$6.58</td><td>1.2% on $200K land value</td></tr>
+				<tr><td>Builder's risk insurance</td><td>$6.85</td><td>$2,500/year policy</td></tr>
+				<tr><td>Superintendent overhead</td><td>$350</td><td>Salary + truck + phone</td></tr>
+				<tr><td>Homeowner temp housing*</td><td>$125</td><td>If between homes</td></tr>
+				<tr><td><strong>Total</strong></td><td><strong>$539</strong></td><td></td></tr>
+			</table>
+
+			<p>*Not every project carries this cost, but enough do that ignoring it is dishonest.</p>
+
+			<p>That is $539 per day, which means thirty days of delay, the kind that happens when your framing crew doesn't show for a week and it cascades through electrical, plumbing, insulation, and drywall in sequence, costs $16,170. On a $500,000 build, that is a 3.2% budget overrun from schedule slippage alone, before you count the premium-rate crews you hire to crash the timeline back.</p>
+
+			<div class="stat-callout">
+				<div class="number">$539/day</div>
+				<div class="label">Carrying cost of a single delay day on a $500K custom home build, including construction loan interest, taxes, insurance, and builder overhead</div>
+			</div>
+
+			<h2>Why Residential Schedules Are Hard to Predict (And Why That's the Point)</h2>
+
+			<p>I can already hear the objections, because I've made them myself. Custom homes are unique, and no two have identical floor plans, structural systems, or site conditions. Subcontractor pools are thin: you're relying on a four-person framing crew, not a union shop with 200 carpenters on the bench. Change orders come from homeowners who saw something on Pinterest at 11 p.m. and want to move a load-bearing wall. How do you train a model on that?</p>
+
+			<p>Fair questions. But they describe the symptom, not the disease. The reason AI scheduling tools haven't touched residential isn't that the problem is unsolvable. It's that the data doesn't exist in a form these models can eat.</p>
+
+			<p>Commercial construction lives in Primavera P6, Oracle Aconex, and Procore: structured data, logged daily, with task IDs and predecessor relationships and resource assignments and earned value metrics, all feeding neatly into a model that can spot patterns across thousands of projects. Residential construction lives in text message threads between a builder and his plumber, in a handwritten pickup truck notebook, in the superintendent's memory of which electrician always runs late after a long weekend.</p>
+
+			<p>That is not an obstacle but an opportunity, and the data to exploit it already exists. Buildertrend and CoConstruct already have structured scheduling data from hundreds of thousands of residential projects. Buildertrend alone serves over a million users across 100 countries, and 94% of surveyed builders using it report improved on-time completion within six months. That dataset of task dependencies, actual-versus-planned dates, weather conditions, and subcontractor performance across hundreds of thousands of builds is exactly what a predictive scheduling model needs, yet nobody has built the model.</p>
+
+			<h2>What $299 a Month Gets You (And What It Doesn't)</h2>
+
+			<p>Buildertrend is good software. I mean that sincerely, and I don't say it about many tools. It manages scheduling dependencies across 500+ tasks per project, sends automated reminders to subs, and tracks change orders with an efficiency that makes the old whiteboard-and-phone-call approach look prehistoric. For a residential builder doing 10 to 50 homes a year, it removes a significant amount of administrative pain, and at $299 per month it is a reasonable cost relative to the chaos it replaces.</p>
+
+			<p>But what it does not do, what it cannot do with its current architecture, is predict. It cannot look at your framing task, cross-reference it with the 14-day weather forecast and your framing sub's historical on-time rate across 30 prior projects, and tell you there is a 68% probability that drywall will start four days late. It cannot flag that your plumbing rough-in is on the critical path and your plumber has a pattern of three-day late starts on projects where the foundation pour ran behind. It cannot run 10,000 Monte Carlo simulations of your schedule and give you P50 and P90 completion dates.</p>
+
+			<p>nPlan does all of that for highways, hospitals, and data centers, but not for your house.</p>
+
+			<h2>The Break-Even Nobody Has Calculated</h2>
+
+			<p>If an AI scheduling tool could shave even one week off the average residential build timeline, the math is immediate. Seven days at $539 per day is $3,773 in avoided carrying costs per project. A builder running 20 homes a year saves $75,460. That is a meaningful margin recovery on residential work, where net margins typically run 5 to 8%.</p>
+
+			<p>For a SaaS tool priced at $500 to $1,000 per month (in line with what commercial scheduling platforms charge for smaller teams), the break-even is fewer than two projects per year. That tool pays for itself if it prevents one cascading delay per quarter, which in my experience managing residential projects is a comically low bar given that cascading delays happen on nearly every build.</p>
+
+			<p>I am not saying such a tool exists. I am saying that the economics justify building one, and that the data to train it is sitting inside Buildertrend's servers right now, generating scheduling reports instead of predictions.</p>
+
+			<h2>The Strongest Argument Against This Whole Thesis</h2>
+
+			<p>Residential construction may genuinely be too variable for schedule prediction to work at useful accuracy levels. Commercial projects, even complex ones, follow established sequencing patterns within building types. A 20-story concrete-frame office building in Houston looks structurally similar to one in Atlanta. Activity durations cluster. Resource loading follows recognizable curves. Signal-to-noise ratios are high enough in commercial work that 750,000 schedules can teach a model something useful.</p>
+
+			<p>Custom residential doesn't cluster the same way. A 1,400-square-foot ranch in suburban Ohio and a 4,800-square-foot hillside contemporary in Marin County share almost no scheduling DNA. Subcontractor ecosystems differ, inspection regimes differ, and the soil conditions, permit environments, and homeowner involvement levels are all wildly different from one project to the next. A model trained on this data might produce predictions so wide as to be useless, forecasting completion somewhere between month six and month fourteen, which is what the Census data already tells us for free.</p>
+
+			<p>That is a real concern, not a strawman. And it won't be resolved by argument. It requires someone to build the model and test it. My suspicion, based on twenty-plus years of watching construction schedules go sideways, is that the subcontractor reliability signal alone would be predictive enough to justify the tool. But suspicion is not evidence.</p>
+
+			<h2>What You Should Do Right Now</h2>
+
+			<p>If you are a custom home builder running five or more concurrent projects: start tracking actual-versus-planned dates by trade in whatever software you use. Not just "framing complete," but the specific crew, the planned start, the actual start, the planned duration, the actual duration, and the reason for any variance. Weather. Material delay. No-show. Inspection hold. Every entry. It takes your superintendent three minutes per trade per day. In two years, you will have a dataset that either validates or kills the residential scheduling prediction hypothesis, and either way, the pattern data will improve your own estimating accuracy immediately.</p>
+
+			<p>If you are a homeowner in the middle of a custom build: ask your builder for the critical path. Not the optimistic timeline they quoted to win the contract, but the sequence of tasks where a delay in one directly delays the next. Then ask which subcontractor on that critical path has the worst on-time record. If your builder can't answer that question, you now understand exactly why your home is going to be late, and it has nothing to do with AI.</p>
+
+			<p>If you are Buildertrend or CoConstruct: you are sitting on the most valuable residential construction scheduling dataset in the world. Whoever builds the first platform to offer predictive schedule analytics, even rudimentary ones, wins the next decade of this market. nPlan raised $50 million, and the opportunity in residential is larger by volume, so the dataset is yours for the taking. Build the model.</p>
+
+			<h2>What This Analysis Doesn't Cover</h2>
+
+			<p>My carrying-cost calculation uses national averages for construction loan rates, property tax, and insurance. In high-cost markets like the Bay Area or greater New York, the daily burn rate can easily double. In lower-cost rural markets, it drops substantially. That $539 figure is a midpoint, not a universal truth.</p>
+
+			<p>I inferred the absence of residential data in nPlan's training set from their published client list, case studies, and marketing materials. It is possible they have residential schedules in their dataset that they do not advertise. I asked. They did not provide a number. My inference stands until corrected, but I acknowledge the limitation.</p>
+
+			<p>Buildertrend's "94% improved on-time completion" figure is from their own user survey, not an independent audit. Self-reported satisfaction data in SaaS is notoriously unreliable. I cite it as directional evidence that structured scheduling helps, not as proof of a specific improvement magnitude.</p>
+
+			<p>Finally, my break-even analysis assumes the AI tool achieves a one-week schedule reduction. Whether that is achievable for residential projects is unknown. A commercial-trained model applied to residential data might achieve two days, or two weeks, or nothing. The economics I present are conditional on that assumption.</p>
+
+			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
+				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>
+				<ul style="font-size:0.9rem; line-height:1.7; color:var(--text-secondary);">
+					<li><a href="https://www.nplan.io/" target="_blank">nPlan</a> &mdash; 750,000 historical project schedules, $2T+ construction spend, clients include Skanska, BAM, Shell, Google, Network Rail</li>
+					<li><a href="https://www.alicetechnologies.com/product/preconstruction" target="_blank">ALICE Technologies</a> &mdash; generative AI scheduling, DCMA 14-point checks, BuiltWorlds Top 50 Preconstruction Tech 2025</li>
+					<li><a href="https://eyeonhousing.org/2025/09/single-family-homes-are-built-faster-in-2024/" target="_blank">Eye on Housing / NAHB, &ldquo;Single-Family Homes Are Built Faster in 2024&rdquo;</a> &mdash; U.S. Census Bureau Survey of Construction data: 9.1 months permit-to-completion, 7.6 months construction, regional variance</li>
+					<li><a href="https://constructionbids.ai/blog/coconstruct-vs-buildertrend-comparison" target="_blank">ConstructionBids.ai, &ldquo;CoConstruct vs Buildertrend&rdquo; (2026)</a> &mdash; Buildertrend $299/mo, 1M+ users, 94% improved on-time completion; CoConstruct $99/mo, 73% communication reduction</li>
+					<li><a href="https://archdesk.com/blog/construction-project-schedule-risks" target="_blank">Archdesk, &ldquo;Project Schedule Risk&rdquo;</a> &mdash; 45% of construction projects experience weather-related delays, $250K/day commercial cost</li>
+					<li><a href="https://www.mdpi.com/2071-1050/13/5/2861" target="_blank">Schuldt et al., &ldquo;Weather-Related Construction Delays in a Changing Climate&rdquo; (2021)</a> &mdash; systematic review, Sustainability 13(5):2861</li>
+					<li><a href="https://incora.software/insights/how-ai-scheduling-agents-improve-project-management-in-construction" target="_blank">Incora Software, &ldquo;How AI Scheduling Agents Improve Project Management in Construction&rdquo;</a> &mdash; automated Gantt updates, critical path recalculation, workforce optimization</li>
+				</ul>
+			</section>
+		</article>
+	</div>
+
+	<a href="../" class="back-link" style="display:block; text-align:center; padding:0 0 3rem;">&larr; Back to all articles</a>
+	<script src="../js/article-nav.js"></script>
+</body>
+</html>
