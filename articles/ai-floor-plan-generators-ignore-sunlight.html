@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>AI Drew Your Floor Plan in 30 Seconds. It Forgot Where the Sun Is. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-floor-plan-generators-ignore-sunlight.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "AI Drew Your Floor Plan in 30 Seconds. It Forgot Where the Sun Is.",
+		"description": "A 2025 study tested 31 AI-generated floor plans across five climate zones. None consistently accounted for solar orientation. The tools optimize for adjacency and circulation while ignoring the single biggest factor in whether a home feels alive or entombed.",
+		"image": "https://aihomebuilding.com/images/ai-floor-plan-generators-ignore-sunlight.jpg?v=8e5e875b",
+		"datePublished": "2026-04-23",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-floor-plan-generators-ignore-sunlight.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="AI Drew Your Floor Plan in 30 Seconds. It Forgot Where the Sun Is.">
+	<meta property="og:description" content="A study tested 31 AI-generated floor plans and found none consistently integrated solar orientation. These tools optimize for room adjacency while ignoring the factor that determines whether your home feels alive or buried.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-floor-plan-generators-ignore-sunlight.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-floor-plan-generators-ignore-sunlight.jpg?v=8e5e875b">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="AI Drew Your Floor Plan in 30 Seconds. It Forgot Where the Sun Is.">
+	<meta name="twitter:description" content="31 AI floor plans tested. None understood sunlight. What that means for your home.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-floor-plan-generators-ignore-sunlight.jpg?v=8e5e875b">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.stat-callout .number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.25rem;
+		}
+		.back-link {
+			color: var(--text-muted);
+			text-decoration: none;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-body { font-size: 1rem; }
+		}
+	</style>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do AI floor plan generators consider natural light and solar orientation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 2025 study published in AI EDAM tested 31 AI-generated floor plans from ChatGPT, Copilot, and LookX across five climate zones. None of the tools consistently integrated solar orientation or seasonal lighting considerations. The AI optimizes for room adjacency and circulation, not daylighting performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does poor daylighting cost a homeowner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lighting accounts for about 10% of residential electricity consumption according to the U.S. Energy Information Administration. A poorly oriented home that requires 2-3 additional hours of artificial lighting daily can add $150-300 per year in electricity costs, compounding over the life of the home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI tools be fixed to include daylighting analysis in floor plans?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Researchers at Tongji University developed a GAN-based system that predicts daylighting performance from floor plan images 267 times faster than traditional simulation, with less than 5% deviation from ground truth. The technology exists to close this gap, but no consumer AI floor plan tool has integrated it yet."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-floor-plan-generators-ignore-sunlight.jpg?v=8e5e875b" alt="Morning sunlight streaming through floor-to-ceiling windows into an empty modern residential room, casting long geometric shadows across a concrete floor">
+		<div class="overlay">
+			<div class="badge">Architecture &amp; Design</div>
+			<h1>AI Drew Your Floor Plan in 30 Seconds. It Forgot Where the Sun Is.</h1>
+			<div class="meta">By Elena Vasquez &middot; April 23, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Thirty-one floor plans across five climate zones, generated by three AI tools: a researcher at Ostim Technical University in Ankara fed climate-specific prompts into ChatGPT, Microsoft Copilot, and LookX, asking each to generate sustainable housing layouts for cities ranging from tropical Singapore to subarctic Helsinki, then reconstructed the outputs in AutoCAD and ran daylight simulations using <a href="https://www.velux.com/what-we-do/research-and-knowledge/deic-basic-book/daylight/daylight-calculations-and-measurements/velux-daylight-visualizer" target="_blank">Velux Daylight Visualizer</a>, measuring illuminance on equinox and solstice dates.</p>
+
+			<p>Of the 31 generated plans, 23 were unusable: walls that terminated in mid-air, rooms without doors, corridors leading nowhere. LookX was excluded entirely because its outputs lacked what the study diplomatically called "sufficient architectural legibility," and only eight plans survived to simulation.</p>
+
+			<p>Not one consistently accounted for where the sun would be.</p>
+
+			<div class="stat-callout">
+				<div class="number">0 of 31</div>
+				<div class="label">AI-generated floor plans that consistently integrated solar orientation across five climate zones (&#199;elik, 2025, <a href="https://doi.org/10.1017/S0890060425100085" target="_blank">AI EDAM</a>)</div>
+			</div>
+
+			<h2>What the Tools Actually Optimize</h2>
+
+			<p>I spend a lot of time thinking about how light enters a room, which sounds pretentious until you stand in a kitchen that faces north in Portland, Oregon, at 3 PM in November, when the countertops disappear into a grey murk that makes you reach for the light switch in the middle of the afternoon, or until you visit a master bedroom in Phoenix that catches the full western sun at 4 PM in July, turning the space into something between a greenhouse and a convection oven.</p>
+
+			<p>AI floor plan generators are not thinking about this. They are solving an adjacency puzzle: kitchen near dining room, bedrooms clustered away from living spaces, bathrooms sharing wet walls to reduce plumbing runs. Good instincts, borrowed from thousands of training examples, but the training data is stripped of context. A plan drawn for a south-facing lot in Savannah looks identical to one drawn for a north-facing lot in Duluth, and the AI has no mechanism to distinguish between the two, because it was never asked to.</p>
+
+			<p>Tu&#287;&#231;e &#199;elik, the researcher behind the <a href="https://doi.org/10.1017/S0890060425100085" target="_blank">2025 Cambridge University Press study</a>, described the gap between what these models produce and what architecture requires: the tools generate "representation" without "environmental logic," meaning they can draw a window but cannot reason about what that window will do on December 21st at 2 PM when the sun is 23 degrees above the southern horizon and the living room needs 300 lux to feel like anything other than a cave.</p>
+
+			<h2>Why 300 Lux Matters in Your Living Room</h2>
+
+			<p>Lighting engineers use a metric called <a href="https://elearning.ies.org/products/daylight-metrics-update-new-provisions-in-lm-83-23-spatial-daylight-autonomy-sda-and-annual-sunlight-exposure-ase" target="_blank">spatial daylight autonomy</a>, or sDA. The benchmark, codified in IES LM-83, asks a blunt question: what percentage of a room's floor area receives at least 300 lux of daylight for at least 50% of occupied hours? If your living room hits sDA<sub>300/50</sub> above 55%, LEED gives you two points, and above 75%, three. Below 55%, you are living in a space that depends on electric light to feel inhabitable during the hours you are most likely to be awake.</p>
+
+			<p>Three hundred lux is not a lot, roughly the illuminance of a well-lit office, but it is what your eyes need to read a book without squinting and what your circadian system needs during morning hours to suppress melatonin production and synchronize your sleep cycle. The <a href="https://standard.wellcertified.com/v16/light/circadian-lighting-design" target="_blank">WELL Building Standard v2</a> goes further, specifying a minimum of 150 equivalent melanopic lux at eye level for circadian health, a target that natural daylight achieves effortlessly when a room is properly oriented but that requires specialized, expensive electric fixtures to replicate when it is not.</p>
+
+			<p>AI floor plan tools do not model sDA, do not model melanopic lux, and do not model the sun path at all. And because orientation is the single largest determinant of daylighting performance, this is not a detail the tools overlook. It is the foundation they never built.</p>
+
+			<h2>Calculating What a Dark Floor Plan Costs You</h2>
+
+			<p>According to the <a href="https://www.eia.gov/todayinenergy/detail.php?id=36412" target="_blank">U.S. Energy Information Administration's RECS data</a>, lighting consumes 10% of the electricity used in American homes. In a typical household spending $1,500 annually on electricity, that is $150 per year on lighting alone.</p>
+
+			<p>Now consider two versions of the same 2,000-square-foot house on the same lot. Version A orients the living room, kitchen, and primary bedroom toward the south. In a temperate climate, south-facing glazing captures low winter sun and is easily shaded from high summer sun with a modest overhang. Version B, the plan the AI generated, places the living room facing north and the kitchen in the interior of the home, where daylight never reaches without a skylight nobody budgeted for.</p>
+
+			<p>Version B needs artificial lighting for roughly two to three additional hours per day in occupied living spaces. That adds up. At 200 watts of combined fixture load across the living room and kitchen and an average residential electricity rate of $0.16/kWh, the penalty reaches $90 to $180 per year across primary living spaces, compounding to $2,700 to $5,400 over a 30-year mortgage without adjusting for rate increases that have averaged <a href="https://www.eia.gov/electricity/monthly/epm_table_5_6_a.html" target="_blank">2.3% annually</a> over the last decade.</p>
+
+			<p>These are conservative numbers that assume LED fixtures throughout; with older incandescent or halogen lighting, the penalty triples. And none of this captures the harder-to-quantify cost: what it feels like to live in a home where you flip a light switch at 10 AM because the kitchen is on the wrong side of the house.</p>
+
+			<h2>A 267x Speedup That Nobody Ships</h2>
+
+			<p>Researchers know how to fix this. A team at Tongji University, publishing in the <a href="https://link.springer.com/chapter/10.1007/978-981-95-0974-4_4" target="_blank">Computational Design and Robotic Fabrication conference proceedings</a>, built a generative adversarial network that predicts daylighting performance directly from floor plan images. Feed it a layout, and it returns an illuminance heatmap showing exactly where a room will be bright and where it will be dark, based on window placement, orientation, and glazing ratio. The deviation from traditional simulation was less than 5%, and the speed improvement was staggering: 267 times faster than running the simulation through conventional software like Radiance or DIVA.</p>
+
+			<p>Five percent error, 267 times faster, and computationally cheap enough to run as a plugin inside any floor plan generator, yet no consumer AI tool has integrated it. Not Maket, not Planner 5D, not the floor plan features inside ChatGPT or Copilot. The technology to close the gap between drawing a room and understanding how light fills it exists in published, peer-reviewed form, and it sits in a conference proceeding that practicing architects will likely never read.</p>
+
+			<h2>The Counterargument, Taken Seriously</h2>
+
+			<p>A reasonable defense of these tools: they are sketching instruments, not construction documents. Nobody expects a napkin doodle to include structural calculations, and nobody should expect a ChatGPT-generated floor plan to model the spring equinox in ASHRAE Climate Zone 4A. Orientation, window sizing, and daylighting analysis have always been handled later in the design process by architects using simulation software like <a href="https://help.covetool.com/en/articles/3468219-daylight-analysis-sda-ase" target="_blank">cove.tool</a> or Velux Daylight Visualizer. The AI generates ideas, and humans refine them.</p>
+
+			<p>This is fair, and it would be entirely adequate if the tools marketed themselves as ideation sketchers, which they do not. Maket advertises "intelligent" floor plans. Planner 5D promises "AI-powered" design. ChatGPT generates plans in response to prompts requesting "sustainable" and "energy-efficient" homes. When a tool claims intelligence and sustainability and then produces a floor plan that puts the living room in perpetual shadow, the failure is not the user's for expecting too much but the tool's for claiming too much.</p>
+
+			<p>More practically, early-stage decisions are the most expensive to reverse. Flipping a floor plan's orientation during schematic design costs nothing. Flipping it after the foundation is poured costs everything. If AI is going to enter the design process at the earliest possible stage, which is exactly where these tools position themselves, then the earliest-stage performance concerns need to come with it.</p>
+
+			<h2>What to Do If You Used One</h2>
+
+			<p>If you generated a floor plan with an AI tool and are now moving toward construction, run a daylight check before you commit to the layout. Velux Daylight Visualizer is free and handles residential-scale projects. Upload your plan, set the location and orientation, and simulate at least four dates: the two equinoxes and the two solstices. You want living spaces, the kitchen, and the primary bedroom hitting at least 300 lux at noon on the winter solstice. If they do not, consider rotating the plan, swapping room placements, or adding south-facing glazing.</p>
+
+			<p>If you are still in the ideation stage, do not trust the AI's room placement as climate-appropriate. Print the plan, overlay it on a site plan with north marked, and ask yourself where the sun is at 8 AM, noon, and 4 PM on the shortest day of the year. If the living room faces north and the garage faces south, you have a plan optimized for parking, not living.</p>
+
+			<p>Architects have been orienting buildings to the sun for millennia. Vitruvius wrote about it in 15 BC. Passive solar design was systematized in the 1970s energy crisis. The knowledge is not obscure, older than concrete itself, and the AI has not learned it because nobody taught the training data to care about latitude.</p>
+
+			<h2>What This Analysis Did Not Cover</h2>
+
+			<p>&#199;elik's study tested three tools: ChatGPT, Copilot, and LookX. Other platforms, particularly <a href="https://www.maket.ai/" target="_blank">Maket</a> and <a href="https://www.archistar.ai/" target="_blank">Archistar</a>, which integrate more architectural constraints, may perform differently. The sample that survived to simulation was eight plans, which limits statistical confidence. I used EIA data from 2015, and LED adoption since then has reduced per-home lighting consumption, narrowing the cost penalty I calculated. The WELL Building Standard was designed for commercial occupancies, and its residential applicability remains limited, though the circadian biology underlying its recommendations does not change based on building type. Finally, the home value premium for natural light is frequently cited by realtors but poorly quantified in peer-reviewed literature, so I did not include a resale estimate.</p>
+
+		</article>
+
+		<p style="margin-top: 2rem;"><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+	</div>
+
+</body>
+</html>
