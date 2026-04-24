@@ -1,5 +1,33 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-safety-cameras-construction-worker-surveillance",
+    "phase": "SHIP",
+    "journalist": "Marcus Washington",
+    "started": "2026-04-24T09:00:00Z",
+    "article_number": 200,
+    "headline": "1,075 Workers Died on Construction Sites Last Year. The Fix Your Insurer Wants Comes With a Camera That Never Blinks.",
+    "critique_round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 8.7,
+      "social": 9.0,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.89
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 7.3,
+      "banned_phrases": 0,
+      "rhythm_pass": true,
+      "rhythm_variance": 242.4,
+      "rhythm_short_pct": 8.3,
+      "rhythm_long_pct": 46.7
+    },
+    "ship_blocked": "1/day gate: #198 and #199 already published 2026-04-24. Next eligible 2026-04-25."
+  },
   "last_completed": {
     "slug": "ai-underground-utility-detection-residential",
     "headline": "197,000 Buried Utility Lines Got Hit Last Year. Your Builder's Locator Couldn't See Half of Them.",
