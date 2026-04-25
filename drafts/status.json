@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "residential-commissioning-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Frank DeLuca",
     "headline": "Your Builder Tested 14 Systems. Nobody Turned Them All On at Once.",
-    "started": "2026-04-25T13:05:00Z",
+    "journalist": "Frank DeLuca",
+    "published": "2026-04-25T23:00:00Z",
     "article_number": 204,
     "scores": {
       "general": 8.7,
@@ -16,34 +15,6 @@
       "rigor": 8.9,
       "data": 8.7,
       "average": 8.76
-    },
-    "gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 0.9,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 279.5,
-        "short_pct": 7.0,
-        "long_pct": 52.1,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "slug": "wrong-nails-shear-wall-ai-gap",
-    "headline": "Your Framer Used the Wrong Nails on Every Shear Wall. The Inspector Spent 10 Minutes.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-25T13:01:00Z",
-    "article_number": 203,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.6,
-      "rigor": 8.8,
-      "data": 8.5,
-      "average": 8.69
     }
   }
 }
