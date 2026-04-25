@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "wrong-nails-shear-wall-ai-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-04-25T07:05:00Z",
-    "article_number": 203
+    "article_number": 203,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.6,
+      "rigor": 8.8,
+      "data": 8.5,
+      "average": 8.69
+    }
   },
   "last_completed": {
     "slug": "teardown-carbon-debt-green-rebuild",
