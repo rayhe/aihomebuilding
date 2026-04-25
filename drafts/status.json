@@ -1,11 +1,33 @@
 {
   "current": {
     "slug": "residential-commissioning-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank DeLuca",
+    "headline": "Your Builder Tested 14 Systems. Nobody Turned Them All On at Once.",
     "started": "2026-04-25T13:05:00Z",
-    "article_number": 204
+    "article_number": 204,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 9.1,
+      "social": 8.6,
+      "legal": 8.7,
+      "rigor": 8.9,
+      "data": 8.7,
+      "average": 8.76
+    },
+    "gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 0.9,
+      "banned_phrases": 0,
+      "sentence_rhythm": {
+        "variance": 279.5,
+        "short_pct": 7.0,
+        "long_pct": 52.1,
+        "passed": true
+      }
+    }
   },
   "last_completed": {
     "slug": "wrong-nails-shear-wall-ai-gap",
