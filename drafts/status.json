@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "stormwater-compliance-ai",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Catherine Chen",
-    "started": "2026-04-26T01:00:00Z",
-    "article_number": 205,
     "headline": "Your Stormwater Plan Is in a Binder in the Job Trailer. The EPA Inspector Brought a Calculator.",
+    "journalist": "Catherine Chen",
+    "published": "2026-04-26T03:01:00Z",
+    "article_number": 205,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -16,23 +15,6 @@
       "rigor": 8.9,
       "data": 8.6,
       "average": 8.74
-    }
-  },
-  "last_completed": {
-    "slug": "residential-commissioning-gap",
-    "headline": "Your Builder Tested 14 Systems. Nobody Turned Them All On at Once.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-04-25T23:00:00Z",
-    "article_number": 204,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 9.1,
-      "social": 8.6,
-      "legal": 8.7,
-      "rigor": 8.9,
-      "data": 8.7,
-      "average": 8.76
     }
   }
 }
