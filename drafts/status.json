@@ -1,11 +1,22 @@
 {
   "current": {
     "slug": "stormwater-compliance-ai",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Catherine Chen",
     "started": "2026-04-26T01:00:00Z",
-    "article_number": 205
+    "article_number": 205,
+    "headline": "Your Stormwater Plan Is in a Binder in the Job Trailer. The EPA Inspector Brought a Calculator.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 9.1,
+      "social": 8.5,
+      "legal": 8.8,
+      "rigor": 8.9,
+      "data": 8.6,
+      "average": 8.74
+    }
   },
   "last_completed": {
     "slug": "residential-commissioning-gap",
