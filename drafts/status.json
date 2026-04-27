@@ -1,10 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "concrete-maturity-sensors-foundation",
-    "phase": "QA",
-    "round": 1,
+    "headline": "Your Builder Waited 7 Days to Strip Your Foundation Forms. A $50 Sensor Knew the Concrete Was Ready in 3.",
     "journalist": "Jake Kowalski",
-    "started": "2026-04-27T09:00:00Z",
+    "published": "2026-04-27T11:00:00Z",
     "article_number": 209,
     "scores": {
       "general": 9.0,
@@ -15,32 +15,6 @@
       "rigor": 8.8,
       "data": 8.9,
       "average": 8.87
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 3.1,
-      "banned_phrases": 0,
-      "rhythm_variance": 378.8,
-      "rhythm_short_pct": 9.6,
-      "rhythm_long_pct": 46.2,
-      "rhythm_passed": true
-    }
-  },
-  "last_completed": {
-    "slug": "ai-renders-unbuildable-designs",
-    "headline": "That AI Render Costs $29. Building the House in It Costs Six Figures More Than You Think.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-04-27T07:00:00Z",
-    "article_number": 208,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 9.0,
-      "average": 8.97
     }
   }
 }
