@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-renders-unbuildable-designs",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
     "headline": "That AI Render Costs $29. Building the House in It Costs Six Figures More Than You Think.",
-    "started": "2026-04-27T03:05:00Z",
-    "round": 1,
+    "journalist": "Elena Vasquez",
+    "published": "2026-04-27T07:00:00Z",
+    "article_number": 208,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,35 +15,6 @@
       "rigor": 8.8,
       "data": 9.0,
       "average": 8.97
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 5.9,
-      "banned_phrases": 0,
-      "rhythm_variance": 776.9,
-      "rhythm_short_pct": 11.9,
-      "rhythm_long_pct": 53.7,
-      "all_passed": true
-    },
-    "hero_image": "images/ai-renders-unbuildable-designs.jpg",
-    "hero_hash": "5533d95c",
-    "article_number": 208
-  },
-  "last_completed": {
-    "slug": "ai-apprenticeship-completion-crisis",
-    "headline": "65% of Construction Apprentices Drop Out Before Finishing. Washington Just Added AI to the Curriculum.",
-    "journalist": "Marcus Washington",
-    "published": "2026-04-27T01:05:00Z",
-    "article_number": 207,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.6,
-      "ethics": 9.1,
-      "social": 8.6,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.5,
-      "average": 8.73
     }
   }
 }
