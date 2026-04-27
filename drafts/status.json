@@ -1,5 +1,33 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-renders-unbuildable-designs",
+    "phase": "SHIP",
+    "journalist": "Elena Vasquez",
+    "headline": "That AI Render Costs $29. Building the House in It Costs Six Figures More Than You Think.",
+    "started": "2026-04-27T03:05:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 9.0,
+      "average": 8.97
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 5.9,
+      "banned_phrases": 0,
+      "rhythm_variance": 776.9,
+      "rhythm_short_pct": 11.9,
+      "rhythm_long_pct": 53.7,
+      "all_passed": true
+    },
+    "hero_image": "images/ai-renders-unbuildable-designs.jpg",
+    "hero_hash": "5533d95c"
+  },
   "last_completed": {
     "slug": "ai-apprenticeship-completion-crisis",
     "headline": "65% of Construction Apprentices Drop Out Before Finishing. Washington Just Added AI to the Curriculum.",
