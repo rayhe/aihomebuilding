@@ -3,9 +3,19 @@
     "slug": "ai-heat-pump-sizing-residential-oversizing-crisis",
     "headline": "Your Contractor Sized Your Heat Pump Using a Rule From 1970. AI Found It Was 2.4x Too Big.",
     "journalist": "Priya Greenwood",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-04-28T09:00:00Z"
+    "phase": "QA",
+    "round": 1,
+    "started": "2026-04-28T09:00:00Z",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.9,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.9,
+      "average": 8.83
+    }
   },
   "last_completed": {
     "slug": "ai-thermal-imaging-building-envelope-leaks",
