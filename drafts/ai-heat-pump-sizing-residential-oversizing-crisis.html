@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Contractor Sized Your Heat Pump Using a Rule From 1970. AI Found It Was 2.4x Too Big. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-heat-pump-sizing-residential-oversizing-crisis.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Contractor Sized Your Heat Pump Using a Rule From 1970. AI Found It Was 2.4x Too Big.",
+		"description": "HVAC systems in American homes are routinely oversized by 50-200%. Contractors still use square-footage rules of thumb that ignore insulation, windows, and orientation. Machine learning platforms trained on actual load calculations are exposing the gap, and it is enormous.",
+		"image": "https://aihomebuilding.com/images/ai-heat-pump-sizing-residential-oversizing-crisis.jpg",
+		"datePublished": "2026-04-28",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-heat-pump-sizing-residential-oversizing-crisis.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Contractor Sized Your Heat Pump Using a Rule From 1970. AI Found It Was 2.4x Too Big.">
+	<meta property="og:description" content="HVAC systems in American homes are routinely oversized by 50-200%. Machine learning trained on actual load data is exposing the gap.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-heat-pump-sizing-residential-oversizing-crisis.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-heat-pump-sizing-residential-oversizing-crisis.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Contractor Sized Your Heat Pump Using a Rule From 1970. AI Found It Was 2.4x Too Big.">
+	<meta name="twitter:description" content="Rule-of-thumb HVAC sizing installs equipment 2-3x larger than needed. AI platforms using satellite imagery and utility data are finally fixing it.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-heat-pump-sizing-residential-oversizing-crisis.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-heat-pump-sizing-residential-oversizing-crisis.jpg" alt="Outdoor heat pump condenser unit beside a residential home with data visualization overlays showing capacity curves and load lines">
+		<div class="overlay">
+			<div class="badge">Sustainability</div>
+			<h1>Your Contractor Sized Your Heat Pump Using a Rule From 1970. AI Found It Was 2.4x Too Big.</h1>
+			<div class="meta">By Priya Greenwood &middot; April 28, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>A homeowner in Atlanta called her HVAC contractor last March because the air conditioning ran nonstop on 85-degree days but the house never quite felt dry. The contractor&rsquo;s diagnosis: the system wasn&rsquo;t big enough. He recommended upgrading from a three-ton unit to a five-ton. She would have done it, too, except a friend who works in building science told her to get an actual Manual J load calculation first.</p>
+
+			<p>The calculation showed her cooling load was 17,400 BTU/h. That translates to roughly 1.5 tons. Her existing three-ton system was already double what the house needed. The contractor had proposed tripling it.</p>
+
+			<p>She wasn&rsquo;t unusual. She was average.</p>
+
+			<h2>400 Square Feet Per Ton, and Other Lies</h2>
+
+			<p>The dominant method for sizing residential HVAC in America is not ACCA Manual J, the nationally recognized ANSI standard. It is a contractor standing in your living room, doing mental math. The rule goes like this: take the conditioned floor area, divide by some number between 400 and 600, and that is your tonnage. A 2,000-square-foot house gets a 3.5- to 5-ton system. The number varies by region and by contractor, but the logic is always the same. Square footage in, tonnage out. Insulation levels, window orientation, air sealing, duct leakage, occupancy patterns, internal heat gains from appliances? Ignored. All of it.</p>
+
+			<p><a href="https://www.energyvanguard.com/" target="_blank">Energy Vanguard</a>, a building science firm run by Allison Bailes, PhD, published data from 40 residential Manual J calculations performed across the southeastern United States, Texas, California, and the Midwest. Not a single result fell at or below 600 square feet per ton. The lowest in the entire dataset was 624. The majority exceeded 1,000. The average was 1,431 square feet per ton.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">1,431</div>
+				<div class="label">Average sq ft per ton from 40 Manual J calculations. Rules of thumb use 400&ndash;600.</div>
+			</div>
+
+			<p>Run those numbers backward. A contractor using the 500 sf/ton rule on a house that actually needs cooling at 1,431 sf/ton will install a system 2.86 times larger than the house requires. On a 2,400-square-foot home, the rule says 4.8 tons. Manual J says 1.7. That is not a rounding error. That is buying a Ford F-350 to commute to an office four miles away.</p>
+
+			<h2>Why Oversizing Kills Heat Pumps Faster Than Furnaces</h2>
+
+			<p>Gas furnaces are somewhat forgiving of oversizing. They fire, heat the air, shut off. The cycle is crude but functional. The house gets warm. Utility bills run 15-25% higher than they should, and nobody notices because they have no baseline for comparison.</p>
+
+			<p>Heat pumps are different. An oversized heat pump in cooling mode satisfies the thermostat so quickly that it shuts down before the evaporator coil has time to wring moisture from the air. This is called short-cycling. The compressor fires for four or five minutes instead of the 10-15 minutes it needs to reach steady-state dehumidification. Indoor relative humidity climbs above 60%. At 65% you start growing mold. At 70% you can smell it.</p>
+
+			<p>Variable-capacity heat pumps are marketed as the solution to this because they modulate down. But they cannot modulate infinitely. A three-ton variable-capacity system might turn down to one ton. If the house only needs half a ton at 55 degrees outside, the system is still oversized by 100% at minimum output. It will cycle. The compressor will ramp up and down searching for a steady state it can never find because the load is too far below the floor of its operating range. <a href="https://neep.org/blog/not-too-big-not-too-small-new-tools-improved-air-source-heat-pump-selection" target="_blank">NEEP&rsquo;s cold climate heat pump analysis</a> showed that even well-sized variable systems spend roughly 12% of annual operating hours cycling. Oversized ones spend far more.</p>
+
+			<p>The financial damage compounds. An oversized heat pump costs $1,500-4,000 more upfront per ton of unnecessary capacity. It runs less efficiently because it never settles into the middle of its performance curve where the COP is highest. The compressor wears faster from repeated start-stop cycles, each of which draws a surge current 4-8x the running amperage. Equipment lifespan drops from the 15-20 year typical range toward 10-12. And the homeowner, mystified by high humidity and mediocre comfort, calls the contractor who installed it, who recommends a supplemental dehumidifier for another $1,800-2,500. The root cause, that the system was sized by arithmetic divination rather than physics, never surfaces.</p>
+
+			<h2>48% of Your Energy Bill, Sized by a Guess</h2>
+
+			<p>HVAC systems consume <a href="https://greenmanual.rutgers.edu/nr-properly-sized-hvac-equipment/" target="_blank">48% of the energy used in a typical American home</a>, according to DOE data cited by the New Jersey Green Building Manual. Half the energy bill, sized by a rule of thumb that predates energy codes, building wraps, low-E glass, and spray foam insulation. The rule was never accurate. It was a heuristic for a time when houses leaked like colanders and insulation was an afterthought. Modern homes built to the 2021 IECC have dramatically lower loads per square foot, making the old rules not just wrong but dangerously wrong in the specific direction that wastes the most money and energy.</p>
+
+			<p>Engineers oversize intentionally, too. A 25% safety factor is common practice. On top of a rule of thumb that already oversizes by 100-200%, the safety factor pushes the installed capacity to absurd multiples of actual need. The engineer is protecting against the one-in-forty-year design day. <a href="https://greenmanual.rutgers.edu/nr-properly-sized-hvac-equipment/" target="_blank">Rutgers&rsquo; analysis</a> notes that these extreme conditions occur only 1-2.5% of the time, but the oversized equipment runs at degraded efficiency during the other 97.5%.</p>
+
+			<h2>The New Stack: Satellite, Utility Data, and Inference</h2>
+
+			<p>Several startups and research groups are attacking the sizing problem with ML-driven platforms that replace or augment Manual J. The approach is conceptually simple, though the execution is not. Combine data sources that are already available but have never been integrated for HVAC design:</p>
+
+			<p><strong>Satellite and aerial imagery</strong> gives you roof area, orientation, tree shading, and building footprint without a site visit. Google&rsquo;s Project Sunroof proved this works for solar sizing years ago. The same imagery feeds HVAC models.</p>
+
+			<p><strong>Utility consumption data</strong>, when available, reveals the building&rsquo;s actual energy profile across seasons. Twelve months of electric and gas bills tell you more about a home&rsquo;s thermal performance than any single-point calculation.</p>
+
+			<p><strong>Real estate and assessor records</strong> provide construction year, square footage, number of stories, and sometimes insulation and window data. Construction year alone is a powerful proxy for building envelope performance because each era has characteristic building practices.</p>
+
+			<p><strong>Local weather data</strong>, including design temperatures, heating and cooling degree days, and humidity profiles, gets layered on top.</p>
+
+			<p><a href="https://www.archclimate.com/" target="_blank">Arch</a>, a data intelligence platform that raised $6.2 million in seed funding from Gigascale Capital, Coatue, and others in February 2024, integrates data from over 12 sources and uses proprietary algorithms to help HVAC contractors size and sell heat pump systems. The pitch: contractors spend 80% of their time on leads that never convert, partly because the sales process requires a manual site visit and hand-calculated proposal. Arch generates a right-sized system recommendation from a desk. By early 2024, the platform had processed over $4 million in heat pump sales. The company is backed by the co-founders of Aurora Solar, which solved the equivalent problem for the solar industry.</p>
+
+			<p><a href="https://www.quitcarbon.com/" target="_blank">QuitCarbon</a> takes a whole-home approach, generating AI-driven electrification plans that include heat pump sizing alongside panel upgrades, water heater replacements, and induction stove swaps. Their partnership with the city of Palo Alto offers residents a personalized plan based on their address, utility data, and home characteristics.</p>
+
+			<p>On the research side, <a href="https://www.osti.gov/biblio/1619175" target="_blank">Lawrence Berkeley National Laboratory</a> validated three major building energy simulation engines against measured data in their FLEXLAB facility. The engines predicted peak heating and cooling loads with a Root Mean Square Error of roughly 10%. Not perfect, but dramatically more accurate than a contractor&rsquo;s rule of thumb that misses by 150-200%.</p>
+
+			<h2>The IRA Made This Urgent</h2>
+
+			<p>The Inflation Reduction Act changed the economics of heat pump adoption overnight. Rewiring America estimates the IRA provides an average of $10,600 per household for full electrification, including up to $2,000 for a qualified heat pump. Twenty-five states representing 55% of the U.S. population committed to installing 20 million residential heat pumps by 2030. According to <a href="https://environmentamerica.org/massachusetts/updates/heat-pumps-are-outselling-gas-furnaces-by-a-record-margin/" target="_blank">AHRI shipment data</a>, heat pump sales outpaced gas furnaces by 37% between November 2023 and November 2024, a record margin.</p>
+
+			<p>All those new heat pumps are being sized by someone. If the someone uses a rule of thumb, the country is pouring billions into equipment that runs too large, cycles too frequently, dehumidifies too poorly, and dies too early. RMI calculates that a properly selected heat pump can reduce climate pollution by up to 93% compared to a gas furnace. But that 93% figure assumes the system actually runs at its rated efficiency, which requires correct sizing. An oversized system operating at degraded part-load efficiency might deliver 60-70% of the theoretical emissions reduction. Still better than gas, but a third of the benefit left on the table because a contractor used the wrong arithmetic.</p>
+
+			<h2>What a Right-Sized System Actually Looks Like</h2>
+
+			<p>A properly sized heat pump runs longer cycles at lower intensity. In cooling mode, the evaporator coil stays cold enough, long enough, to pull moisture from the air and drain it out the condensate line instead of blowing it back into the house. Indoor humidity stays in the 45-55% range where humans feel comfortable and mold cannot establish. The compressor reaches its peak COP, which for modern cold-climate heat pumps ranges from 3.0 to 4.5 at moderate outdoor temperatures. For every unit of electricity consumed, three to four and a half units of heat are moved into or out of the house.</p>
+
+			<p>In heating mode, a right-sized system at design temperature runs nearly continuously. This is correct behavior. A heat pump operating at 100% capacity when it is 5&deg;F outside is doing exactly what it should be doing. Contractors who have spent careers installing gas furnaces interpret continuous running as failure. It is not. A furnace that runs continuously is undersized. A heat pump that runs continuously at design temperature is perfectly sized.</p>
+
+			<p>The cost difference between a right-sized and oversized installation is not trivial. For a 2,400-square-foot home in Climate Zone 4:</p>
+
+			<table>
+				<tr>
+					<th>Metric</th>
+					<th>Rule of Thumb (4.5 ton)</th>
+					<th>Manual J / AI Sized (2 ton)</th>
+				</tr>
+				<tr>
+					<td>Equipment cost</td>
+					<td>$8,500-12,000</td>
+					<td>$4,500-7,000</td>
+				</tr>
+				<tr>
+					<td>Annual energy (cooling)</td>
+					<td>~$1,100</td>
+					<td>~$740</td>
+				</tr>
+				<tr>
+					<td>Indoor RH (summer avg)</td>
+					<td>58-68%</td>
+					<td>45-55%</td>
+				</tr>
+				<tr>
+					<td>Compressor lifespan</td>
+					<td>10-12 years</td>
+					<td>15-18 years</td>
+				</tr>
+				<tr>
+					<td>Supplemental dehumidifier</td>
+					<td>Likely ($1,800-2,500)</td>
+					<td>Unnecessary</td>
+				</tr>
+			</table>
+
+			<p>Over a 15-year system lifetime, the right-sized installation saves $9,000-14,000 in equipment, energy, and avoided supplemental dehumidification. And those figures assume electricity prices stay flat, which they will not.</p>
+
+			<h2>Existing Homes Have a Simpler Path</h2>
+
+			<p>Allison Bailes published a method in 2025 that eliminates the need for a Manual J calculation on existing homes that meet certain criteria. The conditions: the home must not be undergoing major renovations that change the thermal envelope, and the current system must still be performing at roughly its original capacity.</p>
+
+			<p>The method is time-and-temperature measurement. Track the system&rsquo;s runtime against outdoor temperature during both a heating and a cooling season. If your current three-ton system runs 40% of the time on a 95&deg;F day, the house needs about 1.2 tons at that condition. The math is straightforward. The data is free. The result is more accurate than most Manual J calculations performed in the field because it captures the building as it actually behaves, not as the operator&rsquo;s assumptions about insulation R-values and infiltration rates predict it should behave.</p>
+
+			<p>AI platforms could automate this entirely. Smart thermostats already log runtime data. Utility-grade smart meters record consumption at 15-minute intervals. Connect the two data streams to a weather API and a simple regression model, and you have a load profile for every conditioned hour of every day for a year. No site visit. No input errors. No safety factor motivated by liability fear rather than physics.</p>
+
+			<h2>The Strongest Case Against</h2>
+
+			<p>AI sizing tools depend on data that is not uniformly available. Utility data access varies wildly by state and utility. Green Button data standards exist but adoption is spotty. Satellite imagery captures roofs, not walls. A house with a recent deep energy retrofit, new windows, or spray-foamed attic will look identical to its pre-retrofit self from a satellite. The model will undersize the system because the inputs reflect the old building, not the new one, unless the homeowner or contractor manually updates the envelope assumptions. This is exactly the kind of manual input that the platforms are designed to eliminate.</p>
+
+			<p>Manual J itself is imperfect. LBNL&rsquo;s FLEXLAB testing showed 10% RMSE in peak load predictions from the most sophisticated simulation engines. Field-performed Manual J calculations are worse because they depend on operator estimates of infiltration rates and insulation conditions that are frequently wrong. A Manual J that overestimates infiltration by 50% will suggest a system one full ton larger than necessary on a typical house. The calculation is only as good as its inputs, and the inputs for an existing home are often guesses dressed up as measurements.</p>
+
+			<p>There is also a structural incentive problem. Contractors make more money installing larger systems. A five-ton heat pump has higher equipment cost, higher installation labor, and a larger markup than a two-ton. Until the payment model shifts, or until building departments actually enforce the Manual J requirement that has been in the International Residential Code since 2009, contractors will continue to oversize because oversizing pays better and nobody complains when their house is too cold. They complain when it is not cold enough. Undersizing is a callback. Oversizing is a quiet theft of efficiency that the homeowner never detects.</p>
+
+			<h2>What I Did Not Prove</h2>
+
+			<p>No longitudinal study has tracked AI-sized heat pump installations against rule-of-thumb installations in the same housing stock and measured the difference in energy consumption, equipment lifespan, and occupant comfort over a full equipment lifecycle. The 2.4x oversizing figure comes from comparing Energy Vanguard&rsquo;s Manual J averages against the midpoint of the contractor rule-of-thumb range, not from a controlled experiment. The cost savings table above uses representative industry figures, not data from a specific project. Arch&rsquo;s $4 million in processed sales is self-reported. LBNL&rsquo;s FLEXLAB results apply to commercial buildings with overhead mixing ventilation and have not been validated against residential construction specifically. The 93% emissions reduction from RMI assumes a grid mix that varies by state and will change as more renewables come online.</p>
+
+			<p>The oversizing problem is real. The scale of it is supported by the data available. Whether AI platforms can solve it at scale depends on data access, contractor adoption, and code enforcement mechanisms that do not yet exist in most jurisdictions.</p>
+
+			<section class="sources" style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border);">
+				<h3 style="font-family:'Playfair Display',serif; font-size:1.2rem;">Sources</h3>
+				<ul style="font-size:0.9rem; line-height:1.7; color:var(--text-secondary);">
+					<li><a href="https://www.greenbuildingadvisor.com/article/manual-j-load-calculations-vs-rules-of-thumb" target="_blank">Energy Vanguard / Allison Bailes, PhD, &ldquo;Manual J Load Calculations vs. Rules of Thumb,&rdquo; Green Building Advisor (2016)</a></li>
+					<li><a href="https://greenmanual.rutgers.edu/nr-properly-sized-hvac-equipment/" target="_blank">NJ Green Building Manual, &ldquo;Properly-Sized HVAC Equipment,&rdquo; Rutgers University</a></li>
+					<li><a href="https://www.osti.gov/biblio/1619175" target="_blank">LBNL, &ldquo;Accuracy of HVAC Load Predictions: Validation of EnergyPlus and DOE-2 Using FLEXLAB Measurements,&rdquo; OSTI Technical Report (2020)</a></li>
+					<li><a href="https://neep.org/blog/not-too-big-not-too-small-new-tools-improved-air-source-heat-pump-selection" target="_blank">NEEP, &ldquo;Not Too Big, Not Too Small: New Tools for Improved Air Source Heat Pump Selection&rdquo; (2022)</a></li>
+					<li><a href="https://environmentamerica.org/massachusetts/updates/heat-pumps-are-outselling-gas-furnaces-by-a-record-margin/" target="_blank">Environment America, &ldquo;Heat Pumps Are Outselling Gas Furnaces by a Record Margin,&rdquo; citing AHRI Nov 2024 data</a></li>
+					<li><a href="https://pulse2.com/arch-hvac-data-intelligence-contractor-company-raises-6-2-million/" target="_blank">Pulse2, &ldquo;Arch: HVAC Data Intelligence Contractor Company Raises $6.2 Million&rdquo; (2024)</a></li>
+					<li><a href="https://www.acca.org/standards/technical-manuals/manual-j" target="_blank">ACCA, Manual J&reg; Residential Load Calculation, 8th Edition</a></li>
+					<li><a href="https://www.greenbuildingadvisor.com/article/you-dont-need-a-load-calculation" target="_blank">Allison Bailes, PhD, &ldquo;You Don&rsquo;t Need a Load Calculation,&rdquo; Green Building Advisor (2025)</a></li>
+					<li><a href="https://www.quitcarbon.com/blog/quitcarbon-palo-alto-making-home-electrification-easy" target="_blank">QuitCarbon, &ldquo;QuitCarbon + Palo Alto: Helping Residents Switch to Clean Energy&rdquo;</a></li>
+				</ul>
+			</section>
+
+		</article>
+		<div style="margin-top:2rem;">
+			<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+		</div>
+	</div>
+
+	<script src="../nav.js"></script>
+</body>
+</html>
