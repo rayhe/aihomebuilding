@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-daily-logs-litigation-documentation",
-    "phase": "QA",
+    "headline": "Your Superintendent Wrote 'No Issues' in the Daily Log. Then the Lawsuit Arrived.",
     "journalist": "Frank DeLuca",
-    "started": "2026-04-27T13:00:00Z",
-    "round": 1,
+    "published": "2026-04-28T01:00:00Z",
+    "article_number": 210,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,23 +15,6 @@
       "rigor": 8.7,
       "data": 8.8,
       "average": 8.80
-    }
-  },
-  "last_completed": {
-    "slug": "concrete-maturity-sensors-foundation",
-    "headline": "Your Builder Waited 7 Days to Strip Your Foundation Forms. A $50 Sensor Knew the Concrete Was Ready in 3.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-27T11:00:00Z",
-    "article_number": 209,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.8,
-      "rigor": 8.8,
-      "data": 8.9,
-      "average": 8.87
     }
   }
 }
