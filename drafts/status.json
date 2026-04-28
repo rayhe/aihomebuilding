@@ -1,9 +1,20 @@
 {
   "current": {
     "slug": "ai-geotechnical-soil-analysis-foundation-risk",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
-    "started": "2026-04-28T01:00:00Z"
+    "started": "2026-04-28T01:00:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.8,
+      "average": 8.83
+    }
   },
   "last_completed": {
     "slug": "ai-daily-logs-litigation-documentation",
