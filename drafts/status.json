@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-thermal-imaging-building-envelope-leaks",
+    "headline": "Your Thermal Scan Found 6 Leaks. The Neural Network Found 23 in the Same Image.",
+    "journalist": "Jake Kowalski",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-28T07:00:00Z",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.8,
+      "average": 8.76
+    }
+  },
   "last_completed": {
     "slug": "ai-geotechnical-soil-analysis-foundation-risk",
     "headline": "Half of American Homes Sit on Soil That Can Swell 15x Its Volume. Your Geotech Report Drilled Two Holes.",
