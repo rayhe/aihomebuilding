@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-warranty-defect-prediction",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-04-29T09:00:00Z",
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.87
+    }
+  },
   "last_completed": {
     "slug": "ai-permit-review-plan-checker-shortage",
     "headline": "Your Permit Sat in a Queue for Four Months. The Plan Checker Who Would Have Caught the Error Already Retired.",
