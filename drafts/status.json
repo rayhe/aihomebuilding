@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "bricklaying-robot-graveyard-buildroid",
-    "phase": "QA",
+    "headline": "Your Bricklaying Robot Needs 500 Houses to Break Even. Your Mason Needs a Pickup Truck.",
     "journalist": "Jake Kowalski",
-    "started": "2026-04-29T01:00:00Z",
-    "round": 1,
+    "published": "2026-04-29T03:03:00Z",
+    "article_number": 216,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.91
-    }
-  },
-  "last_completed": {
-    "slug": "ai-floor-plans-daylight-performance-gap",
-    "headline": "AI Generated Your Floor Plan in 11 Seconds. It Doesn't Know Which Direction the Sun Rises.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-04-28T23:00:00Z",
-    "article_number": 215,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.90
     }
   }
 }
