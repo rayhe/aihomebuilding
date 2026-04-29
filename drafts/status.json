@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-warranty-defect-prediction",
-    "phase": "QA",
+    "headline": "Your Builder Set Aside $2,980 to Fix Your New Home. They Have No Idea What Will Break.",
     "journalist": "Frank DeLuca",
-    "started": "2026-04-29T09:00:00Z",
-    "round": 0,
+    "published": "2026-04-29T23:09:00Z",
+    "article_number": 218,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,24 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.87
-    },
-    "article_number": 218
-  },
-  "last_completed": {
-    "slug": "ai-permit-review-plan-checker-shortage",
-    "headline": "Your Permit Sat in a Queue for Four Months. The Plan Checker Who Would Have Caught the Error Already Retired.",
-    "journalist": "Catherine Chen",
-    "published": "2026-04-29T07:00:00Z",
-    "article_number": 217,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.5,
-      "average": 8.7
     }
   }
 }
