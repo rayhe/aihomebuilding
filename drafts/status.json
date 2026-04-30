@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-construction-documentation-litigation-risk",
-    "phase": "QA",
-    "journalist": "Catherine Chen",
-    "started": "2026-04-30T19:00:00Z",
-    "article_number": 223,
     "headline": "Your Builder\u2019s AI Caught the Leak on March 5. The Lawsuit Will Ask Why Nobody Fixed It Until June.",
-    "critique_rounds": 1,
+    "journalist": "Catherine Chen",
+    "published": "2026-04-30T23:00:00Z",
+    "article_number": 223,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -16,34 +15,6 @@
       "rigor": 8.6,
       "data": 8.5,
       "average": 8.63
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 9.0,
-      "banned_phrases": false,
-      "sentence_rhythm": {
-        "variance": 233.5,
-        "short_pct": 10.4,
-        "long_pct": 45.5,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "slug": "ai-floor-plan-diversity-collapse",
-    "headline": "Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-04-30T17:00:00Z",
-    "article_number": 222,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 8.9,
-      "social": 8.6,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.6,
-      "average": 8.76
     }
   }
 }
