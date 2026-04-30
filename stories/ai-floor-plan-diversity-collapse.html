@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-floor-plan-diversity-collapse.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.",
+		"description": "AI floor plan generators promise hundreds of layout options. A new diversity metric reveals most of those options are the same plan wearing different dimensions. And the training data has never seen an American house.",
+		"image": "https://aihomebuilding.com/images/ai-floor-plan-diversity-collapse.jpg?v=9e40a592",
+		"datePublished": "2026-04-30",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-floor-plan-diversity-collapse.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.">
+	<meta property="og:description" content="AI floor plan generators promise hundreds of layout options. A new diversity metric reveals most of those options are the same plan wearing different dimensions.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-floor-plan-diversity-collapse.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-floor-plan-diversity-collapse.jpg?v=9e40a592">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.">
+	<meta name="twitter:description" content="The dominant AI floor plan dataset contains zero American single-family homes. The diversity collapse math is worse than you think.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-floor-plan-diversity-collapse.jpg?v=9e40a592">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-floor-plan-diversity-collapse.jpg?v=9e40a592" alt="A grid of twelve nearly identical apartment floor plans generated by AI, arranged on an architect's drafting table next to a hand-drawn single-family home plan that looks nothing like any of them, warm overhead light, shallow depth of field">
+		<div class="overlay">
+			<div class="badge">Architecture &amp; Design</div>
+			<h1>Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.</h1>
+			<div class="meta">By Elena Vasquez &middot; April 30, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Maket.ai will generate you 200 floor plan options in under a minute. Type in four bedrooms, three baths, 2,400 square feet, and the algorithm exhales a grid of layouts so fast your browser barely has time to render the thumbnails. A million users have signed up, drawn by the promise of architectural choice without architectural fees. Scroll through those 200 plans, though, and something strange starts to happen. You cannot quite articulate what is wrong with them, but you can feel it: the rooms all flow the same way, the hallways converge on the same geometries, and by the fortieth option you realize you have been looking at variations on a theme rather than genuinely different approaches to organizing domestic space.</p>
+
+			<p>A pair of researchers at the University of Pisa just proved that feeling is mathematically real.</p>
+
+			<h2>What Diversity Collapse Looks Like</h2>
+
+			<p><a href="https://arxiv.org/abs/2602.01949" target="_blank">Stoppani and Bacciu's 2025 paper</a>, a collaboration between Pisa's computer science department and the H&amp;M Group, introduced a metric they call the Diversity Score. Their finding is blunt: as diffusion models train longer and get better at generating realistic-looking floor plans, they simultaneously get worse at generating diverse ones. Fr&eacute;chet Inception Distance, the standard metric the field uses to evaluate generative models, measures only realism. It cannot detect whether a model that scores well is producing 200 genuinely different layouts or 200 pixel-level variations of the same three. FID is blind to homogeneity. A model can ace the realism test while flunking the diversity test, and nobody notices because nobody was measuring diversity in the first place.</p>
+
+			<p>Worse, their out-of-distribution evaluations showed that these models are prisoners of their training data. Given a boundary shape the training set did not contain, they do not improvise. They hallucinate familiar shapes into unfamiliar constraints, producing layouts that are technically valid but spatially incoherent, the architectural equivalent of an autocomplete engine finishing a sentence it has never actually read.</p></p>
+
+			<div class="stat-callout">
+				<div class="big-number">80,000+</div>
+				<div class="label">Floor plans in RPLAN, the dominant training dataset for AI layout generation. All of them are Chinese urban apartments. Zero are American single-family homes.</div>
+			</div>
+
+			<h2>A Dataset That Has Never Seen a Ranch House</h2>
+
+			<p>RPLAN, published by Wu et al., contains more than 80,000 annotated floor plans. It is the dataset that launched a subfield. Nearly every academic paper on AI-generated floor plans trains on it, benchmarks against it, or both, and the commercial tools that evolved from those papers inherited its DNA whether they acknowledge the lineage or not.</p>
+
+			<p>Every single plan in RPLAN is a Chinese urban apartment, without exception. Single-unit, predominantly rectangular rooms, organized around spatial norms that reflect Chinese residential architecture: wet and dry bathroom separation, compact kitchens designed for wok cooking with dedicated exhaust, genkan-style entries where shoes come off, living rooms that face south for feng shui compliance. These are legitimate architectural conventions, well-suited to the culture that produced them. They are also nothing like the spatial grammar of American single-family housing, which organizes around attached garages that open into mudrooms, open-concept kitchen-to-living flows, split bedroom plans that isolate the master suite, dedicated laundry rooms that Chinese apartments fold into balcony space, and two-story foyers that exist in no apartment on earth.</p>
+
+			<p><a href="https://arxiv.org/abs/2501.01524" target="_blank">ResPlan</a>, a newer dataset from Indiana University, attempts to fill the gap with 17,000 more diverse plans. Its authors explicitly acknowledge that RPLAN "predominantly consists of simple, single-unit layouts with mostly rectangular room shapes." But 17,000 plans competing against 80,000 entrenched ones in a field where researchers default to the largest available benchmark is not a replacement. It is a footnote that the field has yet to take seriously.</p>
+
+			<h2>Calculating the Real Number of Options</h2>
+
+			<p>If you accept Stoppani and Bacciu's framework, the effective diversity ratio of diffusion-based floor plan generators is sobering. Their Diversity Score measures how many topologically distinct layouts a model produces when given identical constraints. Across their experiments, models that FID said were improving were actually converging: generating outputs that, while visually distinct at the pixel level, shared the same room adjacency graphs, the same circulation patterns, the same fundamental spatial organization. Two plans that differ only in whether the bedroom is 12 feet wide or 14 feet wide are not two options. They are one option at two scales.</p>
+
+			<p>Applied to a commercial context, this means a tool that advertises 200 generated layouts may contain, by topological diversity measures, somewhere between 15 and 40 meaningfully distinct spatial configurations. That is still more options than a single architect would present in a first meeting, and it is dramatically fewer than the marketing suggests.</p>
+
+			<p>In 2024, the U.S. Census Bureau recorded <a href="https://www.census.gov/construction/nrc/index.html" target="_blank">947,000 single-family housing starts</a>. How many of those were influenced by generative design tools whose training data contained zero American single-family homes? We do not know, because the commercial tools do not disclose their training data composition. But the academic lineage is public, and RPLAN sits at the root of it like a geological stratum underlying everything built on top.</p>
+
+			<table>
+				<tr><th>Tool</th><th>Approach</th><th>Training Data</th><th>Price</th><th>Diversity Risk</th></tr>
+				<tr><td>Maket.ai</td><td>Generative (likely diffusion-based)</td><td>Undisclosed</td><td>$30/mo</td><td>High (if RPLAN-descended)</td></tr>
+				<tr><td>Finch3D</td><td>Graph-based rules</td><td>None (rule system)</td><td>&euro;800&ndash;2,750/yr</td><td>Low (no training collapse)</td></tr>
+				<tr><td>Academic models</td><td>Diffusion / GAN</td><td>RPLAN (80K Chinese apts)</td><td>Free / research</td><td>Proven high</td></tr>
+			</table>
+
+			<h2>Not Every Tool Is Guilty</h2>
+
+			<p>Finch3D, built by a team of Swedish architects, avoids the diversity collapse problem entirely by using a graph-based approach rather than training on images. Its proprietary Finch Graph encodes spatial relationships as nodes and edges, generating layouts through rule satisfaction rather than pattern replication. Founded by Pamela Nunez Wallgren, Jesper Wallgren, and Martin Kretz, the tool focuses on multifamily and commercial projects and costs between &euro;800 and &euro;2,750 per year, which prices it beyond the casual homeowner but within reach for architectural firms and developers who need architecturally coherent outputs rather than pixel-plausible ones.</p>
+
+			<p>This distinction matters more than any benchmark score. Graph-based systems do not suffer from training convergence because they do not train in the conventional sense, instead applying constraint-satisfaction rules that produce layouts based on spatial relationships rather than statistical patterns. A graph system that knows kitchens should be adjacent to dining rooms and that bedrooms need exterior walls will produce layouts constrained by those relationships rather than by the statistical mean of whatever dataset it absorbed. It cannot generate culturally biased plans for the same reason a compass cannot point south: the mechanism does not permit it.</p>
+
+			<p>But graph-based tools are expensive, technically complex, and designed for professionals. Maket.ai's million-user base is not architects. It is homeowners and small builders who want a starting point, and those users are the ones most likely to trust that 200 options means 200 choices.</p>
+
+			<p>As <a href="https://www.harvarddesignmagazine.org" target="_blank">Elizabeth Bowie Christoforetti</a> of the Harvard Graduate School of Design has argued, "technology tends to amplify, accelerate, or consolidate the inherited values and value systems of our society." <a href="https://rsmus.com/" target="_blank">RSM US</a> documented the physical parallel: 5-over-1 construction, enabled by IBC Section 510.2, has already homogenized American multifamily exteriors from Portland to Charlotte. AI floor plan tools risk doing to the interior what 5-over-1 did to the facade, collapsing spatial diversity into a statistical mean and calling it optimization.</p>
+
+			<h2>If You Are Using an AI Floor Plan Tool</h2>
+
+			<p>Ask what it trained on. If the company will not answer, assume the worst, because in a field where the dominant public dataset is culturally monocultural, silence about training data composition is not a trade secret defense but an admission that the question has never been asked internally, never been answered externally, and never been surfaced in the marketing materials that promise you hundreds of unique design possibilities for $30 a month.</p>
+
+			<p>Count meaningful differences, not cosmetic ones. When evaluating generated options, sketch the room adjacency graph for each: which rooms connect to which? If 15 of your 20 "different" plans have the same adjacency graph with different dimensions, you received one plan at 15 scales. A human architect who presented that range would be fired. You would not pay twice for the same blueprint with the font changed.</p>
+
+			<p>Budget for a human review. At $30 per month for Maket.ai, the tool is cheap enough to use as brainstorming software and expensive enough to make users skip the architect who would catch the problems. A licensed architect charges $2,000 to $5,000 for schematic design on a custom home. If an AI tool saves you three weeks of design iteration but leads to a plan that ignores your local building code's setback requirements, egress window minimums, or ADA-compliant hallway widths, the time savings evaporate in the permitting office. Maket.ai's own reviews note that "zoning compliance claims need professional verification before permit submission." Treat the tool as a sketch pad, not a blueprint.</p>
+
+			<p>If you are an architect evaluating generative tools for your practice, Finch3D's graph-based approach sidesteps the training data problem entirely, though it targets multifamily at a price point that reflects that market. For single-family residential, the honest answer in April 2026 is that no commercial AI floor plan generator has published evidence that its outputs are topologically diverse across American housing typologies. You are better served using the tools for constraint exploration, rapid iteration on adjacency concepts, and client presentations, not as substitutes for spatial design judgment honed on actual buildings.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>Stoppani and Bacciu studied academic diffusion models, not commercial products. Maket.ai and competitors may use proprietary architectures, supplemental training data, or post-generation filtering that mitigates diversity collapse in ways the academic literature has not yet measured. We do not have access to any commercial floor plan generator's training data composition, and the effective diversity ratio of 15 to 40 distinct layouts per 200 generated is inferred from the Diversity Score findings, not directly measured on any specific tool's output. "Diversity" in floor plans resists clean definition: two plans with identical adjacency but different proportions may be meaningfully different for a buyer whose priority is closet space rather than circulation flow. The DS metric is new, not yet independently replicated, and may not generalize to all model architectures. The 947,000 single-family housing starts figure includes all homes regardless of whether any generative design tool was involved.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>

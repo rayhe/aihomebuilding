@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "ai-floor-plan-diversity-collapse",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
     "started": "2026-04-30T13:00:00Z",
-    "headline_wip": "Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses."
+    "headline": "Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.",
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 8.9,
+      "social": 8.6,
+      "legal": 8.8,
+      "rigor": 8.9,
+      "data": 8.6,
+      "average": 8.76
+    }
   },
   "last_completed": {
     "slug": "wearable-safety-adverse-selection",
