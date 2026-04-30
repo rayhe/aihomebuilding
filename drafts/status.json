@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "wearable-safety-adverse-selection",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Marcus Washington",
     "started": "2026-04-30T09:00:00Z",
-    "headline_wip": "Your Builder Bought 40 Safety Sensors. The 14 Workers Who Refused Them Are the Ones Most Likely to Die on Site."
+    "headline_wip": "Your Builder Bought 40 Safety Sensors. The 14 Workers Who Refused Them Are the Ones Most Likely to Die on Site.",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.9,
+      "social": 9.0,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.6,
+      "average": 8.96
+    }
   },
   "last_completed": {
     "slug": "ai-energy-model-realization-gap",
