@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-floor-plan-diversity-collapse",
-    "phase": "SHIP",
-    "journalist": "Elena Vasquez",
-    "started": "2026-04-30T13:00:00Z",
     "headline": "Every AI Floor Plan Tool Trained on the Same 80,000 Apartments. None of Them Were Houses.",
-    "round": 1,
+    "journalist": "Elena Vasquez",
+    "published": "2026-04-30T17:00:00Z",
+    "article_number": 222,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -15,23 +15,6 @@
       "rigor": 8.9,
       "data": 8.6,
       "average": 8.76
-    }
-  },
-  "last_completed": {
-    "slug": "wearable-safety-adverse-selection",
-    "headline": "Your Builder Bought 40 Safety Sensors. The 14 Workers Who Refused Them Are the Ones Most Likely to Die on Site.",
-    "journalist": "Marcus Washington",
-    "published": "2026-04-30T13:00:00Z",
-    "article_number": 221,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.9,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.6,
-      "average": 8.96
     }
   }
 }
