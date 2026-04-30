@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-concrete-maturity-sensors",
-    "phase": "QA",
+    "headline": "You Waited a Week to Start Framing. The Concrete Was Ready on Tuesday.",
     "journalist": "Jake Kowalski",
-    "started": "2026-04-30T01:02:00Z",
-    "round": 0,
+    "published": "2026-04-30T03:17:00Z",
+    "article_number": 219,
     "scores": {
       "general": 9.1,
       "voice": 9.0,
@@ -14,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.99
-    }
-  },
-  "last_completed": {
-    "slug": "ai-warranty-defect-prediction",
-    "headline": "Your Builder Set Aside $2,980 to Fix Your New Home. They Have No Idea What Will Break.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-04-29T23:09:00Z",
-    "article_number": 218,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.87
     }
   }
 }
