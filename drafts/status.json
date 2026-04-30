@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-energy-model-realization-gap",
-    "phase": "QA",
+    "headline": "Your Contractor Modeled 30% Energy Savings. Across 140,000 Homes, the Actual Average Was 7%.",
     "journalist": "Priya Greenwood",
-    "started": "2026-04-30T05:01:00Z",
-    "round": 1,
+    "published": "2026-04-30T07:00:00Z",
+    "article_number": 220,
     "scores": {
       "general": 9.1,
       "voice": 8.8,
@@ -14,24 +15,6 @@
       "rigor": 8.9,
       "data": 8.8,
       "average": 8.87
-    },
-    "article_number": 220
-  },
-  "last_completed": {
-    "slug": "ai-concrete-maturity-sensors",
-    "headline": "You Waited a Week to Start Framing. The Concrete Was Ready on Tuesday.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-04-30T03:17:00Z",
-    "article_number": 219,
-    "scores": {
-      "general": 9.1,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.99
     }
   }
 }
