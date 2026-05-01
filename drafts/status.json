@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-thermal-insulation-inspection",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "4 in 10 New Homes Have Bad Insulation. A $300 Camera Catches It Before the Drywall Covers It Up.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-01T13:00:00Z",
+    "published": "2026-05-01T15:00:00Z",
+    "article_number": 226,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -14,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.79
-    }
-  },
-  "last_completed": {
-    "slug": "ai-embodied-carbon-tracking-gap",
-    "headline": "Your Builder Tracked Every 2x4 in Your Home. Not a Single Kilogram of Carbon.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-01T11:00:00Z",
-    "article_number": 225,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 9.1,
-      "social": 8.6,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.7,
-      "average": 8.74
     }
   }
 }
