@@ -1,11 +1,33 @@
 {
   "current": {
     "slug": "ai-data-center-labor-drain",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Marcus Washington",
     "started": "2026-05-01T17:00:00Z",
-    "headline_wip": "The AI Boom Needs 140,000 Electricians. Your Home Builder Can't Find One."
+    "headline_wip": "The AI Boom Needs 140,000 Electricians. Your Home Builder Can't Find One.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 8.6,
+      "legal": 9.0,
+      "rigor": 8.9,
+      "data": 8.6,
+      "average": 8.81
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 13.2,
+      "sentence_rhythm": {
+        "variance": 225.8,
+        "short_pct": 8.5,
+        "long_pct": 49.3,
+        "passed": true
+      }
+    },
+    "blocked_reason": "1/day limit — #226 already published 2026-05-01T15:07Z"
   },
   "last_completed": {
     "slug": "ai-thermal-insulation-inspection",
