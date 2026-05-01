@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-embodied-carbon-tracking-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Priya Greenwood",
-    "started": "2026-05-01T07:00:00Z",
     "headline": "Your Builder Tracked Every 2x4 in Your Home. Not a Single Kilogram of Carbon.",
+    "journalist": "Priya Greenwood",
+    "published": "2026-05-01T11:00:00Z",
+    "article_number": 225,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -15,23 +15,6 @@
       "rigor": 8.5,
       "data": 8.7,
       "average": 8.74
-    }
-  },
-  "last_completed": {
-    "slug": "ai-scheduling-labor-shortage-gap",
-    "headline": "AI Optimized Your Build Schedule Down to the Hour. Your Electrician Still Can\u2019t Come Until September.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-01T05:00:00Z",
-    "article_number": 224,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.6,
-      "average": 8.67
     }
   }
 }
