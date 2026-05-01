@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "ai-scheduling-labor-shortage-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Frank DeLuca",
     "started": "2026-05-01T01:00:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.6,
+      "average": 8.67
+    }
   },
   "last_completed": {
     "slug": "ai-construction-documentation-litigation-risk",
