@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-embodied-carbon-tracking-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Priya Greenwood",
     "started": "2026-05-01T07:00:00Z",
-    "headline": "Your Builder Tracked Every 2x4 in Your Home. Not a Single Kilogram of Carbon."
+    "headline": "Your Builder Tracked Every 2x4 in Your Home. Not a Single Kilogram of Carbon.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 9.1,
+      "social": 8.6,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.7,
+      "average": 8.74
+    }
   },
   "last_completed": {
     "slug": "ai-scheduling-labor-shortage-gap",
