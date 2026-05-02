@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-window-optimization-design-tradeoff",
-    "phase": "QA",
+    "headline": "AI Optimized Every Window in Your House. It Put None of Them Where You'd Want to Sit.",
     "journalist": "Elena Vasquez",
-    "started": "2026-05-02T01:00:00Z",
-    "round": 1,
+    "published": "2026-05-02T03:00:00Z",
+    "article_number": 228,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -14,24 +15,6 @@
       "rigor": 8.9,
       "data": 8.5,
       "average": 8.79
-    },
-    "article_number": 228
-  },
-  "last_completed": {
-    "slug": "ai-data-center-labor-drain",
-    "headline": "The AI Boom Needs 140,000 Electricians. Your Home Builder Can't Find One.",
-    "journalist": "Marcus Washington",
-    "published": "2026-05-01T23:00:00Z",
-    "article_number": 227,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 8.6,
-      "legal": 9.0,
-      "rigor": 8.9,
-      "data": 8.6,
-      "average": 8.81
     }
   }
 }
