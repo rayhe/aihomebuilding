@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-heat-pump-sizing-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Priya Greenwood",
     "started": "2026-05-02T21:00:00Z",
-    "headline": "An AI Can Size Your Heat Pump Within a Third of a Kilowatt. Your Contractor Eyeballed It and Sold You One Three Times Too Big."
+    "headline": "An AI Can Size Your Heat Pump Within a Third of a Kilowatt. Your Contractor Eyeballed It and Sold You One Three Times Too Big.",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 8.5,
+      "legal": 8.9,
+      "rigor": 9.0,
+      "data": 8.6,
+      "average": 8.76
+    }
   },
   "last_completed": {
     "slug": "ai-cost-estimation-data-gap",
