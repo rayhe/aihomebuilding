@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-appraisal-avm-bias-federal-rule",
-    "phase": "QA",
-    "journalist": "Catherine Chen",
     "headline": "Six Federal Agencies Wrote a Rule for AI Home Appraisals. It Says 'Don't Discriminate' but Doesn't Say How to Check.",
-    "started": "2026-05-02T05:00:00Z",
-    "round": 1,
+    "journalist": "Catherine Chen",
+    "published": "2026-05-02T07:00:00Z",
+    "article_number": 229,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -15,23 +15,6 @@
       "rigor": 8.9,
       "data": 8.6,
       "average": 8.80
-    }
-  },
-  "last_completed": {
-    "slug": "ai-window-optimization-design-tradeoff",
-    "headline": "AI Optimized Every Window in Your House. It Put None of Them Where You'd Want to Sit.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-05-02T03:00:00Z",
-    "article_number": 228,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.6,
-      "legal": 9.0,
-      "rigor": 8.9,
-      "data": 8.5,
-      "average": 8.79
     }
   }
 }
