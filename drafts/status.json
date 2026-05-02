@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-heat-pump-sizing-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Priya Greenwood",
-    "started": "2026-05-02T21:00:00Z",
     "headline": "An AI Can Size Your Heat Pump Within a Third of a Kilowatt. Your Contractor Eyeballed It and Sold You One Three Times Too Big.",
+    "journalist": "Priya Greenwood",
+    "published": "2026-05-02T23:00:00Z",
+    "article_number": 231,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -15,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.6,
       "average": 8.76
-    }
-  },
-  "last_completed": {
-    "slug": "ai-cost-estimation-data-gap",
-    "headline": "AI Can Predict Your Build Costs Within 5%. It Needs 10 Years of Data Your Builder Kept in a Shoebox.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-02T19:00:00Z",
-    "article_number": 230,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.9,
-      "social": 8.6,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.5,
-      "average": 8.77
     }
   }
 }
