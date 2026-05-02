@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-cost-estimation-data-gap",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-05-02T09:01:00Z",
+    "headline": "AI Can Predict Your Build Costs Within 5%. It Needs 10 Years of Data Your Builder Kept in a Shoebox.",
+    "critique_round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.9,
+      "social": 8.6,
+      "legal": 8.9,
+      "rigor": 9.0,
+      "data": 8.5,
+      "average": 8.77
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 0.0,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS",
+      "rhythm_variance": 336.5,
+      "rhythm_short_pct": 5.6,
+      "rhythm_long_pct": 52.1
+    }
+  },
   "last_completed": {
     "slug": "ai-appraisal-avm-bias-federal-rule",
     "headline": "Six Federal Agencies Wrote a Rule for AI Home Appraisals. It Says 'Don't Discriminate' but Doesn't Say How to Check.",
