@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "missing-middle-code-cliff",
+    "phase": "SHIP",
+    "journalist": "Elena Vasquez",
+    "started": "2026-05-03T17:01:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.1,
+      "voice": 8.9,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.2,
+      "data": 8.8,
+      "average": 9.0
+    },
+    "headline": "Your City Legalized Fourplexes. The Building Code Still Treats Them Like a 200-Unit Apartment Tower.",
+    "hard_gates": {
+      "em_dashes": 1,
+      "banned_phrases": 0,
+      "the_starters_pct": 3.2,
+      "rhythm_variance": 204.1,
+      "rhythm_short_pct": 14.4,
+      "rhythm_long_pct": 56.7,
+      "all_passed": true
+    }
+  },
   "last_completed": {
     "slug": "ai-training-gap-construction-youtube",
     "headline": "92% of Construction Workers Don't Use AI. Not Because They Don't Want To. Because Nobody Taught Them.",
