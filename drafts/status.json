@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-laser-slab-levelness-flat-tool",
-    "phase": "QA",
+    "headline": "Your Inspector Checked Five Spots on an 1,800-Square-Foot Slab. A DOE Laser Checked All 1,800 in Under a Minute.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-03T01:00:00Z",
-    "round": 1,
+    "published": "2026-05-03T03:05:00Z",
+    "article_number": 232,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,23 +15,6 @@
       "rigor": 9.2,
       "data": 9.0,
       "average": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-heat-pump-sizing-gap",
-    "headline": "An AI Can Size Your Heat Pump Within a Third of a Kilowatt. Your Contractor Eyeballed It and Sold You One Three Times Too Big.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-02T23:00:00Z",
-    "article_number": 231,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.8,
-      "social": 8.5,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.6,
-      "average": 8.76
     }
   }
 }
