@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-cost-estimate-tariff-volatility",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Frank DeLuca",
+    "started": "2026-05-04T11:00:00Z",
+    "headline": "Your AI Cost Estimate Was Accurate in January. Steel Just Jumped 33%. The Model Doesn't Know That Yet.",
+    "article_number": 237,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.97
+    }
+  },
   "last_completed": {
     "slug": "ai-home-inspection-report-bottleneck",
     "headline": "AI Cut Your Home Inspector's Report Time by 80%. The Bottleneck Was Never the Report.",
