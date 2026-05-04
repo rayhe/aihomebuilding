@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-permit-review-liability-gap",
-    "phase": "QA",
+    "headline": "AI Reviewed Your Permit in 15 Minutes. It Missed the Fire Separation. Your AIA Contract Doesn't Say Who Pays.",
     "journalist": "Catherine Chen",
-    "started": "2026-05-04T15:00:00Z",
-    "round": 1,
+    "published": "2026-05-04T19:05:00Z",
+    "article_number": 238,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.7,
       "average": 8.93
-    }
-  },
-  "last_completed": {
-    "slug": "ai-cost-estimate-tariff-volatility",
-    "headline": "Your AI Cost Estimate Was Accurate in January. Steel Just Jumped 33%. The Model Doesn't Know That Yet.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-04T13:00:00Z",
-    "article_number": 237,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.97
     }
   }
 }
