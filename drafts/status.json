@@ -1,10 +1,33 @@
 {
   "current": {
     "slug": "ai-concrete-maturity-residential-roi",
-    "phase": "DRAFT",
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-05-04T21:01:00Z",
-    "headline_wip": "Your Concrete Hit Strength Three Days Ago. You Waited Seven Because Nobody Put a $125 Sensor in It."
+    "headline": "Your Concrete Hit Strength Three Days Ago. You Waited Seven Because Nobody Put a $125 Sensor in It.",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 8.9,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.93
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 0.0,
+      "banned_phrases": 0,
+      "sentence_rhythm": {
+        "variance": 342.4,
+        "short_pct": 11.3,
+        "long_pct": 52.1,
+        "passed": true
+      }
+    },
+    "critique_notes": "All 7 critics at 8.5+. All hard gates pass. Strong original contribution (residential ROI calculation nobody has published). Jake Kowalski voice well-executed. 8 primary sources including 2 Nature papers, ASTM, IRC, and industry data. Minor note: SmartRock3 1000ft range is manufacturer spec (open-air, not embedded in concrete) — acceptable since attributed to Giatec. Academic research section slightly dense but serves rigor well. Hero image generated and validated as JPEG. 2 articles already published today (#237, #238) — SHIP deferred to next cycle."
   },
   "last_completed": {
     "slug": "ai-permit-review-liability-gap",
