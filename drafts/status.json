@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-construction-waste-residential-gap",
-    "phase": "QA",
+    "headline": "Your Builder's Dumpster Has $300 Worth of Recyclable Material In It. Nobody Sorted It.",
     "journalist": "Priya Greenwood",
-    "started": "2026-05-05T03:00:00Z",
-    "round": 1,
+    "published": "2026-05-05T05:00:00Z",
+    "article_number": 240,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.97
-    }
-  },
-  "last_completed": {
-    "slug": "ai-concrete-maturity-residential-roi",
-    "headline": "Your Concrete Hit Strength Three Days Ago. You Waited Seven Because Nobody Put a $125 Sensor in It.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-05-05T01:00:00Z",
-    "article_number": 239,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.93
     }
   }
 }
