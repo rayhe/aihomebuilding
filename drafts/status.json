@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-floor-plan-tools-constraint-gap",
-    "phase": "QA",
+    "headline": "AI Generated 31 Floor Plans for a Daylight Study. Only 8 Were Architecture.",
     "journalist": "Elena Vasquez",
-    "started": "2026-05-05T11:00:00Z",
-    "round": 0,
+    "published": "2026-05-05T13:00:00Z",
+    "article_number": 242,
     "scores": {
       "general": 9.1,
       "voice": 9.0,
@@ -14,23 +15,6 @@
       "rigor": 9.2,
       "data": 9.0,
       "average": 9.07
-    }
-  },
-  "last_completed": {
-    "slug": "data-center-wage-premium-residential-electrician",
-    "headline": "A Data Center Electrician Makes $41 an Hour. Your Residential Electrician Makes $25. Guess Where the Good Ones Went.",
-    "journalist": "Marcus Washington",
-    "published": "2026-05-05T09:00:00Z",
-    "article_number": 241,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 9.2,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.94
     }
   }
 }
