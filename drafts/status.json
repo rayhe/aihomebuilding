@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-concrete-maturity-residential-roi",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Jake Kowalski",
-    "started": "2026-05-04T21:01:00Z",
     "headline": "Your Concrete Hit Strength Three Days Ago. You Waited Seven Because Nobody Put a $125 Sensor in It.",
+    "journalist": "Jake Kowalski",
+    "published": "2026-05-05T01:13:00Z",
+    "article_number": 239,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,30 +14,6 @@
       "legal": 8.9,
       "rigor": 9.0,
       "data": 8.8,
-      "average": 8.93
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 0.0,
-      "banned_phrases": 0
-    },
-    "article_number": 239,
-    "published": "2026-05-05T01:00:00Z"
-  },
-  "last_completed": {
-    "slug": "ai-permit-review-liability-gap",
-    "headline": "AI Reviewed Your Permit in 15 Minutes. It Missed the Fire Separation. Your AIA Contract Doesn't Say Who Pays.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-04T19:05:00Z",
-    "article_number": 238,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.1,
-      "rigor": 9.0,
-      "data": 8.7,
       "average": 8.93
     }
   }
