@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-replacing-home-appraisers",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Marcus Washington",
-    "started": "2026-05-06T17:00:00Z",
     "headline": "Your Home Appraiser Is 58 Years Old. Nobody's Replacing Him. An Algorithm Is.",
+    "journalist": "Marcus Washington",
+    "published": "2026-05-06T19:00:00Z",
+    "article_number": 247,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -15,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.84
-    }
-  },
-  "last_completed": {
-    "slug": "heat-pump-oversizing-ai-load-calculation",
-    "headline": "Your Heat Pump Is Probably Oversized. Your Contractor Probably Didn't Run the Math. The Software Exists. Nobody Uses It.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-06T15:00:00Z",
-    "article_number": 246,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 8.7,
-      "data": 8.6,
-      "average": 8.79
     }
   }
 }
