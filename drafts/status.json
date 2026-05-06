@@ -2,7 +2,7 @@
   "current": {
     "slug": "section-232-full-value-tariff-new-home",
     "headline": "The Tariff on Your Washer Used to Be $25. On April 6 It Became $500. The Steel Content Didn't Change.",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Catherine Chen",
     "category": "Policy & Regulation",
     "started": "2026-05-05T15:00:00Z",
@@ -28,7 +28,8 @@
         "passed": true
       }
     },
-    "ship_blocked_reason": "1/day limit: 4 articles already published 2026-05-05 UTC"
+    "published": "2026-05-06T01:00:00Z",
+    "article_number": 243
   },
   "last_completed": {
     "slug": "ai-floor-plan-tools-constraint-gap",
