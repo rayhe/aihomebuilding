@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "ai-replacing-home-appraisers",
-    "phase": "DRAFT",
+    "phase": "QA",
+    "round": 1,
     "journalist": "Marcus Washington",
     "started": "2026-05-06T17:00:00Z",
-    "headline_wip": "Your Home Appraiser Is 58 Years Old. The Algorithm Replacing Him Has a 2.9% Error Rate. On Your $1.2M House, That's $35,000."
+    "headline": "Your Home Appraiser Is 58 Years Old. Nobody's Replacing Him. An Algorithm Is.",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.9,
+      "rigor": 8.8,
+      "data": 8.7,
+      "average": 8.84
+    }
   },
   "last_completed": {
     "slug": "heat-pump-oversizing-ai-load-calculation",
