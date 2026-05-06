@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-earth-construction-robot-terran-robotics",
-    "phase": "SHIP",
+    "headline": "A Robot in Texas Is Building Houses Out of Dirt. The Material Cost Is Zero. The Walls Don't Meet Energy Code.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-06T07:00:00Z",
-    "round": 2,
-    "headline_draft": "A Robot in Texas Is Building Houses Out of Dirt. The Material Cost Is Zero. The Walls Don't Meet Energy Code.",
+    "published": "2026-05-06T09:00:00Z",
+    "article_number": 245,
     "scores": {
       "general": 8.8,
       "voice": 8.8,
@@ -15,26 +15,6 @@
       "rigor": 8.7,
       "data": 8.6,
       "average": 8.77
-    },
-    "revisions": [
-      "Round 1: Fixed broken HTML (premature </p> in 10,000 Years section), corrected wall perimeter math (was 1,100 lf → corrected to 160 ext + 150 int = ~310 lf, 2,800 sqft wall area), cost savings corrected from $190-371K to $54-105K, removed flowery sculptor metaphor for Jake voice, added robot cost caveat and wall area assumptions to limitations"
-    ]
-  },
-  "last_completed": {
-    "slug": "residential-rfi-text-message-documentation-gap",
-    "headline": "Your Builder Asked the Architect a Question Over Text. Nobody Logged It. Three Months Later It Cost You $11,000.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-06T05:00:00Z",
-    "article_number": 244,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.9,
-      "ethics": 9.1,
-      "social": 8.7,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.91
     }
   }
 }
