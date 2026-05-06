@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "heat-pump-oversizing-ai-load-calculation",
-    "phase": "QA",
+    "headline": "Your Heat Pump Is Probably Oversized. Your Contractor Probably Didn't Run the Math. The Software Exists. Nobody Uses It.",
     "journalist": "Priya Greenwood",
-    "started": "2026-05-06T11:00:00Z",
-    "round": 1,
+    "published": "2026-05-06T15:00:00Z",
+    "article_number": 246,
     "scores": {
       "general": 8.7,
       "voice": 8.8,
@@ -14,23 +15,6 @@
       "rigor": 8.7,
       "data": 8.6,
       "average": 8.79
-    }
-  },
-  "last_completed": {
-    "slug": "ai-earth-construction-robot-terran-robotics",
-    "headline": "A Robot in Texas Is Building Houses Out of Dirt. The Material Cost Is Zero. The Walls Don't Meet Energy Code.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-05-06T09:00:00Z",
-    "article_number": 245,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.7,
-      "data": 8.6,
-      "average": 8.77
     }
   }
 }
