@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-office-residential-conversion-screening",
-    "phase": "QA",
+    "headline": "70% of Empty Offices Can't Become Apartments. The Floor Plate Won't Allow It.",
     "journalist": "Elena Vasquez",
-    "started": "2026-05-06T21:00:00Z",
-    "round": 1,
+    "published": "2026-05-07T01:00:00Z",
+    "article_number": 248,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "ai-replacing-home-appraisers",
-    "headline": "Your Home Appraiser Is 58 Years Old. Nobody's Replacing Him. An Algorithm Is.",
-    "journalist": "Marcus Washington",
-    "published": "2026-05-06T19:00:00Z",
-    "article_number": 247,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.9,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.84
     }
   }
 }
