@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "change-order-24-day-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Frank DeLuca",
     "started": "2026-05-07T03:02:00Z",
     "round": 0,
@@ -18,15 +18,8 @@
     "hard_gates": {
       "em_dashes": 0,
       "the_starters_pct": 12.5,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 285.4,
-        "short_pct": 11.5,
-        "long_pct": 57.4,
-        "passed": true
-      }
-    },
-    "held_reason": "1/day limit — #248 already published 2026-05-07"
+      "banned_phrases": 0
+    }
   },
   "next_queued": {
     "slug": "building-code-copyright-ai-plan-review",
