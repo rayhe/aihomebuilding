@@ -1,9 +1,11 @@
 {
   "current": {
     "slug": "building-code-copyright-ai-plan-review",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Catherine Chen",
     "started": "2026-05-07T09:00:00Z",
+    "published": "2026-05-07T23:00:00Z",
+    "article_number": 250,
     "round": 0,
     "scores": {
       "general": 8.8,
@@ -14,19 +16,7 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.84
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 8.9,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 209.7,
-        "short_pct": 8.6,
-        "long_pct": 48.1,
-        "passed": true
-      }
-    },
-    "held_reason": "1/day limit — #249 already published 2026-05-07"
+    }
   },
   "last_completed": {
     "slug": "change-order-24-day-gap",
