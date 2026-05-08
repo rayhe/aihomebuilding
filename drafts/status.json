@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "sb-913-home-battery-resource-adequacy-vpp",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "round": 0,
     "journalist": "Priya Greenwood",
-    "started": "2026-05-08T05:00:00Z"
+    "started": "2026-05-08T05:00:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.7,
+      "average": 8.93
+    },
+    "note": "Critique passed (8.93 avg, all 7 critics >= 8.5, all hard gates pass). 1/day limit: #251 already published 2026-05-08. Ready to ship on next cycle."
   },
   "last_completed": {
     "slug": "xfra-home-data-center-gpu-backyard",
