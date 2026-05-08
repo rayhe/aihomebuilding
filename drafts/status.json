@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "xfra-home-data-center-gpu-backyard",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "PulteGroup Is Bolting 16 Nvidia GPUs to New Homes. You Pay $150 a Month for Power.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-07T23:00:00Z",
+    "published": "2026-05-08T05:00:00Z",
+    "article_number": 251,
     "scores": {
       "general": 8.5,
       "voice": 8.7,
@@ -14,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.5,
       "average": 8.67
-    }
-  },
-  "last_completed": {
-    "slug": "building-code-copyright-ai-plan-review",
-    "headline": "Your AI Plan Review Tool Needs to Read the Building Code. Until Last Month, That Was Illegal.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-07T23:00:00Z",
-    "article_number": 250,
-    "scores": {
-      "general": 8.8,
-      "voice": 9.0,
-      "ethics": 9.1,
-      "social": 8.6,
-      "legal": 8.9,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.84
     }
   }
 }
