@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Home Battery Could Earn $786 a Year. California Just Has to Let It Compete With a Gas Plant. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/sb-913-home-battery-resource-adequacy-vpp.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Home Battery Could Earn $786 a Year. California Just Has to Let It Compete With a Gas Plant.",
+		"description": "California SB 913 would classify home batteries as grid reliability assets, the same capacity credit gas peaker plants sell to utilities. We ran the payback math across three scenarios. The gap is wider than you think.",
+		"image": "https://aihomebuilding.com/images/sb-913-home-battery-resource-adequacy-vpp.jpg?v=6303f9c8",
+		"datePublished": "2026-05-08",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/sb-913-home-battery-resource-adequacy-vpp.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Home Battery Could Earn $786 a Year. California Just Has to Let It Compete With a Gas Plant.">
+	<meta property="og:description" content="California SB 913 would classify home batteries as grid reliability assets. We ran the payback math across three scenarios.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/sb-913-home-battery-resource-adequacy-vpp.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/sb-913-home-battery-resource-adequacy-vpp.jpg?v=6303f9c8">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Home Battery Could Earn $786 a Year. California Just Has to Let It Compete With a Gas Plant.">
+	<meta name="twitter:description" content="SB 913 would let your Powerwall compete with peaker plants for grid reliability payments. The economics shift dramatically.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/sb-913-home-battery-resource-adequacy-vpp.jpg?v=6303f9c8">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/sb-913-home-battery-resource-adequacy-vpp.jpg?v=6303f9c8" alt="A sleek white home battery unit mounted on the side of a modern California home at golden hour, with solar panels visible on the roof and a smart electrical panel nearby">
+		<div class="overlay">
+			<div class="badge">Sustainability</div>
+			<h1>Your Home Battery Could Earn $786 a Year. California Just Has to Let It Compete With a Gas Plant.</h1>
+			<div class="meta">By Priya Greenwood &middot; May 8, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>A 13.5-kilowatt-hour Tesla Powerwall 3 costs between $12,000 and $16,000 installed. After the 30 percent federal Investment Tax Credit, you are looking at $8,400 to $11,200 out of pocket. Most homeowners who install one are buying peace of mind: the lights stay on when PG&amp;E goes dark, and that is the entire value proposition. The battery sits in your garage like an expensive insurance policy, waiting for an emergency that may arrive twice a year or never.</p>
+
+			<p>California state senator Josh Becker thinks that battery should have a second job.</p>
+
+			<p><a href="https://sd13.senate.ca.gov/news/press-release/march-24-2026/becker-introduces-sb-913-to-make-better-use-customer-owned-clean" target="_blank">Senate Bill 913</a>, introduced in March 2026, would classify customer-owned batteries, electric vehicles, and smart thermostats as Resource Adequacy capacity. Resource Adequacy is not a marketing term. It is the regulatory mechanism through which California's grid operator requires utilities to purchase enough generation capacity to meet peak demand, and the utilities that fail to procure it face penalties from the <a href="https://www.cpuc.ca.gov/" target="_blank">California Public Utilities Commission</a>. Right now, gas peaker plants sell this capacity. Your Powerwall does not. SB 913 would change that, allowing energy aggregators to bundle thousands of home batteries into virtual power plants and bid that combined capacity into the same market where a 50-megawatt gas turbine competes today.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">8,000</div>
+				<div class="label">New home batteries added to California's grid every month, per CPUC data cited by Sen. Becker. That is roughly 100 MW of new storage capacity per month sitting in garages and on side walls, doing almost nothing between outages.</div>
+			</div>
+
+			<h2>Three Scenarios for a 13.5 kWh Battery</h2>
+
+			<p>I ran the payback math on a typical California home with a single Powerwall 3, installed cost of $14,000 before incentives, $9,800 after the ITC. Three strategies, same hardware, wildly different returns.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Strategy</th>
+						<th>Annual Revenue</th>
+						<th>Payback (after ITC)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><strong>A. Backup only</strong></td>
+						<td>$0</td>
+						<td>Never</td>
+					</tr>
+					<tr>
+						<td><strong>B. TOU arbitrage</strong></td>
+						<td>$240&ndash;$400</td>
+						<td>24&ndash;41 years</td>
+					</tr>
+					<tr>
+						<td><strong>C. RA + VPP (post-SB 913)</strong></td>
+						<td>$686&ndash;$786</td>
+						<td>12&ndash;14 years</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>Scenario B is what most battery owners do today: charge during off-peak hours at $0.25 to $0.30 per kilowatt-hour, discharge during peak at $0.45 to $0.55. You capture the $0.20 spread across roughly 10 kWh of usable capacity per cycle. At 300 effective cycles per year (accounting for days you need the full charge for backup, weekends with lower rate differentials, and seasonal variation), that yields $600 to $1,200 in gross savings over the battery's usable life before degradation, or about $240 to $400 annually in the early years.</p>
+
+			<p>Scenario C stacks three revenue streams that do not exist under current rules. First, the participation payment: <a href="https://avaenergy.org/go-electric/residential-solar-storage/smarthome-battery/residents/" target="_blank">Ava Community Energy's SmartHome Battery program</a>, launched April 2026 with $11 million in funding, pays market-rate customers $90 per kilowatt-hour as an installation rebate and $3 per month per kilowatt-hour in ongoing participation payments for shared capacity. On a 13.5 kWh system, that ongoing payment is $40.50 per month, or $486 per year. Second, emergency dispatch: Tesla's existing VPP program pays $2 per kilowatt-hour delivered during grid emergencies, and homeowners on Reddit and Tesla forums report payouts of $400 to $750 per event, though the number of events per year is unpredictable. Conservatively estimating 10 to 15 dispatch events annually at approximately 10 kWh each yields $200 to $300 in additional revenue. Third, whatever TOU arbitrage the aggregator allows on non-dispatched days.</p>
+
+			<p>Add those together and the battery pays for itself in 12 to 14 years after the tax credit, inside the 15-year warranty period that most manufacturers now offer. That is not a great return by investment standards. But it transforms the battery from a pure cost center into an asset that partially pays for itself while still providing backup power.</p>
+
+			<h2>Who Controls the Switch</h2>
+
+			<p>This is where the trade-off lives, and it is not small.</p>
+
+			<p>When you enroll a battery in a VPP with Resource Adequacy obligations, the aggregator decides when your battery discharges. Not you. Ava's SmartHome Battery program requires Tesla Powerwall owners to share 80 percent of their stored energy with the virtual power plant. NEM 2 customers who enroll less than 4 kWh get assigned a daily dispatch schedule: two hours per weekday, all year, with the specific schedule sent to you via email by October for the following year. You planned and paid for backup power. Now someone else controls four-fifths of it for a check that works out to $40 a month.</p>
+
+			<p>Consider the scenario that every battery owner fears: a local blackout hits your neighborhood at the same time CAISO calls a grid emergency. Your battery has RA obligations. Does it power your refrigerator or discharge to the grid? Ava's program documentation does not explicitly address this conflict, and the answer depends on the aggregator's software, the specific contract terms, and whether the system prioritizes local backup or grid dispatch.</p>
+
+			<p>Brandon Garc&iacute;a, California director for <a href="https://advancedenergyunited.org/" target="_blank">Advanced Energy United</a>, frames the bill as unlocking value: "Our policies still undervalue how these resources can be part of the solution to the energy affordability crisis." He is right about the undervaluation. But undervaluation and control are different conversations, and the bill's text addresses the market structure without specifying the consumer protection framework for dispatch priority.</p>
+
+			<h2>Lunar Energy Is Building the Software Layer</h2>
+
+			<p><a href="https://www.lunarenergy.com/" target="_blank">Lunar Energy</a>, founded by former Tesla Energy head Kunal Girotra, raised <a href="https://www.canarymedia.com/articles/climatetech-finance/lunar-energy-lands-232m-home-batteries" target="_blank">$232 million in February 2026</a> across Series C and D rounds. Total funding now exceeds $530 million. The company has installed approximately 2,000 systems in California homes, manufactures in California, Georgia, and Washington state, and plans to scale from 10,000 units per year to 100,000 by 2028.</p>
+
+			<p>What matters more than the hardware is the Gridshare software platform. Gridshare already manages all of Sunrun's virtual power plant operations, coordinating nearly 130,000 home batteries across the country, most of which are not Lunar-branded. Girotra describes this as an "Android-like software strategy," where the platform works with any manufacturer's battery rather than locking customers into a single ecosystem the way Tesla and Enphase do. If SB 913 passes and RA markets open to residential batteries, Gridshare becomes the operating system that decides which 130,000 batteries discharge, when, and for how much.</p>
+
+			<p>That interoperability matters for the RA market because utilities need aggregation at scale to replace a 50-megawatt gas plant, and no single battery manufacturer has enough deployed units in one territory to hit that threshold alone. Lunar's bet is that the aggregation software layer captures more long-term value than the hardware, which is why they are willing to manage competitors' batteries.</p>
+
+			<h2>What Europe Already Knows</h2>
+
+			<p>Germany ran an accidental experiment on May 1, 2026. A Europe-wide holiday, clear skies, and strong renewable generation collided with minimal demand, pushing wholesale electricity prices to negative &euro;0.50 per kilowatt-hour. Jan Hicl, chief product officer at Czech aggregator <a href="https://prometheus.org/2026/05/05/home-batteries-earn-during-negative-electricity-price-spikes/" target="_blank">Delta Green</a>, reported that individual German households with batteries earned &euro;30 to &euro;40 in a single day by absorbing cheap electricity when prices went negative and discharging later when prices recovered. That is not a monthly figure. That is one day.</p>
+
+			<p>Delta Green's broader portfolio generates approximately &euro;40 per month per household in flexibility value across normal market conditions. Large German utilities selling electricity under fixed-price contracts bear the full cost of negative wholesale prices, because their retail customers have no incentive to respond to price signals that never reach them. Aggregators like Delta Green create a pass-through: the homeowner's battery responds to the real-time market, the aggregator captures the spread, and both sides profit from a signal that the traditional utility model deliberately hides from consumers.</p>
+
+			<p>California's grid is not Germany's, and American rate structures differ significantly from European flexibility markets. But the underlying principle holds: a battery that responds to real-time grid signals generates multiples of the revenue that a battery on a fixed TOU schedule produces. SB 913 exists because California's grid operators have watched European aggregators prove this for three years and have concluded that 8,000 new batteries per month represent a stranded asset that regulation, not technology, keeps idle.</p>
+
+			<h2>If You Are Installing a Battery This Year</h2>
+
+			<p>Get the battery sized for your household backup needs first. That has not changed. A 13.5 kWh Powerwall covers critical loads for 12 to 24 hours in most homes, and the backup function remains the primary reason to install one. But before you sign with an installer, ask whether the system is compatible with VPP enrollment and whether the inverter supports third-party aggregation software. Systems with proprietary lockout, where the manufacturer's app is the only way to control dispatch, limit your future options if RA markets open.</p>
+
+			<p>If you are in Ava Community Energy's service territory in Northern California, the <a href="https://avaenergy.org/go-electric/residential-solar-storage/smarthome-battery/residents/" target="_blank">SmartHome Battery program</a> is accepting applications now. Income-qualified customers receive $500 per kilowatt-hour in installation rebates, which on a 13.5 kWh system offsets $6,750 of the installed cost, stacked on top of the federal ITC. Market-rate customers receive $90 per kilowatt-hour. Both tiers receive the $3 per kilowatt-hour monthly participation payment as long as they remain enrolled.</p>
+
+			<p>For everyone else in California: SB 913 is still in committee. It has not passed. Senator Becker introduced it in March 2026 with support from Advanced Energy United, Deploy Action, and several clean energy coalitions, but no floor vote has been scheduled. If it dies in committee, the RA market remains closed to residential batteries, and your Powerwall goes back to sitting idle between blackouts. The bill's success depends on whether utilities will accept home batteries as reliable capacity or argue that distributed resources cannot match the dispatchability guarantees of a gas plant they already have under contract.</p>
+
+			<p>Watch for the companion bill, AB 1975, which addresses load flexibility and coordinated battery use from the demand side rather than the supply side. Together, these two bills represent California's first serious legislative attempt to treat residential batteries as grid infrastructure rather than consumer electronics.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>The $486 annual participation payment uses Ava Community Energy's published rate of $3 per kilowatt-hour per month, which is one utility program in one California service territory, not a market-wide RA payment rate. Actual RA capacity prices fluctuate based on CPUC procurement cycles and grid conditions, and there is no guarantee that other aggregators or utilities would offer comparable rates. Tesla VPP payout figures ($2 per kilowatt-hour, $400 to $750 per event) are self-reported by homeowners on Reddit and Tesla forums without independent verification. The European revenue data from Delta Green reflects German and Czech flexibility markets with different grid architecture, rate structures, and regulatory frameworks than California. Battery degradation from VPP cycling reduces usable capacity over time, and the payback calculations above do not model degradation curves, warranty implications of accelerated cycling, or potential manufacturer restrictions on VPP participation that could affect warranty coverage. All calculations assume NEM 2.0 time-of-use rates, and homeowners on NEM 3.0 face materially different export compensation structures that reduce the TOU arbitrage component. SB 913 has not passed, and the regulatory pathway from bill introduction to operational RA market participation involves CPUC rulemaking, utility compliance filings, and aggregator certification processes that could take 18 to 24 months after passage.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
