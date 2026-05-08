@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>PulteGroup Is Bolting 16 Nvidia GPUs to New Homes. You Pay $150 a Month for Power. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/xfra-home-data-center-gpu-backyard.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "PulteGroup Is Bolting 16 Nvidia GPUs to New Homes. You Pay $150 a Month for Power.",
+		"description": "SPAN's XFRA nodes turn new PulteGroup homes into distributed AI inference clusters. Fanless, liquid-cooled Nvidia Blackwell GPUs sit where the HVAC condenser goes. The builder's math changes more than you think.",
+		"image": "https://aihomebuilding.com/images/xfra-home-data-center-gpu-backyard.jpg?v=c4216d61",
+		"datePublished": "2026-05-08",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/xfra-home-data-center-gpu-backyard.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="PulteGroup Is Bolting 16 Nvidia GPUs to New Homes. You Pay $150 a Month for Power.">
+	<meta property="og:description" content="SPAN's XFRA nodes turn new PulteGroup homes into distributed AI inference clusters. Fanless, liquid-cooled Nvidia Blackwell GPUs sit where the HVAC condenser goes.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/xfra-home-data-center-gpu-backyard.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/xfra-home-data-center-gpu-backyard.jpg?v=c4216d61">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="PulteGroup Is Bolting 16 Nvidia GPUs to New Homes. You Pay $150 a Month for Power.">
+	<meta name="twitter:description" content="Fanless Nvidia Blackwell GPUs in your backyard. SPAN's XFRA turns suburban homes into AI inference nodes.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/xfra-home-data-center-gpu-backyard.jpg?v=c4216d61">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/xfra-home-data-center-gpu-backyard.jpg?v=c4216d61" alt="A compact white liquid-cooled compute unit sitting on a concrete pad beside a new suburban home, roughly the size of an HVAC condenser, with soft afternoon light and freshly graded landscaping">
+		<div class="overlay">
+			<div class="badge">Construction Technology</div>
+			<h1>PulteGroup Is Bolting 16 Nvidia GPUs to New Homes. You Pay $150 a Month for Power.</h1>
+			<div class="meta">By Jake Kowalski &middot; May 8, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Sixteen Nvidia Blackwell GPUs, liquid-cooled and completely fanless, bolted to a concrete pad in your backyard where you would normally expect to see nothing more interesting than an air conditioning condenser and maybe a garden hose reel. About the size of an HVAC unit, installed during construction at zero cost to you, connected to a SPAN smart panel that replaces your standard breaker box. Your electricity and internet bill drops to a flat $150 a month, roughly half what the average American household pays for those two utilities combined, and in some configurations the fee disappears entirely because SPAN absorbs the full cost.</p>
+
+			<p>That is not a concept render from a startup pitch deck. <a href="https://www.span.io/" target="_blank">SPAN</a>, the smart electrical panel company that raised $163 million in its February 2026 Series C, has begun installing what it calls XFRA nodes on new <a href="https://www.pulte.com/" target="_blank">PulteGroup</a> homes in a pilot that puts 1,600 direct liquid-cooled inference GPUs across 100 houses, creating a distributed 1.25-megawatt compute cluster spread across a residential subdivision where the biggest previous electrical controversy was probably someone running their Christmas lights until February.</p>
+
+			<p>AI inference workloads run on the box while you sleep, serving chatbot queries, autonomous driving computations, and medical diagnostic models for cloud customers who neither know nor care that their requests are being processed between someone's patio furniture and someone else's Weber grill. You never hear it.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">40&ndash;45%</div>
+				<div class="label">Average utilization of the existing residential power distribution network, per SPAN CEO Arch Rao. More than half the grid's capacity sits idle at any given moment.</div>
+			</div>
+
+			<h2>Why This Works on Paper</h2>
+
+			<p>A traditional 100-megawatt data center takes three to five years to build and costs upward of $15 million per megawatt, requiring new substations, environmental impact reviews, water rights for cooling towers, and community approval processes that have become increasingly hostile as data center proliferation triggers local backlash from Loudoun County, Virginia, to the outskirts of Dublin, Ireland. Up to half of new data center projects worldwide have been delayed this year, according to <a href="https://sightlineclimate.org/" target="_blank">Sightline Climate Energy</a>, because the permitting bottlenecks, grid interconnection queues, and community opposition have compounded into a supply crisis that hyperscalers cannot engineer their way around with bigger checks.</p>
+
+			<p>SPAN's pitch is elegant in its simplicity: skip all of that. Residential electrical distribution already runs at only 40 to 45 percent utilization, according to CEO Arch Rao, which means that every subdivision wired for 200-amp service per home is effectively wasting more than half its grid capacity every hour of every day, and SPAN's orchestration software can schedule GPU workloads into exactly that unused bandwidth without requiring a single electrical upgrade.</p>
+
+			<p>At $3 million per megawatt, the distributed model delivers compute capacity at one-fifth the cost of a centralized facility. Eight thousand XFRA-equipped homes would match a 100-megawatt data center's output in roughly six months of installation versus three to five years of conventional construction. Marc Spieler, Nvidia's Senior Vice President of Global Energy, told <a href="https://www.realtor.com/" target="_blank">Realtor.com</a> that "the ability to leverage existing locations that have access to power makes a lot of sense," which is the kind of measured endorsement that reads cautious until you realize Nvidia supplied the Blackwell GPUs going into these boxes and has material upside if this deployment model scales to thousands of communities.</p>
+
+			<p>SPAN sells the compute capacity to hyperscalers and keeps the revenue. Nvidia gets inference nodes deployed without waiting for a new substation. PulteGroup gets a marketing differentiator that actually lowers buyer operating costs. Everybody wins, theoretically.</p>
+
+			<h2>What Actually Changes in Your Build</h2>
+
+			<p>If you are a builder evaluating this partnership, here is what goes into the house differently and where your trades need to adjust their scopes of work.</p>
+
+			<p><strong>Electrical panel:</strong> A SPAN smart panel replaces your standard breaker box while staying at 200 amps, which is critical because an electrical service upgrade to 400 amps would add $5,000 to $15,000 per home and kill the economics before the first GPU powers on. SPAN's orchestration software handles the balancing act, scheduling inference workloads around the home's real-time energy consumption and pulling only from capacity that would otherwise sit unused on the utility's distribution transformer.</p>
+
+			<p><strong>Concrete pad:</strong> You pour a standard equipment pad alongside the HVAC condenser pad, same spec as a generator mount or heat pump base, roughly four by four feet, nothing exotic, nothing your concrete sub has not done a thousand times before.</p>
+
+			<p><strong>Liquid cooling loop:</strong> This is where things get genuinely new for residential construction. Residential plumbers do not typically run closed-loop liquid cooling systems for compute hardware, and somebody needs to spec the fittings, the glycol concentration, the heat rejection path, and the routing from the outdoor unit through whatever thermal management system dissipates the waste heat into the atmosphere rather than into your client's living room wall six feet away. Sixteen GPUs running inference workloads around the clock produce meaningful thermal output even in a liquid-cooled configuration, because the laws of thermodynamics do not care how many press releases describe the system as "efficient."</p>
+
+			<p><strong>Networking:</strong> Enterprise-grade connectivity is almost certainly fiber, because the XFRA node is serving inference results to cloud customers with latency requirements measured in milliseconds, and a typical residential Comcast line with its asymmetric upload speeds and peak-hour congestion is not going to satisfy the service-level agreements that hyperscalers demand of their inference providers.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$37,500</div>
+				<div class="label">Estimated compute infrastructure cost per home in the 100-unit pilot, calculated from SPAN's published $3M/MW cost across 1.25 MW distributed among 100 houses. SPAN owns, installs, and maintains the hardware.</div>
+			</div>
+
+			<h2>Running the Builder's Numbers</h2>
+
+			<p>PulteGroup is not paying $37,500 per home in GPU infrastructure, and that distinction matters enormously for anyone trying to understand why America's third-largest homebuilder would agree to bolt commercial compute hardware to residential structures. SPAN carries the capital expenditure. PulteGroup already installs SPAN smart panels across its communities, so the XFRA partnership extends an existing supply chain relationship rather than creating a new vendor qualification headache, and the builder's value proposition is straightforward: homes with measurably lower utility bills sell faster and appraise higher, especially in markets where energy costs have become a buyer objection that kills deals.</p>
+
+			<p>For SPAN, the math looks like this. At $3 million per megawatt and 1.25 megawatts across the pilot, total hardware investment runs approximately $3.75 million for 100 homes. SPAN sells that compute to cloud customers at rates competitive with centralized data centers, which currently charge $0.30 to $0.50 per GPU-hour for inference on Blackwell-class hardware. If each home's 16 GPUs run at 60 percent utilization, that generates roughly $70,000 per home per year in gross compute revenue, against $37,500 in upfront hardware cost and perhaps $1,800 per year in homeowner electricity subsidies. Payback in under a year, before accounting for GPU depreciation as newer silicon arrives and margin compression as more distributed compute supply enters the market.</p>
+
+			<h2>Seven Questions Nobody Has Answered Yet</h2>
+
+			<p>SPAN and PulteGroup are moving fast, which is reasonable given the compute demand environment and the first-mover advantage available to whoever establishes the regulatory precedent for residential-scale distributed inference. But builders, buyers, and municipal planners should be asking these questions before the pilot scales beyond its initial hundred homes.</p>
+
+			<p><strong>1. Zoning.</strong> Residential zones in most jurisdictions prohibit commercial or industrial equipment on single-family lots, and a GPU inference cluster processing queries for Amazon Web Services customers is not a heat pump no matter how much it looks like one from the curb. No municipal code was written with distributed AI compute in mind, and the first zoning challenge from a neighbor or a homeowners association could stall deployment in an entire state for years while the courts work through a legal question that has no precedent.</p>
+
+			<p><strong>2. Insurance.</strong> Underwriters price homeowner policies on known risk categories, and a liquid-cooled compute unit running continuously on a concrete pad in a residential backyard is not a known risk category by any definition that exists in actuarial tables today. Will premiums rise? Will some carriers exclude XFRA-equipped homes entirely? Nobody has published guidance, and the first glycol leak or electrical fault that triggers a claim will set the precedent for every policy written afterward.</p>
+
+			<p><strong>3. Resale transfer.</strong> If you sell the house, does the $150-per-month agreement transfer to the buyer, and what happens if the buyer does not want a commercial compute node humming in their backyard? Can they have the unit removed, who pays for the decommissioning and concrete patch, and does the removal trigger any penalty clause in the original SPAN agreement that the seller signed at closing?</p>
+
+			<p><strong>4. Maintenance at 2 AM.</strong> GPUs fail, liquid cooling loops develop leaks, and orchestration software crashes in ways that nobody anticipated during the pilot phase. When a node goes offline and a hyperscaler's inference queue backs up because sixteen GPUs in Scottsdale just went dark, who dispatches the technician, how fast do they arrive, and whose backyard are they accessing at two in the morning with a flashlight and a replacement pump?</p>
+
+			<p><strong>5. Actual noise levels.</strong> SPAN describes the system as fanless, and that eliminates the primary noise complaint that residents raise about traditional data centers, but fanless does not mean silent. Liquid cooling pumps produce a low-frequency hum that may measure 35 to 45 decibels at one meter, which becomes relevant at night when ambient noise in a quiet suburb drops to 30 decibels and your bedroom window is twelve feet from the unit. No independent noise measurement of an installed XFRA node has been published.</p>
+
+			<p><strong>6. GPU lifecycle.</strong> Nvidia ships new silicon every 18 to 24 months, and Blackwell GPUs will be superseded by whatever architecture follows. When inference customers demand next-generation hardware because the price-performance ratio has shifted and last year's GPUs cannot compete on a cost-per-query basis, does SPAN swap the unit? Who coordinates the logistics of cycling GPU hardware through 8,000 homes scattered across 40 states?</p>
+
+			<p><strong>7. Stranded asset risk.</strong> If AI inference demand plateaus, shifts to a different accelerator architecture, or consolidates onto centralized facilities that achieve better economics at scale, the homeowner has a decommissioned compute unit sitting on a concrete pad in their yard with no cloud customers and no revenue to subsidize their electricity bill. Solar panels share this structural concern, but a solar panel without a buyer for its excess generation still produces electricity the homeowner uses directly, while an XFRA node without customers is a decorative white cabinet.</p>
+
+			<h2>47 Percent of Your Neighbors Already Oppose This</h2>
+
+			<p>A <a href="https://www.redfin.com/" target="_blank">Redfin-Ipsos survey</a> from May 2026 found that 47 percent of U.S. residents oppose AI data centers in their neighborhoods, with only 38 percent expressing support and the remainder undecided. Respondents cited energy costs, environmental impact, and community disruption as their primary concerns, though the survey measured attitudes toward the massive industrial facilities that have dominated the data center debate rather than compact residential units that most people would not recognize as compute infrastructure.</p>
+
+			<p>SPAN's design directly addresses the most visible objections to centralized data centers: the noise, the water consumption, the industrial scale. An XFRA node does not look like a data center, does not consume municipal water for cooling, and does not require a new electrical substation. But nobody has polled residents specifically about GPU compute hardware attached to the house next door, and opposition could easily run higher when people learn that the quiet white box on their neighbor's pad is processing commercial AI workloads for profit that flows to a San Francisco startup rather than to anyone on their street.</p>
+
+			<h2>If You Are Buying in a PulteGroup Community</h2>
+
+			<p>Read the XFRA agreement before you close, in full, with the same attention you would give a solar lease or a ground-mounted battery storage contract, because the equipment sitting on your property belongs to someone else and the terms governing its presence, maintenance, and eventual removal will outlast your enthusiasm for the $150 monthly electricity bill. Understand the term length, the transfer provisions on resale, and the specific process for having the unit removed if you decide you want your backyard back. Ask whether the $150 flat rate is locked for the agreement term or adjustable at SPAN's discretion. Get the noise specification in writing and compare it against your municipality's nighttime noise ordinance, which in most residential zones caps at 45 to 50 decibels measured at the property line.</p>
+
+			<p>If you are a builder considering this partnership for your own communities: the economics are real, the demand for distributed compute is growing faster than centralized data center capacity can be built, and PulteGroup would not attach its name and its warranty reputation to this without significant legal review. But your liability exposure on the plumbing side is new territory that sits outside established residential construction standards. Liquid cooling in residential construction has no established warranty framework, no trade certification program, and no inspection checklist in any building code that I can find after searching IRC, UPC, and the major state amendments. Your mechanical sub is going to look at you funny, and for once that reaction will be entirely justified.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>SPAN has not disclosed the specific Nvidia GPU model deployed in the XFRA units, the thermal design power per node, the liquid cooling system specifications, or the contractual terms of the homeowner agreement, which means that several of the calculations and projections in this article rely on publicly available cloud inference pricing for Blackwell-class GPUs and an assumed 60 percent utilization rate that may differ significantly from actual orchestrated workloads constrained by residential power demand curves. Insurance, zoning, and resale implications described above are analytical projections based on existing regulatory frameworks rather than actual determinations by insurers, municipalities, or licensed appraisers. No independent noise measurement, thermal output audit, or long-term energy consumption analysis of an installed XFRA unit has been published as of this writing. PulteGroup builds across 40 states, but the pilot's geographic scope and specific community locations have not been disclosed, and regulatory environments vary dramatically by jurisdiction in ways that could either accelerate or halt deployment entirely. GPU-hour revenue projections do not account for margin compression as distributed compute supply increases, hardware depreciation curves steepen with each Nvidia product cycle, or potential shifts in AI inference demand toward specialized accelerators that may supersede general-purpose GPU architectures within 24 months of the pilot's launch.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
