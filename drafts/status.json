@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "jlg-canvas-drywall-robot-residential-math",
-    "phase": "QA",
-    "round": 1,
+    "headline": "Your Drywall Crew Takes Five Days. This Robot Takes Two. Here's When the Math Works.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-08T13:01:00Z",
-    "headline_wip": "Your Drywall Crew Takes Five Days. This Robot Takes Two. Here's When the Math Works.",
+    "published": "2026-05-09T01:00:00Z",
+    "article_number": 253,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,27 +15,6 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.87
-    },
-    "critique_notes": "All 7 critics passed 8.5+ on first round. Hard gates: 0 em dashes, 4.6% The-starters (11/239), zero banned phrases. Hero image generated and committed. Ship blocked by 1/day limit (#252 already published May 8).",
-    "hero_image": "drafts/jlg-canvas-drywall-robot-residential-math.jpg",
-    "published_at": "2026-05-09T01:00:00Z",
-    "article_number": 253
-  },
-  "last_completed": {
-    "slug": "sb-913-home-battery-resource-adequacy-vpp",
-    "headline": "Your Home Battery Could Earn $786 a Year. California Just Has to Let It Compete With a Gas Plant.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-08T11:00:00Z",
-    "article_number": 252,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.7,
-      "average": 8.93
     }
   }
 }
