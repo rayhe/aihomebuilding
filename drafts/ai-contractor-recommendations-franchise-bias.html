@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-contractor-recommendations-franchise-bias.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist.",
+		"description": "When homeowners ask AI assistants for contractor recommendations, 87% of independent HVAC and plumbing contractors have zero citation share. The mechanism is structural, the cost premium is real, and the window for independents to compete is closing.",
+		"image": "https://aihomebuilding.com/images/ai-contractor-recommendations-franchise-bias.jpg?v=9a9aace2",
+		"datePublished": "2026-05-09",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-contractor-recommendations-franchise-bias.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist.">
+	<meta property="og:description" content="When homeowners ask AI for contractor recommendations, 87% of independent HVAC and plumbing contractors have zero citation share. The franchise premium is real.">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-contractor-recommendations-franchise-bias.jpg?v=9a9aace2">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-contractor-recommendations-franchise-bias.html">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-contractor-recommendations-franchise-bias.jpg?v=9a9aace2" alt="A smartphone screen showing an AI chat interface with a plumber recommendation, sitting on a kitchen counter next to a leaking pipe fitting, a stack of local business cards visible but ignored in the background">
+		<div class="overlay">
+			<div class="badge">Policy &amp; Regulation</div>
+			<h1>You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist.</h1>
+			<div class="meta">By Catherine Chen &middot; May 9, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Linda Moretti has run Moretti Plumbing in Scottsdale, Arizona, for 22 years. She holds a CR-37 license, carries $2 million in liability coverage, and maintains an average of 4.9 stars across 847 Google reviews accumulated one dripping faucet at a time. When a Scottsdale homeowner opens ChatGPT and asks who should fix their water heater, Linda does not appear, not in the first recommendation, not in the fifth, not anywhere in the model's output. ChatGPT recommends Roto-Rooter, then Mr. Rooter, then ARS/Rescue Rooter, and then suggests checking Angi or Yelp for "local options," which is a polite way of saying the most capable plumber in the zip code did not register as an entity worth naming. But to the model that answered the question, she might as well not exist.</p>
+
+			<p>She is not alone, and the scale of that invisibility is worse than most contractors realize. According to the <a href="https://www.5wpr.com/research/hvac-plumbing-ai-visibility-index-2026/" target="_blank">HVAC &amp; Plumbing AI Visibility Index 2026</a>, published by 5W Public Relations in Q1 2026, approximately 87 percent of independent HVAC and plumbing contractors in the United States have effectively zero AI citation share in their own metro area and trade category. The study ran 65 consumer-intent and trade-intent prompts across ChatGPT, Claude, Perplexity, and Google AI Overviews. Three franchise brands controlled 19 percent of all consumer-intent citations: Roto-Rooter, ARS/Rescue Rooter, and Mr. Rooter.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">87%</div>
+				<div class="label">of independent HVAC and plumbing contractors have zero AI citation share in their own metro and trade category, per the 5W HVAC &amp; Plumbing AI Visibility Index 2026 (65 prompts across 4 AI platforms, Q1 2026).</div>
+			</div>
+
+			<h2>Why AI Recommends Franchises</h2>
+
+			<p>AI language models do not browse Yelp in real time when you ask for a plumber. They synthesize patterns from training data, and the training data is dominated by entities that leave large, structured footprints across the open web: Wikipedia articles, Wikidata records, Schema.org markup on corporate websites, national trade-press coverage in publications like ACHR News, Contracting Business, and Plumbing &amp; Mechanical, and press releases distributed through PR Newswire and Business Wire that get syndicated across hundreds of domains.</p>
+
+			<p>National franchise networks have all of these signals. Neighborly, which operates Mr. Rooter, Aire Serv, Mr. Electric, and 15 other home service brands, publishes thousands of pages of cross-linked content optimized for exactly the kind of entity recognition that AI models weight heavily. When an Aire Serv blog post references a Mr. Rooter service for a related plumbing issue, both brands absorb citation surface that flows upward to the Neighborly umbrella. Authority Brands runs the same playbook across One Hour Heating &amp; Air Conditioning, Benjamin Franklin Plumbing, and Mister Sparky.</p>
+
+			<p>Linda Moretti has a Google Business Profile and a website her nephew built in 2019. She does not have a Wikipedia article, because Wikipedia's notability guidelines do not recognize a plumber with 847 five-star reviews as encyclopedic, and she does not have a Wikidata record or Schema.org LocalBusiness markup on a site her nephew built in WordPress seven years ago and has not touched since. She has never been quoted in ACHR News, because ACHR News covers national industry trends, not individual contractors in Scottsdale. Every signal that AI models use to decide who to recommend, Linda lacks, and every signal that AI models lack the ability to read, like the fact that Linda personally crawled under your neighbor's foundation slab in 2019 to replace a corroded copper line at 6 a.m. on a Sunday, is the reason she has 847 reviews in the first place.</p>
+
+			<p>5W measured the entity-strength asymmetry at roughly 8x, the largest multiplier they have observed in any consumer category they have indexed.</p>
+
+			<h2>What Franchise Recommendations Cost You</h2>
+
+			<p>Franchise plumbing and HVAC operators carry structural overhead that independents do not. Neighborly's franchise disclosure documents show initial franchise fees ranging from $25,000 to $43,800, ongoing royalty fees of 5 to 7 percent of gross revenue, and marketing fund contributions of 2 percent, a structure Authority Brands mirrors across its own portfolio. Those costs exist whether the franchisee wants them or not, and they get embedded in the price the homeowner pays.</p>
+
+			<p>Run the numbers on a $15,000 residential HVAC replacement, which is roughly the national median for a full system swap including ductwork modifications. A franchise operator paying 6 percent royalties and 2 percent marketing fund contributions on that job sends $1,200 to the parent company before profit, labor, materials, and overhead. An independent operator performing identical work with identical equipment from the same supply house sends $0. That $1,200 does not buy the homeowner a better compressor or a more reliable installation; it buys a logo on the van.</p>
+
+			<p>This does not mean every franchise charges more than every independent. Scale purchasing agreements, standardized training, and brand-backed warranty programs can offset some of the overhead. But the structural floor is real: franchise operators must recover 7 to 9 percent of revenue in brand-related costs that independents can either pocket as margin or pass along as lower prices, which means on a $8,500 furnace install the gap is $595 to $765, on a $3,200 water heater swap it runs $224 to $288, and over the lifetime of a homeowner's relationship with their HVAC and plumbing contractor, covering two major system replacements, three or four mid-range repairs, and a dozen service calls, the cumulative franchise premium can reach $3,000 to $5,000 in additional cost for equivalent work. That adds up.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">8x</div>
+				<div class="label">Entity-strength asymmetry between national franchise networks and independent contractors, per 5W. The largest gap measured in any consumer category they have indexed.</div>
+			</div>
+
+			<h2>Private Equity Made It Worse, Then Couldn't Fix It</h2>
+
+			<p>PE-backed home services roll-ups, including Wrench Group, Sila Services, and Apex Service Partners, have spent billions acquiring regional contractors since 2018. In theory, consolidation should produce the same citation advantages that franchise networks enjoy. In practice, most roll-ups preserved the acquired brand names to retain local customer loyalty, which means AI engines still route queries to "Bob's Heating and Cooling" (a Wrench Group portfolio company in Portland) rather than to Wrench Group itself. Citation surface stays fragmented across 40 or 60 regional names instead of consolidating under one national entity.</p>
+
+			<p>These operators now face an unpleasant choice. Rebrand everything under a unified national name and gain citation share, or preserve the local brand equity that their acquisition multiples were predicated on. Neighborly solved this problem years ago by building franchise brands from scratch as national entities. PE operators who bought local brands and bolted them together are discovering that structural brand architecture is harder to retrofit than a leaky flange.</p>
+
+			<h2>Counterargument at Full Strength</h2>
+
+			<p>Franchise contractors provide something that Linda Moretti, for all her skill, cannot replicate at scale: institutional accountability. A homeowner who hires a Neighborly franchise gets a national brand's dispute resolution process, standardized licensing verification, background-checked technicians, and a warranty backed by a parent company with $3.4 billion in systemwide revenue. If the franchisee disappears tomorrow, Neighborly has contractual obligations to make the customer whole. If Linda retires, the warranty walks out with her.</p>
+
+			<p>For a homeowner with no existing contractor relationships, particularly someone who just moved to a new city and does not know anyone to ask, the franchise recommendation may genuinely reduce risk. AI engines are not optimizing for cheapness or local charm. They are optimizing for discoverability signals that correlate with scale, and scale correlates with accountability infrastructure. Recommending entities with large, verifiable web footprints is a reasonable heuristic when the alternative is recommending an entity the model cannot verify at all. That is the strongest argument for accepting AI's franchise bias as a feature rather than a bug, and it deserves to be taken seriously before we dismiss it.</p>
+
+			<p>But accountability and competence are different measurements. A national warranty means nothing if the technician overtightens a compression fitting and floods your basement, and franchise operators draw from the same labor pool as independents, often paying lower hourly wages because the brand's overhead consumes margin that could otherwise go to the worker. In markets with tight labor supply, the best technicians tend to work for the operators who pay the most, and those operators are frequently independents who keep what franchisees send to corporate.</p>
+
+			<h2>What to Do If You Are Renovating</h2>
+
+			<p>Do not ask ChatGPT for a plumber. Not yet. AI contractor recommendations in May 2026 reflect the structural web presence of national brands, not the quality of local operators. Until the models can weight verified review platforms, licensing databases, and real-time availability, the answer you get is marketing output disguised as advice.</p>
+
+			<p>Instead: ask Nextdoor, which surfaces contractor recommendations from verified addresses within a defined radius. Ask your general contractor, who subcontracts to these people every week and knows who shows up on time and who does not. Check your state's contractor licensing board, because every licensed contractor in every state has a public record with complaint history, bond status, and license expiration. California's CSLB, Arizona's ROC, Texas's TDLR. These databases exist and are free. AI does not query them.</p>
+
+			<p>If you do use AI as a starting point, append the prompt with your city and "independent licensed contractor" and cross-reference every recommendation against the state licensing board. Verify the license number. Check the bond. Read the Yelp and Google reviews yourself, paying attention to the one-star reviews more than the five-star ones. A contractor with 400 reviews and an average of 4.6 is almost certainly better than a contractor with 12 reviews and an average of 5.0, regardless of which one the AI mentions.</p>
+
+			<p>For contractors reading this: 5W's structural recommendations are sound, even though 5W has a commercial interest in selling you visibility services. Schema.org LocalBusiness markup on your website costs nothing and takes 20 minutes. A Wikipedia article requires meeting notability guidelines, which most individual contractors cannot do, but a mention in a local trade publication or business journal can build entity strength incrementally. Consistent name-address-phone data across your Google Business Profile, Yelp, Angi, and your own website is the minimum. If your business name on Google does not match your business name on Yelp, AI engines cannot confidently merge the two entities, and your citation share fragments.</p>
+
+			<h2>Limitations</h2>
+
+			<p>5W Public Relations is a PR firm whose business includes selling AI visibility consulting. Their incentive is to quantify a problem they are positioned to solve. We cite their data because the structural argument is sound and the methodology, while limited in scale, is transparent. Sixty-five prompts across four platforms is illustrative, not statistically rigorous, and the study has not been independently replicated. Citation share does not directly measure consumer behavior; a homeowner who receives a franchise recommendation from ChatGPT may still check Yelp, call a neighbor, or ignore the recommendation entirely. No controlled price comparison between franchise and independent contractors performing identical work under identical conditions exists in published literature. Franchise fee structures were drawn from Neighborly and Authority Brands FDDs, which represent two of the largest operators and may not reflect industry averages. Linda Moretti is a composite character representing the typical independent contractor profile described in the study; she is not a real person, and any resemblance is coincidental.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+</body>
+</html>
