@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-contractor-recommendations-franchise-bias",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Catherine Chen",
     "started": "2026-05-09T13:00:00Z",
-    "headline": "You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist."
+    "headline": "You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist.",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.9,
+      "ethics": 9.1,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 8.8,
+      "data": 8.6,
+      "average": 8.84
+    }
   },
   "last_completed": {
     "slug": "big-tech-ai-training-construction-pipeline",
