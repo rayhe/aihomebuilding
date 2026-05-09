@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "big-tech-ai-training-construction-pipeline",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "started": "2026-05-09T03:00:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.9,
+      "social": 8.6,
+      "legal": 9.0,
+      "rigor": 8.7,
+      "data": 8.6,
+      "average": 8.76
+    }
   },
   "last_completed": {
     "slug": "jlg-canvas-drywall-robot-residential-math",
