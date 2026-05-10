@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "autonomous-retrofit-kits-site-prep",
-    "phase": "SHIP",
+    "headline": "Your Excavator Operator Quit Last Tuesday. For $50,000, the Excavator Doesn't Care.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-10T17:00:00Z",
-    "round": 0,
+    "published": "2026-05-10T17:00:00Z",
+    "article_number": 259,
     "scores": {
       "general": 8.8,
       "voice": 8.8,
@@ -14,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.81
-    }
-  },
-  "last_completed": {
-    "slug": "embodied-carbon-blindspot-new-homes",
-    "headline": "Your Builder Measured Your Home's Energy Use. Nobody Measured What It Cost the Planet to Build It.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-10T15:00:00Z",
-    "article_number": 258,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.6,
-      "ethics": 9.1,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.79
     }
   }
 }
