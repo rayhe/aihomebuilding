@@ -1,9 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-listing-photos-housefishing-disclosure",
-    "phase": "QA",
+    "headline": "The House Looked Perfect Online. The Lawn Was AI. The Kitchen Renovation Hadn't Happened.",
     "journalist": "Elena Vasquez",
-    "started": "2026-05-10T01:10:00Z",
+    "published": "2026-05-10T03:05:00Z",
+    "article_number": 256,
     "scores": {
       "general": 8.8,
       "voice": 8.9,
@@ -13,23 +15,6 @@
       "rigor": 8.6,
       "data": 8.6,
       "average": 8.77
-    }
-  },
-  "last_completed": {
-    "slug": "ai-contractor-recommendations-franchise-bias",
-    "headline": "You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-10T01:00:00Z",
-    "article_number": 255,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.9,
-      "ethics": 9.1,
-      "social": 8.8,
-      "legal": 8.7,
-      "rigor": 8.8,
-      "data": 8.6,
-      "average": 8.84
     }
   }
 }
