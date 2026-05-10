@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-contractor-recommendations-franchise-bias",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Catherine Chen",
-    "started": "2026-05-09T13:00:00Z",
     "headline": "You Asked AI Which Plumber to Call. It Recommended a Franchise. Your Neighbor's Guy with 800 Reviews Didn't Exist.",
+    "journalist": "Catherine Chen",
+    "published": "2026-05-10T01:00:00Z",
+    "article_number": 255,
     "scores": {
       "general": 9.0,
       "voice": 8.9,
@@ -15,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.6,
       "average": 8.84
-    }
-  },
-  "last_completed": {
-    "slug": "big-tech-ai-training-construction-pipeline",
-    "headline": "Microsoft Trained 1,500 Construction Instructors in AI. The Electrician Who Leaves Your Project Is Where It Pays Off.",
-    "journalist": "Marcus Washington",
-    "published": "2026-05-09T11:00:00Z",
-    "article_number": 254,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.9,
-      "social": 8.6,
-      "legal": 9.0,
-      "rigor": 8.7,
-      "data": 8.6,
-      "average": 8.76
     }
   }
 }
