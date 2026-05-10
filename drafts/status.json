@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-construction-hiring-record-low-knowledge-drain",
     "headline": "He Knew Every Inspector in the County by First Name. When He Retired, His Replacement Got a Login to Procore.",
-    "phase": "QA",
     "journalist": "Marcus Washington",
-    "started": "2026-05-10T19:00:00Z",
-    "round": 1,
+    "published": "2026-05-10T21:00:00Z",
+    "article_number": 260,
     "scores": {
       "general": 8.8,
       "voice": 8.9,
@@ -15,34 +15,6 @@
       "rigor": 8.8,
       "data": 8.6,
       "average": 8.8
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 8.3,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 205.0,
-        "short_pct": 13.5,
-        "long_pct": 50.0,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "slug": "autonomous-retrofit-kits-site-prep",
-    "headline": "Your Excavator Operator Quit Last Tuesday. For $50,000, the Excavator Doesn't Care.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-05-10T17:00:00Z",
-    "article_number": 259,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.8,
-      "ethics": 8.9,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.81
     }
   }
 }
