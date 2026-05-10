@@ -1,10 +1,32 @@
 {
   "current": {
     "slug": "ai-construction-hiring-record-low-knowledge-drain",
-    "phase": "DRAFT",
+    "headline": "He Knew Every Inspector in the County by First Name. When He Retired, His Replacement Got a Login to Procore.",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "started": "2026-05-10T19:00:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.9,
+      "ethics": 8.7,
+      "social": 8.7,
+      "legal": 9.1,
+      "rigor": 8.8,
+      "data": 8.6,
+      "average": 8.80
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 8.3,
+      "banned_phrases": 0,
+      "sentence_rhythm": {
+        "variance": 205.0,
+        "short_pct": 13.5,
+        "long_pct": 50.0,
+        "passed": true
+      }
+    }
   },
   "last_completed": {
     "slug": "autonomous-retrofit-kits-site-prep",
