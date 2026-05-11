@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-progress-tracking-residential-gap",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-05-11T01:00:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.8,
+      "rigor": 8.6,
+      "data": 8.5,
+      "average": 8.70
+    },
+    "note": "All 7 critics >= 8.5. Hard gates passed (0 em dashes, 0 banned phrases, The-starters 6.2%). Rhythm check passed (variance 486, short 8.5%, long 60.6%). Hold for next publish slot."
+  },
   "last_completed": {
     "slug": "ai-architecture-phases-bolt-on-paradox",
     "headline": "Your Architect Added AI to the Same Process They Used Before AutoCAD. Nobody Asked Why.",
