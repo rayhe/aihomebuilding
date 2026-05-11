@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "ai-water-heater-thermal-battery-residential-grid",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Priya Greenwood",
-    "started": "2026-05-11T03:00:00Z"
+    "started": "2026-05-11T03:00:00Z",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 8.9,
+      "data": 8.6,
+      "average": 8.83
+    }
   },
   "last_completed": {
     "slug": "ai-progress-tracking-residential-gap",
