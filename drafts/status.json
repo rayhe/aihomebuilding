@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "big-tech-trains-construction-workers-not-for-your-house",
+    "phase": "SHIP",
+    "journalist": "Marcus Washington",
+    "started": "2026-05-11T09:00:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.9,
+      "rigor": 9.1,
+      "data": 8.8,
+      "average": 8.94
+    },
+    "note": "All 7 critics ≥8.5, all hard gates pass. Holding for next day — #265 already published today (4 articles published 2026-05-11 UTC due to git --since grep bug)."
+  },
   "last_completed": {
     "slug": "ai-concrete-sensors-residential-foundation-strength",
     "headline": "A $40 Sensor Buried in Your Foundation Knows Its Strength. The Lab Charging $800 to Crush Cylinders Doesn't.",
