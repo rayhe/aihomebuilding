@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "ai-architecture-phases-bolt-on-paradox",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
     "started": "2026-05-10T23:00:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.9,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.6,
+      "average": 8.81
+    },
+    "note": "Critique passed, all 7 critics >=8.5. 2 articles already published today (#260, #261). Hold for next day."
   },
   "last_completed": {
     "slug": "eo-insurance-ai-exclusion-design-firms",
