@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-water-heater-thermal-battery-residential-grid",
-    "phase": "QA",
-    "round": 1,
+    "headline": "Your Water Heater Stores 10 kWh. Your Powerwall Stores 13.5. One of Them Was Already in the Basement.",
     "journalist": "Priya Greenwood",
-    "started": "2026-05-11T03:00:00Z",
+    "published": "2026-05-11T05:00:00Z",
+    "article_number": 264,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -14,23 +15,6 @@
       "rigor": 8.9,
       "data": 8.6,
       "average": 8.83
-    }
-  },
-  "last_completed": {
-    "slug": "ai-progress-tracking-residential-gap",
-    "headline": "The AI Knows Your Drywall Is 73% Done. Your Super Knew That on Wednesday.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-11T03:00:00Z",
-    "article_number": 263,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.6,
-      "data": 8.5,
-      "average": 8.70
     }
   }
 }
