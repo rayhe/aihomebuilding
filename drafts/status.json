@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-concrete-sensors-residential-foundation-strength",
-    "phase": "QA",
-    "journalist": "Jake Kowalski",
     "headline": "A $40 Sensor Buried in Your Foundation Knows Its Strength. The Lab Charging $800 to Crush Cylinders Doesn't.",
-    "started": "2026-05-11T07:00:00Z",
+    "journalist": "Jake Kowalski",
+    "published": "2026-05-11T07:00:00Z",
     "article_number": 265,
-    "round": 1,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -16,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.96
-    }
-  },
-  "last_completed": {
-    "slug": "ai-water-heater-thermal-battery-residential-grid",
-    "headline": "Your Water Heater Stores 10 kWh. Your Powerwall Stores 13.5. One of Them Was Already in the Basement.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-11T05:00:00Z",
-    "article_number": 264,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.6,
-      "average": 8.83
     }
   }
 }
