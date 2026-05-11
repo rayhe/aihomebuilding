@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-architecture-phases-bolt-on-paradox",
-    "phase": "QA",
+    "headline": "Your Architect Added AI to the Same Process They Used Before AutoCAD. Nobody Asked Why.",
     "journalist": "Elena Vasquez",
-    "started": "2026-05-10T23:00:00Z",
-    "round": 1,
+    "published": "2026-05-11T01:00:00Z",
+    "article_number": 262,
     "scores": {
       "general": 8.9,
       "voice": 8.6,
@@ -14,25 +15,6 @@
       "rigor": 8.8,
       "data": 8.6,
       "average": 8.81
-    },
-    "article_number": 262,
-    "published": "2026-05-11T01:00:00Z"
-  },
-  "last_completed": {
-    "slug": "eo-insurance-ai-exclusion-design-firms",
-    "headline": "Your Architect Used AI to Check the Beam Spec. The Insurer Just Excluded It From Coverage.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-10T23:00:00Z",
-    "article_number": 261,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.9,
-      "social": 8.8,
-      "legal": 9.1,
-      "rigor": 8.8,
-      "data": 8.6,
-      "average": 8.79
     }
   }
 }
