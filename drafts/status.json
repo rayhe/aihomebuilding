@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "big-tech-trains-construction-workers-not-for-your-house",
-    "phase": "QA",
+    "headline": "Big Tech Trained 7,700 Construction Workers Last Year. Your Home Builder Got Zero of Them.",
     "journalist": "Marcus Washington",
-    "started": "2026-05-11T09:00:00Z",
-    "round": 1,
+    "published": "2026-05-11T13:00:00Z",
+    "article_number": 266,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,25 +15,6 @@
       "rigor": 9.1,
       "data": 8.8,
       "average": 8.94
-    },
-    "published": "2026-05-11T13:00:00Z",
-    "article_number": 266
-  },
-  "last_completed": {
-    "slug": "ai-concrete-sensors-residential-foundation-strength",
-    "headline": "A $40 Sensor Buried in Your Foundation Knows Its Strength. The Lab Charging $800 to Crush Cylinders Doesn't.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-05-11T07:00:00Z",
-    "article_number": 265,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 8.9,
-      "data": 8.8,
-      "average": 8.91
     }
   }
 }
