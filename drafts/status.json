@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "every-ai-designed-home-looks-like-the-same-house",
     "headline": "Every AI-Designed Home Looks Like the Same House. The Algorithm Doesn't Know Where You Live.",
-    "phase": "QA",
     "journalist": "Elena Vasquez",
-    "started": "2026-05-11T21:00:00Z",
-    "round": 1,
+    "published": "2026-05-12T01:00:00Z",
+    "article_number": 268,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -15,34 +15,6 @@
       "rigor": 8.7,
       "data": 8.5,
       "average": 8.77
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 9.8,
-      "banned_phrases": 0,
-      "rhythm_variance": 239.9,
-      "rhythm_short_pct": 11.5,
-      "rhythm_long_pct": 59.0,
-      "all_passed": true
-    },
-    "published": "2026-05-12T01:00:00Z",
-    "article_number": 268
-  },
-  "last_completed": {
-    "slug": "ai-approved-your-permit-who-do-you-sue",
-    "headline": "AI Approved Your Building Permit in 30 Minutes. When It's Wrong, Nobody Knows Who to Sue.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-11T17:00:00Z",
-    "article_number": 267,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.7,
-      "average": 8.9
     }
   }
 }
