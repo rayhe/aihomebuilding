@@ -1,13 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-scheduling-garbage-data",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
     "headline": "88% of Construction Schedules Are Garbage. AI Scheduling Tools Don't Care.",
-    "started": "2026-05-12T05:02:00Z",
+    "journalist": "Frank DeLuca",
     "published": "2026-05-12T09:00:00Z",
     "article_number": 269,
-    "round": 1,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -17,23 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.89
-    }
-  },
-  "last_completed": {
-    "slug": "every-ai-designed-home-looks-like-the-same-house",
-    "headline": "Every AI-Designed Home Looks Like the Same House. The Algorithm Doesn't Know Where You Live.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-05-12T01:00:00Z",
-    "article_number": 268,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.5,
-      "average": 8.77
     }
   }
 }
