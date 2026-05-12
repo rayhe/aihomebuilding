@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>88% of Construction Schedules Are Garbage. AI Scheduling Tools Don't Care. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-scheduling-garbage-data.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "88% of Construction Schedules Are Garbage. AI Scheduling Tools Don't Care.",
+		"description": "SmartPM says 88% of baseline schedules fail quality benchmarks. AI vendors promise 17-40% timeline savings. Do the multiplication. You're automating your own dysfunction.",
+		"image": "https://aihomebuilding.com/images/ai-scheduling-garbage-data.jpg",
+		"datePublished": "2026-05-12",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-scheduling-garbage-data.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="88% of Construction Schedules Are Garbage. AI Scheduling Tools Don't Care.">
+	<meta property="og:description" content="SmartPM says 88% of baseline schedules fail quality benchmarks. AI vendors promise 17-40% timeline savings. Do the multiplication.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-scheduling-garbage-data.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-scheduling-garbage-data.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="88% of Construction Schedules Are Garbage. AI Scheduling Tools Don't Care.">
+	<meta name="twitter:description" content="AI scheduling vendors promise 17-40% savings. But 88% of input schedules fail basic quality checks. You're optimizing a fantasy.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-scheduling-garbage-data.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			border-radius: 0 8px 8px 0;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+		}
+		.story-body th, .story-body td {
+			padding: 0.75rem;
+			border: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			background: var(--bg-card);
+			font-weight: 600;
+		}
+		.stat-callout {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 12px;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			text-align: center;
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			display: inline-block;
+			margin-top: 2rem;
+			font-weight: 600;
+		}
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.stat-callout .big-number { font-size: 2.25rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-scheduling-garbage-data.jpg" alt="A cluttered construction trailer desk covered in outdated printed Gantt charts, coffee-stained and marked with red pen, with a laptop showing scheduling software glowing in the background">
+		<div class="overlay">
+			<div class="badge">Project Management</div>
+			<h1>88% of Construction Schedules Are Garbage. AI Scheduling Tools Don't Care.</h1>
+			<div class="meta">By Frank DeLuca &middot; May 12, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>I watched a superintendent spend forty minutes last month demonstrating an AI scheduling platform to his project owner. Impressive presentation. Clean interface, color-coded critical paths recalculated in real time, resource-leveling suggestions that would have taken a human planner two days of manual iteration to produce. When the demo ended, the owner asked one question: where did the baseline schedule come from? Silence. Because the baseline was the same CPM schedule the super's predecessor had built eighteen months earlier, never updated after the foundation pour ran six weeks late, still showing a framing start date that had passed in January.</p>
+
+			<p>He was optimizing a schedule that described a project that no longer existed.</p>
+
+			<p>This is not a rare failure mode. According to <a href="https://www.smartpm.com/" target="_blank">SmartPM's 2025 State of Construction Scheduling Report</a>, 88 percent of baseline construction schedules fail basic quality benchmarks, and not by marginal misses. Broken logic ties, missing constraints, durations pulled from thin air, predecessor relationships that create impossible sequences nobody has reviewed since the schedule was first submitted to satisfy a contract requirement that specified "contractor shall provide a CPM schedule" without defining what "quality" meant.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">88%</div>
+				<div class="label">Percentage of baseline construction schedules that fail quality benchmarks, per SmartPM's 2025 analysis. Only 12% meet best-practice standards.</div>
+			</div>
+
+			<h2>What the Vendors Are Selling</h2>
+
+			<p><a href="https://www.alicetechnologies.com/" target="_blank">ALICE Technologies</a>, now partnered with McKinsey in a formalized alliance, claims its generative scheduling engine can reduce project durations by 17 percent on average, with showcase results reaching 40 percent on a data center project. The platform uses parametric algorithms and 3D BIM models to generate and evaluate millions of possible construction sequences, identifying optimal paths that human planners would never explore because the combinatorial space is too large for manual analysis. Suffolk Construction and Zachry Construction are among the clients. Enterprise pricing is not publicly disclosed, but conversations with three GCs who evaluated the platform suggest annual commitments in the mid-five to low-six figures depending on project volume.</p>
+
+			<p><a href="https://www.nplan.io/" target="_blank">nPlan</a>, backed by $16 million in Series B funding from Google Ventures and Chevron, takes a different approach entirely, using machine learning trained on historical project data to predict delays before they happen rather than generating optimized sequences. nPlan claims to have saved customers over $1.2 billion, though the methodology behind that figure has not been published for independent review.</p>
+
+			<p>Both approaches share a dependency that neither vendor's marketing materials emphasize with sufficient honesty. Good output requires good input.</p>
+
+			<h2>Multiply the Numbers</h2>
+
+			<p>Here is an arithmetic exercise that should make any GC considering AI scheduling software pause before signing the purchase order.</p>
+
+			<p>Consider a 12-month residential project where ALICE promises 17 percent duration savings, roughly two months shaved off your timeline, translating to reduced general conditions costs, earlier certificate of occupancy, and faster revenue recognition for the developer. Now apply SmartPM's finding: if the baseline schedule feeding that AI engine belongs to the 88 percent that fail quality benchmarks, the tool is finding the optimal path through a document that does not describe reality. Wrong logic ties mean the AI is sequencing activities that cannot actually happen in the order it proposes. Missing constraints mean the tool does not know about the structural steel lead time that pushed your superstructure start by nine weeks. Unrealistic durations mean every downstream calculation compounds an error that originated when someone typed "5 days" for a concrete cure that actually takes fourteen in January in Minnesota.</p>
+
+			<p>You save two months on paper. You finish four months late on the job site. Nobody reconciles the discrepancy because the schedule was never the document anyone was actually managing the project from. It was the document they submitted to satisfy the contract.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">4%</div>
+				<div class="label">Percentage of construction companies with dedicated project controls teams, per SmartPM. These are the people who would maintain schedule data quality. The other 96% have nobody.</div>
+			</div>
+
+			<h2>Nobody Is Minding the Store</h2>
+
+			<p>SmartPM's report contains a statistic more alarming than the 88 percent headline: only 4 percent of construction companies have dedicated project controls teams. Four percent. Project controls is the discipline responsible for maintaining schedule quality, validating logic, updating baselines, and ensuring the CPM model reflects what is actually happening on site rather than what someone hoped would happen when they built the schedule nine months ago during preconstruction.</p>
+
+			<p>Sixty-three percent of construction professionals lack proper understanding of what schedule quality even means, according to the same report. Not a lack of software or AI tools, but a lack of understanding of the fundamental discipline that produces the data those tools need to function.</p>
+
+			<p>Meanwhile, 75 percent of executives rely on schedules for high-level decisions. They are making resource allocation choices, milestone commitments to investors, and construction loan draw requests based on documents that almost nine out of ten times fail basic quality checks. Adding an AI layer on top of this does not fix the problem. It gives the problem a more convincing user interface.</p>
+
+			<h2>Ryan McCain's $50,000 Savings Claim</h2>
+
+			<p>Ryan McCain, writing on <a href="https://medium.com/" target="_blank">Medium</a> in March 2026, calculated that AI scheduling could save $50,000 per $2 million residential project, projecting a 7x to 14x return on investment in year one. His analysis assumed a directionally correct baseline schedule as the starting point, which means the ROI calculation applies to roughly 12 percent of the industry.</p>
+
+			<p>For everyone else, the $50,000 is a phantom, and what makes it worse is the false confidence that the AI tool creates by always producing an output, always showing an optimized schedule, always displaying projected savings in days and dollars rendered in attractive dashboards with export-to-PDF functionality that looks authoritative in a project status meeting. AI scheduling tools do not have a "your input data is garbage" warning screen. They optimize whatever you feed them and present the result with the same confidence regardless of whether the input was a meticulously maintained CPM model or a fiction someone assembled in Primavera during a two-hour layover at O'Hare.</p>
+
+			<h2>What To Do Before You Buy</h2>
+
+			<p>If you are a GC running $2 million to $10 million residential projects and evaluating AI scheduling software, here is the honest sequence of operations, ordered by the return they will actually generate.</p>
+
+			<p><strong>First, audit your existing schedules.</strong> Pull the baselines from your three most recent completed projects and count the logic breaks, the open-ended activities with no successors, the constraints that were never updated after submittals came back late. If you find fewer than ten issues per schedule, you are in the 12 percent, and AI scheduling tools will probably help you. If you find more than ten, which is statistically likely, stop here and fix your scheduling process before spending money on AI.</p>
+
+			<p><strong>Second, hire a dedicated scheduler</strong> who is not a superintendent moonlighting with P6 or a project engineer who took a weekend course, but a professional whose only job is maintaining schedule quality, updating logic, and ensuring the CPM model reflects site conditions as they actually exist rather than as they were imagined during preconstruction. This person costs $85,000 to $120,000 a year depending on your market, and that investment will deliver more measurable improvement to your project outcomes than any AI tool applied to bad data.</p>
+
+			<p><strong>Third, establish schedule quality benchmarks</strong> that define what "good" looks like for your organization: maximum allowable open-ended activities, required update frequency, logic density thresholds, and review gates before baseline submission. SmartPM publishes benchmarks you can adapt, and the <a href="https://www.aacei.org/" target="_blank">AACE International</a> Recommended Practices provide industry-standard frameworks for schedule quality assessment, particularly RP 49R-06 and RP 52R-06.</p>
+
+			<p><strong>Only then should you consider AI tools.</strong> Once your schedules consistently pass quality benchmarks with data that reflects reality, ALICE's generative scheduling and nPlan's predictive analytics become genuinely powerful, finding optimization opportunities in a well-maintained schedule that a human planner would miss because the combinatorial search space is too vast for manual exploration. But they cannot manufacture data quality that does not exist in the input.</p>
+
+			<h2>In Their Defense</h2>
+
+			<p>ALICE Technologies would argue, with some justification, that the discipline required to implement their platform forces schedule quality improvement as a side effect. ALICE requires BIM integration and structured parametric inputs that impose a rigor many organizations lack. You cannot feed ALICE a hand-drawn bar chart masquerading as a CPM schedule. You have to build a real model with real constraints, real resource assignments, and real logic, and the process of building that model to satisfy the AI's input requirements may itself produce the schedule quality upgrade the organization needed all along.</p>
+
+			<p>There is genuine truth in that argument, and I have seen tools drive process improvement simply by raising the floor of what constitutes acceptable input. But that framing inverts the sales pitch entirely, because it means the primary value of the AI scheduling tool is not the optimized output but the data discipline the tool forces on the way in. You are paying enterprise software prices for what is functionally a schedule quality audit with a very expensive user interface, and there are cheaper ways to get that discipline if discipline is what you actually need.</p>
+
+			<h2>Over 70 Percent of Projects Underperform</h2>
+
+			<p>According to <a href="https://www.bridgit.com/" target="_blank">Bridgit's 2026 industry analysis</a>, 98 percent of construction projects experience cost overruns or delays, with average delays running 37 percent longer than originally planned. McKinsey's megaproject research is even bleaker: only 8.5 percent of megaprojects meet both cost and schedule targets, with the global cost of overruns reaching $1.6 trillion annually.</p>
+
+			<p>AI scheduling vendors position themselves as the solution to this crisis. And they could be, eventually, for the fraction of the industry whose data infrastructure can support the tools. But rushing to deploy machine learning on top of a scheduling ecosystem where nearly nine out of ten baselines fail quality checks is not a technology adoption strategy. It is a procurement decision driven by the same optimism bias that produces the broken schedules in the first place.</p>
+
+			<p>Fix the data. Then buy the software.</p>
+
+			<h2>Limitations</h2>
+
+			<p>SmartPM has a commercial interest in reporting poor schedule quality, as they sell schedule analytics software that directly addresses the problem their research quantifies. Their 88 percent figure spans all project types and scales, not residential specifically, and the full report is gated behind a registration wall that prevented independent verification of methodology. ALICE's duration savings claims are self-reported with no published third-party audit. nPlan's $1.2 billion savings claim lacks publicly documented methodology. McCain's ROI projection on Medium is a single analyst's calculation, not a peer-reviewed study. I could not access pricing for either ALICE or nPlan directly and relied on secondhand reports from GCs who evaluated the platforms. Industry delay statistics from Bridgit and McKinsey aggregate across project types, geographies, and delivery methods in ways that may not reflect the experience of a $3 million custom home builder in a specific market.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
