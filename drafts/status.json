@@ -1,10 +1,12 @@
 {
   "current": {
     "slug": "ai-wildfire-insurance-property-risk",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Priya Greenwood",
     "headline": "Your Insurer Dropped You Because of Your Zip Code. An AI Looked at Your Actual Roof.",
     "started": "2026-05-12T15:05:00Z",
+    "published_at": "2026-05-12T19:00:00Z",
+    "article_number": 270,
     "critique_round": 1,
     "scores": {
       "general": 9.0,
@@ -19,16 +21,9 @@
     "hard_gates": {
       "em_dashes": 0,
       "the_starters_pct": 3.4,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 252.9,
-        "short_pct": 14.5,
-        "long_pct": 46.8,
-        "passed": true
-      }
+      "banned_phrases": 0
     },
-    "word_count": 1305,
-    "hold_reason": "Article #269 already published today (2026-05-12). Will ship on next eligible run."
+    "word_count": 1305
   },
   "last_completed": {
     "slug": "ai-scheduling-garbage-data",
