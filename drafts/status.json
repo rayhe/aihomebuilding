@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-insurance-exclusion-construction-coverage-gap",
+    "phase": "SHIP",
+    "journalist": "Catherine Chen",
+    "started": "2026-05-13T09:00:00Z",
+    "headline_wip": "Your Architect's Insurance Just Excluded AI. So Did Your Builder's. Nobody Told the Homeowner.",
+    "round": 1,
+    "ship_blocked": "1/day limit — #272 already published 2026-05-13",
+    "scores": {
+      "general": 8.8,
+      "voice": 9.0,
+      "ethics": 9.1,
+      "social": 8.6,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.7,
+      "average": 8.86
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 14.3,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS (variance=212.1, short=8.5%, long=38.0%)"
+    }
+  },
   "last_completed": {
     "slug": "immigration-enforcement-construction-labor-crisis",
     "headline": "A Minneapolis Builder Lost 74 of 80 Roofers in One Week. An NBER Study Says Nobody's Coming Back.",
