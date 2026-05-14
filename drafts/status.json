@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-repair-estimate-accuracy-gap",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "Your AI Said the House Needs $63,688 in Repairs. Your Contractor Said $14,000. Both Were Doing Their Jobs.",
     "journalist": "Jake Kowalski",
-    "started": "2026-05-14T03:02:00Z",
-    "research_file": "ai-repair-estimate-accuracy-gap-research.md",
+    "published": "2026-05-14T03:16:00Z",
+    "article_number": 274,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -15,23 +15,6 @@
       "rigor": 8.8,
       "data": 8.8,
       "average": 8.87
-    }
-  },
-  "last_completed": {
-    "slug": "ai-insurance-exclusion-construction-coverage-gap",
-    "headline": "Your Architect's Insurance Just Excluded AI. So Did Your Builder's. Nobody Told the Homeowner.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-14T01:03:00Z",
-    "article_number": 273,
-    "scores": {
-      "general": 8.8,
-      "voice": 9.0,
-      "ethics": 9.1,
-      "social": 8.6,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.86
     },
     "push_pending": true,
     "push_note": "GitHub DNS down — commit local, push on next available window"
