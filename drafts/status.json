@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-repair-estimate-accuracy-gap",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Jake Kowalski",
+    "started": "2026-05-14T03:02:00Z",
+    "research_file": "ai-repair-estimate-accuracy-gap-research.md",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 9.1,
+      "legal": 8.9,
+      "rigor": 8.8,
+      "data": 8.8,
+      "average": 8.87
+    }
+  },
   "last_completed": {
     "slug": "ai-insurance-exclusion-construction-coverage-gap",
     "headline": "Your Architect's Insurance Just Excluded AI. So Did Your Builder's. Nobody Told the Homeowner.",
