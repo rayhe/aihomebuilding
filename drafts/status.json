@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-insurance-exclusion-construction-coverage-gap",
-    "phase": "QA",
+    "headline": "Your Architect's Insurance Just Excluded AI. So Did Your Builder's. Nobody Told the Homeowner.",
     "journalist": "Catherine Chen",
-    "started": "2026-05-13T09:00:00Z",
-    "headline_wip": "Your Architect's Insurance Just Excluded AI. So Did Your Builder's. Nobody Told the Homeowner.",
-    "round": 1,
+    "published": "2026-05-14T01:03:00Z",
     "article_number": 273,
     "scores": {
       "general": 8.8,
@@ -17,28 +16,7 @@
       "data": 8.7,
       "average": 8.86
     },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 14.3,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS (variance=212.1, short=8.5%, long=38.0%)"
-    }
-  },
-  "last_completed": {
-    "slug": "immigration-enforcement-construction-labor-crisis",
-    "headline": "A Minneapolis Builder Lost 74 of 80 Roofers in One Week. An NBER Study Says Nobody's Coming Back.",
-    "journalist": "Marcus Washington",
-    "published": "2026-05-13T07:00:00Z",
-    "article_number": 272,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.2,
-      "ethics": 8.8,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.1,
-      "data": 8.8,
-      "average": 8.99
-    }
+    "push_pending": true,
+    "push_note": "GitHub DNS down — commit local, push on next available window"
   }
 }
