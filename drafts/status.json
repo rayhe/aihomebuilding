@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "colorado-wildfire-code-ai-compliance-gap",
-    "phase": "QA",
+    "headline": "Colorado\u2019s Code Says Your Home Must Survive a Wildfire. The Town Reviewing Your Plans Doesn\u2019t Have the Staff to Check.",
     "journalist": "Catherine Chen",
-    "started": "2026-05-14T15:02:00Z",
-    "headline_draft": "Colorado's Code Says Your Home Must Survive a Wildfire. The Town Reviewing Your Plans Doesn't Have the Staff to Check.",
-    "critique_round": 0,
+    "published": "2026-05-15T03:04:00Z",
+    "article_number": 276,
     "scores": {
       "general": 8.7,
       "voice": 9.0,
@@ -15,29 +15,6 @@
       "rigor": 9.0,
       "data": 8.7,
       "average": 8.86
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 4.7,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS"
-    }
-  },
-  "last_completed": {
-    "slug": "nyc-noise-monitoring-mandate",
-    "headline": "NYC\u2019s New Noise Rule Costs $5,000 a Month. One Stop-Work Order Costs $50,000 a Day.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-14T13:03:00Z",
-    "article_number": 275,
-    "scores": {
-      "general": 8.7,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.93
     },
     "push_pending": true,
     "push_note": "GitHub DNS down — commit local, push on next available window"
