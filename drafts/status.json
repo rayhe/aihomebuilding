@@ -1,10 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-energy-audit-diagnosis-prescription-gap",
-    "phase": "QA",
-    "journalist": "Priya Greenwood",
-    "started": "2026-05-15T05:02:00Z",
     "headline": "Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.",
+    "journalist": "Priya Greenwood",
+    "published": "2026-05-15T05:20:00Z",
     "article_number": 277,
     "scores": {
       "general": 9.0,
@@ -15,23 +15,6 @@
       "rigor": 9.2,
       "data": 8.8,
       "average": 8.99
-    }
-  },
-  "last_completed": {
-    "slug": "colorado-wildfire-code-ai-compliance-gap",
-    "headline": "Colorado\u2019s Code Says Your Home Must Survive a Wildfire. The Town Reviewing Your Plans Doesn\u2019t Have the Staff to Check.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-15T03:04:00Z",
-    "article_number": 276,
-    "scores": {
-      "general": 8.7,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.6,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.7,
-      "average": 8.86
     },
     "push_pending": true,
     "push_note": "GitHub DNS down — commit local, push on next available window"
