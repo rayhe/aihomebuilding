@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-energy-audit-diagnosis-prescription-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.",
+		"description": "Large language models score 92.8% on identifying energy retrofit options. On recommending which one YOU should do first, they drop to 54.5%. A Michigan State study quantifies the gap between diagnosis and prescription in AI-powered home energy audits.",
+		"image": "https://aihomebuilding.com/images/ai-energy-audit-diagnosis-prescription-gap.jpg?v=ecbf3c6c",
+		"datePublished": "2026-05-14",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-energy-audit-diagnosis-prescription-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.">
+	<meta property="og:description" content="LLMs score 92.8% on retrofit identification. On recommending which one YOU should do first, they drop to 54.5%. The diagnosis-prescription gap in AI energy audits.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-energy-audit-diagnosis-prescription-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-energy-audit-diagnosis-prescription-gap.jpg?v=ecbf3c6c">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.">
+	<meta name="twitter:description" content="AI gets the diagnosis right 92.8% of the time. The prescription? 54.5%. That gap costs homeowners thousands.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-energy-audit-diagnosis-prescription-gap.jpg?v=ecbf3c6c">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-energy-audit-diagnosis-prescription-gap.jpg?v=ecbf3c6c" alt="A thermal imaging camera display showing a house facade in shades of blue and orange, with visible heat loss around windows and a roofline, held by a gloved hand on a cold morning">
+		<div class="overlay">
+			<div class="badge">Sustainability</div>
+			<h1>Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.</h1>
+			<div class="meta">By Priya Greenwood &middot; May 14, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Sarah Medina paid $437 for a professional energy audit of her 1978 ranch house in Aurora, Colorado, last November. A BPI-certified auditor spent four hours with a blower door, a thermal camera, and a clipboard. He found eleven problems, ranked them, and told her to start with air sealing the attic penetrations, estimated cost $800, estimated annual savings $340, payback in 28 months.</p>
+
+			<p>Before the auditor arrived, Medina had asked ChatGPT to review her utility bills, her home's square footage, and a description of her HVAC system. ChatGPT found eleven problems too, almost the same list, in about ninety seconds. It told her to start with a heat pump. Estimated cost: $12,000.</p>
+
+			<p>Both spotted the same disease, but one prescribed aspirin while the other prescribed surgery. And a <a href="https://www.mdpi.com/2071-1050/17/7/3074" target="_blank">Michigan State University study published in early 2025</a> can explain exactly why that happened.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">38.3</div>
+				<div class="label">Percentage-point gap between AI's accuracy at identifying retrofits (92.8%) and recommending the right one for a specific homeowner (54.5%). Source: Michigan State University, MDPI Sustainability, 2025.</div>
+			</div>
+
+			<h2>What the Numbers Actually Say</h2>
+
+			<p>Researchers at Michigan State evaluated six large language models on two distinct tasks. First, identifying what energy retrofit options exist for a given building. Second, recommending which option a specific homeowner should pursue first, factoring in budget, climate zone, utility rates, payback timeline, existing equipment condition, and whether the homeowner plans to sell in three years or stay for twenty.</p>
+
+			<p>On the first task, LLMs averaged 92.8% accuracy, which is impressive and nearly human-expert level at cataloging what is possible for a given building envelope, HVAC configuration, and climate zone.</p>
+
+			<p>On the second task, accuracy collapsed to 54.5%, barely better than flipping a coin, because knowing that attic insulation, duct sealing, a heat pump, solar panels, and window replacements all exist as options tells you nothing about which one moves the needle fastest for a household earning $68,000 a year in Climate Zone 5 with a 15-year-old furnace and electricity at $0.14 per kilowatt-hour.</p>
+
+			<p>That gap is 38.3 percentage points wide, and it is where homeowners lose real money, not because AI gave them wrong information but because it gave them the right information arranged in an order that prioritizes theoretical maximum impact over the specific financial and physical constraints of an actual house occupied by actual people with an actual budget.</p>
+
+			<h2>Sequencing Is the Whole Game</h2>
+
+			<p>A typical energy retrofit menu for a pre-1990 single-family home includes four to seven viable interventions. Air sealing runs $500 to $2,000 and pays back in one to three years. Attic insulation costs $1,500 to $3,500 with a four-to-six-year payback. Heat pumps cost $8,000 to $16,000 and need seven to twelve years, assuming you live in a climate where they run efficiently year-round. Window replacements rarely pay back within twenty years on energy savings alone, but every AI model tested by Michigan State recommended them at least once as a first-priority intervention.</p>
+
+			<p>If you have $5,000 to spend and do air sealing plus attic insulation first, you might save $600 a year starting immediately. If you finance a heat pump instead, you carry debt for a decade and your annual savings might reach $900, but only after seven years when the cumulative savings overtake the cumulative cost, and only if electricity prices hold steady and your backup heat strips do not kick in during every polar vortex event between now and 2033.</p>
+
+			<p>Doing the right things in the wrong sequence can cost a homeowner $2,000 to $5,000 in delayed savings over a ten-year horizon. That is not a rounding error. For a household spending $2,400 a year on energy, it represents one to two full years of utility bills evaporating because an algorithm ranked options by theoretical impact rather than real-world payback sequencing for that specific home.</p>
+
+			<h2>Where AI Does Earn Its Keep</h2>
+
+			<p>None of this means AI is useless for home energy work, but it does mean the technology is useful for one half of the job and genuinely unreliable for the other half, and the industry keeps marketing the whole sandwich as though both halves were equally digestible.</p>
+
+			<p>MIT researchers built <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">Data2BEM</a>, a multi-agent LLM framework that automates building energy modeling. It compresses what used to take an energy engineer 8 to 32 hours of manual modeling into 48 minutes of automated analysis, a reduction exceeding 90%. Applied to a Cambridge, Massachusetts office building, it produced results accurate enough to satisfy professional engineering standards. For the diagnosis side of the equation, that kind of speed improvement could cut the cost of a comprehensive energy model from several thousand dollars to a few hundred, making detailed analysis accessible to homeowners who currently rely on rules of thumb and YouTube videos.</p>
+
+			<p>Meanwhile, <a href="https://www.michigancentral.com/" target="_blank">Lamarr.AI</a>, a company spun out of MIT, Georgia Tech, and Syracuse University, deployed drones with thermal cameras across Detroit municipal buildings in a pilot backed by Michigan's Advanced Aerial Mobility Action Fund. Their AI identified over 460 building envelope defects, and clients avoided $3 million in unnecessary construction costs by targeting only the faults that mattered instead of replacing entire systems. HVAC energy consumption dropped up to 22% in the buildings they surveyed.</p>
+
+			<p>Pattern recognition and fault detection at scale represent genuinely transformative capabilities that will reshape how buildings are maintained. Personalized financial optimization for a household of four in Denver with $12,000 in available capital and a furnace that might last three more winters, though, is still a human job, and it will remain one until AI systems integrate the kind of hyperlocal, household-specific financial and mechanical data that general-purpose language models were never trained to handle.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$437</div>
+				<div class="label">Average cost of a professional home energy audit with blower door test and thermal imaging. Source: Angi/HomeAdvisor, 2025 national data. Range: $212&ndash;$698.</div>
+			</div>
+
+			<h2>IRA Money Is Already Running Out in Some States</h2>
+
+			<p>Sequencing matters more when the rebate window is closing. California's <a href="https://www.energy.ca.gov/" target="_blank">High-Efficiency Electric Home Rebate Act (HEEHRA)</a> allocation was fully reserved statewide as of February 24, 2026. Twelve states had launched their Inflation Reduction Act home energy rebate programs by early 2025, and several more opened in the months following, but the total federal allocation across all states is $8.8 billion over ten years. If you pick the wrong first retrofit because your AI recommended windows before attic insulation, and the rebate money runs out before your second project, you have locked in a suboptimal outcome with federal dollars that are not coming back.</p>
+
+			<p>A human energy advisor costs $437 on average, while a bad sequencing decision costs $2,000 to $5,000 in delayed savings over a decade.</p>
+
+			<h2>What You Should Actually Do</h2>
+
+			<p>Use AI for the diagnosis, without reservation. A $200 VEVOR thermal camera paired with a ChatGPT session can give you a shockingly good inventory of what is wrong with your building envelope, and the University of Melbourne has <a href="https://pursuit.unimelb.edu.au/" target="_blank">confirmed</a> that pre-2005 homes retrofitted to high-efficiency standards see energy bill reductions of up to $3,784 annually (in Australian dollars), with emissions dropping 73%. AI excels at identifying that opportunity and cataloging every crack, gap, and thermal bridge in your building envelope faster than any human auditor working with a clipboard.</p>
+
+			<p>Then use a human for the prescription. A BPI-certified auditor who knows your utility's rate structure, your state's available rebates and their expiration dates, your HVAC equipment's remaining useful life, and whether your ductwork runs through an unconditioned attic or a conditioned basement. Someone who can tell you that spending $800 on air sealing before spending $12,000 on a heat pump will actually make the heat pump work better when you do install it, because a tight envelope means a smaller, cheaper unit can handle the load.</p>
+
+			<p>RMI's research on <a href="https://rmi.org/" target="_blank">automated home energy estimates</a> found them "accurate enough" for energy cost tracking and transparency, but not for prescription, not for sequencing, and not for the decision that determines whether your $15,000 retrofit investment pays back in eight years or fifteen.</p>
+
+			<h2>Strongest Counterargument</h2>
+
+			<p>Michigan State tested general-purpose LLMs, not purpose-built energy advisory tools. Specialized platforms that integrate real utility rate data, local rebate databases, equipment condition sensors, and climate-specific heating and cooling degree-day calculations could close the 38.3-point gap significantly. Data2BEM's success with building energy modeling suggests that domain-specific AI, trained on engineering data rather than internet text, performs at a fundamentally different level than ChatGPT answering a homeowner's question in a chat window. Most consumer-facing "AI energy audit" products do run general-purpose models behind a branded interface, but the next generation might not, and that distinction could matter enormously within two to three years.</p>
+
+			<h2>Limitations</h2>
+
+			<p>Michigan State's study evaluated LLMs in controlled academic conditions using structured prompts, not the messy, incomplete information that real homeowners provide when they describe their homes to an AI tool. Lamarr.AI's $3 million savings figure is self-reported and covers commercial municipal buildings, not single-family residential construction. Data2BEM was validated on a single Cambridge office building, and scalability to thousands of diverse residential structures remains undemonstrated. Cost data cited here draws from national averages. A homeowner in San Francisco faces labor costs roughly 40% higher than the national median, while someone in rural Arkansas might pay 30% less. IRA rebate exhaustion is confirmed only in California. States that launched later may have years of funding remaining. Sarah Medina's experience is representative of patterns described in the research but is constructed from composite data rather than a single documented case.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>

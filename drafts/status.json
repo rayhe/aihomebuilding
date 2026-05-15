@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "ai-energy-audit-diagnosis-prescription-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
     "journalist": "Priya Greenwood",
-    "started": "2026-05-15T05:02:00Z"
+    "started": "2026-05-15T05:02:00Z",
+    "headline": "Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.",
+    "article_number": 277,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.2,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 9.0,
+      "rigor": 9.2,
+      "data": 8.8,
+      "average": 8.99
+    }
   },
   "last_completed": {
     "slug": "colorado-wildfire-code-ai-compliance-gap",
