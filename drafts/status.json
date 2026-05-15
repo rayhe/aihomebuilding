@@ -1,29 +1,22 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "data-center-poaching-electricians-housing",
     "headline": "Your Electrician Left for a Data Center. He's Making 75% More. Your House Is Two Months Late.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Marcus Washington",
-    "started": "2026-05-15T07:02:00Z"
-  },
-  "last_completed": {
-    "slug": "ai-energy-audit-diagnosis-prescription-gap",
-    "headline": "Your AI Found 23 Energy Leaks in Your House. It Guessed Wrong About Which One to Fix First.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-15T05:20:00Z",
-    "article_number": 277,
+    "published": "2026-05-15T09:06:00Z",
+    "article_number": 278,
     "scores": {
       "general": 9.0,
-      "voice": 9.2,
+      "voice": 9.1,
       "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 9.2,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 9.0,
       "data": 8.8,
-      "average": 8.99
+      "average": 8.91
     },
     "push_pending": true,
-    "push_note": "GitHub DNS down — commit local, push on next available window"
+    "push_note": "GitHub DNS down since May 13 — 38+ commits queued locally, push on next available window"
   }
 }
