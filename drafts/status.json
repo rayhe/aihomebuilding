@@ -3,9 +3,22 @@
     "slug": "ai-conversion-tools-dark-spaces",
     "headline": "The Algorithm Says Your Office Tower Can Become 200 Apartments. It Didn't Mention the 19% Nobody Can Live In.",
     "journalist": "Elena Vasquez",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-05-15T15:02:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-05-15T15:02:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.2,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.93
+    },
+    "critique_notes": "Round 1 critique — all 7 critics at 8.5+. Hard gates: em dashes 3 (limit), The-starters 13.0%, no banned phrases. Hero image generated and validated as JPEG with cache-bust hash b70632a1. Strong cold open with spatial immediacy. Elena voice unmistakable — essayist flow, light-as-medium philosophy, skeptical of optimization tools. 7+ primary sources (Gensler, Brookings, Bloszies, RentCafe, CommercialEdge, First American, 55 Broad). Math verified: $550/0.81=$679 checks out against $681 claim. Limitations section excellent. Ready to ship.",
+    "hero_image": "images/ai-conversion-tools-dark-spaces.jpg",
+    "hero_hash": "b70632a1"
   },
   "last_completed": {
     "slug": "data-center-poaching-electricians-housing",
