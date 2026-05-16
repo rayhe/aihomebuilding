@@ -1,12 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-conversion-tools-dark-spaces",
     "headline": "The Algorithm Says Your Office Tower Can Become 200 Apartments. It Didn't Mention the 19% Nobody Can Live In.",
     "journalist": "Elena Vasquez",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-05-15T15:02:00Z",
-    "published": "2026-05-16T01:02:00Z",
+    "published": "2026-05-16T01:05:00Z",
     "article_number": 279,
     "scores": {
       "general": 9.0,
@@ -18,26 +16,7 @@
       "data": 8.8,
       "average": 8.93
     },
-    "hero_image": "images/ai-conversion-tools-dark-spaces.jpg",
-    "hero_hash": "b70632a1"
-  },
-  "last_completed": {
-    "slug": "data-center-poaching-electricians-housing",
-    "headline": "Your Electrician Left for a Data Center. He's Making 75% More. Your House Is Two Months Late.",
-    "journalist": "Marcus Washington",
-    "published": "2026-05-15T09:06:00Z",
-    "article_number": 278,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.1,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.91
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS down since May 13 — 38+ commits queued locally, push on next available window"
+    "push_note": "GitHub DNS down since May 13 — 39+ commits queued locally, push on next available window"
   }
 }
