@@ -1,11 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-procurement-tariff-material-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Jake Kowalski",
     "headline": "Tariffs Added $9,200 to Every House You Build. The AI That Could Help Is Selling to Data Centers Instead.",
-    "started": "2026-05-16T03:20:00Z",
+    "journalist": "Jake Kowalski",
     "published": "2026-05-16T09:01:52Z",
     "article_number": 280,
     "scores": {
@@ -18,35 +16,7 @@
       "data": 8.6,
       "average": 8.80
     },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 5.6,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 211.1,
-        "short_pct": 13.6,
-        "long_pct": 51.5,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "slug": "ai-conversion-tools-dark-spaces",
-    "headline": "The Algorithm Says Your Office Tower Can Become 200 Apartments. It Didn't Mention the 19% Nobody Can Live In.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-05-16T01:05:00Z",
-    "article_number": 279,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.2,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.93
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS down since May 13 — 39+ commits queued locally, push on next available window"
+    "push_note": "GitHub DNS down since May 13 — 40+ commits queued locally, push on next available window"
   }
 }
