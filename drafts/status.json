@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-drawing-review-residential-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank DeLuca",
     "started": "2026-05-16T11:02:00Z",
-    "article_number": 281
+    "article_number": 281,
+    "scores": {
+      "general": 9.2,
+      "voice": 9.0,
+      "ethics": 8.9,
+      "social": 8.5,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.8,
+      "average": 8.84
+    }
   },
   "last_completed": {
     "slug": "ai-procurement-tariff-material-gap",
