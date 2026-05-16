@@ -1,11 +1,13 @@
 {
   "current": {
     "slug": "ai-procurement-tariff-material-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Jake Kowalski",
     "headline": "Tariffs Added $9,200 to Every House You Build. The AI That Could Help Is Selling to Data Centers Instead.",
     "started": "2026-05-16T03:20:00Z",
+    "published": "2026-05-16T09:01:52Z",
+    "article_number": 280,
     "scores": {
       "general": 8.8,
       "voice": 9.0,
@@ -26,8 +28,7 @@
         "long_pct": 51.5,
         "passed": true
       }
-    },
-    "ship_blocked": "1/day limit — #279 already published 2026-05-16 UTC"
+    }
   },
   "last_completed": {
     "slug": "ai-conversion-tools-dark-spaces",
