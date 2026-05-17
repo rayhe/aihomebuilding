@@ -1,10 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-adu-permit-review-wrong-end",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "90% of San Jose's ADU Permit Applications Come Back Incomplete. The AI Reviewing Them Faster Won't Fix That.",
     "journalist": "Catherine Chen",
-    "started": "2026-05-17T11:10:00Z",
+    "published": "2026-05-17T17:04:00Z",
     "article_number": 282,
     "scores": {
       "general": 9.0,
@@ -15,23 +15,6 @@
       "rigor": 8.7,
       "data": 8.8,
       "average": 8.99
-    }
-  },
-  "last_completed": {
-    "slug": "ai-drawing-review-residential-gap",
-    "headline": "An AI Scanned 18 Sheets in 12 Minutes and Found Zero Errors. That Was the Problem.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-17T11:04:00Z",
-    "article_number": 281,
-    "scores": {
-      "general": 9.2,
-      "voice": 9.0,
-      "ethics": 8.9,
-      "social": 8.5,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.8,
-      "average": 8.84
     },
     "push_pending": true,
     "push_note": "GitHub DNS down since May 13 — 40+ commits queued locally, push on next available window"
