@@ -1,11 +1,24 @@
 {
   "current": {
     "slug": "ai-training-pipeline-residential-bypass",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "round": 0,
     "journalist": "Marcus Washington",
     "started": "2026-05-18T05:02:00Z",
-    "article_number": 284
+    "article_number": 284,
+    "critique_round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.9,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.8,
+      "average": 8.89
+    },
+    "headline": "Microsoft Trained 1,500 Construction Instructors in AI. Zero of Them Teach Residential Builders.",
+    "ship_blocked": "1/day limit \u2014 #283 already published 2026-05-18"
   },
   "last_completed": {
     "slug": "embodied-carbon-ai-tools-homebuilders",
@@ -24,6 +37,6 @@
       "average": 8.86
     },
     "push_pending": true,
-    "push_note": "GitHub DNS down since May 13 — 40+ commits queued locally, push on next available window"
+    "push_note": "GitHub DNS down since May 13 \u2014 40+ commits queued locally, push on next available window"
   }
 }
