@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "embodied-carbon-ai-tools-homebuilders",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Priya Greenwood",
     "started": "2026-05-17T19:02:00Z",
-    "headline_wip": "You Spent $15,000 on Energy Efficiency. A Third of Your Home's Carbon Was Already Baked Into the Concrete."
+    "headline_wip": "You Spent $15,000 on Energy Efficiency. A Third of Your Home's Carbon Was Already Baked Into the Concrete.",
+    "scores": {
+      "general": 8.9,
+      "voice": 8.9,
+      "ethics": 9.1,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.8,
+      "average": 8.86
+    }
   },
   "last_completed": {
     "slug": "ai-adu-permit-review-wrong-end",
