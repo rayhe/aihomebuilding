@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Architect Placed Your Windows by Feel. A Free Simulation Says Two of Them Are in the Wrong Wall. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-daylight-window-placement-residential.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Architect Placed Your Windows by Feel. A Free Simulation Says Two of Them Are in the Wrong Wall.",
+		"description": "Daylight simulation tools that commercial architects have used for a decade are free and available to residential designers. Almost none of them bother. The cost of that gap shows up in your energy bills, your sleep, and your home's resale price.",
+		"image": "https://aihomebuilding.com/images/ai-daylight-window-placement-residential.jpg?v=0cac94b1",
+		"datePublished": "2026-05-18",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-daylight-window-placement-residential.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Architect Placed Your Windows by Feel. A Free Simulation Says Two of Them Are in the Wrong Wall.">
+	<meta property="og:description" content="Daylight simulation tools that commercial architects have used for a decade are free and available to residential designers. Almost none of them bother.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-daylight-window-placement-residential.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-daylight-window-placement-residential.jpg?v=0cac94b1">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Architect Placed Your Windows by Feel. A Free Simulation Says Two of Them Are in the Wrong Wall.">
+	<meta name="twitter:description" content="Free daylight simulation tools exist. Your residential architect probably never opened one.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-daylight-window-placement-residential.jpg?v=0cac94b1">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-daylight-window-placement-residential.jpg?v=0cac94b1" alt="Warm afternoon light streaming through a tall, precisely placed window into a modern residential living room, casting long geometric shadows across a hardwood floor">
+		<div class="overlay">
+			<div class="badge">Architecture &amp; Design</div>
+			<h1>Your Architect Placed Your Windows by Feel. A Free Simulation Says Two of Them Are in the Wrong Wall.</h1>
+			<div class="meta">By Elena Vasquez &middot; May 18, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>A living room in Menlo Park, California, built last year for $1.4 million. South-facing lot. The architect drew three large windows on the south wall, two medium windows on the east, and a single small casement on the north for cross-ventilation. Standard residential practice. Good instincts, reasonable proportions, code-compliant egress and ventilation. Nobody questioned the placement because nobody ran a simulation, and nobody ran a simulation because the architect had never opened one on a residential project in twenty-two years of practice.</p>
+
+			<p>A <a href="https://www.velux.com/daylight-visualizer" target="_blank">VELUX Daylight Visualizer</a> run on the same floor plan takes about forty minutes to set up and produces results that are uncomfortable. One of the two east-facing windows catches direct morning sun for only 47 minutes per day in winter because the neighbor's roofline blocks it below 18 degrees of elevation. Moving that window 900 millimeters south on the same wall extends its direct exposure to three hours and fourteen minutes, a gain of 147 minutes of morning light that no eye test from a drafting table could have predicted because the obstruction is a building that had not yet been framed when the plans were drawn.</p>
+
+			<p>The tool is free. It has been free since 2008.</p>
+
+			<h2>What Daylight Costs When You Get It Wrong</h2>
+
+			<p>A <a href="https://ideas.repec.org/" target="_blank">hedonic regression study of 5,000 property sales in Wellington, New Zealand</a> found that each additional hour of daily sunlight exposure increases house prices by 2.4 percent. At the median Wellington sale price, that represents roughly NZ$17,000 per hour of light. A <a href="https://journals.vilniustech.lt/" target="_blank">study of 40,000 housing units in Shanghai published in the International Journal of Strategic Property Management</a> showed residents paying a 7.2 percent premium for apartments with south-facing direct sunlight access, controlling for floor area, floor level, proximity to transit, and school district quality.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">2.4%</div>
+				<div class="label">Home price premium per additional hour of daily sunlight exposure, per a hedonic regression study of 5,000 sales in Wellington, New Zealand.</div>
+			</div>
+
+			<p>These are not small effects buried in statistical noise. A Redfin survey published in 2026 found that 44 percent of American homebuyers now rank natural light above square footage as a purchase criterion, and 70 percent say sunlight directly affects their satisfaction with their home. Redfin considered this finding significant enough to launch <a href="https://www.redfin.com/" target="_blank">Sunscore</a>, a 0-to-100 sunlight rating calculated from Shadowmap's 3D geometry and shadow analysis, visible on every listing. Buyers can now quantify what your architect never measured.</p>
+
+			<p>Beyond resale, window placement drives energy consumption in ways that compound across decades. Researchers at the University of Yazd, publishing in <a href="https://www.nature.com/srep/" target="_blank">Nature Scientific Reports</a>, ran multi-objective optimization on south-facing window geometry in hot-arid climates and achieved 19.7 to 23.2 percent cooling load reductions through adjustments to three variables: window-to-wall ratio, window height, and sill height. Not exotic glazing. Not triple-pane argon-filled assemblies. Just moving the hole in the wall to a better location and making it the right shape.</p>
+
+			<h2>Commercial Architects Solved This a Decade Ago</h2>
+
+			<p>Climate-Based Daylight Modeling, or CBDM, was developed in the early 2000s as a replacement for the crude daylight factor method that had been the profession's only analytical tool since the 1960s. CBDM feeds real-world meteorological data, including cloud cover, sun angle by latitude, and seasonal variation, into ray-tracing simulations that predict illuminance on every surface in a room across an entire year. Commercial architects adopted it because the WELL Building Standard and LEED v4 demand it. WELL requires minimum Spatial Daylight Autonomy scores and caps Annual Sunlight Exposure to prevent glare, with specific melanopic lux thresholds (200+ EML in workspaces, 150+ in living areas) tied to circadian health research from <a href="https://www.hsph.harvard.edu/" target="_blank">Harvard's School of Public Health</a>.</p>
+
+			<p>Residential architecture has no equivalent mandate. No building code in any U.S. jurisdiction requires daylight simulation for single-family homes. IRC Chapter 3 sets minimum glazing area at 8 percent of floor area per room, a threshold so low that a 200-square-foot bedroom technically passes with a single 16-square-foot window regardless of its orientation, the depth of overhangs above it, or whether a two-story house next door renders it functionally dark for nine months of the year.</p>
+
+			<p>An <a href="https://www.sciencedirect.com/" target="_blank">international survey of 186 architecture, engineering, and construction professionals published on ScienceDirect</a> found that 79 percent use optimization tools in their practice. But the survey's respondents were overwhelmingly commercial practitioners. When you ask residential architects the same question in less formal settings, at AIA chapter meetings and in Fine Homebuilding forums, the honest answer from most custom home designers is that they place windows by experience, by precedent, and by the view the client pointed to during the site visit.</p>
+
+			<p>Experience is not nothing. A skilled architect's intuition about light accumulates from years of inhabiting and evaluating completed buildings, and that accumulated spatial intelligence captures subtleties that no simulation models, like the way a low winter sun raking across a textured plaster wall transforms a room's character from merely bright to genuinely alive. But intuition cannot simultaneously optimize across competing constraints of solar heat gain, glare probability, circadian dosing, structural loading, privacy, egress, facade composition, and energy performance, and these constraints interact in non-linear ways that compound across orientations and seasons in patterns that exceed human working memory no matter how many buildings you have designed.</p>
+
+			<h2>The Tools, Ranked by What They Actually Do</h2>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Tool</th>
+						<th>Cost</th>
+						<th>Best For</th>
+						<th>Limitation</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><strong>VELUX Daylight Visualizer</strong></td>
+						<td>Free</td>
+						<td>Single-room daylight simulation, residential scale</td>
+						<td>Manual geometry entry; no parametric optimization</td>
+					</tr>
+					<tr>
+						<td><strong>Autodesk Forma</strong></td>
+						<td>$185/mo</td>
+						<td>Real-time sun hours and daylight potential during schematic design</td>
+						<td>Strongest at urban/multi-family scale; residential features still maturing</td>
+					</tr>
+					<tr>
+						<td><strong>DesignBuilder (Radiance)</strong></td>
+						<td>~$2,400/yr</td>
+						<td>CBDM with full compliance metrics for LEED, BREEAM, WELL</td>
+						<td>Steep learning curve; overkill for most custom homes</td>
+					</tr>
+					<tr>
+						<td><strong>Rhino + Grasshopper + Ladybug/Honeybee</strong></td>
+						<td>~$995 + free plugins</td>
+						<td>Parametric multi-objective optimization of window geometry</td>
+						<td>Requires computational design skills that most residential architects do not have</td>
+					</tr>
+					<tr>
+						<td><strong>Redfin Sunscore</strong></td>
+						<td>Free (buyer tool)</td>
+						<td>Post-construction sunlight scoring for existing homes</td>
+						<td>Exterior only; does not model interior daylight distribution</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>VELUX Daylight Visualizer deserves scrutiny because it eliminates the cost objection entirely and has been available for nearly two decades, yet residential adoption remains negligible. VELUX designed it to sell skylights, which means its simulation engine is calibrated specifically for the scale and geometry of residential rooms, unlike tools built for office towers and airport terminals. A competent architect can model a room, place windows, assign surface reflectances, and run a full-year CBDM analysis in under an hour. The output is a rendered visualization showing illuminance distribution across every surface at any time of day and year, with quantitative lux values that map directly to WELL thresholds even though no residential code requires meeting them.</p>
+
+			<p>An architect who never opens this tool is making a choice. It may be a rational choice given fee structures that compress residential design into impossibly tight hours, but it is a choice that transfers measurable risk to the homeowner.</p>
+
+			<h2>AI Makes the Gap Wider, Not Smaller</h2>
+
+			<p>A <a href="https://www.cambridge.org/core/journals/ai-edam" target="_blank">Cambridge University study published in AI EDAM</a> tested AI-generated housing plans from ChatGPT and Microsoft Copilot against climate-based daylight simulation standards. ChatGPT produced plans with better spatial organization and architectural coherence. Copilot achieved higher daylight compliance in tropical climates. Neither achieved reliable daylight performance without what the researchers called "post-generative environmental refinement," which is a polished way of saying that AI drew attractive floor plans that would be dark in real weather.</p>
+
+			<p>This finding matters because the residential industry is beginning to use generative AI for plan development, concept iteration, and client presentations, and clients are likely to assume that an AI-generated design has been computationally validated when it has merely been computationally generated. Generation and validation are separate capabilities, and the AI tools generating floor plans today do not embed daylight simulation into their optimization loop. They produce geometry. Light is an afterthought, when it is a thought at all.</p>
+
+			<h2>What You Should Demand</h2>
+
+			<p>If you are commissioning a custom home above $500,000 in construction cost, request a daylight simulation as a deliverable during schematic design, before window sizes and positions are locked into construction documents. Specify that you want Spatial Daylight Autonomy values for every primary living space, calculated using CBDM with your site's actual latitude, climate data, and neighboring obstructions modeled at their constructed or approved heights. This is not an exotic ask. It is the standard of care that WELL-certified office buildings have met since 2014.</p>
+
+			<p>If your architect cannot run the simulation, VELUX Daylight Visualizer is free and produces residential-calibrated results that a technically competent designer can generate in an afternoon. If they decline, ask why, and weigh whether "we've never needed it" is an acceptable answer for a design decision that affects your energy costs, your circadian health, and between 2.4 and 7.2 percent of your home's resale value per hour of light gained or lost.</p>
+
+			<p>If you are buying an existing home, check its Redfin Sunscore before the first showing. A score of 40 tells you something your agent will not volunteer.</p>
+
+			<h2>Strongest Counterargument</h2>
+
+			<p>Window placement is not an optimization problem with a single correct answer. It is a design decision embedded in a web of structural constraints (headers, load paths, shear walls), aesthetic intentions (facade rhythm, view framing, material expression), privacy requirements, code mandates (egress, ventilation minimums, fire separation distances), and budget limits that make every square foot of glazing a negotiation between light, heat, privacy, and cost. An architect who optimizes purely for daylight autonomy might produce a glass-walled south face that is beautiful in simulation and unbearable in August.</p>
+
+			<p>Experienced architects balance these constraints through a judgment process that simulation cannot fully replicate because some of the most important inputs, like the quality of a view, the emotional resonance of a particular light condition, or the way a shadow will move across a dinner table at six in the evening, resist quantification. Daylight simulation is a diagnostic tool, not a design methodology, and conflating the two produces technically optimal buildings that nobody wants to live in.</p>
+
+			<p>That is a real objection, and it deserves serious weight. But it does not explain why the diagnostic tool sits unused. A cardiologist who relies on clinical intuition built over thirty years of practice would still order an EKG before surgery. Not because the test replaces judgment, but because it catches things judgment misses. Window placement in residential architecture has been intuition without instrumentation for decades, and the evidence from Wellington, Shanghai, and Yazd suggests the misses are expensive.</p>
+
+			<h2>Limitations</h2>
+
+			<p>The Wellington and Shanghai studies measure correlations between sunlight exposure and home prices using hedonic regression, which controls for observable confounders but cannot establish causation. Homes with better sunlight may cluster in neighborhoods with other desirable attributes that the models did not fully capture. The Yazd optimization study examined a specific hot-arid climate with south-facing windows, and its 19 to 23 percent cooling reductions would not transfer directly to temperate, cloudy, or heating-dominated climates where solar gain through windows is desirable rather than penalizing. Redfin's 44 percent natural-light preference statistic comes from a buyer survey, not revealed-preference transaction data, and stated preferences often diverge from actual purchasing behavior. VELUX Daylight Visualizer's single-room modeling scope limits its utility for whole-house optimization where decisions on one facade affect light on another. No published study has measured how many U.S. residential architects currently use daylight simulation tools on custom home projects. The gap described in this article is inferred from tool adoption patterns in commercial versus residential practice, not from a direct survey of residential designers.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
