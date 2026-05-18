@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-training-pipeline-residential-bypass",
-    "phase": "QA",
-    "round": 0,
+    "headline": "Microsoft Trained 1,500 Construction Instructors in AI. Zero of Them Teach Residential Builders.",
     "journalist": "Marcus Washington",
-    "started": "2026-05-18T05:02:00Z",
+    "published": "2026-05-18T07:03:00Z",
     "article_number": 284,
-    "critique_round": 1,
     "scores": {
       "general": 9.0,
       "voice": 8.9,
@@ -16,25 +15,6 @@
       "rigor": 8.7,
       "data": 8.8,
       "average": 8.89
-    },
-    "headline": "Microsoft Trained 1,500 Construction Instructors in AI. Zero of Them Teach Residential Builders.",
-    "published": "2026-05-18T07:03:00Z"
-  },
-  "last_completed": {
-    "slug": "embodied-carbon-ai-tools-homebuilders",
-    "headline": "You Spent $15,000 on Energy Efficiency. A Third of Your Home's Carbon Was Already Baked Into the Concrete.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-18T03:12:00Z",
-    "article_number": 283,
-    "scores": {
-      "general": 8.9,
-      "voice": 8.9,
-      "ethics": 9.1,
-      "social": 8.8,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.8,
-      "average": 8.86
     },
     "push_pending": true,
     "push_note": "GitHub DNS down since May 13 — 40+ commits queued locally, push on next available window"
