@@ -1,49 +1,20 @@
 {
-  "current": {
-    "slug": "embodied-carbon-ai-tools-homebuilders",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Priya Greenwood",
-    "started": "2026-05-17T19:02:00Z",
-    "headline_wip": "You Spent $15,000 on Energy Efficiency. A Third of Your Home's Carbon Was Already Baked Into the Concrete.",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 8.8,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 8.8,
-      "data": 8.8,
-      "average": 8.97
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 0.0,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 323.0,
-        "short_pct": 12.7,
-        "long_pct": 52.7,
-        "passed": true
-      }
-    },
-    "critique_passed": "2026-05-18T03:10:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "ai-adu-permit-review-wrong-end",
-    "headline": "90% of San Jose's ADU Permit Applications Come Back Incomplete. The AI Reviewing Them Faster Won't Fix That.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-17T17:04:00Z",
-    "article_number": 282,
+    "slug": "embodied-carbon-ai-tools-homebuilders",
+    "headline": "You Spent $15,000 on Energy Efficiency. A Third of Your Home's Carbon Was Already Baked Into the Concrete.",
+    "journalist": "Priya Greenwood",
+    "published": "2026-05-18T03:12:00Z",
+    "article_number": 283,
     "scores": {
-      "general": 9.0,
+      "general": 8.9,
       "voice": 8.9,
-      "ethics": 9.0,
-      "social": 8.7,
+      "ethics": 9.1,
+      "social": 8.8,
       "legal": 8.8,
       "rigor": 8.7,
       "data": 8.8,
-      "average": 8.99
+      "average": 8.86
     },
     "push_pending": true,
     "push_note": "GitHub DNS down since May 13 — 40+ commits queued locally, push on next available window"
