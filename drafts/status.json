@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-estimating-accuracy-gap-residential",
+    "headline": "An AI Estimated Your Custom Home Within 2%. You Still Went $104,000 Over Budget. Both Numbers Are Real.",
+    "phase": "SHIP",
+    "round": 0,
+    "journalist": "Jake Kowalski",
+    "started": "2026-05-19T03:02:00Z",
+    "scores": {
+      "general": 9.1,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 8.9,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.91
+    }
+  },
   "last_completed": {
     "slug": "ai-daylight-window-placement-residential",
     "headline": "Your Architect Placed Your Windows by Feel. A Free Simulation Says Two of Them Are in the Wrong Wall.",
@@ -17,6 +34,6 @@
       "average": 8.91
     },
     "push_pending": true,
-    "push_note": "GitHub DNS down since May 13 — 40+ commits queued locally, push on next available window"
+    "push_note": "GitHub DNS down since May 13 \u2014 40+ commits queued locally, push on next available window"
   }
 }
