@@ -1,10 +1,22 @@
 {
   "current": {
     "slug": "insurer-ai-roof-surveillance-homeowner-cost",
-    "phase": "DRAFT",
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank DeLuca",
     "started": "2026-05-20T15:28:00Z",
-    "research_file": "drafts/insurer-ai-roof-surveillance-homeowner-cost-research.md"
+    "research_file": "drafts/insurer-ai-roof-surveillance-homeowner-cost-research.md",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.94
+    },
+    "headline": "Your Insurer Flew a Drone Over Your House. You Never Knew. Now Your Roof Score Decides Your Premium."
   },
   "last_completed": {
     "slug": "ai-zoning-tools-liability-gap-homeowner",
