@@ -3,9 +3,19 @@
     "slug": "ai-zoning-tools-liability-gap-homeowner",
     "headline": "Your City's AI Said Your Addition Was Zoning-Compliant. The Inspector Disagreed. Guess Who Pays.",
     "journalist": "Catherine Chen",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-05-20T05:10:00Z"
+    "phase": "QA",
+    "round": 1,
+    "started": "2026-05-20T05:10:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8,
+      "average": 8.91
+    }
   },
   "last_completed": {
     "slug": "ai-renders-every-home-same-dream",
