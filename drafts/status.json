@@ -1,10 +1,33 @@
 {
   "current": {
     "slug": "solar-credit-cliff-ai-design-tools",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Priya Greenwood",
     "started": "2026-05-21T05:30:00Z",
-    "article_number": 290
+    "article_number": 290,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 8.8,
+      "data": 8.5,
+      "average": 8.80
+    },
+    "critique_rounds": 1,
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 9.9,
+      "banned_phrases": 0,
+      "sentence_rhythm": {
+        "variance": 218.4,
+        "short_pct": 13.8,
+        "long_pct": 44.8,
+        "passed": true
+      }
+    },
+    "ship_blocked": "1/day limit — #289 already published 2026-05-21, #290 queued for 2026-05-22"
   },
   "last_completed": {
     "slug": "insurer-ai-roof-surveillance-homeowner-cost",
