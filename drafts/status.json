@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "insurer-ai-roof-surveillance-homeowner-cost",
-    "phase": "QA",
-    "round": 1,
+    "headline": "Your Insurer Flew a Drone Over Your House. You Never Knew. Now Your Roof Score Decides Your Premium.",
     "journalist": "Frank DeLuca",
-    "started": "2026-05-20T15:28:00Z",
-    "research_file": "drafts/insurer-ai-roof-surveillance-homeowner-cost-research.md",
+    "published": "2026-05-21T03:02:00Z",
+    "article_number": 289,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -15,28 +15,6 @@
       "rigor": 9.0,
       "data": 8.8,
       "average": 8.94
-    },
-    "headline": "Your Insurer Flew a Drone Over Your House. You Never Knew. Now Your Roof Score Decides Your Premium.",
-    "ship_blocked_reason": "1/day limit \u2014 #288 already published 2026-05-20",
-    "ship_blocked_until": "2026-05-21",
-    "published": "2026-05-21T03:02:00Z",
-    "article_number": 289
-  },
-  "last_completed": {
-    "slug": "ai-zoning-tools-liability-gap-homeowner",
-    "headline": "Your City's AI Said Your Addition Was Zoning-Compliant. The Inspector Disagreed. Guess Who Pays.",
-    "journalist": "Catherine Chen",
-    "published": "2026-05-20T07:10:00Z",
-    "article_number": 288,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.91
     },
     "push_pending": true,
     "push_note": "GitHub DNS down since May 13 \u2014 65+ commits queued locally, push on next available window"
