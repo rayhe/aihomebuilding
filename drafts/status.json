@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "solar-credit-cliff-ai-design-tools",
-    "phase": "QA",
-    "journalist": "Priya Greenwood",
-    "started": "2026-05-21T05:30:00Z",
-    "article_number": 290,
     "headline": "Your AI Solar Calculator Still Thinks You're Getting $9,000 Back. You're Not.",
+    "journalist": "Priya Greenwood",
+    "published": "2026-05-21T21:30:00Z",
+    "article_number": 290,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,35 +15,6 @@
       "rigor": 8.8,
       "data": 8.5,
       "average": 8.80
-    },
-    "critique_rounds": 1,
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 9.9,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 218.4,
-        "short_pct": 13.8,
-        "long_pct": 44.8,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "slug": "insurer-ai-roof-surveillance-homeowner-cost",
-    "headline": "Your Insurer Flew a Drone Over Your House. You Never Knew. Now Your Roof Score Decides Your Premium.",
-    "journalist": "Frank DeLuca",
-    "published": "2026-05-21T03:02:00Z",
-    "article_number": 289,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8,
-      "average": 8.94
     },
     "push_pending": true,
     "push_note": "GitHub DNS down since May 13 — 65+ commits queued locally, push on next available window"
