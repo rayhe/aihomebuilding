@@ -6,28 +6,18 @@
     "journalist": "Marcus Washington",
     "started": "2026-05-22T06:08:00Z",
     "article_number": 292,
+    "headline": "OpenAI Needs 20% of America's Skilled Trades Workers. Your Kitchen Remodel Just Got in Line Behind a Data Center.",
     "scores": {
-      "general": 9.1,
+      "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.2,
-      "data": 9.0,
-      "average": 9.04
+      "legal": 8.8,
+      "rigor": 8.8,
+      "data": 8.7,
+      "average": 8.90
     },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 7.4,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 238.7,
-        "short_pct": 9.6,
-        "long_pct": 49.4,
-        "passed": true
-      }
-    },
-    "ship_blocked": "1/day limit — #291 already published 2026-05-22, #292 queued for next window"
+    "ship_note": "1/day limit — #291 already published 2026-05-22T03:06Z. Ready for next publish window."
   },
   "last_completed": {
     "slug": "ai-insurance-exclusion-construction-gap",
