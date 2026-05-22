@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-insurance-exclusion-construction-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-05-22T01:04:00Z",
-    "headline": "Your Builder's Insurance Covers Fire, Flood, and Collapse. It No Longer Covers the AI He Used to Design Your House."
+    "headline": "Your Builder's Insurance Covers Fire, Flood, and Collapse. It No Longer Covers the AI He Used to Design Your House.",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 8.8,
+      "data": 8.7,
+      "average": 8.83
+    }
   },
   "last_completed": {
     "slug": "solar-credit-cliff-ai-design-tools",
