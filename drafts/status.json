@@ -7,15 +7,27 @@
     "started": "2026-05-22T06:08:00Z",
     "article_number": 292,
     "scores": {
-      "general": 9.0,
+      "general": 9.1,
       "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
-      "legal": 8.8,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.90
-    }
+      "legal": 9.0,
+      "rigor": 9.2,
+      "data": 9.0,
+      "average": 9.04
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 7.4,
+      "banned_phrases": 0,
+      "sentence_rhythm": {
+        "variance": 238.7,
+        "short_pct": 9.6,
+        "long_pct": 49.4,
+        "passed": true
+      }
+    },
+    "ship_blocked": "1/day limit — #291 already published 2026-05-22, #292 queued for next window"
   },
   "last_completed": {
     "slug": "ai-insurance-exclusion-construction-gap",
