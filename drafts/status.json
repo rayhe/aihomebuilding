@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-insurance-exclusion-construction-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Jake Kowalski",
-    "started": "2026-05-22T01:04:00Z",
     "headline": "Your Builder's Insurance Covers Fire, Flood, and Collapse. It No Longer Covers the AI He Used to Design Your House.",
+    "journalist": "Jake Kowalski",
+    "published": "2026-05-22T03:05:00Z",
+    "article_number": 291,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,25 +15,8 @@
       "rigor": 8.8,
       "data": 8.7,
       "average": 8.83
-    }
-  },
-  "last_completed": {
-    "slug": "solar-credit-cliff-ai-design-tools",
-    "headline": "Your AI Solar Calculator Still Thinks You're Getting $9,000 Back. You're Not.",
-    "journalist": "Priya Greenwood",
-    "published": "2026-05-21T21:30:00Z",
-    "article_number": 290,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.7,
-      "rigor": 8.8,
-      "data": 8.5,
-      "average": 8.80
     },
     "push_pending": true,
-    "push_note": "GitHub DNS down since May 13 — 65+ commits queued locally, push on next available window"
+    "push_note": "GitHub DNS down since May 13 — 66+ commits queued locally, push on next available window"
   }
 }
