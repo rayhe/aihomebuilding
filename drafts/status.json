@@ -1,35 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-kitchen-layout-nkba-31-rules-gap",
     "headline": "Your AI Kitchen Layout Passes the Eye Test. It Fails 27 of 31 Industry Design Rules.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Elena Vasquez",
-    "started": "2026-05-23T04:01:52-07:00",
-    "article_number": 294,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 3,
-      "the_starters_pct": 6.2,
-      "banned_phrases": 0,
-      "sentence_rhythm_variance": 201.2,
-      "sentence_rhythm_short_pct": 13.4,
-      "sentence_rhythm_long_pct": 44.3
-    }
-  },
-  "last_completed": {
-    "slug": "agentic-ai-construction-coworkers-residential-gap",
-    "headline": "Your Builder Manages a $600K Project With the Same Software That Runs Your Fantasy Football League",
-    "journalist": "Frank DeLuca",
     "published": "2026-05-23",
-    "article_number": 293
+    "article_number": 294
   }
 }
