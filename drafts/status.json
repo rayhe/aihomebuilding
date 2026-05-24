@@ -1,12 +1,30 @@
 {
   "current": {
     "slug": "icon-titan-899k-wall-math",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-05-24T11:01:52Z",
     "headline": "ICON's $899,000 Titan Prints Your Walls for $20 a Square Foot. The Other 80% of Your House Still Costs the Same.",
-    "research_file": "icon-titan-899k-wall-math-research.md"
+    "research_file": "icon-titan-899k-wall-math-research.md",
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data_presentation": 8.7
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 6.3,
+      "banned_phrases": 0,
+      "rhythm_variance": 209.5,
+      "rhythm_short_pct": 14.7,
+      "rhythm_long_pct": 57.4
+    },
+    "notes": "All 7 critics at 8.5+. All hard gates pass. Ready to ship. Held for 1/day limit (#296 already published today)."
   },
   "last_completed": {
     "slug": "green-home-embodied-carbon-blind-spot",
