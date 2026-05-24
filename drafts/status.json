@@ -1,29 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ai-contract-gap-zero-clauses",
     "headline": "Your Builder Uses AI. Your Contract Doesn't Mention It. Guess Who Loses That Argument.",
     "journalist": "Catherine Chen",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-05-23T18:01:52-07:00",
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "article_number": 295,
-    "pending_push": true,
-    "note": "Committed locally, git push failed due to DNS outage. Push on next run."
-  },
-  "last_completed": {
-    "slug": "ai-kitchen-layout-nkba-31-rules-gap",
-    "headline": "Your AI Kitchen Layout Passes the Eye Test. It Fails 27 of 31 Industry Design Rules.",
-    "journalist": "Elena Vasquez",
-    "published": "2026-05-23",
-    "article_number": 294
+    "published": "2026-05-24",
+    "article_number": 295
   }
 }
