@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "icon-titan-899k-wall-math",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Jake Kowalski",
     "started": "2026-05-24T11:01:52Z",
@@ -24,7 +24,8 @@
       "rhythm_short_pct": 14.7,
       "rhythm_long_pct": 57.4
     },
-    "notes": "All 7 critics at 8.5+. All hard gates pass. Ready to ship. Held for 1/day limit \u2014 2 articles already published 2026-05-24 UTC (#295 at 03:08, #296 at 09:04). Will ship on next run after 2026-05-25 00:00 UTC. Note: git --since date-only format is bugged (returns 0); use --since with T00:00:00 suffix."
+    "article_number": 297,
+    "published_utc": "2026-05-25"
   },
   "last_completed": {
     "slug": "green-home-embodied-carbon-blind-spot",
