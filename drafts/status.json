@@ -1,10 +1,28 @@
 {
   "current": {
     "slug": "ai-design-tools-missing-section-vertical-dimension",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
     "started": "2026-05-25T15:02:00Z",
-    "article_number": 299
+    "article_number": 299,
+    "critique": {
+      "round": 1,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": {"count": 2, "limit": 3, "pass": true},
+        "the_starters": {"pct": 12.9, "limit": 15, "pass": true},
+        "sentence_rhythm": {"variance": 261.3, "short_pct": 9.6, "long_pct": 50.6, "pass": true},
+        "banned_phrases": {"found": [], "pass": true}
+      }
+    }
   },
   "last_completed": {
     "slug": "construction-treadmill-crew-turnover",
