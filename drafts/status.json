@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "ai-structural-engineering-design-iteration",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
     "started": "2026-05-27T19:01:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 8.5
+    }
   },
   "last_completed": {
     "article_number": 305,
