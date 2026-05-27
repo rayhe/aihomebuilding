@@ -1,5 +1,28 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-training-construction-trades-gap",
+    "headline": "The Construction Industry Lost 1.4 Million Tradespeople in 18 Years. It Gained 800,000 Managers.",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Marcus Washington",
+    "started": "2026-05-27T07:01:00Z",
+    "critique_passed": "2026-05-27T09:02:00Z",
+    "scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": "1 (PASS, <=3)",
+      "the_starters": "3.3% (PASS, <15%)",
+      "banned_phrases": "none (PASS)",
+      "sentence_rhythm": "variance=207.7, short=12.9%, long=41.2% (ALL PASS)"
+    }
+  },
   "last_completed": {
     "article_number": 303,
     "headline": "Your Energy Model Promised 25% Savings. Across 140,000 Homes, the Average Was 7%.",
