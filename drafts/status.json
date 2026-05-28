@@ -1,11 +1,28 @@
 {
   "current": {
     "slug": "tariff-material-substitution-embodied-carbon",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Priya Greenwood",
     "started": "2026-05-28",
-    "article_number": 309
+    "article_number": 309,
+    "headline": "Steel Tariffs Are Accidentally Decarbonizing Buildings. Lumber Tariffs Are Undoing It.",
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 12.4,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS",
+      "sentence_variance": 235.2
+    }
   },
   "last_completed": {
     "article_number": 308,
