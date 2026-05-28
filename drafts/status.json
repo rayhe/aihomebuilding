@@ -1,5 +1,28 @@
 {
-  "current": null,
+  "current": {
+    "slug": "big-tech-union-ai-training-gap",
+    "phase": "SHIP",
+    "round": 0,
+    "journalist": "Marcus Washington",
+    "headline": "OpenAI and Microsoft Promised AI Training for 3 Million Construction Workers. The Curriculum Is a LinkedIn Course.",
+    "started": "2026-05-28T19:02:00Z",
+    "critique_passed": "2026-05-28T21:04:00Z",
+    "scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 9.9,
+      "sentence_rhythm": "PASS (variance=228.8, short=11.5%, long=42.5%)",
+      "banned_phrases": "none"
+    }
+  },
   "last_completed": {
     "article_number": 309,
     "headline": "Steel Tariffs Are Accidentally Decarbonizing Buildings. Lumber Tariffs Are Undoing It.",
