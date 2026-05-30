@@ -1,10 +1,26 @@
 {
   "current": {
     "slug": "ai-home-inspection-blind-spots",
-    "phase": "DRAFT",
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Catherine Chen",
     "started": "2026-05-30T09:02:00Z",
-    "article_number": 315
+    "article_number": 315,
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 8.5,
+      "sentence_rhythm": "PASS"
+    }
   },
   "last_completed": {
     "article_number": 314,
