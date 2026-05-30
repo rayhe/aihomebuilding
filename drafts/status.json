@@ -1,32 +1,10 @@
 {
-  "current": {
-    "slug": "ai-home-inspection-blind-spots",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Catherine Chen",
-    "started": "2026-05-30T09:02:00Z",
-    "article_number": 315,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 8.5,
-      "sentence_rhythm": "PASS"
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 314,
-    "headline": "Your AI Kitchen Render Forgot About the Plumbing. The Contractor Didn't.",
-    "journalist": "Elena Vasquez",
+    "article_number": 315,
+    "headline": "AI Inspection Tools Write Faster Reports. They Don't See Through Walls.",
+    "journalist": "Catherine Chen",
     "published": "2026-05-30",
-    "slug": "ai-renovation-render-gap"
+    "slug": "ai-home-inspection-blind-spots"
   }
 }
