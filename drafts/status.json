@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-panel-electrification-barrier",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Priya Greenwood",
+    "article_number": 316,
+    "started": "2026-05-30T17:02:00Z",
+    "headline": "600,000 PG&E Homes Need Panel Upgrades to Electrify. A $400 Device Says Most Don't.",
+    "critique_scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data": 9
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 1.1,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS",
+      "rhythm_variance": 221.7
+    }
+  },
   "last_completed": {
     "article_number": 315,
     "headline": "AI Inspection Tools Write Faster Reports. They Don't See Through Walls.",
