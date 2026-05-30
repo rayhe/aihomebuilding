@@ -1,37 +1,10 @@
 {
-  "current": {
-    "slug": "ai-sawmill-lumber-grading-structural-quality",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
-    "started": "2026-05-29T13:05:00Z",
-    "article_number": 313,
-    "critique_round": 1,
-    "scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 4.9,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 202.8,
-        "short_pct": 15.0,
-        "long_pct": 45.0,
-        "passed": true
-      }
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 312,
-    "headline": "Your Insurer's AI Already Scored Your Home for Wildfire Risk. You Weren't Told.",
-    "journalist": "Jake Kowalski",
-    "published": "2026-05-29",
-    "slug": "ai-wildfire-risk-score-construction"
+    "article_number": 313,
+    "headline": "The No. 2 Lumber in Your Walls Might Not Be No. 2. AI Grading Is Fixing That.",
+    "journalist": "Frank DeLuca",
+    "published": "2026-05-30",
+    "slug": "ai-sawmill-lumber-grading-structural-quality"
   }
 }
