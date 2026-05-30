@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "ai-renovation-render-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Elena Vasquez",
     "started": "2026-05-30T01:10:00Z",
     "article_number": 314,
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5,
+      "data_presentation": 9.0
+    }
   },
   "last_completed": {
     "article_number": 313,
