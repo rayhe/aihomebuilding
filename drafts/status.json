@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-listing-photo-deception",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Catherine Chen",
     "started": "2026-06-01T13:03:00Z",
-    "article_number": 323
+    "article_number": 323,
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 8.5
+    },
+    "ship_blocked": "1/day limit — #322 published 2026-06-01 11:04 UTC"
   },
   "last_completed": {
     "article_number": 322,
