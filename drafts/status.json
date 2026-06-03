@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-zoning-code-readability-gap",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Catherine Chen",
+    "started": "2026-06-03T19:02:00Z",
+    "article_number": 331,
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 8.5,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 7.9,
+      "banned_phrases": 0,
+      "sentence_rhythm_variance": 211.2,
+      "sentence_rhythm_short_pct": 9.6,
+      "sentence_rhythm_long_pct": 49.4
+    }
+  },
   "last_completed": {
     "article_number": 330,
     "headline": "The Tile Robot Laid 100,000 Square Meters of Floor. None of Them Had a Toilet in the Way.",
