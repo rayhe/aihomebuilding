@@ -1,36 +1,10 @@
 {
-  "current": {
-    "slug": "ai-law-firm-construction-contract-review",
-    "phase": "QA",
-    "journalist": "Catherine Chen",
-    "started": "2026-06-04T13:02:00Z",
-    "article_number": 334,
-    "round": 1,
-    "critique_scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 1.5,
-      "banned_phrases": 0,
-      "sentence_rhythm_variance": 243.4,
-      "sentence_rhythm_short_pct": 13.4,
-      "sentence_rhythm_long_pct": 50.7,
-      "all_pass": true
-    },
-    "notes": "Published as #334. Hero image validated JPEG."
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 333,
-    "headline": "BlackRock Will Spend $100 Million Training Electricians. None of Them Are Wiring Your Kitchen.",
-    "journalist": "Marcus Washington",
-    "published": "2026-06-04",
-    "slug": "blackrock-future-builders-skilled-trades-residential-squeeze"
+    "article_number": 334,
+    "headline": "Utah Gave an AI a Law License. It Charges $117 to Review the Contracts Your GC Never Reads.",
+    "journalist": "Catherine Chen",
+    "published": "2026-06-05",
+    "slug": "ai-law-firm-construction-contract-review"
   }
 }
