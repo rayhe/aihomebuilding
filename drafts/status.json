@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-law-firm-construction-contract-review",
+    "phase": "SHIP",
+    "journalist": "Catherine Chen",
+    "started": "2026-06-04T13:02:00Z",
+    "article_number": 334,
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 1.5,
+      "banned_phrases": 0,
+      "sentence_rhythm_variance": 243.4,
+      "sentence_rhythm_short_pct": 13.4,
+      "sentence_rhythm_long_pct": 50.7,
+      "all_pass": true
+    },
+    "notes": "All 7 critics 9/10. All hard gates pass. Fixed Maddox v. Vantage Energy misattribution (oil/gas case, not construction). Corrected to TX B&C Code Ch. 56. Hero image generated and validated as JPEG. #333 already published today; holding for tomorrow."
+  },
   "last_completed": {
     "article_number": 333,
     "headline": "BlackRock Will Spend $100 Million Training Electricians. None of Them Are Wiring Your Kitchen.",
