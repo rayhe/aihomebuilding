@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An AI Looked at Your Roof From Space. It Decided You're Uninsurable. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/stories/ai-roof-satellite-insurance-score.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An AI Looked at Your Roof From Space. It Decided You're Uninsurable.",
+		"description": "ZestyAI, Verisk, and CoreLogic now score individual homes on 200+ data points from satellite imagery. Two neighbors can get opposite insurance decisions. Unlike FICO, you can't check your score.",
+		"image": "https://aihomebuilding.com/images/ai-roof-satellite-insurance-score.jpg?v=5bb0641d",
+		"datePublished": "2026-06-05",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/stories/ai-roof-satellite-insurance-score.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An AI Looked at Your Roof From Space. It Decided You're Uninsurable.">
+	<meta property="og:description" content="Property-level AI risk models now score individual homes from satellite imagery. Two neighbors can get opposite insurance decisions. Unlike FICO, you can't check your score.">
+	<meta property="og:url" content="https://aihomebuilding.com/stories/ai-roof-satellite-insurance-score.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-roof-satellite-insurance-score.jpg?v=5bb0641d">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An AI Looked at Your Roof From Space. It Decided You're Uninsurable.">
+	<meta name="twitter:description" content="Property-level AI risk models score homes from orbit. Two neighbors, radically different outcomes.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-roof-satellite-insurance-score.jpg?v=5bb0641d">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			width: 100%;
+			height: 50vh;
+			min-height: 340px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 2.5rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: white;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: 2rem;
+			line-height: 1.2;
+			margin: 0.75rem 0 0.5rem;
+			max-width: 700px;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: white;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.8rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-roof-satellite-insurance-score.jpg?v=5bb0641d" alt="Satellite view of a suburban neighborhood with individual houses highlighted by colored risk overlays ranging from green to red">
+		<div class="overlay">
+			<div class="badge">Sustainability &amp; Insurance</div>
+			<h1>An AI Looked at Your Roof From Space. It Decided You're Uninsurable.</h1>
+			<div class="meta">By Priya Greenwood &middot; June 5, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>In the fall of 2023, a homeowner in Santa Rosa, California, received a non-renewal notice from her insurer. She had lived in the same house for nineteen years, filed zero claims, replaced her roof in 2019 with Class A composite shingles, and maintained a defensible space zone that exceeded CAL FIRE's minimum by ten feet. None of it mattered, because an AI model she had never heard of had analyzed satellite imagery of her property, scored it on more than 200 data points including vegetation density within 300 meters, slope gradient, road access, neighboring structures, and the reflectance signature of her roofing material, and classified her as high risk. Her insurer, citing "updated wildfire risk modeling," dropped her. Her neighbor across the street, whose cedar shake roof and overgrown eucalyptus trees were visible from Google Earth, kept his policy. Different AI score, same street.</p>
+
+			<p>She couldn't appeal, because she couldn't see the score.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">3.9&times;</div>
+				<div class="label">California's homeowner insurance non-renewal rate from 2018 to 2024, rising from 0.82% to 3.18%. Source: <a href="https://www.weissratings.com" target="_blank">Weiss Ratings analysis of NAIC data</a>, October 2025</div>
+			</div>
+
+			<h2>Your House Has a Credit Score Now</h2>
+
+			<p>Three companies dominate the property-level AI risk scoring market: <a href="https://www.zesty.ai" target="_blank">ZestyAI</a>, <a href="https://www.verisk.com" target="_blank">Verisk</a> (FireLine), and <a href="https://www.corelogic.com" target="_blank">CoreLogic</a>. All three use satellite and aerial imagery, topographic data, historical wildfire records, and machine learning to generate property-specific risk scores that insurers use to price policies, approve applications, and issue non-renewals. ZestyAI's Z-FIRE model alone has secured more than 70 regulatory approvals across five perils and is trusted by over a third of California's insurance market, including the California FAIR Plan, the insurer of last resort.</p>
+
+			<p>This is a radical departure from how wildfire risk was assessed for decades. Zone-based fire maps, the old system, painted broad strokes: if your neighborhood was in a designated fire zone, everyone paid the same surcharge regardless of whether your house was concrete and steel or wood and prayer. Property-level AI scoring inverts that logic entirely: two homes on the same cul-de-sac can receive wildly different verdicts because the algorithm distinguishes between a Class A metal roof and a 30-year-old asphalt layer, between a five-foot noncombustible perimeter and a yard full of dried ornamental grass, between a two-lane evacuation route and a single-access road that firefighters know from experience becomes a parking lot the moment people try to flee.</p>
+
+			<p>Farmers Insurance used ZestyAI's Z-FIRE model to write 30,000 new policies in California for homes that had previously been declined under zone-based maps. Amica Insurance adopted the technology after the 2017 Tubbs Fire, which destroyed 3,000 homes and killed nine people in Sonoma County. For these carriers, property-level scoring was a tool for saying yes to homes that deserved coverage but had been trapped in a high-risk zip code through no fault of their own.</p>
+
+			<p>But the same granularity that lets insurers approve good risks also lets them reject individual properties with surgical precision, and the homeowner on the receiving end of a rejection has no way to understand why, because the scoring methodology is proprietary, the input data is not disclosed, and no public database exists where a homeowner can look up their own score. FICO, for all its flaws, at least lets you check your number and dispute errors. Your house's AI wildfire score? Invisible.</p>
+
+			<h2>The Numbers Behind the Exodus</h2>
+
+			<p>California's homeowners insurance market is in structural crisis, and AI scoring arrived in the middle of it rather than causing it from scratch. Non-renewal rates hit 3.18% in 2024, nearly quadrupling from 0.82% in 2018, according to Weiss Ratings' analysis of official NAIC data. Nationally, the average sits at 2.32%, up 2.9 times over the same period, with Florida leading the country at 3.35%.</p>
+
+			<p>Premiums have surged in parallel: California homeowners insurance costs rose 55.3% from 2019 to 2024, per <a href="https://www.insurance.com" target="_blank">Insurance.com</a> and S&amp;P Global data. <a href="https://insurify.com" target="_blank">Insurify</a> projects another 16% increase in 2026 as carriers integrate advanced risk modeling into their pricing. A <a href="https://www.kin.com" target="_blank">Kin Insurance</a> survey found that 60% of California homeowners have struggled to find affordable coverage in the past three years, and 80% are concerned their carrier will leave the state entirely.</p>
+
+			<p>Where do the dropped homeowners go? Increasingly, to the FAIR Plan, whose enrollment jumped 43% between September 2024 and December 2025. After the $40 billion Los Angeles fires destroyed 12,000 homes in January 2025, the contagion spread beyond fire zones: <a href="https://www.bloomberg.com" target="_blank">Bloomberg</a> found that 14% of FAIR policies are now in urban, lower-fire-risk zones, with 28% of total FAIR exposure concentrated in largely urban areas. Stanford's Michael Wara put it bluntly: "The infection of the market that existed in the high-fire-risk areas has spread into the normal parts of the market."</p>
+
+			<h2>What $5,000 Can Buy Your Score</h2>
+
+			<p>Property-level scoring creates something zone-based maps never could: a direct feedback loop between physical improvements and insurability. If the algorithm penalizes your cedar shake roof, replace it with Class A composite. If it flags vegetation density, clear it. If defensible space is insufficient, expand it. Each action changes the inputs, and the inputs change the score.</p>
+
+			<p>The math is straightforward, if imperfect. California's statewide average premium is $1,724 per year. A homeowner whose rate doubles to $3,448 because of an elevated AI wildfire score, which is within the range of increases reported across the state, faces an extra $1,724 annually. Effective hardening measures cost between $2,000 and $15,000, according to the <a href="https://ibhs.org" target="_blank">Insurance Institute for Business &amp; Home Safety</a> (IBHS), CAL FIRE, and Fire Safe Marin. Specific interventions include ember-resistant 1/8-inch mesh vents, metal roof flashing, six inches of ground-to-siding clearance, tempered glass windows, gutter screens, and establishing a noncombustible Zone 0 within five feet of the structure.</p>
+
+			<p>At the low end, $2,000 in vent replacements and brush clearing could restore standard-market coverage and recoup the investment in fourteen months. At the higher end, a $15,000 comprehensive retrofit pays back in under nine years against doubled premiums, faster if the alternative is FAIR Plan pricing, which typically runs higher than the standard market for equivalent coverage. Embers, not direct flame contact, are responsible for 90% of homes destroyed by wildfire, which means relatively inexpensive perimeter hardening disproportionately reduces the actual risk, not just the modeled risk.</p>
+
+			<p>For new construction, the economics are even more favorable. IBHS and <a href="https://headwaterseconomics.org" target="_blank">Headwaters Economics</a> found in a 2018 study that building a wildfire-resistant home costs roughly the same as conventional construction, and sometimes less, when fire-resistant materials are specified from the outset rather than retrofitted. A builder who designs to the <a href="https://ibhs.org/ibhs-fortified/" target="_blank">FORTIFIED</a> standard from day one avoids the AI scoring penalty entirely, and in states with FORTIFIED legislation like Alabama, Louisiana, Mississippi, Georgia, Oklahoma, and North Carolina, insurance discounts of 20% to 55% on the wind portion of the policy provide an additional financial incentive. Alabama has invested over $100 million in its Strengthen Alabama Homes program, retrofitting approximately 10,000 houses and reducing claims by 70% and severity by 60%.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">73%</div>
+				<div class="label">Fewer insurance claims filed by FORTIFIED-designated homes compared to non-FORTIFIED homes during Hurricane Sally (2020). Peer-reviewed study by the University of Alabama analyzing 40,000+ properties. Source: <a href="https://ibhs.org" target="_blank">IBHS</a></div>
+			</div>
+
+			<h2>Transparency Is the Missing Piece</h2>
+
+			<p>California has begun to address the opacity problem. State law now requires insurers to disclose wildfire risk scores and allow homeowners to submit evidence of mitigation measures. But disclosure requirements without a standardized, homeowner-accessible scoring portal are largely ceremonial. A homeowner who receives a non-renewal letter can request the score that triggered it, but she cannot proactively check her score before shopping for coverage, cannot compare her score against her neighbor's, and cannot run her own what-if scenarios to determine whether a $5,000 retrofit will actually move the number enough to matter. She is optimizing against a black box.</p>
+
+			<p>Contrast this with FICO: a credit score of 680 is legible. You know what it means, where it falls in the distribution, what actions will move it, and which lenders will work with it. A ZestyAI Z-FIRE score of "elevated risk" communicates almost nothing actionable, and the homeowner who receives it cannot distinguish between a score driven by her own property's characteristics and one driven by the vegetation on a vacant lot 200 meters uphill that she does not own and cannot clear.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>ZestyAI's scoring methodology is proprietary, which means the specific weighting of the 200+ input variables cannot be independently verified or audited. No public database lets homeowners check their AI risk score, so the feedback-loop argument presented here is theoretical: homeowners can harden their properties, but whether specific improvements will change a specific insurer's scoring decision remains uncertain until the score is recalculated, a process the homeowner cannot initiate on their own.</p>
+
+			<p>IBHS's 73% claims reduction figure comes from Hurricane Sally, a wind event, not a wildfire. Wildfire-specific hardening outcome data at comparable scale does not yet exist. Insurance discount programs are state-specific, and California, despite its disclosure requirements, has no formal hardening discount program comparable to Alabama's Strengthen Alabama Homes. The ROI calculations above assume that hardening measures will change an AI score sufficiently to restore standard-market coverage, an assumption that depends on the insurer, the model, and variables the homeowner may not control.</p>
+
+			<h2>The Strongest Case for AI Scoring</h2>
+
+			<p>Zone-based maps were worse. They punished every home in a region equally, which meant a homeowner who spent $15,000 on Class A roofing, tempered glass, and defensible space paid the same wildfire surcharge as a neighbor who did nothing. Property-level AI scoring, for all its opacity, at least creates the possibility that individual effort is rewarded. Farmers Insurance writing 30,000 new policies for previously declined California homes is proof that granularity can expand coverage, not just restrict it. The problem is not that AI is scoring properties. The problem is that homeowners are scored without being shown the test, graded without seeing the rubric, and penalized without a clear path to remediation. Transparency would convert this system from a black-box verdict into something closer to a building code: specific, achievable, and fair. Until then, an algorithm in a data center in San Jose knows more about your roof than you do, and it is making decisions about your financial life that you cannot see, cannot contest, and may not even know exist until the non-renewal letter arrives.</p>
+
+			<p style="margin-top:2.5rem; font-size:0.95rem; color: var(--text-secondary);"><em>Priya Greenwood covers sustainability, climate risk, and the economics of green building. She writes about the gap between what technology promises and what homeowners actually experience.</em></p>
+
+		</article>
+
+		<div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+			<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+		</div>
+	</div>
+
+	<script>
+		if (localStorage.getItem('theme') === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	</script>
+</body>
+</html>
