@@ -1,5 +1,34 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-roof-satellite-insurance-score",
+    "phase": "SHIP",
+    "journalist": "Priya Greenwood",
+    "started": "2026-06-05T17:02:00Z",
+    "headline_wip": "An AI Looked at Your Roof From Space. It Decided You're Uninsurable.",
+    "critique": {
+      "round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.2,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "mean": 8.9,
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 7.4,
+        "banned_phrases": 0,
+        "rhythm_variance": 222.9,
+        "rhythm_short_pct": 11.0,
+        "rhythm_long_pct": 54.8,
+        "rhythm_passed": true
+      },
+      "all_passed": true
+    }
+  },
   "last_completed": {
     "article_number": 336,
     "headline": "In California, Your Barber Needs 1,000 Hours of Training. Your Home Inspector Needs Zero.",
