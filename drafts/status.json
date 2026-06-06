@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-property-tax-arms-race",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Catherine Chen",
+    "started": "2026-06-06T15:02:00Z",
+    "article_number": 341,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 5.5,
+      "banned_phrases": 0,
+      "sentence_rhythm_variance": 244.6,
+      "sentence_rhythm_short_pct": 11.1,
+      "sentence_rhythm_long_pct": 55.6
+    }
+  },
   "last_completed": {
     "article_number": 340,
     "headline": "An AI Agent Designed a House on Stage in Taipei. Your City Still Wants a Human Signature.",
