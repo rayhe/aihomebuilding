@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-floor-plan-architect-stamp-liability",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Elena Vasquez",
+    "headline": "An AI Agent Designed a House on Stage in Taipei. Your City Still Wants a Human Signature.",
+    "started": "2026-06-06T11:02:00Z",
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 2.9,
+      "sentence_rhythm_variance": 205.3
+    }
+  },
   "last_completed": {
     "article_number": 339,
     "headline": "The Median Home Appraiser Is 60 Years Old. The Industry's Plan Isn't to Train His Replacement.",
