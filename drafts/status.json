@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-permit-review-city-builder-bottleneck",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Frank DeLuca",
+    "headline": "Your City's Permit Office Took Six Months to Review a Set of Residential Plans. An AI Did It in Seven Days.",
+    "started": "2026-06-08T09:02:00Z",
+    "article_number": 345,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 11.1,
+      "banned_phrases": 0
+    }
+  },
   "last_completed": {
     "article_number": 344,
     "headline": "The National Electrical Code Just Cut Your Home's Load Rating by 33 Percent. Your Electrician Is Probably Still Using the Old Number.",
