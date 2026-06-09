@@ -1,33 +1,12 @@
 {
   "current": {
     "slug": "thermal-imaging-ai-insulation-inspection",
-    "phase": "READY_TO_SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Jake Kowalski",
     "headline": "Your Insulation Contractor Left 50 Square Feet of Wall Bare. A $250 Camera Found It in 11 Minutes.",
     "article_number": 348,
-    "started": "2026-06-09T07:02:00Z",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 9.1,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 222.3,
-        "short_pct": 10.3,
-        "long_pct": 44.9,
-        "passed": true
-      }
-    },
-    "hold_reason": "1/day limit — #347 published 2026-06-09 05:07 UTC"
+    "started": "2026-06-09T07:02:00Z"
   },
   "last_completed": {
     "article_number": 347,
