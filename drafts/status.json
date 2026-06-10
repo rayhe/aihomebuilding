@@ -1,10 +1,28 @@
 {
   "current": {
     "slug": "tariffs-ai-adoption-gap",
-    "phase": "DRAFT",
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Catherine Chen",
     "started": "2026-06-10T11:02:00Z",
-    "article_number": 351
+    "article_number": 351,
+    "critique_passed": "2026-06-10T15:02:00Z",
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 13.1,
+      "banned_phrases": 0,
+      "sentence_rhythm_variance": 206.8,
+      "all_passed": true
+    }
   },
   "last_completed": {
     "article_number": 350,
