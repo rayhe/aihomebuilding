@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-residential-design-nvidia-demo",
+    "phase": "SHIP",
+    "journalist": "Elena Vasquez",
+    "started": "2026-06-10T05:10:00Z",
+    "article_number": 350,
+    "critique": {
+      "round": 1,
+      "scores": {
+        "general_editor": 9,
+        "voice_coach": 9,
+        "ethics_reviewer": 9,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9,
+        "research_rigor": 9,
+        "data_presentation": 9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 2.3,
+        "banned_phrases": 0,
+        "sentence_rhythm": "PASS (variance 448.2, short 12.0%, long 56.0%)"
+      }
+    }
+  },
   "last_completed": {
     "article_number": 349,
     "headline": "Structural Drawings Took Six Weeks. The Wait Cost $4,615 Before the Engineer Even Invoiced.",
