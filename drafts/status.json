@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "ai-daily-log-residential-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Frank \"The Foreman\" DeLuca",
     "started": "2026-06-12T01:02:00Z",
-    "article_number": 356
+    "article_number": 356,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data_presentation": 9.0
+    }
   },
   "last_completed": {
     "article_number": 355,
