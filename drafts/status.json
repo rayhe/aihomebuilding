@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-inspection-repair-pricing",
+    "phase": "QA",
+    "journalist": "Frank \"The Foreman\" DeLuca",
+    "started": "2026-06-14T11:02:00Z",
+    "article_number": 360,
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 8.5,
+      "rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 11.6,
+      "banned_phrases": 0,
+      "rhythm_variance": 266.9,
+      "rhythm_short_pct": 12.3,
+      "rhythm_long_pct": 50.9,
+      "rhythm_passed": true
+    }
+  },
   "last_completed": {
     "article_number": 359,
     "headline": "Your City's AI Checked 250 Building Code Rules. It Got One in Five Wrong.",
