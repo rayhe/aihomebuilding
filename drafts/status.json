@@ -1,5 +1,36 @@
 {
-  "current": null,
+  "current": {
+    "slug": "construction-knowledge-retirement-crisis",
+    "phase": "SHIP",
+    "journalist": "Marcus \"Steel\" Washington",
+    "started": "2026-06-14",
+    "article_number": 361,
+    "critique": {
+      "round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": {"count": 1, "limit": 3, "passed": true},
+        "the_starters": {"pct": 10.2, "limit": 15.0, "passed": true},
+        "banned_phrases": {"count": 0, "passed": true},
+        "sentence_rhythm": {
+          "variance": 304.6,
+          "short_pct": 14.3,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "all_passed": true
+    },
+    "deferred_reason": "1/day limit — #360 published 2026-06-14 13:08 UTC"
+  },
   "last_completed": {
     "article_number": 360,
     "headline": "Your Inspector Found 23 Defects. Nobody Could Agree What They Cost.",
