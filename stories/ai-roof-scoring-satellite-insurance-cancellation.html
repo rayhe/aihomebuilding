@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Insurer Scored 140 Million Roofs From Space. 7 Million of Those Scores Might Be Wrong. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-roof-scoring-satellite-insurance-cancellation.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Insurer Scored 140 Million Roofs From Space. 7 Million of Those Scores Might Be Wrong.",
+		"description": "CAPE Analytics and Nearmap claim 95% accuracy on AI roof scoring. Applied to 140 million US homes, that 5% error band means 7 million potentially misclassified properties. Homeowners are losing coverage without ever seeing the photo.",
+		"image": "https://aihomebuilding.com/images/ai-roof-scoring-satellite-insurance-cancellation.jpg?v=2e6027ed",
+		"datePublished": "2026-06-16",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-roof-scoring-satellite-insurance-cancellation.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Insurer Scored 140 Million Roofs From Space. 7 Million of Those Scores Might Be Wrong.">
+	<meta property="og:description" content="CAPE Analytics and Nearmap claim 95% accuracy on AI roof scoring. Applied to 140 million US homes, the 5% error band means millions of potentially misclassified properties.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-roof-scoring-satellite-insurance-cancellation.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-roof-scoring-satellite-insurance-cancellation.jpg?v=2e6027ed">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Insurer Scored 140 Million Roofs From Space. 7 Million of Those Scores Might Be Wrong.">
+	<meta name="twitter:description" content="AI roof scoring is canceling homeowner policies based on satellite photos nobody showed them. The math on the error rate is worse than you think.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-roof-scoring-satellite-insurance-cancellation.jpg?v=2e6027ed">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-roof-scoring-satellite-insurance-cancellation.jpg?v=2e6027ed" alt="Aerial view of a residential neighborhood with rooftops of varying ages and conditions, late afternoon light casting long shadows across shingle patterns">
+		<div class="overlay">
+			<div class="badge">Construction Technology</div>
+			<h1>Your Insurer Scored 140 Million Roofs From Space. 7 Million of Those Scores Might Be Wrong.</h1>
+			<div class="meta">By Jake Kowalski &middot; June 16, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Alaina Callahan's roof in Houston was five years old. Good condition. No leaks, no missing shingles, no storm damage claims on file. Her insurer dropped her anyway, citing an aerial photograph she was never shown and a condition score generated by an algorithm she did not know existed. When she asked to see the image, the answer was no. When she asked the Texas Department of Insurance to investigate, the answer was: get in line. At least a dozen homeowners had already filed similar complaints, according to <a href="https://www.npr.org/" target="_blank">NPR's investigation</a>, and five Texas insurers confirmed they use third-party aerial photos and AI to make coverage decisions.</p>
+
+			<p>"I had no recourse as a homeowner," Callahan told NPR. "None whatsoever."</p>
+
+			<p>She is not an edge case. She is a data point in a system that has scored nearly every residential rooftop in the country without telling anyone it was happening.</p>
+
+			<h2>How the Scoring Works</h2>
+
+			<p><a href="https://capeanalytics.com/" target="_blank">CAPE Analytics</a> and <a href="https://www.nearmap.com/" target="_blank">Nearmap's Betterview platform</a> are the two dominant players. Both ingest high-resolution aerial imagery, run it through computer vision models trained on millions of labeled roof photos, and output a condition score along with an estimated replacement year, material classification, and confidence rating. CAPE claims 95% accuracy on roof age determination using historical imagery and change detection. Nearmap's Roof Age Gen2 system claims the same 95% figure. Both vendors have pre-processed imagery for what Nearmap describes as "near-100% of U.S. parcels," delivering results in under two seconds per query.</p>
+
+			<p>Insurers love this, and the data explains why: forty percent of all insurance claims are roof-related, per CAPE's published data. Roofs rated in poor or severe condition generate 2.5 times the wind and hail claims of roofs rated excellent. Homes with large tree overhang show 90% higher wind-related losses. Nine-year-old roofs are twice as likely to be extremely vulnerable to hail as new ones. This is not abstract statistical noise but rather billions of dollars in claims data showing that roof condition predicts loss better than almost any other single variable an underwriter can measure.</p>
+
+			<p>Insurers adopted the technology fast, and CAPE's roof attributes are now approved for Department of Insurance rate filings in 15 states: Arizona, Colorado, Iowa, Kentucky, Illinois, Indiana, Michigan, Mississippi, North Carolina, Ohio, Pennsylvania, South Dakota, Tennessee, Virginia, and Wisconsin. Premium differentials between roofs less than five years old and those in the 11-to-15-year range expanded from $49 in 2022 to $155 in 2025, per <a href="https://www.verisk.com/" target="_blank">Verisk's 2025 Roof Condition Report</a>. Average deductibles rose 22% in 2025 alone, following a 15% increase in 2024.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">7 million</div>
+				<div class="label">U.S. homes potentially misclassified, if the industry's claimed 95% accuracy rate holds across 140 million housing units. Nobody has published this math.</div>
+			</div>
+
+			<h2>The 5% Problem at National Scale</h2>
+
+			<p>Ninety-five percent accuracy sounds excellent. For almost any other application, it is. But apply a 5% error rate to 140 million housing units and you get 7 million homes with potentially incorrect roof scores. Neither CAPE nor Nearmap nor any insurer using their data has published this calculation, even though the arithmetic is trivial and the implications are not.</p>
+
+			<p>At an average homeowner's insurance premium of roughly $2,500 per year, the financial exposure on misclassified properties is enormous. Assume half of those 7 million homes receive a worse score than their roof actually warrants. Use the $155 average annual premium differential from Verisk's data. The aggregate overpayment across the misclassified population exceeds $540 million every year. That is money extracted from homeowners based on an error they cannot see, cannot challenge, and in most states cannot even request a copy of.</p>
+
+			<p>The 5% figure itself deserves real scrutiny, because CAPE and Nearmap report accuracy on their own validation sets, using their own labeled training data. No independent third-party audit of either system's real-world accuracy across a diverse geographic sample has been published. Roof materials vary dramatically by region: slate in the Northeast, clay tile in the Southwest, asphalt shingle dominating everywhere else, metal increasingly common in hurricane zones. A model validated primarily on Midwestern asphalt shingle roofs may perform differently on a moss-covered cedar shake in the Pacific Northwest or a white TPO membrane on a flat-roof modern build in Phoenix. The actual error rate for specific materials and geographies could be meaningfully higher than 5%.</p>
+
+			<h2>What Builders Should Spec for AI Insurability</h2>
+
+			<p>Nobody in the roofing industry is having this conversation yet, and that needs to change. Your roofing material and installation choices at construction time will affect how an AI scoring algorithm rates that roof for the next two decades. That score will directly influence the buyer's insurance premiums, renewability, and coverage stability for the life of the building.</p>
+
+			<p>Based on how these computer vision systems process aerial imagery, certain choices score better.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Factor</th>
+						<th>Scores Well</th>
+						<th>Scores Poorly</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Material uniformity</td>
+						<td>Clean architectural shingle, standing seam metal, uniform tile</td>
+						<td>Patched sections, mixed shingle batches, partial replacements</td>
+					</tr>
+					<tr>
+						<td>Color contrast</td>
+						<td>High-contrast materials that photograph clearly from altitude</td>
+						<td>Dark materials on dark substrate, hard to assess from aerial imagery</td>
+					</tr>
+					<tr>
+						<td>Tree proximity</td>
+						<td>Roof clear of overhanging branches (CAPE: 90% lower wind loss correlation)</td>
+						<td>Heavy canopy coverage obscuring roof surface</td>
+					</tr>
+					<tr>
+						<td>Debris visibility</td>
+						<td>Clean roof surface, maintained gutters</td>
+						<td>Leaf accumulation, staining, moss growth</td>
+					</tr>
+					<tr>
+						<td>Geometry</td>
+						<td>Simple hip or gable, easy for algorithms to assess</td>
+						<td>Complex intersections, multiple dormers, flat sections mixed with pitched</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>Standing seam metal may be the long-term winner in this scoring environment. Not because metal is inherently better than asphalt (though it lasts two to three times longer), but because uniform panel geometry and consistent reflectivity give aerial imaging algorithms a clean signal with fewer ambiguous pixels. A 15-year-old metal roof that still looks like a new metal roof from 500 feet up will score better than a 10-year-old asphalt roof with normal weathering that an algorithm flags as deterioration.</p>
+
+			<p>If you are a GC speccing roofs on new construction: have this conversation with your buyer now. Their insurance premiums for the next 15 years will partly depend on what a satellite sees when it photographs their house, and spending an extra $4,000 to $8,000 on metal over a 30-year architectural shingle could save multiples of that in avoided premium increases during the second decade of ownership. That is not a sales pitch. It is arithmetic.</p>
+
+			<h2>States Are Scrambling</h2>
+
+			<p>California moved first. <a href="https://www.insurance.ca.gov/" target="_blank">Assembly Bill 75</a>, authored by Assemblymember Lisa Calderon and backed by Insurance Commissioner Ricardo Lara, requires insurers to give homeowners 30 days' advance notice before taking or obtaining aerial images, provide copies of any images used in underwriting decisions, refrain from using images older than 45 days unless the identified problem is persistent and verified by in-person inspection, and give homeowners until the effective policy change date to remedy whatever the imagery flagged. California's DOI noted it had "investigated numerous complaints where flawed aerial imagery led to wrongful cancellations," including cases where "insurers used imprecise drone or satellite photos resulting in policies being incorrectly dropped due to erroneous data."</p>
+
+			<p>Connecticut followed: aerial images showing discoloration, streaking, or cosmetic issues alone cannot support an underwriting action. Massachusetts requires 45-day written notice with specific reasons for aerial-based non-renewals. Pennsylvania issued a regulatory bulletin in 2024.</p>
+
+			<p>Four states. Out of fifty. Amy Bach at United Policyholders drafted a model legislative proposal over a year ago recommending that insurers share photos with policyholders, detail the precise basis for liability determinations, and create a formal challenge pathway. No state legislature has adopted it. Carmen Balber of Consumer Watchdog put it bluntly: "It's really a Wild West when it comes to this aerial imagery. The technology that companies are using is all over the map and frequently inaccurate."</p>
+
+			<h2>The Insurers Have a Point</h2>
+
+			<p>Intellectual honesty demands acknowledging that the insurance industry's core argument is legitimate and strong. Roof condition is the single most predictive variable for property claims. Human inspectors cannot scale to 140 million properties. They are hazardous (climbing roofs kills and injures workers every year), inconsistent (two inspectors examining the same roof routinely disagree), expensive ($150 to $500 per inspection), and slow. AI-powered aerial scoring is genuinely more consistent, cheaper, and covers more properties than any human inspection program ever could.</p>
+
+			<p>Verisk's data shows that moderate-to-poor roofs experience roughly 60% higher loss costs than those rated good or excellent. That number is calculated from billions of dollars in actual claims paid over decades. An insurer that ignores roof condition subsidizes bad risks with good ones, meaning responsible homeowners who maintain their roofs pay more so that negligent homeowners who ignore theirs can pay less, an arrangement that is neither fair nor sustainable.</p>
+
+			<p>The problem is not that insurers use AI to assess roofs. The problem is that homeowners cannot see the photo, cannot see the score, cannot challenge either one, and in 46 states have no legal right to demand any of that information. Bob Passmore of the American Property Casualty Insurance Association told <a href="https://www.nerdwallet.com/" target="_blank">NerdWallet</a> that "looking at aerial photos is just another method of doing something insurers have always been doing." Technically correct. Insurers have always assessed risk. They have never done it at this scale, at this speed, with this little transparency, using imagery the policyholder never saw.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">38%</div>
+				<div class="label">Share of U.S. residential homes rated moderate-to-poor condition by aerial AI analysis. Source: Verisk 2025 Roof Condition Report.</div>
+			</div>
+
+			<h2>What You Should Do Right Now</h2>
+
+			<p>If you own a home: photograph your roof from the ground, from a drone if you have one, and from inside the attic. Document the condition with dated images. If your insurer non-renews or hikes your premium citing roof condition, demand the specific data source, the date of the imagery, and the score assigned. Put the request in writing. In California, Connecticut, Massachusetts, and Pennsylvania, you have legal backing. In other states, the insurer may decline, but making the request creates a paper trail that has value if regulators eventually catch up.</p>
+
+			<p>If you replaced your roof recently, push the documentation to your insurer proactively. Satellite imagery databases can lag six to eighteen months behind reality. A homeowner who installed a new roof in January might still be scored on imagery from the previous July. California's AB 75 addresses this with its 45-day freshness requirement, but enforcement mechanisms are untested.</p>
+
+			<p>If you are a builder: start including a "roof documentation package" at closeout. High-resolution photos of the completed roof taken from above (a $200 drone flight), the manufacturer's warranty registration, the installation date, and the material spec sheet. Hand it to the buyer at closing with instructions to file it with their insurer. It costs you nearly nothing. It could save your buyer thousands in premium disputes over the next decade and differentiate your closings in a market where every GC is scrambling for an edge.</p>
+
+			<h2>Limitations</h2>
+
+			<p>The 7-million-home misclassification estimate assumes the industry's self-reported 95% accuracy figure is correct and applies uniformly across all regions, roof materials, and configurations. The actual error rate has not been independently verified and may vary by geography and roof type. The $540 million annual overpayment uses a $155 average premium differential and assumes half of misclassified homes receive a worse score than warranted, both simplifying assumptions. We could not verify whether CAPE's or Nearmap's validation methodology uses geographically stratified test sets representing the full diversity of U.S. roofing materials and climates. State legislative coverage reflects publicly available information as of mid-June 2026. The builder material recommendations in the scoring table are analytical inferences based on how computer vision systems process aerial imagery, not empirical results from a controlled study comparing AI scores across standardized roof installations.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
