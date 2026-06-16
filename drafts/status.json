@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "ai-takeoff-estimating-residential-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank DeLuca",
-    "started": "2026-06-16T13:02:00Z"
+    "started": "2026-06-16T13:02:00Z",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    }
   },
   "last_completed": {
     "article_number": 364,
