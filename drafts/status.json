@@ -1,34 +1,10 @@
 {
-  "current": {
-    "slug": "ai-wildfire-risk-scoring-home-hardening",
-    "phase": "QA",
-    "journalist": "Catherine \"Code\" Chen",
-    "started": "2026-06-17T17:02:00Z",
-    "article_number": 368,
-    "critique": {
-      "round": 1,
-      "scores": {
-        "general_editor": 9,
-        "voice_coach": 9,
-        "ethics_reviewer": 9,
-        "social_shareability": 9,
-        "legal_accuracy": 9,
-        "research_rigor": 9,
-        "data_presentation": 9
-      },
-      "hard_gates": {
-        "em_dashes": {"count": 1, "limit": 3, "passed": true},
-        "the_starters": {"pct": 6.1, "limit": 15, "passed": true},
-        "banned_phrases": {"count": 0, "passed": true},
-        "sentence_rhythm": {"variance": 297.4, "short_pct": 9.5, "long_pct": 62.2, "passed": true}
-      }
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 367,
-    "headline": "Your Home Inspector\u2019s Report Had 47 Photos and Zero Opinions. The AI Wrote It.",
-    "journalist": "Marcus Washington",
+    "article_number": 368,
+    "headline": "Your Builder Met Every Wildfire Code. The Algorithm Still Scored You as High-Risk.",
+    "journalist": "Catherine \"Code\" Chen",
     "published": "2026-06-17",
-    "slug": "ai-home-inspection-report-automation"
+    "slug": "ai-wildfire-risk-scoring-home-hardening"
   }
 }
