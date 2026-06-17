@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "ai-draw-fraud-fake-construction-photos",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Frank \"The Foreman\" DeLuca",
     "started": "2026-06-17T21:02:00Z",
-    "article_number": 369
+    "article_number": 369,
+    "scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 8.5
+    },
+    "note": "Waiting to publish — #368 already published today (2026-06-17)"
   },
   "last_completed": {
     "article_number": 368,
