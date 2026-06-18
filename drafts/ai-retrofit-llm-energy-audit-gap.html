@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>An AI Studied 536,000 Homes to Learn Which Upgrades Actually Pay Off. Your $400 Auditor Studied One. &mdash; AI Home Building</title>
+	<meta name="description" content="A fine-tuned language model trained on half a million simulated US houses identifies the optimal energy retrofit 98.9% of the time. Professional audits cost $200-$600. The question is what each one misses.">
+	<meta property="og:title" content="An AI Studied 536,000 Homes to Learn Which Upgrades Actually Pay Off. Your $400 Auditor Studied One.">
+	<meta property="og:description" content="A fine-tuned language model trained on half a million simulated US houses identifies the optimal energy retrofit 98.9% of the time. Professional audits cost $200-$600. The question is what each one misses.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="../images/ai-retrofit-llm-energy-audit-gap.jpg">
+	<meta property="article:published_time" content="2026-06-18">
+	<meta property="article:author" content="Priya Greenwood">
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An AI Studied 536,000 Homes to Learn Which Upgrades Actually Pay Off. Your $400 Auditor Studied One.",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"datePublished": "2026-06-18",
+		"description": "A fine-tuned language model trained on half a million simulated US houses identifies the optimal energy retrofit 98.9% of the time. Professional audits cost $200-$600. The question is what each one misses.",
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building"
+		}
+	}
+	</script>
+	<link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+<article>
+	<header>
+		<div class="article-meta">
+			<span class="author">Priya Greenwood</span>
+			<span class="date">June 18, 2026</span>
+		</div>
+		<h1>An AI Studied 536,000 Homes to Learn Which Upgrades Actually Pay Off. Your $400 Auditor Studied One.</h1>
+		<img class="hero" src="../images/ai-retrofit-llm-energy-audit-gap.jpg" alt="A residential energy auditor with infrared camera examines a house exterior while a digital overlay shows a neural network analyzing thousands of house silhouettes in the background">
+	</header>
+
+	<div class="story-body">
+
+		<p>Your energy auditor arrives on a Tuesday morning, two weeks after you booked the appointment. He spends three hours in your attic with an infrared camera, runs a blower door test that makes the curtains flap, and leaves you with a 14-page PDF recommending $11,000 in upgrades. His invoice: $440.</p>
+
+		<p>Reasonable. Thorough. But there's something the auditor couldn't do in three hours that a research team at a university just did in three seconds: run your home's basic characteristics through a language model fine-tuned on 536,416 simulated American houses and identify the single retrofit that will cut your carbon emissions the most, pay itself back the fastest, or both.</p>
+
+		<p>The model got the right answer 98.9% of the time. Sit with that number for a moment, because it reframes every dollar spent on the current system.</p>
+
+		<h2>Half a Million Houses in a Hard Drive</h2>
+
+		<p>Credit for this work belongs to a team led by Lei Shu and Dong Zhao, researchers who recognized a structural problem in how homeowners make energy decisions. Information isn't the gap; expertise is. You can find a thousand articles telling you to insulate your attic. What you can't find is a credible, specific answer to the question that actually matters: given <em>my</em> house, in <em>my</em> climate zone, with <em>my</em> heating system and <em>my</em> wall construction, which single upgrade produces the biggest return?</p>
+
+		<p>To answer that, Shu's team built their model on top of the Department of Energy's <a href="https://www.energy.gov/eere/buildings/resstock">ResStock</a> dataset. ResStock is one of those government tools that almost nobody outside of energy policy knows about, despite being one of the most ambitious attempts to model America's housing stock ever undertaken. Funded at $500,000 and maintained by the National Laboratory of the Rockies in Golden, Colorado, it represents the entire US residential building stock as 550,000 individually modeled dwelling units, each simulated through the physics-based EnergyPlus engine. Every prototype has a foundation type, insulation level, wall construction, HVAC system, window type, climate zone, and income bracket attached to it.</p>
+
+		<p>From there, Shu's team pulled 536,416 of those prototypes and ran techno-economic calculations across nine major retrofit categories for each one. Then they fine-tuned a large language model using LoRA (Low-Rank Adaptation, a technique that adjusts a pre-trained model's weights without retraining from scratch) so that the model could map a homeowner's plain-language description of their house to the optimal retrofit recommendation and its expected performance.</p>
+
+		<p>Against physics-grounded baselines, the fine-tuned model identified the optimal retrofit for CO2 reduction within its top three recommendations in 98.9% of cases, and for shortest discounted payback period, 93.3%. Fine-tuning produced an order-of-magnitude reduction in CO2 prediction error compared to the base model, alongside multi-fold reductions in energy use and cost predictions that made the generic foundation model look nearly useless by comparison.</p>
+
+		<p>Perhaps more remarkable: the model maintained performance even when given incomplete inputs, which is exactly the condition most homeowners face when they start researching upgrades. Tell it you have a 1960s ranch in Wisconsin with gas heat but you're not sure about your insulation level, and it still narrows the field.</p>
+
+		<h2>What $400 Buys You</h2>
+
+		<p>A professional Level 2 energy audit in the US runs $250 to $650 for a standard home, according to 2026 data from Angi, Thumbtack, and Fixr. Nationally, the average lands around $400. For that, you get an ASHRAE-defined inspection: a blower door test measuring air infiltration, infrared thermography showing heat loss through walls and ceilings, ductwork evaluation, combustion safety testing, and a written report ranking your upgrade options by estimated savings and cost.</p>
+
+		<p>Under Section 25C, the IRS will reimburse 30% of that through the Energy Efficient Home Improvement Credit, capped at $150, so your out-of-pocket on a $500 audit drops to $350, assuming you owe enough federal tax to claim the non-refundable credit.</p>
+
+		<p>There are 130 million housing units in the United States. If every household got a single professional audit, the national tab would exceed $50 billion. In practice, uptake remains negligible, and the reason isn't that homeowners are lazy or indifferent to their utility bills. Most homeowners never get an energy audit because the process requires scheduling an appointment two weeks out, taking a half-day off work, and writing a check for something that delivers a PDF they may or may not understand.</p>
+
+		<p>According to the Department of Energy, the average American household spends $2,000 a year on energy, with $200 to $400 of that wasted due to inefficiency. Heating and cooling alone account for 43% of the bill. That gap between what homeowners could save and what they actually save is not a technology problem. It's an access problem, an expertise problem, and a $400 barrier-to-entry problem.</p>
+
+		<h2>What the Algorithm Can't See</h2>
+
+		<p>Before you cancel your audit appointment, consider what the model is actually trained on. ResStock prototypes are simulations, not buildings. They represent statistical distributions of American housing characteristics. Your home is a prototype; it's also a collection of decisions made by the contractor who built it in 1978, the previous owner who "upgraded" the bathroom without pulling a permit, and your golden retriever who has slowly excavated a gap in the weatherstripping along the back door that no physics engine on earth can predict.</p>
+
+		<p>It has never stood in your attic. It cannot detect the cracked heat exchanger that poses a carbon monoxide risk, measure the actual CFM50 of your building envelope, or know that the oak tree your neighbor planted six years ago now shades the south-facing windows that its climate model assumes receive direct solar gain eight months a year.</p>
+
+		<p>Santhan Reddy Penaka, a researcher at Umeå University whose 2026 doctoral dissertation examined building-level variation in retrofit effectiveness, found that simplified assumptions about occupant behavior alone can skew energy-use calculations by up to 15%. His case study of 81 building clusters across three Swedish cities showed that the most effective renovation measure varies considerably even between <em>neighboring</em> buildings when you account for actual usage patterns. Wall insulation might be the highest-impact intervention in one house and nearly irrelevant next door.</p>
+
+		<p>"Generic renovation plans risk overlooking this variation," Penaka wrote. With more detailed analyses, resources can be directed where they have the greatest impact. Right building, right measure, right order.</p>
+
+		<p>And there's the reality gap. We've reported before that energy models promise 25% savings on average while post-retrofit measurements across 140,000 homes show the actual number closer to 7%. Shu's model inherits this problem: it's trained on simulated outcomes, not measured ones. When the physics model overestimates savings from air sealing (because it assumes a tighter duct system than what's actually installed), the LLM faithfully repeats that overestimate.</p>
+
+		<h2>Sorting 130 Million Houses</h2>
+
+		<p>What a 536,000-home trained model actually does best isn't replacing auditors. It's sorting the 130 million households into buckets before a single blower door gets hauled out of a truck. Some homes have an obvious optimal retrofit that no amount of on-site testing will change: the uninsulated 1950s Cape Cod in Minnesota with a 30-year-old furnace doesn't need $440 worth of blower door data to confirm that a heat pump and attic insulation are the play, because the physics are that unambiguous, and the model identifies these homes with near-certainty at a per-query cost measured in fractions of a penny.</p>
+
+		<p>Other homes genuinely need a human in the attic: the 2010 code-built house in Phoenix where the owner runs a home server farm and keeps the thermostat at 68, the renovation project where the addition was built with different framing than the original structure, the duplex with shared ductwork and separate thermostats. These are the cases where site-specific factors dominate, where occupant behavior introduces that 15% uncertainty band Penaka documented, and where the $400 audit earns every dollar of its fee.</p>
+
+		<p>A free AI pre-screen that routes 60-70% of homeowners directly to their best upgrade while flagging the remaining 30-40% as "you need an auditor for this one" would collapse the expertise barrier without pretending that models replace measurements.</p>
+
+		<p>Nobody has built this tool yet. Shu's paper is academic, not deployed, and as of mid-2026 no consumer-facing application lets you describe your house in plain English and receive a physics-grounded retrofit recommendation trained on half a million simulations. ResStock data is publicly available, the paper's methodology is described in an open preprint, the computational cost of inference is trivial. Every ingredient sits on a shelf, waiting for someone with a web server and a sense of urgency to assemble them.</p>
+
+		<h2>Run Your Own Numbers</h2>
+
+		<p>If you're a homeowner considering energy upgrades, the actionable takeaway is blunt: start with what the model can tell you for free, even without a deployed app. DOE's ResStock results are <a href="https://catalog.data.gov">publicly available</a>, and finding your approximate home prototype takes about 20 minutes of filtering by state, vintage, foundation type, and heating fuel. Nine retrofit categories in the model cover insulation, windows, air sealing, heat pumps, water heating, and HVAC upgrades, meaning it addresses the vast majority of what a professional audit would recommend for most homes built before 2000.</p>
+
+		<p>Then decide whether your home is a clear case or an ambiguous one. If your insulation is below current code, your heating system is older than your car, and your utility bills exceed $250 a month, the answer is almost certainly insulation plus a heat pump. No audit will change that conclusion. Claim the 25C credit on the upgrades themselves ($1,200 for insulation, up to $2,000 for a heat pump) rather than spending $400 on confirmation of something the physics already guarantees.</p>
+
+		<p>If your home was built after 2006, already has decent insulation, and your bill is under $150 a month, the optimal path is less obvious and significantly more dependent on how you actually live in the house. Behavioral changes might deliver more savings than hardware, because the 15% behavioral uncertainty that Penaka documented means the difference between "replace your windows" and "open them differently." That's when the $400 is worth it.</p>
+
+		<h2>What We Didn't Prove</h2>
+
+		<p>This analysis relies on the Shu paper's reported accuracy figures for a model that has not undergone peer review and has not been independently validated. That 98.9% figure refers to identifying the optimal retrofit within the model's top three recommendations against its own physics-simulation baselines, not against measured post-retrofit energy consumption in real homes. Our own reporting has documented that model-to-reality gap as substantial, and it applies with full force here.</p>
+
+		<p>We also cannot verify the per-query cost of running the fine-tuned model at scale. Claiming inference cost is "trivial" relies on general LoRA deployment economics, not benchmarks on this specific model, whose weights have not been publicly released.</p>
+
+		<p>Nine retrofit categories may also exclude newer interventions that have gained traction since the training data was assembled: smart thermostats with occupancy learning, heat pump water heaters paired with time-of-use rate optimization, whole-home electrification packages that bundle electrical panel upgrades with appliance swaps. Any of these could outperform the modeled options in specific contexts, and the US-only training data means the approach needs significant adaptation before it applies to the 90% of the global building stock that ResStock doesn't touch.</p>
+
+		<p>That expertise gap is real. That $400 barrier is real. And 98.9% is real, within the boundaries of what was tested. Whether the model survives contact with 130 million actual American houses, each one stranger than any simulation, is the question nobody can answer from a lab. Only deployment settles it.</p>
+
+	</div>
+</article>
+</div>
+</body>
+</html>
