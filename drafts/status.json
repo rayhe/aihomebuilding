@@ -1,5 +1,28 @@
 {
-  "current": null,
+  "current": {
+    "slug": "hvac-oversizing-lidar-ai",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Jake \"Jackhammer\" Kowalski",
+    "headline": "Your Contractor Sized Your AC by Gut Feeling. It's Twice the Size You Need.",
+    "started": "2026-06-18T13:01:00Z",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 0.0,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS (variance=343.2, short=10.3%, long=54.0%)"
+    },
+    "hero_hash": "50db027b"
+  },
   "last_completed": {
     "article_number": 370,
     "headline": "Your City Spent $4.6 Million Teaching AI to Read Permits Nobody Wrote Clearly.",
