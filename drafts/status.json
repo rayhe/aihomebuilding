@@ -1,37 +1,10 @@
 {
-  "current": {
-    "slug": "ai-construction-document-automation",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Jake Kowalski",
-    "headline": "Your Architect Spent Five Months Drawing Your House. The AI Finished During the Holiday Break.",
-    "started": "2026-06-19T07:01:52Z",
-    "critique_passed": "2026-06-19T09:04:00Z",
-    "published": "2026-06-19T11:01:52Z",
-    "article_number": 374,
-    "scores": {
-      "general_editor": 8.5,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 4.8,
-      "banned_phrases": 0,
-      "sentence_rhythm_variance": 213.5,
-      "sentence_rhythm_short_pct": 13.4,
-      "sentence_rhythm_long_pct": 47.9
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 373,
-    "headline": "Nobody Appraised Your Home. Fannie Mae's Algorithm Did It From a Database, and Your Lender Called It 'Value Acceptance.'",
-    "journalist": "Catherine Chen",
+    "article_number": 374,
+    "headline": "Your Architect Spent Five Months Drawing Your House. The AI Finished During the Holiday Break.",
+    "journalist": "Jake Kowalski",
     "published": "2026-06-19",
-    "slug": "ai-appraisal-avm-algorithm"
+    "slug": "ai-construction-document-automation"
   }
 }
