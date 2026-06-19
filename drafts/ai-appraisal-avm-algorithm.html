@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Nobody Appraised Your Home. Fannie Mae's Algorithm Did It From a Database, and Your Lender Called It 'Value Acceptance.' &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-appraisal-avm-algorithm.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Nobody Appraised Your Home. Fannie Mae's Algorithm Did It From a Database, and Your Lender Called It 'Value Acceptance.'",
+		"description": "AVMs now price 98 million U.S. homes with a claimed 2.9% median error. Appraisers are vanishing. The CFPB wants nondiscrimination rules but lacks the teeth to enforce them. What a homebuyer should actually do.",
+		"image": "https://aihomebuilding.com/images/ai-appraisal-avm-algorithm.jpg?v=286522e8",
+		"datePublished": "2026-06-19",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-appraisal-avm-algorithm.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Nobody Appraised Your Home. Fannie Mae's Algorithm Did It From a Database, and Your Lender Called It 'Value Acceptance.'">
+	<meta property="og:description" content="AVMs now price 98 million U.S. homes with a claimed 2.9% median error. Appraisers are vanishing. The CFPB wants nondiscrimination rules but lacks the teeth to enforce them.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-appraisal-avm-algorithm.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-appraisal-avm-algorithm.jpg?v=286522e8">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nobody Appraised Your Home. Fannie Mae's Algorithm Did It From a Database.">
+	<meta name="twitter:description" content="AVMs price 98M U.S. homes with 2.9% median error. Appraisers are vanishing. What a homebuyer should do.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-appraisal-avm-algorithm.jpg?v=286522e8">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-appraisal-avm-algorithm.jpg?v=286522e8" alt="A suburban home seen through a translucent digital overlay of data points and valuation numbers, the front door closed, no appraiser in sight">
+		<div class="overlay">
+			<div class="badge">Policy &amp; Regulation</div>
+			<h1>Nobody Appraised Your Home. Fannie Mae's Algorithm Did It From a Database, and Your Lender Called It 'Value Acceptance.'</h1>
+			<div class="meta">By Catherine Chen &middot; June 19, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>In September 2025, Fannie Mae quietly renamed its appraisal waiver program. What used to be called a Property Inspection Waiver became "Value Acceptance," a phrase so aggressively corporate that it almost obscures what actually happened: the largest mortgage guarantor in the United States stopped pretending that skipping the appraisal was an exception. It became the default language, the designed-for outcome, the thing Desktop Underwriter is optimized to produce when the algorithm decides the numbers look close enough.</p>
+
+			<p>Close enough. That is the standard now.</p>
+
+			<p>On May 5, 2026, <a href="https://www.attomdata.com/" target="_blank">ATTOM</a> launched what it calls a next-generation automated valuation model, rebuilt from scratch with AI rather than the comparable-sales regressions that have powered AVMs since the 1990s. ATTOM claims a 2.9% median absolute percentage error across 98 million U.S. properties, with more than 80% of valuations landing within 10% of the actual sale price. On a median-priced home of roughly $420,000, a 2.9% median error means the algorithm's best guess is off by about $12,180 in either direction, and ATTOM presents this as a triumph of accuracy rather than what it actually is, which is a $12,180 question mark stamped on every transaction where nobody walked through the front door.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$12,180</div>
+				<div class="label">Median AVM error on a $420,000 home at ATTOM's claimed 2.9% accuracy rate. On a 30-year mortgage at 7%, that overvaluation costs the buyer roughly $29,100 in total interest over the life of the loan.</div>
+			</div>
+
+			<h2>Eighty Percent Sounds Good Until You're in the Other Twenty</h2>
+
+			<p>ATTOM's headline statistic, 80% of valuations within 10%, sounds reassuring if you assume you're in the majority. Run the numbers from the buyer's side. One in five homes gets a valuation that's off by more than 10%. On a $420,000 property, that's an error exceeding $42,000, enough to collapse a deal, block a refinance, or saddle a borrower with a loan-to-value ratio that triggers private mortgage insurance they should never have been required to carry. Freddie Mac is now offering algorithmic valuations on loans with as little as 3% down through its Home Possible program. At 97% LTV, the margin for error is $12,600 on that same $420,000 house. ATTOM's median error alone consumes nearly the entire equity cushion.</p>
+
+			<p>Nobody publishes the tail distribution. Not ATTOM, not Zillow's Zestimate, not CoreLogic's Collateral Underwriter, not Freddie Mac's ACE. You know the median. You do not know how bad the worst 5% of valuations are, or which neighborhoods, property types, or market conditions produce them, because AVM providers consider their error distributions proprietary, and the two firms that evaluate AVMs in the United States, Mercury Network (owned by CoreLogic, which sells its own AVM) and AVMetrics, do not publish their assessments to the public.</p>
+
+			<p>You are buying a house inside a black box.</p>
+
+			<h2>Who Used to Look</h2>
+
+			<p>A licensed residential appraiser used to walk through the property, measure it, photograph the interior condition, evaluate the mechanicals, check for deferred maintenance, assess the neighborhood, select comparable sales with local knowledge, and produce a report that someone with a name and a license number signed. That person could be held accountable. Their work could be challenged through a reconsideration of value. Their biases, when documented, could result in disciplinary action by a state licensing board.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">60</div>
+				<div class="label">Median age of a licensed residential appraiser in the United States. Eighty percent are over 50. Only 13% are under 35. The profession is not replacing itself. (Sources: NAR, Appraisal Institute)</div>
+			</div>
+
+			<p>That workforce is dying, and not metaphorically. The median appraiser is 60, eighty percent are over 50, and only 13% are younger than 35. The number of licensed appraisers has dropped 25% in the past decade, according to the <a href="https://www.appraisalinstitute.org/" target="_blank">Appraisal Institute</a>, and the pipeline is choked by a certification system that requires 2,500 supervised hours before licensure, a requirement that few working appraisers have the time or financial incentive to provide. Jonathan Miller, CEO of the appraisal firm Miller Samuel, put it plainly to Bisnow: "Unless things change and we create ways and incentives to trigger a higher rate of entry into the profession, then it's over."</p>
+
+			<p>So the algorithms are not optional. They are the only remaining labor supply for a mortgage industry that processes millions of transactions per year and cannot wait six weeks for a 62-year-old to drive across three counties to look at a split-level ranch. Fannie Mae's Desktop Underwriter draws on a database of 26 million appraisal reports. Freddie Mac's ACE uses proprietary models, MLS data, and public records. Between them, these two entities guarantee roughly 60% of all new residential mortgages in the United States, and they have decided, together, that a significant share of those loans do not require a human being to verify what the house is actually worth.</p>
+
+			<h2>Trained on What, Exactly</h2>
+
+			<p>ATTOM's new AVM uses "more than 30 years of time-adjusted transaction history." Thirty years of residential transaction data in the United States is thirty years of a market shaped by redlining's aftereffects, exclusionary zoning, predatory lending concentrated in communities of color, and appraisals performed by a profession that is, as of the most recent demographic data available, 99% white.</p>
+
+			<p><a href="https://www.brookings.edu/" target="_blank">Brookings Institution</a> research found that homes in majority-Black neighborhoods are valued 21% to 23% below what identical homes in non-Black neighborhoods would command, a devaluation totaling approximately $162 billion across 113 metropolitan areas. A <a href="https://www.freddiemac.com/" target="_blank">Freddie Mac</a> study of 12 million appraisals between 2015 and 2020 found that 12.5% of homes in predominantly Black census tracts were appraised below contract price, compared to 7.4% in white tracts. The Federal Housing Finance Agency found discriminatory language in the free-form text fields of actual appraisal reports.</p>
+
+			<p>An AVM trained on this data does not start from zero. It starts from thirty years of decisions made by humans who, in aggregate, valued Black-owned homes differently than white-owned homes. Whether that gap reflects appraiser bias, neighborhood-level disinvestment, or some irreducible combination of both is the subject of genuine academic debate. Ambrose et al. (2025) applied property fixed effects to private-label mortgage data and found the appraiser-attributable racial gap drops below 0.4%, not statistically significant. Brookings attributes 9% to 19% of devaluation to appraisal bias specifically, leaving the majority as a function of deeper structural inequality.</p>
+
+			<p>Neither finding is comforting if you're buying in a historically undervalued neighborhood and the AVM just absorbed all of it as the baseline.</p>
+
+			<h2>Who Is Supposed to Be Watching</h2>
+
+			<p>In June 2023, the Consumer Financial Protection Bureau, jointly with the Federal Reserve, FDIC, FHFA, NCUA, and OCC, proposed a rule requiring automated valuation models to include nondiscrimination safeguards. The rule was a direct response to the PAVE (Property Appraisal and Valuation Equity) task force's findings and was meant to implement a Dodd-Frank mandate from 2010 that had sat unfinished for thirteen years.</p>
+
+			<p>That proposed rule has not been finalized. The CFPB's enforcement capacity has been substantially curtailed. The interagency coalition that proposed the rule spans administrations and political appointments that no longer share the same regulatory priorities. Meanwhile, Freddie Mac expanded its ACE program to loans with up to 90% LTV, and Fannie Mae rebranded its waiver to signal that appraisals are no longer the default expectation.</p>
+
+			<p>The regulatory apparatus designed to ensure AVMs don't discriminate has not kept pace with the market's adoption of AVMs as a primary valuation tool. Only two organizations in the entire country evaluate AVM accuracy, neither publishes results publicly, and one of them is owned by a company that sells its own competing AVM. Dodd-Frank requires AVM quality controls for mortgage-backed securities, but enforcement depends on regulators who have other priorities and an industry that has powerful incentives to keep the black box closed.</p>
+
+			<h2>What You Actually Lose When Nobody Visits</h2>
+
+			<p>An algorithm cannot see the crack in the foundation that the seller covered with a bookshelf. It cannot smell mold. It cannot notice that the "renovated kitchen" in the listing photos has a dishwasher that doesn't connect to plumbing, or that the garage conversion added 400 square feet of living space without a building permit, or that the beautiful deck is pulling away from the ledger board because someone used nails instead of lag bolts. An algorithm takes the square footage from county records (which are wrong roughly 10% of the time, per CoreLogic's own data quality estimates), the last sale price, the MLS listing, and the transaction history of nearby homes, and produces a number.</p>
+
+			<p>For a new construction home in a production subdivision where every unit shares the same floor plan and the same builder, the algorithm is probably fine. For a 1960s ranch with an unpermitted addition, deferred maintenance, and a neighbor who runs an auto body shop out of his garage, the algorithm is guessing.</p>
+
+			<h2>If You're Buying a Home</h2>
+
+			<p>Ask your lender, explicitly, whether your loan received a "Value Acceptance" offer from Desktop Underwriter or an ACE determination from Loan Product Advisor. If the answer is yes, your home was not appraised by a human. Understand what that means for your recourse if the valuation is wrong. An appraiser's report can be challenged through a formal reconsideration of value, with the appraiser's license on the line. An AVM's output can be disputed by ordering an appraisal at your own expense, typically $400 to $700, which your lender is not required to accept over the algorithmic result.</p>
+
+			<p>If you're purchasing in a neighborhood with limited recent comparable sales, a property with unusual characteristics, or a home that's been significantly renovated, request a full interior appraisal even if the lender offers a waiver. You have the right to decline a Value Acceptance offer and pay for the appraisal yourself. In a market where a $12,000 valuation error can shift your monthly payment by $80 and your total interest cost by $29,000, the $500 appraisal fee is cheap insurance.</p>
+
+			<p>If you're selling, understand that your buyer's lender may use an AVM that draws comparable sales from a radius and time window you can't control or see. If the AVM undervalues your property, you may need to provide the buyer's lender with additional data: a recent appraisal you commissioned, documentation of improvements, or comps that the algorithm missed because they weren't in the MLS or public records.</p>
+
+			<p>If you're building new construction, ask your lender how the AVM handles properties with no prior sale history and limited comps. This is precisely the scenario where ATTOM claims its AI excels, and precisely the scenario where an error is hardest for anyone to catch until the home resells years later.</p>
+
+			<h2>What This Analysis Does Not Prove</h2>
+
+			<p>ATTOM's 2.9% median error claim is based on iterative out-of-sample testing against actual sales over the past decade. We could not independently verify the methodology, the geographic distribution of error rates, or the performance in low-transaction markets where the model claims its greatest advantage over traditional AVMs. The Brookings devaluation estimates use census self-reported home values and sales-price-adjusted models, both of which have known limitations that the authors acknowledge. Freddie Mac's appraisal disparity findings measure the rate at which appraisals fall below contract price, which may reflect negotiation dynamics as much as bias. The CFPB's proposed AVM rule was a Notice of Proposed Rulemaking; its final form, if it is ever finalized, may differ substantially from the proposal. Appraiser demographic data is drawn from multiple sources with different methodologies and reference years, though the directional finding, that the profession is overwhelmingly white and aging, is consistent across all of them. The interest cost calculation assumes a fixed 7% rate over 30 years applied to the full overvaluation amount, which overstates the impact slightly because the buyer's down payment absorbs a portion of the error.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
