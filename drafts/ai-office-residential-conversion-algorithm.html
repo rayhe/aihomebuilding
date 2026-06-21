@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An Algorithm Screened 25,000 Office Buildings for Apartment Potential. It Rejected Two-Thirds for the Same Reason. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/stories/ai-office-residential-conversion-algorithm.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An Algorithm Screened 25,000 Office Buildings for Apartment Potential. It Rejected Two-Thirds for the Same Reason.",
+		"description": "Gensler's conversion algorithm compares every office building against a 'Goldilocks ideal' — and the single metric that kills most candidates reveals a fundamental design truth about what makes a space livable.",
+		"image": "https://aihomebuilding.com/images/ai-office-residential-conversion-algorithm.jpg?v=c9dbb429",
+		"datePublished": "2026-06-21",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/stories/ai-office-residential-conversion-algorithm.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An Algorithm Screened 25,000 Office Buildings for Apartment Potential. It Rejected Two-Thirds for the Same Reason.">
+	<meta property="og:description" content="Gensler's conversion algorithm compares every office building against a 'Goldilocks ideal' and the single metric that kills most candidates reveals what makes a space livable.">
+	<meta property="og:url" content="https://aihomebuilding.com/stories/ai-office-residential-conversion-algorithm.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-office-residential-conversion-algorithm.jpg?v=c9dbb429">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An Algorithm Screened 25,000 Office Buildings for Apartment Potential. It Rejected Two-Thirds for the Same Reason.">
+	<meta name="twitter:description" content="The 35-foot Goldilocks criterion, 171,000 phantom apartments, and why only 5% of possible office conversions are underway.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-office-residential-conversion-algorithm.jpg?v=c9dbb429">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-office-residential-conversion-algorithm.jpg?v=c9dbb429" alt="A half-converted office floor at golden hour, one side still showing cubicle remnants and dropped ceiling tiles, the other revealing a bright apartment unit with tall windows casting warm light across hardwood floors">
+		<div class="overlay">
+			<div class="badge">Architecture & Design</div>
+			<h1>An Algorithm Screened 25,000 Office Buildings for Apartment Potential. It Rejected Two-Thirds for the Same Reason.</h1>
+			<div class="meta">By Elena Vasquez &middot; June 21, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Stand in the middle of most American office buildings built after 1985, and you will understand immediately why they cannot become apartments. You are fifty, sixty, sometimes seventy-five feet from the nearest window. No natural light reaches you. No breeze. No sense of the sky or the street or the hour of the day. You exist in a zone of fluorescent sameness, surrounded by mechanical ventilation that hums at a frequency you stopped noticing years ago.</p>
+
+			<p>Nobody can live like that.</p>
+
+			<p>Steven Paynter, Gensler's global leader for building transformation and adaptive reuse, built an algorithm to formalize what architects have always known intuitively: most office buildings were designed to keep daylight <em>out</em> of their deepest spaces, and that single fact makes them uninhabitable as homes. His algorithm compares each candidate building against what he calls a "Goldilocks building," an idealized residential structure in the same neighborhood with the right proportions, the right relationship between elevator core and exterior wall, the right bones for dwelling. When he runs real office inventories through the screening, <a href="https://thehustle.co/originals/adaptive-reuse-office-to-residential-conversions" target="_blank">65 to 70 percent of them fail</a>.</p>
+
+			<p>One measurement kills them. Elevator-to-window distance.</p>
+
+			<h2>Thirty-Five Feet Is the Number That Matters</h2>
+
+			<p>Gensler's Goldilocks criterion centers on a deceptively simple spatial relationship: ideally 35 feet from elevator core to exterior window, which allows for residential units roughly 30 feet deep. That depth provides enough room for a bedroom at the window wall, a living area in the middle section, and a kitchen or bathroom tucked against the corridor side. Light penetrates the full unit. You wake up and know what time it is before checking your phone.</p>
+
+			<p>At 50 feet from core to window, the geometry collapses. A 30-foot-deep unit leaves 20 feet of dead space near the core. You can fill it with closets, bathrooms, corridors, but you cannot fill it with the quality of space that makes someone choose to stay. At 75 feet, which is common in buildings from the 1990s and 2000s designed for maximum leasable square footage, the conversion math becomes absurd. You would need units so deep that the back wall sits in permanent twilight, or you would need to sacrifice half the floor plate to corridors and shared space, destroying the economics that justified the project.</p>
+
+			<p>Paynter's algorithm is not doing anything conceptually revolutionary. It is measuring what architects have always assessed by walking through a building and feeling whether the space could work. What the algorithm does is scale that judgment to thousands of buildings simultaneously, across entire metropolitan inventories, and produce a ranked list of candidates that a city planning office or a developer can act on without commissioning individual feasibility studies for each one.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">162,000</div>
+				<div class="label">Potential apartment units sitting in buildings that algorithms identify as convertible, where no conversion is underway. Sources: White House Council of Economic Advisors (171,470 total potential units), Gensler (5% conversion rate).</div>
+			</div>
+
+			<h2>The Phantom Apartments</h2>
+
+			<p>A Biden-era Council of Economic Advisors analysis screened office buildings across the 105 largest US cities and identified <a href="https://www.whitehouse.gov/cea/written-materials/2024/10/07/office-to-residential-conversions/" target="_blank">171,470 potential new residential units</a> that could be created through conversion of high-vacancy commercial space. That figure represents nearly half of what the entire US multifamily construction industry produced in 2022. At a time when the Harvard Joint Center for Housing Studies puts the national housing shortage between 4 and 7 million homes, and HUD's latest count found a record 771,000 people experiencing homelessness, these are not rounding errors.</p>
+
+			<p>Only about 5 percent of identified conversions are underway.</p>
+
+			<p>Do the subtraction. Roughly 162,000 apartments exist as phantoms, identified by screening algorithms as viable, sitting in buildings with 20-percent-plus vacancy rates and declining commercial property values, in cities that are simultaneously experiencing housing crises. At the median US cost for new apartment construction, approximately $350,000 per unit, that phantom housing stock represents about $56.7 billion in potential residential real estate currently functioning as empty cubicle farms.</p>
+
+			<p>I find that number both staggering and misleading, because it implies the only barrier is awareness. It is not. Cities have identified these buildings. Algorithms have screened them. Developers know which ones pencil out. What is missing is the financial and regulatory connective tissue that would make conversions happen at anything approaching the speed the housing crisis demands.</p>
+
+			<h2>What Cities Are Actually Doing</h2>
+
+			<p>Some of the most aggressive incentive programs in the country are producing results, though the scale remains modest relative to the opportunity. Washington, D.C.'s "Office to Anything Program" offers a 20-year tax abatement with a 15-year freeze, essentially eliminating property tax escalation for two decades on converted buildings. Boston's Downtown Residential Conversion Incentive Program goes further: <a href="https://www.americanbar.org/groups/state_local_government/publications/state_local_law_news/2024-25/winter/turning-offices-into-homes/" target="_blank">up to 75 percent tax abatement for 29 years</a>, plus "As of Right" zoning that lets developers bypass the discretionary approval process that typically adds 12 to 18 months and $500,000 or more in legal and consulting costs to a conversion project.</p>
+
+			<p>Los Angeles updated its Citywide Adaptive Reuse Ordinance in January 2025 to include any building 15 years or older, a significant expansion from the downtown-only original. L.A. has history here. Its 1999 ordinance, one of the first in the nation, produced roughly 20,000 new downtown units over 15 years, according to a RAND Center analysis. Houston waived parking requirements in its central business district. San Francisco offered transfer tax waivers on the first sale of converted properties. Denver created a dedicated Adaptive Reuse Pilot Program with assigned project management from the city, essentially giving developers a government liaison to navigate the permitting labyrinth.</p>
+
+			<p>Calgary, which is further along than most American cities, has five conversion projects underway creating over 1,200 new housing units. Its downtown vacancy rate is trending downward for the first time in years.</p>
+
+			<h2>Gensler's Co-Living Twist</h2>
+
+			<p>In March 2026, a <a href="https://www.pewtrusts.org/en/research-and-analysis/articles/2026/03/19/converting-office-buildings-to-co-living-apartments-could-be-cheaper-path-to-housing" target="_blank">Pew Charitable Trusts study</a> partnering Gensler with Turner Construction revealed something counterintuitive. Those "problem buildings" with the deepest floor plates, the ones the Goldilocks algorithm rejects for conventional apartment conversion, actually work better for co-living microapartments than for studios. Furnished rooms line the building perimeter where windows exist. Shared kitchens and bathrooms cluster near the core, exactly where office plumbing already runs. You stop fighting the building's geometry and start working with it.</p>
+
+			<p>The cost data is striking. Co-living microapartment conversions across ten cities studied range from $123,300 to $238,700 per unit, roughly one-third to one-half the cost of converting the same building into conventional studio apartments. Construction costs per square foot drop 25 to 35 percent versus standard office-to-apartment conversion. Target rents range from $700 per month in Houston and Albuquerque to about $1,000 in Los Angeles, Seattle, and Washington, D.C.</p>
+
+			<p>But the most important number is the subsidy multiplier. The same public investment that produces one studio apartment produces 3.9 co-living units. In Phoenix, a $25 million subsidy would yield 294 co-living apartments versus 116 studio apartments. Seattle's multiplier reaches 4.2. For cities that measure their housing programs by units-per-dollar-spent, this is the most efficient conversion model anyone has proposed.</p>
+
+			<p>Consider the demographics. Forty percent of renter households in these cities are single persons. In Washington, D.C. and Seattle, that figure reaches 56 to 58 percent. Co-living is not a compromise for people who cannot afford a "real" apartment. For a substantial share of the renting population, it is a format that matches how they actually live.</p>
+
+			<h2>Why 95 Percent of Conversions Are Not Happening</h2>
+
+			<p>Plumbing. Start there. Office buildings concentrate water supply and drainage in a few locations near restroom cores. Residential buildings need plumbing distributed to every unit, every kitchen, every bathroom. Running new pipes through a concrete structure designed for centralized service is where conversion budgets blow up. An office building might have four wet walls per floor. A 40-unit residential floor needs 40. You are cutting through concrete decks, rerouting waste lines, and praying the existing risers can handle the additional load.</p>
+
+			<p>Acoustics compound the problem. Commercial buildings were designed for the Sound Transmission Class requirements of offices, which assume ambient noise from HVAC systems, printers, and conversation. Residential STC requirements are higher, because people expect to sleep without hearing their neighbor's television through the wall, and achieving residential-grade sound isolation in a structure designed for commercial-grade performance means adding mass to partitions, floating floors, and sometimes replacing ceiling assemblies entirely.</p>
+
+			<p>Then there is air. Many office buildings from the 1980s and 1990s have sealed window systems designed for fully mechanical ventilation. Residential building codes in most jurisdictions require operable windows or dedicated mechanical ventilation meeting stricter airflow standards per occupant. Retrofitting sealed curtain walls with operable sections is expensive and, in some cases, structurally complicated.</p>
+
+			<p>And financing. Banks have limited precedent for underwriting co-living conversions specifically. Insurance carriers are still developing actuarial models for shared-kitchen, shared-bathroom residential configurations at scale. Several developers I have spoken with describe the financing process as "explaining a building type that doesn't exist yet to people who only lend on building types that already do."</p>
+
+			<h2>The Preservation Paradox</h2>
+
+			<p>Gensler's 35-foot Goldilocks criterion creates an irony that deserves attention. Buildings with narrow floor plates and close core-to-window distances tend to be older, often pre-1960s, with the kind of architectural character cities want to preserve. Post-1980 buildings with deep, efficient floor plates are the ones that fail the residential screening. This means the easiest buildings to convert into apartments are frequently the same buildings protected by historic preservation ordinances, which add cost, constrain interior modifications, and require review processes that can extend timelines by years.</p>
+
+			<p>At the same time, the environmental case for conversion over demolition-and-rebuild is overwhelming. Conversions retain approximately 90 percent of existing concrete. Concrete production accounts for 8 percent of global carbon emissions, four times the contribution of the entire airline industry. Every converted building is a building whose embodied carbon does not need to be spent again.</p>
+
+			<p>So you have a preservation framework that makes conversions slower and more expensive, protecting buildings that are the best candidates for conversion, while the environmental framework argues forcefully that conversion is the most responsible thing a city can do with its aging commercial stock. This is not a contradiction that algorithms resolve. It is a policy tension that requires cities to decide what they value more: the exterior appearance of a 1950s office building, or the 40 apartments that could exist inside it.</p>
+
+			<h2>What This Means If You Are Buying a Converted Apartment</h2>
+
+			<p>Walk the unit before you commit. Stand in the room farthest from the windows and notice how much daylight reaches you at 2 p.m. on a Tuesday. If the answer is "almost none," the unit is too deep. Gensler's 35-foot metric exists for a reason, and no amount of clever interior design overcomes the fundamental physics of a floor plate that was never meant to shelter someone's sleep.</p>
+
+			<p>Check the plumbing pressure on upper floors. Converted buildings sometimes have inadequate water supply risers for the increased residential demand, resulting in pressure drops during peak morning hours. Ask the building management whether the HVAC system was replaced or retrofitted. A repurposed commercial air handler serving residential units is louder, less efficient, and harder to control at the individual unit level than purpose-built residential HVAC.</p>
+
+			<p>Ask about the STC rating of the party walls between units. A number below 50 means you will hear your neighbors. Most purpose-built apartments target STC 55 to 60. Many conversions land at 45 to 50 unless the developer invested in additional sound isolation beyond code minimums.</p>
+
+			<p>Conversions can produce extraordinary apartments. Some of the most interesting residential spaces in lower Manhattan, in downtown Los Angeles, in Calgary and Denver, exist because a developer saw the potential in an office building that the market had abandoned. But the quality gap between a well-executed conversion and a corner-cutting one is wider than in purpose-built housing, because the starting conditions vary so dramatically from building to building.</p>
+
+			<h2>The Strongest Counterargument</h2>
+
+			<p>Conversion advocates sometimes overstate the housing impact. Even if every one of those 171,470 algorithmically identified units were built tomorrow, it would close less than 4 percent of the national housing shortage at the conservative end of the 4-to-7-million-unit estimate. Office-to-residential conversion is a useful tool. It is not a housing crisis solution at scale. New construction, zoning reform, and manufactured housing will collectively do more for housing supply than every office conversion in every city combined. Framing conversions as a major answer to the housing shortage risks directing political attention and public subsidy toward a strategy that, by the numbers, can only ever be supplementary.</p>
+
+			<p>There is also a market-cannibalization risk. Successful conversions improve the remaining office market by removing excess supply, which stabilizes rents and values for commercial landlords. But if conversions proceed too aggressively in a concentrated submarket, they can depress residential values in the surrounding area by flooding it with units of a type that some buyers and renters perceive as inferior to purpose-built housing. Calgary has managed this risk through staged approvals. Whether American cities can exercise similar discipline remains to be seen.</p>
+
+			<h2>Limitations</h2>
+
+			<p>The 171,470 potential-unit figure comes from a Biden-era CEA analysis of the 105 largest US cities, using building data and vacancy rates available at the time of publication. Actual conversion feasibility depends on site-specific structural, mechanical, and zoning conditions that no metropolitan-scale screening can fully capture. Gensler's Goldilocks algorithm criteria have not been published in full technical detail; the 35-foot elevator-to-window metric and 65-70 percent rejection rate are drawn from Steven Paynter's interview with The Hustle rather than a peer-reviewed methodology paper. The $56.7 billion "phantom housing" calculation uses median new-construction costs, not conversion costs, which vary widely ($123,300 to $350,000+ per unit depending on building condition, conversion type, and market). The Pew/Turner co-living cost data covers ten cities and may not generalize to markets with different labor costs, seismic requirements, or building code frameworks. Subsidy multiplier calculations assume constant construction costs across unit types, which oversimplifies the relationship between unit size, shared-space configuration, and per-unit cost. No independent longitudinal data exists on resident satisfaction or retention rates in co-living conversions at scale.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
