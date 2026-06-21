@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-adoption-gap-residential-contractors",
+    "phase": "SHIP",
+    "journalist": "Marcus Washington",
+    "started": "2026-06-21T09:02:00Z",
+    "article_number": 381,
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 8.5,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": "PASS (1)",
+      "the_starters": "PASS (3.1%)",
+      "banned_phrases": "PASS",
+      "sentence_rhythm": "PASS (variance=255, short=13.3%, long=53.0%)"
+    }
+  },
   "last_completed": {
     "article_number": 380,
     "headline": "Farmers Insurance Required a $500 Valve on Your Water Main. Your Building Code Still Doesn\u2019t.",
