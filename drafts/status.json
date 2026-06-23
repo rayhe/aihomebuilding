@@ -1,10 +1,27 @@
 {
   "current": {
     "slug": "concrete-strength-sensor-foundation-timing",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Jake Kowalski",
-    "started": "2026-06-23T06:02:00-07:00"
+    "started": "2026-06-23T06:02:00-07:00",
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 0.0,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS"
+    },
+    "headline": "Your Foundation Hit 3,000 PSI in 30 Hours. Nobody Checked Until Day Seven.",
+    "article_number": 388
   },
   "last_completed": {
     "article_number": 387,
