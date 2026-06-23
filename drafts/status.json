@@ -1,34 +1,10 @@
 {
-  "current": {
-    "slug": "ai-retrofit-upgrade-order",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Priya Greenwood",
-    "headline": "Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.",
-    "article_number": 387,
-    "started": "2026-06-23T05:02:00Z",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": "1 (<=3 PASS)",
-      "the_starters": "13.5% (<15% PASS)",
-      "banned_phrases": "0 (PASS)",
-      "sentence_rhythm": "variance=204.1 short=8.1% long=52.3% (ALL PASS)"
-    },
-    "published": "2026-06-23T09:04:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 386,
-    "headline": "His Body Hit 103°F Before Lunch. His Supervisor's Safety Plan Was to Ask If He Felt OK.",
-    "journalist": "Marcus Washington",
+    "article_number": 387,
+    "headline": "Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.",
+    "journalist": "Priya Greenwood",
     "published": "2026-06-23",
-    "slug": "ai-heat-stress-wearable-construction"
+    "slug": "ai-retrofit-upgrade-order"
   }
 }
