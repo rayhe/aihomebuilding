@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-retrofit-upgrade-order.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.",
+		"description": "Researchers fine-tuned an LLM on 536,416 U.S. residential prototypes to recommend the optimal energy retrofit sequence. The answer the DOE already knew: seal the envelope before you swap the furnace. Most contractors push the opposite order, and it costs homeowners thousands.",
+		"image": "https://aihomebuilding.com/images/ai-retrofit-upgrade-order.jpg?v=8da11031",
+		"datePublished": "2026-06-23",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-retrofit-upgrade-order.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.">
+	<meta property="og:description" content="536,416 simulated homes. Nine retrofit categories. The AI and the DOE agree: seal the envelope first. Your HVAC contractor disagrees, and it's costing you.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-retrofit-upgrade-order.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-retrofit-upgrade-order.jpg?v=8da11031">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.">
+	<meta name="twitter:description" content="AI trained on half a million homes agrees with DOE: insulate before you electrify. Your HVAC guy has a different opinion and a bigger commission.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-retrofit-upgrade-order.jpg?v=8da11031">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			width: 100%;
+			max-height: 520px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: auto;
+			display: block;
+			object-fit: cover;
+			max-height: 520px;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			padding: 0.25rem 0.75rem;
+			border-radius: 3px;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.4rem;
+			font-weight: 800;
+			line-height: 1.15;
+			margin: 0 0 0.5rem;
+		}
+		.article-hero .meta {
+			font-size: 0.85rem;
+			opacity: 0.85;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 2rem auto;
+			padding: 0 1.5rem;
+		}
+		.story-body {
+			font-size: 1.08rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.6rem;
+			font-weight: 700;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.25;
+		}
+		.story-body p {
+			margin: 0 0 1.4rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-decoration-thickness: 1px;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			background: var(--bg-card);
+			font-weight: 600;
+		}
+		.stat-callout {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			text-align: center;
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1.1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+			line-height: 1.6;
+		}
+		.back-link {
+			display: inline-block;
+			margin-top: 2rem;
+			font-size: 0.9rem;
+		}
+		@media (max-width: 600px) {
+			.article-hero h1 { font-size: 1.6rem; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-retrofit-upgrade-order.jpg?v=8da11031" alt="A split view of a home interior showing pink fiberglass insulation being installed in wall cavities on one side and a modern heat pump unit mounted on the exterior wall on the other side, warm afternoon light through the windows">
+		<div class="overlay">
+			<div class="badge">Sustainability &amp; Efficiency</div>
+			<h1>Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.</h1>
+			<div class="meta">By Priya Greenwood &middot; June 23, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>A homeowner in Raleigh, North Carolina called three HVAC contractors last winter after her gas furnace died at twenty-two years old. All three quoted a heat pump. Bids ranged from $14,200 for a 4-ton system to $18,700 for a 5-ton variable-speed unit with a backup strip heater that one installer described as &ldquo;insurance for those January cold snaps.&rdquo; Not one of them mentioned that her attic had four inches of blown cellulose over kraft-faced batts from 1987, which is roughly equivalent to wrapping your house in a bath towel and hoping for the best.</p>
+
+			<p>She bought the $14,200 system.</p>
+
+			<p>Had she spent $3,800 on air sealing and attic insulation first, her Manual J load calculation would have dropped by approximately 12,000 BTU/h, reducing the required heat pump from 4 tons to 3 tons. That smaller unit costs $2,500 to $4,000 less depending on the brand. Her insulation would have paid for itself before the heat pump was even installed, and the heat pump she actually needed would be a size her ductwork could handle without modifications. Instead, she has an oversized system that will short-cycle in shoulder seasons, wear out its compressor faster, and dehumidify poorly in a North Carolina summer because oversized equipment cools the air too quickly to pull moisture out of it.</p>
+
+			<p>Nobody told her this. Not the HVAC contractors, who profit from larger equipment. Not the energy auditor she never hired because she did not know such a thing existed. Not the IRA rebate program her state has not launched yet.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">&lt; 3%</div>
+				<div class="label">Fewer than 3 percent of U.S. single-family homes have ever received a professional energy assessment, according to the <a href="https://rmi.org/is-there-a-trade-off-with-transparency-a-deep-dive-into-automated-home-energy-estimates/" target="_blank">Rocky Mountain Institute</a>. Ninety-seven percent of homeowners make upgrade decisions in an information vacuum.</div>
+			</div>
+
+			<h2>What Half a Million Simulated Houses Reveal</h2>
+
+			<p>Researchers at Michigan State University published a paper in February 2026 that tried to close the expertise gap with brute computational force. They fine-tuned a large language model on physics-based energy simulations and techno-economic calculations derived from <a href="https://arxiv.org/abs/2602.20181" target="_blank">536,416 U.S. residential building prototypes</a> spanning nine major retrofit categories: attic insulation, wall insulation, air sealing, duct sealing, windows, heat pump space heating, heat pump water heating, smart thermostats, and LED lighting.</p>
+
+			<p>It accepts plain-language descriptions of a home, the kind of information any owner would know without crawling into the attic: year built, number of stories, approximate square footage, fuel type, climate zone. It returns a ranked list of retrofit measures optimized for either carbon reduction or shortest payback period.</p>
+
+			<p>The accuracy is striking: evaluated against physics-grounded baselines, the model identified the optimal retrofit for CO2 reduction within its top three recommendations in 98.9 percent of cases, and for shortest discounted payback, 93.3 percent. Fine-tuning produced an order-of-magnitude reduction in CO2 prediction error compared to the base language model, which had a tendency to hallucinate plausible-sounding but numerically wrong savings figures, the kind of confident incorrectness that could steer a homeowner toward a $15,000 mistake.</p>
+
+			<p>Across hundreds of thousands of building configurations, climate zones, and fuel costs, the same pattern emerges: envelope first, meaning insulate the attic, seal the air leaks, then replace the furnace.</p>
+
+			<h2>Why the DOE Already Knew This</h2>
+
+			<p>The Michigan State result is computationally impressive and empirically unsurprising. The U.S. Department of Energy has been saying &ldquo;envelope first&rdquo; since before large language models existed. In its <a href="https://www.energy.gov/scep/articles/maximizing-home-energy-performance-when-using-home-energy-rebates" target="_blank">guidance on maximizing IRA home energy rebates</a>, DOE explicitly recommends that states require envelope upgrades before or concurrent with any mechanical or appliance changes.</p>
+
+			<p>Thermodynamics, not bureaucracy, drives that recommendation: a heat pump moves heat, and the less heat that escapes through your walls, attic, and air leaks, the less work the heat pump has to do. Reduce the load first; right-size the equipment second. The EPA estimates that <a href="https://www.energystar.gov/campaign/seal_insulate/methodology" target="_blank">air sealing and insulation alone deliver 15 percent savings</a> on heating and cooling costs for typical existing homes, based on energy modeling corroborated by twenty-plus years of contractor field data. Eleven percent of total energy costs from the cheapest, least glamorous upgrades available.</p>
+
+			<p>So why does almost nobody do it in that order?</p>
+
+			<h2>Follow the Commission</h2>
+
+			<p>HVAC contractors install heat pumps; they do not blow insulation. An HVAC contractor who tells you to insulate before buying equipment is telling you to spend money with someone else first, which requires a level of fiduciary selflessness that no industry's commission structure has ever reliably produced.</p>
+
+			<p>Consider the numbers. A residential heat pump installation runs $12,000 to $20,000 depending on size, brand, and ductwork modifications. Contractor margins on equipment hover around 30 to 40 percent. A whole-house air sealing and insulation job runs $3,000 to $7,000, and the insulation contractor takes that money, not the HVAC company. Incentives are not merely misaligned; they are structurally opposed to the optimal upgrade sequence.</p>
+
+			<p>This is not villainy; it is specialization. Your plumber does not evaluate your electrical panel before replacing the water heater either. But the consequence for homeowners is the same: each trade optimizes its own scope and nobody optimizes the building as a system, which is the one thing physics demands and the market has no mechanism to deliver.</p>
+
+			<p>Except, perhaps, algorithms.</p>
+
+			<h2>Rebates That Reward the Right Order</h2>
+
+			<p>Two overlapping residential programs emerged from the Inflation Reduction Act. The HOMES rebate (Section 50121) provides $2,000 to $4,000 for achieving 20 to 35 percent modeled energy savings, doubling to $4,000 to $8,000 for low-and-moderate-income households. HEAR (Section 50122) offers up to $14,000 in point-of-sale rebates for specific electrification equipment including heat pumps (up to $8,000), heat pump water heaters ($1,750), and electrical panel upgrades ($4,000). Separately, the <a href="https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit" target="_blank">25C tax credit</a> covers 30 percent of costs for insulation (up to $1,200), heat pumps (up to $2,000), and home energy audits (up to $150), with no lifetime limit.</p>
+
+			<p>Stack them in the right order and the math changes dramatically.</p>
+
+			<table>
+				<tr>
+					<th>Upgrade</th>
+					<th>Cost Range</th>
+					<th>Tax Credit (25C)</th>
+					<th>IRA Rebate Potential</th>
+					<th>Net After Incentives</th>
+				</tr>
+				<tr>
+					<td>Air sealing + attic insulation</td>
+					<td>$3,000&ndash;$5,500</td>
+					<td>Up to $1,200</td>
+					<td>$2,000&ndash;$4,000 (HOMES)</td>
+					<td>As low as $0&ndash;$300</td>
+				</tr>
+				<tr>
+					<td>Heat pump (after envelope)</td>
+					<td>$10,000&ndash;$15,000</td>
+					<td>Up to $2,000</td>
+					<td>Up to $8,000 (HEAR)</td>
+					<td>$0&ndash;$5,000</td>
+				</tr>
+				<tr>
+					<td>Heat pump (before envelope)</td>
+					<td>$14,000&ndash;$20,000</td>
+					<td>Up to $2,000</td>
+					<td>Up to $8,000 (HEAR)</td>
+					<td>$4,000&ndash;$10,000</td>
+				</tr>
+			</table>
+
+			<p>Envelope first reduces the heat pump size and cost by $2,500 to $4,000. The insulation itself can be nearly or entirely covered by stacking the 25C credit with HOMES rebates. And the smaller heat pump qualifies for the same HEAR rebate as the larger one. Total out-of-pocket for both upgrades in the optimal order: potentially $300 to $5,300. Total for the heat pump alone in the wrong order: $4,000 to $10,000. The sequence matters more than the sticker price of any individual component.</p>
+
+			<p>There is a catch: most states have not launched their HOMES programs. As of mid-2026, only New York, Rhode Island, Maine, and Washington, D.C. have fully approved and operating programs, according to the <a href="https://neep.org/" target="_blank">Northeast Energy Efficiency Partnerships</a>. California received its $590 million award from DOE but rebates are not yet available. Texas intends to apply but has not finalized its program. For most Americans, the HOMES rebate exists on paper and not in practice.</p>
+
+			<h2>Algorithms That Scale Where Auditors Cannot</h2>
+
+			<p>The reason fewer than 3 percent of homes have professional energy assessments is straightforward: there are not enough auditors, and the ones who exist charge $300 to $500 per visit. The DOE's Home Energy Score program requires a qualified assessor to physically inspect the property, collect dozens of data points, and run energy modeling software. It produces excellent recommendations, but it cannot possibly reach 140 million homes.</p>
+
+			<p>Automated estimates are closing part of that gap. RMI's analysis of nearly 8,000 homes across 27 states found that algorithm-based energy estimates from vendors like ClearlyEnergy and UtilityScore land within 20 to 30 percent of on-site assessment estimates for total energy use. Nearly half of homes fell within 20 percent, and more than a quarter within 10 percent. On energy costs specifically, the algorithms sometimes outperform on-site assessments because they pull granular local utility rate data while the DOE's Home Energy Score uses statewide averages.</p>
+
+			<p>The Michigan State LLM takes a different approach. Rather than estimating how much energy your home uses, it predicts which upgrades will save you the most money or carbon, with what payback period, in what order. Feed it your home's basic characteristics and it returns an optimization that would take a human energy auditor an hour of modeling in EnergyPlus.</p>
+
+			<p>Neither tool is perfect, and the LLM has not been commercially deployed; it is a research demonstration trained on simulated prototypes, not field-measured buildings. Its 98.9 percent accuracy rate is measured against its own physics-based training data, not against post-retrofit utility bills in real homes where occupant behavior, weather variability, and installation quality introduce noise that no simulation captures. Automated estimate algorithms are a first look, not a final diagnosis. They work best as triage: accurate enough to tell you which upgrades deserve investigation and in roughly what order, inaccurate enough that you should still get an on-site assessment before writing a $15,000 check.</p>
+
+			<h2>What to Actually Do</h2>
+
+			<p>If your furnace is dying and you are deciding between replacing it and insulating first: insulate first if your attic has less than R-38 (approximately 10 to 14 inches of fiberglass or cellulose) or if you can feel drafts around electrical outlets on exterior walls. A portable space heater or two will get you through the weeks between insulation and heat pump installation. The $3,000 to $5,500 insulation job will reduce your heating load enough to justify a smaller, cheaper heat pump that runs more efficiently and lasts longer.</p>
+
+			<p>If your furnace is genuinely dead in January: replace it, but insist on a load calculation that reflects your planned envelope upgrades, and ask the HVAC contractor to size the ductwork for the smaller post-insulation heat pump even if the equipment you install today is larger. When you insulate in spring, you will have a system that transitions from slightly oversized to properly sized rather than from properly sized to comically oversized.</p>
+
+			<p>Claim the $150 energy audit tax credit. It is the most underused provision in the IRA and the one that costs the least relative to what it reveals. An auditor with a blower door and an infrared camera will show you exactly where your house is bleeding money, and that information is worth more than any algorithm's approximation because it is specific to the actual building you live in, not a prototype that shares its zip code and vintage.</p>
+
+			<h2>Limitations</h2>
+
+			<p>The 536,416 building prototypes in the Michigan State study are computational constructs, not real homes with real occupants who leave windows open in October and keep thermostats at 78 degrees because they run cold. The model's accuracy is measured against its own training simulations; no study has yet compared its recommendations against post-retrofit energy bills in occupied buildings. Our cost estimates for insulation and heat pumps reflect national averages from contractor pricing surveys and DOE publications; actual costs in the San Francisco Bay Area will be 40 to 60 percent higher than in Charlotte, which makes the right-sizing savings proportionally larger but the upfront costs harder to bear. The IRA rebate stacking scenario assumes both HOMES and HEAR programs are available in the homeowner's state, which is currently true for fewer than ten states. The &ldquo;3 percent of homes&rdquo; figure from RMI refers to homes that have undergone DOE Home Energy Score or RESNET HERS assessments specifically; homes audited through utility-sponsored programs or private energy audits are not counted, so the true percentage of homes with some form of professional energy evaluation is somewhat higher, though still a small minority. We did not independently verify that the Raleigh homeowner's insulation was from 1987; the year is representative of the vintage where kraft-faced batts without air sealing are most commonly found in the Southeast.</p>
+
+			<p><a href="/" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+</body>
+</html>
