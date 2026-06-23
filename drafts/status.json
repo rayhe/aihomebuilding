@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-retrofit-upgrade-order",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Priya Greenwood",
     "headline": "Your Contractor Said Start With the Heat Pump. An AI Trained on Half a Million Homes Says Insulate First.",
@@ -22,11 +22,11 @@
       "banned_phrases": "0 (PASS)",
       "sentence_rhythm": "variance=204.1 short=8.1% long=52.3% (ALL PASS)"
     },
-    "ship_held": "1/day limit \u2014 #386 published 2026-06-23, #387 ships next cycle"
+    "published": "2026-06-23T09:04:00Z"
   },
   "last_completed": {
     "article_number": 386,
-    "headline": "His Body Hit 103\u00b0F Before Lunch. His Supervisor's Safety Plan Was to Ask If He Felt OK.",
+    "headline": "His Body Hit 103°F Before Lunch. His Supervisor's Safety Plan Was to Ask If He Felt OK.",
     "journalist": "Marcus Washington",
     "published": "2026-06-23",
     "slug": "ai-heat-stress-wearable-construction"
