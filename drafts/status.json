@@ -1,33 +1,18 @@
 {
   "current": {
-    "slug": "ai-floor-plan-exploration-cost",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
-    "started": "2026-06-23T12:01:52-07:00",
-    "headline": "You Spent $9,000 Picking a Floor Plan. The Architecture Lab That Solved It in Half a Second Didn't Know Your Site Existed.",
-    "article_number": 389,
-    "critique_round": 1,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 6.3,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS"
-    }
+    "slug": "vrf-ai-extreme-temp-failure",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Priya Greenwood",
+    "started": "2026-06-23T18:01:52-07:00",
+    "headline": "Your Heat Pump's AI Works Great at 72\u00b0F. At 105\u00b0F, It's Guessing.",
+    "article_number": 390
   },
   "last_completed": {
-    "article_number": 388,
-    "headline": "Your Foundation Hit 3,000 PSI in 30 Hours. Nobody Checked Until Day Seven.",
-    "journalist": "Jake Kowalski",
+    "article_number": 389,
+    "headline": "You Spent $9,000 Picking a Floor Plan. The Architecture Lab That Solved It in Half a Second Didn't Know Your Site Existed.",
+    "journalist": "Elena Vasquez",
     "published": "2026-06-23",
-    "slug": "concrete-strength-sensor-foundation-timing"
+    "slug": "ai-floor-plan-exploration-cost"
   }
 }
