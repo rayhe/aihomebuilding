@@ -1,12 +1,27 @@
 {
   "current": {
     "slug": "vrf-ai-extreme-temp-failure",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Priya Greenwood",
     "started": "2026-06-23T18:01:52-07:00",
     "headline": "Your Heat Pump's AI Works Great at 72\u00b0F. At 105\u00b0F, It's Guessing.",
-    "article_number": 390
+    "article_number": 390,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 3.5,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS"
+    }
   },
   "last_completed": {
     "article_number": 389,
