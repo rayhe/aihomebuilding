@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An Algorithm Knows If Your Home Has Lead Pipes. Federal Law Doesn't Require Anyone to Tell You. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-lead-pipe-prediction-homebuyer-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An Algorithm Knows If Your Home Has Lead Pipes. Federal Law Doesn't Require Anyone to Tell You.",
+		"description": "BlueConduit's AI can predict lead service lines with 80-90% accuracy across 400+ cities. The EPA now requires utilities to inventory every pipe. But nothing in federal law connects that data to the person signing the mortgage.",
+		"image": "https://aihomebuilding.com/images/ai-lead-pipe-prediction-homebuyer-gap.jpg?v=c4ed07b6",
+		"datePublished": "2026-06-24",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-lead-pipe-prediction-homebuyer-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An Algorithm Knows If Your Home Has Lead Pipes. Federal Law Doesn't Require Anyone to Tell You.">
+	<meta property="og:description" content="BlueConduit's AI predicts lead service lines with 80-90% accuracy. EPA requires pipe inventories. Nothing connects that data to homebuyers.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-lead-pipe-prediction-homebuyer-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-lead-pipe-prediction-homebuyer-gap.jpg?v=c4ed07b6">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An Algorithm Knows If Your Home Has Lead Pipes. Federal Law Doesn't Require Anyone to Tell You.">
+	<meta name="twitter:description" content="AI can find lead pipes before anyone digs. Federal law doesn't connect that data to homebuyers.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-lead-pipe-prediction-homebuyer-gap.jpg?v=c4ed07b6">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+<article>
+	<div class="article-hero">
+		<img src="../images/ai-lead-pipe-prediction-homebuyer-gap.jpg?v=c4ed07b6" alt="A residential street with underground utility lines visualized, showing lead service line connections beneath older homes">
+		<div class="overlay">
+			<div class="badge">Policy &amp; Regulation</div>
+			<h1>An Algorithm Knows If Your Home Has Lead Pipes. Federal Law Doesn't Require Anyone to Tell You.</h1>
+			<div class="meta">By Catherine Chen &bull; June 24, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		<div class="story-body">
+
+<p>In 2017, a machine learning model told the city of Flint, Michigan, which homes had lead service lines, and workers who followed its predictions dug at 8,833 addresses and found hazardous pipes beneath 6,228 of them, a 70 percent hit rate that would have seemed implausible to the engineers who had been managing the crisis with spreadsheets and educated guesses for the previous two years. One year later, the city handed the replacement program to AECOM, a $14 billion engineering firm that chose not to use the model. AECOM's crews dug at 10,531 homes and found 1,567 lead pipes, a 15 percent hit rate, four times less effective than the algorithm.</p>
+
+<p>That model, built by researchers Jacob Abernethy at Georgia Tech and Eric Schwartz at the University of Michigan, became BlueConduit, a company that has since analyzed more than six million service lines across 400 cities in 26 states, routinely achieving 80 to 90 percent precision and recall according to its own reporting. In Flint, the system catalogued 71 data points per property, but the three most powerful predictors turned out to be unglamorous: when the home was built, how much it was worth, and where it sat on the map.</p>
+
+<div class="stat-callout">
+	<div class="big-number">9.2M</div>
+	<div class="label">Estimated lead service lines still in use across the United States (EPA, 2024)</div>
+</div>
+
+<p>On October 8, 2024, the EPA finalized the Lead and Copper Rule Improvements, a regulation that requires every water system in the country to inventory its service lines, replace all lead pipes within ten years, and lower the action level from 15 parts per billion to 10, with public health benefits the agency estimated at up to 13 times the cost of compliance. Congress allocated $15 billion through the Infrastructure Investment and Jobs Act to fund the work. Initial inventories were due by October 16, 2024.</p>
+
+<p>So the data exists, and utilities have it, or AI companies can predict it where utilities don't. What does not exist, anywhere in federal law, is a mechanism that puts that data in front of a homebuyer before closing.</p>
+
+<h2>The Disclosure Congress Forgot</h2>
+
+<p>Federal law has required lead paint disclosure since 1996. Under 42 U.S.C. &sect;4852d, sellers of homes built before 1978 must disclose known lead-based paint hazards, hand the buyer EPA's pamphlet "Protect Your Family From Lead in Your Home," and provide a 10-day inspection window, with violators facing treble damages and civil penalties of up to $19,507 per occurrence. Real estate agents who ignore the rule risk personal liability.</p>
+
+<p>Lead paint is not the only lead in an older home. A service line made of lead can run from the water main in the street to the meter at your foundation, silently leaching into the water that fills your coffee pot and your child's sippy cup every morning, and if the home was built before 1986 it almost certainly has lead solder in the interior plumbing. Before 1940, the odds of a full lead service line are substantial, and in some cities, near-certain.</p>
+
+<p>Yet no federal statute requires the seller to disclose the service line material. No federal rule nudges the buyer's agent to check the utility inventory. No MLS field captures lead service line status. Standard home inspections under ASTM E2018 skip water quality testing entirely, and a sewer scope, which examines the drain line heading away from the house, never touches the supply side coming in.</p>
+
+<p>BlueConduit's publicly available <a href="https://www.leadoutmap.org/">LeadOut Map</a>, funded in part by the Rockefeller Foundation, covers all 50 states and estimates which communities face the highest risk of lead exposure through drinking water. Every utility that submitted its initial inventory in October 2024 was required to make that inventory publicly available, which means you can look up your address in many cities right now.</p>
+
+<p>Nobody tells you to look.</p>
+
+<h2>What Replacement Actually Costs</h2>
+
+<p>The EPA estimates lead service line replacement at $5,000 to $15,000 per home. In dense urban areas with difficult access, costs run higher. On the customer side, the service line from the curb stop to the meter belongs to the homeowner. Federal LCRI funding covers much of the utility-side replacement, but the homeowner-side share varies by city, and many municipalities have not yet decided how to handle it.</p>
+
+<p>Partial replacement makes the problem worse. When a utility replaces its lead segment but leaves the homeowner's lead segment in place, galvanic corrosion at the joint can spike lead concentrations for months, sometimes years. Federal LCRI rules address this by generally requiring full replacement, but enforcement lags behind the mandate. A buyer who closes on a home with a partially replaced service line inherits a lead source that may be more active than the original pipe.</p>
+
+<p>Here is the math a buyer never sees. A 1935 bungalow in a Midwestern city carries, by BlueConduit's models, perhaps a 40 to 60 percent probability of a lead service line, and the replacement cost represents 2 to 5 percent of the purchase price. In many markets, that is the entire negotiating margin. But without disclosure, the negotiation never happens.</p>
+
+<h2>How the Models Work, and Where They Fail</h2>
+
+<p>BlueConduit's system is a supervised classification model. It trains on verified excavation data from a city and generalizes to unverified parcels. Its inputs are unglamorous: construction date, parcel value, water main material, distance from the main, neighborhood, soil type. In Flint, the model achieved a 97 percent success rate in identifying homes with lead pipes, saving an estimated $10 million and freeing resources for 2,000 additional replacements, according to the researchers.</p>
+
+<p>Summerville, South Carolina, used BlueConduit's technology to conclude with 95 percent confidence that its system had no lead pipes, even while 10,000 lines remained physically unverified, a meaningful result that shows what these systems can do when the question is well-defined. Proving a negative, at scale, without digging up every yard, is precisely the kind of problem machine learning solves well.</p>
+
+<p>But the models carry real limitations, and accuracy varies considerably by city because the 80-90 percent figures are aggregate across BlueConduit's portfolio. In cities with sparse excavation data, initial models are weaker. In cities where service line records were destroyed, lost, or never kept, the inputs are shallower. No independent peer review has validated the models for nationwide accuracy.</p>
+
+<p>More importantly, not every state accepts them. Texas, among others, refuses to let water systems use predictive modeling to satisfy their inventory requirements. "The state of Texas is not accepting predictive modeling to fill out our inventory," Kirsten Eller, potable water quality supervisor for the San Antonio Water System, told Bloomberg Law in 2024. "We're using predictive modeling as a means for planning." That creates a two-tier system where some states have richer data and others deliberately exclude the best available tool.</p>
+
+<h2>The Strongest Case Against Mandatory Disclosure</h2>
+
+<p>There is a credible argument against requiring lead service line disclosure at point of sale, and it deserves its full weight.</p>
+
+<p>Many inventories remain incomplete because, although utilities submitted initial data in October 2024, a large number of service lines are still categorized as "unknown." Forcing disclosure of uncertain AI predictions could suppress property values in older neighborhoods, which are disproportionately lower-income and communities of color. A false positive from a predictive model could kill a sale. If the stigma of "predicted lead" attaches to a ZIP code, the damage could be systemic.</p>
+
+<p>A false negative, though, could poison a child.</p>
+
+<p>The CDC lowered the blood lead reference value to 3.5 micrograms per deciliter in 2021. There is no safe level of lead exposure. Developing brains suffer irreversible damage. A regulatory framework that protects property values while leaving health data siloed in a utility database that no real estate professional checks is not a compromise. It is a choice about which risk we prefer to tolerate.</p>
+
+<h2>What a Buyer Can Do Right Now</h2>
+
+<p>Until Congress or state legislatures act, the burden falls on the buyer. Four steps take less than an hour and cost nothing.</p>
+
+<p>First, check BlueConduit's <a href="https://www.leadoutmap.org/">LeadOut Map</a> for the city and property. It won't give a parcel-level prediction for every address, but it identifies community-level risk.</p>
+
+<p>Second, search the local utility's service line inventory, most of which are now available online. Look for your property's service line material classification: lead, non-lead, galvanized requiring replacement, or unknown. "Unknown" in a pre-1940 home is not reassuring.</p>
+
+<p>Third, add water quality testing to the home inspection. A first-draw and fifth-liter test, the protocol the LCRI requires utilities to use, costs $50 to $150 from a certified lab. The test won't tell you the pipe material, but it will tell you whether lead is reaching the tap.</p>
+
+<p>Fourth, if any of these checks raise a flag, request a service line material verification from the utility or hire a plumber to inspect the line at the meter. Use the results in negotiation, because a confirmed lead service line is a $5,000 to $15,000 deficiency worth pricing in or walking away from.</p>
+
+<h2>Where This Goes</h2>
+
+<p>The infrastructure exists. AI models can predict lead service lines before a shovel touches dirt. Federal regulation already requires utilities to inventory those lines and share the data publicly. Both exist within handshake distance of each other, the technology and the disclosure mandate.</p>
+
+<p>What's missing is the bridge between them: a requirement, at any level of government, that the data generated under the LCRI reaches the one person whose health and financial exposure depend on it. The buyer standing in the kitchen of a 1938 colonial, imagining their children's bedrooms, should know what runs beneath the floor before they sign.</p>
+
+<p>The lead paint disclosure rule was passed in 1992 and took effect in 1996, over objections from real estate interests who argued it would chill transactions in older neighborhoods. Those concerns were real but ultimately manageable, and over time the market absorbed the information and priced the risk, which is precisely what markets are supposed to do.</p>
+
+<p>Lead pipe data is newer, messier, and probabilistic rather than binary, but the health science has not changed. What remains is not a technical problem. It is a policy choice that AI has made harder to defend.</p>
+
+<h2>Limitations</h2>
+
+<p>This analysis relies on BlueConduit's self-reported accuracy figures, which have not been independently validated across all 400+ partner cities. Cost estimates for service line replacement are EPA-derived ranges and vary substantially by region, soil conditions, and access. Our cross-reference between lead paint disclosure law and the absence of lead pipe disclosure law focuses on federal requirements. Some states and municipalities may have partial disclosure obligations that this article does not catalog. BlueConduit's models are classification tools, not certifications. A negative prediction is not the same as a verified non-lead service line.</p>
+
+		</div>
+	</div>
+</article>
+
+</body>
+</html>
