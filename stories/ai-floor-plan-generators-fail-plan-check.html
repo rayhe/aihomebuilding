@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>You Fed an AI Your Lot Dimensions. It Drew a House That Can't Pass Plan Check. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-floor-plan-generators-fail-plan-check.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "You Fed an AI Your Lot Dimensions. It Drew a House That Can't Pass Plan Check.",
+		"description": "AI floor plan generators promise instant home designs for $50 a month. But when those plans hit a municipal plan checker's desk, they fail on egress, setbacks, fire separation, and daylight. The savings evaporate in resubmission cycles that cost more than hiring an architect.",
+		"image": "https://aihomebuilding.com/images/ai-floor-plan-generators-fail-plan-check.jpg?v=1c8cf06d",
+		"datePublished": "2026-06-25",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-floor-plan-generators-fail-plan-check.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="You Fed an AI Your Lot Dimensions. It Drew a House That Can't Pass Plan Check.">
+	<meta property="og:description" content="AI floor plan generators create beautiful layouts in seconds. Municipal plan checkers reject them in minutes. The real cost of skipping an architect.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-floor-plan-generators-fail-plan-check.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-floor-plan-generators-fail-plan-check.jpg?v=1c8cf06d">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="You Fed an AI Your Lot Dimensions. It Drew a House That Can't Pass Plan Check.">
+	<meta name="twitter:description" content="AI floor plan tools produce visually coherent layouts that fail municipal code review on egress, setbacks, and fire separation.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-floor-plan-generators-fail-plan-check.jpg?v=1c8cf06d">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 2rem auto;
+			padding: 0 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			margin: 2.5rem 0 1rem;
+			font-size: 1.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			padding: 0.5rem 1.25rem;
+			margin: 1.5rem 0;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.stat-callout {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			text-align: center;
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			display: inline-block;
+			margin-top: 2rem;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-floor-plan-generators-fail-plan-check.jpg?v=1c8cf06d" alt="Architectural blueprints with red correction marks scattered across a drafting table, a laptop showing an AI-generated floor plan glowing beside them">
+		<div class="overlay">
+			<div class="badge">Architecture & Design</div>
+			<h1>You Fed an AI Your Lot Dimensions. It Drew a House That Can't Pass Plan Check.</h1>
+			<div class="meta">By Elena Vasquez · June 25, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>A woman in Riverside County showed me her AI-generated floor plan last February. She had typed her lot dimensions, her room count, and the phrase "modern farmhouse with open concept" into Maket.ai. Thirty seconds. That is how long it took to produce a floor plan with clean lines, labeled rooms, and dimensions that added up, a drawing so polished and so professionally formatted that she believed she had saved herself the $8,000 her neighbor paid an architect for a house on the same street, and she was ready to walk it into the building department the following Monday morning.</p>
+
+			<p>It would fail on at least six counts.</p>
+
+			<p>The exterior door swung over a landing that was never drawn. Two bedrooms had windows too small to meet IRC R303 natural ventilation minimums. Garage wall to kitchen: no fire-rated assembly, no setback dimensions anywhere on the sheet. And the hallway to the master suite measured 34 inches wide, which is two inches short of code, the kind of error that looks trivial on screen but requires relocating a load-bearing wall to fix once framing starts.</p>
+
+			<p>She submitted anyway. Nine weeks later, $2,200 poorer, she hired an architect.</p>
+
+			<h2>What the Tools Promise</h2>
+
+			<p>AI floor plan generators have proliferated into a category. <a href="https://maket.ai" target="_blank">Maket</a>, Planner 5D, RoomGPT, Homestyler, ArchiVinci, and at least a dozen others sell the same proposition: type what you want, get a floor plan, skip the architect. Pricing starts free, with paid plans running $20 to $100 per month. Some export DXF files compatible with AutoCAD. Some render 3D walkthroughs that make your unbuilt kitchen look like a magazine spread, complete with morning light streaming through windows whose sill heights nobody has checked against the egress requirements of your jurisdiction.</p>
+
+			<p>They all produce layouts that look, to an untrained eye, like something a professional drew. That resemblance is the product, and it is also the problem.</p>
+
+			<p>Maket's own marketing page acknowledges the gap with careful language. "Most require review by a licensed professional before construction," it says. "Accuracy and local building code compliance vary by tool." On Trustpilot, the platform holds a <a href="https://www.trustpilot.com/review/maket.ai" target="_blank">2.3 out of 5 rating</a> as of early 2026. Users report rooms with awkward proportions, impractical circulation paths, and hallways that consume square footage without serving any spatial purpose. Rectangular lots produce reasonable results; L-shaped parcels, sloped sites, and anything requiring vertical coordination between floors produce something closer to a Mondrian painting than an inhabitable structure.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">&lt; 60%</div>
+				<div class="label">accuracy score for 4 of 6 AI floor plan generation models evaluated against the Residential Floor Plan Assessment framework. Only two models exceeded 90%. (MDPI, May 2025)</div>
+			</div>
+
+			<h2>What Plan Check Actually Tests</h2>
+
+			<p>A municipal plan checker does not care whether your floor plan looks beautiful. Not even a little. She cares whether someone can escape the building when it is on fire, whether the structure can hold the loads it is asked to carry, and whether the mechanical systems will function within the thermal envelope without violating clearance requirements that exist because somebody, at some point in the history of building regulation, died when those clearances were not maintained.</p>
+
+			<p>San Bernardino County's standard residential plan check correction sheet runs forty items long, each citing a specific code section. CRC R311.2: egress doors require a 32-inch clear width, 78-inch clear height, and 36-inch landings on both sides. CRC R311.3.1: landing height relative to threshold. CBC 1207.1: minimum three-foot kitchen passageway. IRC R303: bedroom windows must provide glazing equal to at least 8 percent of floor area for light and 4 percent for ventilation.</p>
+
+			<p>These are not obscure provisions; every residential plan checker learns them first. And they are precisely the provisions that AI floor plan generators either ignore entirely or handle through probabilistic guessing rather than deterministic rule compliance, because the models were trained on images of floor plans, not on the regulatory texts that govern whether those plans can actually be built.</p>
+
+			<p>Then come the local amendments, the ones no national training dataset can capture. Over 30,000 jurisdictions in the United States maintain their own modifications to the International Residential Code. A floor plan that complies with the IRC as published may violate a local fire-separation amendment, a seismic bracing requirement specific to one county, or a hillside development ordinance that restricts building footprints on slopes above 15 percent, and no AI tool trained on a national dataset of floor plan images can know that your city adopted the 2024 IRC with a local amendment requiring two-hour fire-rated assemblies between attached garages and living spaces instead of the standard one-hour separation, because that amendment exists in a PDF on a municipal website that was last redesigned in 2009 and has never been scraped into any training corpus. Your plan checker knows it. She wrote it.</p>
+
+			<h2>What It Actually Costs When the Plan Fails</h2>
+
+			<p>Nobody has published a study tracking the plan check pass rate of AI-generated residential floor plans. Nobody. So I built an estimate from components that are individually verifiable, because the absence of data does not mean the absence of cost, and homeowners are making purchasing decisions right now based on marketing claims that have never been tested against a single plan checker's red pen.</p>
+
+			<p>Start with what the AI tool costs: Maket's paid plans run $20 to $50 per month; professional tiers with CAD export reach $100. Call it $100 for two months of use during the design phase. You will still need a licensed engineer for structural calculations: that is $500 to $2,000 for a simple single-family home. Initial plan check submission fees vary by jurisdiction but typically fall between $200 and $500 for residential. When the plan is rejected, each correction round requires a professional to redraw the affected sections, costing $500 to $1,500 per round depending on the scope, with resubmission fees adding $100 to $300 on top. Two to three correction rounds is a reasonable estimate for plans that were not drawn by someone who regularly submits to that jurisdiction.</p>
+
+			<p>Total realistic cost for the AI path: $2,400 to $7,800. Time from first submission to approval: three to six months, because each correction round sits in a municipal review queue that operates at the speed of government staffing levels, not at the speed of your construction loan's interest clock.</p>
+
+			<p>Now the architect. A licensed professional designing a simple single-family home charges $5,000 to $15,000. That fee includes code-compliant construction documents, structural coordination, and plan check support. Architects who regularly submit to a given jurisdiction know its plan checkers by name, know its local amendments by section number, and design to pass on first review. First-submission approval rates for experienced residential architects run roughly 70 to 80 percent. Corrections, when needed, typically amount to one minor round.</p>
+
+			<p>Here is the number that breaks the entire cost comparison. Construction financing on a $400,000 project at current rates of 8 to 10 percent costs $2,700 to $3,300 per month in carry charges. Dead money. Every additional month of plan review delay from AI-generated corrections costs more in financing charges alone than the AI tool's annual subscription. Two extra months of delay wipes out the price difference between a $50-per-month app and a $10,000 architect. Three extra months and you have paid for the architect twice over while your lot sat empty and your loan balance grew.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$2,700&ndash;$3,300</div>
+				<div class="label">monthly carry cost on a $400K construction loan at 8&ndash;10% APR. Each month of plan-review delay from AI plan corrections exceeds the AI tool's annual subscription cost.</div>
+			</div>
+
+			<h2>Why the Models Fail Where It Matters</h2>
+
+			<p>A <a href="https://www.mdpi.com/" target="_blank">2025 study published in MDPI</a> evaluated six AI floor plan generation models using a framework called the Residential Floor Plan Assessment. Four of the six models scored below 60 percent accuracy on compliance with design requirements, spatial connectivity, and geometric features. Only two exceeded 90 percent, and even those failed to achieve high scores across all dimensions simultaneously. A separate <a href="https://www.cambridge.org/core" target="_blank">Cambridge study</a> found that ChatGPT produced architecturally coherent layouts but failed daylight compliance thresholds. The researchers summarized: generative models "excel in visual form-making" but their output "remains insufficiently informed by performance-oriented design logic."</p>
+
+			<p>This is the fundamental architectural failure that separates drawing from designing. A sketch from a design. An AI trained on millions of floor plan images learns proportions, adjacencies, visual patterns: kitchens near dining rooms, bedrooms away from public spaces. It learns the what but not the why, and the why is everything: the kitchen needs a three-foot clearance between island and counter because a person carrying a hot pot needs room to turn without burning someone, and the bedroom window needs to be 5.7 square feet minimum because a firefighter wearing a self-contained breathing apparatus needs to fit through it while the house is on fire and the hallway is gone.</p>
+
+			<h2>One Company Figured Out the Boundary</h2>
+
+			<p><a href="https://www.spacial.ai/" target="_blank">Spacial</a>, an AI compliance startup, keeps licensed engineers embedded in every workflow. Its CEO explained the reasoning with unusual directness for someone running an AI company: "In construction, it's not enough to be 'mostly right.' If a plan fails code or constructability checks, it's the builder and architect who pay the price. Cities don't want AI output. They require professional validation and plans to be stamped."</p>
+
+			<p>Every compliance check in Spacial's system is linked to the specific code rule it derives from. The AI proposes; a licensed engineer verifies; the customer receives a stamped, reviewed result. This is the opposite of the consumer-facing tools that encourage homeowners to submit AI output directly to building departments.</p>
+
+			<p>On the municipal side, <a href="https://www.civicplus.com/" target="_blank">CivicPlus partnered with CodeComply.AI</a> to bring AI-powered plan review to local governments, checking submitted plans against IBC, IRC, ADA, FHA, and NFPA standards. Even their system carries a disclaimer that would chill any homeowner who reads it carefully: "Automated compliance checks are informational and do not replace professional review or constitute legal advice. Final compliance determinations remain the responsibility of qualified reviewers." The AI that reviews your plan for the city does not trust itself to make the final call. Neither should you trust the AI that drew it.</p>
+
+			<h2>Where AI Design Tools Genuinely Help</h2>
+
+			<p>None of this means the tools are worthless. Far from it. Generating ten layout variations in under a minute is genuinely useful during the earliest phase of a project, when a homeowner is trying to understand whether a three-bedroom or four-bedroom configuration works better on a particular lot, or whether the living spaces should face south for passive solar gain or west for the view of the hills that sold them on the property in the first place. Arriving at your architect's first meeting with an AI-generated layout that says "this is the direction we want" can shorten the discovery phase by one or two paid sessions, saving $500 to $1,500 in billable hours. That is real value.</p>
+
+			<p>But real value and the marketing claim are different things. No consumer AI floor plan generator produces construction documents or structural calculations. None verify compliance against local code amendments. They produce a sketch with dimensions, useful as input to a professional and dangerous as a substitute for one.</p>
+
+			<h2>What This Means for the Person Writing the Check</h2>
+
+			<p>If you are building a home and considering an AI floor plan generator, use it the way you would use a sketch on a napkin: as a starting point for a conversation with someone who carries professional liability insurance and a stamp. Export the layout as a PDF and show it to your architect. Say "this is roughly what I want." Then let the architect do the work that the AI cannot, which is the work of making the building legal, safe, and buildable in the specific jurisdiction where you intend to live.</p>
+
+			<p>Do not submit AI-generated plans to your building department. Do not assume that a dimensioned floor plan is a construction document, because those are two different objects with different purposes, different legal standing, and different consequences when they are wrong. Do not calculate your savings by comparing the AI subscription cost to the architect's fee without including resubmission fees, correction costs, professional remediation, and the months of construction financing that accumulate silently while the plan sits in the correction queue and your lot sits empty and the interest clock never stops. Include those costs and you will find that the AI is not cheaper.</p>
+
+			<p>Architecture is not a layout problem; it is a compliance problem, a structural problem, an environmental performance problem, and a human safety problem that happens to express itself through lines on paper. AI has learned to draw the lines, but it has not learned what they mean.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>No published study tracks AI-generated residential floor plan pass rates at municipal plan check. The cost calculation uses ranges rather than definitive figures because plan check fees, architectural fees, and construction financing rates vary dramatically by jurisdiction and project scope. Maket.ai's Trustpilot rating is based on only seven reviews, which is too small a sample for statistical reliability. The academic studies evaluated research-grade AI models, not the exact commercial tools homeowners encounter in app stores. The 30,000-jurisdiction figure for local code amendments is widely cited in building code literature but the precise count of substantive amendments to the IRC has not been independently audited. Carry-cost calculations assume a conventional construction loan; owner-financed or cash projects would not incur this specific penalty for delay.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
