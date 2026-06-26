@@ -626,3 +626,20 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: local relationships, politics, neighbor objections can't be algorithmed — AI pre-qualifies, humans close
 - Journalist: Frank DeLuca (project management/operations beat)
 - **Published:** "D.R. Horton Scanned 183,000 Parcels With AI. Your Land Guy Drove Past 12 Last Week." (Frank DeLuca)
+
+
+### 62. 🟢 AI Construction Language Barrier & Real-Time Translation for Jobsite Safety
+- Hispanic workers: 34% of U.S. construction workforce (up from 16.5% in 2000), CPWR Dec 2024
+- Hispanic construction fatalities: 197 (2011) → 408 (2022), a 107% increase; non-Hispanic rose only 16.5%
+- Foreign-born Hispanic/Latino workers = 27% of all construction deaths in 2021 (BLS CFOI 2024)
+- No OSHA requirement for English — employers must train "in a manner that employees are able to understand" (OSHA 2010 interpretation letter)
+- Ruttenberg et al. 2018 (J. Safety Research): smaller firms significantly less likely to employ bilingual supervisors (p < .001), fewer safety training hours for non-native workers
+- NASP 2025 survey (n=500, 85% Hispanic): only ~50% of injured Hispanic workers reported injuries; >50% reported being "ignored or not taken seriously" by foreman
+- "Nod of politeness" issue: workers nod agreement without comprehension
+- Benetics (Munich/Detroit): AI voice assistant, 30+ languages, $25–39/user/month, OpenAI-powered, works in noisy environments
+- Weavix Walt Smart Radio: ruggedized radio with AI translation, 20+ languages, speech-to-text documentation
+- Cost calculation: $39/user/month × 12 × 10-person crew = $4,680/yr vs $161,323 OSHA willful violation or $1.2M+ wrongful death settlement
+- ~730,000 construction workers nationally with limited English proficiency (CPWR 34% × Census ACS 27% LEP rate)
+- Counterargument: translation tools don't fix the trust gap — NASP data shows only 50% report injuries regardless of language comprehension
+- **Published:** "One in Three Workers Speaks Spanish. The Safety Briefing Was in English. The AI Translator Costs Less Than the Funeral." (Marcus Washington)
+- Journalist: Marcus "Steel" Washington (workforce & labor beat)
