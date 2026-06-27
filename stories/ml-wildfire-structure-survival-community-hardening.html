@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>An Algorithm Predicted Which Homes Would Survive the Fire. The Biggest Factor Wasn't Your Roof. &mdash; AI Home Building</title>
+	<meta name="description" content="A UC Berkeley machine learning model predicts structure survivability in wildfire with 82% accuracy. The most important variable isn't home hardening. It's the distance to your neighbor's house.">
+	<meta property="og:title" content="An Algorithm Predicted Which Homes Would Survive the Fire. The Biggest Factor Wasn't Your Roof.">
+	<meta property="og:description" content="A UC Berkeley machine learning model predicts structure survivability in wildfire with 82% accuracy. The most important variable isn't home hardening. It's the distance to your neighbor's house.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="../images/ml-wildfire-structure-survival-community-hardening.jpg?v=1512c172">
+	<meta property="article:author" content="Catherine Chen">
+	<meta property="article:published_time" content="2026-06-26">
+	<link rel="stylesheet" href="../story.css">
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "NewsArticle",
+		"headline": "An Algorithm Predicted Which Homes Would Survive the Fire. The Biggest Factor Wasn't Your Roof.",
+		"author": {"@type": "Person", "name": "Catherine Chen"},
+		"datePublished": "2026-06-26",
+		"image": "../images/ml-wildfire-structure-survival-community-hardening.jpg?v=1512c172",
+		"publisher": {"@type": "Organization", "name": "AI Home Building"}
+	}
+	</script>
+</head>
+<body>
+<article class="story-page">
+<div class="story-body">
+
+<p class="story-meta">
+	<span class="journalist-name">Catherine Chen</span> ·
+	<time datetime="2026-06-26">June 26, 2026</time>
+</p>
+
+<h1>An Algorithm Predicted Which Homes Would Survive the Fire. The Biggest Factor Wasn't Your Roof.</h1>
+
+<img src="../images/ml-wildfire-structure-survival-community-hardening.jpg?v=1512c172" alt="Aerial view of a California WUI neighborhood showing structure spacing between homes after wildfire, with some structures destroyed and others surviving based on proximity and defensible space" class="story-hero" loading="eager">
+
+<p>Michael Gollner's research team at UC Berkeley fed five California wildfires into an XGBoost classifier and asked a question that sounds simple until you try to answer it with data: which structures survive, and why?</p>
+
+<p>They analyzed the 2017 Tubbs fire, the 2017 Thomas fire, the 2018 Camp fire that obliterated Paradise, the 2019 Kincade fire, and the 2020 Glass fire, pulling together on-the-ground post-fire inspection data for thousands of structures alongside satellite imagery and fire reconstruction modeling to create the kind of dataset that didn't exist before someone was willing to walk through the ashes with a clipboard. Published in <a href="https://doi.org/10.1038/s41467-025-63386-2">Nature Communications</a> in 2025, their machine learning model predicted which buildings survived with 82% accuracy.</p>
+
+<p>What should rewrite California building policy is what the model ranked first: the single most influential variable wasn't whether the homeowner had installed ember-resistant vents, or upgraded to a Class A roof, or specified tempered windows and fiber-cement siding for their contractor. It was the distance between structures.</p>
+
+<p>Your house to your neighbor's house, measured in feet. That mattered more than everything you did to your own property.</p>
+
+<h2>What the Model Found</h2>
+
+<p>Fire exposure, ignition resistance, and defensible space all mattered, but they mattered <em>in combination</em>, and they mattered less than geometry. A hardened home flanked by two unhardened homes 8 feet away faced worse odds than an unhardened home sitting 30 feet from its nearest neighbor, which is the kind of finding that demolishes the intuition behind California's individual-compliance approach. When the researchers modeled a hypothetical scenario where every structure in a fire's path had both hardened construction and full defensible space, structure losses dropped 52%, a meaningful reduction that still leaves nearly half the structures lost because fire doesn't recognize property lines and doesn't stop at fences. Embers land on a neighbor's woodpile, radiant heat crosses the property boundary in milliseconds, and vinyl siding on the house next door becomes a fuel source for yours regardless of what you've bolted onto your own eaves.</p>
+
+<h2>California's Code Addresses the Second-Most-Important Variable</h2>
+
+<p>California's Wildland-Urban Interface Code, Chapter 7A, is the state's primary tool for protecting homes from wildfire, and it mandates the individual measures you'd expect: Class A fire-rated roofs, ember-resistant vents, fire-resistant exterior walls, tempered windows, and a 0-5 foot noncombustible zone around the structure. For a 1,750-square-foot home with an estimated total construction cost of $500,000, compliance adds approximately <a href="https://ibhs.org/wp-content/uploads/2025/10/IBHS-Headwaters-Wildfire-Construction-Costs-CA-2025.pdf">$13,000</a>, according to a 2025 IBHS/Headwaters Economics analysis, which works out to roughly $50 per month on a 30-year mortgage.</p>
+
+<p>Reasonable, defensible, and evidence-based as far as individual-structure hardening goes.</p>
+
+<p>But the code says nothing about the variable that the Berkeley model ranked first. Chapter 7A tells you what to do with <em>your</em> roof, <em>your</em> vents, <em>your</em> siding, and it does so at the granularity of a single parcel because that's how building codes work, addressing the structure on the permit application and not the neighborhood geometry that determines whether that structure survives an ember storm. Setback requirements in local zoning govern new construction, but they weren't designed for wildfire mitigation, and they don't apply retroactively to the millions of homes already built at densities that the Berkeley model identifies as high-risk.</p>
+
+<p>Governor Newsom's January 2025 executive order pushed Zone 0 implementation forward and expanded Fire Hazard Severity Zone maps by 1.4 million acres. Both are necessary. Neither addresses the spacing problem.</p>
+
+<h2>New Developments Can Build for Survivability</h2>
+
+<p>KB Home is constructing what it calls the country's first wildfire-resilient neighborhoods near Sacramento and in Escondido, developments that meet the IBHS Wildfire Prepared Neighborhood standard with noncombustible gutters, Class A concrete tile roofs, ember-resistant vents, six inches of vertical noncombustible clearance at wall bases, noncombustible fencing, and 5-to-30-foot defensible zones planted exclusively with drought-resistant California natives. Most critically, the IBHS neighborhood standard requires a minimum of 10 feet between buildings and the elimination of "connective fuel pathways" between structures, which means no continuous fence line of cedar pickets acting as a fuse from one property to the next.</p>
+
+<p>"Structure separation is the biggest indicator of wildfire progress," IBHS's Roy Wright told <a href="https://www.fastcompany.com/91268841/in-california-developers-are-building-the-countrys-first-wildfire-resilient-neighborhoods">Fast Company</a>, and his framing tracks exactly with what the Berkeley ML model found when it ranked feature importance across five fires and thousands of structures.</p>
+
+<p>Homes in these developments start around $700,000 near Sacramento and above $1 million in Escondido, and they will survive fires at rates the Berkeley model would predict as substantially better than average, which is genuinely good news for buyers who can afford them. It is less useful news for the 11,519 single-family homes destroyed or severely damaged in the Eaton and Palisades fires this January, 57.6% of which were already in neighborhoods where Chapter 7A applies. Those homes had the code. What they didn't have was the spacing.</p>
+
+<h2>Insurance Discounts That Insult the Investment</h2>
+
+<p>California's "Safer from Wildfires" initiative requires insurers to offer discounts for home hardening, which in theory creates a financial incentive for individual mitigation but in practice produces numbers so anemic they'd be funny if the context weren't homes burning down. AAA Insurance, one of the 13 participating companies covering about 40% of the market, itemizes its discounts with the specificity of a tax form: 0.5% off your premium for a Class A roof, another 0.5% for ember-resistant vents, half a percent for enclosed eaves, half a percent for each of ten possible measures, with a maximum individual discount of 5% if you hit every single criterion and earn an IBHS designation on top.</p>
+
+<p>On a $3,000 annual premium, that is $150 per year, and you spent $13,000 hardening your home, which puts break-even at 87 years assuming the discount survives the next rate filing. An IBHS Wildfire Prepared Home Plus designation earns an additional 2%, or $60 per year on that same premium. As financial incentives go, these numbers exist primarily so the California Department of Insurance can reference them in press releases rather than in any form that would change a cost-conscious homeowner's behavior.</p>
+
+<p>What actually moves the market is darker and more effective: major California insurers have begun committing to <em>write policies at all</em> for homes with IBHS Wildfire Prepared Home designations, and in a market where carriers are fleeing fire-prone areas entirely, the prize isn't a discount on the premium you're already paying but the ability to get coverage without being forced onto the FAIR Plan, California's insurer of last resort, which offers less coverage at higher rates and carries the stigma of a market that has decided your address is too dangerous to insure voluntarily. Commissioner Ricardo Lara has been explicit: "Building back safer yields significant insurance benefits," where "benefits" means that insurance exists for your address at all, period, full stop.</p>
+
+<h2>What This Means If You're Building or Buying</h2>
+
+<p>For new construction in a Fire Hazard Severity Zone, the calculus is simple enough: $13,000 for Chapter 7A compliance is mandatory, and spending the additional $2,000 to reach IBHS Wildfire Prepared Home Plus is cheap insurance against nonrenewal, the kind of decision where the math is so obvious that not doing it would require a deliberate choice to gamble. Ask your builder whether the development meets IBHS's neighborhood-level standard, because if they don't know what you're talking about, you've learned something important about how they think about the variable that the ML model puts ahead of every individual hardening measure in its feature importance rankings.</p>
+
+<p>For existing homes, individual hardening is the only tool available, and it remains worth doing even though the Berkeley model shows it's the second-most-important factor rather than the first. Berkeley's researchers found that hardening combined with defensible space delivers a 52% reduction in losses when applied universally across a fire's path, and a 2021 study by property-risk analytics company Zesty.AI and IBHS found that maintaining just Zone 0, the 0-5 foot ember-resistant zone immediately around the structure, nearly doubles a property's survival rate. Basic Zone 0 work costs almost nothing: clearing combustibles within five feet of the structure is a weekend project, not a construction contract. Replacing combustible fencing and adding ember-resistant vents might run $2,000-$5,000, which is real money but not the kind that should stop anyone who's looked at what their insurer has been doing with renewal notices.</p>
+
+<p>But here's the policy reality the ML model makes unavoidable: your $13,000 retrofit is partially contingent on your neighbor's $13,000 retrofit, because when structure spacing is fixed by existing lot geometry, reducing the fire risk embedded in that spacing requires both parcels to harden simultaneously. Community hardening programs like Firewise USA exist precisely to solve this coordination problem, and they happen to earn the largest insurance discount available at 5% from AAA, making them arguably the most important variable that the building code doesn't mandate.</p>
+
+<h2>Limitations</h2>
+
+<p>Five fires, one state, one set of terrain and vegetation conditions. California's WUI involves steep terrain, dense chaparral, and Diablo and Santa Ana winds that launch embers a mile ahead of the flame front, and feature importance rankings from this model might shift meaningfully in Colorado's grassland WUI or in East Texas pine-scrub interface where wind patterns and fuel loads differ enough to change what the algorithm prioritizes. An 82% accuracy rate is strong for a deployment-ready classifier, but the 18% of structures it misclassifies represent families whose homes either burned despite the model predicting survival or survived despite the model predicting loss, and for anyone on the wrong side of that error, accuracy statistics are cold comfort.</p>
+
+<p>Retrofit cost data also remains patchy in a way that matters for policy. A $2,000 retrofit buys basic ember defense. Replacing an entire roof, re-siding a house, and upgrading all windows could run $30,000-$80,000 depending on the home's size, age, and existing materials, which moves the break-even calculation from aspirational to delusional under current insurance discount structures that offer $150 per year against a five-figure investment.</p>
+
+<p>Eighty-two percent accuracy, fifty-two percent loss reduction, fifty dollars a month added to a mortgage for new construction. These are real numbers with real methodology behind them, published in a peer-reviewed journal by researchers who walked through burned neighborhoods with clipboards and trained a model on what they found. Whether those numbers add up to a policy response proportional to 11,519 destroyed homes is a question California has been answering by committee since 2007, when Chapter 7A first took effect and set the precedent that wildfire mitigation is an individual obligation addressed one building permit at a time. An algorithm trained on five fires' worth of wreckage has weighed in, and its biggest variable is the one the code doesn't touch.</p>
+
+</div>
+</article>
+</body>
+</html>
