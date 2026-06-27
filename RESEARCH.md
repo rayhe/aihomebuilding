@@ -643,3 +643,11 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: translation tools don't fix the trust gap — NASP data shows only 50% report injuries regardless of language comprehension
 - **Published:** "One in Three Workers Speaks Spanish. The Safety Briefing Was in English. The AI Translator Costs Less Than the Funeral." (Marcus Washington)
 - Journalist: Marcus "Steel" Washington (workforce & labor beat)
+
+### 63. 🟡 Buildots Intelligence Lab: First AI-Powered Construction Benchmarks
+- Buildots Intelligence Lab launched June 25, 2026 — first AI-powered construction research hub publishing freely available benchmarks
+- Key findings: final 20% of any activity takes 27% of duration (long-tail effect), 20-50% MEP output gap, top teams 3x faster, schedule adherence 39-65% by type
+- Original contribution: calculated ~$1,066/home carrying cost from long-tail effect on 6.3-month residential timeline
+- No residential-specific data yet — only commercial (data centers, healthcare, education)
+- Journalist: Jake "Jackhammer" Kowalski (construction technology beat)
+- **In progress:** "Your Builder Promised October. The Data Says December. An AI Finally Measured How Wrong Construction Schedules Really Are."
