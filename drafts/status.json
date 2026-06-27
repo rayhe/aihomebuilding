@@ -1,36 +1,10 @@
 {
-  "current": {
-    "slug": "concrete-strength-sensor-schedule-compression",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
-    "started": "2026-06-26T22:02:00-07:00",
-    "article_number": 408,
-    "headline_draft": "Your Concrete Hit Design Strength on Tuesday. You Stripped the Forms on Friday. A $150 Sensor Knew the Whole Time.",
-    "critique": {
-      "round": 1,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
-      "average": 8.9,
-      "hard_gates": {
-        "em_dashes": {"count": 0, "limit": 3, "passed": true},
-        "the_starters": {"percent": 1.2, "limit": 15, "passed": true},
-        "banned_phrases": {"count": 0, "passed": true},
-        "sentence_rhythm": {"variance": 271.3, "short_pct": 13.8, "long_pct": 61.7, "passed": true}
-      }
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 407,
-    "headline": "An Algorithm Predicted Which Homes Would Survive the Fire. The Biggest Factor Wasn't Your Roof.",
-    "journalist": "Catherine Chen",
-    "published": "2026-06-26",
-    "slug": "ml-wildfire-structure-survival-community-hardening"
+    "article_number": 408,
+    "headline": "Your Concrete Hit Design Strength on Tuesday. You Stripped the Forms on Friday. A $150 Sensor Knew the Whole Time.",
+    "journalist": "Frank DeLuca",
+    "published": "2026-06-27",
+    "slug": "concrete-strength-sensor-schedule-compression"
   }
 }
