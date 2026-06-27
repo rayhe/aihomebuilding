@@ -651,3 +651,13 @@ When you discover a new topic worth covering, add it here with:
 - No residential-specific data yet — only commercial (data centers, healthcare, education)
 - Journalist: Jake "Jackhammer" Kowalski (construction technology beat)
 - **In progress:** "Your Builder Promised October. The Data Says December. An AI Finally Measured How Wrong Construction Schedules Really Are."
+
+### 64. 🟡 AI Home Inspection Software: Three Tools Ship, Zero Liability Frameworks Follow
+- Spectora (Denver): AI Report Assist — voice+photo→template matching, 25% time savings, 10,000+ inspectors. AI Scheduling Agent. MCP/API.
+- Palmtech 11: AI Image Defect Detector — scans photos for cracks, moisture. AI does visual analysis inspector may skip.
+- Alpine Intelligence (Colorado): Free ChatGPT-powered predictive forecaster — MLS data + permit history → predicted defects by home age/location.
+- $4.94B global home inspection market (2025), $333 median US cost, 18% flag safety issues, 18% inspectors sued/threatened.
+- Liability gap: no state licensing framework mentions AI; E&O coverage ambiguous; CFPB addressed AVMs but not inspections.
+- Original contribution: economic pressure calculation ($17,300/yr additional revenue), three unresolved liability scenarios.
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **In progress:** "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet."
