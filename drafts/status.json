@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "concrete-strength-sensor-formwork-stripping",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-06-29T02:01:52-07:00",
+    "article_number": 420,
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 9.2,
+      "social_shareability": 8.6,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.8,
+      "data_presentation": 9.0,
+      "aggregate": 8.91
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 8.5,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS (variance 201.2, short 11.3%, long 52.2%)"
+    },
+    "hero_image": "images/concrete-strength-sensor-formwork-stripping.jpg",
+    "hero_hash": "40b6f2af",
+    "ship_blocked": "1/day limit — 3 articles already published 2026-06-29"
+  },
   "last_completed": {
     "article_number": 419,
     "headline": "14 Hours a Week. That's How Long Your Project Team Spends Looking for Information It Already Wrote Down.",
