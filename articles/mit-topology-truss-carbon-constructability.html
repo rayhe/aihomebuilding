@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An Algorithm Cut a Bridge Truss's Carbon 29%. Your Roof Uses a Pattern Nobody Has Optimized in 62 Years. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/mit-topology-truss-carbon-constructability.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An Algorithm Cut a Bridge Truss's Carbon 29%. Your Roof Uses a Pattern Nobody Has Optimized in 62 Years.",
+		"description": "MIT researchers built a framework that designs trusses with up to 29% less embodied carbon while keeping them buildable. Applied to US residential roof trusses, it could save nearly a billion dollars in lumber annually. The truss industry has not returned the call.",
+		"image": "https://aihomebuilding.com/images/mit-topology-truss-carbon-constructability.jpg?v=c9acfe68",
+		"datePublished": "2026-06-28",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/mit-topology-truss-carbon-constructability.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An Algorithm Cut a Bridge Truss's Carbon 29%. Your Roof Uses a Pattern Nobody Has Optimized in 62 Years.">
+	<meta property="og:description" content="MIT made topology optimization buildable. The US truss industry stamps out a billion board feet of the same patterns and doesn't care.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/mit-topology-truss-carbon-constructability.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/mit-topology-truss-carbon-constructability.jpg?v=c9acfe68">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An Algorithm Cut a Bridge Truss's Carbon 29%. Your Roof Uses a Pattern Nobody Has Optimized in 62 Years.">
+	<meta name="twitter:description" content="MIT made topology optimization buildable. The truss industry hasn't noticed.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/mit-topology-truss-carbon-constructability.jpg?v=c9acfe68">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/mit-topology-truss-carbon-constructability.jpg?v=c9acfe68" alt="Residential roof trusses under construction with algorithmically optimized web patterns">
+		<div class="overlay">
+			<span class="badge">Sustainability</span>
+			<h1>An Algorithm Cut a Bridge Truss's Carbon 29%. Your Roof Uses a Pattern Nobody Has Optimized in 62 Years.</h1>
+			<div class="meta">By Catherine Chen · June 28, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Zane Schemmer has a question that should bother every truss manufacturer in America: "Why isn't industry using it?" He asked this while developing a framework at MIT that designs trusses with up to 29% less embodied carbon than conventional approaches, and the answer, once you look at how residential trusses actually get designed and built in the real world of jig tables and gang-nail plates and crews who need to stamp out 200 units before the truck arrives at noon, is both obvious and infuriating.</p>
+
+			<p>Schemmer and his advisor, Josephine Carstensen, published their framework in <a href="https://doi.org/10.1016/j.autcon.2026.107085" target="_blank"><em>Automation in Construction</em></a> on June 24. It solves a problem that has haunted structural optimization for decades: algorithms can design structures that use dramatically less material, but those designs look like spider webs and nobody can actually build them. Carstensen's team cracked this by letting engineers specify constructability constraints alongside the optimization targets, so the algorithm knows from the start how many connections can meet at each joint, what the minimum angle between members must be, how small the smallest parts are allowed to get, and which materials are available for which structural roles.</p>
+
+			<p>"You can't have a part that's 72 percent timber and 28 percent steel," Schemmer said. His framework uses mixed-integer linear programming to force binary material decisions for each member while still globally optimizing the whole structure. Every strut gets assigned one material. Not a blend.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">29%</div>
+				<div class="label">carbon reduction in one MIT test case using multi-material topology optimization with constructability constraints (Schemmer &amp; Carstensen, <em>Automation in Construction</em>, 2026)</div>
+			</div>
+
+			<h2>What Topology Optimization Is, and Why It Stayed in the Lab</h2>
+
+			<p>Topology optimization uses computers to find the most efficient way to distribute material inside a structure. Feed it the loads, the boundary conditions, and the available space, and the algorithm strips away every gram of material that isn't carrying its weight, sometimes achieving up to 90% material reduction in ideal cases. The resulting designs are stunning: organic, sculptural, almost biological in their branching efficiency, the kind of thing that makes a structural engineer lean forward in their chair and a framing contractor reach for the exit.</p>
+
+			<p>They are also completely unbuildable. Filaments meeting at 15-degree angles, joints where nine members converge at a single point, members thinner than any beam a contractor could fabricate or transport or connect to anything else on the job site without custom hardware that does not exist in any supplier's catalog. This is why topology optimization has been confined almost entirely to 3D printing, aerospace components, and academic papers for the past thirty years.</p>
+
+			<p>Carstensen's breakthrough is deceptively simple. Let the engineer tell the algorithm what "buildable" means before it starts optimizing, rather than generating an unbuildable masterpiece and hoping someone figures out how to approximate it with real lumber and real bolts.</p>
+
+			<p>"In the literature, there's sometimes been a disconnect between the carbon savings you can achieve on a computer and the realistic carbon savings you can achieve for built structures," Carstensen said. "The problem lies in the lack of constructability of designs. These designs have been perceived as too difficult to make with conventional methods, so they are never even attempted."</p>
+
+			<h2>Your Roof Truss Was Designed by MiTek. Not by Math.</h2>
+
+			<p>Walk into any of the roughly 900 truss fabrication plants in the United States and you will find one of two software packages: <a href="https://www.mitek-us.com/" target="_blank">MiTek Structure</a> or Alpine. Between them, they control the vast majority of residential truss design, and their marketing tells you everything about what the industry optimizes for. MiTek promises "faster and more accurate design" with "drag and drop updates to webs and chord splices." One customer testimonial brags about cutting "more than 70% of our manufacturing process times." These are good things for a fabricator who needs to stamp out 200 trusses before lunch. They are irrelevant to the question of whether those 200 trusses contain more wood than structurally necessary.</p>
+
+			<p>MiTek designs trusses that comply with building codes and fit standard metal connector plates, and it does both of those things well, but it does not ask whether a different web arrangement would use 10% less lumber while meeting the same load requirements, does not consider whether substituting a steel bottom chord for a timber one would cut embodied carbon in a long-span application, and does not perform topology optimization of any kind. The standard Fink truss pattern inside most American residential roofs traces its lineage to Albert Fink's railroad bridges in the 1850s, and the modern version stamped from 2x4 SPF lumber with gang-nail plates dates to the early 1960s. It works. But "it works" and "it's optimal" are not the same claim, and the truss industry has never been forced to confront the difference.</p>
+
+			<h2>The Math Nobody Has Run on Your Roof</h2>
+
+			<p>What would MIT's framework actually save if applied to US residential roof trusses? Nobody has run this calculation, so we did. Here are our assumptions and inputs.</p>
+
+			<p>According to US Census Bureau data, approximately 1.35 million single-family homes started construction in 2025. <a href="https://www.sbcacomponents.com/" target="_blank">SBCA</a> survey data from Home Innovation Research Labs shows 71.8% of those homes use prefabricated roof trusses. That gives us roughly 969,000 homes per year with factory-built roof truss packages. <a href="https://www.thisoldhouse.com/" target="_blank">This Old House</a> estimates a complete truss system for a 2,000-square-foot house averages $7,500 to $12,000 in materials, with a midpoint around $9,750.</p>
+
+			<p>Carstensen's earlier work, published in <em>Engineering Structures</em> in 2021, demonstrated "at least 10%" embodied carbon savings on timber-steel truss optimization, with savings "likely two to three times that." The new framework's 29% figure comes from a specific multi-material bridge case. For an all-timber residential roof truss, a conservative estimate of 10% material savings is defensible based on the published evidence.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Input</th>
+						<th>Value</th>
+						<th>Source</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>SF housing starts (2025)</td>
+						<td>~1.35M</td>
+						<td>US Census Bureau</td>
+					</tr>
+					<tr>
+						<td>Roof truss penetration</td>
+						<td>71.8%</td>
+						<td>SBCA / Home Innovation</td>
+					</tr>
+					<tr>
+						<td>Homes with prefab trusses</td>
+						<td>~969,000</td>
+						<td>Calculated</td>
+					</tr>
+					<tr>
+						<td>Avg truss package (materials)</td>
+						<td>$9,750</td>
+						<td>This Old House (midpoint)</td>
+					</tr>
+					<tr>
+						<td>Conservative material savings</td>
+						<td>10%</td>
+						<td>Carstensen 2021 lower bound</td>
+					</tr>
+					<tr>
+						<td>Per-house lumber savings</td>
+						<td>~$975</td>
+						<td>Calculated</td>
+					</tr>
+					<tr>
+						<td><strong>Annual US lumber savings</strong></td>
+						<td><strong>~$945M</strong></td>
+						<td>Calculated</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>Nine hundred and forty-five million dollars in lumber that gets turned into roof trusses whose web patterns nobody has bothered to optimize since the Fink truss became the industry default more than six decades ago, running through fabrication plants that compete on speed rather than material efficiency. That is a conservative estimate using the lower bound of Carstensen's published savings range; if her "two to three times" multiplier applies to residential spans, the figure pushes toward $2.8 billion annually.</p>
+
+			<h2>Why It Won't Happen</h2>
+
+			<p>The math is real. Here's why the truss industry won't care, and why they might be right not to.</p>
+
+			<p>Break those $945 million in savings across 969,000 homes, and each homeowner saves $975 on their truss package. Break it further across the roughly 25 to 30 trusses in a typical residential roof, and you land at $33 to $39 per truss. A truss fabricator running MiTek Structure processes hundreds of truss designs per week across dozens of house plans, and switching to a topology-optimized design workflow means new software, retrained designers, reconfigured jig tables, unfamiliar web patterns that the crew has never cut or plated before, and a fabrication learning curve that eats into the throughput advantage that is the entire reason the truss plant exists in the first place. All for $35 a truss.</p>
+
+			<p>The fabricator's rational response is to keep running Fink trusses at maximum throughput, and that is not a market failure but a market working exactly as designed, because truss fabricators compete on speed, reliability, and relationships with framers, not on material optimization. Nobody has ever lost a residential framing contract because their trusses used 10% more wood than theoretically necessary.</p>
+
+			<h2>Where It Might Happen First</h2>
+
+			<p>Commercial and multifamily construction is a different calculation entirely. Longer spans mean more material per truss, which amplifies optimization savings proportionally. A 60-foot clear-span truss for a warehouse roof costs $320 to $850 per truss in materials alone; at 10 to 29% savings, that is $32 to $247 per truss on structures that may use hundreds of trusses, and the engineering firms working those projects already use Tekla, RISA, and other analysis packages that could integrate MIT's framework as a design module without disrupting fabrication workflows that are already custom-engineered for each project.</p>
+
+			<p>Mass timber construction is the other obvious entry point. Glulam and CLT projects already involve custom structural engineering for every element. Embodied carbon disclosures are increasingly mandated for commercial projects in jurisdictions like California, New York City, and the EU. When you must report your building's carbon, a framework that demonstrably reduces it by double digits has a business case that residential never will.</p>
+
+			<h2>The Carbon Argument Has a Hole in It</h2>
+
+			<p>Wood complicates the carbon narrative in a way that steel and concrete do not. Timber's embodied carbon intensity runs roughly 119 kg CO2e per square meter of framing, compared to 185 for concrete and 228 for steel, according to a meta-analysis by Hart et al. cited across multiple peer-reviewed studies. But timber also sequesters atmospheric carbon during growth, locking it into the structure for the building's entire lifespan, which means a responsibly sourced 2x4 is, in carbon accounting terms, a small carbon sink sitting inside your wall. Optimizing a roof to use less wood means less carbon emitted during manufacturing but also less carbon stored in the structure, and the net effect depends on the accounting methodology you adopt.</p>
+
+			<p>Reasonable people disagree sharply on which methodology is correct, and Carstensen's framework does not resolve that debate. It minimizes embodied carbon from material production. If you believe stored biogenic carbon should offset that figure, the savings shrink. If you believe biogenic carbon accounting is speculative because most demolished buildings end up in landfills rather than careful wood preservation programs, the savings stand at full value.</p>
+
+			<h2>What This Means If You Are Building a House</h2>
+
+			<p>Not today. No residential truss manufacturer in the United States offers topology-optimized designs, and MiTek and Alpine have not announced any integration of constructability-constrained optimization into their software. Schemmer and Carstensen plan to build scaled-down physical prototypes to validate their computational predictions, but they have not announced an industry partnership to test the framework on production trusses at a real fabrication plant.</p>
+
+			<p>If you are an architect or structural engineer working on a commercial mass timber project, watch this space. The framework ran on a MacBook Pro, which means it is not computationally exotic, and the mixed-integer linear programming approach uses well-understood optimization methods that are increasingly accessible through open-source solvers like CBC and SCIP. If Carstensen's lab publishes the code or licenses it to a structural analysis software vendor, the gap between publication and practice could close fast in commercial applications where the per-unit savings justify the workflow change.</p>
+
+			<p>If you are a residential builder interested in reducing embodied carbon, the lower-hanging fruit remains concrete, which accounts for <a href="https://www.jlconline.com/" target="_blank">39% of a home's total embodied carbon emissions</a> according to a 2025 JLC study. Switching to a lower-GWP concrete mix cuts that by up to 46% with no structural compromise, requires nothing more than a phone call to your ready-mix supplier, and delivers a larger absolute carbon savings than any roof truss optimization ever could.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>We applied MIT's timber-steel bridge truss results to residential all-wood trusses. Nobody has validated this extrapolation. Residential roof trusses at 20- to 40-foot spans are structurally simpler than the Lockport Bridge example in Carstensen's paper, and the optimization gains may be smaller at shorter spans where fewer alternative topologies exist.</p>
+
+			<p>Our 10% material savings figure uses the lower bound of Carstensen's own published range. If the real number for residential applications is 5%, the annual savings drop to $473 million. If it is 20%, they rise to $1.89 billion. We do not know, and nobody else does either, because no residential truss manufacturer has tested the framework.</p>
+
+			<p>We used lumber material cost as a proxy for material volume savings, which is imperfect. A topology-optimized truss might use longer individual members with fewer cuts, or shorter members with more joints. The fabrication cost of a non-standard web pattern could partially or fully offset the lumber savings. We cannot quantify this tradeoff without a pilot production run that does not exist.</p>
+
+			<p>Wood's biogenic carbon sequestration is excluded from our carbon savings calculation. Including it would reduce the net carbon benefit by an amount that varies depending on whether you follow the stored-carbon accounting rules in EN 15978, the GHG Protocol, or the IPCC harvested wood products methodology. We chose to exclude it rather than pick a methodology that predetermines the answer.</p>
+
+		</article>
+	</div>
+
+</body>
+</html>
