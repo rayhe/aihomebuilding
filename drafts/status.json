@@ -1,5 +1,34 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-daily-log-dispute-signals",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "headline": "Your Superintendent Wrote 'Waiting on Engineer' Three Times. Nobody Noticed. The Arbitrator Did. That Cost You $340,000.",
+    "category": "Project Management & Operations",
+    "critique_round": 1,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 9.0,
+      "social_share": 8.7,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.9,
+      "data_presentation": 8.6
+    },
+    "hard_gates": {
+      "em_dashes": 3,
+      "the_starters_pct": 1.1,
+      "banned_phrases": 0,
+      "sentence_rhythm_variance": 211.9,
+      "sentence_rhythm_short_pct": 12.2,
+      "sentence_rhythm_long_pct": 45.9
+    },
+    "ship_blocked": true,
+    "ship_blocked_reason": "Already published #424 and #425 today (June 30)",
+    "journalist": "Frank DeLuca",
+    "started": "2026-06-30T09:05:00Z",
+    "article_number": 426
+  },
   "last_completed": {
     "article_number": 425,
     "slug": "ai-reclaimed-lumber-tariff-economics",
