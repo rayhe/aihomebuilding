@@ -1,37 +1,12 @@
 {
-  "current": {
-    "slug": "denver-permit-ai-59-job-cuts",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Catherine Chen",
-    "headline": "Your Building Permit Has a 30% Chance of Passing on the First Try. Denver Spent $4.6 Million to Fix That. Then It Cut 59 Jobs.",
-    "started": "2026-06-29T22:01:52-07:00",
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 9.2,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 205.1,
-        "short_pct": 13.3,
-        "long_pct": 52.0,
-        "passed": true
-      }
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 422,
-    "headline": "Your Electrician Left for a Data Center. He's Making Twice as Much. Your House Isn't Finished.",
-    "journalist": "Marcus Washington",
-    "published": "2026-06-29",
-    "slug": "big-tech-poaching-your-electrician"
+    "article_number": 423,
+    "slug": "denver-permit-ai-59-job-cuts",
+    "headline": "Your Building Permit Has a 30% Chance of Passing on the First Try. Denver Spent $4.6 Million to Fix That. Then It Cut 59 Jobs.",
+    "journalist": "Catherine Chen",
+    "category": "Policy & Regulation",
+    "published_date": "2026-06-29",
+    "commit": "86bac96"
   }
 }
