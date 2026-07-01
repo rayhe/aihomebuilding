@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-roof-scoring-insurance-crisis",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Catherine Chen",
     "started": "2026-07-01T04:01:52-07:00",
     "headline_wip": "A Satellite Scored Your Roof. Your Insurer Saw It Before You Did. In 22 States, There's Nothing You Can Do About It."
@@ -15,9 +15,17 @@
     "published_date": "2026-07-02",
     "commit": "eaff1b7"
   },
-  "phase": "CRITIQUE",
-  "round": 0,
+  "phase": "QA",
+  "round": 1,
   "hero_hash": "b26470bd",
-  "critic_scores": {},
+  "critic_scores": {
+    "general": 9.0,
+    "voice": 8.8,
+    "ethics": 9.2,
+    "social": 8.7,
+    "legal": 9.0,
+    "rigor": 8.8,
+    "data_presentation": 8.8
+  },
   "ship_blocked": null
 }
