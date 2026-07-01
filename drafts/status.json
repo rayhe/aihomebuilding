@@ -1,33 +1,23 @@
 {
   "current": {
+    "slug": "ai-roof-scoring-insurance-crisis",
+    "phase": "CRITIQUE",
+    "journalist": "Catherine Chen",
+    "started": "2026-07-01T04:01:52-07:00",
+    "headline_wip": "A Satellite Scored Your Roof. Your Insurer Saw It Before You Did. In 22 States, There's Nothing You Can Do About It."
+  },
+  "last_completed": {
+    "article_number": 429,
     "slug": "trades-knowledge-extinction-ai-training-gap",
     "headline": "For Every Five Workers Who Retire, Two Walk In. Nobody Recorded What the First Five Knew.",
     "journalist": "Marcus Washington",
     "category": "Workforce & Labor",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-07-01T09:02:00Z"
+    "published_date": "2026-07-02",
+    "commit": "eaff1b7"
   },
-  "last_completed": {
-    "article_number": 428,
-    "slug": "ai-inspection-licensing-gap",
-    "headline": "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet.",
-    "journalist": "Catherine Chen",
-    "category": "Policy & Regulation",
-    "published_date": "2026-07-01",
-    "commit": "17b8174"
-  },
-  "phase": "SHIP",
+  "phase": "CRITIQUE",
   "round": 0,
-  "hero_hash": "8b87c357",
-  "critic_scores": {
-    "general": 9.0,
-    "voice": 8.8,
-    "ethics": 9.2,
-    "social": 9.0,
-    "legal": 9.0,
-    "rigor": 8.7,
-    "data_presentation": 9.0
-  },
-  "ship_blocked": "publish_limit_429_ready_for_2026-07-02"
+  "hero_hash": "b26470bd",
+  "critic_scores": {},
+  "ship_blocked": null
 }
