@@ -4,40 +4,18 @@
     "headline": "Your Home Emitted 55 Tons of CO\u2082 Before Anyone Turned On a Light. California Just Started Counting.",
     "journalist": "Priya Greenwood",
     "category": "Sustainability & Green Building",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "started": "2026-07-01T19:01:52Z",
-    "scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 8.4,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 332.0,
-        "short_pct": 12.5,
-        "long_pct": 61.3,
-        "passed": true
-      }
-    },
-    "ship_blocked": "2026-07-01: 2 articles already published today (#430, #431)"
+    "article_number": 432
   },
   "last_completed": {
     "article_number": 431,
     "slug": "autonomous-earthmoving-residential",
-    "headline": "Your Excavator Operator Charges $150 an Hour. In Phoenix, the Same Machine Runs Itself. It Doesn't Take Breaks.",
+    "headline": "Your Excavator Operator Charges $150 an Hour. In Phoenix, the Same Machine Runs Itself. It Doesn\u2019t Take Breaks.",
     "journalist": "Jake Kowalski",
     "category": "Construction Technology",
     "published_date": "2026-07-01",
     "commit": "0ceea50"
-  },
-  "phase": "SHIP",
-  "round": 1
+  }
 }
