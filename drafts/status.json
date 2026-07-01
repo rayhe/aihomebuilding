@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "autonomous-earthmoving-residential",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-07-01T15:02:00Z"
+  },
   "last_completed": {
     "article_number": 430,
     "slug": "ai-roof-scoring-insurance-crisis",
@@ -9,17 +14,6 @@
     "published_date": "2026-07-01",
     "commit": "04c42d1"
   },
-  "phase": "COMPLETE",
-  "round": 1,
-  "hero_hash": "b26470bd",
-  "critic_scores": {
-    "general": 9.0,
-    "voice": 8.8,
-    "ethics": 9.2,
-    "social": 8.7,
-    "legal": 9.0,
-    "rigor": 8.8,
-    "data_presentation": 8.8
-  },
-  "ship_blocked": null
+  "phase": "SHIP",
+  "round": 0
 }
