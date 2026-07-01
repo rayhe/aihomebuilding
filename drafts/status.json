@@ -1,5 +1,24 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-inspection-licensing-gap",
+    "phase": "SHIP",
+    "ship_blocked": true,
+    "ship_blocked_reason": "Article #427 published 2026-07-01 UTC; 1/day limit",
+    "round": 1,
+    "journalist": "Catherine Chen",
+    "category": "Policy & Regulation",
+    "headline": "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet.",
+    "started": "2026-07-01T01:01:52Z",
+    "article_number": 428,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0
+    }
+  },
   "last_completed": {
     "article_number": 427,
     "slug": "smart-wrench-fastener-verification-gap",
