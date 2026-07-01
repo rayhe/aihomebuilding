@@ -1,29 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 428,
     "slug": "ai-inspection-licensing-gap",
-    "phase": "QA",
-    "round": 1,
+    "headline": "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet.",
     "journalist": "Catherine Chen",
     "category": "Policy & Regulation",
-    "headline": "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet.",
-    "started": "2026-07-01T01:01:52Z",
-    "article_number": 428,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0
-    }
-  },
-  "last_completed": {
-    "article_number": 427,
-    "slug": "smart-wrench-fastener-verification-gap",
-    "headline": "Your House Has 174,000 Nails. Nobody Verified a Single One. A $600 Smart Wrench Already Does This for Data Centers.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
     "published_date": "2026-07-01",
-    "commit": "80217b4"
+    "commit": "17b8174"
   }
 }
