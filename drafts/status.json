@@ -1,35 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 436,
     "slug": "apprentice-shadow-ai-code-compliance",
     "headline": "Your Apprentice Already Asked ChatGPT About That Wire. It Was Wrong 60% of the Time.",
     "journalist": "Marcus Washington",
     "category": "Workforce & Labor",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-02T07:01:52Z",
-    "critics": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 10.5,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS"
-    }
-  },
-  "last_completed": {
-    "article_number": 435,
-    "slug": "ai-acoustic-prediction-residential-code-gap",
-    "headline": "Your Builder Spec'd the Walls for Fire, Wind, and Energy. Nobody Checked Whether You'd Hear the Toilet Flush.",
-    "journalist": "Catherine Chen",
-    "category": "Policy & Regulation",
     "published_date": "2026-07-02",
-    "commit": "43a737a"
+    "commit": "4f43c9c"
   }
 }
