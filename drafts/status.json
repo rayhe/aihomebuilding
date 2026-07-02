@@ -1,19 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 434,
     "slug": "ai-floor-plan-invisible-geometry",
-    "phase": "QA",
+    "headline": "A Million People Used AI to Design Their Floor Plans. The Rooms Met Code. Nobody Wanted to Sit in Them.",
     "journalist": "Elena Vasquez",
     "category": "Architecture & Design",
-    "started": "2026-07-02T03:01:00Z",
-    "round": 0
-  },
-  "last_completed": {
-    "article_number": 433,
-    "slug": "ai-construction-draw-review",
-    "headline": "Your Third Draw Request Sat in a Queue for Nine Days. Your Framer Left for Another Job. An AI Would Have Processed It in Three Minutes.",
-    "journalist": "Frank DeLuca",
-    "category": "Project Management & Operations",
-    "published_date": "2026-07-02",
-    "commit": "814181c"
+    "published_date": "2026-07-01",
+    "commit": "a4e7898"
   }
 }
