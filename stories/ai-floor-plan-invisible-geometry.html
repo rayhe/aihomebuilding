@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Million People Used AI to Design Their Floor Plans. The Rooms Met Code. Nobody Wanted to Sit in Them. — AI Home Building</title>
+    <meta name="description" content="AI floor plan generators have crossed one million users. They optimize for dimensions, code clearances, and adjacency. But the qualities that make a home feel right — sightlines, circulation flow, spatial hierarchy — aren't in any tool's constraint set. Zero of five essential flow dimensions are addressed.">
+    <meta property="og:title" content="A Million People Used AI to Design Their Floor Plans. The Rooms Met Code. Nobody Wanted to Sit in Them.">
+    <meta property="og:description" content="AI floor plan tools optimize for what's measurable. The qualities that make a home feel right aren't measurable. That's the problem.">
+    <meta property="og:image" content="../images/ai-floor-plan-invisible-geometry.jpg?v=96b99319">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+    <article>
+        <div class="story-header">
+            <span class="story-category">Architecture & Design</span>
+            <h1>A Million People Used AI to Design Their Floor Plans. The Rooms Met Code. Nobody Wanted to Sit in Them.</h1>
+            <div class="story-meta">
+                <span class="story-author">By Elena Vasquez</span>
+                <span class="story-date">July 1, 2026</span>
+            </div>
+            <img src="../images/ai-floor-plan-invisible-geometry.jpg?v=96b99319" alt="An architectural floor plan drawing on a light table with pencil annotations showing sightlines and circulation paths through a residential layout" class="story-hero">
+        </div>
+        <div class="story-body">
+
+<p>I spent an afternoon with Maket last month, feeding it the parameters for a house I know well. Three bedrooms, two baths, 1,800 square feet, narrow lot. A modest American home, the kind that constitutes the vast majority of residential construction and the vast majority of design problems that nobody writes about because they lack the drama of a cantilevered hillside villa.</p>
+
+<p>Maket returned fourteen layout options in under a minute. Every one satisfied the dimensional constraints, every one placed the kitchen adjacent to the dining room and the master bedroom away from the living spaces, and every one met minimum clearances. I looked at all fourteen and felt nothing.</p>
+
+<p>Not revulsion. Not admiration. Nothing at all. Every room was a rectangle of adequate proportion connected by openings of adequate width positioned at locations of adequate convenience. They were floor plans the way a police composite sketch is a face: technically accurate, dimensionally correct, and utterly devoid of the quality that makes you recognize someone across a crowded room.</p>
+
+<h2>One million users and counting</h2>
+
+<p>Maket, a Montreal-based AI floor plan generator, crossed one million registered users in early 2026, according to an <a href="https://illustrarch.com">illustrarch</a> review published in March. Patrick Murphy, the company's CEO, told the platform that the tool "really does 70 to 75 percent of the work" and that users "save a fair amount of time and money within the process" by arriving at an architect's office with a rough layout already explored. Nor is it alone; TestFit, ArkDesign.ai, Autodesk Forma, Finch3D, Hypar, GetFloorPlan AI, and ARCHITEChTURES all occupy some portion of the AI-assisted layout space, though most target commercial and multifamily rather than single-family residential.</p>
+
+<p>Academic research is accelerating in parallel. A paper accepted to ACL 2026 by Lara, Milios, and colleagues at Mila introduced an LLM fine-tuned with reinforcement learning and verifiable rewards for floor plan generation. Their system achieved a 94% relative reduction in Compatibility error compared to existing methods. A separate effort at UC Berkeley and Tsinghua University produced HouseMind, a multimodal LLM that tokenizes room geometry and generates layouts from text instructions. Both teams acknowledge, with varying degrees of directness, that the problem remains unsolved.</p>
+
+<p>The ACL paper's disclosure section deserves quoting in full: generated floor plans "may fail to satisfy building codes, accessibility requirements, structural constraints, or domain-specific best practices, even when they satisfy the limited constraints we verify." Outputs, the authors write, "could negatively affect occupants' quality of life" and "contribute to unsafe designs, construction errors, and downstream legal liability." Their catalog of failure modes reads like a pathology report: non-closed polygons, self-intersections, duplicated rooms, missing rooms, numerical drift in room areas, repetition loops that copy a single coordinate across a polygon, and what they call "schema hallucinations." The HouseMind team states flatly that "coherent spatial reasoning remains a major challenge for current AI systems."</p>
+
+<p>A 94% reduction in error sounds impressive until you understand the baseline. When fewshot prompting with GPT-4o, OpenAI o3, and QwQ-32B could not consistently produce a valid floor plan JSON, the denominator was already generous.</p>
+
+<h2>Five things the tools cannot see</h2>
+
+<p>Set aside the technical failures for a moment. Assume the polygon-closure problem gets solved, the room areas stop drifting, the schema hallucinations disappear. A perfectly valid AI-generated floor plan, one with every room the right size and every door in the right wall, will still produce a house that feels wrong, and the question is why.</p>
+
+<p>Residential designer Tami Faulkner, who runs a practice in Northern California specializing in floor plan analysis and redesign, published a framework in May 2026 that she calls the Five Essentials of Flow. She developed it from years of diagnosing the specific spatial defects that make homeowners uneasy in houses that look fine on paper. The five: proportional rooms whose dimensions relate to each other in a deliberate hierarchy, hub-and-spoke transitions that provide buffer zones between spaces of different character, multiple circulation paths so that moving through the house does not require traversing a single bottleneck, consistent wall alignments where corners and runs line up across adjacent rooms, and intentional lines of sight that create visual continuity from one space to the next. All five emerge from years of diagnosing the specific spatial defects that make homeowners uneasy in houses that look fine on paper.</p>
+
+<p>"When wall corners and wall runs align," Faulkner writes, "the plan reads as calm and intentional. Staggered or misaligned corners create unnecessary jogs that interrupt movement and introduce visual disorder." On sightlines: "When the architecture is planned with clear, intentional sight-lines, each view from one space to the next feels deliberate. Unplanned or obstructed views break the rhythm and make the layout feel disconnected."</p>
+
+<p>None of these five dimensions appear in any AI floor plan tool's constraint set, not Maket's, not TestFit's, not the ACL paper's RLVR reward function, not HouseMind's tokenization scheme. Every tool optimizes for what is measurable: room count, room area, adjacency graph connectivity, dimensional compliance. Faulkner's Five Essentials are about perception, about the embodied experience of moving through space and registering, beneath conscious awareness, whether the architecture was designed by someone who understood that a kitchen sink aligned with a fireplace across the room produces a completely different spatial sensation than the same sink offset by eighteen inches.</p>
+
+<p>Shea McGee, of Studio McGee, described this phenomenon when discussing the sightlines in her own kitchen: "I needed my kitchen sink to be exactly lined up with the center of my fireplace and I wanted my island to be exactly lined up with the center of my dining room." Alignment, she said, "creates a really thoughtful feeling in our home." An AI optimizer that positions a sink for maximum counter run and minimum plumbing cost will never arrive at this conclusion, because "thoughtful feeling" is not a loss function.</p>
+
+<h2>Circulation is not a hallway</h2>
+
+<p>Circulation as an architectural concept predates computers by centuries. It describes the network of paths through a building and the spatial experience those paths create. Fine Homebuilding distinguishes between linear circulation, where movement proceeds through a corridor with rooms branching off, and circular circulation, where rooms connect directly to form loops. Linear patterns create privacy through sequential separation. Circular patterns generate energy, and "children and pets love to chase each other around them."</p>
+
+<p>A floor plan consultant site called Building Advisor captures the experiential dimension with startling precision: "Passing through a door in a wall is something like moving offstage in one play and suddenly finding yourself onstage in another." Consider what that sentence implies. Transitioning between rooms is not merely a navigational event but a psychological recalibration. The person entering a room is arriving in a new context with different light, different scale, different purpose, and the architecture can make that transition feel graceful or jarring depending on choices that have nothing to do with room dimensions.</p>
+
+<p>A buyer's guide published in 2026 by Indian developer Puravankara introduced the useful concept of a "circulation tax," defined as the percentage of total square footage consumed by movement space: corridors, passages, entry zones, dead area that exists only to get you somewhere else. "A good plan keeps circulation compact," the guide advises, and "if the plan has multiple long hallways, you're paying for space you don't live in."</p>
+
+<p>AI floor plan tools generate hallways as connective tissue between room rectangles, without evaluating whether the resulting circulation pattern is linear or circular, whether it creates privacy gradients from public to private, whether it provides a sense of arrival at the front door or dumps you directly into the living room like a guest at a party who entered through the kitchen. The Maket plans I generated all had some version of this: a front door that opened into the main living space with no transition, no compression-and-release, no architectural equivalent of taking a breath before stepping onstage.</p>
+
+<h2>Even the work triangle is dead</h2>
+
+<p>Even the one spatial quality metric that residential design has historically codified turns out to be wrong. A study published in PubMed analyzed 38 actual apartment kitchen floor plans in Korea and found that "the impact of Work Triangle compliance on movement efficiency was limited." The traditional arrangement of sink, stove, and refrigerator in a triangle of prescribed dimensions does not correlate well with how people actually cook, because modern kitchens contain appliances and workflows that the mid-century model never anticipated. The study concluded that kitchen design needs "customization based on individual cooking scenarios and lifestyles," which leaves the entire field of kitchen spatial design without a validated heuristic.</p>
+
+<p>For AI optimization, this is a damning finding. The one kitchen layout metric that could plausibly be encoded as a constraint, the one spatial quality rule with decades of professional consensus behind it, barely predicts anything useful; what hope is there for encoding the experiential qualities of circulation, sightline, proportion, and hierarchy?</p>
+
+<p>Data, the AI community will answer. Train on enough good floor plans and the model will learn the implicit patterns. And the ACL paper's approach, fine-tuning an LLM on real plans, does exactly this. But training on existing plans preserves what exists, and what exists in the American housing stock is overwhelmingly mediocre. According to American Community Survey data, roughly two-thirds of single-family homes in the United States were built before 1990, and the tract-home era that produced most of them was not celebrated for its spatial sophistication. An AI trained on the corpus of American floor plans will learn to replicate the average, and the average American floor plan is a builder-grade layout optimized for cost per square foot, not for the experience of living in it.</p>
+
+<h2>What 70 percent actually means</h2>
+
+<p>Patrick Murphy's claim that Maket "does 70 to 75 percent of the work" deserves scrutiny not because the number is wrong but because the definition of "work" is doing all the heavy lifting. If the work is room allocation, rough sizing, basic adjacency, and preliminary space planning, then yes, an AI can do most of that adequately. Those are the tasks that occupy the first hours of a residential design engagement and that architects would be happy to outsource to a machine so they can spend their time on the other 25 to 30 percent.</p>
+
+<p>But that other 25 to 30 percent is where the architecture lives. It is the reason you hire an architect instead of drawing rectangles on graph paper. Calling it 25 percent implies it is a minor finishing pass, a coat of polish on a substantially complete product. In reality, it is the difference between a house and a home, between a plan that satisfies code and a plan that makes you want to walk from the kitchen to the living room because the view through the doorway draws you forward and the light from the west-facing window warms the hall floor in the afternoon and someone, at some point during the design, thought about what it would feel like to stand there with a cup of coffee and look at the yard. That sentence ran long, and I let it, because the experience it describes cannot be decomposed into constraints or objectives or reward signals; it is indivisible, perceiving it as a whole, by a person standing in a space that was designed by someone who imagined standing there.</p>
+
+<h2>Where the gap might narrow</h2>
+
+<p>Space syntax, a research discipline originating at University College London in the 1980s, uses graph-based analysis and isovist fields to quantify spatial relationships: visibility, accessibility, depth, integration. Researchers have used it to predict pedestrian movement through buildings and urban spaces with reasonable accuracy. MDPI-published work on visual perception and multi-objective decision making reports "92.3% agreement with expert visual assessments" for optimized designs that incorporate permeability metrics and circulation path widths. If these methods migrate from the research bench to consumer tools, AI could eventually evaluate some of the qualities Faulkner identifies. Sightline connectivity is at least partially computable. Wall alignment is trivially measurable once you define the metric. Proportional harmony between rooms is a ratio calculation.</p>
+
+<p>What remains stubbornly uncomputable is the integration of these dimensions with each other and with the specific life of the people who will inhabit the house. A couple with young children needs circulation loops and visual supervision from the kitchen. A retired couple needs privacy gradients and a quiet reading room that the morning sun reaches but the afternoon glare does not. A family that cooks together needs kitchen sightlines; a family that uses the kitchen as a staging area between takeout containers and the dining table does not. These are not parameters but stories, and stories are not loss functions.</p>
+
+<h2>What this means for you</h2>
+
+<p>If you are building or remodeling a home and considering an AI floor plan tool, use it. Seriously. Maket at its free tier, or any of the tools with trial access, will produce layout options faster than you can sketch them and will force you to articulate preferences you did not know you had. Exploring layout options in early-stage residential design, figuring out whether you want the master upstairs or down, the garage attached or detached, the kitchen open or enclosed, is genuinely well-served by rapid AI generation.</p>
+
+<p>But do not mistake the exploration for the design. When someone shows you fourteen AI-generated layouts and asks you to pick one, you are being asked to select a starting point, not a finished plan. Your chosen layout needs an architect or a skilled residential designer to do the work the AI cannot: align the walls, compose the sightlines, shape the transitions between rooms, establish the circulation hierarchy that makes a 1,800-square-foot house feel spacious rather than adequate. That work costs money. For a custom home, expect $5,000 to $15,000 in design fees for the kind of spatial refinement that separates a house from a home. For a production builder doing value engineering on a model home, the cost is amortized across fifty or a hundred units and becomes trivial per door.</p>
+
+<p>AI tools will get better. Researchers are working on it, and the trajectory toward spatially aware generative models is real, even if the destination is far. In the meantime, the tools we have are powerful accelerators for the easy 70 percent and dangerous substitutes for the hard 30 percent. If you let an AI design your floor plan and an AI is the last intelligence that touches the layout before the foundation is poured, you will end up with a house that passes inspection and never quite feels like yours. Every room will be the right size, every door in the right wall, and you will stand in the kitchen, looking at a hallway that leads to a living room you can hear but not see, and you will feel, without being able to name it, that something is missing.</p>
+
+<p>It is not in the code. It was never in the code.</p>
+
+<h2>Limitations</h2>
+
+<p>This analysis tested one AI floor plan tool (Maket) on one residential scenario. I did not systematically evaluate all eight tools in the landscape comparison, and tools targeting commercial and multifamily projects (TestFit, ArkDesign) may perform differently for their intended use cases. ACL 2026 findings represent a snapshot of a rapidly advancing field; the RLVR approach shows genuine improvement over baselines, and future iterations may address some of the failure modes cataloged here. Faulkner's Five Essentials framework has not been independently validated as a predictor of homeowner satisfaction. My claim that the American housing stock provides poor training data is based on general characterization of tract-home development patterns, not a systematic analysis of plan quality across the corpus. Finally, the cost estimates for architectural design services ($5,000-$15,000) reflect custom residential work in US coastal markets and vary significantly by region, project scale, and scope of engagement.</p>
+
+        </div>
+    </article>
+</div>
+</body>
+</html>
