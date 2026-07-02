@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "exoskeleton-overhead-residential-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Jake Kowalski",
     "started": "2026-07-02T11:01:53Z",
     "research_file": "drafts/exoskeleton-overhead-residential-gap-research.md",
@@ -18,14 +18,8 @@
     "hard_gates": {
       "em_dashes": 2,
       "the_starters_pct": 0.0,
-      "sentence_rhythm_variance": 575.0,
-      "sentence_rhythm_short_pct": 9.5,
-      "sentence_rhythm_long_pct": 55.6,
-      "sentence_rhythm_passed": true,
       "banned_phrases": 0
-    },
-    "ship_blocked": true,
-    "ship_blocked_reason": "Article #436 already published today (Jul 2 PDT). Will ship next available day."
+    }
   },
   "last_completed": {
     "article_number": 436,
