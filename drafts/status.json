@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "exoskeleton-overhead-residential-gap",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-07-02T11:01:53Z",
+    "research_file": "drafts/exoskeleton-overhead-residential-gap-research.md",
+    "round": 1,
+    "scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 2,
+      "the_starters_pct": 0.0,
+      "sentence_rhythm_variance": 575.0,
+      "sentence_rhythm_short_pct": 9.5,
+      "sentence_rhythm_long_pct": 55.6,
+      "sentence_rhythm_passed": true,
+      "banned_phrases": 0
+    }
+  },
   "last_completed": {
     "article_number": 436,
     "slug": "apprentice-shadow-ai-code-compliance",
