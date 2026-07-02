@@ -1,36 +1,12 @@
 {
-  "current": {
-    "slug": "ai-construction-draw-review",
-    "phase": "SHIP",
-    "journalist": "Frank DeLuca",
-    "started": "2026-07-01T18:01:52-07:00",
-    "headline": "Your Third Draw Request Sat in a Queue for Nine Days. Your Framer Left for Another Job. An AI Would Have Processed It in Three Minutes.",
-    "category": "Project Management & Operations",
-    "round": 1,
-    "scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS (variance 225.7, short 14.7%, long 41.2%)",
-      "the_starters_pct": 0
-    },
-    "ship_blocked": "2026-07-01: already published today (article #432)"
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 432,
-    "slug": "embodied-carbon-residential-tools",
-    "headline": "Your Home Emitted 55 Tons of CO\u2082 Before Anyone Turned On a Light. California Just Started Counting.",
-    "journalist": "Priya Greenwood",
-    "category": "Sustainability & Green Building",
-    "published_date": "2026-07-01",
-    "commit": "b6680c3"
+    "article_number": 433,
+    "slug": "ai-construction-draw-review",
+    "headline": "Your Third Draw Request Sat in a Queue for Nine Days. Your Framer Left for Another Job. An AI Would Have Processed It in Three Minutes.",
+    "journalist": "Frank DeLuca",
+    "category": "Project Management & Operations",
+    "published_date": "2026-07-02",
+    "commit": "814181c"
   }
 }
