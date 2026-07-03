@@ -4,9 +4,21 @@
     "headline": "The DOE Says Your Home Will Cost $14,000 More Under the New Energy Code. That Number Starts in 2006. Almost Nobody Builds to 2006.",
     "journalist": "Catherine Chen",
     "category": "Policy & Regulation",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-07-03"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-03",
+    "critique_passed": true,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 8.5,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.6,
+      "average": 8.83
+    },
+    "ship_date": "2026-07-04"
   },
   "last_completed": {
     "article_number": 440,
