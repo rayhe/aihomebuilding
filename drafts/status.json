@@ -1,39 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 440,
     "slug": "ai-schedule-self-healing-delay-cascade",
-    "phase": "QA",
+    "headline": "Your Risk Register Had Three Red Flags Last Tuesday. Your Schedule Didn't Change Until Friday. By Then It Was a Six-Figure Problem.",
     "journalist": "Frank DeLuca",
     "category": "Project Management",
-    "headline": "Your Risk Register Had Three Red Flags Last Tuesday. Your Schedule Didn't Change Until Friday. By Then It Was a Six-Figure Problem.",
-    "started": "2026-07-03T09:02:00Z",
-    "round": 1,
-    "article_number": 440,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 12.0,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS",
-      "sentence_variance": 373.7,
-      "short_pct": 7.8,
-      "long_pct": 51.9
-    }
-  },
-  "last_completed": {
-    "article_number": 439,
-    "slug": "ai-concrete-sensor-cylinder-break-replacement",
-    "headline": "Your Concrete Was Strong Enough Two Days Ago. The Lab Just Told You Today. A $165 Sensor Already Knew.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
     "published_date": "2026-07-03",
-    "commit": "80e038d"
+    "commit": "5bc713a"
   }
 }
