@@ -1,38 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 444,
     "slug": "ai-rendering-buildability-gap",
-    "phase": "SHIP",
+    "headline": "Your AI Rendering Costs Four Cents. Unbuilding It Costs $3,500.",
     "journalist": "Elena Vasquez",
     "category": "Architecture & Design",
-    "started": "2026-07-04T09:01:52Z",
-    "article_number": 444,
-    "critique_round": 1,
-    "scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "banned_phrases": 0,
-      "the_starters_pct": 0.0,
-      "sentence_rhythm": "PASS",
-      "sentence_variance": 248.5,
-      "short_pct": 13.7,
-      "long_pct": 49.3
-    }
-  },
-  "last_completed": {
-    "article_number": 443,
-    "slug": "ai-apprenticeship-completion-crisis",
-    "headline": "Microsoft Gave 1,500 Construction Instructors Free AI Training. The Apprenticeship System They're Teaching In Loses 86% of Its Students.",
-    "journalist": "Marcus Washington",
-    "category": "Workforce & Labor",
     "published_date": "2026-07-04",
-    "commit": "7d90539"
+    "commit": "cae53fd"
   }
 }
