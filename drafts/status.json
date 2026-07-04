@@ -1,38 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 443,
     "slug": "ai-apprenticeship-completion-crisis",
-    "phase": "QA",
+    "headline": "Microsoft Gave 1,500 Construction Instructors Free AI Training. The Apprenticeship System They're Teaching In Loses 86% of Its Students.",
     "journalist": "Marcus Washington",
     "category": "Workforce & Labor",
-    "started": "2026-07-04T00:01:52-07:00",
-    "article_number": 443,
-    "headline": "Microsoft Gave 1,500 Construction Instructors Free AI Training. The Apprenticeship System They're Teaching In Loses 86% of Its Students.",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.8,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.8,
-      "legal_accuracy": 8.7,
-      "research_rigor": 8.9,
-      "data_presentation": 8.6,
-      "average": 8.83
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 3.0,
-      "sentence_variance": 222.1,
-      "short_pct": 8.4,
-      "long_pct": 56.8,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "article_number": 442,
-    "slug": "ai-procurement-tariff-material-cost",
-    "headline": "Tariffs Added $10,900 to Your Home. AI Procurement Tools Say They Can Get It Back. Your Builder Has Never Heard of Them.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
-    "published_date": "2026-07-03",
-    "commit": "403e09c"
+    "published_date": "2026-07-04",
+    "commit": "7d90539"
   }
 }
