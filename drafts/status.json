@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-rendering-buildability-gap",
+    "phase": "SHIP",
+    "journalist": "Elena Vasquez",
+    "category": "Architecture & Design",
+    "started": "2026-07-04T09:01:52Z",
+    "article_number": 444,
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "sentence_rhythm": "PASS",
+      "sentence_variance": 248.5,
+      "short_pct": 13.7,
+      "long_pct": 49.3
+    }
+  },
   "last_completed": {
     "article_number": 443,
     "slug": "ai-apprenticeship-completion-crisis",
