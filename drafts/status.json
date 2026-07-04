@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-thermal-drone-energy-audit",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Priya Greenwood",
+    "category": "Sustainability & Green Building",
+    "started": "2026-07-04T12:01:52-07:00",
+    "headline": "Your Energy Auditor Spent 90 Minutes in Your House. A Thermal Drone Scanned 500 Homes That Afternoon. The AI Found What He Missed.",
+    "article_number": 445,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 8.5,
+      "social_shareability": 9.5,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9.0,
+      "average": 8.9
+    },
+    "hard_gates": {
+      "em_dashes": "PASS",
+      "sentence_rhythm": "PASS",
+      "the_starters": "PASS",
+      "banned_phrases": "PASS",
+      "hero_image": "PASS",
+      "actionable_insights": "PASS"
+    }
+  },
   "last_completed": {
     "article_number": 444,
     "slug": "ai-rendering-buildability-gap",
