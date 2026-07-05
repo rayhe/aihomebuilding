@@ -1,16 +1,29 @@
 {
   "current": {
     "slug": "ai-hiring-screens-construction-second-chance-workers",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Marcus Washington",
     "started": "2026-07-05T19:02:00Z",
     "article_number": 450,
-    "headline_draft": "Your Hiring Software Rejected 14 Roofers Last Month. Three Had 20 Years of Experience. All Had Records."
+    "headline_draft": "Your Hiring Software Rejected 14 Roofers Last Month. Three Had 20 Years of Experience. All Had Records.",
+    "critique_round": 0,
+    "critique_passed": true,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.7,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "ship_blocked": true,
+    "ship_blocked_reason": "article_449_published_today_2026-07-05"
   },
   "last_completed": {
     "article_number": 449,
     "slug": "samsung-lg-ai-modular-home-appliance-builders",
-    "headline": "Samsung Spent $1.7 Billion to Control Your Home's Climate System. LG Already Sells the Whole House for $134,000.",
+    "headline": "Samsung Spent $1.7 Billion to Control Your Home Climate System. LG Already Sells the Whole House for $134,000.",
     "journalist": "Frank DeLuca",
     "category": "Project Management & Operations",
     "published_date": "2026-07-05",
