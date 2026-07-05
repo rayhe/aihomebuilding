@@ -676,3 +676,13 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: connecting insurance exclusion movement to residential builder's uninsured exposure gap
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **In progress:** "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage."
+
+### 66. 🟡 AI Concrete Maturity Sensors for Residential Foundations
+- Giatec SmartRock3 ($150/sensor), Maturix (Saint-Gobain, $15/use thermocouple), WaveLogix REBEL (AASHTO T 412-24)
+- Nature Communications: piezoelectric sensors + deep learning, ~15% error vs ASTM C39, 34 US states
+- ASTM C1074 maturity method, ACI 318-26.12
+- Traditional cylinder break testing: $270-$670/pour + 3-7 day delay
+- Residential blind spot: all case studies are commercial, 1.5M US housing starts unaddressed
+- Original contribution: residential cost comparison (sensors vs. traditional + schedule savings) nobody publishes
+- Journalist: Jake Kowalski (construction tech beat)
+- **In progress:** "You Poured Your Foundation Tuesday. The Lab Called Thursday. The Concrete Hit 4,000 PSI on Wednesday."
