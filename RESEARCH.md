@@ -661,3 +661,18 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: economic pressure calculation ($17,300/yr additional revenue), three unresolved liability scenarios.
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **In progress:** "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet."
+
+### 65. 🟡 AI Insurance Exclusion Coverage Gap in Residential Construction
+- ISO/Verisk CG 40 47 and CG 40 48: standardized AI exclusion for CGL policies, effective January 1, 2026
+- ISO forms underpin ~82% of U.S. property and casualty insurance policies (Cohen Seglias)
+- Philadelphia Insurance and Hamilton Select: already excluding AI-related claims from E&O coverage
+- AIG, Great American, W.R. Berkley: filed for regulatory approval for comparable exclusions
+- Stanford Law School: AI hallucination rates 58-88% general purpose, 20-33% specialized
+- AIA A201-2017: no provisions for AI use, liability allocation, or disclosure requirements
+- Frantz Ward: 5 specific gaps in AIA contracts (standard of care, design doc responsibility, IP, third-party tech, insurance alignment)
+- ServiceTitan 2026: 74% of residential contractors view AI as efficiency engine, only 25% using it
+- U.S. homebuilders paid $1.071B in warranty claims in 2024 (27 public builders, Warranty Week)
+- Risk Specialty Group 4-step policy audit for renewal
+- Original contribution: connecting insurance exclusion movement to residential builder's uninsured exposure gap
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **In progress:** "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage."
