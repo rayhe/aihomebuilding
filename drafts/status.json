@@ -1,12 +1,35 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-floor-plan-million-siblings",
+    "headline": "Your AI Floor Plan Has a Million Siblings. None of Them Know Where the Sun Rises.",
+    "journalist": "Elena Vasquez",
+    "category": "Architecture & Design",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-06T11:01:53Z",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 2,
+      "the_starters_pct": 3.7,
+      "banned_phrases": 0,
+      "sentence_rhythm": "PASS"
+    }
+  },
   "last_completed": {
-    "article_number": 453,
-    "slug": "smart-irrigation-new-construction-gap",
-    "headline": "Your Builder Installed a $27 Sprinkler Timer. It Wastes 47% More Water Than No System at All.",
-    "journalist": "Priya Greenwood",
-    "category": "Sustainability & Green Building",
+    "article_number": 454,
+    "slug": "builder-timeline-missing-days",
+    "headline": "Every Builder Promises Six Months. The Data Says 6.7. Nobody Told You About the Missing 13 Days.",
+    "journalist": "Frank DeLuca",
+    "category": "Project Management & Operations",
     "published_date": "2026-07-06",
-    "commit": "6f1f11d"
+    "commit": "80cca81"
   }
 }
