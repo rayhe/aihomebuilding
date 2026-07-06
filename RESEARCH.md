@@ -677,7 +677,7 @@ When you discover a new topic worth covering, add it here with:
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **In progress:** "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage."
 
-### 66. 🟡 AI Concrete Maturity Sensors for Residential Foundations
+### 66. 🟢 AI Concrete Maturity Sensors for Residential Foundations
 - Giatec SmartRock3 ($150/sensor), Maturix (Saint-Gobain, $15/use thermocouple), WaveLogix REBEL (AASHTO T 412-24)
 - Nature Communications: piezoelectric sensors + deep learning, ~15% error vs ASTM C39, 34 US states
 - ASTM C1074 maturity method, ACI 318-26.12
@@ -686,3 +686,16 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: residential cost comparison (sensors vs. traditional + schedule savings) nobody publishes
 - Journalist: Jake Kowalski (construction tech beat)
 - **In progress:** "You Poured Your Foundation Tuesday. The Lab Called Thursday. The Concrete Hit 4,000 PSI on Wednesday."
+
+### 67. 🟢 Single-Stair Building Code Reform
+- 19 states + DC introduced bills since 2022; 7 enacted in 2025 (CO, MT, NH, TX + ME, HI, MD study)
+- Pew/CBNA: second staircase costs ~$200K/building, 9% floor area, 6-13% total cost increase
+- Harvard JCHS: 4,955 transit-adjacent parcels in Boston → 130K units unlocked
+- Efficiency ratio gap: 82% dual-stair vs 92% single-stair (10pp difference)
+- Fire safety data: NYC/Seattle 12 years, 4 deaths, none caused by lack of second stairway
+- 99% of fire deaths in buildings without sprinklers
+- Colorado HB 25-1273, Texas SB 2835, Montana strongest law (6 stories, all jurisdictions)
+- ICC considering 4-story exception in 2027 IBC
+- Original contribution: per-unit cost ($8,333/unit for 24-unit), 30-year combined cost ($2.9M/building), national extrapolation methodology
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Published:** "The Second Staircase Costs $200,000 and Adds Zero Apartments. The Code Requiring It Predates Sprinklers." (#452)
