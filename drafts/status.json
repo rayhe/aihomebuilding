@@ -1,37 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 455,
     "slug": "ai-floor-plan-million-siblings",
     "headline": "Your AI Floor Plan Has a Million Siblings. None of Them Know Where the Sun Rises.",
     "journalist": "Elena Vasquez",
     "category": "Architecture & Design",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-06T11:01:53Z",
-    "ship_blocked": "2026-07-06 \u2014 4 articles already published today (UTC)",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "the_starters_pct": 3.7,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS"
-    },
-    "article_number": 455
-  },
-  "last_completed": {
-    "article_number": 454,
-    "slug": "builder-timeline-missing-days",
-    "headline": "Every Builder Promises Six Months. The Data Says 6.7. Nobody Told You About the Missing 13 Days.",
-    "journalist": "Frank DeLuca",
-    "category": "Project Management & Operations",
     "published_date": "2026-07-06",
-    "commit": "80cca81"
+    "commit": "02a993f"
   }
 }
