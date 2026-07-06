@@ -1,29 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 456,
     "slug": "mobile-microfactory-housing-revolution",
     "headline": "The Factory Showed Up on a Flatbed. Twelve Weeks Later, There Was a House.",
     "journalist": "Jake Kowalski",
     "category": "Construction Technology",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-06T15:01:00Z",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.5,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    }
-  },
-  "last_completed": {
-    "article_number": 455,
-    "slug": "ai-floor-plan-million-siblings",
-    "headline": "Your AI Floor Plan Has a Million Siblings. None of Them Know Where the Sun Rises.",
-    "journalist": "Elena Vasquez",
-    "category": "Architecture & Design",
     "published_date": "2026-07-06",
-    "commit": "02a993f"
+    "commit": "24ed9be"
   }
 }
