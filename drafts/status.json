@@ -1,41 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 451,
     "slug": "concrete-maturity-sensors-residential-foundation",
     "headline": "You Poured Your Foundation Tuesday. The Lab Called Thursday. The Concrete Hit 4,000 PSI on Wednesday.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Jake Kowalski",
     "category": "Construction Technology",
-    "article_number": 451,
-    "started": "2026-07-05T23:01:00Z",
-    "critique_scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dash_count": 0,
-      "the_starters_pct": 10.6,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 554.5,
-        "short_pct": 9.5,
-        "long_pct": 73.0,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "article_number": 450,
-    "slug": "ai-hiring-screens-construction-second-chance-workers",
-    "headline": "Your Hiring Software Rejected 14 Roofers Last Month. Three Had 20 Years of Experience. All Had Records.",
-    "journalist": "Marcus Washington",
-    "category": "Workforce & Labor",
-    "published_date": "2026-07-05",
-    "commit": "4dab31b"
+    "published_date": "2026-07-06",
+    "commit": "47ec594"
   }
 }
