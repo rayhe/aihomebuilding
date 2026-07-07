@@ -1,31 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 457,
     "slug": "hvac-oversizing-ai-lidar-fix",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "Your Contractor Guessed Your HVAC Size. The System Is Probably Twice What You Need.",
     "journalist": "Priya Greenwood",
     "category": "Sustainability",
-    "headline": "Your Contractor Guessed Your HVAC Size. The System Is Probably Twice What You Need.",
-    "started": "2026-07-06T19:01:54Z",
-    "ship_blocked": true,
-    "ship_blocked_reason": "Already 4 articles published on 2026-07-06 (PDT). Will publish on next run.",
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    }
-  },
-  "last_completed": {
-    "article_number": 456,
-    "slug": "mobile-microfactory-housing-revolution",
-    "headline": "The Factory Showed Up on a Flatbed. Twelve Weeks Later, There Was a House.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
     "published_date": "2026-07-06",
-    "commit": "24ed9be"
+    "commit": "pending"
   }
 }
