@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>AI Counted Every Outlet on the Plans. It Underestimated the Siding. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-takeoff-accuracy-gap-residential.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "AI Counted Every Outlet on the Plans. It Underestimated the Siding.",
+		"description": "The first independent academic test of AI-powered quantity takeoffs found near-perfect accuracy on counting items like outlets and windows, but systematic underestimation of area-based quantities like siding and exterior finishes. For residential builders, the geometry that trips up the AI is the geometry that defines a house.",
+		"image": "https://aihomebuilding.com/images/ai-takeoff-accuracy-gap-residential.jpg?v=ebcada92",
+		"datePublished": "2026-07-07",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-takeoff-accuracy-gap-residential.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="AI Counted Every Outlet on the Plans. It Underestimated the Siding.">
+	<meta property="og:description" content="First independent academic test of AI takeoff tools reveals a split: perfect on counts, systematically low on areas. Residential builders should worry.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-takeoff-accuracy-gap-residential.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-takeoff-accuracy-gap-residential.jpg?v=ebcada92">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="AI Counted Every Outlet on the Plans. It Underestimated the Siding.">
+	<meta name="twitter:description" content="AI takeoff tools nail simple counts. They underestimate area quantities. For residential construction, that's the wrong direction.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-takeoff-accuracy-gap-residential.jpg?v=ebcada92">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: clamp(1.6rem, 4vw, 2.6rem);
+			font-weight: 800;
+			margin: 0.75rem 0 0.5rem;
+			line-height: 1.15;
+			max-width: 700px;
+		}
+		.article-hero .byline {
+			font-size: 0.85rem;
+			opacity: 0.85;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2.5rem 1.25rem 4rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body p {
+			margin-bottom: 1.4rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 1.5rem;
+			font-weight: 700;
+			margin: 2.5rem 0 1rem;
+			color: var(--text-primary);
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.5rem 1.25rem;
+			font-style: italic;
+			color: var(--text-secondary);
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+			transition: border 0.2s;
+		}
+		.story-body a:hover {
+			border-bottom-color: var(--accent);
+		}
+		.story-body .data-callout {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			padding: 1.25rem 1.5rem;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body .data-callout strong {
+			color: var(--accent);
+		}
+		.back-link {
+			display: inline-block;
+			margin-top: 3rem;
+			font-size: 0.9rem;
+			color: var(--text-muted);
+			text-decoration: none;
+		}
+		.back-link:hover {
+			color: var(--accent);
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/ai-takeoff-accuracy-gap-residential.jpg?v=ebcada92" alt="Construction estimator's desk with architectural blueprints of a residential house and a laptop showing AI quantity takeoff software with colored area overlays">
+		<div class="overlay">
+			<span class="badge">Construction Technology</span>
+			<h1>AI Counted Every Outlet on the Plans. It Underestimated the Siding.</h1>
+			<div class="byline">By Jake Kowalski &bull; July 7, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+<p>Twenty-nine line items. One AI takeoff platform, and one set of professional contractor estimates to compare against. That's all it took for the first independent academic test of AI-powered quantity takeoffs to reveal a pattern that should make every residential estimator reach for a calculator.</p>
+
+<p>Outlets, windows, doors: nearly perfect alignment with contractor estimates. Siding, exterior finishes, facade cladding: systematically low.</p>
+
+<p><a href="https://doi.org/10.29007/g686">Sadeh, Geloso, and Todorov</a> published their findings at the ASC 62nd Annual International Conference in June 2026, and the study is clean enough that the conclusion lands without hedging. They tested Togal AI against professional contractor takeoffs on a commercial building across measurements in square feet, each-counts, and linear feet. Count-based items aligned almost exactly, but area-based items, particularly exterior finishes, showed the greatest deviation, and the direction was always the same: the AI underestimated.</p>
+
+<p>Not randomly. Consistently. Miss 200 square feet of exterior finish at $8 per square foot installed, and that's $1,600 you didn't bid on one facade of one house.</p>
+
+<h2>Why Residential Makes This Worse</h2>
+
+<p>Commercial buildings gave the AI its best possible test case, because commercial facades tend toward flat, orthogonal planes with repetitive window modules and uniform cladding runs that an algorithm can measure by identifying rectangular regions and multiplying length by height. Even in that favorable geometry, area-based takeoffs came in low. Now picture a custom home in a suburb outside Denver or a Craftsman remodel in Portland: bump-outs at every bedroom, bay windows cantilevered over the foundation, a roofline that changes pitch three times before it reaches the ridge, dormers punching through the eaves at irregular intervals, and a wrap-around porch that turns two corners and meets a chimney that the original architect placed where it looked right rather than where it aligned with any grid the algorithm would recognize.</p>
+
+<p>Every one of those features adds area that an AI trained on orthogonal commercial plans is likely to undercount, because irregular geometry is exactly where the Sadeh et al. study found the largest errors. Residential construction doesn't occasionally produce irregular facades; irregular facades <em>are</em> the product. Bay windows, covered entries, mixed siding with stone wainscoting on the lower third, board-and-batten gable accents above a horizontal lap field: these are not edge cases in custom homebuilding. They are the job.</p>
+
+<div class="data-callout">
+<strong>Sadeh et al. (2026) key finding:</strong> AI takeoff accuracy splits cleanly by measurement type. Count-based items (windows, doors, outlets) showed near-perfect agreement with professional contractor estimates. Area-based items (exterior finishes, siding, facade cladding) were systematically underestimated, with exterior finishes showing the greatest deviation of all 29 line items tested.
+</div>
+
+<h2>Scale Without Accuracy Is Speed in the Wrong Direction</h2>
+
+<p><a href="https://www.beamai.com/">Beam AI</a> (formerly Attentive.ai) has processed over 500,000 takeoffs for more than 1,200 contractors, claiming a 90% reduction in estimating time, and those numbers are real. Bommarito Construction reported bidding eight more projects per month after adopting the platform and attributed $500,000 to $1 million in annual revenue growth to the increased bid volume. On the mechanical and HVAC side, ten-minute takeoffs that used to consume a full day represent genuine productivity gains that no honest observer would dismiss.</p>
+
+<p>But speed and accuracy are different things, and the Sadeh study measured accuracy. <a href="https://www.planswift.com/">PlanSwift</a> markets its Takeoff Boost feature with AI Auto Count for symbols like fixtures, outlets, and smoke detectors, and its own documentation includes a caveat worth reading twice: "verify the output before it goes into your estimate." When the tool's own vendor tells you to check, that's not a legal disclaimer; that's field experience talking.</p>
+
+<p><a href="https://www.bluebeam.com/">Bluebeam</a>'s Quantity Link caught a 1,400-linear-foot discrepancy on a single line item for Solid Earth Civil, a miscount that would have translated to $50,000 to $60,000 if it had reached a contract. Manual estimators had missed it entirely, but AI tooling found it. That's the promise working exactly as advertised, and it's important to acknowledge because the technology genuinely catches errors that human eyes skip over, especially on repetitive count-based measurements across hundreds of pages of drawings.</p>
+
+<p>Nobody disputes the speed or the count accuracy. What the Sadeh study adds is a specific, documented, peer-reviewed warning about where the accuracy breaks down, and it breaks down on the measurement type that dominates exterior residential work.</p>
+
+<h2>Almost Nobody Is Using It Anyway</h2>
+
+<p>An NAHB survey conducted via HUD in June 2026 found that just 1% of single-family builders reported using AI in their construction process, which means the accuracy gap documented by Sadeh et al. is currently more of a warning than a crisis: the builders who would be most affected by systematic area underestimation are the same builders who haven't adopted the technology yet.</p>
+
+<p>When they do adopt it, the ones building tract homes with repetitive facades and identical exterior packages will probably be fine. Counts work, and orthogonal areas work. Production housing is geometry that AI handles well.</p>
+
+<p>Custom builders will not be fine, and they won't know it until the siding sub shows up short.</p>
+
+<h2>What the AI Gets Right Deserves Respect</h2>
+
+<p>A counterargument exists and it's strong. Count-based takeoffs are a massive portion of electrical and mechanical estimating, and AI handles them with precision that matches or exceeds a seasoned estimator working from the same plan set. ClickUp's construction data shows AI detecting 39% of material-quantity discrepancies that manual reviews overlook while also eliminating double-counting errors through symbol pattern recognition. For an HVAC contractor counting diffusers across sixty sheets of reflected ceiling plans, AI takeoff is not an incremental improvement. It is a different category of tool, and it works.</p>
+
+<p>Platform capabilities are also evolving on cycles measured in months, not years. Togal AI, the specific platform Sadeh et al. tested, has released updates since the study's data collection period, and competing platforms may already handle irregular geometry more accurately. A single study on one platform at one point in time is evidence, not a verdict.</p>
+
+<h2>What to Do With This Right Now</h2>
+
+<p>If you are using AI-powered takeoff tools on residential projects, run a manual spot-check on every area-based exterior line item. Siding, stucco, stone veneer, exterior trim, soffit, fascia: measure the irregular sections by hand and compare. Trust the outlet counts and the window and door counts. Do not trust the square footage on a facade with bump-outs, bay windows, or mixed cladding without verification, because the only independent academic evidence available says the AI will come in low, and coming in low on an exterior bid means either eating the difference or going back to the homeowner with a change order that erodes every dollar of trust you built during the sales process.</p>
+
+<p>For homeowners comparing bids, ask the estimator whether AI-assisted takeoff was used and whether area-based quantities were verified manually. A "yes" to the first question and a "no" to the second should raise a flag, not because AI-assisted bids are unreliable, but because the lowest bid in a stack might be low for the wrong reason.</p>
+
+<h2>What Remains Unknown</h2>
+
+<p>Sadeh, Geloso, and Todorov tested one platform on one commercial project. No published study has tested AI takeoff accuracy on residential plans specifically, which means the residential extrapolation in this article is logical but unproven. Residential geometry is more irregular than commercial geometry; the study found accuracy degrades on irregular geometry; therefore residential accuracy should be worse. That chain of reasoning holds, but direct measurement would be better, and nobody has done it yet. Platform-to-platform variation is also unmeasured, and Togal AI's area underestimation may not replicate on Beam AI, PlanSwift, or Bluebeam's tools. Until someone runs comparable tests across platforms and building types, the honest position is: we have one strong data point and a logical inference, not a comprehensive answer.</p>
+
+<p>One percent of single-family builders use AI in construction. That number is going to climb. When it does, the builders who check the siding quantities by hand will be the ones whose bids hold, and the ones who trusted the software on every line item will be the ones explaining to a homeowner why the exterior package just got $8,000 more expensive three weeks after the contract was signed.</p>
+
+<p>Check the areas, trust the counts. That's the split.</p>
+
+			<a class="back-link" href="../index.html">&larr; Back to AI Home Building</a>
+		</article>
+	</div>
+</body>
+</html>
