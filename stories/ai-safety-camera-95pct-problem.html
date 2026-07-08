@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An AI Camera Claims It Spots 95% of Safety Violations on Your Job Site. Nobody Has Audited That Number.</title>
+    <meta name="description" content="DroneDeploy's Safety AI uses visual language models to flag OSHA violations in construction site imagery. It reasons about scenes the way a safety inspector would. The 95% accuracy claim hasn't been independently verified, and the 5% it misses could be the violations that kill someone.">
+    <meta property="og:title" content="An AI Camera Claims It Spots 95% of Safety Violations on Your Job Site. Nobody Has Audited That Number.">
+    <meta property="og:description" content="DroneDeploy's Safety AI uses visual language models to flag OSHA violations in construction site imagery. The 95% accuracy claim hasn't been independently verified.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="../images/ai-safety-camera-95pct-problem.jpg?v=e0bdf573">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+<article>
+    <div class="story-header">
+        <div class="story-meta">
+            <span class="story-category">Construction Technology</span>
+            <span class="story-date">July 8, 2026</span>
+        </div>
+        <h1>An AI Camera Claims It Spots 95% of Safety Violations on Your Job Site. Nobody Has Audited That Number.</h1>
+        <p class="story-subtitle">DroneDeploy built a tool that uses visual language models to analyze daily construction site imagery and flag OSHA violations. It can reason about whether a worker on a ladder is standing on the top rung, something older object-detection AI couldn't do. The company claims 95% accuracy. That number has not been independently verified, and the 5% gap could be the difference between a near-miss and a funeral.</p>
+        <div class="story-author">By Jake Kowalski</div>
+    </div>
+
+    <div class="story-body">
+
+        <p>Last winter, a 32-year-old construction worker named Jose Luis Collaguazo Crespo slipped off a ladder on the second floor of an affordable housing project on Martha's Vineyard and fell to his death in the basement. He was one of more than 1,000 construction workers who die on American job sites every year, making construction the deadliest industry in the country for falls, according to the CDC's National Institute for Occupational Safety and Health.</p>
+
+        <p>Ladders alone account for 24% of those fall deaths.</p>
+
+        <p>A San Francisco company called DroneDeploy thinks it can catch the violations before someone dies, and the technology behind it is genuinely different from anything the construction safety market has seen before. Instead of the old approach, where AI learns to recognize objects by staring at millions of labeled training images tagged by humans in low-wage countries drawing bounding boxes around hard hats and guardrails, DroneDeploy's Safety AI uses a visual language model, which is essentially a large language model wired to a vision system that can look at a photograph and reason about what is happening in it.</p>
+
+        <h2>What Visual Language Models Actually Do Differently</h2>
+
+        <p>Philip Lorenzo, the executive who built Safety AI at DroneDeploy, explained the distinction at a UC Berkeley conference in April 2025 with a ladder example that makes the difference concrete. Traditional computer vision can find the ladder in an image and find the person standing on it. What it cannot do is reason about whether that person is using the ladder safely, whether they have three points of contact, whether they're standing on the top rung, whether the ladder is being used as stilts to move around a site. A visual language model can chain those observations together, reference the specific OSHA regulation that applies, and conclude that what it's looking at is a violation.</p>
+
+        <p>"Only the VLM can logically reason and then be like, 'All right, it's unsafe. And here's the OSHA reference that says you can't be on the top rung,'" Lorenzo told MIT Technology Review.</p>
+
+        <p>DroneDeploy already sells software that creates daily digital models of construction sites from drone and ground-level imagery, a process the industry calls reality capture, and Safety AI runs as a premium add-on that analyzes each day's imagery automatically. Lorenzo's team trained the system on what he calls a "golden data set" of tens of thousands of OSHA violation images gathered from customers over years with explicit permission. For ladder safety alone, the system uses more than a dozen layers of questioning before it reaches a conclusion, according to Lorenzo.</p>
+
+        <p>Launched in October 2024, Safety AI is now deployed on hundreds of construction sites in the United States, with localized versions running in Canada, the United Kingdom, South Korea, and Australia. DroneDeploy's base platform starts at $329 per user per year, though the company hasn't published Safety AI's premium pricing, and the total cost per site for a mid-size GC running multiple projects would depend on users, capture frequency, and site count.</p>
+
+        <h2>Where 95% Gets Uncomfortable</h2>
+
+        <p>Lorenzo claims Safety AI identifies OSHA violations with 95% accuracy, meaning that when the system flags something, there is a 95% probability that the flag is correct and maps to a real OSHA regulation. That's the precision metric, and it's impressive for a system analyzing the chaos of a live construction site where the scene changes every day and the variables include weather, lighting, partial obstructions, and workers who move.</p>
+
+        <p>But 95% is not 100%, and in construction safety the gap between those numbers has a body count.</p>
+
+        <p>Chen Feng, who leads New York University's AI4CE lab and develops 3D mapping and scene understanding technologies for construction robotics, put the question directly: "Ninety-five percent is encouraging, but how do we fix that remaining 5%?"</p>
+
+        <p>Feng points to a 2024 paper called "Eyes Wide Shut?" by Shengbang Tong at NYU, coauthored by AI researcher Yann LeCun, that documented systematic shortcomings in visual language models. Object detection performance can reach human-level accuracy, but more complex reasoning tasks, the kind Safety AI is attempting, expose deeper weaknesses. VLMs struggle to interpret three-dimensional scene structure from two-dimensional images, lack reliable spatial reasoning about relationships between objects, and often fail on what Feng calls "common sense" about visual scenes.</p>
+
+        <p>Lorenzo concedes that LLMs have "some major flaws" and struggle with spatial reasoning, which is why Safety AI also uses older machine learning methods, including image segmentation and photogrammetry, to build spatial models of sites. But he acknowledges that edge cases exist where the system will fail to recognize a hazard, and that DroneDeploy has not yet had its methodology independently audited by safety experts. Lorenzo said he hopes to arrange such an audit, though no timeline has been announced.</p>
+
+        <p>For context, a typical residential construction project might generate dozens of potential OSHA-citable conditions over its lifecycle, from missing guardrails to unsecured excavations to electrical hazards in rough-in phases. If Safety AI reviews 200 distinct hazard conditions across a project's timeline and misses 5% of them, that's 10 violations the system never flagged. Whether any of those 10 would have killed or injured a worker is unknowable in advance, which is the entire problem with probabilistic safety systems applied to catastrophic outcomes.</p>
+
+        <h2>What the Older Technology Does Better</h2>
+
+        <p>Izhak Paz, CEO of Safeguard AI in Jerusalem, has considered incorporating VLMs but chose to stay with traditional machine learning because he considers it more reliable. His system accesses real-time footage from internet-connected cameras already on site and uses an AI agent to push safety instructions directly to site managers' phones. Safeguard AI operates on roughly 3,500 sites across Israel, the United States, and Brazil.</p>
+
+        <p>"Old computer vision is still better, because it's hybrid between the machine itself and human intervention on dealing with deviation," Paz told MIT Technology Review. Training the algorithm on a new category of hazard takes weeks to more than six months of labeled footage and iterative optimization, but once trained, the system produces fewer false positives and fewer false negatives than the VLM approach, Paz claims, though he has not published comparative benchmark data.</p>
+
+        <p>Roy Danon, CEO of Buildots in Tel Aviv, builds visual progress reports for construction sites rather than safety analysis, but his perspective on accuracy thresholds is instructive. "Our system needs to be 99%. We cannot have any hallucinations," Danon said, explaining why Buildots uses labeled training data rather than generative AI. Buildots works with roughly 50 builders, most with revenue exceeding $250 million, across more than 300 projects in Europe, the Middle East, and North America.</p>
+
+        <p>Both Safeguard AI and Buildots serve builders at the mid-market level and above, which means the small and mid-size residential contractors who account for most homebuilding in the United States are effectively priced out of AI safety monitoring entirely, regardless of which technology paradigm they choose.</p>
+
+        <h2>Workers See Surveillance, Not Safety</h2>
+
+        <p>Aaron Tan, a concrete project manager in the San Francisco Bay Area, sees genuine value in a tool that could send overextended safety managers an alert instead of requiring a two-hour drive to inspect a site in person, since many safety managers are responsible for as many as 15 sites simultaneously.</p>
+
+        <p>But Tan also knows how workers react when cameras show up.</p>
+
+        <p>"At my last company, we implemented cameras as a security system, and the guys didn't like that," he told MIT Technology Review. "They were like, 'Oh, Big Brother. You guys are always watching me. I have no privacy.'"</p>
+
+        <p>Construction workers already resist safety monitoring technologies when they perceive them as tools for discipline rather than protection, a dynamic explored in research on wearable safety sensors showing that workers most likely to refuse monitoring are the ones at highest risk. Adding AI-powered cameras that can identify individual workers and flag specific behavior creates a surveillance dynamic that, if managed poorly, could drive exactly the kind of corner-cutting and evasion that the technology was designed to prevent.</p>
+
+        <h2>What This Means for Your Project</h2>
+
+        <p>If you're a general contractor running residential projects under $5 million, AI safety monitoring is probably not in your budget yet, and the tools that exist are designed for commercial and infrastructure-scale work. Your safety management will continue to depend on experienced site supervisors, regular toolbox talks, and the discipline to enforce fall protection even when it slows the schedule.</p>
+
+        <p>If you're running larger projects or managing multiple sites, DroneDeploy's Safety AI is worth evaluating as a supplementary tool, not a replacement for human safety management, and you should ask pointed questions about the 95% accuracy claim, specifically what the precision and recall breakdowns look like for the violation categories most relevant to your work, and when the independent audit Lorenzo mentioned will actually happen.</p>
+
+        <p>If you're a homeowner hiring a builder, asking whether they use AI safety monitoring is not yet a meaningful quality signal because the technology is too new and too expensive for the builders doing most residential work. A better question remains the old one: how many OSHA recordable incidents has your crew had in the last three years?</p>
+
+        <p>Ryan Calo, a robotics and AI law specialist at the University of Washington, summarized the state of the technology with a caveat that applies to every AI safety tool on the market: "I think AI and drones for spotting safety problems that would otherwise kill workers is super smart. So long as it's verified by a person."</p>
+
+        <h2>Limitations</h2>
+
+        <p>DroneDeploy's 95% accuracy figure is a self-reported precision metric that has not been independently verified or audited by third-party safety experts. Lorenzo stated his intention to arrange such an audit but provided no timeline. Safeguard AI's claims about superior reliability of traditional ML over VLMs are also unverified by published comparative benchmarks. Construction site conditions vary enormously between residential, commercial, and infrastructure projects, and accuracy figures from one sector may not generalize to another. OSHA violation frequency estimates used in the per-project analysis are approximations based on general residential construction compliance data, not a controlled study of Safety AI's performance on residential sites specifically. Worker resistance to camera monitoring is documented in adjacent research on wearable safety technologies but has not been studied specifically for VLM-based safety AI systems. DroneDeploy's pricing for Safety AI as a premium add-on has not been publicly disclosed. This article does not evaluate the legal implications of an AI system failing to flag a hazard that subsequently causes a workplace injury or death.</p>
+
+    </div>
+</article>
+</div>
+</body>
+</html>
