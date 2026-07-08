@@ -1,35 +1,11 @@
 {
-  "current": {
-    "slug": "tariff-stack-derivative-illusion",
-    "phase": "SHIP",
-    "journalist": "Catherine Chen",
-    "started": "2026-07-08T17:01:00Z",
-    "round": 1,
-    "ship_blocked": true,
-    "ship_blocked_reason": "3 articles already published today (#468, #469, #470)",
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9.5,
-      "rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 3.9,
-      "sentence_rhythm": "PASS",
-      "banned_phrases": "NONE"
-    }
-  },
+  "current": null,
   "last_completed": {
-    "article_number": 470,
-    "slug": "energy-model-rate-assumption-data-center-shock",
-    "headline": "Your Builder Modeled Your Energy Bill at 16 Cents a Kilowatt-Hour. Ohio Just Hit 19.5.",
-    "journalist": "Priya Greenwood",
-    "category": "Sustainability & Green Building",
-    "published_date": "2026-07-08",
-    "commit": "2a128fe"
+    "article_number": 471,
+    "slug": "tariff-stack-derivative-illusion",
+    "headline": "The Tariff Rate on Your Appliances Went Down. The Tariff Bill Went Up. Nobody Told the Homebuyer.",
+    "journalist": "Catherine Chen",
+    "category": "Policy & Regulation",
+    "published_date": "2026-07-08"
   }
 }
