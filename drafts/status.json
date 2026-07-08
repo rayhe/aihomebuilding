@@ -1,10 +1,25 @@
 {
   "current": {
     "slug": "tariff-stack-derivative-illusion",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
     "started": "2026-07-08T17:01:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9.5,
+      "rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 3.9,
+      "sentence_rhythm": "PASS",
+      "banned_phrases": "NONE"
+    }
   },
   "last_completed": {
     "article_number": 470,
