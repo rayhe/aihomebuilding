@@ -1,39 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 476,
     "slug": "smart-panel-load-management",
     "headline": "Your Electrician Quoted $14,000 for a Panel Upgrade. A $200 Clamp-On Device Would Have Worked.",
     "journalist": "Priya Greenwood",
     "category": "Sustainability & Green Building",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-09T09:01:00Z",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 0.0,
-      "banned_phrases": 0,
-      "sentence_rhythm": {
-        "variance": 640.4,
-        "short_pct": 10.9,
-        "long_pct": 65.5,
-        "passed": true
-      }
-    }
-  },
-  "last_completed": {
-    "article_number": 475,
-    "slug": "lidar-hvac-sizing",
-    "headline": "Your Contractor Looked at Your House for 10 Minutes and Quoted a 5-Ton AC. The Math Says 3.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
     "published_date": "2026-07-09"
   }
 }
