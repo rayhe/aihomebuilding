@@ -1,33 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 483,
     "slug": "ai-insurance-exclusion-builders",
     "headline": "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage.",
     "journalist": "Catherine Chen",
     "category": "Policy & Regulation",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-09T22:02:00-07:00",
-    "critique_scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 8.5,
-      "rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 3,
-      "the_starters_pct": 1.0,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "article_number": 482,
-    "slug": "concrete-maturity-sensor-vs-cylinder-break",
-    "headline": "Your Builder Tested Six Concrete Cylinders. None of Them Were Your Foundation.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
-    "published_date": "2026-07-09"
+    "published_date": "2026-07-10"
   }
 }
