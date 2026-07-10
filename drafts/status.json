@@ -1,34 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 485,
     "slug": "draw-schedule-ai-verification",
     "headline": "Your Builder Said the Job Was 80% Done. The Drone Counted 54.",
     "journalist": "Frank DeLuca",
     "category": "Project Management & Operations",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-10T02:15:00-07:00",
-    "critique_scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 8.5,
-      "rigor": 9,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "the_starters_pct": 14.8,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS"
-    }
-  },
-  "last_completed": {
-    "article_number": 484,
-    "slug": "hers-phantom-savings",
-    "headline": "The Number on Your Home's Energy Certificate Is Measured Against a House That Hasn't Existed for Twenty Years.",
-    "journalist": "Priya Greenwood",
-    "category": "Sustainability & Green Building",
     "published_date": "2026-07-10"
   }
 }
