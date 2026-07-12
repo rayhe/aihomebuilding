@@ -711,3 +711,14 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: per-worker investment math ($667 NABTU vs $6.67 BlackRock), Big Tech motive analysis (data centers not housing)
 - Journalist: Marcus Washington (workforce & labor beat)
 - **Published:** "Microsoft Trained 1,500 Construction Instructors to Teach AI. Their Students Still Learn From YouTube." (#500)
+
+### 69. 🟢 21st Century ROAD to Housing Act — Implementation Gap
+- Bill became law July 11, 2026 without presidential signature (Art. I, § 7 mechanism)
+- 47 provisions: only 5-7 are self-executing federal mandates (investor cap, chassis rule, NEPA, bank capital)
+- 60-70% require local opt-in (zoning reform, pattern books, CDBG scoring)
+- HUD assigned 35 new programs while staff shrinks under DOGE hiring freeze
+- Goldman Sachs 2.5M unit estimate assumes widespread local adoption (historically unlikely)
+- Chassis rule (Title 3) most consequential: eliminates permanent steel frame requirement for manufactured housing since 1976
+- Original contribution: provision classification (mandatory/incentive/study breakdown), HUD capacity math
+- Journalist: Catherine Chen (policy & regulation beat)
+- **Published:** "Congress Just Passed the Biggest Housing Bill in a Generation. Most of It Is Optional." (#508)
