@@ -699,3 +699,15 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: per-unit cost ($8,333/unit for 24-unit), 30-year combined cost ($2.9M/building), national extrapolation methodology
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Published:** "The Second Staircase Costs $200,000 and Adds Zero Apartments. The Code Requiring It Predates Sprinklers." (#452)
+
+### 68. 🟢 Big Tech AI Training for Construction Workers
+- NABTU + Microsoft (Apr 2026): 1,500 instructors trained, no-cost AI literacy courses, LinkedIn Learning delivery
+- NABTU + OpenAI (Mar 2026): Certifications and Jobs Platform near Stargate sites (TX, NM, OH, WI)
+- BlackRock Future Builders: $100M / 5 years, target 50,000 workers ($2K/worker, $6.67/worker/yr vs NABTU $667/worker/yr)
+- DEWALT study: 90% believe AI important, 8% use it (82pp gap), 87% want trade school integration
+- ServiceTitan: 74% residential contractors see AI as efficiency engine, 25% using, 48% see productivity gains
+- OpenAI OSTP: US needs 20% more skilled trades for data center/energy buildout alone
+- UK Skills England: construction "least digitally mature" sector, 65% can't complete 20 digital tasks
+- Original contribution: per-worker investment math ($667 NABTU vs $6.67 BlackRock), Big Tech motive analysis (data centers not housing)
+- Journalist: Marcus Washington (workforce & labor beat)
+- **Published:** "Microsoft Trained 1,500 Construction Instructors to Teach AI. Their Students Still Learn From YouTube." (#500)
