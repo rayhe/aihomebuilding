@@ -134,6 +134,16 @@ Active and planned research topics. Each thread has a status, key sources, and a
 - Matter protocol and future-proofing
 - **Published:** "Your Breaker Box Is the Dumbest Thing in Your House. That's About to Change." (Jake Kowalski)
 
+### 70. 🟢 PFAS ("Forever Chemicals") in Building Materials
+- Green Science Policy Institute 2021 report: PFAS in carpets, paint, sealants, roofing, wiring
+- State bans: CA AB 1817 (Jan 2025), MN Amara's Law (Jan 2025, all products by 2032), VT Act 131 (Jan 2026), WA disclosure (Jan 2026)
+- Original calculation: C&D landfill leachate 15,530 ppt vs EPA MCL 4 ppt = 3,883:1 ratio
+- Litigation: 3M $10.3-12.5B settlement, DuPont/Chemours/Corteva $4B+, 5,600+ MDL cases, NY AG 2026 consumer products lawsuit
+- EPA drinking water rule: 4 ppt MCL confirmed May 2026
+- Strongest counterargument: fluoropolymer distinction (PTFE/PVDF vs short-chain PFAS)
+- Journalist: Priya Greenwood (sustainability & green building beat)
+- **Published:** "Your Builder Used Twelve Products With Forever Chemicals. Three of Them Are Already Illegal." (#519)
+
 ---
 
 ## Workforce & Labor
