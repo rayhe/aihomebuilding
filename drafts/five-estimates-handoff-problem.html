@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Five People Estimated Your House. They Got Five Different Numbers. &mdash; AI Home Building</title>
+	<link rel="stylesheet" href="../story.css">
+	<meta property="og:title" content="Five People Estimated Your House. They Got Five Different Numbers.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="../images/five-estimates-handoff-problem.jpg?v=cdb03d01">
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Five People Estimated Your House. They Got Five Different Numbers.",
+		"author": {"@type": "Person", "name": "Jake Kowalski"},
+		"datePublished": "2026-07-13",
+		"publisher": {"@type": "Organization", "name": "AI Home Building"}
+	}
+	</script>
+</head>
+<body>
+<article class="story-page">
+<div class="story-body">
+
+<img class="hero" src="../images/five-estimates-handoff-problem.jpg?v=cdb03d01" alt="A residential construction blueprint spread across a table with multiple colored markup versions overlapping, surrounded by a laptop showing a 3D model, a lumber yard receipt, and a handwritten estimate on a legal pad">
+
+<h1>Five People Estimated Your House. They Got Five Different Numbers.</h1>
+
+<p class="byline">By <strong>Jake Kowalski</strong> &middot; July 13, 2026</p>
+
+<p>Here is what happens to a house before anyone picks up a hammer. An architect draws it, a structural engineer checks it, and an estimator counts every stud, joist, and sheet of OSB in a process that can take anywhere from three days to three weeks depending on the complexity of the plan. A lumber distributor prices those materials against whatever's in stock that week while a purchasing agent places the order and a superintendent prepares to build from a set of plans that may or may not reflect what everyone else agreed on three months ago.</p>
+
+<p>Each person works from a different file, in a different format, using a different set of assumptions about what "it" is. Where the architect sees geometry, the estimator sees quantities, and the lumber yard sees SKUs tied to warehouse locations and lead times that change weekly. The purchasing agent sees prices that expired yesterday. The superintendent sees problems nobody warned him about.</p>
+
+<p>Nobody is lying, and that might be the most expensive part of the whole arrangement, because they are all looking at the same house and arriving at different conclusions about what it costs, what it contains, and how long it will take to stand up.</p>
+
+<p>Two companies just made very large bets that this information cascade is fixable with software that keeps everyone staring at the same spatial model instead of their own private interpretation of a PDF.</p>
+
+<h2>The Handoff Tax</h2>
+
+<p>Higharc, a Durham, North Carolina startup, closed a $95 million Series C on June 30, bringing its total funding to more than $170 million. The round was led by Insight Partners, with Fifth Wall, Spark Capital, Lux Capital, and Schneider Electric's investment arm piling in. Simultaneously, Higharc announced a partnership with US LBM, the largest private distributor of lumber and building materials in the United States.</p>
+
+<p>Higharc's pitch is a single spatial database that represents a home as structured data, capturing geometry, construction standards, and code requirements in one model so that everyone who touches the project, from the designer to the distributor filling the lumber order, works from a shared source of truth rather than their own reinterpretation of a floor plan someone emailed them six weeks ago.</p>
+
+<p>Builders FirstSource, the nation's largest materials supplier, previewed a similar vision at the 2026 International Builders' Show. Their AI platform links four phases of homebuilding: community launches, plans and design, homeowner selections, and purchasing and construction. CEO Peter Jackson put it bluntly: "If you have to log in and out of 15 different systems, and move the data back and forth, the odds of it being error-free are not good."</p>
+
+<p class="pull-stat">78% of U.S. construction project owners regularly exceed their budgets. Only 31% of projects stay within 10% of the original estimate.</p>
+
+<p>Academic research spanning three decades quantifies the damage. Design-related errors alone cost between 1.5% and 6.9% of total project cost, according to studies compiled by PlanRadar from researchers including Cnudde (1991), Burati et al. (1992), and Dougherty and Hughes (2014). Construction-related rework adds another 0.3% to 3.3%. At the median new home price of roughly $420,000, that range translates to $6,300 to $29,000 per house that evaporates into handoff friction before anyone notices.</p>
+
+<p>Scale that across the roughly 1.4 million housing starts the U.S. logs annually. Even the conservative end of the academic range implies $8.8 billion in waste per year that originates not in the lumber or the labor but in the gap between what one person drew and what the next person counted.</p>
+
+<h2>What the Software Actually Does</h2>
+
+<p>Higharc's platform generates homes as what it calls spatial databases. Think of it as a digital twin, except it is not just a 3D rendering. The model encodes construction logic: which wall is load-bearing, which window satisfies an egress requirement, which framing layout meets the local energy code. When the architect moves a wall two feet, the material quantities, the structural calculations, and the code compliance checks update simultaneously.</p>
+
+<p>The new AutoTranslate feature converts existing 2D plan images into these dynamic 3D data models and spits out material quantities aligned with actual purchasable products. That last part matters. An estimator who counts "forty-seven 2x6x16" is describing lumber. A purchasing agent who orders from US LBM needs a specific SKU, at a specific price, from a specific warehouse. Higharc claims it bridges the translation.</p>
+
+<p>On the distributor side, US LBM gains the ability to generate material takeoffs from builder plan sets at enterprise scale, working from the same data the builder used to design and estimate the home, which means, at least in theory, that the debate over whose number is right gets replaced by a shared model that both sides agreed to trust before the first board was cut.</p>
+
+<p>Higharc says its customers have compressed product development cycles from months or years down to weeks or days, cut time to community opening by 25% to 50%, and increased margins by 10% to 15%. CEO Marc Minor was careful to frame those numbers honestly: "Technology is not a panacea. So much comes down to the operating model and the strategy and the reality of land."</p>
+
+<h2>Why You Should Be Skeptical</h2>
+
+<p>The "integrate everything" thesis in construction has a body count. Katerra raised $2 billion on the promise of vertically integrating design, manufacturing, and construction under one roof and filed for bankruptcy in 2021; Veev raised $647 million to build factory-assembled homes with integrated software and shut down two years later. Both had slick demos, and both collapsed when those demos met real job sites, real supply chains, and real building departments that had never heard of either company's proprietary workflow.</p>
+
+<p>The pattern is instructive. Construction is irreducibly local. A lumber yard in Phoenix stocks different species than one in Portland, at different prices, from different mills, on different lead times. A building code in one Texas county has requirements that the next county over has never heard of. An AI that "knows" a house as a spatial database still cannot account for the superintendent who discovers a plumbing run that conflicts with the architect's HVAC layout and moves a wall to make it work, which nobody tells the estimator about because the superintendent considers it a field decision, not a design change.</p>
+
+<p>Autodesk's 2026 State of Design and Make report found that only 32% of construction leaders said they had met or were close to meeting their AI goals, which means 68% tried something, measured the results, and came up short, and most of those failures were not technical but organizational: the software worked as advertised, and the people using it refused to change how they worked, because changing how people work on a job site requires something no software vendor has ever shipped in a box.</p>
+
+<p>Michael Bergin, Higharc's co-founder, acknowledged the trust deficit directly: "Builders have been promised AI and automation before, but they've gotten tools that look impressive in a demo and fall apart on a real plan set. 'Close enough' is not a standard homebuilding can afford."</p>
+
+<h2>The Market Doesn't Care About Your Demo</h2>
+
+<p>The 2026 housing market is not a forgiving environment for operational waste. According to the National Association of Home Builders, 67% of builders offered sales incentives in late 2025 and 40% cut prices outright. Construction material costs remain 39.7% above pre-pandemic levels as of October 2024. Margins that were comfortable at 4% lumber inflation become dangerous at 40%.</p>
+
+<p>That pressure is what makes the handoff problem suddenly urgent instead of merely annoying. When a builder was selling homes at a 20% margin, a 3% rework cost was irritating but survivable. At a 7% margin, that same 3% rework cost eats nearly half the profit. The difference between a profitable community and a money-losing one can be a single re-estimate triggered by a plan change that the lumber yard did not receive.</p>
+
+<p>Gayatri Narayan, president of technology at Builders FirstSource, framed the stakes plainly: builders are not looking for another point solution. They need systems where design changes flow automatically into purchasing, where a homeowner's selection of hardwood floors over carpet updates the material order without a human re-entering the data, and where the field team's as-built conditions feed back into the model so the next community launch starts from reality, not from the last set of assumptions that happened to be wrong.</p>
+
+<h2>What This Means If You're Building</h2>
+
+<p>If you are a general contractor running $2 million to $10 million in residential projects annually, the actionable question is not whether AI will transform homebuilding. It is whether your estimating, design, and purchasing workflows touch the same data or whether you are paying three people to independently interpret the same set of plans.</p>
+
+<p>Higharc's platform is not priced for public disclosure, but based on the company's positioning and funding stage, expect enterprise SaaS pricing in the range of several thousand dollars per month. For a builder doing 50 to 100 homes per year, the math works if it eliminates one re-estimate or one material ordering error per community. For a builder doing 10 homes a year, the cost-benefit is murkier. The integration only pays off if you are repeating enough plans to amortize the setup.</p>
+
+<p>Builders FirstSource's platform, tied to its materials distribution network, may offer a lower barrier to entry for builders already purchasing through BFS, but the details are not yet public.</p>
+
+<p>For custom home builders doing one-off designs, the handoff problem is real but the AI solution is less clear, because your house is drawn once, estimated once, and built once, and a spatial database gains most of its value through repetition. Build the same floor plan across a 200-lot subdivision and the ROI writes itself. Build a single custom home and you might get more value from a competent estimator who picks up the phone every Wednesday and talks to your lumber yard in a language they both understand.</p>
+
+<h2>Limitations</h2>
+
+<p>This analysis relies on Higharc's self-reported performance metrics, and no independent audit of the 25-50% time reduction or 10-15% margin improvement claims has been published. Our $8.8 billion annual waste estimate uses the low end of a 30-year academic range applied to current median home prices and start volumes, and the actual figure could be significantly higher or lower depending on how "handoff-related" waste is defined, measured, and distinguished from waste that would have occurred regardless of handoff quality. We could not independently verify how many active builders are using Higharc's platform or what their unfiltered experience has been.</p>
+
+</div>
+</article>
+</body>
+</html>
