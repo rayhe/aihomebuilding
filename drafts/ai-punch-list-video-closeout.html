@@ -12,7 +12,7 @@
 		"@context": "https://schema.org",
 		"@type": "Article",
 		"headline": "You Walked the House. You Talked Into Your Phone. The AI Sorted 47 Defects by Trade Before You Got to Your Truck.",
-		"description": "The punch list is construction's last analog bottleneck. AI video-to-list tools collapse 4-hour clipboard workflows to 15 minutes, saving production builders $84K-$180K annually in closeout admin alone.",
+		"description": "The punch list is construction's last analog bottleneck. AI video-to-list tools collapse 4-hour clipboard workflows to 15 minutes, saving production builders $110K-$270K annually in closeout admin alone.",
 		"image": "https://aihomebuilding.com/images/ai-punch-list-video-closeout.jpg?v=acbdb3fb",
 		"datePublished": "2026-07-13",
 		"author": {
@@ -36,13 +36,13 @@
 
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="You Walked the House. You Talked Into Your Phone. The AI Sorted 47 Defects by Trade Before You Got to Your Truck.">
-	<meta property="og:description" content="AI video-to-list tools collapse 4-hour punch list workflows to 15 minutes. A $29/month subscription replaces $84K-$180K in annual closeout admin for production builders.">
+	<meta property="og:description" content="AI video-to-list tools collapse 4-hour punch list workflows to 15 minutes. A $29/month subscription replaces $110K-$270K in annual closeout admin for production builders.">
 	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-punch-list-video-closeout.html">
 	<meta property="og:image" content="https://aihomebuilding.com/images/ai-punch-list-video-closeout.jpg?v=acbdb3fb">
 	<meta property="og:site_name" content="AI Home Building">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="You Walked the House. You Talked Into Your Phone. The AI Sorted 47 Defects by Trade Before You Got to Your Truck.">
-	<meta name="twitter:description" content="AI video-to-list tools collapse 4-hour punch list workflows to 15 minutes. A $29/month subscription replaces $84K-$180K in annual closeout admin.">
+	<meta name="twitter:description" content="AI video-to-list tools collapse 4-hour punch list workflows to 15 minutes. A $29/month subscription replaces $110K-$270K in annual closeout admin.">
 	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-punch-list-video-closeout.jpg?v=acbdb3fb">
 	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
@@ -202,27 +202,25 @@
 
 <p>Nobody publishes this number for residential, so I ran it myself.</p>
 
-<p>A superintendent earning $55 to $65 per hour walks a finished home for 3 to 4 hours on the initial punch list round. Call it $210 on the low end, $260 on the high end, just for the walkthrough. Then comes the office work: typing items, sorting by trade, attaching photo evidence, generating and distributing subcontractor-specific reports. That is another 2 to 3 hours at the same rate. Total documentation cost per walkthrough round: $330 to $520. Most homes require two to three rounds before the owner signs off, which means total manual closeout documentation cost per home lands between $420 and $900, depending on market rates, home complexity, and how many items the painter misses the first time.</p>
+<p>A superintendent earning $55 to $65 per hour walks a finished home for 3 to 4 hours on the initial punch list round, then spends another 2 to 3 hours back at the trailer typing items, sorting by trade, attaching photo evidence, and generating subcontractor-specific reports. Five to seven hours per round at $55 to $65 an hour: $275 to $455. Most homes require two to three rounds before the owner signs off, which means total manual closeout documentation cost per home lands between $550 and $1,350, depending on market rates, home complexity, and how many items the painter misses the first time.</p>
 
-<p>Scale that to a production builder closing 200 homes a year: $84,000 to $180,000 annually, spent entirely on the administrative overhead of telling subcontractors what they already should have seen before they left the site.</p>
+<p>Scale that to a production builder closing 200 homes a year: $110,000 to $270,000 annually, spent entirely on the administrative overhead of telling subcontractors what they already should have seen before they left the site.</p>
 
-<p>That number does not include the cost of items the punch list misses entirely. <a href="https://warrantyweek.com/">Warranty Week</a> compiled data from 27 publicly traded homebuilders showing $1.071 billion in warranty claims paid in 2024. Each warranty callback runs $200 to $500 in truck roll, labor, and material, plus the reputational damage of a homeowner telling eleven neighbors about the cracked grout they found at month nine. If a more thorough punch list catches even 10% of what currently slips through to warranty, a 200-home builder saves tens of thousands in callbacks per year, and the homeowner skips the frustration of living with defects they were promised would be fixed before closing.</p>
+<p>That number does not include the cost of items the punch list misses entirely. <a href="https://warrantyweek.com/">Warranty Week</a> compiled data from 27 publicly traded homebuilders showing $1.071 billion in warranty claims paid in 2024, with each callback costing $200 to $500 in truck roll and labor before you count the reputational damage. If a more thorough punch list catches even 10% of what currently slips through to warranty, a 200-home builder saves tens of thousands annually in callbacks alone.</p>
 
 <h2>A $29 tool and a phone camera</h2>
 
-<p><a href="https://www.walkpunch.com/">WalkPunch</a> launched in April 2026 and charges $29 per month for unlimited projects. It works like this: you walk the house, recording video on your phone, narrating what you see as you go. "Master bath, shower valve escutcheon is loose, needs plumbing trim. Master bath, grout crack along the threshold, tile repair. Master bedroom, paint scuff on the east wall trim, painter." You keep walking, keep talking, keep pointing the camera at what you are describing.</p>
-
-<p>When you stop recording, the tool extracts the audio track with ffmpeg, runs it through OpenAI's Whisper for transcription with word-level timestamps, feeds the transcript to GPT for item extraction, trade classification, room inference, and priority tagging, then pulls video frames that correspond to each identified defect as visual evidence. Output: trade-sorted PDF reports with timestamped video frame evidence, ready to email to each subcontractor.</p>
+<p><a href="https://www.walkpunch.com/">WalkPunch</a> launched in April 2026 and charges $29 per month for unlimited projects. You walk the house recording video on your phone, narrating what you see as you go: room, defect, responsible trade, next item, keep moving. When you stop recording, the tool transcribes your narration, extracts individual defect items, classifies each by trade and room, assigns priorities, and pulls video frames corresponding to each identified defect as visual evidence. Output: trade-sorted PDF reports ready to email to each subcontractor.</p>
 
 <p>Fifteen minutes replaces four hours, and that is the entire pitch.</p>
 
-<p>At the enterprise end, <a href="https://www.fieldwire.com/">Fieldwire by Hilti</a> manages over 4 million construction projects globally, offering photo annotation overlaid on floor plans, two-step verification where items are marked complete and then verified complete by a separate user, and full integration with Procore and Autodesk ecosystems. Pricing starts around $39 per user per month and climbs quickly for teams. Mason AI by <a href="https://www.ressio.io/">Ressio</a> takes a different approach, using project context to auto-generate punch list items and recommend tasks, though its residential deployment data is thin. Procore and PlanRadar offer punch list modules inside enterprise suites that cost $300 to $1,000 per month, which is a different conversation for a different size of builder.</p>
+<p>At the enterprise end, <a href="https://www.fieldwire.com/">Fieldwire by Hilti</a> manages over 4 million construction projects globally, offering photo annotation overlaid on floor plans, two-step verification where items are marked complete and then verified complete by a separate user, and full integration with Procore and Autodesk ecosystems. Pricing starts around $39 per user per month and climbs quickly for teams. Procore, PlanRadar, and CoConstruct offer punch list modules inside enterprise suites that cost $300 to $1,000 per month, which is a different conversation for a different size of builder.</p>
 
 <h2>What AI does not do</h2>
 
 <p>A video-based punch list tool transcribes what you say. Not what you see. If you walk past a cracked tile without mentioning it, the crack does not exist in the output. If you call a loose escutcheon "finish hardware" instead of "plumbing trim," the AI might classify it correctly based on context, or it might defer to your label and file it where the finish carpenter will ignore it because it is not his scope.</p>
 
-<p>Narration quality determines output quality. A superintendent who has walked five hundred homes and knows every trade's scope will narrate a precise, comprehensive punch list in one pass. A homeowner doing a pre-closing walkthrough will miss things an experienced eye catches reflexively, and no amount of transcription sophistication compensates for items that were never spoken aloud.</p>
+<p>Narration quality determines output quality, and a superintendent who has walked five hundred homes will narrate a precise, comprehensive punch list in one pass, while a homeowner doing a pre-closing walkthrough will miss things an experienced eye catches reflexively. No amount of transcription sophistication compensates for items never spoken aloud.</p>
 
 <p>WalkPunch does not perform visual analysis of the video feed itself — it listens, and this distinction matters because the hardest punch list items to catch are the ones nobody talks about: the cabinet door that closes 3 degrees off plumb, the baseboard that sits 1/16 inch proud of the drywall return, the attic insulation that was blown to R-30 instead of R-38. Those defects live in measurement and observation, not narration, and until a tool can see what a trained eye sees without being told what to look at, the superintendent's expertise remains the bottleneck rather than the clipboard.</p>
 
@@ -230,15 +228,15 @@
 
 <h2>What to do with this</h2>
 
-<p>If you are a residential builder running five or more projects concurrently, calculate your punch list admin cost per home using the formula above and compare it to $29 per month. Break-even is one home. If you are a production builder at any scale, the math is not subtle: spend the $348 per year on WalkPunch or a comparable tool, recover $84,000 to $180,000 in superintendent time, and reallocate those hours to the work that actually requires twenty years of experience rather than the typing that does not.</p>
+<p>If you are a residential builder running five or more projects concurrently, calculate your punch list admin cost per home using the formula above and compare it to $29 per month. Break-even is one home. If you are a production builder at any scale, the math is not subtle: spend the $348 per year on WalkPunch or a comparable tool, recover $110,000 to $270,000 in superintendent time, and reallocate those hours to the work that actually requires twenty years of experience rather than the typing that does not.</p>
 
-<p>If you are a homeowner approaching your pre-closing walkthrough or your 11-month warranty inspection, record a narrated video walkthrough of every room, every surface, every fixture. Open every cabinet, run every faucet, flip every switch, and say what you see out loud. Even without an AI tool to parse it, you now have timestamped video evidence of every defect you identified, which is substantially more defensible than a handwritten list your builder may contest.</p>
+<p>Homeowners approaching a pre-closing walkthrough or an 11-month warranty inspection should record a narrated video of every room, every surface, every fixture, opening every cabinet, running every faucet, flipping every switch, and saying what they see out loud. Even without an AI tool to parse it, that video becomes timestamped evidence of every defect identified, which is substantially more defensible than a handwritten list a builder may contest.</p>
 
-<p>If you are a custom home GC deciding between enterprise platforms and lightweight tools, match the tool to the problem. Fieldwire at $39 per user per month makes sense if you need plan-overlay annotation, multi-user verification workflows, and integration with an existing Procore stack. WalkPunch at $29 per month makes sense if your bottleneck is the four hours between the walkthrough and the subcontractor emails. Most residential builders I know do not need both.</p>
+<p>Custom home GCs choosing between enterprise platforms and lightweight tools should match the tool to the problem. Fieldwire at $39 per user per month makes sense if you need plan-overlay annotation, multi-user verification workflows, and integration with an existing Procore stack. WalkPunch at $29 per month makes sense if your bottleneck is the four hours between the walkthrough and the subcontractor emails. Most residential builders I know do not need both.</p>
 
 <h2>Limitations</h2>
 
-<p>WalkPunch launched three months ago and has no independently published deployment data, case studies, or third-party evaluations. Our cost-of-closeout calculations use superintendent hourly rates of $55 to $65, which vary significantly by market: union markets in the Northeast run $75 to $90, while rural Southern markets can dip below $45. Production builder volume assumptions (200 homes per year) represent large regional builders; most single-family builders complete fewer than 25 homes annually per <a href="https://www.nahb.org/">NAHB data</a>, compressing the aggregate savings proportionally. Warranty claim reduction from improved punch lists (the 10% figure) is our extrapolation from <a href="https://www.planradar.com/us/qa-qc-in-construction/">PlanRadar's 2025 QA/QC survey</a> showing that consistent quality processes reduce warranty exposure by up to 50%, not a measured outcome of AI-assisted closeout specifically. No head-to-head comparison study of AI-generated versus manually created punch list quality exists in the literature as of this writing.</p>
+<p>WalkPunch launched three months ago and has no independently published deployment data or third-party evaluations. Our cost-of-closeout calculations use superintendent hourly rates of $55 to $65, which vary significantly by market: union markets in the Northeast run $75 to $90, while rural Southern markets can dip below $45. Production builder volume assumptions (200 homes per year) represent large regional builders; most single-family builders complete fewer than 25 homes annually per <a href="https://www.nahb.org/">NAHB data</a>. Warranty claim reduction from improved punch lists (the 10% figure) is extrapolated from <a href="https://www.planradar.com/us/qa-qc-in-construction/">PlanRadar's 2025 QA/QC survey</a>, not a measured outcome of AI-assisted closeout specifically. No head-to-head comparison study of AI-generated versus manually created punch list quality exists in the literature as of this writing.</p>
 
 			<a class="back-link" href="../">&larr; Back to AI Home Building</a>
 		</article>
