@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrun Is Turning 1.1 Million Homes Into AI Data Centers. Nobody Ran a Load Calculation First. &mdash; AI Home Building</title>
+    <meta name="description" content="Sunrun launched a pilot to install AI compute nodes inside homes powered by solar and battery storage. The infrastructure those homes were built with, from 200-amp panels to 3-ton ACs to standard homeowner policies, was never designed for data center loads.">
+    <meta property="og:title" content="Sunrun Is Turning 1.1 Million Homes Into AI Data Centers. Nobody Ran a Load Calculation First.">
+    <meta property="og:description" content="Sunrun's compute node pilot puts AI inference hardware inside homes. A typical node generates 27,000 to 34,000 BTU of heat per hour. A typical home AC handles 36,000.">
+    <meta property="og:image" content="../images/sunrun-home-ai-compute-infrastructure-gap.jpg?v=918ed175">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+
+    <div class="story-hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('../images/sunrun-home-ai-compute-infrastructure-gap.jpg?v=918ed175');">
+        <a href="../index.html" class="back-link">← Back to AI Home Building</a>
+        <div class="hero-content">
+            <span class="badge">Sustainability & Green Building</span>
+            <h1>Sunrun Is Turning 1.1 Million Homes Into AI Data Centers. Nobody Ran a Load Calculation First.</h1>
+            <div class="byline">By Priya Greenwood · July 13, 2026</div>
+        </div>
+    </div>
+
+    <div class="story-body">
+
+        <p>On July 8, the same day U.S. refinery crack spreads hit a record $64.58 per barrel and Russia moved to ban diesel exports as Ukrainian strikes battered its refining infrastructure, Sunrun Inc. announced it would begin installing artificial intelligence compute nodes inside American homes — not in a shed out back, not in a purpose-built enclosure on the property, but inside the house itself, connected to the homeowner's existing solar panels and battery storage, running commercial AI inference workloads for unnamed "enterprise compute buyers" while the family watches television in the next room. Homeowners would be compensated for hosting the hardware, and Sunrun would sell the processing capacity to enterprises scrambling for inference at the edge.</p>
+
+        <p>That's the pitch. Nobody published a load calculation alongside it.</p>
+
+        <p>A compute node capable of running inference workloads at commercial scale draws somewhere between 5 and 10 kilowatts of continuous power, depending on GPU count, processor architecture, and cooling strategy. Sunrun hasn't disclosed its node specifications, but the only comparable residential compute product on the market, SPAN's XFRA platform (built in partnership with national homebuilder PulteGroup), packs 16 Nvidia RTX Pro 6000 Blackwell GPUs and four AMD Epyc processors into each outdoor unit, and at published thermal design power ratings, that hardware alone pulls roughly 6,700 watts before accounting for cooling fans, networking switches, and solid-state storage. Call it 8 to 10 kilowatts per node at steady state, or roughly the same continuous draw as two central air conditioning systems running simultaneously on the hottest day of the year.</p>
+
+        <p>Now look at the house that's supposed to absorb it.</p>
+
+        <h2>The panel math doesn't work</h2>
+
+        <p>A standard American home built in the last two decades runs on a 200-amp electrical panel at 240 volts, which gives it 48 kilowatts of theoretical capacity, a number that sounds generous until you start subtracting. Central air conditioning draws 3 to 5 kilowatts, an electric range pulls 8 to 12 kilowatts when all burners and the oven run, a clothes dryer takes another 5, an electric water heater adds 4.5, and lights, refrigerator, dishwasher, and miscellaneous loads contribute 3 to 5 more. By the time the house is simply running its appliances on a normal Tuesday, half that theoretical capacity is spoken for.</p>
+
+        <p>Add an electric vehicle charger, and the remaining margin collapses. A Level 2 EVSE pulls 7.6 to 11.5 kilowatts, a load that builders and electrical contractors have been wrestling with for years as electrification pushes homes toward the upper limit of what a single 200-amp service entrance can deliver. The National Electrical Code's Article 220 demand calculations, which determine whether a panel can legally support its connected loads, already run dangerously tight in homes with modern electric appliances and EV charging infrastructure, leaving typical headroom of 4 to 8 kilowatts, less than what a single compute node requires.</p>
+
+        <div class="pull-stat">
+            <span class="stat-number">48 kW</span>
+            <span class="stat-context">Theoretical capacity of a 200-amp, 240-volt residential panel. After HVAC, range, dryer, water heater, and an EV charger, typical remaining headroom is 4 to 8 kilowatts. A compute node needs 8 to 10.</span>
+        </div>
+
+        <p>Sunrun's response to this is solar: its pitch positions the compute node as powered by the home's existing photovoltaic array and battery storage, drawing on energy the homeowner generates on-site rather than pulling from the grid. But solar output is variable and batteries have finite capacity, and the arithmetic gets uncomfortable fast. Sunrun's residential battery units deliver 5 to 10 kilowatts of continuous output from 9.6 to 20 kilowatt-hours of storage. A 10-kilowatt compute node running 24 hours a day consumes 240 kilowatt-hours of energy, which means a fully charged 20-kilowatt-hour battery provides less than two hours of coverage at that draw rate before it's empty. When the sun goes down and the battery is depleted, the compute node pulls from the grid through the same 200-amp panel that was already at capacity with just the family's appliances.</p>
+
+        <p>SPAN takes a different approach that at least acknowledges the electrical constraint head-on. Its XFRA system lives outdoors as a separate unit, and SPAN's smart electrical panel dynamically allocates available power between the home's loads and the compute hardware, throttling the node when household demand spikes and ramping it back up during off-peak hours. PulteGroup VP Brian Jamison framed this as using "a home's underutilized power infrastructure." Underutilized is doing a lot of work in that sentence. In a home with central air, an EV charger, an electric kitchen, and a family that runs the dryer after dinner, the infrastructure isn't underutilized; it's utilized. SPAN's panel management software can juggle priorities intelligently, but software cannot create amperage that doesn't exist on the service entrance conductors.</p>
+
+        <h2>34,000 BTU, and nowhere for it to go</h2>
+
+        <p>Every watt of electrical energy consumed by a compute node exits the hardware as heat — all of it, without exception, because the first law of thermodynamics doesn't have a carve-out for residential installations. A 10-kilowatt node generates 34,120 BTU per hour of thermal energy, continuously, for as long as it's processing workloads. A typical residential air conditioning system in a Sun Belt home is a 3-ton unit, which means 36,000 BTU per hour of total cooling capacity, sized by an ACCA Manual J calculation to handle the building envelope, solar gain through windows, occupancy, and internal loads of the entire house on the hottest design day of the year in that climate zone.</p>
+
+        <p>A single compute node would consume 95% of that system's cooling capacity just to keep itself from overheating, leaving almost nothing for the rest of the house.</p>
+
+        <p>Manual J's standard assumption for internal heat gains from appliances, lighting, and occupants is 3,000 to 5,000 BTU per hour, the combined thermal output of a refrigerator humming in the kitchen, a dozen light fixtures, and a family of four going about their evening. Installing a compute node multiplies that internal load by a factor of seven to eleven, a magnitude of change that no residential HVAC system in current production is designed to accommodate. A home with a compute node doesn't need a thermostat adjustment or an HVAC tune-up; it needs an entirely separate mechanical system dedicated to rejecting the heat that the compute hardware generates around the clock.</p>
+
+        <div class="pull-stat">
+            <span class="stat-number">7–11×</span>
+            <span class="stat-context">A 10 kW compute node generates 7 to 11 times the internal heat gains that ACCA Manual J assumes for an entire home's appliances, lighting, and occupants combined.</span>
+        </div>
+
+        <p>SPAN/XFRA's outdoor placement addresses the thermal problem by rejecting heat to the exterior atmosphere, the same way a commercial condenser unit or a generator enclosure does. But Sunrun's press release describes nodes installed inside homes, and the thermal consequences of that choice depend entirely on where the hardware sits. If those nodes are in a garage, the garage becomes a 130-degree box in Phoenix summers, hot enough to degrade the adhesives in drywall tape on shared walls and to void the warranty on most consumer goods stored there. If they're in a utility closet, the adjacent rooms become uninhabitable without supplemental cooling that the existing ductwork was never designed to deliver. If they're in a basement, the moisture load from condensation forming on cool surfaces around the hot equipment introduces a mold risk that no standard home warranty or builder's warranty covers, and one that most homeowner's policies explicitly exclude under their mold limitation endorsements.</p>
+
+        <h2>The code has no article for this</h2>
+
+        <p>NEC Article 645 governs "Information Technology Equipment" installations and requires dedicated HVAC with disconnect capabilities, fire suppression or early warning systems, an emergency power-off disconnect within sight of the equipment, and specific branch circuit configurations designed to prevent IT equipment from creating hazards in the spaces that contain it. Article 645 was written for server rooms in commercial buildings, but its requirements represent the minimum standard the electrical code considers safe for continuous IT equipment operation at the power densities these compute nodes demand. A residential garage with a compute node sitting on a shelf, sharing a circuit with an automatic garage door opener and connected to the same panel that runs the kitchen, meets none of these requirements.</p>
+
+        <p>NEC Article 210, which covers dwelling unit branch circuits, contains no provision for data center equipment, and the International Residential Code has no classification for this use case at all. When Sunrun says it is "actively in discussions with homebuilders and utility partners to structure the commercial and deployment frameworks that would support expansion," it is worth understanding that those frameworks don't currently exist in any model building code, any state amendment, or any local jurisdiction's adopted code in the country.</p>
+
+        <p>Insurance presents an equally uncomfortable problem. A standard HO-3 homeowner's policy contains a "business pursuits" exclusion that denies coverage for losses arising from commercial activities conducted on the insured premises. Processing AI inference workloads for enterprise compute buyers, for which the homeowner receives monthly compensation from Sunrun, is a commercial activity operating inside a dwelling, which is definitionally the kind of thing the business pursuits exclusion was written to address. If a compute node causes a fire, an electrical fault, or water damage from a cooling system failure, and the insurer determines the loss resulted from a commercial operation, the claim is denied. ISO endorsement HO 04 84, the standard home business rider that some homeowners carry, typically caps business property coverage at $2,500 and limits business liability to a fraction of the policy's personal liability limit, nowhere near enough to cover a loss involving a rack of Blackwell GPUs or the structure that housed them. And since 2024, the insurance industry has been rolling out CG 40 47 and CG 40 48 endorsements that specifically exclude losses arising from artificial intelligence systems, which means a homeowner hosting an AI compute node could find their claim denied on two entirely independent grounds before the adjuster even visits the property.</p>
+
+        <p>Zoning adds a third layer. Most residential zones in the United States, R-1 and R-2 classifications that cover single-family and two-family dwellings, prohibit commercial and industrial activity as a permitted use. A compute node processing AI workloads for enterprise customers is, functionally and economically, a commercial data center operating in a residential zone, a use that would require at minimum a conditional use permit, a home occupation permit with conditions that most municipalities' ordinances don't contemplate, or a zoning variance. No municipality has granted such a permit for distributed AI compute. No zoning board has been asked to consider the use case. Sunrun's pilot is proceeding in a regulatory vacuum that will eventually close, and when it does, the question is whether it closes around the homeowner or around the company that put the hardware in their house.</p>
+
+        <h2>What "compute-ready" construction would actually require</h2>
+
+        <p>If homebuilders are serious about integrating distributed compute into new construction (and PulteGroup's partnership with SPAN suggests at least one major national builder is exploring it in earnest), the specification list for what might be called "compute-ready" construction is substantial enough to rewrite a production home's MEP package. Start with a dedicated 40-amp or higher circuit on its own breaker, protected by arc-fault and ground-fault interrupters rated for continuous IT loads. Add a 400-amp service entrance or dual 200-amp panels with an automatic transfer switch. Include a dedicated cooling system for the compute area, most likely a ductless mini-split or a dedicated HVAC zone, thermally isolated from the home's occupied spaces and capable of handling 30,000+ BTU of continuous heat rejection. Build fire separation between the compute room and living areas, with rated assemblies and a dedicated smoke detection zone. Install acoustic isolation, because a rack of GPU fans running at sustained load generates the kind of persistent low-frequency noise that erodes livability in ways that a builder's one-year warranty callback process is not equipped to address. Run enterprise-grade network infrastructure, meaning conduit for fiber-optic cable and a dedicated network switch with its own power supply. Secure an insurance rider or commercial policy overlay that explicitly covers AI equipment and commercial compute operations. And obtain a zoning variance or conditional use permit from the local jurisdiction, assuming the jurisdiction has a process for reviewing a use case that didn't exist when the zoning ordinance was written.</p>
+
+        <p>None of this is impossible. All of it adds cost, probably $8,000 to $15,000 on a production home, more on a custom build. And none of it appears in any production floor plan, model code provision, or building standard published anywhere in the United States as of this writing.</p>
+
+        <h2>The vision vs. the wiring</h2>
+
+        <p>Sunrun's distributed compute concept isn't inherently absurd, and dismissing it out of hand would miss the real story. It builds on a model the company has already proven at meaningful scale: aggregating residential energy assets into grid-scale resources that utilities and system operators actually depend on. Sunrun's CalReady virtual power plant in California dispatched energy to the grid more than 1,300 times in 2025, delivering 18 gigawatt-hours from 75,000 home batteries, enough to power 15 million homes for one hour. The June 24 partnership with Tesla and Renew Home to aggregate more than 16 gigawatts of flexible home energy capacity sent Sunrun stock up 26% in a single session, because investors understood the fundamental insight: residential infrastructure, at sufficient scale, becomes utility-grade infrastructure. Homes as distributed energy assets is real, and it works.</p>
+
+        <p>But batteries are passive hardware. They sit on a wall, charge and discharge on command, generate negligible heat, and require no ventilation, no dedicated circuit, and no zoning variance to operate legally in a residential dwelling. A compute node is something else entirely: an active commercial load that runs GPU clusters at sustained thermal design power around the clock, inside a structure that was engineered to shelter a family and their appliances under conditions specified by a local climate zone, not to house commercial computing infrastructure generating tens of thousands of BTU of waste heat every hour of every day. McKinsey projects AI inference demand will grow approximately 35% annually and surpass training as the dominant AI workload by 2030, and Sunrun sees a high-margin revenue stream in that projection. Wall Street sees a company whose stock has fallen 38% this year, carrying 24.84% short interest and a debt-heavy balance sheet, reaching for narrative.</p>
+
+        <p>Both perspectives miss the question that actually matters to anyone who builds, inspects, finances, or insures an American home: can the house handle it?</p>
+
+        <p>Right now, the answer is no — not the panel, not the air conditioner, not the insurance policy, and not the building code. Someone, somewhere in the coming months, is going to receive a pitch to install one of these nodes in a 1,500-square-foot tract home with a single 200-amp panel and a 3-ton air conditioner, and nobody involved in the transaction will have run the Manual J, checked the NEC load calculation, read the homeowner's insurance exclusions, or called the local building department to ask whether processing commercial AI workloads in a residential garage requires a permit.</p>
+
+        <p>Sunrun expects to complete its pilot "over the coming months." If you're a builder getting that call about deployment frameworks, run the load calc before you take the meeting. Then read your E&O policy. Then call your code official.</p>
+
+        <p>In that order.</p>
+
+    </div>
+</div>
+</body>
+</html>
