@@ -1,36 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "article_number": 521,
     "slug": "ai-aerial-roof-score-insurer-drops-you",
     "headline": "An Algorithm Graded 110 Million Roofs from Satellite Photos. Your Insurer Used the Score. You Never Saw It.",
     "journalist": "Catherine Chen",
     "category": "Policy & Regulation",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-13T16:02:00-07:00",
-    "critique_scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data": 9
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "rhythm_variance": 406.7,
-      "rhythm_short_pct": 12.3,
-      "rhythm_long_pct": 67.1,
-      "the_starters_pct": 1.4,
-      "banned_phrases": 0
-    }
-  },
-  "last_completed": {
-    "article_number": 520,
-    "slug": "smart-panel-electrification-gap",
-    "headline": "48 Million Homes Need a Panel Upgrade to Go Electric. Most of Them Don't.",
-    "journalist": "Jake Kowalski",
-    "category": "Construction Technology",
-    "published_date": "2026-07-13"
+    "published_date": "2026-07-14"
   }
 }
