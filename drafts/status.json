@@ -1,10 +1,12 @@
 {
   "current": {
     "slug": "adu-condo-first-sale-backyard",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "round": 0,
     "journalist": "Catherine Chen",
-    "started": "2026-07-13"
+    "started": "2026-07-13",
+    "ship_blocked": true,
+    "ship_blocked_reason": "5 articles already published 2026-07-13, 1/day limit"
   },
   "last_completed": {
     "article_number": 522,
