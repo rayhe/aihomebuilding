@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>A Sensor Measured Your Water Pressure 240 Times Last Second. Your Plumber Checked It Once Last Year. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-water-leak-detection-construction.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "A Sensor Measured Your Water Pressure 240 Times Last Second. Your Plumber Checked It Once Last Year.",
+		"description": "Smart water monitors use ultrasonic sensors and machine learning to catch leaks your plumber never will. The math on whether you need one is more honest than the marketing.",
+		"image": "https://aihomebuilding.com/images/ai-water-leak-detection-construction.jpg",
+		"datePublished": "2026-07-15",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-water-leak-detection-construction.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="A Sensor Measured Your Water Pressure 240 Times Last Second. Your Plumber Checked It Once Last Year.">
+	<meta property="og:description" content="Smart water monitors use ultrasonic sensors and ML to catch leaks your plumber never will. The math on whether you need one.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-water-leak-detection-construction.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-water-leak-detection-construction.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="A Sensor Measured Your Water Pressure 240 Times Last Second. Your Plumber Checked It Once Last Year.">
+	<meta name="twitter:description" content="Smart water monitors use ultrasonic sensors and ML to catch leaks your plumber never will.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-water-leak-detection-construction.jpg">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+		}
+		.story-body {
+			font-size: 1.1rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		.story-body p {
+			margin-bottom: 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			font-style: italic;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.6rem 0.8rem;
+			border-bottom: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			font-weight: 600;
+			background: var(--bg-card);
+		}
+		.stat-callout {
+			text-align: center;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			background: var(--bg-card);
+			border-radius: 8px;
+			border: 1px solid var(--border);
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1;
+		}
+		.stat-callout .label {
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 260px; }
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-water-leak-detection-construction.jpg" alt="A copper water pipe with a small smart sensor clamped onto it, LED indicator glowing blue, in a residential utility room with concrete floor and exposed joists">
+		<div class="overlay">
+			<div class="badge">Construction Technology</div>
+			<h1>A Sensor Measured Your Water Pressure 240 Times Last Second. Your Plumber Checked It Once Last Year.</h1>
+			<div class="meta">By Jake Kowalski &middot; July 15, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p><a href="../index.html" class="back-link">&larr; Back to all articles</a></p>
+
+			<p>Consider a scenario that plays out on construction sites more often than anyone in the industry likes to admit. A half-inch copper fitting on a second-floor bathroom supply line fails at 2:47 AM on a Saturday, and nobody is on site. By the time the superintendent arrived Monday morning, water had migrated through the subfloor, saturated the first-floor drywall, pooled in the basement slab, and warped $180,000 worth of engineered hardwood that had been installed the previous week. The builder's insurance claim, including rework, schedule delay, and material replacement, came to $340,000, a number that would have been roughly $8,000 if a system capable of detecting the pressure anomaly and shutting off the main within ninety seconds had been installed on the supply line before the weekend. Gone.</p>
+
+			<p>That math is why insurers are paying attention. And why you should be.</p>
+
+			<h2>The Numbers Nobody Quotes at the Sales Pitch</h2>
+
+			<p>Water damage is the second most common homeowners insurance claim in the United States, behind wind and hail, accounting for roughly 24 percent of all property claims filed between 2019 and 2023, according to the <a href="https://www.iii.org" target="_blank">Insurance Information Institute</a>. One in every 67 insured homeowners files a water damage or freezing claim annually. Yours could be next. Average payout: $13,954.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$16B</div>
+				<div class="label">Annual non-weather water damage losses across U.S. construction, per Nationwide Insurance claims analysis. Median claim costs rose 21% year-over-year, and losses exceeding $1 million have tripled since 2015.</div>
+			</div>
+
+			<p>On the commercial construction side, the data is even more pointed. Dramatically so. A <a href="https://www.munichre.com" target="_blank">Munich Re</a> study — conducted in partnership with its subsidiary HSB, which is also WINT's distribution partner — comparing construction sites equipped with AI-powered water monitoring against unprotected sites found that monitored sites submitted 73 percent fewer insurance claims and generated 90 percent less in total payouts. WINT Water Intelligence, the technology in question, uses machine learning to analyze flow patterns in real time, distinguishes between normal usage and anomalous events, and automatically shuts off the water supply when it detects a leak, all within seconds of onset. Over 400 organizations now deploy it, including Microsoft, HP, and Suffolk Construction. Not startups. Fortune 500. Several insurers have gone further than offering discounts: they now require the system as a prerequisite for coverage, which means a technology that was optional three years ago has become, for certain commercial project categories, a condition of doing business at all.</p>
+
+			<p>That is the commercial story, and it has been thoroughly told. Endlessly, in fact. What has not been told, at least not honestly, is whether the same technology makes financial sense when you shrink the building from a 200-unit multifamily to a three-bedroom colonial in a suburb where the water pressure never exceeds 60 PSI.</p>
+
+			<h2>What These Devices Actually Do</h2>
+
+			<p>A residential smart water monitor installs on your main water supply line, usually in the basement or garage, right after the pressure-reducing valve. It watches everything that flows into your house and learns what normal looks like. Everything. Run the dishwasher at 7 PM every night, fill the bathtub on Sundays, leave a garden hose running for forty minutes on Wednesdays? It learns all of that too, eventually, though it might shut off your water the first three Wednesdays while it figures out you are not catastrophically incompetent.</p>
+
+			<p>The sensing technology matters. A lot. Two fundamentally different approaches compete in this market with a difference that is anything but academic.</p>
+
+			<p>Turbine-based sensors, the older technology, spin a small impeller inside the water line and count rotations to measure flow, a straightforward mechanical approach that plumbers understand intuitively because it works the same way the flow meters on their trucks do. They are mechanically simple, well understood, and have a moving part that will eventually fail, which means they are essentially a maintenance liability built into the water line that you will need to service or replace within a decade of installation. More critically, they cannot detect pressure-only anomalies, the kind of slow pressure decay that signals a pinhole leak behind a wall before any water reaches a surface.</p>
+
+			<p>Ultrasonic sensors fire sound pulses into the water stream and measure the transit time difference between upstream and downstream signals, with no moving parts to wear out. The Phyn Plus, backed by Belkin and Uponor, samples pressure at 240 times per second, building what amounts to a continuous acoustic fingerprint of your entire plumbing system. Every fixture in your house creates a distinct pressure signature when it opens or closes: the toilet's fill valve sounds different from the kitchen faucet, which sounds different from the washing machine's solenoid, which sounds different from a hairline crack in a supply line behind the second-floor bathroom wall. The device learns these signatures over roughly 1,000 hours of operation and uses them to identify not just that water is flowing, but what is using it and whether the pattern falls outside normal bounds.</p>
+
+			<p>An independent accuracy study conducted at <a href="https://www.usu.edu" target="_blank">Utah State University</a> compared five residential smart water shutoff valves head-to-head under controlled laboratory conditions, measuring detection speed, false-positive rates, minimum detectable flow thresholds, and shutoff response times across simulated leak scenarios ranging from catastrophic pipe bursts down to slow drip rates below one gallon per hour. The Phyn Plus ranked first. Moen's Flo, StreamLabs, Buoy, and Flume followed.</p>
+
+			<h2>The Honest Cost Comparison</h2>
+
+			<p>Nobody in this market talks about total cost of ownership, so here it is:</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Device</th>
+						<th>Hardware</th>
+						<th>Install</th>
+						<th>Subscription</th>
+						<th>Auto Shutoff</th>
+						<th>Total Year 1</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Phyn Plus 2nd Gen</td>
+						<td>$600-$700</td>
+						<td>$2,400-$4,400</td>
+						<td>$0</td>
+						<td>Yes</td>
+						<td>$3,000-$5,100</td>
+					</tr>
+					<tr>
+						<td>Flo by Moen (3/4")</td>
+						<td>$500-$960</td>
+						<td>$200-$400</td>
+						<td>$60/yr (optional)</td>
+						<td>Yes</td>
+						<td>$760-$1,420</td>
+					</tr>
+					<tr>
+						<td>Guardian by Elexa</td>
+						<td>$399</td>
+						<td>$0 (valve-cap motor)</td>
+						<td>$0</td>
+						<td>Yes</td>
+						<td>$399</td>
+					</tr>
+					<tr>
+						<td>StreamLabs</td>
+						<td>$200</td>
+						<td>$0 (clamp-on)</td>
+						<td>$0</td>
+						<td>No</td>
+						<td>$200</td>
+					</tr>
+					<tr>
+						<td>Point sensors (3-pack)</td>
+						<td>$50-$130</td>
+						<td>$0</td>
+						<td>$0</td>
+						<td>No</td>
+						<td>$50-$130</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>The spread is absurd. A StreamLabs clamp-on monitor and a Phyn Plus professional installation are solving the same fundamental problem with a forty-fold cost difference. The Phyn Plus costs more to install because it requires cutting into the main water line, soldering or crimping new fittings, and often pulling a plumbing permit — most homeowners hire a licensed plumber, which at $150-$400 per hour explains the $2,400-$4,400 range. Moen's Flo has a simpler threaded connection that many handy homeowners install themselves, hence the $200-$400 estimate. Guardian takes a third approach entirely: a motorized cap that mounts over your existing shutoff valve handle and turns it mechanically, avoiding any pipe modification at all.</p> StreamLabs will tell you water is flowing when it should not be. Good to know. It will not shut it off. Bad. The Phyn Plus will identify the specific fixture, determine whether the flow pattern matches a leak signature, and close a motorized valve on your main line before you finish reading this sentence.</p>
+
+			<p>Whether that capability justifies $4,800 in additional cost depends entirely on math most vendors would prefer you not attempt, because the answer, for the majority of homeowners in homes built after 1995 with copper or PEX plumbing, is probably not.</p>
+
+			<h2>The ROI Nobody Wants You to Calculate</h2>
+
+			<p>The probability of filing a water damage claim in any given year is 1 in 67, or about 1.49 percent, per the <a href="https://www.iii.org" target="_blank">Insurance Information Institute</a>. Average claim: $13,954. Multiply them together and the expected annual loss for an average homeowner is $208.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$208</div>
+				<div class="label">Expected annual water damage loss for the average U.S. homeowner. That is the maximum annual value a leak-detection system can theoretically deliver if it prevents every incident. Insurance premium discounts, typically 5-15% where available, add $75-$225 more, depending on your carrier and coverage level.</div>
+			</div>
+
+			<p>At $208 per year in avoided expected loss, a $200 StreamLabs breaks even in under twelve months, even ignoring insurance discounts. A $400 Guardian system breaks even in two years. Both are rational purchases for essentially any homeowner. Easy math.</p>
+
+			<p>A fully installed Phyn Plus at $3,000-$5,100 needs 14 to 25 years to break even against average risk, and even if you factor in a 10 percent insurance premium discount on a $1,500 annual policy, adding roughly $150 per year, you only shave that to 8 to 14 years. Still not a quick payback, and the device has a finite lifespan, likely 10 to 15 years for the electronics, less for the motorized valve actuator.</p>
+
+			<p>So is the Phyn Plus a bad investment at that price? Not necessarily, and here is why: the expected-value calculation above treats water damage as a bell curve, evenly distributed around a $14,000 mean, and real water damage does not follow a bell curve at all. It is a fat-tailed distribution where most claims cluster between $2,000 and $8,000, but the catastrophic tail, a burst pipe while you are on vacation, a failed supply line in a finished basement, a slow leak behind a shower wall that feeds a mold colony for six weeks before anyone smells it, can reach $50,000 to $100,000 or more. FEMA estimates that a single inch of floodwater in a typical home causes up to $25,000 in damage. One inch.</p>
+
+			<p>That tail risk is what the auto-shutoff capability protects against, and it is where the economics shift decisively in favor of the more expensive systems. A $4,000 Phyn Plus that prevents one $80,000 catastrophic event over its lifetime has delivered a 20-to-1 return. Ask yourself whether your specific home sits in that tail risk zone. Most do not. Some absolutely do.</p>
+
+			<h2>Who Actually Needs One</h2>
+
+			<p>Three categories of homeowners get outsized value from an AI water monitor with auto-shutoff:</p>
+
+			<p>Owners of homes with pre-1990 plumbing. Polybutylene pipe, used in roughly 6 to 10 million U.S. homes built between 1978 and 1995, has a documented failure rate that makes it essentially uninsurable in some states. Galvanized steel corrodes from the inside out over 40 to 50 years, and the failure mode is a pinhole that seeps for months before it presents visibly. If your supply lines are older than your mortgage, a continuous pressure monitor is not a luxury but a necessary piece of risk management for a plumbing system that is actively degrading beneath your walls.</p>
+
+			<p>Owners in freeze zones who travel face a concentrated version of the same problem. Worse, actually. Frozen pipes account for a disproportionate share of catastrophic water damage claims. Devastating ones. The Insurance Information Institute reports that freezing claims, while less frequent than other water damage, carry significantly higher average costs because the failure often occurs when the homeowner is absent, the house is unheated, and the water runs undetected for days. An auto-shutoff system that detects the pressure spike preceding a freeze-burst and closes the main within seconds eliminates the highest-cost failure mode in this category.</p>
+
+			<p>New construction during the build is the third category, and it is the commercial story brought down to the residential scale. Your GC's builder's risk policy covers water damage during construction, but the deductible is yours, the schedule delay is yours, and the subcontractor who left the cap off a test port on a Saturday is everybody's problem. WINT's data shows that water incidents during construction are heavily concentrated in the mechanical rough-in and finish plumbing phases, exactly when the most expensive materials are already installed and exposed. A temporary monitoring system during construction costs a fraction of the rework it prevents. Cheap insurance.</p>
+
+			<h2>What These Devices Cannot Do</h2>
+
+			<p>They cannot detect a leak downstream of the main line that does not affect whole-house pressure. A dripping faucet at 0.1 gallons per hour? The Phyn Plus claims it can catch that. A slow seep at a washing machine connection? It depends on the flow rate relative to baseline noise. A roof leak, a foundation crack admitting groundwater, or an HVAC condensate drain overflow? None of these touch the pressurized supply system, and no main-line monitor will see them. Invisible threats. Point sensors, the $50 pucks you place under water heaters and behind toilets, remain the only detection method for gravity-driven and appliance-specific leaks.</p>
+
+			<p>They also cannot locate a leak once detected. They know water is flowing abnormally, but they do not know where. The Phyn app will tell you it detected a signature consistent with a toilet running in the upstairs bathroom at 3 AM, but that inference is probabilistic, not positional, and becomes less reliable in houses with complex plumbing trees or multiple water heaters.</p>
+
+			<p>And they cannot avoid false positives during the learning period. Every owner of a Phyn Plus has a story about the system shutting off their water during a perfectly ordinary shower three days after installation, and the learning phase lasts roughly three weeks. Moen's FloSense algorithm is more aggressive about staying armed during its calibration window, which means fewer shutoffs but more missed anomalies in the first month. Neither approach is wrong, but both require patience that most homeowners have not been warned about. Nobody tells you that part.</p>
+
+			<p>There is also a harder question that the industry would rather you not ask: a motorized shutoff valve is itself a single point of failure on your main water line. If the valve motor jams closed during a high-demand event, your house has no water. If it fails to close during an actual leak, you have all the cost of the system and none of the protection. Power outages, WiFi dropouts, and firmware bugs are not hypothetical for an IoT device that sits on a pipe for a decade. The auto-shutoff systems add genuine value for tail-risk scenarios, but they also introduce a mechanical dependency that did not exist before installation, and the long-term failure rates of these motorized valves in residential settings have not been independently studied.</p>
+
+			<h2>Where the Industry Is Going</h2>
+
+			<p>Where this is all headed is obvious, and it will be driven by insurance underwriting rather than consumer demand: smart water monitors will become standard equipment in new residential construction within five years. Munich Re's data on commercial sites is too clean to ignore: 73 percent fewer claims, 90 percent fewer payouts. Read those numbers twice. As the residential dataset grows, carriers will move from offering premium discounts to requiring installation as a condition of coverage, exactly the trajectory that already played out with smoke detectors in the 1970s and security systems in the 2000s.</p>
+
+			<p>The technology still has a standardization problem that nobody in the industry seems eager to solve. Typical. Phyn, Moen, Guardian, and StreamLabs each run proprietary cloud platforms that do not interoperate with each other, with building management systems, or with the whole-home energy monitors now hitting the market. Matter, the smart-home connectivity standard backed by Apple, Google, and Amazon, does not yet include a device category for water monitors. Until it does, every system is a silo, and every homeowner who switches brands starts the learning process from scratch.</p>
+
+			<p>There is also a regulatory gap that building codes have not yet closed. Not even close. No U.S. jurisdiction currently requires smart water monitoring in new residential construction. The 2024 IBC added language about electronic leak detection in commercial applications, but the IRC, which governs residential construction, remains entirely unaddressed, a gap that gets harder to defend when the Insurance Information Institute's own numbers show non-weather water damage claims outnumber fire claims by roughly six to one.</p>
+
+			<h2>The Recommendation</h2>
+
+			<p>If you are building a new home: specify a smart water shutoff valve in the plumbing package. Marginal cost during construction, when the main line is already exposed and a plumber is already on site, is $600 to $1,200 for the device and essentially zero for installation labor. Doing it as a retrofit after the walls close costs three to five times more. Do not wait. This is the single highest-ROI decision you can make on the plumbing side of a new build. Bar none.</p>
+
+			<p>If you own an existing home and your plumbing is less than 25 years old: a $200-$400 clamp-on monitor with a set of $50 point sensors under the water heater, washing machine, and dishwasher covers 80 percent of your risk profile at a cost that pays for itself in under two years.</p>
+
+			<p>If your plumbing predates 1995, you travel frequently, or you have a finished basement with irreplaceable contents: the Phyn Plus or Flo by Moen with auto-shutoff is the right tool, and you should go in with your eyes open about the economics. Installation costs are real, and the break-even period is long in expected-value terms — 14 to 25 years without insurance discounts, 8 to 14 with — but you are not buying expected value when you install one of these systems. You are buying protection against the $50,000 Saturday-night pipe burst that the expected-value calculation averages away into statistical insignificance.</p>
+
+			<p>Your plumber checks your system for an hour once a year. Maybe. If you remember to call. A $200 sensor checks it 240 times per second, every second, including at 2:47 AM on a Saturday when nobody is on site and the copper fitting on the second-floor supply line has had enough.</p>
+
+			<h2>What We Did Not Prove</h2>
+
+			<p>The ROI calculation above uses national average claim costs and frequencies from the Insurance Information Institute (2019-2023 data). Regional variation is significant: freeze-zone states report claim frequencies 2 to 3 times the national average, while arid-climate states report lower frequencies but similar severity when incidents occur. We could not obtain device-specific failure rates or false-positive rates under controlled conditions for any product other than the Phyn Plus, which was the only device subjected to an independent accuracy study (Utah State University). Manufacturer marketing claims about detection sensitivity, particularly for slow-drip leaks below 0.5 GPH, remain unverified by any independent lab, and should be treated as sales copy until a peer-reviewed study proves otherwise. The Munich Re study on WINT's construction-site performance was conducted on commercial projects; no equivalent peer-reviewed study exists for residential-scale deployment of any smart water monitor. Finally, the insurance premium discount data (5-15 percent) is based on carrier marketing materials and varies by state, carrier, and policy type; actual discount availability should be confirmed in writing with your specific insurer before factoring it into a purchase decision.</p>
+
+		</article>
+
+		<div style="margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--border); font-size:0.9rem; color:var(--text-muted);">
+			<p><strong>Jake Kowalski</strong> covers construction technology for AI Home Building. He spent 12 years on commercial and residential job sites before switching to a keyboard. He still has calluses.</p>
+			<p><a href="../index.html" class="back-link">&larr; Back to all articles</a></p>
+		</div>
+	</div>
+
+<script>
+if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+</script>
+</body>
+</html>
