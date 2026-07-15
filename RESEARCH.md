@@ -732,3 +732,15 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: provision classification (mandatory/incentive/study breakdown), HUD capacity math
 - Journalist: Catherine Chen (policy & regulation beat)
 - **Published:** "Congress Just Passed the Biggest Housing Bill in a Generation. Most of It Is Optional." (#508)
+
+### 70. 🟡 DOE Zero Energy Home Program Rename & Net-Zero Marketing Gap
+- DOE renamed "Zero Energy Ready Home" to "DOE Efficient New Homes" in late 2025 — dropped "zero" from program name
+- HERS Index baseline is 2006 IECC — modern code homes score ~70 automatically, inflating savings claims
+- 12,000+ ZERH-certified homes; only ~1% of Meritage buyers (10K homes/yr) add enough solar for actual net-zero
+- California NEM 3.0 (April 2023) cut solar export credits ~75%; payback doubled from 5-6 to 14-15 years
+- NIST NZERTF found "significant variation" between simulated and measured performance
+- LBNL 1996: rating systems overestimated energy cost ~50%, no clear relationship between rating score and actual cost
+- Green Built Alliance uses HERS ≤15 (not 0) as net-zero threshold
+- Sources: DOE, RESNET, NIST, LBNL, Green Builder Media, HousingWire, Wood Mackenzie, EnergySage, Builder, ULI
+- Journalist: Priya Greenwood (sustainability beat)
+- **Draft:** "The Government Renamed Its 'Zero Energy' Home Program. The Word It Dropped Was 'Zero.'" (#537)
