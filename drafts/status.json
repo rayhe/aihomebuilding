@@ -1,10 +1,18 @@
 {
-  "current": null,
-  "last_completed": {
-    "number": 542,
-    "slug": "ai-home-inspection-voice-report-bottleneck",
-    "headline": "Your Home Inspector Wrote Your Report at His Kitchen Table That Night. The New Ones Dictate It on Your Roof.",
+  "current": {
+    "slug": "ai-takeoff-tools-last-20-percent",
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
+    "started": "2026-07-16",
+    "round": 3,
+    "ship_blocked_until": "2026-07-17",
+    "ship_blocked_reason": "5 articles published today (541-543+), 1/day limit"
+  },
+  "last_completed": {
+    "number": 543,
+    "slug": "ai-wildfire-survivability-structure-separation",
+    "headline": "An AI Studied Every California Wildfire Since 2013. The Biggest Factor Wasn't Your Roof. It Was the Gap Between Houses.",
+    "journalist": "Priya Greenwood",
     "date": "2026-07-16"
   },
   "ship_ready": []
