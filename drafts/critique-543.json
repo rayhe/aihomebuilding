@@ -1,0 +1,41 @@
+{
+  "article_number": 543,
+  "slug": "ai-wildfire-survivability-structure-separation",
+  "journalist": "Priya Greenwood",
+  "round": 1,
+  "critics": {
+    "general_editor": {
+      "score": 9.0,
+      "notes": "Strong cold open with staccato material fragments that set up the reveal. Logical flow: Berkeley study → insurance crisis → KB Home case study → neighbor problem → actionable advice → honest limitations. The $2,780 hook is compelling throughout. Headline is specific and surprising. At ~1,800 words, appropriate for a deep dive. No filler paragraphs — every section earns its place."
+    },
+    "voice_coach": {
+      "score": 9.0,
+      "notes": "All rhythm gates pass (variance 200.2, short 14.3%, long 47.3%). Zero em dashes, zero banned phrases, 3.1% 'The' starters. Voice is consistent with Priya Greenwood's profile: passionate but evidence-based, connects energy/insurance data to real household impact, strong use of comparisons and contrasts. 'Let me do the math nobody has published' is a Priya move. No AI tells detected."
+    },
+    "ethics_reviewer": {
+      "score": 9.0,
+      "notes": "No preachiness — lets economics make the argument rather than moralizing about wildfire preparedness. Insurance companies described factually, not demonized. IBHS standard presented as economically rational, not virtuous. Commissioner Lara quote is attributed without editorial spin. The 'talk to your neighbors' closing is actionable, not preachy. Does not self-congratulate about the original calculation."
+    },
+    "social_shareability": {
+      "score": 9.0,
+      "notes": "Multiple strong pull quotes: 'Distance. How far away the next house is.' — 'Fire does not care whose property line it crosses.' — 'You cannot move your neighbor's house.' The $2,780 figure is memorable and specific. The 4.3x ROI is shareable. Cost comparison table is visual. Headline has strong click-through potential without being clickbait — the reveal is genuine."
+    },
+    "legal_accuracy": {
+      "score": 8.5,
+      "notes": "UC Berkeley study cited with Nature Communications link. IBHS cost analysis linked directly. FAIR Plan data attributed to California Department of Insurance. Consumer Watchdog surcharge estimate attributed. CWUIC Part 7 reference correct for California wildfire code. KB Home/FastCompany case study linked. Roy Wright and Steve Ruffner quotes attributed with titles. Ricardo Lara quote attributed with title. All statutory and regulatory references check out."
+    },
+    "research_rigor": {
+      "score": 9.0,
+      "notes": "Original contribution: 4.3x ROI calculation on $2,780 ember-resistant perimeter investment — novel analysis with transparent methodology (inputs: $700K home, 10% 30-year exposure probability, 17% reduction). Limitations section is strong and honest: model scope (CA only), 18% misclassification rate, no firefighting response variable, statistical vs. individual benefit, cost variability, and the structural limitation that separation distance is a zoning variable not a homeowner variable. Strongest counterargument engaged at full strength: the most important finding identifies a problem existing homeowners cannot individually solve."
+    },
+    "data_presentation": {
+      "score": 9.0,
+      "notes": "Cost comparison table is clean and useful (4 standards, 3 columns). 82% stat callout is visually prominent. All numbers are specific ($2,780, not 'thousands'; 642,010, not 'hundreds of thousands'; 1,073%, not 'over 1,000%'). ROI math shown step by step with inputs. FAIR Plan growth percentages give geographic context. No unsourced numerical claims."
+    }
+  },
+  "all_passed": true,
+  "min_score": 8.5,
+  "max_score": 9.0,
+  "average_score": 8.93,
+  "gate_status": "PASS"
+}
