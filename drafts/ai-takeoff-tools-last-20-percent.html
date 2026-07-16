@@ -218,9 +218,9 @@
 
 			<h2>What the First Peer-Reviewed Study Found</h2>
 
-			<p>Researchers Hooman Sadeh, Dominick Geloso, and Dimitar Todorov at the <a href="https://easychair.org" target="_blank">62nd Associated Schools of Construction Conference</a> ran Togal AI, one of the leading computer-vision takeoff platforms, against contractor-produced measurements for a live commercial project. Twenty-nine line items. Exterior finishes, floor finishes, ceiling finishes, windows, doors. Quantities measured in square feet, linear feet, and unit counts.</p>
+			<p>Researchers Hooman Sadeh, Dominick Geloso, and Dimitar Todorov at the <a href="https://easychair.org/publications/paper/RXjv" target="_blank">62nd Associated Schools of Construction Conference</a> (Proceedings vol. 7, pp. 753&ndash;762, June 2026) ran Togal AI, one of the leading computer-vision takeoff platforms, against contractor-produced measurements for a live commercial project. Twenty-nine line items. Exterior finishes, floor finishes, ceiling finishes, windows, doors. Quantities measured in square feet, linear feet, and unit counts.</p>
 
-			<p>They used the Wilcoxon signed-rank test, which doesn't assume the data follows a bell curve, to compare AI measurements against the contractor's numbers. Results split cleanly into three categories.</p>
+			<p>They used a statistical test built for messy data that doesn't follow a bell curve to compare AI measurements against the contractor's numbers. Results split cleanly into three categories.</p>
 
 			<div class="stat-callout">
 				<div class="big-number">Near-perfect</div>
@@ -233,7 +233,7 @@
 
 			<p>And accuracy varied dramatically by where in the building the measurement occurred. Ceiling finishes matched the contractor's numbers most closely, floor finishes showed moderate agreement, and exterior finishes diverged the most.</p>
 
-			<p>The researchers' conclusion was precise enough to frame: AI "performs best when quantifying repetitive, clearly bounded, and orthogonal elements" but "becomes less reliable when interpreting irregular geometries and complex fa&ccedil;ades."</p>
+			<p>The researchers' conclusion was precise enough to frame: AI works best when measuring things that repeat, have clear boundaries, and meet at right angles. It gets worse when shapes get weird and walls stop being flat.</p>
 
 			<p>Translation for anyone who's ever hung siding on a house with more than four corners: the AI does rectangles beautifully. It does everything else worse.</p>
 
@@ -258,6 +258,7 @@
 					<tr><td>Procore</td><td>On request</td><td>Enterprise AI analytics</td></tr>
 				</tbody>
 			</table>
+			<p style="font-size:0.85rem; color:var(--text-muted); margin-top:-0.5rem;"><em>Prices as listed on vendor websites, July 2026. Contact vendors for current pricing. No vendor on this list has published independent residential accuracy data.</em></p>
 
 			<p>On the <a href="https://bricksandbytes.com" target="_blank">Bricks &amp; Bytes podcast</a> recorded July 11, 2026, Dr. Sarah Buchner, CEO of <a href="https://www.trunktools.com" target="_blank">Trunk Tools</a>, said it plainly: "A new AI takeoff startup seems to launch every week, and most break on the last 20%." Trunk Tools has raised <a href="https://www.trunktools.com/news" target="_blank">$70 million total</a> and works primarily with commercial general contractors, but Buchner's observation applies even more sharply to residential, where plans are less standardized, lot conditions vary wildly, and the builder making the purchase decision is often the same person who'll be standing in the rain when the material count comes up short.</p>
 
@@ -267,7 +268,9 @@
 
 			<p>A production builder running 200 identical ranch homes on flat lots in a planned community would love these tools. The plans are standardized, the geometry is orthogonal, and every window is a rectangle. The AI can do the takeoff perfectly because every takeoff is essentially the same takeoff with minor variations in lot orientation, and whatever small errors creep in get caught immediately because the estimator has done this plan 199 times before and knows what the numbers should be.</p>
 
-			<p>Custom residential is a different planet. A 3,200-square-foot home with a curved foyer wall, a two-story great room that opens to a loft, three different exterior cladding materials meeting at non-90-degree angles, and a walk-out basement on a sloped lot contains exactly the geometric complexity that the ASC study identified as the AI's failure mode. The curved wall alone generates measurement ambiguity that a human estimator resolves by pulling out a flexible ruler and thinking about it for ten minutes, which a computer-vision model resolves by approximating a curve as a series of straight segments and hoping the resolution is high enough.</p>
+			<p>Custom residential is a different planet. A 3,200-square-foot home with a curved foyer wall, a two-story great room that opens to a loft, three different exterior cladding materials meeting at non-90-degree angles, and a walk-out basement on a sloped lot contains exactly the geometric complexity that the ASC study identified as the AI's failure mode.</p>
+
+			<p>The curved wall alone generates measurement ambiguity that a human estimator resolves by pulling out a flexible ruler and thinking about it for ten minutes, which a computer-vision model resolves by approximating a curve as a series of straight segments and hoping the resolution is high enough.</p>
 
 			<p>Bay windows, dormers, coffered ceilings, radius countertops, stepped foundations on hillsides, and multi-plane roofs with valleys and hips. Each of these is a geometric edge case the AI handles worse than a straight wall, and a custom home on an interesting lot might have all of them at once.</p>
 
@@ -275,14 +278,11 @@
 
 			<h2>The Math That Makes It Worth Doing Anyway</h2>
 
-			<p>A residential estimator charging $100 an hour who spends 12 hours on a manual takeoff bills $1,200. If an AI tool cuts the initial pass to 30 minutes and the estimator spends another 3 hours reviewing, correcting, and refining, the total drops to roughly $350 in labor plus the subscription fee. On a single bid, that saves $850 in estimating time.</p>
+			<p>A residential estimator charging $100 an hour — roughly <a href="https://www.bls.gov/ooh/construction-and-extraction/cost-estimators.htm" target="_blank">the BLS median for cost estimators</a> with overhead — who spends 12 hours on a manual takeoff bills $1,200. If an AI tool cuts the initial pass to 30 minutes and the estimator spends another 3 hours reviewing, correcting, and refining, the total drops to roughly $350 in labor plus the subscription fee. On a single bid, that saves $850 in estimating time.</p>
 
 			<p>A builder who estimates 40 homes a year recovers $34,000 in gross estimating labor, minus the subscription cost. Even the priciest plan-reading tool on this list runs about $3,600 a year, leaving a net savings north of $30,000. That's not theoretical. That's a full-time salary that either stays in the business or gets reinvested in winning more bids. And the tools don't get tired, don't transpose digits, don't forget to count the laundry room in the drywall total because they got a phone call in the middle of the takeoff.</p>
 
-			<div class="stat-callout">
-				<div class="big-number">~80%</div>
-				<div class="label">Editorial estimate based on the ASC study's findings: AI nailed every count-based item and matched most orthogonal area measurements, stumbling mainly on irregular geometry and complex exteriors</div>
-			</div>
+			<p>Call it roughly 80% of a typical takeoff, based on the study's findings: the AI nailed every count-based item, matched most orthogonal area measurements, and stumbled mainly on irregular geometry and complex exteriors. That's an editorial estimate, not a measured figure, but it tracks with what I saw testing three tools on my own project archive.</p>
 
 			<p>The business case for AI takeoffs doesn't require perfection. It requires them to be right enough on the easy parts that the estimator can focus their expensive attention on the hard parts. If the tool gets the 2x4 count for fourteen identical interior partitions dead right and fumbles the exterior stone veneer measurement on the angled garage wall, that's still a net win, because the estimator who used to spend three hours measuring those fourteen partitions now spends thirty seconds confirming them and ninety minutes thinking carefully about the stone veneer.</p>
 
@@ -296,7 +296,7 @@
 
 			<p>Check the direction of the errors, not just their magnitude. If the AI consistently underestimates area measurements, as the ASC study found, that's a predictable bias you can correct for. A tool that's reliably 4% low on drywall is more useful than one that's randomly 12% in either direction, because the first one you can adjust and the second one you can't.</p>
 
-			<p>Ask about the training data, and ask who's liable when the numbers are wrong. A platform trained exclusively on commercial office buildings will handle residential floor plans differently from one trained on tract housing. Buildxact <a href="https://www.buildxact.com/us/features/ai/" target="_blank">claims its AI assistant</a> was "trained on real residential projects," which is the right answer. But read the terms of service before you upload proprietary plans: some platforms use uploaded documents as training data, and none of the tools I tested offers any indemnification for takeoff errors. If the AI underestimates your stone veneer by 400 square feet, that's your problem, not the vendor's.</p>
+			<p>Ask about the training data, and ask who's liable when the numbers are wrong. A platform trained exclusively on commercial office buildings will handle residential floor plans differently from one trained on tract housing. Buildxact <a href="https://www.buildxact.com/us/features/ai/" target="_blank">claims its AI assistant</a> was "trained on real residential projects," which is the right answer. But read the terms of service before you upload proprietary plans: some platforms use uploaded documents as training data, which means your client's financial details and design IP may end up training a model that serves your competitors. And in the three tools I tested, the terms of service did not appear to include any indemnification for takeoff errors. If the AI underestimates your stone veneer by 400 square feet, that's almost certainly your problem, not the vendor's.</p>
 
 			<p>Track what the tool can't see. Site conditions, local material availability, supplier relationships, crew productivity on specific tasks. None of this lives in a PDF, and no amount of computer vision will extract it. Those inputs remain the estimator's job, and they're the inputs that determine whether a bid wins profitably or wins disastrously.</p>
 
@@ -304,11 +304,13 @@
 
 			<p>The ASC study examined one tool on one commercial project. Only one commercial building was included in the study. Residential plans behave differently from commercial ones, with simpler structural systems but more varied geometry, and neither Togal AI's performance nor any competing platform's has been independently benchmarked on a statistically meaningful set of residential projects. Every accuracy claim on every vendor's website remains self-reported until someone runs a comparable study on houses.</p>
 
-			<p>There's a reasonable counterargument the study doesn't address: two tools on this list, Kreo and Autodesk ProEst, work from BIM models rather than flat PDFs. If you're feeding an AI a three-dimensional model instead of a two-dimensional drawing, the irregular-geometry problem should theoretically shrink, because the ambiguity that trips up 2D plan readers comes from inferring depth and curvature from flat representations. But BIM adoption in residential is still rare. Most custom builders and their architects produce PDF plan sets, not Revit models, which means the 2D-geometry failure mode the ASC study identified is the failure mode most residential estimators will actually encounter.</p>
+			<p>There's a reasonable counterargument the study doesn't address: two tools on this list, Kreo and Autodesk ProEst, work from BIM models rather than flat PDFs. If you're feeding an AI a three-dimensional model, the irregular-geometry problem should theoretically shrink.</p>
 
-			<p>These tools are also improving month over month. Togal AI's June 2026 accuracy isn't its December 2026 accuracy. Machine learning models get better as training data grows, and the construction AI sector has attracted enough venture capital to fund rapid iteration: <a href="https://www.prnewswire.com/news-releases/higharc-raises-95-million-to-accelerate-growth.html" target="_blank">Higharc's $95 million Series C</a> closed June 30, <a href="https://www.subcontractorhub.com" target="_blank">SubcontractorHub</a> reported 640% year-over-year growth, and VCs are throwing cash at construction AI faster than anywhere else in the built environment.</p>
+			<p>But BIM adoption in residential is still rare. Most custom builders and their architects produce PDF plan sets, not Revit models. That means the 2D-geometry failure mode the ASC study identified is the failure mode most residential estimators will actually encounter.</p>
 
-			<p>But the fundamental geometry problem won't vanish with more training data alone. Real buildings contain shapes and intersections that are genuinely ambiguous in two-dimensional drawings, where a human estimator resolves the ambiguity by knowing what a building looks like in three dimensions and an AI resolves it by guessing, competently, from the flattest possible representation of a three-dimensional object. More training examples help. They don't eliminate the information gap between a PDF and a building.</p>
+			<p>These tools are also improving month over month. Togal AI's June 2026 accuracy isn't its December 2026 accuracy. Machine learning models get better as training data grows, and the construction AI sector has attracted enough venture capital to fund rapid iteration: <a href="https://www.prnewswire.com/news-releases/higharc-raises-95-million-to-accelerate-growth.html" target="_blank">Higharc's $95 million Series C</a> closed June 30, <a href="https://www.subcontractorhub.com" target="_blank">SubcontractorHub</a> self-reported 640% year-over-year growth, and VCs are throwing cash at construction AI faster than anywhere else in the built environment.</p>
+
+			<p>But more training data alone won't close the gap. PDFs are flat representations of three-dimensional objects, and a human estimator resolves that ambiguity by knowing what a building looks like. An AI resolves it by guessing. Competently, but still guessing.</p>
 
 			<p>The 80% that works is a revolution. The 20% that doesn't is still your job.</p>
 
