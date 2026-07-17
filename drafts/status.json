@@ -1,5 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "drone-grading-verification-residential-math",
+    "phase": "SHIP_READY",
+    "round": 1,
+    "journalist": "Frank DeLuca",
+    "started": "2026-07-17",
+    "critique_score": 8.9,
+    "headline": "An $800 Drone Flight Would Have Caught the Grading Error. Nobody Ordered One.",
+    "number": 547
+  },
   "last_completed": {
     "number": 546,
     "slug": "ai-permit-review-cities-liability",
@@ -7,5 +16,14 @@
     "journalist": "Catherine Chen",
     "date": "2026-07-17"
   },
-  "ship_ready": []
+  "ship_ready": [
+    {
+      "number": 547,
+      "slug": "drone-grading-verification-residential-math",
+      "headline": "An $800 Drone Flight Would Have Caught the Grading Error. Nobody Ordered One.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.9,
+      "ship_after": "2026-07-18"
+    }
+  ]
 }
