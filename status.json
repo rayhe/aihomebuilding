@@ -1,21 +1,28 @@
 {
   "current": {
-    "number": 544,
-    "slug": "ai-takeoff-tools-last-20-percent",
-    "headline": "A New AI Takeoff Startup Launches Every Week. They All Break on the Same 20%.",
-    "journalist": "Jake Kowalski",
-    "phase": "SHIP",
-    "round": 3,
-    "date": "2026-07-16",
+    "number": 548,
+    "slug": "smart-moisture-sensors-new-construction",
+    "headline": "84% of Homes Have a Smoke Detector. 17% Have a Water Sensor. Water Causes More Claims.",
+    "journalist": "Priya Greenwood",
+    "phase": "CRITIQUE",
+    "round": 1,
+    "date": "2026-07-17",
     "ship_blocked": true,
-    "ship_blocked_reason": "4 articles already published on 2026-07-16; waiting for 2026-07-17"
+    "ship_blocked_reason": "Article #546 already published 2026-07-17; waiting for 2026-07-18"
   },
   "last_completed": {
-    "number": 543,
-    "slug": "ai-wildfire-survivability-structure-separation",
-    "headline": "An AI Studied Every California Wildfire Since 2013. The Biggest Factor Wasn't Your Roof. It Was the Gap Between Houses.",
-    "journalist": "Priya Greenwood",
-    "date": "2026-07-16"
+    "number": 546,
+    "slug": "ai-site-grading-topsoil-depth-optimization",
+    "headline": "AI Site Grading Can't Tell You How Deep the Topsoil Is. That's the One Thing That Matters.",
+    "journalist": "Catherine Chen",
+    "date": "2026-07-17"
   },
-  "ship_ready": []
+  "ship_ready": [
+    {
+      "number": 547,
+      "slug": "drone-grading-verification-residential-math",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-18"
+    }
+  ]
 }
