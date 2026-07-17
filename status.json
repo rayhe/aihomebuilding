@@ -1,12 +1,12 @@
 {
   "current": {
-    "number": 547,
-    "slug": "drone-grading-verification-residential-math",
-    "journalist": "Frank DeLuca",
-    "phase": "SHIP",
-    "round": 0,
+    "number": 552,
+    "slug": "ai-takeoff-revision-blindspot",
+    "journalist": "Jake Kowalski",
+    "phase": "CRITIQUE",
+    "round": 1,
     "date": "2026-07-17",
-    "headline": "An $800 Drone Flight Would Have Caught the Grading Error. Nobody Ordered One."
+    "headline": "Every AI Takeoff Demo Shows a Fresh Upload. Nobody Shows Revision 4."
   },
   "last_completed": {
     "number": 549,
@@ -16,6 +16,12 @@
     "date": "2026-07-17"
   },
   "ship_ready": [
+    {
+      "number": 547,
+      "slug": "drone-grading-verification-residential-math",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-18"
+    },
     {
       "number": 548,
       "slug": "smart-moisture-sensors-new-construction",
@@ -27,6 +33,12 @@
       "slug": "contech-market-housing-starts-mismatch",
       "journalist": "Frank DeLuca",
       "ship_after": "2026-07-20"
+    },
+    {
+      "number": 551,
+      "slug": "sba-self-certification-ai-permit-precheck-collision",
+      "journalist": "Catherine Chen",
+      "ship_after": "2026-07-21"
     }
   ]
 }
