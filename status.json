@@ -1,41 +1,32 @@
 {
-    "current": {
-        "number": 549,
-        "slug": "transformer-shortage-residential-dark-houses",
-        "headline": "The Houses Were Finished. They Sat Dark for Five Months Waiting for a Transformer.",
-        "journalist": "Frank DeLuca",
-        "phase": "SHIP_READY",
-        "round": 1,
-        "date": "2026-07-17",
-        "ship_blocked": true,
-        "ship_blocked_reason": "Article #547 ships 2026-07-18; #548 ships 2026-07-19; earliest ship date 2026-07-20",
-        "ship_after": "2026-07-20"
+  "current": {
+    "number": 547,
+    "slug": "drone-grading-verification-residential-math",
+    "journalist": "Frank DeLuca",
+    "phase": "SHIP",
+    "round": 0,
+    "date": "2026-07-17",
+    "headline": "An $800 Drone Flight Would Have Caught the Grading Error. Nobody Ordered One."
+  },
+  "last_completed": {
+    "number": 549,
+    "slug": "transformer-shortage-residential-dark-houses",
+    "headline": "The Houses Were Finished. They Sat Dark for Five Months Waiting for a Transformer.",
+    "journalist": "Frank DeLuca",
+    "date": "2026-07-17"
+  },
+  "ship_ready": [
+    {
+      "number": 548,
+      "slug": "smart-moisture-sensors-new-construction",
+      "journalist": "Priya Greenwood",
+      "ship_after": "2026-07-19"
     },
-    "last_completed": {
-        "number": 546,
-        "slug": "ai-site-grading-topsoil-depth-optimization",
-        "headline": "AI Site Grading Can't Tell You How Deep the Topsoil Is. That's the One Thing That Matters.",
-        "journalist": "Catherine Chen",
-        "date": "2026-07-17"
-    },
-    "ship_ready": [
-        {
-            "number": 547,
-            "slug": "drone-grading-verification-residential-math",
-            "journalist": "Frank DeLuca",
-            "ship_after": "2026-07-18"
-        },
-        {
-            "number": 548,
-            "slug": "smart-moisture-sensors-new-construction",
-            "journalist": "Priya Greenwood",
-            "ship_after": "2026-07-19"
-        },
-        {
-            "number": 549,
-            "slug": "transformer-shortage-residential-dark-houses",
-            "journalist": "Frank DeLuca",
-            "ship_after": "2026-07-20"
-        }
-    ]
+    {
+      "number": 550,
+      "slug": "contech-market-housing-starts-mismatch",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-20"
+    }
+  ]
 }
