@@ -4,11 +4,12 @@
     "slug": "smart-moisture-sensors-new-construction",
     "headline": "84% of Homes Have a Smoke Detector. 17% Have a Water Sensor. Water Causes More Claims.",
     "journalist": "Priya Greenwood",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_READY",
     "round": 1,
     "date": "2026-07-17",
     "ship_blocked": true,
-    "ship_blocked_reason": "Article #546 already published 2026-07-17; waiting for 2026-07-18"
+    "ship_blocked_reason": "Article #546 already published 2026-07-17; #547 ships 2026-07-18; earliest ship date 2026-07-19",
+    "ship_after": "2026-07-19"
   },
   "last_completed": {
     "number": 546,
@@ -23,6 +24,12 @@
       "slug": "drone-grading-verification-residential-math",
       "journalist": "Frank DeLuca",
       "ship_after": "2026-07-18"
+    },
+    {
+      "number": 548,
+      "slug": "smart-moisture-sensors-new-construction",
+      "journalist": "Priya Greenwood",
+      "ship_after": "2026-07-19"
     }
   ]
 }
