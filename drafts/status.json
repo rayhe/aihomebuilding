@@ -1,14 +1,5 @@
 {
-  "current": {
-    "slug": "drone-grading-verification-residential-math",
-    "phase": "SHIP_READY",
-    "round": 1,
-    "journalist": "Frank DeLuca",
-    "started": "2026-07-17",
-    "critique_score": 8.9,
-    "headline": "An $800 Drone Flight Would Have Caught the Grading Error. Nobody Ordered One.",
-    "number": 547
-  },
+  "current": null,
   "last_completed": {
     "number": 549,
     "slug": "transformer-shortage-residential-dark-houses",
@@ -31,6 +22,22 @@
       "headline": "Smart Moisture Sensors in New Construction",
       "journalist": "Priya Greenwood",
       "ship_after": "2026-07-19"
+    },
+    {
+      "number": 550,
+      "slug": "contech-market-housing-starts-mismatch",
+      "headline": "The Construction Tech Market Grew 16% Last Year. Housing Starts Just Fell for the Third Straight Month.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 9.0,
+      "ship_after": "2026-07-20"
+    },
+    {
+      "number": 551,
+      "slug": "sba-self-certification-ai-permit-precheck-collision",
+      "headline": "Two Governments Disagree on How to Fix the Same Permit Backlog. Neither Has Rebuilt More Than Ten Homes.",
+      "journalist": "Catherine Chen",
+      "critique_score": 8.3,
+      "ship_after": "2026-07-21"
     }
   ]
 }
