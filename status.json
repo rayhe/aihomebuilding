@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 561,
     "slug": "ai-code-compliance-both-sides-permit-counter",
     "headline": "Both Sides of the Permit Counter Now Have AI. They Don't Agree.",
     "journalist": "Jake Kowalski",
-    "phase": "DRAFT",
-    "round": 0,
-    "started": "2026-07-18T14:13:00-07:00"
-  },
-  "last_completed": {
-    "number": 560,
-    "slug": "builder-rate-buydown-hidden-price-math",
-    "headline": "The Rate Buydown Made Your Payment Lower. It Didn't Make the House Cheaper.",
-    "journalist": "Frank DeLuca",
     "date": "2026-07-18"
   },
   "ship_ready": [
@@ -75,6 +67,12 @@
       "slug": "builder-rate-buydown-hidden-price-math",
       "journalist": "Frank DeLuca",
       "ship_after": "2026-07-28"
+    },
+    {
+      "number": 561,
+      "slug": "ai-code-compliance-both-sides-permit-counter",
+      "journalist": "Jake Kowalski",
+      "ship_after": "2026-07-29"
     }
   ]
 }
