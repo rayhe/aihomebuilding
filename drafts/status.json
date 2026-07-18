@@ -1,14 +1,5 @@
 {
-  "current": {
-    "number": 554,
-    "slug": "hvac-oversizing-lidar-load-calculation",
-    "headline": "Your HVAC Contractor Sized Your System With a Guess. The Math Says You're Paying for Double.",
-    "journalist": "Priya Greenwood",
-    "phase": "SHIP",
-    "round": 1,
-    "critique_score": 8.9,
-    "started": "2026-07-17T22:02:00-07:00"
-  },
+  "current": null,
   "last_completed": {
     "number": 553,
     "slug": "ai-precut-framing-lumber-waste-software",
@@ -47,6 +38,14 @@
       "journalist": "Catherine Chen",
       "critique_score": 8.3,
       "ship_after": "2026-07-21"
+    },
+    {
+      "number": 554,
+      "slug": "hvac-oversizing-lidar-load-calculation",
+      "headline": "Your HVAC Contractor Sized Your System With a Guess. The Math Says You're Paying for Double.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.9,
+      "ship_after": "2026-07-22"
     }
   ]
 }
