@@ -1,22 +1,19 @@
 {
   "current": {
-    "number": 559,
-    "slug": "ai-floor-plan-invisible-rooms-storage-gap",
-    "headline": "Your AI Floor Plan Has Four Bedrooms, Three Baths, and No Place to Store a Broom.",
-    "journalist": "Elena Vasquez",
-    "phase": "SHIP_READY",
-    "round": 1,
-    "started": "2026-07-18T08:01:52-07:00",
-    "completed": "2026-07-18T08:18:00-07:00",
-    "critique_avg": 9.0,
-    "ship_after": "2026-07-23"
+    "number": 561,
+    "slug": "ai-code-compliance-both-sides-permit-counter",
+    "headline": "Both Sides of the Permit Counter Now Have AI. They Don't Agree.",
+    "journalist": "Jake Kowalski",
+    "phase": "DRAFT",
+    "round": 0,
+    "started": "2026-07-18T14:13:00-07:00"
   },
   "last_completed": {
-    "number": 549,
-    "slug": "transformer-shortage-residential-dark-houses",
-    "headline": "The Houses Were Finished. They Sat Dark for Five Months Waiting for a Transformer.",
+    "number": 560,
+    "slug": "builder-rate-buydown-hidden-price-math",
+    "headline": "The Rate Buydown Made Your Payment Lower. It Didn't Make the House Cheaper.",
     "journalist": "Frank DeLuca",
-    "date": "2026-07-17"
+    "date": "2026-07-18"
   },
   "ship_ready": [
     {
@@ -44,10 +41,40 @@
       "ship_after": "2026-07-22"
     },
     {
+      "number": 554,
+      "slug": "hvac-oversizing-lidar-load-calculation",
+      "journalist": "Priya Greenwood",
+      "ship_after": "2026-07-23"
+    },
+    {
+      "number": 555,
+      "slug": "construction-finance-spreadsheet-gap",
+      "journalist": "Jake Kowalski",
+      "ship_after": "2026-07-24"
+    },
+    {
+      "number": 556,
+      "slug": "estimator-verification-paradox",
+      "journalist": "Marcus Washington",
+      "ship_after": "2026-07-25"
+    },
+    {
+      "number": 558,
+      "slug": "ai-supply-chain-lead-time-prediction",
+      "journalist": "Catherine Chen",
+      "ship_after": "2026-07-26"
+    },
+    {
       "number": 559,
       "slug": "ai-floor-plan-invisible-rooms-storage-gap",
       "journalist": "Elena Vasquez",
-      "ship_after": "2026-07-23"
+      "ship_after": "2026-07-27"
+    },
+    {
+      "number": 560,
+      "slug": "builder-rate-buydown-hidden-price-math",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-28"
     }
   ]
 }
