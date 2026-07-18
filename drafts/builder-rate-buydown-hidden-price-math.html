@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>The Rate Buydown Made Your Payment Lower. It Also Made Your Price Higher. Only One of Those Survives a Refinance. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/builder-rate-buydown-hidden-price-math.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "The Rate Buydown Made Your Payment Lower. It Also Made Your Price Higher. Only One of Those Survives a Refinance.",
+		"description": "Sixty-four percent of homes sold by the largest U.S. builders in 2025 included a permanent rate buydown. A buydown costs the builder 3.2% of the sale price. A price cut that produces the same monthly savings would cost 10%. That arbitrage is great for builder margins. The equity implications for buyers are less cheerful.",
+		"image": "https://aihomebuilding.com/images/builder-rate-buydown-hidden-price-math.jpg?v=4254dac5",
+		"datePublished": "2026-07-18",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/builder-rate-buydown-hidden-price-math.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="The Rate Buydown Made Your Payment Lower. It Also Made Your Price Higher. Only One of Those Survives a Refinance.">
+	<meta property="og:description" content="Sixty-four percent of homes sold by the largest U.S. builders included a permanent rate buydown. Here's the margin math they're not showing you.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/builder-rate-buydown-hidden-price-math.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/builder-rate-buydown-hidden-price-math.jpg?v=4254dac5">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="The Rate Buydown Made Your Payment Lower. It Also Made Your Price Higher. Only One of Those Survives a Refinance.">
+	<meta name="twitter:description" content="Sixty-four percent of homes sold by the largest U.S. builders included a permanent rate buydown. Here's the margin math they're not showing you.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/builder-rate-buydown-hidden-price-math.jpg?v=4254dac5">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/builder-rate-buydown-hidden-price-math.jpg?v=4254dac5" alt="A new subdivision with rows of nearly identical homes under construction, a large promotional banner advertising sub-5 percent mortgage rates visible on the model home" loading="eager">
+		<div class="overlay">
+			<span class="badge">Project Management &amp; Operations</span>
+			<h1>The Rate Buydown Made Your Payment Lower. It Also Made Your Price Higher. Only One of Those Survives a Refinance.</h1>
+			<div class="byline">By Frank DeLuca &middot; July 18, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>The brochure at the model home says 4.99%. It is printed large on glossy stock, sitting next to a floor plan and a plate of cookies. Below it, smaller type: &ldquo;builder-paid permanent rate buydown available on select homes.&rdquo; The sales agent mentions it three times during the walkthrough, twice while pointing at the kitchen island and once while you are doing mental math in the car.</p>
+
+			<p>Here is what the brochure does not say. That 4.99% is not free, and it is not a discount. It is a financial instrument the builder purchased on the bond market, and its cost is sitting inside the price of the house you are about to sign for.</p>
+
+			<h2>What a Buydown Actually Costs</h2>
+
+			<p>A rate buydown works like this: the builder pays an upfront sum to a lender, typically through a bulk &ldquo;forward commitment,&rdquo; that reduces your mortgage rate for a set period or permanently. On a $400,000 loan at a market rate of 6.5%, a 2-1 temporary buydown drops your rate to 4.5% in year one and 5.5% in year two before reverting to 6.5%. Your monthly principal and interest goes from $2,528 to roughly <a href="https://www.redfin.com/guides/2-1-buydown-mortgage" target="_blank">$2,027 in the first year</a>, a savings of about $501 a month. Cost of that two-year subsidy: approximately $9,100, deposited by the builder into an escrow account at closing.</p>
+
+			<p>A permanent buydown costs more, and the numbers reveal why builders find the structure so attractive. According to <a href="https://www.aei.org/housing/" target="_blank">AEI Housing Center</a> co-director Edward Pinto, lowering a buyer&rsquo;s rate by 100 basis points through a permanent forward commitment costs the builder roughly 3.2% of the sale price, which on a $400,000 home works out to $12,800.</p>
+
+			<p>What it replaces matters more than the number itself, because the same monthly payment reduction that $12,800 buys through the bond market would cost the builder three times as much if delivered through a direct price cut.</p>
+
+			<div class="pull-stat">
+				<span class="number">3.2% vs. 10%</span>
+				<span class="label">A permanent rate buydown that reduces the buyer&rsquo;s rate by 100 bps costs the builder 3.2% of the sale price. A direct price cut producing the same monthly payment reduction would cost 10%. Source: AEI Housing Center</span>
+			</div>
+
+			<p>To produce the same monthly payment reduction through a straight price cut, Pinto calculates, the builder would need to reduce the home&rsquo;s price by roughly 10%. Arithmetic tilts heavily in one direction: spend $12,800 on a buydown, or give up $40,000 in sale price. Every builder in America holding a calculator and a profit-loss statement chooses the buydown, and every builder in America has.</p>
+
+			<h2>How Common This Is</h2>
+
+			<p>This is not a niche strategy and not an edge case. <a href="https://www.fastcompany.com/91276517/homebuilder-housing-market-alarm-rate-buydowns-underwater-risk" target="_blank">In June 2025</a>, 64% of new single-family home sales by the 21 largest U.S. homebuilders included a permanent rate buydown, compared with only 13% among all other builders. Large builders have access to bulk forward commitment pricing that smaller operations cannot match, turning a financial instrument into a competitive moat that widens with every rate cycle.</p>
+
+			<p>Some builders are spending $40,000 to $60,000 per home on forward commitments to push advertised rates below 4.99%, occasionally into the high 3s. PulteGroup disclosed in its Q1 2026 earnings that it allocated 10.9% of gross sales price to incentives. <a href="https://www.marketplace.org/2026/06/19/homebuilders-offer-more-incentives-amid-high-interest-rates/" target="_blank">John Burns Research and Consulting</a>, which surveys about 300 builders monthly, reports that incentives now average roughly 7% of asking price, approximately double the pre-COVID norm.</p>
+
+			<p>As of July 2026, <a href="https://www.reuters.com/markets/us/us-homebuilder-confidence-slips-july-2026-07-16/" target="_blank">63% of builders reported offering sales incentives</a>, marking the 16th consecutive month that share has hit 60% or higher. What used to be an incentive is now the baseline.</p>
+
+			<h2>Where the Money Hides</h2>
+
+			<p>Here is the part that matters for your equity statement. A buydown does not change the purchase price; it changes the rate. You still close at $400,000, your loan is still based on $400,000, and your property tax assessment starts at $400,000. Only one thing changes: the interest rate printed on your note, and if you got a temporary buydown, even that resets in two years.</p>
+
+			<p>Now consider the alternative universe where the builder cut the price by $40,000 instead, a scenario that no production builder would actually volunteer because it destroys subdivision comps, but one that clarifies where your money goes. You close at $360,000, your loan is $324,000 with 10% down, and your property taxes are assessed against $360,000. Your equity position on day one is different, and every subsequent year of appreciation compounds from a lower base.</p>
+
+			<p>Monthly payments in both scenarios land within $5 of each other. Identical, essentially. But the underlying financial position is not, and that gap widens every year you own the home as appreciation compounds from two very different starting points.</p>
+
+			<h2>The Refinance Problem</h2>
+
+			<p>The buydown&rsquo;s starkest asymmetry shows up on the day you refinance. If rates drop to 5.5% and you refinance, the permanent buydown that got you to 5.5% has served its purpose. You gained nothing from the refinance because you were already there. But your loan balance is still based on the original $400,000 purchase price.</p>
+
+			<p>A buyer who purchased the same house for $360,000 at the full 6.5% rate refinances into 5.5% and immediately saves roughly $200 a month, a benefit the buydown buyer never captures because they were already at that rate. Same house. Same rate. Different starting price. $200 a month apart.</p>
+
+			<p>Pinto&rsquo;s AEI Housing Center put it bluntly: &ldquo;Through an economic lens, the homebuyer is still ultimately paying for those buydowns if the headline price isn&rsquo;t coming down.&rdquo; Not editorializing. Arithmetic.</p>
+
+			<h2>Why Builders Prefer This</h2>
+
+			<p>Three reasons, only one of which involves the cost differential that makes the math irresistible, though taken together they explain why buydowns have become the default sales tool at virtually every production builder in the country operating at scale.</p>
+
+			<p>First, the math, which is unambiguous: a 3.2% expenditure substituting for a 10% price cut is not a close call on any builder&rsquo;s income statement.</p>
+
+			<p>Second, the comp problem. Once a builder cuts the price on one home by $40,000, every buyer in the subdivision expects the same cut, and every appraiser uses the lower number as a comparable. Buydowns are individual, traveling with the buyer&rsquo;s financing rather than the home&rsquo;s recorded sale price, which means MLS records show $400,000 and the neighborhood holds its value on paper.</p>
+
+			<p>Third, the regulatory gap that makes the whole structure possible. Permanent buydowns funded through bulk forward commitments are <a href="https://www.aei.org/housing/" target="_blank">excluded from seller concession limits</a>, which normally cap how much a seller can contribute toward closing costs at 3% to 6% for conventional and FHA loans. Over 40% of sales by large builders carry a combined seller concession and permanent buydown cost exceeding 6% of the sale price, deals that would not clear underwriting if the buydown were structured as a traditional seller concession instead of a forward commitment.</p>
+
+			<div class="pull-stat">
+				<span class="number">$403,200 vs. $404,600</span>
+				<span class="label">Median new-home sale price versus median existing-home sale price in Q1 2026. For the first time since 2006, building new is cheaper than buying used. Source: NAR, U.S. Census Bureau</span>
+			</div>
+
+			<h2>The Price Inversion Nobody Expected</h2>
+
+			<p>All of this is happening inside a market where new construction has quietly become cheaper than resale for the first time in two decades, a sentence that would have gotten you laughed out of any real estate office in America between 2010 and 2023 when production builders were routinely commanding premiums of $20,000 to $50,000 over comparable existing homes in the same zip code. In Q1 2026, the median new-home sale price was $403,200, while the median existing-home price landed at $404,600, an inversion that has not occurred since 2006 and is driven almost entirely by the incentive stacking that large builders can afford and individual sellers cannot.</p>
+
+			<p>A resale seller cannot offer a bulk forward commitment, does not have a captive mortgage subsidiary, and would exceed the 6% FHA concession cap by offering $30,000 in concessions on a $400,000 sale. Production builders clear the same value transfer through a financing channel that falls outside the cap entirely, giving them a structural advantage that no individual homeowner can replicate regardless of how motivated they are to sell.</p>
+
+			<p>For buyers, the sticker price comparison flatters new construction in ways that would have been unthinkable five years ago, while for builders, the margin compression is real but manageable precisely because the buydown costs a fraction of what a price cut would cost and produces equivalent results in the buyer&rsquo;s monthly payment column.</p>
+
+			<h2>What to Actually Ask</h2>
+
+			<p>If a builder is offering you a rate buydown, ask one question before anything else: what is the home&rsquo;s price without the buydown? Not the monthly payment, not the rate, but the base price of the structure and lot before any financing incentive gets layered on top.</p>
+
+			<p>If the answer is the same number, the buydown&rsquo;s cost is embedded in the purchase price, and what you are signing is a mortgage that finances not just the house but the incentive that got you to the table, a distinction that will follow you through every refinance, every appraisal, and every property tax reassessment for as long as you own the home.</p>
+
+			<p>Second, ask whether the buydown is temporary or permanent. Crucial distinction. A 2-1 buydown on a $400,000 loan saves you $501 a month in year one and $257 in year two, then nothing, which means you are looking at a two-year bridge rather than a permanent structural change in your cost of ownership.</p>
+
+			<p>Third, run the refinance math yourself. If rates drop 100 basis points over the next three years, what does your financial position look like compared to buying the same house for 10% less at the full market rate? Both buyers arrive at the same monthly payment, but one of them has $40,000 less equity to show for the privilege of getting there first.</p>
+
+			<p>Sixty-three percent of builders are offering incentives right now, which means the question was never whether you would get one. It is whether you understand what it costs.</p>
+
+		</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>
