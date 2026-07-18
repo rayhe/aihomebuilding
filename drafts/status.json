@@ -1,51 +1,18 @@
 {
   "current": {
+    "number": 553,
+    "slug": "ai-precut-framing-lumber-waste-software",
+    "headline": "Every New Home Throws Away 3,000 Pounds of Wood. The Software to Cut That in Half Already Exists.",
+    "journalist": "Jake Kowalski",
+    "phase": "DRAFT",
+    "started": "2026-07-17T20:01:52-07:00",
+    "round": 0
+  },
+  "last_completed": {
     "number": 552,
     "slug": "ai-hiring-platforms-residential-builder-gap",
     "headline": "An AI Built the Largest Network of Construction Workers in America. Your Builder Has Never Heard of It.",
     "journalist": "Marcus Washington",
-    "phase": "QA",
-    "started": "2026-07-17T18:01:52-07:00",
-    "round": 3,
-    "critique_scores": {
-      "round1": {
-        "avg": 7.3,
-        "min": 6,
-        "scores": [
-          6,
-          8,
-          8,
-          8,
-          7,
-          7
-        ]
-      },
-      "round2": {
-        "avg": 8.4,
-        "min": 7.5,
-        "scores": [
-          7.5,
-          9,
-          9,
-          9,
-          8,
-          8
-        ]
-      },
-      "round3_gates": {
-        "variance": 282.2,
-        "short_pct": 11.6,
-        "long_pct": 58.9,
-        "em_dashes": 0,
-        "the_pct": 5.0
-      }
-    }
-  },
-  "last_completed": {
-    "number": 549,
-    "slug": "transformer-shortage-residential-dark-houses",
-    "headline": "The Houses Were Finished. They Sat Dark for Five Months Waiting for a Transformer.",
-    "journalist": "Frank DeLuca",
     "date": "2026-07-17"
   },
   "ship_ready": [
