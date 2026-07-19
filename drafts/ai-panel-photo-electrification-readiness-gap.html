@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-panel-photo-electrification-readiness-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger.",
+		"description": "Qmerit's Panel Insights AI evaluates an electrical panel from a single photo, automating NEC load calculations that take electricians hours. Forty-eight million U.S. homes need a panel upgrade to handle electrification. Most homebuyers never check before closing.",
+		"image": "https://aihomebuilding.com/images/ai-panel-photo-electrification-readiness-gap.jpg?v=39470436",
+		"datePublished": "2026-07-18",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-panel-photo-electrification-readiness-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger.">
+	<meta property="og:description" content="Qmerit's Panel Insights AI evaluates your panel from a single photo. 48 million U.S. homes need a panel upgrade for electrification. Most buyers never check.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-panel-photo-electrification-readiness-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-panel-photo-electrification-readiness-gap.jpg?v=39470436">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger.">
+	<meta name="twitter:description" content="48 million U.S. homes need a panel upgrade for electrification. An AI trained on 269,000 installations can tell you in seconds from a phone photo.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-panel-photo-electrification-readiness-gap.jpg?v=39470436">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 2rem auto;
+			padding: 0 1.5rem;
+		}
+		.story-body {
+			font-size: 1.08rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			color: var(--text-primary);
+		}
+		.story-body p {
+			margin: 0 0 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-decoration-color: rgba(255,107,53,0.3);
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			border-radius: 0 6px 6px 0;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.75rem 1rem;
+			border: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			background: var(--bg-card);
+			font-weight: 600;
+		}
+		.stat-callout {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			text-align: center;
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			display: inline-block;
+			margin-top: 2rem;
+			font-size: 0.95rem;
+		}
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ai-panel-photo-electrification-readiness-gap.jpg?v=39470436" alt="Close-up of a residential electrical breaker panel with circuit breakers visible, a smartphone held in front of it showing an AI analysis interface">
+		<div class="overlay">
+			<div class="badge">Construction Technology</div>
+			<h1>An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger.</h1>
+			<div class="meta">By Jake Kowalski &middot; July 18, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Point your phone at the breaker panel and snap a photo. In under ten seconds, an AI trained on a quarter-million real installations will tell you how many circuit spaces you have left, whether your panel can handle a Level 2 EV charger, and exactly how close your electrical service is to its limit. No electrician visit, no $150 diagnostic fee, just a camera and a model that has already seen more panels than any inspector alive.</p>
+
+			<p>Qmerit, the company behind <a href="https://qmerit.com/news/qmerit-deploying-ai-for-faster-safer-more-accurate-estimates-for-home-ev-charging-installations/" target="_blank">Panel Insights</a>, built this tool on data from 269,000 home EV charger installations across North America. It uses computer vision developed with <a href="https://www.se.com/" target="_blank">Schneider Electric's</a> AI Hub and Microsoft Cognitive Services to read breaker labels, count tandem slots, identify panel manufacturer and amperage rating, and flag capacity constraints that would otherwise require an electrician to calculate by hand under <a href="https://www.nfpa.org/codes-and-standards/nfpa-70-standard-for-electrical-safety-in-the-workplace" target="_blank">NEC Article 220</a>.</p>
+
+			<p>A companion engine called LoadCRE takes those readings and automatically generates the load calculation required for an electrical permit. Work that used to eat two to four hours of a licensed electrician's time, including a drive to the property, now happens before the homeowner puts the phone down.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">48 million</div>
+				<div class="label">U.S. homes estimated to need a panel upgrade before they can accommodate an EV charger. (Schneider Electric)</div>
+			</div>
+
+			<h2>Why Your Panel Is the Bottleneck</h2>
+
+			<p>Most homes built before 2000 run on 100-amp or 150-amp electrical service. A Level 2 EV charger draws 40 to 48 amps continuously. Under NEC rules, continuous loads must be sized at 125% of rated current, which means a 48-amp charger requires 60 amps of calculated panel capacity. Add that to a home already running central air, an electric range, a dryer, and a water heater, and the math fails fast.</p>
+
+			<p>Schneider Electric estimates that <a href="https://blog.se.com/residential/2024/12/02/the-electrical-panel-the-keystone-to-home-electrification/" target="_blank">48 million American homes</a> would need a panel upgrade just to support an EV charger, not a heat pump or a battery backup system, just the charger alone. Layer on the heat pump and electric water heater that federal tax credits are pushing homeowners toward, and the number of homes facing panel constraints climbs further.</p>
+
+			<p>Upgrading from 100-amp to 200-amp service costs <a href="https://www.thisoldhouse.com/electrical/reviews/cost-to-upgrade-electrical-panel" target="_blank">$1,800 to $4,500</a> including panel, labor, permitting, and utility coordination, according to This Old House. New York's energy authority pegs the range at <a href="https://www.nyserda.ny.gov/" target="_blank">$3,000 to $5,000</a>. If the meter socket needs replacing or the service entrance cable is undersized, add $200 to $650 for the meter box and another $500 to $1,000 for trenching. A full 400-amp upgrade, increasingly necessary for large homes pursuing total electrification, runs $8,000 to $12,000.</p>
+
+			<h2>Running the Load Math on a "200-Amp Ready" Home</h2>
+
+			<p>Even homes with 200-amp panels are not as safe as the number suggests. Here is the actual load calculation for a 2,100-square-foot home with standard electric appliances, using NEC Article 220 demand factors:</p>
+
+			<table>
+				<thead>
+					<tr><th>Load</th><th>Connected (W)</th><th>After Demand Factors (W)</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>General lighting + receptacles</td><td>6,300</td><td>4,050</td></tr>
+					<tr><td>Electric range</td><td>12,000</td><td>8,000</td></tr>
+					<tr><td>Electric dryer</td><td>5,500</td><td>5,500</td></tr>
+					<tr><td>Central AC (4-ton)</td><td>5,600</td><td>5,600</td></tr>
+					<tr><td>Electric water heater</td><td>4,500</td><td>4,500</td></tr>
+					<tr><td>Dishwasher + disposal</td><td>2,400</td><td>2,400</td></tr>
+					<tr><td><strong>Subtotal (base home)</strong></td><td></td><td><strong>30,050</strong></td></tr>
+					<tr><td>Level 2 EV charger (48A, continuous)</td><td>11,520</td><td>14,400</td></tr>
+					<tr><td>Heat pump (replacing AC)</td><td>7,200</td><td>7,200</td></tr>
+					<tr><td><strong>Total electrified home</strong></td><td></td><td><strong>51,650</strong></td></tr>
+				</tbody>
+			</table>
+
+			<p>A 200-amp panel at 240 volts delivers 48,000 watts. After adding an EV charger and heat pump, the calculated load exceeds capacity by 3,650 watts, not by a dramatic margin, not by an amount that guarantees tripped breakers on a Tuesday afternoon, but by enough that the load calculation will not pass a permit review.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">$1,800&ndash;$4,500</div>
+				<div class="label">Cost to upgrade from 100-amp to 200-amp electrical service. A 400-amp upgrade runs $8,000&ndash;$12,000. (This Old House, Fixr.com)</div>
+			</div>
+
+			<h2>Smart Panels Change the Denominator</h2>
+
+			<p>Panel upgrades are not the only path. Smart electrical panels from ABB (ReliaHome), Schneider (Pulse), and Span can manage loads in real time, throttling the EV charger when the dryer kicks on or pausing the water heater during peak AC demand. NYSERDA notes these systems "can manage electrical loads in a fully electrified house with less overall capacity," potentially eliminating the need for a service upgrade entirely.</p>
+
+			<p>For a homebuyer, this changes the question entirely. Instead of "does this house need a $4,500 panel upgrade," the question becomes "can a $2,000 smart panel solve the same problem?" Often yes, but someone has to run the load calculation first to know which option fits, and that is precisely what Qmerit's AI automates from a photo.</p>
+
+			<h2>What Homebuyers Should Do With This Information</h2>
+
+			<p>No standard home inspection checks whether a panel can support electrification, because inspectors verify that breakers are not tripped, wiring is not scorched, and the panel is not a recalled brand, but capacity math is not part of the checklist. If you plan to install an EV charger or heat pump within five years of purchase, you are buying a home with a hidden cost that ranges from zero (panel has capacity) to $12,000 (needs a 400-amp upgrade), and nobody in the transaction is obligated to tell you which number applies.</p>
+
+			<p>A phone photo of the panel, sent through an AI analysis tool, can answer the question before you make an offer. Ask for the photo during due diligence, the same way you would ask for a roof inspection report or a termite clearance. If the panel reads as constrained, factor the upgrade cost into your negotiation. A $4,500 panel upgrade on a $500,000 home is a 0.9% price adjustment that no seller will volunteer and most buyers never think to request.</p>
+
+			<h2>Strongest Counterargument</h2>
+
+			<p>NEC demand factors are deliberately conservative, and not every appliance runs at full draw simultaneously. An experienced electrician applying Article 220 optional calculation methods can often demonstrate that a 200-amp panel handles an EV charger and heat pump without an upgrade, especially if the home uses gas for heating or cooking. Load management devices further reduce peak demand. Schneider Electric, which publishes the 48 million estimate, also sells the panel upgrade products and smart panels that address the gap, creating a financial incentive to frame the problem as larger than it may be for any individual home.</p>
+
+			<h2>Limitations</h2>
+
+			<p>Qmerit has not publicly disclosed Panel Insights' accuracy rate, false positive rate for flagging upgrades, or performance on non-standard or older panels with faded labels. Load calculations in this article use NEC standard method demand factors; the optional method allowed under Article 220.82 produces lower calculated loads and may show capacity where the standard method does not. Panel upgrade cost ranges come from national averages and vary significantly by region, utility requirements, and whether the service entrance or meter base also needs replacement. Schneider Electric's 48 million figure has not been independently verified and may include homes that could avoid upgrades with load management devices. AI photo analysis has known limitations with obscured breakers, aftermarket modifications, and panels installed in low-light locations.</p>
+
+			<p><a href="../index.html" class="back-link">&larr; Back to AI Home Building</a></p>
+
+		</article>
+	</div>
+
+	<script>
+	if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme','dark');
+	</script>
+
+</body>
+</html>
