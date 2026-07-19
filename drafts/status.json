@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 571,
+  "last_completed": 572,
   "ship_ready": [
     {
       "number": 550,
@@ -133,6 +133,14 @@
       "journalist": "Marcus Washington",
       "ship_after": "2026-08-03",
       "completed": "2026-07-19T10:00:00-07:00"
+    },
+    {
+      "number": 572,
+      "slug": "builder-ai-misallocation-inventory-paradox",
+      "headline": "Builders Lost $7.8 Billion on Unsold Homes This Year. Their AI Budget Went to Instagram Ads.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.93,
+      "ship_after": "2026-08-04"
     }
   ]
 }

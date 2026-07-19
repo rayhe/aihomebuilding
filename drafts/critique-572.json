@@ -1,0 +1,45 @@
+{
+  "article": 572,
+  "slug": "builder-ai-misallocation-inventory-paradox",
+  "round": 1,
+  "critics": {
+    "general_editor": {
+      "score": 9.0,
+      "notes": "Strong cold open with July 17 Census data. Clear thesis: AI budget misallocation from demand forecasting to marketing while sitting on 2007-level inventory. Original $7.8B calculation well-constructed. Structure flows logically: data → costs → alternatives → counterargument → policy → actionable advice. Limitations section honest and specific. Actionable section serves both builders and buyers."
+    },
+    "voice_coach": {
+      "score": 8.5,
+      "notes": "Em dashes: 0 (PASS). Banned phrases: 0 (PASS). The-starters: 0% (PASS). Sentence rhythm: PASS (variance 273.7). Frank DeLuca voice lands well: methodical, world-weary, measured. 'I checked them twice' is authentic character. 60.8% of sentences over 20 words is heavy on the long side. Article could use 2-3 more short punches for contrast. No AI tells detected."
+    },
+    "ethics_reviewer": {
+      "score": 9.0,
+      "notes": "No self-congratulation. Fair treatment of counterargument (geopolitical shock acknowledged as unfair standard). Doesn't demonize builders — frames as budget allocation problem, not stupidity. Doesn't oversell AI tools ('does not replace instinct'). Avoids preachiness."
+    },
+    "social_shareability": {
+      "score": 9.0,
+      "notes": "Strong headline with specific dollar figure. $7.7B pull stat is powerful. Multiple quotable lines: 'Marketing got the AI budget instead,' 'A better virtual tour does not fix a $25,000 price cut.' Buyer negotiation advice is strong share trigger. The paradox framing (shortage + glut) is inherently shareable."
+    },
+    "legal_accuracy": {
+      "score": 9.0,
+      "notes": "21st Century ROAD Act correctly identified: became law Jul 12, 358-32 House, 85-5 Senate, without presidential signature. California AB 179 correctly identified as signed Jul 16. NAHB survey properly attributed to July 2025 HMI. Census/Reuters data properly sourced. No legal claims requiring case law citation."
+    },
+    "research_rigor": {
+      "score": 9.0,
+      "notes": "Novel contribution: $7.8B loss estimate against $4.5-9B universal tool cost. Cross-references NAHB adoption data with Pro Builder Top 200 spending patterns. Limitations section is specific: Sun Belt concentration, NAHB data age, BuildOps scope. Strongest counterargument (geopolitical exogeneity) engaged at full strength and only partially dismissed. Methodology transparent with inputs and assumptions shown."
+    },
+    "data_presentation": {
+      "score": 9.0,
+      "notes": "Pull stat well-placed. Numbers presented with clear context and comparison. Original calculation walked through step by step with inputs visible. Percentages consistently contextualized. Two-sided cost comparison (losses vs tool cost) is the article's analytical backbone and is clearly presented."
+    }
+  },
+  "hard_gates": {
+    "em_dashes": {"count": 0, "limit": 3, "passed": true},
+    "the_starters": {"pct": 0.0, "limit": 15.0, "passed": true},
+    "banned_phrases": {"count": 0, "passed": true},
+    "sentence_rhythm": {"variance": 273.7, "short_pct": 9.5, "long_pct": 60.8, "passed": true}
+  },
+  "composite_score": 8.93,
+  "all_above_8_5": true,
+  "all_hard_gates_pass": true,
+  "verdict": "SHIP"
+}
