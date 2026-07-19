@@ -1,18 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 564,
     "slug": "smart-moisture-sensors-new-construction",
     "headline": "84% of Homes Have a Smoke Detector. 17% Have a Water Sensor. Water Causes More Claims.",
     "journalist": "Priya Greenwood",
-    "phase": "QA",
-    "number": 548,
-    "started": "2026-07-19T00:01:52-07:00"
-  },
-  "last_completed": {
-    "number": 560,
-    "slug": "builder-rate-buydown-hidden-price-math",
-    "headline": "The Rate Buydown Made Your Payment Lower. It Also Made Your Price Higher. Only One of Those Survives a Refinance.",
-    "journalist": "Frank DeLuca",
-    "completed": "2026-07-18T12:29:00-07:00"
+    "completed": "2026-07-19T00:07:00-07:00"
   },
   "ship_ready": [
     {
@@ -94,6 +87,14 @@
       "journalist": "Marcus Washington",
       "critique_score": 9.0,
       "ship_after": "2026-07-29"
+    },
+    {
+      "number": 566,
+      "slug": "ai-design-convergence-residential-monoculture",
+      "headline": "You Asked the AI for Fourteen Design Options. It Gave You the Same House Fourteen Times.",
+      "journalist": "Elena Vasquez",
+      "critique_score": 8.89,
+      "ship_after": "2026-07-30"
     }
   ]
 }
