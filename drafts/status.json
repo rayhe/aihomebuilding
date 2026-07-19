@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 569,
+  "last_completed": 570,
   "ship_ready": [
     {
       "number": 550,
@@ -117,6 +117,14 @@
       "slug": "permitted-not-started-go-nogo-gap",
       "journalist": "Frank DeLuca",
       "ship_after": "2026-07-20"
+    },
+    {
+      "number": 570,
+      "slug": "avm-racial-undervaluation-rule-gap",
+      "headline": "Six Federal Agencies Wrote a Rule to Make AI Home Appraisals Fair. The First Individual-Level Study Found a $14,960 Racial Gap.",
+      "journalist": "Catherine Chen",
+      "critique_score": 8.79,
+      "ship_after": "2026-08-02"
     }
   ]
 }
