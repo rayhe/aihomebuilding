@@ -744,3 +744,15 @@ When you discover a new topic worth covering, add it here with:
 - Sources: DOE, RESNET, NIST, LBNL, Green Builder Media, HousingWire, Wood Mackenzie, EnergySage, Builder, ULI
 - Journalist: Priya Greenwood (sustainability beat)
 - **Draft:** "The Government Renamed Its 'Zero Energy' Home Program. The Word It Dropped Was 'Zero.'" (#537)
+
+### 71. 🟢 AI Panel Photo Analysis and Electrification Readiness Gap
+- Qmerit Panel Insights™: AI reads single photo of electrical panel, determines capacity and electrification readiness
+- LoadCRE™: auto-generates NEC Article 220 load calculations from photo analysis
+- 269,000 installations of training data; Schneider Electric AI Hub + Microsoft Cognitive Services
+- 48 million U.S. homes need panel upgrade just for EV charger (Schneider estimate)
+- Panel upgrade costs: $1,800–$4,500 (200A), $8,000–$12,000 (400A)
+- Smart panel alternative: ABB ReliaHome, Schneider Pulse, Span
+- Original contribution: NEC load calculation showing 200A panel exceeds capacity at 51,650W with full electrification (48,000W max)
+- Sources: Qmerit, Schneider Electric, This Old House, NYSERDA, NEC Article 220
+- Journalist: Jake Kowalski (construction technology beat)
+- **Published:** "An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger." (#563)
