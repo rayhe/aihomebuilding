@@ -768,3 +768,12 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: "Three-number problem" framework (AI estimate → contractor quote → final invoice), cascading scope analysis, anchoring effect
 - Journalist: Priya Greenwood (homeowner/consumer beat)
 - **Published:** "78% of Homeowners Went Over Budget on Their Last Renovation. The AI That Estimated the Cost Never Went Inside." (#568)
+
+### 73. 🟢 AVM Racial Undervaluation and Federal Rule Gap
+- CFPB final AVM rule effective Oct 1, 2025 (Dodd-Frank mandate, 6 agencies)
+- Urban Institute Oct 2025: first individual-level AVM bias study (43,024 transactions, Atlanta/Memphis)
+- Black homeowners: 3.4 pp greater AVM error, 5% systematic undervaluation (p < 0.01)
+- AEI data: 28% of GSE loans use appraisal waivers (March 2026), Fannie expanding eligibility
+- Rule requires nondiscrimination compliance but lacks specific accuracy thresholds, testing protocols, or racial equity metrics
+- Journalist: Catherine Chen (policy & regulation beat)
+- **Published:** "Six Federal Agencies Wrote a Rule to Make AI Home Appraisals Fair. The First Individual-Level Study Found a $14,960 Racial Gap." (#570)
