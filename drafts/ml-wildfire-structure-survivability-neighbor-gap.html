@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Fire-Resistant Roof Cost $13,000. The Model Says the House Thirty Feet Away Matters More. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ml-wildfire-structure-survivability-neighbor-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Fire-Resistant Roof Cost $13,000. The Model Says the House Thirty Feet Away Matters More.",
+		"description": "A UC Berkeley XGBoost model predicts wildfire structure survivability with 82% accuracy across five major California fires. Structure separation distance, not vegetation or roof material, is the dominant variable. Home hardening cuts losses 52%, but only when neighbors participate.",
+		"image": "https://aihomebuilding.com/images/ml-wildfire-structure-survivability-neighbor-gap.jpg?v=9bdb7a7d",
+		"datePublished": "2026-07-18",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ml-wildfire-structure-survivability-neighbor-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Fire-Resistant Roof Cost $13,000. The Model Says the House Thirty Feet Away Matters More.">
+	<meta property="og:description" content="An XGBoost classifier trained on five California wildfires predicts structure survival at 82% accuracy. The biggest factor isn't your roof, your trees, or your vents. It's how close your neighbor's house stands.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ml-wildfire-structure-survivability-neighbor-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ml-wildfire-structure-survivability-neighbor-gap.jpg?v=9bdb7a7d">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Fire-Resistant Roof Cost $13,000. The Model Says the House Thirty Feet Away Matters More.">
+	<meta name="twitter:description" content="ML predicts 82% of wildfire structure losses. Structure spacing dominates. Hardening your own house helps only if the neighborhood follows.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ml-wildfire-structure-survivability-neighbor-gap.jpg?v=9bdb7a7d">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .meta {
+			font-size: 0.9rem;
+			opacity: 0.85;
+		}
+		.story-page {
+			max-width: 720px;
+			margin: 2rem auto;
+			padding: 0 1.5rem;
+		}
+		.story-body {
+			font-size: 1.08rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			color: var(--text-primary);
+		}
+		.story-body p {
+			margin: 0 0 1.25rem;
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-decoration-color: rgba(255,107,53,0.3);
+		}
+		.story-body blockquote {
+			border-left: 3px solid var(--accent);
+			margin: 1.5rem 0;
+			padding: 0.75rem 1.25rem;
+			background: var(--bg-card);
+			border-radius: 0 6px 6px 0;
+		}
+		.story-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+		}
+		.story-body th, .story-body td {
+			padding: 0.75rem 1rem;
+			border: 1px solid var(--border);
+			text-align: left;
+		}
+		.story-body th {
+			background: var(--bg-card);
+			font-weight: 600;
+		}
+		.stat-callout {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			padding: 1.5rem;
+			margin: 2rem 0;
+			text-align: center;
+		}
+		.stat-callout .big-number {
+			font-family: 'Playfair Display', serif;
+			font-size: 2.5rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.stat-callout .label {
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			display: inline-block;
+			margin-top: 2rem;
+			font-size: 0.95rem;
+		}
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+		}
+	</style>
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/ml-wildfire-structure-survivability-neighbor-gap.jpg?v=9bdb7a7d" alt="Aerial view of a wildfire-damaged neighborhood where some homes remain standing amid destroyed lots, showing the patchwork pattern of structure survival">
+		<div class="overlay">
+			<div class="badge">Sustainability &amp; Green Building</div>
+			<h1>Your Fire-Resistant Roof Cost $13,000. The Model Says the House Thirty Feet Away Matters More.</h1>
+			<div class="meta">By Priya Greenwood &middot; July 18, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-page">
+		<article class="story-body">
+
+			<p>Maryam Zamanialaei fed five wildfires into a machine learning model and asked it a simple question: what makes one house survive while the identical house next door burns? Her model evaluated construction materials, defensible space, vegetation clearance, flame exposure, ember density, and ranked every variable by predictive power. Structure separation distance dominated, occupying the top position in feature importance rankings by a margin wide enough to make the other variables look like rounding errors.</p>
+
+			<p>Not roof material. Not vent type. Not whether you cleared the dead manzanita along your fence line, the variable that dominates wildfire mitigation brochures and public awareness campaigns in every fire-prone county in California. How far your house sits from your neighbor's house was the single strongest predictor of whether either one would still be standing after the fire passed through, burned to the foundation, or survived by some combination of construction quality and luck.</p>
+
+			<p>Published in <em>Nature Communications</em>, <a href="https://doi.org/10.1038/s41467-025-63386-2" target="_blank">their study</a> from UC Berkeley and the University of Maryland trained an XGBoost classifier on post-fire damage surveys, remotely sensed data, and fire reconstruction simulations from five major California WUI fires: Tubbs and Thomas in 2017, Camp in 2018, Kincade in 2019, and Glass in 2020. Prediction accuracy reached 82%.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">82%</div>
+				<div class="label">Accuracy at which a machine learning model predicts whether a structure will survive a wildfire, trained on five major California fires. (Zamanialaei et al., 2025, <em>Nature Communications</em>)</div>
+			</div>
+
+			<p>Eighty-two percent is remarkable for a problem this chaotic. Wildfire behavior depends on wind speed, humidity, topography, fuel moisture content, and ember transport patterns that shift minute by minute, cascading through local terrain in ways that make structural engineers throw up their hands and firefighters improvise on the spot. Yet a gradient-boosted decision tree, working from nothing but static pre-fire characteristics of each structure and its surroundings, correctly called the outcome four times out of five.</p>
+
+			<h2>Houses Burn Houses</h2>
+
+			<p>A separate analysis reinforced the finding from a completely different direction. Cal Poly researchers examined 15,082 structures and 52,893 tree canopies within the burn scars of the January 2025 Palisades and Eaton fires, which together killed 30 people, destroyed more than 16,000 homes and businesses, and caused an estimated <a href="https://www.calpoly.edu/news/cal-poly-study-finds-building-density-was-strongest-predictor-home-loss-2025-la-fires" target="_blank">$76 billion to $131 billion in losses</a>.</p>
+
+			<p>"Our study shows that during extreme urban firestorms, houses become the primary fuel source," said Reed Kenny, lead author. "Once fire enters a neighborhood, structure-to-structure spread matters far more than the presence of trees."</p>
+
+			<p>Building density was the strongest predictor of home loss in both fires. Tree canopy effects were minor, inconsistent, and in some cases associated with <em>lower</em> losses. Simulating the removal of all tree canopy within two meters of every home produced only small reductions in predicted destruction, a finding that challenges a central assumption in California's proposed Zone Zero regulations, which would require removing vegetation within the first five feet of a structure. If the Cal Poly data holds up, the state may be targeting the wrong fuel.</p>
+
+			<p>Houses burn houses. Trees, at least in dense neighborhoods, are bystanders.</p>
+
+			<h2>The $13,000 Question</h2>
+
+			<p>If structure spacing is the dominant variable and you cannot move your neighbor's house, the natural question is whether hardening your own makes a difference at all. It does. Substantially. But with a catch that the data makes impossible to ignore.</p>
+
+			<p>Combining home hardening with defensible space strategies reduces structure losses by 52%, according to the Berkeley model. Implementing Zone Zero alone, clearing the noncombustible five-foot perimeter, cuts losses by 17%. Population-level effects observed across thousands of structures in real fires, not lab simulations or vendor claims, and they hold up at scale.</p>
+
+			<p>And the cost of getting there is smaller than most builders assume. A <a href="https://ibhs.org/wp-content/uploads/Construction_Costs_Wildfire_Resistant_Homes_HE-IBHS_Final_2025.pdf" target="_blank">Fall 2025 joint analysis</a> from the Insurance Institute for Business &amp; Home Safety (IBHS) and Headwaters Economics priced out wildfire-resistant construction for a 1,750-square-foot, single-story home with a total construction cost of $500,000:</p>
+
+			<table>
+				<thead>
+					<tr><th>Standard</th><th>Material Cost</th><th>Over Traditional</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>Traditional (non-WUI)</td><td>$59,223</td><td>&mdash;</td></tr>
+					<tr><td>CA WUI Code (CWUIC Part 7)</td><td>$72,293</td><td>+$13,070</td></tr>
+					<tr><td>IBHS Wildfire Prepared Home Base</td><td>$68,099</td><td>+$8,876</td></tr>
+					<tr><td>IBHS Wildfire Prepared Home Plus</td><td>$74,465</td><td>+$15,242</td></tr>
+				</tbody>
+			</table>
+
+			<p>For a $500,000 home, full California WUI code compliance adds roughly 2.6% to construction costs. IBHS Base, which covers ember defense, actually costs $4,194 <em>less</em> than CWUIC Part 7 because it skips gutter guards and allows non-tempered windows in certain configurations. IBHS Plus, the most protective option, adds only $2,172 over the state code.</p>
+
+			<p>Not speculative numbers. Line-item material costs from RSMeans national databases, verified against current Home Depot contractor pricing. IBHS researchers even checked whether post-disaster inflation in Altadena changed the math. It did not. Rebuilding costs in Altadena ran $450 to $650 per square foot instead of the assumed $285, but that premium was entirely in labor and contractor overhead, not materials. Installing a solid-core wood door takes the same labor as a standard one. Fire resistance lives in the material, not the work.</p>
+
+			<h2>The Neighbor Problem</h2>
+
+			<p>So the data says three things simultaneously: structure spacing is the dominant risk factor, individual hardening cuts losses in half, and the cost of hardening is under 3% of new construction. On paper, this looks like a solved problem. Build to code, maintain defensible space, accept a modest cost increase that most buyers will never notice in a mortgage payment.</p>
+
+			<p>In practice, a coordination failure is embedded in the physics. Fire does not respect property lines. If your neighbor's vinyl siding catches ember ignition and produces a fully involved structure fire twenty-five feet from your living room wall, the radiant heat exposure exceeds what any code-compliant exterior assembly is designed to withstand, no matter how many noncombustible vents you installed or how diligently you cleared your Zone Zero. Structure separation distance was the <em>strongest</em> feature in the Berkeley model, ahead of construction materials and defensible space combined. Your $13,000 investment is not worthless without your neighbor's participation; Zone Zero alone still provides that 17% reduction, which is real protection. But it is operating at a fraction of its potential if the house next door is a fuel load waiting for an ember.</p>
+
+			<p>IBHS recognized this when they built the <a href="https://ibhs.org/ibhs-wildfire-prepared-home/" target="_blank">Wildfire Prepared Neighborhood designation</a> alongside their per-home certification. Active in fourteen states, the program requires third-party verification every three years and offers concrete insurance incentives: major California insurers have committed to writing policies for certified homes, reducing the risk of non-renewal that has driven thousands of WUI homeowners onto the state's FAIR Plan of last resort.</p>
+
+			<p>But neighborhood-level programs depend on neighborhood-level adoption. And that is where the market mechanism breaks.</p>
+
+			<h2>Insurance as Enforcement Mechanism</h2>
+
+			<p>Already, the insurance industry is using ML-derived fire risk data to price individual parcels within broader risk zones. Triple-I, the Insurance Information Institute, explicitly cited the Berkeley study as evidence that "coordinated community-wide strategies like vegetation management, building code enforcement, and distance between structures are essential." An 82% predictability figure matters to underwriters because it means the risk is identifiable, quantifiable, and, in principle, mitigable at the individual property level.</p>
+
+			<p>A parallel ML framework called <a href="https://arxiv.org/abs/2501.17755" target="_blank">GraphFire-X</a>, applied specifically to the January 2025 Eaton Fire, pushes even further. It couples a physics-informed graph neural network that models fire spread dynamics between structures with an XGBoost model assessing building-level vulnerability, then combines both through ensemble stacking. Instead of simply predicting which structures will burn, it disentangles environmental contagion risk from structural fragility, telling you whether a building was destroyed because fire reached it or because it was too vulnerable to survive once fire arrived.</p>
+
+			<p>For insurance pricing, that distinction is everything. A hardened home in a dense neighborhood still faces high contagion risk even if its structural fragility is low, and the premium increasingly reflects both.</p>
+
+			<h2>What a Builder Should Do With This</h2>
+
+			<p>If you are building in a Fire Hazard Severity Zone anywhere in California, WUI compliance is no longer optional. California's 2025 Wildland-Urban Interface Code, effective January 1, 2026, applies to all new construction in State Responsibility Areas and Very High FHSZ zones with requirements that are specific and non-negotiable: Class A fire-rated roofing, flame-and-ember-resistant vents ($2,318 for 19 eave vents), enclosed eaves with noncombustible soffits, fiber cement siding, dual-pane tempered windows ($6,500 for ten), and a noncombustible Zone Zero extending five feet from the foundation in all directions.</p>
+
+			<p>For a builder running $2M to $5M in annual residential revenue, the cost impact is negligible. Absorb it. Material premium per home runs smaller than a typical change order on a kitchen backsplash. But talk to the client about the neighbor problem, because the data says their investment is leveraged: a $15,000 hardening package on a $500,000 home delivers a 52% loss reduction when surrounding homes participate, and significantly less when they do not.</p>
+
+			<p>For existing homeowners in WUI zones, the Headwaters Economics retrofit data offers a more granular path. Effective strategies are possible for $2,000 to $10,000 on a typical 2,000-square-foot home, and some of the highest-impact actions cost almost nothing: clearing gutters, removing debris from the roof, relocating firewood and propane tanks from underneath decks, replacing combustible deck boards nearest the house with noncombustible material. Targeted retrofits, like replacing siding only on the wall closest to a neighboring structure, deliver meaningful risk reduction without requiring a full exterior overhaul.</p>
+
+			<h2>What This Analysis Did Not Prove</h2>
+
+			<p>Training data came from five fires in California, all in WUI zones with specific vegetation types, climate conditions, and building stock characteristic of the state. Whether the 82% accuracy and feature importance rankings transfer to WUI zones in Colorado, Oregon, or the Southeast is an open question that subsequent research has not yet answered. Static pre-fire features drive the model, and it does not account for real-time firefighting response, which demonstrably saves structures in some fires and not others depending on resource allocation, crew availability, and the kinds of triage decisions that incident commanders make under extreme time pressure.</p>
+
+			<p>Cost data from IBHS and Headwaters Economics assumes RSMeans national averages. In post-disaster markets like Altadena, actual construction costs can double due to labor shortages rather than material prices, and the 2.6% premium figure for WUI compliance is a material-cost calculation, not a total-project-cost figure. A builder quoting the full job in a tight labor market will price it differently, though the IBHS analysis shows that labor hours are essentially identical whether you install standard or fire-resistant materials.</p>
+
+			<p>Cal Poly's tree canopy findings apply specifically to dense urban firestorms like Palisades and Eaton. In lower-density WUI environments where structure separation is measured in hundreds of feet rather than tens, vegetation likely plays a much larger role, and the researchers cautioned against extrapolating their results to all fire types.</p>
+
+			<p>And the 52% loss reduction figure is a hypothetical scenario analysis, not a field observation. Berkeley researchers modeled what would happen if every structure in their dataset had been hardened with ember-resistant vents, noncombustible Zone Zero, and fire-rated roofing. No community in California has achieved that level of universal compliance. That number represents an upper bound on collective action, not a guarantee for any individual home.</p>
+
+			<h2>The Stubborn Physics</h2>
+
+			<p>"We can't always change the spacing between structures or the exposure from flames and embers," said Michael Gollner, the Berkeley study's senior author. "But even within those limitations, we still have the power to cut the destruction in half, if not more."</p>
+
+			<p>He is right, and the cost data confirms it is affordable. What the ML models cannot answer is whether the neighbor will participate. Wildfire resilience at the scale these models describe is a collective goods problem dressed in construction materials. Individual hardening works. It works better when every house on the block does it. Code now requires it for new construction. Existing homes are on their own unless insurance pricing, neighborhood certification programs, or community-wide retrofit funding close the gap between one homeowner's investment and the fire that starts thirty feet away.</p>
+
+			<p>An algorithm can tell you, with 82% confidence, whether your house will survive the next fire. What it cannot do is make your neighbor spend the $13,000.</p>
+
+			<p class="back-link"><a href="../index.html">&larr; Back to all articles</a></p>
+
+		</article>
+	</div>
+
+</body>
+</html>
