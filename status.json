@@ -1,12 +1,6 @@
 {
   "current": null,
-  "last_completed": {
-    "number": 561,
-    "slug": "ai-code-compliance-both-sides-permit-counter",
-    "headline": "Both Sides of the Permit Counter Now Have AI. They Don't Agree.",
-    "journalist": "Jake Kowalski",
-    "date": "2026-07-18"
-  },
+  "last_completed": 569,
   "ship_ready": [
     {
       "number": 548,
@@ -90,6 +84,12 @@
       "journalist": "Jake Kowalski",
       "ship_after": "2026-07-31",
       "completed": "2026-07-19T01:21:27-07:00"
+    },
+    {
+      "number": 569,
+      "slug": "permitted-not-started-go-nogo-gap",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-20"
     }
   ]
 }

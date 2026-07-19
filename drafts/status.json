@@ -1,12 +1,6 @@
 {
   "current": null,
-  "last_completed": {
-    "number": 564,
-    "slug": "smart-moisture-sensors-new-construction",
-    "headline": "84% of Homes Have a Smoke Detector. 17% Have a Water Sensor. Water Causes More Claims.",
-    "journalist": "Priya Greenwood",
-    "completed": "2026-07-19T00:07:00-07:00"
-  },
+  "last_completed": 569,
   "ship_ready": [
     {
       "number": 550,
@@ -117,6 +111,12 @@
       "completed_at": "2026-07-19T03:15:00-07:00",
       "ship_after": "2026-08-01",
       "ship_blocked": false
+    },
+    {
+      "number": 569,
+      "slug": "permitted-not-started-go-nogo-gap",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-20"
     }
   ]
 }
