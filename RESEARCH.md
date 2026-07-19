@@ -756,3 +756,15 @@ When you discover a new topic worth covering, add it here with:
 - Sources: Qmerit, Schneider Electric, This Old House, NYSERDA, NEC Article 220
 - Journalist: Jake Kowalski (construction technology beat)
 - **Published:** "An AI Read 269,000 Electrical Panels. It Knows Yours Can't Handle an EV Charger." (#563)
+
+### 71. 🟢 AI Renovation Estimate vs. Reality: Budget Overrun Gap
+- Clever Real Estate 2025 survey (n=1,000): 78% went over budget, 44% of overspenders exceeded by $5K+, 35% by $10K+
+- Clever Offers 2026 report: 70% over budget (past 5 years), 85% unplanned repairs in 2025, 58% nothing saved for emergencies
+- 63% took on debt to fund renovations, 36% struggled with credit card payments after
+- 73% adjusted plans due to rising material costs, 60% concerned about tariffs
+- CNN July 17, 2026: fixer-uppers falling out of favor, materials up 4.6% YoY, AGC 45% firms had worker shortage delays
+- Better Builders (Seattle): documented AI estimate was "a fraction" of realistic cost even with refined inputs
+- Handoff AI: $149/month, uses Home Depot/Lowe's pricing by ZIP code — "legitimate first-look" but hits limits on complex multi-trade scopes
+- Original contribution: "Three-number problem" framework (AI estimate → contractor quote → final invoice), cascading scope analysis, anchoring effect
+- Journalist: Priya Greenwood (homeowner/consumer beat)
+- **Published:** "78% of Homeowners Went Over Budget on Their Last Renovation. The AI That Estimated the Cost Never Went Inside." (#568)
