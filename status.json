@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 587,
+    "slug": "ai-contractor-fraud-ftc-fake-listings",
+    "journalist": "Marcus Washington",
+    "phase": "SHIP_READY",
+    "headline": "One Company Created Thousands of Fake Contractor Listings. The Calls Went to the Philippines. The FTC Took Eight Years to Catch Them.",
+    "created": "2026-07-20",
+    "completed": "2026-07-20T16:45:00-07:00"
+  },
   "last_completed": 569,
   "ship_ready": [
     {
@@ -90,6 +98,13 @@
       "slug": "permitted-not-started-go-nogo-gap",
       "journalist": "Frank DeLuca",
       "ship_after": "2026-07-20"
+    },
+    {
+      "number": 587,
+      "slug": "ai-contractor-fraud-ftc-fake-listings",
+      "journalist": "Marcus Washington",
+      "ship_after": "2026-08-01",
+      "completed": "2026-07-20T16:45:00-07:00"
     }
   ]
 }
