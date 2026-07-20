@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>The Radon Map Your Building Code Relies On Was Drawn in 1993. An AI Trained on 718,000 Homes Found What It Missed. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-radon-map-building-code-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "The Radon Map Your Building Code Relies On Was Drawn in 1993. An AI Trained on 718,000 Homes Found What It Missed.",
+		"description": "Only 13 US jurisdictions require radon-resistant new construction, and the map they reference is 33 years old and county-level. ML models can now predict indoor radon at the ZIP-code or building level with R² of 0.96, identifying high-risk homes the 1993 map classifies as safe. Passive RRNC costs $350-$500 during construction. Retrofitting after discovery costs $800-$2,500.",
+		"image": "https://aihomebuilding.com/images/ai-radon-map-building-code-gap.jpg?v=635cf5ee",
+		"datePublished": "2026-07-20",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-radon-map-building-code-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="The Radon Map Your Building Code Relies On Was Drawn in 1993. An AI Trained on 718,000 Homes Found What It Missed.">
+	<meta property="og:description" content="Only 13 US jurisdictions require radon-resistant new construction. ML models can now predict indoor radon at building level with R² of 0.96, identifying high-risk homes the 1993 map classifies as safe. Passive RRNC costs $350-$500 during construction vs. $800-$2,500 for retrofit.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-radon-map-building-code-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-radon-map-building-code-gap.jpg?v=635cf5ee">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="The Radon Map Your Building Code Relies On Was Drawn in 1993. An AI Trained on 718,000 Homes Found What It Missed.">
+	<meta name="twitter:description" content="ML models predict radon at building level. Building codes still use a 33-year-old county map. The cost gap: $400 during construction vs. $1,500+ after.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-radon-map-building-code-gap.jpg?v=635cf5ee">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/ai-radon-map-building-code-gap.jpg?v=635cf5ee" alt="A colorized geological map layered over a suburban housing development, showing radon risk zones that don't align with county boundaries">
+		<div class="overlay">
+			<span class="badge">Policy & Regulation</span>
+			<h1>The Radon Map Your Building Code Relies On Was Drawn in 1993. An AI Trained on 718,000 Homes Found What It Missed.</h1>
+			<div class="byline">By Catherine Chen · July 20, 2026</div>
+		</div>
+	</div>
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to all articles</a>
+		<article class="article-body story-body">
+
+			<p>Thirty-three years ago, the EPA drew a map. Every county in the United States got sorted into one of three radon risk zones based on whatever indoor measurements, aerial radioactivity surveys, geological data, and soil parameters the agency could assemble at the time. Zone 1 meant high risk. Zone 3 meant low.</p>
+
+			<p>That map has never been updated. It remains the reference document that state building codes use to decide whether new homes need radon-resistant construction, and twelve states plus the District of Columbia have bothered to mandate such construction based on it, while Iowa passed a law in 2026 to become the fourteenth jurisdiction and thirty-eight states require nothing at all.</p>
+
+			<div class="pull-stat">
+				<span class="number">13 of 51</span>
+				<span class="label">Jurisdictions that require radon-resistant new construction (RRNC) in their building codes. 38 states have no mandate. Source: Environmental Law Institute, June 2026.</span>
+			</div>
+
+			<p>Meanwhile, researchers have spent the past three years training machine learning models on datasets that would have been unimaginable in 1993, and what they found should concern every homeowner whose building code still references that map. A team at the University of Pennsylvania published results in <em>Scientific Reports</em> this year using a random forest model trained on 718,111 indoor radon test results across the state, predicting concentrations at the ZIP-code level rather than the county level. Their central finding: regions with moderate average exposure levels still harbored extreme outliers. Individual homes testing ten or twenty times above the EPA action level of 4 pCi/L while their county average sat comfortably below it.</p>
+
+			<p>A separate study in <em>Applied Radiation and Isotopes</em> went further still. Mutlu Zeybek's Physics-Informed Neural Network, trained on 957 structures in Western Turkey, predicted indoor radon concentrations at the individual building level with an R&sup2; of 0.96. Not ZIP. Not county. Each building. Zeybek's model incorporated geological foundations, fault proximity, and building material porosity to identify 15.3% of structures as high-risk, structures that a county-level classification system would have averaged into the moderate bin and ignored.</p>
+
+			<h2>The Resolution Gap</h2>
+
+			<p>County-level means 3,143 data points covering the entire United States. ZIP-code level means 41,683. Building-level means every house gets its own number. Between county and ZIP resolution alone, the improvement is a factor of thirteen, and between county and building level, the improvement is essentially infinite, which matters because radon does not respect county lines and two homes across the street from each other can differ by a factor of ten depending on subsurface geology, foundation type, and soil permeability.</p>
+
+			<p>Virginia knows this. Its Department of Health maintains a public list of known inaccuracies in the 1993 EPA map. Loudoun County should be designated high-risk, not moderate. Several I-95 corridor counties bordering high-risk jurisdictions to their west should be bumped from low to moderate. Homes built at low elevations in the Williamsburg area have shown elevated radon despite sitting in a "low risk" zone. EPA itself states on its website that the map "should not be used to determine if individual homes need to be tested."</p>
+
+			<p>Building codes use it for exactly that purpose. Every day.</p>
+
+			<h2>$425 Now or $1,500 Later</h2>
+
+			<p>Passive radon-resistant new construction is not complicated: a gravel layer under the slab, polyethylene sheeting over it, a sealed vent pipe running from the subslab aggregate up through the roof, caulked penetrations at every slab opening, and a junction box wired for future fan installation if the passive stack alone doesn't bring levels below 4 pCi/L. According to the <a href="https://sosradon.org">National Radon Program Services</a>, the average cost during construction runs $350 to $500, because the gravel and sheeting are going in anyway and the pipe follows existing plumbing chases.</p>
+
+			<p>Retrofitting the same system into a finished home costs $800 to $2,500 for a basic active suction setup, according to data from <a href="https://www.homeadvisor.com">HomeAdvisor</a> and <a href="https://www.angi.com">Angi</a>. Complex installations with block-wall suction or crawlspace encapsulation can reach $5,000. Active systems also carry ongoing operating costs of $100 to $500 per year for fan electricity and conditioned air replacement. Wisconsin's Department of Health Services puts the cost ratio bluntly: passive RRNC is 50% to 70% of the cost of a retrofitted system.</p>
+
+			<div class="pull-stat">
+				<span class="number">$425 vs. $1,500+</span>
+				<span class="label">Average cost of passive radon-resistant construction during building vs. active suction retrofit after. Sources: National Radon Program Services, HomeAdvisor.</span>
+			</div>
+
+			<p>Run those numbers at scale. Approximately 1.5 million homes start construction in the United States each year, and roughly 1.1 million of those break ground in states with no RRNC mandate. Universal RRNC would cost approximately $468 million annually at $425 per home. That sounds expensive until you learn that EPA estimates radon causes 21,000 lung cancer deaths per year, making it the leading cause of lung cancer in non-smokers and the second cause overall behind only cigarettes, with no known safe threshold of exposure according to the World Health Organization.</p>
+
+			<p>Only about 30% of homeowners ever test for radon. In competitive housing markets, buyers routinely waive inspections to win bids, and Minnesota's Department of Health documented a nearly 40% decline in radon testing during real estate transactions from 2020 to 2022 as the market overheated. Of the homes that do test high and get mitigated, each one paid three to five times what the builder could have spent during framing.</p>
+
+			<h2>What the AI Could Do That the Map Cannot</h2>
+
+			<p>Both the Pennsylvania and Turkish studies demonstrate something the 1993 map structurally cannot provide: within-zone discrimination, the ability to separate dangerous homes from safe ones inside the same county. A county-level map assigns a single risk score to an area that might contain hundreds of distinct geological formations, fault lines, and soil permeability gradients. Machine learning models ingest that complexity as features rather than averaging it away. The Pennsylvania random forest model incorporated geological, meteorological, and building-specific data to produce confidence intervals at the ZIP level, including upper quantile estimates that flag localized clusters of elevated exposure invisible in the mean.</p>
+
+			<p>No jurisdiction has integrated ML-based radon mapping into its building code, and the IRC includes radon-resistant construction only in Appendix F, which is optional unless a state formally adopts it. Even among the thirteen jurisdictions that mandate RRNC, most apply the requirement uniformly or reference the 1993 EPA zones, and Washington requires RRNC only in its seven Zone 1 counties, which means a home built two miles across a county line in Zone 2 gets no protection even if the geology beneath both properties is identical.</p>
+
+			<h2>What This Means if You're Building or Buying</h2>
+
+			<p>If you are building a new home in any state, ask your builder whether the contract includes passive RRNC regardless of your county's EPA zone designation. If it does not, request it as a line-item addition. At $350 to $500, it is the cheapest insurance in the entire construction budget. Unlike actual insurance, it prevents the problem rather than compensating you after the damage.</p>
+
+			<p>If you are buying an existing home, test for radon before closing. A short-term charcoal test kit costs $15 to $30. Professional testing runs $150 to $250. Do not waive this to make your offer competitive. A radon level above 4 pCi/L is a negotiating lever, not a deal-breaker: mitigation costs are well-established and can be folded into the purchase agreement.</p>
+
+			<p>If you are a builder in a state without RRNC mandates, consider adopting it voluntarily. Iowa's legislature passed its requirement in 2026 largely because, as state representative Hans Wilz noted, "the vast majority of Iowa home builders are already installing these systems," and the regulation simply codified existing best practice rather than imposing anything new. In Nebraska, where RRNC has been mandatory since September 2019, 60% of the 90,000 homes tested before the law showed levels suggesting mitigation. The code caught up to the geology.</p>
+
+			<h2>Limitations</h2>
+
+			<p>This analysis relies on cost estimates from third-party aggregators (HomeAdvisor, Angi, National Radon Program Services) that reflect national averages. Regional variation in labor and material costs may shift specific numbers. The Pennsylvania random forest study, while large, covers a single state with unusually high radon prevalence; its findings may not generalize to states with lower geological radon potential. Zeybek's PINN model demonstrates building-level prediction feasibility but was validated on 957 structures in a specific geological context, not at scale across diverse American geology. No study has yet published a validated, nationwide ML radon map at sub-county resolution. Our cost-at-scale calculation of $468 million assumes uniform $425 per unit across all housing types, including multifamily structures where per-unit costs may differ.</p>
+
+			<p>Economic efficiency is the strongest case against mandatory universal RRNC: in Zone 3 counties where fewer than 5% of homes test above 4 pCi/L, the overwhelming majority of $425 investments will protect homes that never needed protection. This is, functionally, a $400 insurance premium on a home that has a 95% chance of never filing a claim. Whether that ratio justifies a mandate is a political question the data alone cannot settle. What the data do settle is that the existing tool for making that decision, a county-level map from 1993, is operating at a resolution too coarse to distinguish the 5% from the 95%, and machine learning models that can make that distinction already exist.</p>
+
+		</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>
