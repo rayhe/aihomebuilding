@@ -1,15 +1,6 @@
 {
-  "current": {
-    "slug": "ai-roof-nailing-inspection-drone-gap",
-    "phase": "QA",
-    "round": 1,
-    "headline": "Sixty Percent of Roof Failures Start With a Nail. A $200 Drone Flight Finds Them All. Nobody Flies It.",
-    "journalist": "Jake Kowalski",
-    "number": 593,
-    "started": "2026-07-21T06:01:52-07:00",
-    "critique_score": 8.93
-  },
-  "last_completed": 592,
+  "current": null,
+  "last_completed": 593,
   "ship_ready": [
     {
       "number": 554,
@@ -235,6 +226,15 @@
       "critique_score": 8.93,
       "ship_after": "2026-08-15",
       "completed": "2026-07-21T04:15:00-07:00"
+    },
+    {
+      "number": 593,
+      "slug": "ai-roof-nailing-inspection-drone-gap",
+      "headline": "Sixty Percent of Roof Failures Start With a Nail. A $200 Drone Flight Finds Them All. Nobody Flies It.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.93,
+      "ship_after": "2026-08-16",
+      "completed": "2026-07-21T06:30:00-07:00"
     }
   ]
 }
