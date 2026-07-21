@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>The Electrical Code Says Your Home Needs 125 Amps to Go All-Electric. Seven Hundred Homes Peaked at Twenty-Nine. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/nec-load-calculation-panel-bottleneck-electrification.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "The Electrical Code Says Your Home Needs 125 Amps to Go All-Electric. Seven Hundred Homes Peaked at Twenty-Nine.",
+		"description": "NEC Article 220 load calculations assume every appliance runs at full draw simultaneously. Peninsula Clean Energy measured 700+ all-electric homes and found the most common peak was 29 amps. The gap between code math and real-world demand is costing 48 million homeowners billions in unnecessary panel upgrades.",
+		"image": "https://aihomebuilding.com/images/nec-load-calculation-panel-bottleneck-electrification.jpg?v=aaf03c0b",
+		"datePublished": "2026-07-21",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/nec-load-calculation-panel-bottleneck-electrification.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="The Electrical Code Says Your Home Needs 125 Amps to Go All-Electric. Seven Hundred Homes Peaked at Twenty-Nine.">
+	<meta property="og:description" content="NEC load calculations assume worst-case simultaneous demand. Real data from 700+ homes says the most common peak is 29 amps. The panel bottleneck is a math problem, not a physics one.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/nec-load-calculation-panel-bottleneck-electrification.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/nec-load-calculation-panel-bottleneck-electrification.jpg?v=aaf03c0b">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="The Electrical Code Says Your Home Needs 125 Amps to Go All-Electric. Seven Hundred Homes Peaked at Twenty-Nine.">
+	<meta name="twitter:description" content="NEC load calculations assume worst-case simultaneous demand. Real data from 700+ homes says the most common peak is 29 amps. The panel bottleneck is a math problem, not a physics one.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/nec-load-calculation-panel-bottleneck-electrification.jpg?v=aaf03c0b">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.byline {
+			font-size: 0.9rem;
+			color: rgba(255,255,255,0.8);
+		}
+		.story-body {
+			max-width: 720px;
+			margin: 2.5rem auto;
+			padding: 0 1.5rem;
+			font-size: 1.05rem;
+		}
+		.story-body p {
+			margin-bottom: 1.5rem;
+		}
+		.story-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			color: var(--text-primary);
+		}
+		.story-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			text-align: center;
+			padding: 2rem 1rem;
+			margin: 2rem 0;
+			border-top: 2px solid var(--accent);
+			border-bottom: 2px solid var(--accent);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+		}
+		.pull-stat .label {
+			display: block;
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+			margin-top: 0.5rem;
+		}
+		.back-link {
+			display: block;
+			max-width: 720px;
+			margin: 0 auto 2rem;
+			padding: 0 1.5rem;
+		}
+		.back-link a {
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
+		@media (max-width: 600px) {
+			.article-hero { height: 40vh; min-height: 250px; }
+			.story-body { padding: 0 1rem; }
+		}
+	</style>
+</head>
+<body>
+	<div class="back-link"><a href="../index.html">&larr; AI Home Building</a></div>
+
+	<div class="article-hero">
+		<img src="../images/nec-load-calculation-panel-bottleneck-electrification.jpg?v=aaf03c0b" alt="Residential electrical panel with smart energy management display">
+		<div class="overlay">
+			<span class="badge">Policy &amp; Regulation</span>
+			<h1>The Electrical Code Says Your Home Needs 125 Amps to Go All-Electric. Seven Hundred Homes Peaked at Twenty-Nine.</h1>
+			<div class="byline">By Catherine Chen &bull; July 21, 2026</div>
+		</div>
+	</div>
+
+	<div class="story-body">
+		<article class="story-page">
+
+			<p>Wayne Szeto wanted to swap every gas appliance in his Burlingame, California home for an electric one. His electricians told him the 100-amp panel couldn't handle it. A service upgrade would cost $20,000, and it would, in his words, "destroy" the financial case for going all-electric.</p>
+
+			<p>He electrified anyway. No upgrade, no drama, and his panel handled everything without incident.</p>
+
+			<p>Szeto's experience is not unusual. It is, according to the most comprehensive real-world dataset available, the overwhelming norm. When <a href="https://www.peninsulacleanenergy.com/" target="_blank">Peninsula Clean Energy</a> analyzed more than 700 all-electric single-family homes in its San Mateo County service territory in early 2024, it found that 99 percent of them never drew more than 100 amps of electrical current over the entire year. The most common peak demand was 29 amps. Not 100, not anywhere close to the 125 amps that a standard NEC load calculation would produce for a typical electrified home. Twenty-nine. One-quarter of what the panel could deliver, one-fifth of what the code predicted.</p>
+
+			<div class="pull-stat">
+				<span class="number">29 amps</span>
+				<span class="label">Most common peak demand across 700+ all-electric homes in San Mateo County. NEC Article 220 calculates a 1,500-square-foot home with standard electric loads at 125 amps.</span>
+			</div>
+
+			<h2>The Math That Built the Bottleneck</h2>
+
+			<p>NEC Article 220 is not a bad document. It is a conservative one. For most of its history, that conservatism was its virtue. Its standard calculation method, codified across Parts III and IV of Article 220 and recently relocated to Article 120 in the 2026 NEC, adds up every conceivable load in a home and then applies demand factors calibrated to the worst plausible scenario imaginable: the heat pump compressor running at peak, the supplemental electric heat strips engaged, the water heater cycling, the dryer tumbling, the cooktop blazing on every burner, and the oven at 450 degrees, all pulling maximum rated current at the precise moment you turn on every light in the house.</p>
+
+			<p>Run the numbers for a modest 1,500-square-foot home with a heat pump, electric cooktop, oven, dryer, water heater, dishwasher, and garbage disposal, using the optional calculation method in NEC 220.82. The answer, per <a href="https://www.mikeholt.com/" target="_blank">Mike Holt's NEC examples</a>: 125 amps. Your electrician looks at your 100-amp panel and tells you it has to go. Out with the old. Budget accordingly.</p>
+
+			<p>But the 125-amp answer rests on an assumption that real-world data obliterates. Your heat pump compressor does not run at full rated amperage while your supplemental heat strips are on while you run the dryer, the oven, and every burner on the cooktop. It is theoretically possible and practically absurd, the electrical equivalent of sizing your car insurance for the assumption that you will total the vehicle every single day. The code calculates as if every appliance conspires against you at the same instant. Your house has never worked that way, and PCE's data confirms it across hundreds of homes for an entire year.</p>
+
+			<h2>The Scale of What That Assumption Costs</h2>
+
+			<p><a href="https://blog.se.com/homes/2025/02/19/upgrading-your-electrical-panel-and-service/" target="_blank">Schneider Electric estimates</a> that 48 million U.S. homes would require service upgrades to safely accommodate a Level 2 EV charger under current code interpretation. PG&amp;E alone projects that more than <a href="https://www.span.io/blog/pge-accelerating-home-electrification" target="_blank">600,000 homes</a> in its service area will need some type of electric service upgrade in the coming decade. Costs range from $2,000 to $30,000, according to all-electric home developer <a href="https://www.redwoodenergy.net/" target="_blank">Redwood Energy</a>, and the wait times stretch from two months to two years depending on the utility, the jurisdiction, whether a transformer upgrade is needed on the street, and whether the utility decides your neighborhood's transformer can handle another electrified home at all.</p>
+
+			<div class="pull-stat">
+				<span class="number">$3.4 billion</span>
+				<span class="label">Estimated savings in the Bay Area alone if the share of electrifying homes that require panel upsizing drops from 60% to 30%, according to SPUR.</span>
+			</div>
+
+			<p>A <a href="https://www.spur.org/" target="_blank">SPUR analysis</a> calculated that if the Bay Area reduced the percentage of electrifying homes needing panel upsizing from 60 percent to 30 percent, customers and incentive programs would save $3.4 billion. That figure does not account for the service-upgrade costs that the utility passes along separately. Both figures understate the total. And the Peninsula Clean Energy data suggests that 30 percent is still too high. Their pilot electrified nine low-income homes, five of them on 100-amp panels, without a single service upgrade. Bills dropped 20 percent on average. Since the pilot concluded, PCE has retrofitted dozens more homes. Ninety-five percent have not needed upgrades.</p>
+
+			<h2>The Code Starts to Notice</h2>
+
+			<p>The NEC is not oblivious to this gap, though its corrections move at code-cycle speed, which is glacial compared to the pace of electrification.</p>
+
+			<p>Two provisions offer partial relief. <a href="https://blog.se.com/homes/2025/06/09/charging-ahead-managing-ev-load-demand-without-breaking-the-bank/" target="_blank">Section 220.70 and Article 750</a>, introduced in recent code cycles, formally recognize Energy Management Systems. An EMS monitors a home's total electrical load in real time and sheds lower-priority circuits, the ones you pre-select, when consumption approaches the panel's rated capacity. Rather than sizing the service based on the theoretical sum of every load, the code now permits sizing based on managed demand. It is the first acknowledgment in the NEC that homes are dynamic systems, not static sums.</p>
+
+			<p>Section 220.87 offers a different concession: it allows electricians to calculate existing loads from actual maximum demand data recorded over a one-year period, rather than from Article 220's additive method, which is closer to how engineers think about capacity in virtually every other context on earth. If your home has demonstrably never drawn more than 80 amps over twelve months of measurement, the code no longer requires you to pretend it might suddenly need 125.</p>
+
+			<p>There is an irony buried in 220.87 that deserves attention. The exception to this provision prohibits its use in homes with solar photovoltaic systems, wind generation, or any form of peak load shaving. Homes most aggressively pursuing electrification, the ones with rooftop solar and battery storage, are precisely the ones excluded from the code section that would most benefit them. Regulators assumed that homes with renewable energy systems are too variable to measure reliably, but the PCE data suggests the opposite: managed, electrified homes are the most predictable ones on the grid.</p>
+
+			<h2>A $3,500 Software Fix for a $15,000 Hardware Problem</h2>
+
+			<p>SPAN, founded in 2018, sells a smart electrical panel for approximately $3,500 that replaces a home's existing breaker box and adds circuit-level monitoring and load management. Its "PowerUp" feature continuously tracks total current at the main breaker. When the home approaches 80 percent of rated capacity, a rare occurrence, it temporarily pauses pre-selected lower-priority circuits until demand stabilizes. One installer described the effect to PG&amp;E: "You just made it possible to effectively have a 200-amp panel by throttling the loads." Software ate the breaker box.</p>
+
+			<p>In March 2026, <a href="https://energycentral.com/" target="_blank">Eaton invested $75 million in SPAN</a>, explicitly aiming to drive the cost premium down through Eaton's global manufacturing and distribution network. SPAN's newer "Edge" device, installed at the meter socket in under 15 minutes by a technician, enables load management without replacing the panel at all. PG&amp;E is deploying Edge devices at scale through its <a href="https://www.tdworld.com/" target="_blank">PanelBoost program</a>.</p>
+
+			<p>Qmerit, the largest EV charger installer network in North America, has taken a different approach. Its AI-powered <a href="https://www.qmerit.com/" target="_blank">Panel Insights tool</a> evaluates photographs of an electrical panel to determine capacity, available breaker slots, and whether the panel can accommodate an EV charger or heat pump without an upgrade. It is a triage tool: a way to determine, before the electrician arrives, whether the $15,000 conversation is even necessary.</p>
+
+			<h2>What the Data Does Not Prove</h2>
+
+			<p>The PCE study measured homes in the Bay Area, where climate is mild by any national standard. Heating loads in Minneapolis, cooling loads in Phoenix, or the simultaneous demands of a Midwest home running electric heat and a Level 2 charger through a January cold snap present a genuinely different calculation. Pecan Street's chief technology officer, Scott Hinson, has cautioned that whether a home needs an upgrade "is going to be regionally dependent." A handful of 100-amp homes in Calgary have gone fully electric. A handful is not a dataset.</p>
+
+			<p>Smart panels introduce a dependency that traditional breaker boxes do not carry. SPAN requires an internet connection. If the system fails during a peak event, the overload protection it provides vanishes. Without it, the panel reverts to a dumb box with a code-calculated load that exceeds its rating. For homes where the smart panel is the only reason the service was not upgraded, that failure mode matters.</p>
+
+			<p>And the 1 percent of PCE homes that did exceed 100 amps are not a rounding error. They are the reason the code is conservative. Fair enough. A code that prevents 99 percent of unnecessary upgrades but misses the 1 percent that actually overloads is not a success. It is a lawsuit.</p>
+
+			<h2>What This Means for Your Project</h2>
+
+			<p>If you have a 100-amp panel and want to add an EV charger, a heat pump, or both, do not accept the first electrician's recommendation to upgrade without asking three questions.</p>
+
+			<p>First: has anyone actually measured your panel's peak demand? NEC 220.87 allows existing load calculations based on a year of real data, available from your utility company. If your measured peak is 60 amps on a 100-amp panel, the code itself does not require an upgrade, with the solar PV exception noted above.</p>
+
+			<p>Second: does a certified Energy Management System, compliant with NEC 220.70 and Article 750, eliminate the need for a service upgrade in your jurisdiction? Not every local authority having jurisdiction has adopted the most recent NEC. Your state may still be on the 2020 or 2023 edition, or may have amendments that restrict EMS credits. Every jurisdiction is different, and it is worth knowing before you write the check.</p>
+
+			<p>Third: what does the smart panel cost versus the upgrade? In many markets, the comparison is $3,500 installed versus $10,000 to $20,000 with a months-long utility queue. But if your home requires a full service entrance replacement, including new conductors from the utility pole, the smart panel does not eliminate that work. It only eliminates the need for it to accommodate new loads.</p>
+
+			<p>Article 220 exists to prevent houses from burning down. That purpose is not negotiable. But Article 220 was written for a world where the worst case was the only case worth modeling. In a world where 700 homes peak at 29 amps and 48 million are told they need $15,000 upgrades, the code's conservatism has become its own kind of hazard: a financial one that slows the electrification it was never designed to obstruct.</p>
+
+		</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>
