@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 588,
+  "last_completed": 589,
   "ship_ready": [
     {
       "number": 551,
@@ -207,6 +207,15 @@
       "critique_score": 8.93,
       "ship_after": "2026-08-12",
       "completed": "2026-07-20T18:00:00-07:00"
+    },
+    {
+      "number": 589,
+      "slug": "ai-home-inspection-report-speed-accuracy-gap",
+      "headline": "Your Home Inspector Spent Half the Day Typing. The AI That Wrote His Report Has Never Seen Your House.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.64,
+      "ship_after": "2026-08-13",
+      "completed": "2026-07-20T20:01:00-07:00"
     }
   ]
 }
