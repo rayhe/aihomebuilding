@@ -1,0 +1,45 @@
+{
+  "article": 605,
+  "slug": "ai-contech-funding-wave-office-vs-jobsite-gap",
+  "round": 1,
+  "average": 8.857142857142858,
+  "critics": {
+    "General Editor": {
+      "score": 9.0,
+      "notes": "Strong meta-analysis angle. Original contribution (per-worker investment math) is genuinely novel. Structure builds logically from funding data through analysis to actionable takeaway. Cold open lands hard with the $285M number. Counterargument section is honest \u2014 acknowledges Higharc's defenders have a point for production builders."
+    },
+    "Voice Coach": {
+      "score": 8.5,
+      "notes": "Marcus Washington voice comes through \u2014 investigative, follows the money, human-centered framing. Good sentence rhythm variation (variance 357.9). Em dashes at 0. 'The' starters at 4.5%. Some paragraphs in the middle section (What $95M Buys, One Company Got the Glasses Right) read slightly too balanced/fair for Marcus, who should be angrier. The 'No spatial database fixes that' one-liner is perfectly Marcus."
+    },
+    "Ethics Reviewer": {
+      "score": 9.0,
+      "notes": "No self-congratulation. Doesn't moralize about VCs or founders. Acknowledges the investment isn't 'wasted.' Engages with the labor shortage honestly without preachy hand-wringing. Treats the counterargument at full strength. No AI-industry bashing for its own sake."
+    },
+    "Social/Shareability": {
+      "score": 9.0,
+      "notes": "Headline is highly shareable \u2014 concrete number ($285M), surprising split (job site got $25M). Pull stats are strong (82%, 723,000). The '$15 per worker per year on technology training' line is a share trigger. 'No spatial database fixes that' is quotable. Strong for LinkedIn/X where construction tech discourse happens."
+    },
+    "Legal Accuracy": {
+      "score": 8.5,
+      "notes": "All funding figures sourced to named press releases and publications. Census data attributed correctly. HBI report cited properly. No legal claims made. The 80% small builder statistic could use a source citation (NAHB is the standard source). The $2,550/month carrying cost calculation is reasonable but simplified (doesn't include property tax, insurance, or opportunity cost during construction)."
+    },
+    "Research Rigor": {
+      "score": 9.0,
+      "notes": "Original contribution (per-worker investment analysis) is genuinely novel \u2014 nobody has divided the funding wave by the labor shortage number. 8 primary sources. Limitations section is honest about methodology gaps. Strongest counterargument is stated at full strength. The 82/9/9/0 breakdown is a defensible categorization. One weakness: the $285M figure is acknowledged as incomplete (quiet raises not counted) but presented as if definitive in the headline."
+    },
+    "Data Presentation": {
+      "score": 9.0,
+      "notes": "Numbers are specific ($394 per worker, $2,550 per month, $127,500 per 50 homes). Pull stats are well-chosen. The article shows its math rather than just asserting conclusions. Good use of comparative framing (82 cents vs 9 cents vs 0 cents). The $15/worker/year training figure is devastating and well-placed."
+    }
+  },
+  "hard_gates": {
+    "em_dashes": 0,
+    "the_starters_pct": 4.5,
+    "banned_phrases": 0,
+    "rhythm_variance": 357.9,
+    "rhythm_short_pct": 15.0,
+    "rhythm_long_pct": 45.0,
+    "all_passed": true
+  }
+}
