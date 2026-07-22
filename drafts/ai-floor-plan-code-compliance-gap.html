@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your AI Floor Plan Passed the Eye Test. It Failed Thirty-Seven Percent of the Building Code. | AI Home Building</title>
+    <meta name="description" content="A university study gave an AI floor plan generator nine apartments to design. It nailed the look. It missed the sinks, the storage, and the building code.">
+    <meta property="og:title" content="Your AI Floor Plan Passed the Eye Test. It Failed Thirty-Seven Percent of the Building Code.">
+    <meta property="og:description" content="A university study gave an AI floor plan generator nine apartments to design. It nailed the look. It missed the sinks, the storage, and the building code.">
+    <meta property="og:image" content="../images/ai-floor-plan-code-compliance-gap.jpg?v=93074e4c">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<article class="story-page">
+    <header>
+        <p class="dateline">July 22, 2026</p>
+        <h1>Your AI Floor Plan Passed the Eye Test. It Failed Thirty-Seven Percent of the Building Code.</h1>
+        <p class="subtitle">A university study gave an AI floor plan generator nine apartments to design. It nailed the spatial logic. It missed the sinks, the storage closets, and the load-bearing walls.</p>
+        <p class="byline">By Elena Vasquez</p>
+    </header>
+
+    <figure class="hero">
+        <img src="../images/ai-floor-plan-code-compliance-gap.jpg?v=93074e4c" alt="An architectural floor plan with red markup annotations showing code violations">
+    </figure>
+
+    <div class="story-body">
+
+        <p>At first glance, it looked right. Open living area flowing into the kitchen, bedrooms tucked behind a corridor, bathroom positioned off the hallway. A competent layout for a two-bedroom apartment in Poznań, Poland, conjured by the AI tool PlanFinder in under thirty seconds, and you could show it to a client without embarrassment.</p>
+
+        <p>Then an architect with sixteen years of multifamily housing experience started counting problems.</p>
+
+        <p>No designated space for a washing machine, no storage closet anywhere in the unit, and a separate toilet without the sink that Polish building code demands as a mandatory fixture. Corridors too narrow to accommodate an emergency stretcher, which the same code requires for every residential unit. And the bedrooms were arranged as walk-through rooms, an enfilade layout that residential design abandoned somewhere around the time people stopped building fallout shelters.</p>
+
+        <p>This was not a single unlucky generation. Researchers at Poznan University of Technology ran the experiment across nine residential units, from studios through four-bedrooms, selecting PlanFinder's best output for each, and published their results in June 2026 in the journal <em>Buildings</em>. For mandatory building code criteria, AI-generated layouts complied between 37.5 percent and 71.4 percent of the time. Human-designed layouts from the same completed building project scored 100 percent across every apartment type. When the researchers layered in spatial quality and ergonomic criteria, the AI range stretched from 55.6 to 74.1 percent against human scores of 92.9 to 100 percent.</p>
+
+        <h2>Geometric intelligence, legal blindness</h2>
+
+        <p>What makes these results genuinely unsettling, rather than merely disappointing, is that the AI was not bad at everything; it was, in fact, excellent at the parts that look impressive in a sales demo and terrible at the parts you discover six months later when the building inspector arrives.</p>
+
+        <p>General spatial organization scored a perfect 100 percent. Living rooms landed where living rooms belong, private zones separated cleanly from public ones, minimum room areas were met, and natural light reached every space that needed it. At the macro level, at the resolution where you squint at a floor plan on a laptop screen and think "yeah, that works," PlanFinder understood modern residential design paradigms as well as any junior architect fresh out of school.</p>
+
+        <p>Below that resolution, everything fell apart. Researchers cataloged five distinct failure categories: representational omissions, where the algorithm forgot fixtures and equipment that codes require; dimensional failures, where rooms technically existed but shrank below any usable size once real furniture occupied them; circulation failures, including corridors that violated width requirements or produced chains of walk-through rooms that residential design theory discarded decades ago; structural conflicts, where the algorithm simply pretended internal load-bearing walls did not exist, once generating a partition directly adjacent to a structural element without registering the collision; and broad legal non-compliance so pervasive that the paper used the phrase "zero compliance" to describe performance on several key criteria.</p>
+
+        <p>Complexity made it worse, with studios and small two-bedrooms faring best while four-bedroom layouts, the kind a family with children might actually need, scored lowest: 37.5 percent on mandatory code compliance, 55.6 percent overall.</p>
+
+        <h2>Selling speed, delivering rework</h2>
+
+        <p>PlanFinder is not obscure, and neither are its competitors. TestFit, Finch3D, Maket, ArchitectGPT: these are commercial products marketed to developers, builders, and increasingly to homeowners who want to avoid a five-figure architecture fee and go straight to what the marketing copy implies will be a permit-ready layout. PlanFinder generates several design variants in roughly twenty-five to thirty seconds. A human architect working the same problem needs days.</p>
+
+        <p>Speed is real, but permit-readiness is not.</p>
+
+        <p>A custom home builder who advises on AI adoption put it with admirable brevity on LinkedIn last year: "Hand a permit office an AI render and you will be back at the desk by lunch." What separates a concept from a construction document is precisely what the Poznań study found missing, the boring invisible work of fixture placement, code-specific dimensions, structural coordination, and equipment allocations that nobody notices until someone tries to build from the drawing.</p>
+
+        <p>Researchers concluded, with a restraint that almost made the finding more damning, that the AI-generated layouts "require manual adaptation by an architect, which partially negates the application's main advantage." In plainer language: if every output needs an architect to add missing sinks, verify corridor widths, reconcile load-bearing walls, and restructure circulation patterns, you have not saved the architecture fee. You have created a new one, a correction pass on top of a plan the architect did not choose to begin with, plus a novel risk category: errors the correcting architect misses because they assumed the AI handled them.</p>
+
+        <h2>Why better training data will not solve this</h2>
+
+        <p>More data is the reflexive answer, followed by better algorithms and the assurance that version 3.0 will remember the sinks. It may, but the Poznań study implies a deeper problem, one that sits closer to a category error than a data gap.</p>
+
+        <p>PlanFinder excels at pattern recognition because it has absorbed enough floor plans to know where rooms go. It has no mechanism for understanding <em>why</em> a building code requires what it requires. A sink in a separate toilet is not a spatial pattern an algorithm can extract from thousands of plan images; it is a public health regulation, codified in law, enforced by inspectors who do not care how quickly your software rendered the layout. A stretcher-width corridor is not an aesthetic preference to be learned from visual data. It exists because paramedics need to carry unconscious people out of apartments, and that constraint has exactly zero representation in the geometric features of a floor plan drawing.</p>
+
+        <p>Enfilade layouts, those walk-through bedroom chains, illustrate the gap most sharply. An algorithm trained on floor plan images might encounter them in older housing stock and reproduce the pattern without understanding why modern codes penalize it: because parents should not have to walk through their child's bedroom to reach their own, and because architectural theory spent most of the twentieth century developing circulation systems that give each room independent access precisely to eliminate this indignity. Pattern recognition sees a layout that occurred; architectural judgment sees a layout that failed.</p>
+
+        <p>Geography compounds the problem further still. PlanFinder does not even list Poland as a country option, so the researchers had to select "other," which means the tool was attempting to satisfy code requirements for a regulatory context it was never configured to address. Building codes differ not just between countries but between states, counties, and individual municipalities, and they change on timelines governed by legislative sessions rather than software release cycles. An AI trained on Dutch housing norms will generate plans that look architecturally sophisticated and fail a Poznań building inspection on technicalities the algorithm has never encountered.</p>
+
+        <h2>Two AIs that have never met</h2>
+
+        <p>Meanwhile, in a development that would be funny if it were not so expensive for the people caught between the two systems, a separate branch of AI is being built specifically to check whether floor plans comply with building codes.</p>
+
+        <p>Austin, Texas, has formally adopted Archistar's eCheck platform as a pre-screening layer for single-family home permits. Honolulu uses CivCheck to flag missing documents and code violations before human reviewers see them. AutoReview.AI, developed at the University of Florida, has been tested against the full 800-page Florida Building Code. In July 2026, researchers from RMIT in Australia published a framework for using large language models to convert textual building codes into machine-executable compliance rules, an approach that could theoretically make automated code checking work across jurisdictions.</p>
+
+        <p>Nobody has introduced these two species of AI to each other. One AI generates the floor plan while a different one, in a different city, built by different people running on different assumptions, checks whether it meets code. A homeowner who uses one to design an addition and then encounters the other at a permit office would, in theory, receive instant feedback that the plan they just created is noncompliant. In practice, most jurisdictions have no automated pre-check at all. In practice, the AI-generated plan goes into a review backlog that one Virginia homebuilding firm described as so fragile that a single staff resignation can stall a project indefinitely.</p>
+
+        <p>So the plan sits in that queue until a human reviewer finds the missing sinks by hand.</p>
+
+        <h2>What to do with the floor plan your AI drew</h2>
+
+        <p>None of this makes AI floor plan tools worthless, but it redraws the boundary between what they can do and what they cannot, a boundary their marketing materials have been quietly erasing. Speed in the concept phase has genuine value: showing a client four layout options in thirty seconds, iterating on feedback in real time, compressing a process that used to consume weeks into a single afternoon session. For that purpose, the tools work.</p>
+
+        <p>Building from the output is a different question entirely. If you plan to submit an AI-generated layout for a building permit, or hand it to a contractor, or use it to estimate construction costs, budget for an architect's review first. Not a cursory glance at proportions and flow. A methodical check against your local building code, your lot's structural constraints, and the deeply practical question of whether the rooms function once you place a queen bed, a dresser, and a clear path to the door inside them.</p>
+
+        <p>Poznań's researchers framed the shift diplomatically: architect-as-creator becomes architect-as-curator. AI generates a starting point, and the human catches what the algorithm cannot see: the emergency stretcher that must turn in the hallway, the sink code requires in a separate bathroom, the load-bearing wall the software rendered as open air.</p>
+
+        <p>You can skip the curation step, of course. You just cannot skip the building inspector who makes you do it anyway, after you have already poured the foundation.</p>
+
+    </div>
+
+    <footer>
+        <p class="sources">Sources: Szot, Regulski & Pruszewicz-Sipińska, "AI-Assisted Residential Layout Generation," Buildings (MDPI), June 2026; Gautam et al., "Towards an automated AI-based framework for floor plan compliance checks," arXiv, July 2026; Independent Institute, "Cities Should Use AI to Approve Building Permits," March 2026.</p>
+    </footer>
+</article>
+</body>
+</html>
