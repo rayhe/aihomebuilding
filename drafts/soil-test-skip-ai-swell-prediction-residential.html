@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Builder Skipped the $2,700 Soil Report. A Two-Variable Model Flags the Problem in Seconds. Nobody Sells It.</title>
+    <meta name="description" content="ML models predict expansive soil risk from two inputs. Geotechnical reports cost $2,700. Foundation repairs hit $100,000. The product gap is staggering.">
+    <meta property="og:title" content="Your Builder Skipped the $2,700 Soil Report. A Two-Variable Model Flags the Problem in Seconds. Nobody Sells It.">
+    <meta property="og:description" content="ML models predict expansive soil risk from two inputs. Geotechnical reports cost $2,700. Foundation repairs hit $100,000. The product gap is staggering.">
+    <meta property="og:image" content="../images/soil-test-skip-ai-swell-prediction-residential.jpg?v=a6172eff">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+    <article>
+        <header>
+            <div class="story-meta">
+                <span class="journalist">Jake Kowalski</span>
+                <time datetime="2026-07-21">July 21, 2026</time>
+            </div>
+            <h1>Your Builder Skipped the $2,700 Soil Report. A Two-Variable Model Flags the Problem in Seconds. Nobody Sells It.</h1>
+        </header>
+
+        <img src="../images/soil-test-skip-ai-swell-prediction-residential.jpg?v=a6172eff" alt="A drill rig boring into clay soil next to a residential foundation under construction, morning light, Texas Hill Country" class="hero-image">
+
+        <div class="story-body">
+
+            <p>Collier Bashara builds custom homes in San Antonio, and Southern Living named him Builder of the Year for a reason that has nothing to do with countertops or ceiling beams. When he starts a project, the first call goes to a geotechnical engineer, not a framer, because every lot gets its own soil investigation before anyone draws a foundation plan. He calls it the single most important step in residential construction, and most production builders skip it entirely.</p>
+
+            <p>A geotechnical report for a single-family home runs between $1,000 and $5,000, with HomeGuide putting the national average at $2,700, a figure that covers drilling two or three boreholes, pulling samples from 15 to 20 feet underground, running lab tests on plasticity, moisture content, and bearing capacity, then writing a report that tells your structural engineer exactly what kind of foundation to design. It takes a week and prevents catastrophic decisions. And it gets skipped more than any other pre-construction step in residential building.</p>
+
+            <p>Nobody tracks the skip rate nationally, and no state agency publishes the number, but the downstream evidence is everywhere. Groundworks, the largest foundation repair company in the U.S., commissioned a national survey in June 2026 that found 36% of homeowners lack the knowledge or confidence to check their own foundation for problems. Among Southern homeowners, 39% have uncovered a structural problem worse or more costly than expected, despite the South having the newest housing stock in the country. Jeffrey Martin, the company's COO, offered the key insight: "It's not the age of the home that causes structural movement. It's the soil beneath it." A newly built home and a century-old home can experience the exact same foundation failure when soil conditions change.</p>
+
+            <p>Foundation repair costs make the $2,700 report look like a rounding error. Angi, This Old House, and Modernize all converge on the same ranges for 2026: settling and sinking repairs run $3,000 to $10,000, bowing basement walls cost $4,000 to $12,000, soil movement damage from expansive clay starts at $1,000 and climbs past $5,000 without a ceiling, and full foundation replacement lands between $20,000 and $100,000. Lifting the house to get underneath it adds $20,000 to $23,000 before anyone touches the concrete.</p>
+
+            <p>This is where builders who care about technology should pay attention, because a research team published a domain-guided random forest model in 2025 that predicts the swell potential of expansive soils with startling accuracy using almost no data at all.</p>
+
+            <p>Swell potential is the property that causes foundations to heave, crack, and shift when clay absorbs moisture, and it is the single largest driver of residential foundation damage in the United States, affecting every state, with the heaviest concentration running from Texas through the Gulf Coast, across the Deep South, and up through the Ohio Valley into the northern Great Plains.</p>
+
+            <p>What makes this model remarkable is what it needs to run. A full geotechnical investigation measures dozens of soil parameters across multiple boreholes, but this model needs two: plasticity index and clay fraction. Two numbers that any lab can produce from a single grab sample costing less than $100. Feed them into the random forest, and it returns a swell-risk classification that the researchers validated against stratified hold-out testing, k-fold cross-validation, and bootstrap uncertainty analysis, while SHAP explainability confirmed the model's decisions align with established geotechnical principles, making it lightweight, fast, and suitable for integration into BIM and GIS-based site screening workflows.</p>
+
+            <p>It is also, as of July 2026, a research paper and nothing else.</p>
+
+            <p>Nobody has built a product around it, which is the kind of sentence that sounds like an exaggeration until you check. No startup offers an app where a builder punches in two soil-test values and gets a risk classification before pouring a foundation. No title company uses ML-based swell screening in its due-diligence package for homebuyers, no insurer adjusts premiums based on algorithmic soil assessment, and no county planning office runs incoming permit applications through a model that could flag high-risk lots in batch before a single plan reviewer opens the file. Every piece of the technical stack exists in published, peer-reviewed form, and none of it has been assembled into something a contractor can use on a Tuesday morning.</p>
+
+            <p>Meanwhile, the research keeps compounding. A separate 2025 study demonstrated hybrid ML models that predict vertical deformation in expansive soils using soil-moisture data from sensors at 60 centimeters depth, essentially forecasting how much a foundation will move before it moves. Satellite remote sensing has proven capable of detecting sub-annual ground displacement from clay shrinkage and swelling cycles using MT-InSAR interferometry, meaning the satellite already knows your neighborhood is moving. A GeoAI framework combining convolutional neural networks with random forests predicted clay content from Landsat satellite imagery at R-squared values above 0.99, which is laboratory-grade accuracy from space.</p>
+
+            <p>An AI-driven soil-heaving assessment system built for rail infrastructure demonstrated one-time hardware costs of $4,400 against seasonal field campaign costs of $14,000 to $20,000, with inference times of 3.4 seconds per sample. Scale that economics to residential, and the value proposition collapses into absurdity: a system that costs less than two boreholes can screen every lot in a subdivision before breakfast.</p>
+
+            <p>So why hasn't anyone built it?</p>
+
+            <p>Partly because residential construction operates on thinner margins and shorter timelines than commercial or infrastructure work, which means nobody wants to add a step, even a cheap one. Partly because the liability model is unclear: if an algorithm says the soil is fine and the foundation cracks anyway, who carries the claim? Partly because geotechnical engineers, like all licensed professionals, have regulatory protections that discourage automation of services that currently require a PE stamp.</p>
+
+            <p>But mostly because the residential construction industry runs on inertia, and inertia does not check the soil.</p>
+
+            <p>Bashara, the San Antonio builder, explains the Plasticity Index in terms anyone can understand. A PI of zero means sand. A PI of 57 means fat clay that will crack, fill with dirt, and migrate over time, pushing and pulling your foundation with every rain cycle and every drought. He shows clients the Potential Vertical Rise number from the soils report and tells them exactly what kind of foundation it demands: slab on grade for stable soils, post-tensioned slab for moderate movement, drilled piers with a suspended slab for severe conditions, pier and beam with a crawl space when nothing else works. Every decision flows from data that costs $2,700 to collect.</p>
+
+            <p>A random forest model could flag the worst-case lots in a subdivision for $0.003 per inference. It cannot replace the full geotechnical investigation that a PE signs off on. It cannot substitute for drilling three boreholes and running lab tests. What it can do is tell a builder, a buyer, or an insurer that this specific lot sits on soil with a swell classification that warrants the $2,700 investigation before anyone pours concrete. A screening tool, not a replacement. A two-variable warning system that turns a $2,700 question from "optional" into "mandatory" by answering it in seconds for pennies.</p>
+
+            <p>The model exists, the satellite data exists, the cost-benefit math is not close, and the product does not exist.</p>
+
+            <p>That gap is worth more than the foundation repairs it would prevent.</p>
+
+            <h3>What This Means for You</h3>
+
+            <p>If you are building a home, order the geotechnical report without exception, regardless of whether you are building in Texas clay, Carolina Piedmont residuum, or Midwest glacial till, because the $2,700 is the cheapest insurance policy in construction. Demand that your builder show you the Plasticity Index and the Potential Vertical Rise numbers. If the PI is above 20, ask hard questions about foundation design, and if the PI is above 35, you need drilled piers or better, because anyone who tells you a standard slab will hold is guessing with your money.</p>
+
+            <p>If you are buying an existing home, ask for the original soils report, and if one was never done, hire a geotechnical engineer for an existing-conditions assessment ($500 to $3,000 depending on access and complexity). A foundation inspection by itself ($300 to $1,000) tells you what has already cracked, but it cannot tell you what the soil will do next, which is the question that actually determines whether your investment holds or settles into the ground beneath it.</p>
+
+            <p>If you are a builder or a proptech founder looking at this gap, the research is public, the models are validated, and the market is wide open. Somebody is going to build the two-variable screening product. It might as well be you.</p>
+
+            <h3>Limitations</h3>
+
+            <p>No reliable national data exists on what percentage of residential builds skip geotechnical reports. Estimates are inferred from industry commentary and repair volumes. ML swell-prediction models have been validated in controlled research settings, not deployed in commercial residential products. Satellite remote sensing operates at spatial resolutions that may be too coarse for individual lot-level assessment. And the two-feature random forest model still requires a soil sample to obtain plasticity index and clay fraction, which means it reduces the cost of screening but does not eliminate the need for physical contact with the ground.</p>
+
+        </div>
+    </article>
+</div>
+</body>
+</html>
