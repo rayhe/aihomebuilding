@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 601,
+  "last_completed": 602,
   "ship_ready": [
     {
       "number": 555,
@@ -298,6 +298,15 @@
       "critique_score": 8.93,
       "ship_after": "2026-08-23",
       "completed": "2026-07-21T22:01:00-07:00"
+    },
+    {
+      "number": 602,
+      "slug": "ai-concrete-mix-optimization-residential-gap",
+      "headline": "An AI Designed a Concrete Mix That Uses 25% Less Cement. Your Foundation Got the Same Recipe as Every Other House on the Block.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.93,
+      "ship_after": "2026-08-24",
+      "completed": "2026-07-22T00:30:00-07:00"
     }
   ]
 }
