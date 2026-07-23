@@ -1,15 +1,15 @@
 {
   "current": {
-    "number": 611,
-    "slug": "shingle-lifetime-warranty-climate-durability-ai-gap",
-    "headline": "Your Roof Has a 'Lifetime' Warranty. The Manufacturer Defined Lifetime as 600 Months. An Algorithm Knows the Real Number.",
-    "journalist": "Frank DeLuca",
+    "number": 612,
+    "slug": "ai-sewer-lateral-prediction-homeowner-gap",
+    "headline": "Your Sewer Lateral Costs $7,000 to Replace. An Algorithm Knows When It Will Fail. Nobody Sells It to Homeowners.",
+    "journalist": "Jake Kowalski",
     "phase": "SHIP",
-    "critique_score": 8.86,
+    "critique_score": 8.93,
     "rounds": 1,
-    "started": "2026-07-23T04:01:53-07:00",
-    "img_hash": "a12b2a90",
-    "ship_after": "2026-09-02"
+    "started": "2026-07-23T06:01:52-07:00",
+    "img_hash": "9b7c332f",
+    "ship_after": "2026-09-03"
   },
   "last_completed": 555,
   "ship_ready": [
@@ -376,6 +376,15 @@
       "critique_score": 8.86,
       "ship_after": "2026-09-01",
       "completed": "2026-07-23T04:00:00-07:00"
+    },
+    {
+      "number": 611,
+      "slug": "shingle-lifetime-warranty-climate-durability-ai-gap",
+      "headline": "Your Roof Has a 'Lifetime' Warranty. The Manufacturer Defined Lifetime as 600 Months. An Algorithm Knows the Real Number.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "ship_after": "2026-09-02",
+      "completed": "2026-07-23T06:01:00-07:00"
     }
   ]
 }
