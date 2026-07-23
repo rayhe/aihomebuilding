@@ -1,15 +1,15 @@
 {
   "current": {
-    "number": 609,
-    "slug": "new-construction-insurance-sales-gap",
-    "headline": "Your Builder Cut His Price $26,000 to Close the Sale. The Home Already Saved You $32,000. Nobody Mentioned It.",
-    "journalist": "Frank DeLuca",
+    "number": 610,
+    "slug": "ai-prompt-discovery-construction-professional-liability",
+    "headline": "A Federal Judge Just Made Your Architect's AI Prompts Discoverable. Nobody in Construction Saved Theirs.",
+    "journalist": "Catherine Chen",
     "phase": "SHIP",
-    "critique_score": 8.93,
+    "critique_score": 8.86,
     "rounds": 1,
-    "started": "2026-07-22T14:01:00-07:00",
-    "img_hash": "ef41c25b",
-    "ship_after": "2026-08-30"
+    "started": "2026-07-23T07:28:09-07:00",
+    "img_hash": "818aa444",
+    "ship_after": "2026-09-01"
   },
   "last_completed": 555,
   "ship_ready": [
@@ -355,6 +355,18 @@
       "critique_score": 8.93,
       "ship_after": "2026-08-29",
       "completed": "2026-07-22T12:30:00-07:00"
+    },
+    {
+      "number": 609,
+      "slug": "new-construction-insurance-sales-gap",
+      "headline": "Your Builder Cut His Price $26,000 to Close the Sale. The Home Already Saved You $32,000. Nobody Mentioned It.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "critique_score": 8.93,
+      "rounds": 1,
+      "started": "2026-07-22T14:01:00-07:00",
+      "img_hash": "ef41c25b",
+      "ship_after": "2026-08-30"
     }
   ]
 }
