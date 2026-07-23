@@ -1,15 +1,15 @@
 {
   "current": {
-    "number": 612,
-    "slug": "ai-sewer-lateral-prediction-homeowner-gap",
-    "headline": "Your Sewer Lateral Costs $7,000 to Replace. An Algorithm Knows When It Will Fail. Nobody Sells It to Homeowners.",
-    "journalist": "Jake Kowalski",
+    "number": 613,
+    "slug": "heat-pump-oversizing-ai-sizing-gap",
+    "headline": "Your Heat Pump Contractor Sized It With a Rule of Thumb. A Machine Gets It Right in Fifteen Minutes.",
+    "journalist": "Priya Greenwood",
     "phase": "SHIP",
-    "critique_score": 8.93,
+    "critique_score": 8.86,
     "rounds": 1,
-    "started": "2026-07-23T06:01:52-07:00",
-    "img_hash": "9b7c332f",
-    "ship_after": "2026-09-03"
+    "started": "2026-07-23T08:01:52-07:00",
+    "img_hash": "9ff5562e",
+    "ship_after": "2026-09-05"
   },
   "last_completed": 555,
   "ship_ready": [
@@ -134,14 +134,6 @@
       "completed": "2026-07-19T14:30:00-07:00"
     },
     {
-      "number": 575,
-      "slug": "ai-construction-tech-manufactured-housing-blind-spot",
-      "headline": "The AI Construction Revolution Raised $300 Million This Year. None of It Works for the Cheapest Homes in America.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.93,
-      "completed": "2026-07-19T16:30:00-07:00"
-    },
-    {
       "number": 576,
       "slug": "builder-price-cut-tariff-cost-ai-procurement-gap",
       "headline": "Your Builder Dropped His Price $24,000 to Close the Deal. Tariffs Added $36,000 to His Materials. The Software That Could Split the Difference Hasn't Been Built.",
@@ -257,14 +249,6 @@
       "critique_score": 8.93,
       "ship_after": "2026-08-19",
       "completed": "2026-07-21T12:10:00-07:00"
-    },
-    {
-      "number": 597,
-      "slug": "nec-load-calculation-panel-bottleneck-electrification",
-      "headline": "The Electrical Code Says Your Home Needs 125 Amps to Go All-Electric. Seven Hundred Homes Peaked at Twenty-Nine.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.86,
-      "published": "2026-07-21T14:01:00-07:00"
     },
     {
       "number": 598,
@@ -385,6 +369,25 @@
       "critique_score": 8.86,
       "ship_after": "2026-09-02",
       "completed": "2026-07-23T06:01:00-07:00"
+    },
+    {
+      "number": 612,
+      "slug": "ai-sewer-lateral-prediction-homeowner-gap",
+      "headline": "Your Sewer Lateral Costs $7,000 to Replace. An Algorithm Knows When It Will Fail. Nobody Sells It to Homeowners.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.93,
+      "ship_after": "2026-09-03",
+      "completed": "2026-07-23T08:01:00-07:00",
+      "img_hash": "9b7c332f"
+    },
+    {
+      "number": 575,
+      "slug": "ai-construction-tech-manufactured-housing-blind-spot",
+      "headline": "The AI Construction Revolution Raised $300 Million This Year. None of It Works for the Cheapest Homes in America.",
+      "journalist": "Catherine Chen",
+      "critique_score": 8.93,
+      "completed": "2026-07-19T16:30:00-07:00",
+      "ship_after": "2026-09-04"
     }
   ]
 }
