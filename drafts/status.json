@@ -1,15 +1,15 @@
 {
   "current": {
-    "number": 613,
-    "slug": "heat-pump-oversizing-ai-sizing-gap",
-    "headline": "Your Heat Pump Contractor Sized It With a Rule of Thumb. A Machine Gets It Right in Fifteen Minutes.",
-    "journalist": "Priya Greenwood",
+    "number": 614,
+    "slug": "ai-draw-fraud-photo-detection-gap",
+    "headline": "Your Contractor Submitted Progress Photos for a $40,000 Draw. An AI Made Them in Ten Minutes.",
+    "journalist": "Jake Kowalski",
     "phase": "SHIP",
     "critique_score": 8.86,
     "rounds": 1,
-    "started": "2026-07-23T08:01:52-07:00",
-    "img_hash": "9ff5562e",
-    "ship_after": "2026-09-05"
+    "started": "2026-07-23T10:01:52-07:00",
+    "img_hash": "91930357",
+    "ship_after": "2026-09-06"
   },
   "last_completed": 555,
   "ship_ready": [
@@ -388,6 +388,16 @@
       "critique_score": 8.93,
       "completed": "2026-07-19T16:30:00-07:00",
       "ship_after": "2026-09-04"
+    },
+    {
+      "number": 613,
+      "slug": "heat-pump-oversizing-ai-sizing-gap",
+      "headline": "Your Heat Pump Contractor Sized It With a Rule of Thumb. A Machine Gets It Right in Fifteen Minutes.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.86,
+      "ship_after": "2026-09-05",
+      "completed": "2026-07-23T08:01:00-07:00",
+      "img_hash": "9ff5562e"
     }
   ]
 }
