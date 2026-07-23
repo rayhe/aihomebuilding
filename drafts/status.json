@@ -1,15 +1,25 @@
 {
   "current": {
-    "number": 615,
-    "slug": "embodied-carbon-residential-epd-gap",
-    "headline": "Half Your Home's Carbon Footprint Was Locked In Before the Drywall Went Up. California Requires the Math for Office Buildings. Not for Yours.",
-    "journalist": "Priya Greenwood",
+    "number": 616,
+    "slug": "construction-closeout-data-handoff-homeowner-gap",
+    "headline": "Your Builder Took 4,200 Photos of Your Home Being Built. You Got None of Them.",
+    "journalist": "Frank DeLuca",
     "phase": "SHIP",
+    "round": 0,
+    "started": "2026-07-23T16:01:52-07:00",
+    "img_hash": "cca8fb9b",
     "critique_score": 8.86,
     "rounds": 1,
-    "started": "2026-07-23T12:01:52-07:00",
-    "img_hash": "d2c97d58",
-    "ship_after": "2026-09-07"
+    "critique_detail": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data": 9.0
+    },
+    "ship_after": "2026-09-08"
   },
   "last_completed": 555,
   "ship_ready": [
@@ -408,6 +418,16 @@
       "ship_after": "2026-09-06",
       "completed": "2026-07-23T10:01:52-07:00",
       "img_hash": "91930357"
+    },
+    {
+      "number": 615,
+      "slug": "embodied-carbon-residential-epd-gap",
+      "headline": "Half Your Home's Carbon Footprint Was Locked In Before the Drywall Went Up. California Requires the Math for Office Buildings. Not for Yours.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.86,
+      "ship_after": "2026-09-07",
+      "completed": "2026-07-23T12:01:52-07:00",
+      "img_hash": "d2c97d58"
     }
   ]
 }
