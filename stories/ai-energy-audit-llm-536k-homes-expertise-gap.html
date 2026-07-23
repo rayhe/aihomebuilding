@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Professional Energy Audit Costs $437 and Takes Half a Day. An AI Trained on 536,000 Homes Does It From a Text Description. Nobody Sells It.</title>
+    <meta name="description" content="Researchers fine-tuned an LLM on half a million simulated homes. It recommends the best energy retrofit for your house 98.9% of the time. But you can't buy it.">
+    <meta property="og:title" content="A Professional Energy Audit Costs $437 and Takes Half a Day. An AI Trained on 536,000 Homes Does It From a Text Description. Nobody Sells It.">
+    <meta property="og:description" content="Researchers fine-tuned an LLM on half a million simulated homes. It recommends the best energy retrofit for your house 98.9% of the time. But you can't buy it.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="../images/ai-energy-audit-llm-536k-homes-expertise-gap.jpg?v=7f7da2e4">
+    <meta property="article:author" content="Priya Greenwood">
+    <meta property="article:published_time" content="2026-07-23">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+    <article>
+        <header>
+            <p class="dateline">July 23, 2026</p>
+            <h1>A Professional Energy Audit Costs $437 and Takes Half a Day. An AI Trained on 536,000 Homes Does It From a Text Description. Nobody Sells It.</h1>
+            <p class="byline">By <strong>Priya Greenwood</strong></p>
+            <img src="../images/ai-energy-audit-llm-536k-homes-expertise-gap.jpg?v=7f7da2e4" alt="Split scene: homeowner holding tablet describing house in plain language beside a detailed residential energy model with color-coded thermal layers" class="hero-image">
+        </header>
+        <div class="story-body">
+
+<p>Picture yourself describing your house to a friend. It's a ranch from the eighties, about 1,600 square feet, wood frame, sits on a heated basement in Indianapolis. Gas furnace, no solar panels, one story. You know these things because you live there. You do not know the R-value of your attic insulation, the solar heat gain coefficient of your windows, or your effective leakage area at 4 pascals of pressure differential.</p>
+
+<p>A team at Michigan State University fine-tuned an AI model on 536,416 simulated American homes and asked it a simple question: given just the things a homeowner already knows about their dwelling, can the model recommend the best energy upgrade? In 98.9% of cases, the optimal retrofit for carbon reduction appeared within the model's top three recommendations, and for identifying the upgrade with the shortest payback period, the hit rate was 93.3%, a level of accuracy that approaches what a professional energy auditor delivers after a half-day site visit with a blower door and an infrared camera.</p>
+
+<p>A professional energy audit costs $437 on average, according to Angi and HomeAdvisor's 2026 data, with comprehensive assessments running to $698 and beyond. An auditor brings specialized equipment and training that most homeowners will never acquire. What this AI asks for instead is a text description of your house, nothing more, and it returns retrofit recommendations calibrated against building physics rather than drawn from the statistical average of internet text.</p>
+
+<p>Nobody sells it.</p>
+
+<h2>How 536,000 Simulated Homes Became a Training Corpus</h2>
+
+<p>Professors Dong Zhao and Lei Shu at Michigan State built their system on two pillars: first, NREL's ResStock 2024.2 dataset, which contains detailed energy models for over half a million representative U.S. homes spanning every climate zone, construction vintage from pre-1940 to 2010, and building type from single-family detached to manufactured housing; and second, a companion cost database called the National Residential Efficiency Measures, which provides unit cost data for nine categories of residential retrofit covering wall insulation, roof and ceiling insulation, window replacement, air sealing, HVAC upgrade, photovoltaic installation, appliance upgrade, lighting replacement, and water heater upgrade.</p>
+
+<p>For each of those 536,416 homes, researchers ran EnergyPlus simulations at hourly resolution, once in baseline condition and once for each retrofit option, then calculated CO₂ reduction, net energy savings, total retrofit cost, and discounted payback year at a 3% annual rate. What emerged was a corpus of physics-grounded retrofit recommendations paired with plain-language building descriptions using just 21 parameters that an ordinary homeowner could provide: building age, square footage, number of stories, location, heating fuel type, HVAC system, thermostat setpoints, and a handful of similar details.</p>
+
+<p>Using Low-Rank Adaptation, a fine-tuning technique that adjusts a fraction of a model's parameters to inject domain expertise without retraining from scratch, the researchers adapted a large language model on this corpus, and the efficiency of that approach matters because it means anyone with modest hardware can reproduce the result rather than needing the supercomputer clusters that only a handful of labs can afford. An order-of-magnitude reduction in CO₂ prediction error relative to a general-purpose base model confirms that the physics really did transfer into the weights.</p>
+
+<h2>What Those Accuracy Numbers Actually Mean</h2>
+
+<p>Two metrics define accuracy here, and both are scoped carefully. A top-3 hit rate for maximum CO₂ reduction measures whether the retrofit that would actually cut your emissions the most appears somewhere in the AI's top three suggestions, and at 98.9%, it nearly always does. A parallel metric for shortest discounted payback year, which captures whether the financially fastest-to-recoup retrofit makes the top three, lands at 93.3%.</p>
+
+<p>High numbers, but carefully bounded: the model rank-orders nine retrofit categories correctly for your specific dwelling in the vast majority of cases rather than predicting your exact utility bill savings to the dollar or your precise CO₂ reduction to the kilogram. Should you prioritize insulation, air sealing, a heat pump, or solar panels? For nearly every home in the dataset, the AI gets that ranking right, and the ranking is what matters when you're deciding where to spend your first $5,000 or $15,000.</p>
+
+<p>Perhaps more remarkably, missing information barely dents performance. When researchers degraded inputs so that only 60% of the 21 parameters were specified, accuracy remained stable, which means homeowners who cannot remember whether their house was built in 1978 or 1983, or who describe their insulation as "whatever the builder put in," still get useful results because the model learned that certain parameters carry more weight in certain climate zones and building types and compensates for gaps in ways a rigid lookup table never could.</p>
+
+<h2>What ChatGPT Gets Wrong</h2>
+
+<p>If a fine-tuned model works this well, why not just ask ChatGPT? A separate evaluation from the same research group tested exactly that proposition, feeding 400 homes across 49 states to six general-purpose models: ChatGPT o3, DeepSeek R1, Grok 3, Gemini 2.0, Llama 3.2, and Claude 3.7, none of which had been trained on building energy data.</p>
+
+<p>Among the best performers, accuracy reached 92.8% on a top-5 basis, which sounds respectable until you notice how the denominator shifted: that's top-5 rather than top-3, and it represents the ceiling across all six models rather than consistent performance from one tuned system. General-purpose LLMs, the researchers concluded, demonstrate "simplified reasoning that lacks deeper contextual awareness of local economic and behavioral factors," producing recommendations that feel plausible but lack the quantitative rigor separating a suggestion from an actionable decision.</p>
+
+<p>Consider what that gap means in practice. You ask ChatGPT whether to add attic insulation or replace your furnace, and it tells you attic insulation is usually a good starting point, which is often true in the abstract but ignores the fact that your 1985 gas furnace in Duluth operates at 65% efficiency while your attic already has R-30 fiberglass from a renovation in 2004. A model trained on hundreds of thousands of EnergyPlus simulations that explicitly modeled those variables would rank the furnace upgrade higher. ChatGPT's answer isn't wrong in general; it's wrong for your house, and in retrofit economics, the right answer for the wrong house is an expensive mistake.</p>
+
+<h2>Why $437 Stops Most Homeowners Cold</h2>
+
+<p>A Level 2 energy audit, the kind most residential homeowners actually need, runs between $250 and $650, with the national average at $437, and it includes a blower door test to measure air leakage, infrared imaging to spot insulation gaps, a duct assessment, and a written report with recommendations, all of which require three to five hours of an auditor's on-site time and a week for the written deliverable.</p>
+
+<p>That report captures physical measurements no AI model can replicate from a text description: actual air changes per hour at 50 pascals, specific failure points like the header above the garage door where insulation was never installed, the rim joist in the basement that the builder forgot, and ductwork running through an unconditioned attic losing capacity at peak load. Every one of these findings changes what you fix first and how much it costs.</p>
+
+<p>But professional audits have a structural flaw that no amount of equipment resolves: almost nobody gets one. According to DOE data, roughly one-third of energy consumed in buildings is wasted, at a cost of $150 billion annually, and the residential share of that waste is enormous. Americans spend an average of $2,000 per year on home energy, with $200 to $400 of it lost to aging systems and envelope leaks. Sealing air leaks and improving insulation alone can cut heating and cooling costs by 10% to 20%, while deep retrofits incorporating heat pumps, envelope upgrades, and electrification slash energy use by 58% to 79%, according to ACEEE research that also notes those deep retrofits cost $42,600 to $56,750.</p>
+
+<p>An AI that provides directionally correct retrofit recommendations from a text description doesn't replace the blower door test. It replaces the reason most people never schedule one: the $437 entry fee, the half-day commitment, and the expertise gap that makes homeowners uncertain whether the expense is justified when they cannot articulate, even to themselves, what exactly is wrong with their house's energy performance beyond a vague sense that the utility bill feels too high.</p>
+
+<h2>Why Nobody Sells It Yet</h2>
+
+<p>Everything needed for a consumer-facing product sits in the open. ResStock is publicly available from NREL. Low-Rank Adaptation is well-documented. Every ingredient is on a shelf, and that shelf has been sitting there since early 2026, yet no startup has assembled it into an app.</p>
+
+<p>Several explanations are plausible, none flattering. Startup capital in climate tech gravitates toward commercial buildings and grid-scale energy management, where contracts are larger and decision-makers are professionals who buy software, while residential retrofit is a fragmented market of 140 million housing units where the customer might spend $500 or $50,000 and whose decision process involves a spouse, a contractor, and a credit card limit. Unit economics for a consumer-facing AI energy audit haven't been proven, and liability implications of an AI recommending a $20,000 heat pump installation that underperforms in practice have barely been discussed in any commercial context.</p>
+
+<p>A quieter problem lurks beneath the market issues. Retrofit costs in the training data use national averages from NREL's measures database, not local contractor pricing. Energy cost calculations rely on state-level utility rate data, not your actual bill. Occupant schedules in the simulations are standardized, not calibrated to your family's actual habits of running the dryer at midnight and leaving the back door open while the kids play in the yard. Reasonable assumptions for research, but potentially dangerous foundations for a product that charges money and shapes a $40,000 spending decision.</p>
+
+<h2>What You Can Do Now</h2>
+
+<p>If you own a home and suspect you're overpaying for energy, the actionable path is layered. Check first whether your utility company offers a free or subsidized energy assessment, since many do, and some states provide rebates covering the full audit cost. If you want directional guidance before committing to a professional visit, use a general-purpose AI model: provide your home's year of construction, square footage, number of stories, heating and cooling type, fuel source, insulation status, and window age, and understand that while the 92.8% top-5 accuracy of the best general-purpose models means you'll likely get a useful starting point, any savings or payback figures should be treated as rough estimates rather than engineering outputs. For retrofits above $10,000, invest in the professional audit, because the $437 is noise against a five-figure decision and the blower door data will reveal things no simulation-trained model can detect from a text prompt.</p>
+
+<p>Longer term, the question is when, not whether, someone commercializes the kind of fine-tuned model that Zhao and Shu demonstrated. ResStock is public, the fine-tuning approach is documented, and the performance numbers are strong enough to justify a consumer product that costs far less than a professional audit and delivers recommendations calibrated against building physics rather than scraped from contractor marketing pages. What separates a research lab from the App Store is a business problem, not a technical one, and 140 million housing units are each wasting $200 to $400 per year while they wait.</p>
+
+<h2>Limitations</h2>
+
+<p>This analysis draws primarily on two studies from overlapping research groups at Michigan State University, and independent replication on a held-out building stock, particularly in climate zones underrepresented in ResStock, would strengthen the findings. Accuracy of 98.9% applies to the correct retrofit appearing within the top three recommendations rather than guaranteeing that the first recommendation is always optimal. Retrofit cost estimates use national averages and do not reflect regional variation in labor, materials, or permitting. No evaluation of the model against real-world homeowner inputs, which may contain errors, ambiguities, and descriptions differing substantially from the structured language of the training corpus, has been published, and no independent audit of the model's performance against actual post-retrofit energy consumption data exists.</p>
+
+<h2>Why a Professional Auditor Would Push Back</h2>
+
+<p>A professional energy auditor would argue, correctly, that retrofit decisions involve physical inspection no language model can perform, regardless of how many simulations trained it. A crack in the foundation slab allowing radon entry changes the retrofit priority entirely, and knob-and-tube wiring in the attic makes blown-in insulation a fire hazard, neither of which any text description will reliably capture. Ductwork running through an unconditioned attic in Houston loses 25% of its capacity at peak load, and the only way to know the actual loss is to put a hand on the duct and measure it. These failure modes are real and 536,000 simulations cannot address them, and any commercial product built on this research would need to make those boundaries explicit rather than letting users believe a text prompt can substitute for a crawlspace visit with a flashlight and a notepad.</p>
+
+        </div>
+    </article>
+</div>
+</body>
+</html>

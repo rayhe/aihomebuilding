@@ -1,13 +1,5 @@
 {
-  "current": {
-    "number": 587,
-    "slug": "ai-contractor-fraud-ftc-fake-listings",
-    "journalist": "Marcus Washington",
-    "phase": "SHIP_READY",
-    "headline": "One Company Created Thousands of Fake Contractor Listings. The Calls Went to the Philippines. The FTC Took Eight Years to Catch Them.",
-    "created": "2026-07-20",
-    "completed": "2026-07-20T16:45:00-07:00"
-  },
+  "current": null,
   "last_completed": 569,
   "ship_ready": [
     {
@@ -105,6 +97,25 @@
       "journalist": "Marcus Washington",
       "ship_after": "2026-08-01",
       "completed": "2026-07-20T16:45:00-07:00"
+    },
+    {
+      "number": 588,
+      "slug": "ai-energy-audit-llm-536k-homes-expertise-gap",
+      "journalist": "Priya Greenwood",
+      "headline": "A Professional Energy Audit Costs $437 and Takes Half a Day. An AI Trained on 536,000 Homes Does It From a Text Description. Nobody Sells It.",
+      "ship_after": "2026-08-02",
+      "phase": "SHIP_READY",
+      "created": "2026-07-23",
+      "completed": "2026-07-23T21:18:10-07:00",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "mean": 8.83
+      }
     }
   ]
 }
