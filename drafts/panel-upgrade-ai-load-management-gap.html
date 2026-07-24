@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/panel-upgrade-ai-load-management-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.",
+		"description": "Twenty-three million U.S. homes need electrical panel upgrades to go all-electric. Panel upgrades cost $2,000 to $10,000. A Purdue field study proved a model predictive controller can keep a fully electrified home within 100-amp limits using nothing but existing smart thermostats. The 2023 NEC now makes it legal. Almost nobody does it.",
+		"image": "https://aihomebuilding.com/images/panel-upgrade-ai-load-management-gap.jpg?v=4e7a02a9",
+		"datePublished": "2026-07-24",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/panel-upgrade-ai-load-management-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.">
+	<meta property="og:description" content="23 million U.S. homes need panel upgrades to go all-electric. A Purdue field study proved a predictive controller can keep a fully electrified home within 100-amp limits using existing smart thermostats. The 2023 NEC makes it legal. Almost nobody does it.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/panel-upgrade-ai-load-management-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/panel-upgrade-ai-load-management-gap.jpg?v=4e7a02a9">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.">
+	<meta name="twitter:description" content="23 million homes need panel upgrades to electrify. A predictive controller did the job with a thermostat.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/panel-upgrade-ai-load-management-gap.jpg?v=4e7a02a9">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/panel-upgrade-ai-load-management-gap.jpg?v=4e7a02a9" alt="Residential electrical panel with circuit breakers and smart meter">
+		<div class="overlay">
+			<div class="badge">Construction Technology</div>
+			<h1>Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.</h1>
+			<div class="byline">By Jake Kowalski &middot; July 24, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to all articles</a>
+
+		<div class="article-body">
+
+<p>A house in West Lafayette, Indiana had a heat pump, a resistance water heater, and a plug-in hybrid in the garage. Under the National Electrical Code, it needed a 200-amp panel. Purdue gave it 100.</p>
+
+<p>For 31 winter days, outdoor temperatures dropped as low as negative 20 degrees Celsius, and everything in that house kept running: heat pump, water heater, car charging overnight on a Level I connection pulling 1.8 kilowatts. Not once did the whole-home current breach the 100-amp limit.</p>
+
+<p>No new panel, no upgraded wiring, no $6,000 electrician bill. What kept the house within its limits was a model predictive controller talking to the heat pump and water heater through the same smart thermostat APIs that come standard from the manufacturers. It adjusted temperature set-points over a rolling forecast horizon, nudging the water heater down two degrees when the heat pump kicked into defrost, backing off the heat pump when the EV started drawing current at 2 a.m. Just math, running on hardware the homeowner already owned.</p>
+
+<div class="pull-stat">
+	<span class="number">23 million</span>
+	<span class="label">U.S. single-family homes that could require electrical panel upgrades for full electrification with EV adoption, per EPRI estimates</span>
+</div>
+
+<h2>The Copper Problem Nobody Wants to Solve With Software</h2>
+
+<p>Twenty-one percent of American homes have electrical panels rated at 100 amps or less, and another 44 percent have two or fewer open breaker slots. Panels were sized decades ago for a gas furnace, a gas water heater, and a dryer. Now those same homeowners are being told to install a 240-volt heat pump, a Level II EV charger that pulls 48 amps, an induction cooktop, and an electric water heater, which is a collection of appliances that no 100-amp panel on earth can run simultaneously.</p>
+
+<p>A panel upgrade is the standard fix: tear out the old box, run new service conductors from the utility pole, install a 200-amp panel, pass inspection, and write a check for $2,000 to $10,000 depending on whether the service entrance needs replacement. Los Angeles's Department of Water and Power estimated $780 million to $1.8 billion to upgrade all deficient single-family panels in its disadvantaged communities alone, and nationally, at a conservative average of $5,000 per household, 23 million homes would run a tab of $115 billion.</p>
+
+<p>But panels are sized for theoretical worst-case simultaneous load, meaning every appliance running at peak draw, at the same moment, on the coldest night of the year, and in practice that almost never happens. Your dryer does not run during your morning shower, your EV does not need to charge while the oven is on, and a heat pump defrosts for eight minutes every few hours rather than continuously. A house is not a data center; its loads are sequential, not concurrent.</p>
+
+<p>Kevin Kircher's team at Purdue's Center for High Performance Buildings built a two-level control architecture to exploit that fact. At the high level, scenario-based model predictive control with mixed-integer convex programming plans device set-points over a receding horizon, while at the low level, rule-based logic monitors real-time current and ramps down devices in stages if measured draw approaches the limit. It also predicts heat pump defrost events by watching supply air temperatures, because defrost cycles trigger backup resistance heat, and resistance heat is the single largest current spike in a cold-climate electrified home, the kind of transient peak that would trip a breaker if left unmanaged.</p>
+
+<p>Simulations extended the results further still: that same 100-amp infrastructure, the team found, could accommodate a second electric vehicle with Level II charging at 11.5 kilowatts, meaning two EVs, a heat pump, a water heater, and a house full of regular loads, all on a panel that code says can handle about half that.</p>
+
+<h2>Code Caught Up. Industry Hasn't.</h2>
+
+<p>In 2023, the National Electrical Code added Article 750 and Section 220.70. Together, they did something the code had never done before: they allowed software to substitute for copper.</p>
+
+<p>Under these new provisions, a listed energy management system can cap the total current drawn from a service panel, and if the system limits a home's managed load to 100 amps, an inspector can legally sign off on 100-amp service even if the theoretical sum of all connected equipment exceeds it. Section 625.42 extends the same logic to EV chargers specifically: where an EMS provides load management, the maximum equipment load on the service and feeder is the maximum load permitted by the EMS, not the nameplate rating of every charger.</p>
+
+<p>It is a genuine structural shift in how America sizes residential electrical infrastructure. For decades, panel sizing has worked like plumbing: size the pipe for the maximum flow, even if you never turn every faucet on at once. Article 750 says you can size the pipe for the managed flow, as long as the management system is UL-listed, tamper-resistant, and continuously monitoring.</p>
+
+<p>NEC 2026 tightened the requirements further, mandating that energy management systems be UL-certified products with restricted access to their settings, which means no informal workarounds and no homebrew Arduino controllers wired to a relay board. Good for everyone: inspectors have a box to check and manufacturers have a standard to meet.</p>
+
+<p>But code adoption in the United States is a state-by-state crawl, and many jurisdictions still enforce the 2017 or 2020 NEC, which means an electrician in those areas cannot legally offer the software alternative even if the product exists. Even in jurisdictions that have adopted the 2023 code, most electricians have not been trained on the new provisions, and forty years of muscle memory wins: upgrade the panel.</p>
+
+<div class="pull-stat">
+	<span class="number">$115 billion</span>
+	<span class="label">Estimated national cost of panel upgrades for full residential electrification, at $5,000 average per household across 23 million homes</span>
+</div>
+
+<h2>The Commercial Landscape: Expensive, Fragmented, Underused</h2>
+
+<p>SPAN makes the most visible product in this space. Their new Smart Panel retails for $3,500 (down from $5,000 for the original model), but installed by a SPAN-authorized electrician the total runs $7,500 to $9,500. Eaton put $75 million into SPAN in early 2026, signaling that large electrical manufacturers see the category as real. SPAN's PowerUp feature claims $3,000 to $8,000 in avoided service upgrade costs for EV installations.</p>
+
+<p>ABB's ReliaHome Smart Panel mounts alongside your existing panel and manages large loads through an app, while Schneider Electric's Square D products are moving in the same direction. Legitimate tools that work.</p>
+
+<p>But compare the price points: a standard panel replacement costs $2,000 to $3,500, and a SPAN installation costs $7,500 to $9,500, which means for many homeowners the smart panel costs more than the upgrade it is supposed to avoid.</p>
+
+<p>Purdue's system used none of that hardware. It talked to a heat pump and a water heater through API endpoints that manufacturers already expose for their own smart thermostat apps, drew monitoring data from a smart meter reading real-time current, and added functionally zero in incremental hardware cost. Intelligence lived entirely in the algorithm, and the researchers published the paper with the code described in enough detail for anyone with the right background to replicate it.</p>
+
+<p>Nobody has productized it at that price point yet.</p>
+
+<p>An Emporia Vue energy monitor costs $150 to $200 and clips onto your existing panel, giving you circuit-level consumption data but no active control: it tells you what is drawing power but cannot turn anything off. Between $200 in monitoring hardware and the predictive control system that Purdue demonstrated sits a gap made entirely of software, consisting of a thermostat API, a current sensor, and a controller that understands thermal mass and defrost cycles.</p>
+
+<h2>What Builders Should Know</h2>
+
+<p>If you are building new homes, you are still sizing panels the old way, and Article 220's load calculation adds up nameplate ratings with demand factors and spits out a minimum panel size that, for a house with a heat pump, an EV charger, an electric water heater, and an induction range, often lands at 200 amps. Some builders are already jumping to 400-amp service for high-end projects, at costs of $10,000 to $30,000 per home.</p>
+
+<p>But Section 220.70 now says that if you install a listed energy management system, the load calculation can reflect the managed load rather than the theoretical maximum, which means a 200-amp house might qualify for 150-amp service and a 150-amp house might stay at 100. Each step down saves $1,000 to $3,000 in panel hardware, wiring, and labor, and potentially avoids a utility service upgrade that can add weeks to the construction schedule.</p>
+
+<p>For retrofits, the math is even starker: a homeowner who wants to add a Level II EV charger and a heat pump to an existing 100-amp home faces a choice between $3,500 to $6,800 for a panel upgrade and a load management system that can legally satisfy the same inspector. If the jurisdiction has adopted the 2023 NEC, and the product is UL-listed, and the electrician knows the code, the software path is available today. Three ifs, and that is the gap.</p>
+
+<h2>Equity Math</h2>
+
+<p>Low-income households have the oldest panels, the tightest budgets, and the most to gain from electrification. A heat pump can cut heating costs by 30 to 50 percent compared to resistance electric or delivered fuel. But if the first step toward a heat pump is a $6,000 panel upgrade, the project dies on the kitchen table.</p>
+
+<p>EPRI's data shows that 80 percent of homes with 100-amp panels have three or fewer large electrical appliances, making them exactly the homes least likely to hit simultaneous peak load and exactly the homes where a predictive controller would have the easiest job, because fewer interacting loads mean simpler optimization.</p>
+
+<p>Federal Inflation Reduction Act rebates cover up to $4,000 for electrical panel upgrades in qualifying homes, which helps, but still requires the homeowner to schedule the work, find the electrician, and wait for the permit, whereas a software-based load management system that works with existing hardware could skip all of it.</p>
+
+<h2>What We Don't Know</h2>
+
+<p>Purdue tested one house, one winter, one climate zone: cold climate, code-minimum insulation, Midwest grid, with temperatures down to negative 20 Celsius, which is severe, but the house had only a Level I EV charger during the field test, and Level II dual-EV scenarios were simulated rather than tested in the occupied home.</p>
+
+<p>Scaling the approach requires manufacturer cooperation, because Purdue's system relied on smart thermostat APIs that exist today but are not designed for third-party load management, and a manufacturer could change or restrict access at any time. No open standard exists for residential device-level load control, and the major appliance brands have no obvious incentive to create one.</p>
+
+<p>NEC 2026's requirement for UL-listed systems with restricted access settings raises the bar for entry, which is appropriate for safety but means Purdue's open-source approach cannot be deployed as-is. Someone has to build, certify, and sell the product, and whether it costs $200 or $8,000 determines whether the technology reaches the 23 million homes that need it or remains a premium smart-panel feature priced above the problem it solves.</p>
+
+<h2>Strongest Case Against</h2>
+
+<p>Panel upgrades are durable infrastructure that lasts 25 to 40 years, while a software controller depends on connectivity, firmware updates, and manufacturer support for thermostat APIs that could be deprecated at any time. Physical upgrades carry no ongoing service dependency: they work during internet outages, during power restoration events, during the chaotic twelve hours after a storm when you most need your electrical system to be simple and predictable.</p>
+
+<p>Liability remains an open question, because if a predictive controller miscalculates and the panel overheats, the chain of responsibility is unclear: controller manufacturer, thermostat vendor, or electrician who signed off on the reduced panel size could each be holding the bag, and traditional panel upgrades have established liability chains that software-defined panels do not.</p>
+
+<p>Real concerns, and they explain part of the inertia, but they are engineering and legal problems rather than physics problems. Purdue's data shows the physics works: thirty-one days at negative 20 Celsius, and the current never crossed the line.</p>
+
+<p>Twenty-three million homes are waiting for someone to turn the math into a product.</p>
+
+		</div>
+	</div>
+
+	<script>
+	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+		document.documentElement.setAttribute('data-theme', 'dark');
+	}
+	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+		document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+	});
+	</script>
+</body>
+</html>

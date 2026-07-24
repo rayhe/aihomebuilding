@@ -1,15 +1,15 @@
 {
   "current": {
-    "slug": "lot-option-impairment-ai-demand-prediction-gap",
+    "slug": "panel-upgrade-ai-load-management-gap",
     "phase": "SHIP",
-    "journalist": "Frank DeLuca",
-    "started": "2026-07-24T08:01:52-07:00",
-    "number": 621,
+    "journalist": "Jake Kowalski",
+    "started": "2026-07-24T10:01:52-07:00",
+    "number": 622,
     "critique_score": 9.0,
     "rounds": 1,
-    "img_hash": "d2546bca",
-    "headline": "A Homebuilder Controls $927 Million in Land Options. Last Quarter, $21.7 Million of Those Bets Went Bad. The Warning Was Already in the Data.",
-    "ship_after": "2026-09-12"
+    "img_hash": "4e7a02a9",
+    "headline": "Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.",
+    "ship_after": "2026-09-13"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -486,6 +486,16 @@
       "critique_score": 9.0,
       "ship_after": "2026-09-11",
       "img_hash": "c1928b7c"
+    },
+    {
+      "number": 621,
+      "slug": "lot-option-impairment-ai-demand-prediction-gap",
+      "headline": "A Homebuilder Controls $927 Million in Land Options. Last Quarter, $21.7 Million of Those Bets Went Bad. The Warning Was Already in the Data.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-12",
+      "img_hash": "d2546bca",
+      "completed": "2026-07-24T08:01:52-07:00"
     }
   ]
 }
