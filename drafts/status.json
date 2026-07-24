@@ -1,15 +1,15 @@
 {
   "current": {
-    "slug": "municipal-inspector-shortage-ai-inspection-gap",
+    "slug": "lot-option-impairment-ai-demand-prediction-gap",
     "phase": "SHIP",
-    "journalist": "Catherine Chen",
-    "started": "2026-07-24T06:01:52-07:00",
-    "number": 620,
+    "journalist": "Frank DeLuca",
+    "started": "2026-07-24T08:01:52-07:00",
+    "number": 621,
     "critique_score": 9.0,
     "rounds": 1,
-    "img_hash": "c1928b7c",
-    "headline": "A County Offered $300 an Hour for a Building Inspector. Nobody Applied. The AI That Could Do Half the Job Costs $200 a Month.",
-    "ship_after": "2026-09-11"
+    "img_hash": "d2546bca",
+    "headline": "A Homebuilder Controls $927 Million in Land Options. Last Quarter, $21.7 Million of Those Bets Went Bad. The Warning Was Already in the Data.",
+    "ship_after": "2026-09-12"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -477,6 +477,15 @@
       "critique_score": 9.0,
       "ship_after": "2026-09-10",
       "img_hash": "5e550c67"
+    },
+    {
+      "number": 620,
+      "slug": "municipal-inspector-shortage-ai-inspection-gap",
+      "headline": "A County Offered $300 an Hour for a Building Inspector. Nobody Applied. The AI That Could Do Half the Job Costs $200 a Month.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-11",
+      "img_hash": "c1928b7c"
     }
   ]
 }
