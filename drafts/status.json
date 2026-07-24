@@ -1,15 +1,15 @@
 {
   "current": {
-    "slug": "residential-change-order-tracking-ai-gap",
+    "slug": "municipal-inspector-shortage-ai-inspection-gap",
     "phase": "SHIP",
-    "journalist": "Frank DeLuca",
-    "started": "2026-07-24T04:01:52-07:00",
-    "number": 619,
+    "journalist": "Catherine Chen",
+    "started": "2026-07-24T06:01:52-07:00",
+    "number": 620,
     "critique_score": 9.0,
     "rounds": 1,
-    "img_hash": "5e550c67",
-    "headline": "Your Remodeler Lost $5,400 on One Kitchen Because Nobody Wrote Anything Down. The Tool That Would Have Caught It Doesn't Exist.",
-    "ship_after": "2026-09-10"
+    "img_hash": "c1928b7c",
+    "headline": "A County Offered $300 an Hour for a Building Inspector. Nobody Applied. The AI That Could Do Half the Job Costs $200 a Month.",
+    "ship_after": "2026-09-11"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -468,6 +468,15 @@
           "passed": true
         }
       }
+    },
+    {
+      "number": 619,
+      "slug": "residential-change-order-tracking-ai-gap",
+      "headline": "Your Remodeler Lost $5,400 on One Kitchen Because Nobody Wrote Anything Down. The Tool That Would Have Caught It Doesn't Exist.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-10",
+      "img_hash": "5e550c67"
     }
   ]
 }
