@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your County Assessed Your Home With Three Data Points. Zillow Uses Over a Hundred. Only One Sets Your Tax Bill. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/property-tax-assessment-algorithm-data-gap.html">
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your County Assessed Your Home With Three Data Points. Zillow Uses Over a Hundred. Only One Sets Your Tax Bill.",
+		"description": "A 2026 study of 26 million property sales across 95% of U.S. counties finds that 98% of jurisdictions systematically overcharge owners of lower-valued homes — and that the fix requires data the government already collects.",
+		"image": "https://aihomebuilding.com/images/property-tax-assessment-algorithm-data-gap.jpg?v=f30cc870",
+		"datePublished": "2026-07-24",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/property-tax-assessment-algorithm-data-gap.html"
+		}
+	}
+	</script>
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your County Assessed Your Home With Three Data Points. Zillow Uses Over a Hundred. Only One Sets Your Tax Bill.">
+	<meta property="og:description" content="84% of county assessors don't use regression-based models to set property taxes. A study of 26 million sales shows what that costs homeowners.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/property-tax-assessment-algorithm-data-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/property-tax-assessment-algorithm-data-gap.jpg?v=f30cc870">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your County Assessed Your Home With Three Data Points. Zillow Uses Over a Hundred. Only One Sets Your Tax Bill.">
+	<meta name="twitter:description" content="84% of county assessors don't use regression-based models. A study of 26 million home sales quantifies the cost.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/property-tax-assessment-algorithm-data-gap.jpg?v=f30cc870">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.story-page { max-width: 740px; margin: 0 auto; padding: 2rem 1.5rem; }
+		.story-body { font-size: 1.125rem; }
+		.story-body h2 { font-family: 'Playfair Display', serif; font-size: 1.6rem; margin: 2.5rem 0 1rem 0; line-height: 1.3; }
+		.story-body p { margin: 0 0 1.4rem 0; }
+		.story-body a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; }
+		.story-body blockquote { border-left: 3px solid var(--accent); padding: 0.5rem 0 0.5rem 1.5rem; margin: 1.5rem 0; font-style: italic; color: var(--text-secondary); }
+		.story-body table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+		.story-body th, .story-body td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+		.story-body th { font-weight: 600; }
+		.stat-callout { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+		.stat-callout .big-number { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 800; color: var(--accent); line-height: 1.1; }
+		.stat-callout .label { font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.5; }
+		.story-meta { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; }
+		.story-hero { width: 100%; border-radius: 8px; margin-bottom: 2rem; }
+		.story-headline { font-family: 'Playfair Display', serif; font-size: 2.4rem; line-height: 1.2; margin-bottom: 1rem; font-weight: 800; }
+		.back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
+		.back-link:hover { color: var(--accent); }
+		@media (max-width: 600px) {
+			.story-page { padding: 1.25rem 1rem; }
+			.story-headline { font-size: 1.7rem; }
+			.stat-callout .big-number { font-size: 2.5rem; }
+		}
+	</style>
+</head>
+<body>
+	<div class="story-page">
+		<article class="story-body">
+
+			<a href="../index.html" class="back-link">&larr; AI Home Building</a>
+			<h1 class="story-headline">Your County Assessed Your Home With Three Data Points. Zillow Uses Over a Hundred. Only One Sets Your Tax Bill.</h1>
+			<div class="story-meta">By Catherine Chen &middot; July 24, 2026</div>
+			<img class="story-hero" src="../images/property-tax-assessment-algorithm-data-gap.jpg?v=f30cc870" alt="A county assessor's office desk with sparse paper records next to a modern computer screen showing detailed property analytics">
+
+			<p>Somewhere in a county assessor's office, a clerk is setting the taxable value of a newly constructed home by feeding it into a model that considers three variables: square footage, number of stories, and year built. Nothing about the rail corridor behind the lot. Nothing about the school district's test scores or the spray-foam insulation in the attic or the tankless water heater in the garage. Nothing about the identical floor plan three blocks south that sold for $38,000 less because a neighbor runs a twenty-four-hour auto body shop out of his driveway.</p>
+
+			<p>Three data points go in. A tax obligation comes out, and that obligation follows the homeowner for as long as they own the property, recalculated on a schedule they did not choose, using methods they cannot inspect, subject to a burden of proof that in most states falls entirely on the homeowner if they want to challenge it. A 2026 study published at the ACM Conference on Fairness, Accountability, and Transparency examined what this sparse-data approach actually produces when you measure it across the entire country, and what it produces is a system that charges poorer homeowners more than their fair share while letting wealthier ones pay less.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">98%</div>
+				<div class="label">Share of U.S. counties with regressive property tax assessments between 2018 and 2023, meaning owners of lower-valued homes paid a higher effective tax rate than owners of higher-valued homes. Source: <a href="https://arxiv.org/html/2605.15020" target="_blank">Smith, Harvey, Berry, Goldin &amp; Ho, FAccT 2026</a>, analyzing 26 million property sales across 2,844 of 3,007 U.S. counties.</div>
+			</div>
+
+			<h2>What Twenty-Six Million Sales Reveal</h2>
+
+			<p>Researchers from the American Bar Foundation, Cornell Tech, the University of Chicago, and Stanford assembled a dataset from <a href="https://www.cotality.com/" target="_blank">Cotality</a> (formerly CoreLogic) covering 26 million arms-length single-family home sales between 2018 and 2023, matched each sale to its contemporaneous assessed value, and then measured two things: how far each assessment strayed from the actual sale price, and whether those errors fell harder on cheaper homes than on expensive ones.</p>
+
+			<p>They did, almost everywhere. In 98% of county-year observations, assessments were regressive, a pattern that held across every fairness metric applied, and the finding is neither a rounding error nor a methodological curiosity. Owners of lower-valued homes were, on average, over-assessed relative to sale price while owners of higher-valued homes were under-assessed, producing a structural transfer of tax burden from wealthier homeowners to less wealthy ones, accomplished not through legislation but through the mathematical properties of models that lack the data they need to do their jobs.</p>
+
+			<p>What drives this is mechanical, almost elegant in its simplicity. When an assessment model uses sparse data, its predictions cluster around the average market value in the jurisdiction, dragging a $150,000 home in a county with a $300,000 median upward toward that mean and pulling a $500,000 home downward. Without the granularity to separate them, the model over-assesses the cheaper home and under-assesses the expensive one, and nobody outside of a county board meeting ever sees the arithmetic that made it happen.</p>
+
+			<h2>Why Eighty-Four Percent of Assessors Still Work This Way</h2>
+
+			<p>Automated Valuation Models, the regression-based approaches that private-market appraisers have used for years, consistently outperform manual methods in the academic literature and in practice. Standards published by the <a href="https://www.iaao.org/" target="_blank">International Association of Assessing Officers</a> since the 1970s acknowledge this, and decades of empirical work confirm it, yet a 2019 IAAO survey found that only 16% of assessor's offices in the United States actually use AVMs.</p>
+
+			<div class="stat-callout">
+				<div class="big-number">16%</div>
+				<div class="label">Share of U.S. assessor's offices that use Automated Valuation Models (regression-based assessments), per a 2019 IAAO survey. The remaining 84% rely on valuation tables, hand-picked comparables, or other manual methods. Source: Bidanset &amp; Rakow, 2022.</div>
+			</div>
+
+			<p>Everyone else relies on valuation tables purchased from private vendors, individual property assessments using hand-selected comparables, or methods the survey categorized as "other." Not money, not training, not software availability, but the belief, held by the assessors themselves, that their current approaches work just as well as the models they have chosen not to adopt was the single most-cited barrier. Published evidence says otherwise.</p>
+
+			<p>Accuracy tracks with institutional capacity in predictable ways. Counties with higher sale volumes, larger populations, and higher median sale prices produce better assessments, likely because their statistical foundations are broader and whatever models they use have more transactions to learn from. Rural counties in states like Oklahoma, Arkansas, and Missouri, where an assessor's office may employ two people on a budget under $200,000 a year, tend to produce the highest error rates. Homeowners in those counties are paying inflated bills they can least afford.</p>
+
+			<h2>Data That Already Exists, Sitting Unused</h2>
+
+			<p>Researchers ran a direct experiment to test whether freely available government data could close some of this gap, building county-level random forest models that incorporated publicly available Census block group data from the American Community Survey, the estimates the Census Bureau already publishes covering neighborhood demographics, income levels, education, employment, and household structure. They compared results against baseline models relying only on status quo assessed values and time-of-sale data.</p>
+
+			<p>In 14.4% of counties without statutory assessment caps, the Census-augmented models produced statistically significant improvements in both accuracy and fairness simultaneously, with 96.2% of those counties showing gains on both dimensions and only 3.8% exhibiting a tradeoff. Improvements were not uniform across the country, but they were real, statistically significant, and built entirely on information that every assessor's office in America can download from census.gov at no cost.</p>
+
+			<p>A broader ablation experiment made the finding starker. When any additional property characteristics beyond a minimal three-feature baseline were added to assessment models, accuracy improved in a majority of counties and fairness improved alongside it more than 99% of the time: out of 908 counties where changes were statistically significant, 907 showed simultaneous gains on both dimensions. One county went the other direction. Nobody has identified what makes DeSoto County, Missouri, different.</p>
+
+			<p>Property tax assessment in America is operating so far below its own performance frontier that almost any improvement in data or methodology pushes both accuracy and fairness in the right direction at the same time, a finding that contradicts a persistent assumption in algorithmic fairness research, which holds that you cannot have one without sacrificing the other.</p>
+
+			<h2>Appeals: A Correction That Makes It Worse</h2>
+
+			<p>Assessment appeals are supposed to catch these errors, and the mechanism is simple: a homeowner who believes their assessment is too high files a protest with a county board of equalization, presents comparable sales data, argues for a reduction, typically within thirty to sixty days of receiving the assessment notice, bearing the full burden of proof.</p>
+
+			<p>In practice, this correction works as a second regressive filter layered on top of the first. Between 2021 and 2023 in Cook County, Illinois, owners of homes in the highest quintile of sale price appealed at four times the rate of owners in the lowest quintile. Wealthier homeowners have more dollars at stake, more resources to assemble comparable-sales evidence, and more capacity to navigate the administrative process, while owners of lower-valued homes, statistically most likely to be over-assessed, are statistically least likely to fight back.</p>
+
+			<p>Because appeals disproportionately correct over-assessments on high-value properties while leaving errors on low-value properties untouched, post-appeal assessments can be simultaneously more accurate in aggregate and more regressive in distribution. What was designed as a safety valve instead amplifies the inequity it was built to address.</p>
+
+			<h2>New Construction Gets No Free Pass</h2>
+
+			<p>If you are building a new home, you might assume the assessment will be more accurate because the assessor has current construction data to work from, and you would be partially right but mostly wrong. Every state except Connecticut reassesses new construction to current market value upon completion, which means you get a fresh valuation rather than inheriting a stale one indexed to some prior year. But that reassessment still runs through the same sparse-data models and manual methods that produce the regressivity documented above, and new construction creates a specific vulnerability worth understanding.</p>
+
+			<p>Assessors may lack comparable sales for newly built homes in the area, particularly in infill developments or custom builds where no two homes share identical specifications. Builder upgrades, finish levels, lot premiums, and energy-efficiency investments are extraordinarily difficult to capture in the three-to-fifteen data fields most assessment systems use. A spec home and a fully upgraded custom home on adjacent lots can share identical square footage, identical year-built, and identical story count while the market values them $80,000 apart, and the model cannot see the gap because it does not have the features to measure it.</p>
+
+			<p>Custom homes and upgraded specs tend to be under-assessed because the model cannot price what it cannot observe. Entry-level and starter homes tend to be over-assessed because the model drags them toward the same mean. For new construction buyers at the lower end of a development's price range, the effect is an immediate, invisible surcharge embedded in every tax bill from closing day forward.</p>
+
+			<h2>One Office That Got It Right</h2>
+
+			<p>Cook County, Illinois, where the FBI once investigated assessors for taking bribes to reduce valuations on high-value properties, now operates what may be the most transparent assessment system in the country. Its assessor's office publishes the entire residential AVM model as <a href="https://github.com/ccao-data/model-res-avm" target="_blank">open-source code on GitHub</a>, built on machine learning that incorporates Census data, location features, and a broader set of property characteristics than most county systems bother to collect.</p>
+
+			<p>Cook County is one office out of roughly three thousand. IAAO technical standards, which function as the industry's operating manual, do not currently include guidance on using Census data in assessments. Tools exist, data is free, research is published, but what separates Cook County from nearly every other jurisdiction is not technology or budget or some proprietary algorithm. It is institutional will. Across most of America, that will does not exist.</p>
+
+			<h2>What You Can Do About It</h2>
+
+			<p>If you recently purchased or built a home, pull your assessed value from your county assessor's website and compare it to your purchase price. An assessed value that exceeds what you paid in an arms-length transaction is the strongest possible evidence for an appeal, because the sale price is, by the IAAO's own definition, the best available indicator of market value.</p>
+
+			<p>If you did not buy recently, pull the assessed values of five to ten comparable homes in your area, properties with similar square footage, age, and lot size, and compare them on a per-square-foot basis to your own assessment. <a href="https://bankrate.com/personal-finance/tips-to-win-property-tax-appeal/?pid=p:cnbc" target="_blank">A discrepancy of 10% or more</a>, according to Pete Sepp, president of the National Taxpayers Union, constitutes solid grounds for an appeal. Most county boards of equalization hear them at no cost.</p>
+
+			<p>Seventeen states impose caps on annual assessment increases, which distort the relationship between assessed and market value in ways that sometimes protect you and sometimes hurt you. California's Proposition 13 caps annual increases at 2% and reassesses to market only upon sale or new construction, so if you bought recently or built new in a cap state, your assessment should closely track your purchase price. If it does not, the case for appeal is especially strong because the cap was supposed to be protecting you.</p>
+
+			<h2>Limitations</h2>
+
+			<p>Accuracy in this study is measured against arms-length sales, a selected sample that excludes foreclosures and non-market transfers, meaning homeowners who never sell are not represented. Market value is itself a moving target shaped by local conditions and timing, and post-pandemic housing volatility between 2020 and 2023 may amplify some findings, particularly in markets where rapid price swings outpaced reassessment cycles. AVM adoption data comes from a 2019 IAAO survey and may understate current usage, though no newer survey has been published. And the 14.4% improvement rate from Census data, while statistically significant, means 85.6% of counties in the tested sample would not see significant gains from this one intervention alone.</p>
+
+			<p>But the deeper problem is governance, not statistics. Assessor's offices operate under real constraints: small staffs, limited budgets, state-mandated reassessment cycles that may span years, and a population of homeowners who generally do not know how their tax bills are calculated and almost never ask. Better models exist. They would simultaneously improve accuracy and fairness for millions of homeowners. Whether they get adopted is not a question of technology. It is a question of whether anyone in your county has the authority, the incentive, and the will to replace a system that works well enough for the people with the power to change it, and badly enough for the people without.</p>
+
+		</article>
+	</div>
+</body>
+</html>

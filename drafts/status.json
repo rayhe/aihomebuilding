@@ -1,17 +1,6 @@
 {
-  "current": {
-    "slug": "panel-upgrade-ai-load-management-gap",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-07-24T10:01:52-07:00",
-    "number": 622,
-    "critique_score": 9.0,
-    "rounds": 1,
-    "img_hash": "4e7a02a9",
-    "headline": "Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.",
-    "ship_after": "2026-09-13"
-  },
-  "last_completed": 618,
+  "current": null,
+  "last_completed": 623,
   "ship_ready": [
     {
       "number": 558,
@@ -496,6 +485,26 @@
       "ship_after": "2026-09-12",
       "img_hash": "d2546bca",
       "completed": "2026-07-24T08:01:52-07:00"
+    },
+    {
+      "number": 622,
+      "slug": "panel-upgrade-ai-load-management-gap",
+      "headline": "Your Electrician Said You Need 200 Amps. A Purdue Lab Ran the Whole House on 100.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-13",
+      "img_hash": "4e7a02a9",
+      "completed": "2026-07-24T12:01:00-07:00"
+    },
+    {
+      "number": 623,
+      "slug": "property-tax-assessment-algorithm-data-gap",
+      "headline": "Your County Assessed Your Home With Three Data Points. Zillow Uses Over a Hundred. Only One Sets Your Tax Bill.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-14",
+      "img_hash": "f30cc870",
+      "completed": "2026-07-24T12:01:52-07:00"
     }
   ]
 }
