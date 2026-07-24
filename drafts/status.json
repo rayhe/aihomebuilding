@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 556,
+  "last_completed": 618,
   "ship_ready": [
     {
       "number": 558,
@@ -419,6 +419,44 @@
       "ship_after": "2026-09-09",
       "completed": "2026-07-24T00:30:00-07:00",
       "img_hash": "a78d294d"
+    },
+    {
+      "slug": "bricklaying-robot-right-machine-wrong-market",
+      "number": 618,
+      "journalist": "Jake Kowalski",
+      "title": "A Robot Laid the Bricks on 100 European Homes. Its Coming to America. America Stopped Building With Brick.",
+      "ship_after": "2026-07-25T06:00:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 273,
+          "short_pct": 12.9,
+          "long_pct": 58.8,
+          "passed": true
+        }
+      }
     }
   ]
 }
