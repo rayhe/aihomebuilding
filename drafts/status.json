@@ -1,5 +1,38 @@
 {
-  "current": null,
+  "current": {
+    "number": 625,
+    "slug": "construction-licensing-fragmentation-ai-credentialing-gap",
+    "headline": "Your Electrician Is Licensed in Two States. She'd Need Forty Hours and \\$4,200 to Add a Third.",
+    "journalist": "Catherine Chen",
+    "phase": "SHIP",
+    "critique_score": 9.0,
+    "rounds": 1,
+    "started": "2026-07-24T16:01:52-07:00",
+    "img_hash": "6e4eaeb3",
+    "ship_after": "2026-09-16",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 11.4,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 565.0,
+        "short_pct": 7.4,
+        "long_pct": 59.3,
+        "passed": true
+      }
+    }
+  },
   "last_completed": 624,
   "ship_ready": [
     {
