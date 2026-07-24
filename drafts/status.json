@@ -1,26 +1,5 @@
 {
-  "current": {
-    "number": 616,
-    "slug": "construction-closeout-data-handoff-homeowner-gap",
-    "headline": "Your Builder Took 4,200 Photos of Your Home Being Built. You Got None of Them.",
-    "journalist": "Frank DeLuca",
-    "phase": "SHIP",
-    "round": 0,
-    "started": "2026-07-23T16:01:52-07:00",
-    "img_hash": "cca8fb9b",
-    "critique_score": 8.86,
-    "rounds": 1,
-    "critique_detail": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data": 9.0
-    },
-    "ship_after": "2026-09-08"
-  },
+  "current": null,
   "last_completed": 556,
   "ship_ready": [
     {
@@ -420,6 +399,26 @@
       "ship_after": "2026-09-07",
       "completed": "2026-07-23T12:01:52-07:00",
       "img_hash": "d2c97d58"
+    },
+    {
+      "number": 616,
+      "slug": "construction-closeout-data-handoff-homeowner-gap",
+      "headline": "Your Builder Took 4,200 Photos of Your Home Being Built. You Got None of Them.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "ship_after": "2026-09-08",
+      "completed": "2026-07-23T23:17:00-07:00",
+      "img_hash": "cca8fb9b"
+    },
+    {
+      "number": 617,
+      "slug": "street-view-flood-elevation-ai-homebuyer-gap",
+      "headline": "A Surveyor Charges \\$600 to Measure How High Your Front Door Sits. An Algorithm Did It for 12,241 Homes From Photos Google Already Had.",
+      "journalist": "Catherine Chen",
+      "critique_score": 8.93,
+      "ship_after": "2026-09-09",
+      "completed": "2026-07-24T00:30:00-07:00",
+      "img_hash": "a78d294d"
     }
   ]
 }
