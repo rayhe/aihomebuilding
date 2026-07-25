@@ -1,15 +1,15 @@
 {
   "current": {
-    "number": 626,
-    "slug": "heat-monitoring-wearable-residential-roofer-gap",
-    "headline": "An $80 Sensor Can Tell When a Roofer Is About to Collapse. Nobody Sells It to the Crews Who Need It Most.",
-    "journalist": "Marcus Washington",
+    "number": 627,
+    "slug": "neighbor-construction-vibration-monitoring-proof-gap",
+    "headline": "Your Neighbor's Excavator Cracked Your Foundation. Proving It Will Cost More Than the Repair.",
+    "journalist": "Catherine Chen",
     "phase": "SHIP",
-    "critique_score": 9.0,
+    "critique_score": 8.93,
     "rounds": 1,
-    "started": "2026-07-24T20:01:52-07:00",
-    "img_hash": "3d55cc51",
-    "ship_after": "2026-09-17",
+    "started": "2026-07-24T22:01:52-07:00",
+    "img_hash": "d5d4129a",
+    "ship_after": "2026-09-18",
     "hard_gates": {
       "em_dash": {
         "count": 0,
@@ -17,7 +17,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 0.0,
+        "pct": 7.0,
         "limit": 15.0,
         "passed": true
       },
@@ -26,9 +26,9 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 426.2,
-        "short_pct": 14.1,
-        "long_pct": 61.5,
+        "variance": 211.9,
+        "short_pct": 14.6,
+        "long_pct": 49.4,
         "passed": true
       }
     }
@@ -580,6 +580,38 @@
         }
       },
       "completed": "2026-07-24T20:01:52-07:00"
+    },
+    {
+      "number": 626,
+      "slug": "heat-monitoring-wearable-residential-roofer-gap",
+      "headline": "An $80 Sensor Can Tell When a Roofer Is About to Collapse. Nobody Sells It to the Crews Who Need It Most.",
+      "journalist": "Marcus Washington",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-17",
+      "img_hash": "3d55cc51",
+      "completed": "2026-07-24T22:01:52-07:00",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 426.2,
+          "short_pct": 14.1,
+          "long_pct": 61.5,
+          "passed": true
+        }
+      }
     }
   ]
 }
