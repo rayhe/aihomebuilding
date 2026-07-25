@@ -1,20 +1,20 @@
 {
   "current": {
-    "number": 629,
-    "slug": "ai-meeting-minutes-construction-litigation-trap",
-    "headline": "Your Contractor's AI Took Notes at Every Meeting. Now Opposing Counsel Has the Transcript.",
+    "number": 630,
+    "slug": "ai-title-insurance-automation-cost-gap",
+    "headline": "You Paid $2,200 for Title Insurance. The Industry Paid Out Five Cents of Every Dollar in Claims. An AI Just Qualified 80% of Refinances to Skip It.",
     "journalist": "Catherine Chen",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-25T02:01:52-07:00",
+    "started": "2026-07-25T06:01:52-07:00",
     "hard_gates": {
       "em_dash": {
-        "count": 2,
+        "count": 0,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 1.0,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -23,15 +23,24 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 203.3,
-        "short_pct": 14.0,
-        "long_pct": 46.2,
+        "variance": 478.7,
+        "short_pct": 14.1,
+        "long_pct": 50.0,
         "passed": true
       }
     },
+    "img_hash": "68f29cb1",
     "critique_score": 9.0,
-    "ship_after": "2026-09-20",
-    "img_hash": "0a34c08f"
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 9.0
+    },
+    "ship_after": "2026-09-21"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -607,6 +616,38 @@
           "passed": true
         }
       }
+    },
+    {
+      "number": 629,
+      "slug": "ai-meeting-minutes-construction-litigation-trap",
+      "headline": "Your Contractor's AI Took Notes at Every Meeting. Now Opposing Counsel Has the Transcript.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-20",
+      "img_hash": "0a34c08f",
+      "hard_gates": {
+        "em_dash": {
+          "count": 2,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.3,
+          "short_pct": 14.0,
+          "long_pct": 46.2,
+          "passed": true
+        }
+      },
+      "completed": "2026-07-25T06:01:52-07:00"
     }
   ]
 }
