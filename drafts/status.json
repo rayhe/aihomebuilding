@@ -1,15 +1,15 @@
 {
   "current": {
-    "number": 625,
-    "slug": "construction-licensing-fragmentation-ai-credentialing-gap",
-    "headline": "Your Electrician Is Licensed in Two States. She'd Need Forty Hours and \\$4,200 to Add a Third.",
-    "journalist": "Catherine Chen",
+    "number": 626,
+    "slug": "heat-monitoring-wearable-residential-roofer-gap",
+    "headline": "An $80 Sensor Can Tell When a Roofer Is About to Collapse. Nobody Sells It to the Crews Who Need It Most.",
+    "journalist": "Marcus Washington",
     "phase": "SHIP",
     "critique_score": 9.0,
     "rounds": 1,
-    "started": "2026-07-24T16:01:52-07:00",
-    "img_hash": "6e4eaeb3",
-    "ship_after": "2026-09-16",
+    "started": "2026-07-24T20:01:52-07:00",
+    "img_hash": "3d55cc51",
+    "ship_after": "2026-09-17",
     "hard_gates": {
       "em_dash": {
         "count": 0,
@@ -17,7 +17,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 11.4,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -26,14 +26,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 565.0,
-        "short_pct": 7.4,
-        "long_pct": 59.3,
+        "variance": 426.2,
+        "short_pct": 14.1,
+        "long_pct": 61.5,
         "passed": true
       }
     }
   },
-  "last_completed": 624,
+  "last_completed": 625,
   "ship_ready": [
     {
       "number": 558,
@@ -548,6 +548,38 @@
       "ship_after": "2026-09-15",
       "img_hash": "f3adace2",
       "completed": "2026-07-24T14:01:52-07:00"
+    },
+    {
+      "number": 625,
+      "slug": "construction-licensing-fragmentation-ai-credentialing-gap",
+      "headline": "Your Electrician Is Licensed in Two States. She'd Need Forty Hours and \\$4,200 to Add a Third.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-16",
+      "img_hash": "6e4eaeb3",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 565.0,
+          "short_pct": 7.4,
+          "long_pct": 59.3,
+          "passed": true
+        }
+      },
+      "completed": "2026-07-24T20:01:52-07:00"
     }
   ]
 }
