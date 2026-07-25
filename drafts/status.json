@@ -1,35 +1,12 @@
 {
   "current": {
-    "number": 630,
-    "slug": "ai-title-insurance-automation-cost-gap",
-    "headline": "You Paid $2,200 for Title Insurance. The Industry Paid Out Five Cents of Every Dollar in Claims. An AI Just Qualified 80% of Refinances to Skip It.",
-    "journalist": "Catherine Chen",
+    "number": 631,
+    "slug": "residential-acoustic-code-gap-ai-prediction",
+    "headline": "Fifty-Three Percent of Buyers Want a Quiet Home. The Code Requires It for the Apartment Next Door. Not for the Room Next Door.",
+    "journalist": "Elena Vasquez",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-25T06:01:52-07:00",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 478.7,
-        "short_pct": 14.1,
-        "long_pct": 50.0,
-        "passed": true
-      }
-    },
-    "img_hash": "68f29cb1",
+    "started": "2026-07-25T08:01:52-07:00",
     "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
@@ -40,7 +17,30 @@
       "research_rigor": 8.5,
       "construction_expert": 9.0
     },
-    "ship_after": "2026-09-21"
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.6,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 157.9,
+        "short_pct": 18.6,
+        "long_pct": 42.3,
+        "passed": true
+      }
+    },
+    "img_hash": "24e099ba",
+    "ship_after": "2026-09-22"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -648,6 +648,38 @@
         }
       },
       "completed": "2026-07-25T06:01:52-07:00"
+    },
+    {
+      "number": 630,
+      "slug": "ai-title-insurance-automation-cost-gap",
+      "headline": "You Paid $2,200 for Title Insurance. The Industry Paid Out Five Cents of Every Dollar in Claims. An AI Just Qualified 80% of Refinances to Skip It.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-21",
+      "completed": "2026-07-25T08:01:52-07:00",
+      "img_hash": "68f29cb1",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 478.7,
+          "short_pct": 14.1,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      }
     }
   ]
 }
