@@ -1,21 +1,21 @@
 {
   "current": {
-    "number": 631,
-    "slug": "residential-acoustic-code-gap-ai-prediction",
-    "headline": "Fifty-Three Percent of Buyers Want a Quiet Home. The Code Requires It for the Apartment Next Door. Not for the Room Next Door.",
-    "journalist": "Elena Vasquez",
+    "number": 632,
+    "slug": "unpermitted-work-ai-aerial-detection-gap",
+    "headline": "Google Has Aerial Photos of Every Roof Change for Twenty Years. Your County Has Every Permit. Nobody Compared Them Before You Signed.",
+    "journalist": "Jake Kowalski",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-25T08:01:52-07:00",
-    "critique_score": 9.0,
+    "started": "2026-07-25T10:01:52-07:00",
+    "critique_score": 8.93,
     "critique_scores": {
       "general_editor": 9.0,
-      "voice_coach": 9.0,
+      "voice_coach": 8.5,
       "ethics_reviewer": 9.0,
       "social_shareability": 9.5,
       "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 9.0
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
     },
     "hard_gates": {
       "em_dash": {
@@ -24,7 +24,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 0.6,
+        "pct": 12.9,
         "limit": 15.0,
         "passed": true
       },
@@ -33,14 +33,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 157.9,
-        "short_pct": 18.6,
-        "long_pct": 42.3,
+        "variance": 220.3,
+        "short_pct": 13.5,
+        "long_pct": 55.8,
         "passed": true
       }
     },
-    "img_hash": "24e099ba",
-    "ship_after": "2026-09-22"
+    "img_hash": "6794e9c1",
+    "ship_after": "2026-09-23"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -680,6 +680,50 @@
           "passed": true
         }
       }
+    },
+    {
+      "number": 631,
+      "slug": "residential-acoustic-code-gap-ai-prediction",
+      "headline": "Fifty-Three Percent of Buyers Want a Quiet Home. The Code Requires It for the Apartment Next Door. Not for the Room Next Door.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP",
+      "rounds": 1,
+      "started": "2026-07-25T08:01:52-07:00",
+      "critique_score": 9.0,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 157.9,
+          "short_pct": 18.6,
+          "long_pct": 42.3,
+          "passed": true
+        }
+      },
+      "img_hash": "24e099ba",
+      "ship_after": "2026-09-22",
+      "completed": "2026-07-25T10:01:52-07:00"
     }
   ]
 }

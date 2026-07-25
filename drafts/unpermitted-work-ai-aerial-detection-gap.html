@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Has Aerial Photos of Every Roof Change for Twenty Years. Your County Has Every Permit. Nobody Compared Them Before You Signed.</title>
+    <meta property="og:title" content="Google Has Aerial Photos of Every Roof Change for Twenty Years. Your County Has Every Permit. Nobody Compared Them Before You Signed.">
+    <meta property="og:description" content="AI can detect building changes from satellite imagery with 88% accuracy. Counties have every permit ever pulled. The cross-reference that would catch unpermitted work before closing doesn't exist as a product.">
+    <meta property="og:image" content="../images/unpermitted-work-ai-aerial-detection-gap.jpg">
+    <meta property="og:type" content="article">
+    <meta name="author" content="Jake Kowalski">
+    <meta name="date" content="July 25, 2026">
+    <link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<article class="story-page">
+    <header>
+        <div class="story-meta">
+            <span class="journalist">Jake Kowalski</span>
+            <time datetime="2026-07-25">July 25, 2026</time>
+        </div>
+    </header>
+    <h1>Google Has Aerial Photos of Every Roof Change for Twenty Years. Your County Has Every Permit. Nobody Compared Them Before You Signed.</h1>
+
+    <div class="story-body">
+
+        <p>Pull up Google Earth, type in your address, and drag the timeline slider back to 2006. That 400-square-foot addition over the garage was not there, and if you slide forward to 2011, it appears between one snapshot and the next like a mushroom after rain. Go to the county assessor's website and pull the permit history for that address. Nothing on file between 2006 and 2015.</p>
+
+        <p>You just found unpermitted construction in under three minutes, using two free tools that anyone with a browser can access, and nobody did this for you before you closed on the house.</p>
+
+        <p>Satellite imagery providers capture building footprint changes multiple times a year in major metros, timestamped and archived going back two decades. County permit databases log every approved construction project, searchable by address in most jurisdictions. An AI trained on building change detection can match one dataset against the other with accuracy rates between 75 and 88 percent, and the product that performs this cross-reference for homebuyers before closing does not exist as something you can buy.</p>
+
+        <h2>The Technology Already Works</h2>
+
+        <p>In Cathedral City, California, a company called City Detect mounted cameras on two municipal vehicles, drove 90 miles of road between October 2025 and January 2026, and let their platform, PASS AI, do the rest. It captured 186,297 images, scanned 12,489 parcels, and flagged 623 code violations across 36 categories in a few weeks of driving that a full-time code enforcement team would have needed months to replicate on foot.</p>
+
+        <p>That is vehicle-level detection for code enforcement, limited to whatever the camera sees from the street. Satellite-level detection for building changes is further along than most people in real estate realize, because the research has been happening in countries where illegal construction is not an inconvenience but a crisis. A Serbian research team used a U-Net convolutional neural network to compare very-high-resolution satellite imagery from two dates against official cadastral records, achieving object identification accuracy between 84 and 88 percent with a kappa statistic ranging from 89 to 96 percent. Serbia has more than two million illegal buildings on its official register, and this algorithm found them from orbit.</p>
+
+        <p>An Egyptian team used a ResUNet++ architecture to detect building expansions and encroachments on government land by comparing bitemporal satellite images against known cadastral boundaries. A 2015 Iranian study using K-means clustering on panchromatic imagery analyzed 343 buildings in Tehran, flagged 3 as unlicensed, and achieved 75 percent detection accuracy for illegal construction. These are academic proofs of concept, but the commercial infrastructure to run them at scale already exists: EagleView sells oblique aerial imagery covering roughly 95 percent of US properties, Nearmap flies high-frequency surveys several times a year in major metros, and Google Earth's historical imagery stretches back to the mid-2000s at sub-meter resolution for most residential areas. The raw material for a permit Carfax is already photographed, timestamped, and stored.</p>
+
+        <h2>What Unpermitted Work Costs You</h2>
+
+        <p>Under California Civil Code Section 1102, sellers must disclose known material defects, including unpermitted work, through the Transfer Disclosure Statement, and a seller who fails to disclose faces claims for fraud, negligent misrepresentation, or breach of contract that can drag on for years. But many sellers genuinely do not know what prior owners did, because they inherited the unpermitted addition along with the mortgage and the landscaping and never thought to check.</p>
+
+        <p>Insurance companies can deny claims on unpermitted spaces, which is where the consequences turn catastrophic. An electrical fire in a DIY attic conversion where the wiring was never inspected gives the insurer grounds to refuse coverage entirely for that portion of the structure, and a deck collapse on an unpermitted structure generates the same outcome at the worst possible moment. Appraisers cannot include unpermitted square footage in valuations, meaning buyers routinely overpay for space that legally does not exist, and lenders may refuse to issue mortgages on properties with unresolved permit issues, killing deals after both sides have spent thousands on inspections and attorney fees.</p>
+
+        <p>Retroactive permitting typically runs $5,000 to $15,000 including contractor fees to bring work up to current code. A denied insurance claim on a fire originating in an unpermitted addition can exceed $200,000, and in the worst case, the city can order the unpermitted improvement torn down entirely and rebuilt at the owner's expense.</p>
+
+        <h2>Why Nobody Built This Yet</h2>
+
+        <p>Permit databases are fragmented across 20,100 separate permit-issuing jurisdictions, according to the Census Bureau, and the digitization quality ranges from fully searchable online portals in large cities to paper binders in county clerk offices that close at noon on Fridays. Aggregating them would require either a massive data partnership or a very patient web-scraping operation, but it is not a technical impossibility, just a business development slog nobody has funded.</p>
+
+        <p>Aerial detection faces resolution limits at the residential scale. Freely available Sentinel satellite imagery runs at roughly 10-meter resolution, too coarse for a garage conversion, but the commercial imagery from EagleView and Nearmap runs at 7.5 to 30 centimeters per pixel, fine enough to catch a rooftop deck, a backyard ADU, or any exterior structural addition. The AI models, however, would need to be retrained on US residential building typologies at commercial resolution before they could power a consumer product.</p>
+
+        <p>And not everything shows from the sky. The most dangerous unpermitted work involves electrical panels rewired without inspection, plumbing rough-ins that bypass code, and load-bearing walls removed by contractors who knew the permit process would add weeks to the project, and no satellite will ever catch any of them. Aerial detection catches additions, ADUs, pools, roofing, decks, and exterior structural changes with high reliability, but interior renovations remain invisible, and a comprehensive tool would need to combine aerial detection with interior inspection data that does not yet exist in a unified product.</p>
+
+        <h2>The Product That Should Exist</h2>
+
+        <p>The architecture would be straightforward: ingest historical aerial imagery for a parcel from three or more dates spanning 15 to 20 years, run a building footprint change detection model on the roof outline and lot coverage, query the county permit database for permits at that address during the same period, and flag any physical change with no corresponding permit. EagleView's existing infrastructure already supports the first two steps for property insurers, and their patent portfolio includes change detection algorithms optimized for residential structures, but they have not turned that capability toward the homebuyer market.</p>
+
+        <p>Austin, Denver, and Honolulu have all adopted AI tools that check new permit applications for code compliance and completeness, trimming weeks off approval timelines. Every one of those tools looks forward. Not one of them looks backward to ask the question that matters most when you are buying a home: did anybody pull a permit for what is already built? The satellite photos exist, archived across two decades. The permit records exist, filed across jurisdictions covering more than 98 percent of US construction activity. The AI that compares them has been validated on three continents. What does not exist is the $50 report that puts them together before you sign.</p>
+
+        <h2>Limitations</h2>
+
+        <p>No public dataset quantifies what percentage of US homes have unpermitted work, and industry estimates range from 10 to 50 percent depending on the market and definition. The academic detection accuracies cited here were measured on non-US datasets at varying resolutions, and US residential performance has not been independently validated. Interior-only renovations, including electrical and plumbing work, are invisible to aerial detection. Permit database coverage varies enormously across 20,100 jurisdictions, and many rural counties lack either digital records or high-resolution temporal imagery for automated change detection.</p>
+    </div>
+</article>
+</body>
+</html>
