@@ -1,20 +1,20 @@
 {
   "current": {
-    "number": 628,
-    "slug": "foundation-monitoring-residential-access-gap",
-    "headline": "A $500 Sensor Catches Your Foundation Moving Before the Cracks Start. The Only Way to Buy One Is to Call the Company That Fixes Foundations.",
-    "journalist": "Jake Kowalski",
+    "number": 629,
+    "slug": "ai-meeting-minutes-construction-litigation-trap",
+    "headline": "Your Contractor's AI Took Notes at Every Meeting. Now Opposing Counsel Has the Transcript.",
+    "journalist": "Catherine Chen",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-25T00:01:52-07:00",
+    "started": "2026-07-25T02:01:52-07:00",
     "hard_gates": {
       "em_dash": {
-        "count": 0,
+        "count": 2,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 1.8,
+        "pct": 1.0,
         "limit": 15.0,
         "passed": true
       },
@@ -23,14 +23,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 287.8,
-        "short_pct": 10.9,
-        "long_pct": 60.0,
+        "variance": 203.3,
+        "short_pct": 14.0,
+        "long_pct": 46.2,
         "passed": true
       }
     },
     "critique_score": 9.0,
-    "ship_after": "2026-09-19"
+    "ship_after": "2026-09-20",
+    "img_hash": "0a34c08f"
   },
   "last_completed": 558,
   "ship_ready": [
@@ -612,6 +613,38 @@
       "critique_score": 8.93,
       "ship_after": "2026-09-18",
       "img_hash": "d5d4129a"
+    },
+    {
+      "number": 628,
+      "slug": "foundation-monitoring-residential-access-gap",
+      "headline": "A $500 Sensor Catches Your Foundation Moving Before the Cracks Start. The Only Way to Buy One Is to Call the Company That Fixes Foundations.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 9.0,
+      "ship_after": "2026-09-19",
+      "img_hash": "80443b97",
+      "completed": "2026-07-25T02:01:52-07:00",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 287.8,
+          "short_pct": 10.9,
+          "long_pct": 60.0,
+          "passed": true
+        }
+      }
     }
   ]
 }
