@@ -891,6 +891,50 @@
           "passed": true
         }
       }
+    },
+    {
+      "number": 637,
+      "slug": "mold-risk-prediction-ai-residential-gap",
+      "headline": "A Random Forest Can Tell Which Homes Will Grow Mold. Nobody Built the App.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "rounds": 1,
+      "started": "2026-07-26T07:13:39-07:00",
+      "critique_score": 8.93,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 117.2,
+          "short_pct": 30.2,
+          "long_pct": 30.2,
+          "passed": true
+        }
+      },
+      "img_hash": "52e785e6",
+      "ship_after": "2026-09-28",
+      "completed": "2026-07-26T07:13:39-07:00"
     }
   ]
 }
