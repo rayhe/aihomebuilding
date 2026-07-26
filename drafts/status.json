@@ -1,12 +1,12 @@
 {
   "current": {
-    "number": 635,
-    "slug": "underground-utility-mapping-residential-builder-gap",
-    "headline": "Your Contractor Called 811. The Locator Painted Lines Where the Records Said. The Gas Main Was on the Other Side of the Road.",
-    "journalist": "Jake Kowalski",
+    "number": 636,
+    "slug": "immigration-labor-shock-ai-workforce-planning-gap",
+    "headline": "Net Migration Fell 88% in Two Years. Your Builder\u2019s Workforce Plan Didn\u2019t Notice.",
+    "journalist": "Marcus Washington",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-25T18:01:52-07:00",
+    "started": "2026-07-25T20:01:52-07:00",
     "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
@@ -24,7 +24,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 6.8,
+        "pct": 1.1,
         "limit": 15.0,
         "passed": true
       },
@@ -33,14 +33,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 983.3,
-        "short_pct": 10.7,
-        "long_pct": 69.6,
+        "variance": 204.7,
+        "short_pct": 6.7,
+        "long_pct": 53.3,
         "passed": true
       }
     },
-    "img_hash": "a9768098",
-    "ship_after": "2026-09-26"
+    "img_hash": "6e33f092",
+    "ship_after": "2026-09-27"
   },
   "last_completed": 618,
   "ship_ready": [
@@ -853,6 +853,50 @@
       "img_hash": "e5ceb554",
       "ship_after": "2026-09-25",
       "completed": "2026-07-25T18:01:52-07:00"
+    },
+    {
+      "number": 635,
+      "slug": "underground-utility-mapping-residential-builder-gap",
+      "headline": "Your Contractor Called 811. The Locator Painted Lines Where the Records Said. The Gas Main Was on the Other Side of the Road.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "rounds": 1,
+      "started": "2026-07-25T18:01:52-07:00",
+      "critique_score": 9.0,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 983.3,
+          "short_pct": 10.7,
+          "long_pct": 69.6,
+          "passed": true
+        }
+      },
+      "img_hash": "a9768098",
+      "ship_after": "2026-09-26",
+      "completed": "2026-07-25T20:01:52-07:00"
     }
   ]
 }
