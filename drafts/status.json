@@ -1,30 +1,30 @@
 {
   "current": {
-    "number": 641,
-    "slug": "lead-service-line-ml-prediction-homebuyer-gap",
-    "headline": "Your Water Utility Knows Which Homes Have Lead Pipes. Your Real Estate Agent Doesn't.",
-    "journalist": "Catherine Chen",
+    "number": 642,
+    "slug": "insurer-aerial-ai-roof-score-homeowner-gap",
+    "headline": "Your Insurer\u2019s AI Has Scored Ninety Million Roofs From the Sky. It Won\u2019t Show You Yours.",
+    "journalist": "Marcus Washington",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-26T08:01:52-07:00",
-    "critique_score": 8.93,
+    "started": "2026-07-26T17:14:06-07:00",
+    "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
       "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
+      "social_shareability": 9.5,
       "legal_accuracy": 9.0,
       "research_rigor": 8.5,
       "construction_expert": 9.0
     },
     "hard_gates": {
       "em_dash": {
-        "count": 1,
+        "count": 0,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 0.0,
+        "pct": 11.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 57.2,
-        "short_pct": 30.3,
-        "long_pct": 14.8,
+        "variance": 147.8,
+        "short_pct": 27.0,
+        "long_pct": 18.0,
         "passed": true
       }
     },
-    "img_hash": "ee63eeb1",
-    "ship_after": "2026-10-02",
-    "completed": "2026-07-26T08:01:52-07:00"
+    "img_hash": "d0c69bbe",
+    "ship_after": "2026-10-03",
+    "completed": "2026-07-26T17:14:06-07:00"
   },
   "last_completed": 559,
   "ship_ready": [
@@ -1110,6 +1110,49 @@
       "img_hash": "f36bb7a9",
       "ship_after": "2026-10-01",
       "completed": "2026-07-26T06:01:52-07:00"
+    },
+    {
+      "number": 641,
+      "slug": "lead-service-line-ml-prediction-homebuyer-gap",
+      "headline": "Your Water Utility Knows Which Homes Have Lead Pipes. Your Real Estate Agent Doesn't.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-02",
+      "completed": "2026-07-26T08:01:52-07:00",
+      "img_hash": "ee63eeb1",
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 57.2,
+          "short_pct": 30.3,
+          "long_pct": 14.8,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      }
     }
   ]
 }
