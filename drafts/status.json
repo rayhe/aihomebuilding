@@ -1,12 +1,12 @@
 {
   "current": {
-    "number": 644,
-    "slug": "construction-waste-ai-sorting-residential-gap",
-    "headline": "An AI Sorts Construction Waste at Ninety-Two Percent Accuracy. Your Builder Threw It All in One Dumpster.",
-    "journalist": "Priya Greenwood",
+    "number": 645,
+    "slug": "ai-floor-plan-ceiling-height-blind-spot",
+    "headline": "Your AI Floor Plan Has Perfect Rooms at Perfect Sizes. Every Ceiling Is the Same Height.",
+    "journalist": "Elena Vasquez",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-26T14:01:52-07:00",
+    "started": "2026-07-26T16:01:52-07:00",
     "critique_score": 8.93,
     "critique_scores": {
       "general_editor": 9.0,
@@ -24,7 +24,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 8.1,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 667.0,
-        "short_pct": 4.9,
-        "long_pct": 70.7,
+        "variance": 1049.9,
+        "short_pct": 12.5,
+        "long_pct": 70.0,
         "passed": true
       }
     },
-    "img_hash": "c4762eb0",
-    "ship_after": "2026-10-05",
-    "completed": "2026-07-26T21:12:15-07:00"
+    "img_hash": "6f761952",
+    "ship_after": "2026-10-06",
+    "completed": "2026-07-26T23:15:27-07:00"
   },
   "last_completed": 559,
   "ship_ready": [
@@ -1239,6 +1239,47 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 644,
+      "slug": "construction-waste-ai-sorting-residential-gap",
+      "headline": "An AI Sorts Construction Waste at Ninety-Two Percent Accuracy. Your Builder Threw It All in One Dumpster.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-05",
+      "completed": "2026-07-26T21:12:15-07:00",
+      "img_hash": "c4762eb0",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 667.0,
+          "short_pct": 4.9,
+          "long_pct": 70.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      }
     }
   ]
 }
