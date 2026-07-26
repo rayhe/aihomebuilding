@@ -1,5 +1,48 @@
 {
-  "current": null,
+  "current": {
+    "number": 640,
+    "slug": "construction-site-theft-ai-camera-residential-gap",
+    "headline": "Your Builder Loses $8,400 Per Home to Theft. Four Cameras Would Cost $410. He Bought Zero.",
+    "journalist": "Frank DeLuca",
+    "phase": "SHIP",
+    "rounds": 1,
+    "started": "2026-07-26T06:01:52-07:00",
+    "critique_score": 9.0,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 9.0
+    },
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 594.1,
+        "short_pct": 7.1,
+        "long_pct": 78.6,
+        "passed": true
+      }
+    },
+    "img_hash": "f36bb7a9",
+    "ship_after": "2026-10-01",
+    "completed": "2026-07-26T06:01:52-07:00"
+  },
   "last_completed": 559,
   "ship_ready": [
     {
