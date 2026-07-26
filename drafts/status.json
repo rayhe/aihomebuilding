@@ -935,6 +935,50 @@
       "img_hash": "52e785e6",
       "ship_after": "2026-09-28",
       "completed": "2026-07-26T07:13:39-07:00"
+    },
+    {
+      "slug": "window-argon-degradation-field-testing-gap",
+      "phase": "SHIP",
+      "journalist": "Jake Kowalski",
+      "started": "2026-07-26T02:01:52-07:00",
+      "number": 638,
+      "critique_score": 8.93,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 652.6,
+          "short_pct": 3.2,
+          "long_pct": 79.0,
+          "passed": true
+        }
+      },
+      "ship_after": "2026-09-29",
+      "completed": "2026-07-26T02:01:52-07:00",
+      "img_hash": "a03f26dc",
+      "headline": "Your Premium Windows Were Tested Once in a Factory. The Argon Gas Inside Them Has Been Leaking Ever Since."
     }
   ]
 }
