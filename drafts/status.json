@@ -1,12 +1,12 @@
 {
   "current": {
-    "number": 642,
-    "slug": "insurer-aerial-ai-roof-score-homeowner-gap",
-    "headline": "Your Insurer\u2019s AI Has Scored Ninety Million Roofs From the Sky. It Won\u2019t Show You Yours.",
-    "journalist": "Marcus Washington",
+    "number": 643,
+    "slug": "hud-ai-permit-grant-adoption-gap",
+    "headline": "HUD Offered Cities $3 Million to Let AI Review Building Permits. Your City Probably Didn't Apply.",
+    "journalist": "Frank DeLuca",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-26T17:14:06-07:00",
+    "started": "2026-07-26T12:01:52-07:00",
     "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
@@ -24,7 +24,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 11.0,
+        "pct": 2.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 147.8,
-        "short_pct": 27.0,
-        "long_pct": 18.0,
+        "variance": 953.2,
+        "short_pct": 14.0,
+        "long_pct": 72.0,
         "passed": true
       }
     },
-    "img_hash": "d0c69bbe",
-    "ship_after": "2026-10-03",
-    "completed": "2026-07-26T17:14:06-07:00"
+    "img_hash": "f66eaaf1",
+    "ship_after": "2026-10-04",
+    "completed": "2026-07-26T19:20:43-07:00"
   },
   "last_completed": 559,
   "ship_ready": [
@@ -1149,6 +1149,49 @@
         "voice_coach": 9.0,
         "ethics_reviewer": 9.0,
         "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      }
+    },
+    {
+      "number": 642,
+      "slug": "insurer-aerial-ai-roof-score-homeowner-gap",
+      "headline": "Your Insurer\u2019s AI Has Scored Ninety Million Roofs From the Sky. It Won\u2019t Show You Yours.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP",
+      "critique_score": 9.0,
+      "ship_after": "2026-10-03",
+      "completed": "2026-07-26T17:14:06-07:00",
+      "img_hash": "d0c69bbe",
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 147.8,
+          "short_pct": 27.0,
+          "long_pct": 18.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
         "legal_accuracy": 9.0,
         "research_rigor": 8.5,
         "construction_expert": 9.0
