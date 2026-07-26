@@ -1,58 +1,7 @@
 {
-  "current": {
-    "number": 637,
-    "slug": "crawl-space-monitoring-ai-residential-gap",
-    "headline": "Twenty-Seven Million American Homes Have Crawl Spaces. A $50 Sensor Watches Them Around the Clock. Nobody Sells It to Homeowners.",
-    "journalist": "Jake Kowalski",
-    "phase": "SHIP",
-    "rounds": 1,
-    "started": "2026-07-25T22:01:52-07:00",
-    "critique_score": 8.93,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 9.0
-    },
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 627.4,
-        "short_pct": 12.5,
-        "long_pct": 62.5,
-        "passed": true
-      }
-    },
-    "img_hash": "d758257c",
-    "ship_after": "2026-09-28",
-    "completed": "2026-07-25T22:01:52-07:00"
-  },
-  "last_completed": 618,
+  "current": null,
+  "last_completed": 559,
   "ship_ready": [
-    {
-      "number": 559,
-      "slug": "ai-floor-plan-threshold-death",
-      "headline": "Your AI Floor Plan Deleted the Space Between Rooms. Your Brain Noticed.",
-      "journalist": "Elena Vasquez",
-      "critique_score": 8.93,
-      "ship_after": "2026-07-26"
-    },
     {
       "number": 560,
       "slug": "builder-rate-buydown-hidden-price-math",
