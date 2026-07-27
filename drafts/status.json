@@ -1,13 +1,13 @@
 {
   "current": {
-    "number": 654,
-    "slug": "builder-insolvency-prediction-homeowner-gap",
-    "headline": "Fifty-One Percent of U.S. Builders Are Operating at a Loss. A Model Spots the Ones Who Will Fold Two Years Early. Nobody Sells It to Homeowners.",
-    "journalist": "Frank DeLuca",
+    "number": 655,
+    "slug": "new-home-iaq-formaldehyde-testing-gap",
+    "headline": "Your Builder Tested How Tight Your Home Is. Nobody Tested What It Traps Inside.",
+    "journalist": "Priya Greenwood",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T17:14:30-07:00",
-    "ship_after": "2026-10-15",
+    "started": "2026-07-27T21:13:18-07:00",
+    "ship_after": "2026-10-16",
     "critique_score": 8.93,
     "critique_scores": {
       "general_editor": 9.0,
@@ -20,12 +20,12 @@
     },
     "hard_gates": {
       "em_dash": {
-        "count": 0,
+        "count": 1,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 11.7,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -34,14 +34,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 71.5,
-        "short_pct": 36.7,
-        "long_pct": 12.5,
+        "variance": 398.9,
+        "short_pct": 3.6,
+        "long_pct": 76.8,
         "passed": true
       }
     },
-    "img_hash": "61b39ba7",
-    "completed": "2026-07-27T17:14:30-07:00"
+    "img_hash": "a39f5324",
+    "completed": "2026-07-27T21:13:18-07:00"
   },
   "last_completed": 560,
   "ship_ready": [
@@ -1644,6 +1644,49 @@
           "variance": 102.3,
           "short_pct": 26.9,
           "long_pct": 25.4,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 654,
+      "slug": "builder-insolvency-prediction-homeowner-gap",
+      "headline": "Fifty-One Percent of U.S. Builders Are Operating at a Loss. A Model Spots the Ones Who Will Fold Two Years Early. Nobody Sells It to Homeowners.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-15",
+      "completed": "2026-07-27T17:14:30-07:00",
+      "img_hash": "61b39ba7",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 71.5,
+          "short_pct": 36.7,
+          "long_pct": 12.5,
           "passed": true
         }
       },
