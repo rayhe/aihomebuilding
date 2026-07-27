@@ -1,12 +1,12 @@
 {
   "current": {
-    "number": 646,
-    "slug": "residential-duct-design-rule-of-thumb-ai-gap",
-    "headline": "Your HVAC Contractor Sized Every Duct Run by Feel. A Free Calculator Gets It Right in Ten Minutes.",
-    "journalist": "Jake Kowalski",
+    "number": 647,
+    "slug": "ai-scheduling-custom-home-residential-gap",
+    "headline": "Your Custom Home Takes Five Months Longer Than the Same House Built on Spec. The Software That Closes the Gap Doesn't Exist.",
+    "journalist": "Frank DeLuca",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T01:09:54-07:00",
+    "started": "2026-07-27T03:12:35-07:00",
     "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
@@ -19,12 +19,12 @@
     },
     "hard_gates": {
       "em_dash": {
-        "count": 1,
+        "count": 0,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 2.0,
+        "pct": 8.4,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 82.6,
-        "short_pct": 26.2,
-        "long_pct": 23.3,
+        "variance": 136.6,
+        "short_pct": 23.5,
+        "long_pct": 16.0,
         "passed": true
       }
     },
-    "img_hash": "855f721b",
-    "ship_after": "2026-10-07",
-    "completed": "2026-07-27T01:09:54-07:00"
+    "img_hash": "62815b41",
+    "ship_after": "2026-10-08",
+    "completed": "2026-07-27T03:12:35-07:00"
   },
   "last_completed": 559,
   "ship_ready": [
@@ -1321,6 +1321,49 @@
         "research_rigor": 8.5,
         "construction_expert": 9.0
       }
+    },
+    {
+      "number": 646,
+      "slug": "residential-duct-design-rule-of-thumb-ai-gap",
+      "headline": "Your HVAC Contractor Sized Every Duct Run by Feel. A Free Calculator Gets It Right in Ten Minutes.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 9.0,
+      "ship_after": "2026-10-07",
+      "completed": "2026-07-27T01:09:54-07:00",
+      "img_hash": "855f721b",
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 82.6,
+          "short_pct": 26.2,
+          "long_pct": 23.3,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
