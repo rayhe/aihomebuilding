@@ -1,13 +1,13 @@
 {
   "current": {
-    "number": 652,
-    "slug": "smart-thermostat-ghost-audit-home-sale-gap",
-    "headline": "Your Smart Thermostat Recorded Three Years of Data About How Your Home Actually Performs. When You Sold the House, Nobody Showed the Buyer.",
-    "journalist": "Priya Greenwood",
+    "number": 653,
+    "slug": "construction-wage-theft-ai-detection-gap",
+    "headline": "The Workers Building Your Home Lose $50 Billion a Year to Stolen Wages. The AI That Catches It Runs on a Phone. Nobody Showed Them.",
+    "journalist": "Marcus Washington",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T06:06:35.057147-07:00",
-    "ship_after": "2026-10-13",
+    "started": "2026-07-27T08:10:33.603632-07:00",
+    "ship_after": "2026-10-14",
     "critique_score": 8.93,
     "critique_scores": {
       "general_editor": 9.0,
@@ -25,7 +25,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 4.0,
+        "pct": 10.8,
         "limit": 15.0,
         "passed": true
       },
@@ -34,14 +34,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 200.0,
-        "short_pct": 14.3,
-        "long_pct": 48.0,
+        "variance": 102.3,
+        "short_pct": 26.9,
+        "long_pct": 25.4,
         "passed": true
       }
     },
-    "img_hash": "cbb344cb",
-    "completed": "2026-07-27T06:16:11.169608-07:00"
+    "img_hash": "3ed5fb3b",
+    "completed": "2026-07-27T08:10:33.603632-07:00"
   },
   "last_completed": 560,
   "ship_ready": [
@@ -1568,6 +1568,49 @@
         "social_shareability": 9.0,
         "legal_accuracy": 9.0,
         "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 652,
+      "slug": "smart-thermostat-ghost-audit-home-sale-gap",
+      "headline": "Your Smart Thermostat Recorded Three Years of Data About How Your Home Actually Performs. When You Sold the House, Nobody Showed the Buyer.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-13",
+      "completed": "2026-07-27T06:16:11.169608-07:00",
+      "img_hash": "cbb344cb",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 200.0,
+          "short_pct": 14.3,
+          "long_pct": 48.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
         "construction_expert": 9.0
       },
       "phase": "SHIP",
