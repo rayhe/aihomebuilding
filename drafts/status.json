@@ -1,18 +1,18 @@
 {
   "current": {
-    "number": 649,
-    "slug": "counterfeit-building-materials-ai-verification-gap",
-    "headline": "Seventy-Six Percent of Builders Have Installed a Counterfeit Product. Your Inspector Didn't Check.",
-    "journalist": "Catherine Chen",
+    "number": 650,
+    "slug": "adu-feasibility-ai-architect-gap",
+    "headline": "You Paid an Architect $12,000 to Find Out Your Lot Can't Hold an ADU. An Algorithm Knew in Nine Seconds.",
+    "journalist": "Elena Vasquez",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T07:07:48-07:00",
-    "critique_score": 9.0,
+    "started": "2026-07-27T02:01:52-07:00",
+    "critique_score": 9.07,
     "critique_scores": {
       "general_editor": 9.0,
       "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
+      "social_shareability": 9.5,
       "legal_accuracy": 9.0,
       "research_rigor": 9.0,
       "construction_expert": 9.0
@@ -24,7 +24,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 12.0,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 59.2,
-        "short_pct": 43.7,
-        "long_pct": 12.7,
+        "variance": 265.3,
+        "short_pct": 12.7,
+        "long_pct": 49.2,
         "passed": true
       }
     },
-    "img_hash": "700e17af",
-    "ship_after": "2026-10-10",
-    "completed": "2026-07-27T07:13:54-07:00"
+    "img_hash": "fd6402e6",
+    "ship_after": "2026-10-11",
+    "completed": "2026-07-27T09:16:23-07:00"
   },
   "last_completed": 560,
   "ship_ready": [
@@ -1429,6 +1429,49 @@
           "variance": 239.5,
           "short_pct": 13.8,
           "long_pct": 36.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 649,
+      "slug": "counterfeit-building-materials-ai-verification-gap",
+      "headline": "Seventy-Six Percent of Builders Have Installed a Counterfeit Product. Your Inspector Didn't Check.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-10-10",
+      "completed": "2026-07-27T07:13:54-07:00",
+      "img_hash": "700e17af",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 59.2,
+          "short_pct": 43.7,
+          "long_pct": 12.7,
           "passed": true
         }
       },
