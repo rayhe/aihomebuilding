@@ -1,12 +1,12 @@
 {
   "current": {
-    "number": 647,
-    "slug": "ai-scheduling-custom-home-residential-gap",
-    "headline": "Your Custom Home Takes Five Months Longer Than the Same House Built on Spec. The Software That Closes the Gap Doesn't Exist.",
+    "number": 648,
+    "slug": "weather-delay-prediction-residential-scheduling-gap",
+    "headline": "Weather Delays 45% of Construction Projects. Your Builder's Forecast Tool Is a Phone App.",
     "journalist": "Frank DeLuca",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T03:12:35-07:00",
+    "started": "2026-07-27T05:01:52-07:00",
     "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
@@ -24,7 +24,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 8.4,
+        "pct": 10.1,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 136.6,
-        "short_pct": 23.5,
-        "long_pct": 16.0,
+        "variance": 239.5,
+        "short_pct": 13.8,
+        "long_pct": 36.7,
         "passed": true
       }
     },
-    "img_hash": "62815b41",
-    "ship_after": "2026-10-08",
-    "completed": "2026-07-27T03:12:35-07:00"
+    "img_hash": "c8901c84",
+    "ship_after": "2026-10-09",
+    "completed": "2026-07-27T05:01:52-07:00"
   },
   "last_completed": 559,
   "ship_ready": [
@@ -1364,6 +1364,50 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 647,
+      "slug": "ai-scheduling-custom-home-residential-gap",
+      "headline": "Your Custom Home Takes Five Months Longer Than the Same House Built on Spec. The Software That Closes the Gap Doesn't Exist.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "rounds": 1,
+      "started": "2026-07-27T03:12:35-07:00",
+      "critique_score": 9.0,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 136.6,
+          "short_pct": 23.5,
+          "long_pct": 16.0,
+          "passed": true
+        }
+      },
+      "img_hash": "62815b41",
+      "ship_after": "2026-10-08",
+      "completed": "2026-07-27T03:12:35-07:00"
     }
   ]
 }
