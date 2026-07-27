@@ -1,20 +1,21 @@
 {
   "current": {
-    "number": 651,
-    "slug": "smartphone-crack-measurement-homeowner-gap",
-    "headline": "Your Phone Can Measure Foundation Cracks to a Tenth of a Millimeter. Nobody Built the App.",
-    "journalist": "Jake Kowalski",
+    "number": 652,
+    "slug": "smart-thermostat-ghost-audit-home-sale-gap",
+    "headline": "Your Smart Thermostat Recorded Three Years of Data About How Your Home Actually Performs. When You Sold the House, Nobody Showed the Buyer.",
+    "journalist": "Priya Greenwood",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T04:01:52-07:00",
-    "critique_score": 9.0,
+    "started": "2026-07-27T06:06:35.057147-07:00",
+    "ship_after": "2026-10-13",
+    "critique_score": 8.93,
     "critique_scores": {
       "general_editor": 9.0,
       "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
       "social_shareability": 9.0,
       "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
+      "research_rigor": 8.5,
       "construction_expert": 9.0
     },
     "hard_gates": {
@@ -24,7 +25,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 0.0,
+        "pct": 4.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +34,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 968.0,
-        "short_pct": 11.1,
-        "long_pct": 75.6,
+        "variance": 200.0,
+        "short_pct": 14.3,
+        "long_pct": 48.0,
         "passed": true
       }
     },
-    "img_hash": "ffae866f",
-    "ship_after": "2026-10-12",
-    "completed": "2026-07-27T04:45:00-07:00"
+    "img_hash": "cbb344cb",
+    "completed": "2026-07-27T06:16:11.169608-07:00"
   },
   "last_completed": 560,
   "ship_ready": [
@@ -1529,6 +1529,49 @@
         "research_rigor": 9.0,
         "construction_expert": 9.0
       }
+    },
+    {
+      "number": 651,
+      "slug": "smartphone-crack-measurement-homeowner-gap",
+      "headline": "Your Phone Can Measure Foundation Cracks to a Tenth of a Millimeter. Nobody Built the App.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 9.0,
+      "ship_after": "2026-10-12",
+      "completed": "2026-07-27T04:45:00-07:00",
+      "img_hash": "ffae866f",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 968.0,
+          "short_pct": 11.1,
+          "long_pct": 75.6,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
