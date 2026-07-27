@@ -1,30 +1,30 @@
 {
   "current": {
-    "number": 645,
-    "slug": "ai-floor-plan-ceiling-height-blind-spot",
-    "headline": "Your AI Floor Plan Has Perfect Rooms at Perfect Sizes. Every Ceiling Is the Same Height.",
-    "journalist": "Elena Vasquez",
+    "number": 646,
+    "slug": "residential-duct-design-rule-of-thumb-ai-gap",
+    "headline": "Your HVAC Contractor Sized Every Duct Run by Feel. A Free Calculator Gets It Right in Ten Minutes.",
+    "journalist": "Jake Kowalski",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-26T16:01:52-07:00",
-    "critique_score": 8.93,
+    "started": "2026-07-27T01:09:54-07:00",
+    "critique_score": 9.0,
     "critique_scores": {
       "general_editor": 9.0,
       "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
       "social_shareability": 9.0,
       "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
+      "research_rigor": 9.0,
       "construction_expert": 9.0
     },
     "hard_gates": {
       "em_dash": {
-        "count": 0,
+        "count": 1,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 0.0,
+        "pct": 2.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,15 +33,15 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 1049.9,
-        "short_pct": 12.5,
-        "long_pct": 70.0,
+        "variance": 82.6,
+        "short_pct": 26.2,
+        "long_pct": 23.3,
         "passed": true
       }
     },
-    "img_hash": "6f761952",
-    "ship_after": "2026-10-06",
-    "completed": "2026-07-26T23:15:27-07:00"
+    "img_hash": "855f721b",
+    "ship_after": "2026-10-07",
+    "completed": "2026-07-27T01:09:54-07:00"
   },
   "last_completed": 559,
   "ship_ready": [
@@ -1268,6 +1268,47 @@
           "variance": 667.0,
           "short_pct": 4.9,
           "long_pct": 70.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      }
+    },
+    {
+      "number": 645,
+      "slug": "ai-floor-plan-ceiling-height-blind-spot",
+      "headline": "Your AI Floor Plan Has Perfect Rooms at Perfect Sizes. Every Ceiling Is the Same Height.",
+      "journalist": "Elena Vasquez",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-06",
+      "completed": "2026-07-26T23:15:27-07:00",
+      "img_hash": "6f761952",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 1049.9,
+          "short_pct": 12.5,
+          "long_pct": 70.0,
           "passed": true
         }
       },
