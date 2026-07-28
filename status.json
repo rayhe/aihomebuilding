@@ -1,11 +1,5 @@
 {
-  "current": {
-    "number": 659,
-    "slug": "data-center-grid-queue-housing-power-delay",
-    "journalist": "Elena Vasquez",
-    "phase": "CRITIQUE",
-    "ship_after": "2026-10-19"
-  },
+  "current": null,
   "last_completed": 569,
   "ship_ready": [
     {
@@ -122,6 +116,13 @@
         "research_rigor": 8.5,
         "mean": 8.83
       }
+    },
+    {
+      "number": 659,
+      "slug": "data-center-grid-queue-housing-power-delay",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-10-19"
     }
   ]
 }
