@@ -1,31 +1,31 @@
 {
   "current": {
-    "number": 656,
-    "slug": "ai-battery-sizing-calculator-residential-backup-gap",
-    "headline": "The Online Calculator Said One Battery Would Cover Your House. The Outage Proved It Wrong in Six Hours.",
-    "journalist": "Jake Kowalski",
+    "number": 657,
+    "slug": "heat-wearable-residential-builder-gap",
+    "headline": "Construction Workers Die of Heat at Six Times the National Rate. A Wearable Predicts It. Your Builder Won't Buy One.",
+    "journalist": "Marcus Washington",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-28T01:22:28-07:00",
-    "ship_after": "2026-10-17",
-    "critique_score": 8.86,
+    "started": "2026-07-28T03:06:06.486881+00:00",
+    "ship_after": "2026-10-18",
+    "critique_score": 8.93,
     "critique_scores": {
       "general_editor": 9.0,
-      "voice_coach": 8.5,
+      "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
       "social_shareability": 9.0,
       "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 9.0
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
     },
     "hard_gates": {
       "em_dash": {
-        "count": 0,
+        "count": 1,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 6.7,
+        "pct": 7.9,
         "limit": 15.0,
         "passed": true
       },
@@ -34,14 +34,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 222.5,
-        "short_pct": 13.0,
-        "long_pct": 43.5,
+        "variance": 337.5,
+        "short_pct": 11.6,
+        "long_pct": 50.5,
         "passed": true
       }
     },
-    "img_hash": "10a5b80a",
-    "completed": "2026-07-28T01:22:28-07:00"
+    "img_hash": "ab9b7867",
+    "completed": "2026-07-28T03:18:42.021327+00:00"
   },
   "last_completed": 560,
   "ship_ready": [
@@ -1736,6 +1736,49 @@
       "critique_scores": {
         "general_editor": 9.0,
         "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 656,
+      "slug": "ai-battery-sizing-calculator-residential-backup-gap",
+      "headline": "The Online Calculator Said One Battery Would Cover Your House. The Outage Proved It Wrong in Six Hours.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.86,
+      "ship_after": "2026-10-17",
+      "completed": "2026-07-28T01:22:28-07:00",
+      "img_hash": "10a5b80a",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 222.5,
+          "short_pct": 13.0,
+          "long_pct": 43.5,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
         "ethics_reviewer": 9.0,
         "social_shareability": 9.0,
         "legal_accuracy": 9.0,
