@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>The NEC Says Your Home Needs 200 Amps to Go All-Electric. An Algorithm Ran It on 100. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/panel-upgrade-algorithm-electrification-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "The NEC Says Your Home Needs 200 Amps to Go All-Electric. An Algorithm Ran It on 100.",
+		"description": "Twenty-three million American homes need a panel upgrade to electrify. A Purdue field study kept a fully electrified house within 100-amp limits for 31 winter days using predictive control software. The National Electrical Code doesn't recognize the approach yet, and the gap between what algorithms can do and what codes permit is costing homeowners billions.",
+		"image": "https://aihomebuilding.com/images/panel-upgrade-algorithm-electrification-gap.jpg?v=53428868",
+		"datePublished": "2026-07-28",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/panel-upgrade-algorithm-electrification-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="The NEC Says Your Home Needs 200 Amps to Go All-Electric. An Algorithm Ran It on 100.">
+	<meta property="og:description" content="Twenty-three million homes need panel upgrades for electrification. A Purdue algorithm kept a fully electrified house on 100 amps for 31 winter days. The NEC hasn't caught up.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/panel-upgrade-algorithm-electrification-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/panel-upgrade-algorithm-electrification-gap.jpg?v=53428868">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="The NEC Says Your Home Needs 200 Amps to Go All-Electric. An Algorithm Ran It on 100.">
+	<meta name="twitter:description" content="Twenty-three million homes need panel upgrades for electrification. A Purdue algorithm kept a fully electrified house on 100 amps for 31 winter days. The NEC hasn't caught up.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/panel-upgrade-algorithm-electrification-gap.jpg?v=53428868">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/panel-upgrade-algorithm-electrification-gap.jpg?v=53428868" alt="Residential electrical panel in a garage with a heat pump outdoor unit visible through the open door, winter morning light on snow-covered ground" loading="eager">
+		<div class="overlay">
+			<span class="badge">Policy &amp; Regulation</span>
+			<h1>The NEC Says Your Home Needs 200 Amps to Go All-Electric. An Algorithm Ran It on 100.</h1>
+			<div class="byline">By Catherine Chen &middot; July 28, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>The electrician stood in the garage of a single-family house in West Lafayette, Indiana, and did the math on the back of a permit application. Heat pump: 60 amps at peak, more during defrost cycles when backup resistance strips kick in. Electric water heater: 18.75 amps continuous. Plug-in hybrid EV on Level I charging: 15 amps. General loads, lighting, kitchen circuits, the dryer. Sum it up. Under the National Electrical Code, this house needs 200-amp service. It has a 100-amp panel, and the researchers from Purdue University's Center for High Performance Buildings told the electrician they wouldn't be upgrading it. They would be running software.</p>
+
+			<h2>Thirty-One Days Below Zero</h2>
+
+			<p>The <a href="https://arxiv.org/pdf/2409.04884v1" target="_blank">field study</a>, led by Kevin Kircher's team at Purdue and submitted for peer review in September 2024, is the first published demonstration of whole-home current-limiting control in an occupied residence. Over 31 winter days, outdoor temperatures dropped to -20&deg;C. Inside, the home had code-minimum insulation, an air-to-air heat pump with backup resistance heating, a resistance water heater, and a plug-in hybrid electric vehicle on Level I charging. Every major load was electric, none of them knew about each other, and an algorithm bridged the gap.</p>
+
+			<p>Two layers of control made it work. A high-level predictive controller uses scenario-based model predictive control and mixed-integer convex programming to plan device setpoints over a rolling forecast horizon. It talks to the heat pump and water heater through the manufacturers' standard communicating thermostat APIs. Below it, a low-level controller monitors real-time whole-home current and ramps devices down in stages if measurements approach unsafe limits. It also predicts the onset of heat pump defrost cycles, which trigger resistance backup strips that can spike current draw from 30 amps to 60 in seconds.</p>
+
+			<p>For 31 days, including that cold snap, the system held the house within the safe operating region of a 100-amp panel. It adjusted only thermostat setpoints, modified no hardware, disconnected no loads, and kept occupant comfort within acceptable bounds. Simulations run after the field test suggest the same 100-amp panel could accommodate a second EV with Level II charging at 11.5 kW, a load that would alone consume 48 amps.</p>
+
+			<div class="pull-stat">
+				<span class="number">23 million</span>
+				<span class="label">Estimated number of U.S. single-family homes that would need electrical panel upgrades for full electrification, according to a <a href="https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-nrel-xin-jin-affordable-electrification.pdf" target="_blank">2023 DOE report</a> extrapolating from EPRI and Pecan Street data.</span>
+			</div>
+
+			<h2>The Scale of the Barrier</h2>
+
+			<p>Roughly 21% of American homes have electrical panels rated at 100 amps or less, according to the <a href="https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-nrel-xin-jin-affordable-electrification.pdf" target="_blank">U.S. Department of Energy's Office of Energy Efficiency &amp; Renewable Energy</a>. Another 44% have two or fewer breaker slots available, and a 2023 survey of 263 residences by <a href="https://www.pecanstreet.org/" target="_blank">Pecan Street</a> in Austin, Texas, found that the year a home was built, its floor area, and whether it uses gas or electric heat are the strongest predictors of panel capacity, with gas-heated homes, the ones that stand to gain the most from electrification, tending to have the smallest panels.</p>
+
+			<p>Los Angeles tells a sharper version of the same story: according to the L.A. Department of Water &amp; Power, 46% of single-family homes in disadvantaged communities within its service territory have panels rated at 100 amps or less, and upgrading all deficient single-family residential service panels in the city for full electrification would cost $780 million to $1.8 billion. One city.</p>
+
+			<p>Nationally, the arithmetic is blunt, brutal even: at a typical upgrade cost of $2,000 to $10,000 per household for a 200-amp panel, service entrance conductors, meter box, and sometimes a utility transformer upgrade, the total runs between $46 billion and $230 billion for single-family homes alone, and multifamily units, which typically have even smaller panels at 50 to 70 amps per unit, are not included in that figure.</p>
+
+			<h2>What the Code Actually Says</h2>
+
+			<p>NEC Article 220 prescribes how to calculate the required service size for a dwelling. You add general lighting at 3 VA per square foot, two small-appliance branch circuits at 1,500 VA each, a laundry circuit, then layer on the nameplate ratings of every major appliance with demand factors from Tables 220.42 through 220.55. For a three-bedroom house with a heat pump, electric water heater, EV charger, and induction cooktop, the calculation reliably produces a number north of 150 amps and often exceeds 200.</p>
+
+			<p>One escape hatch exists: Section 220.87, "Determining Existing Loads," allows electricians to use actual metered demand data instead of theoretical calculations when adding loads to an existing service. If one year of utility billing data, or 30 days of continuous metering on the highest loaded phase, shows that 125% of the measured peak demand plus the new load stays below the panel's rated ampacity, the upgrade can be skipped. This provision has been in the Code since 1981, originally as Section 220-35, and it originated in a City of Phoenix local addendum before the NEC adopted it nationally.</p>
+
+			<p>But 220.87 was designed for a world where loads are static and additive: install a hot tub, check the meter data, confirm the panel can handle it. Algorithmically managing loads in real time so they never simultaneously exceed the threshold is fundamentally different, and no NEC provision addresses it. Nothing in Article 220 permits a homeowner or contractor to substitute software coordination for hardware capacity, and the article was written to guarantee safety when the power is on and the software is off, which is a perfectly reasonable position until you do the cost math on 23 million panel upgrades.</p>
+
+			<h2>The Commercial Reality Is Ahead of the Code</h2>
+
+			<p>SPAN, a San Francisco company backed by Leg Mason and others, sells a <a href="https://www.span.io/" target="_blank">smart electrical panel</a> that monitors real-time circuit-level power consumption and can prioritize or shed loads to stay within panel limits. It is a commercial product in production homes today. Its most recent venture, XFRA, pairs SPAN panels with whole-home batteries and liquid-cooled inference GPUs for distributed AI compute, a concept that NVIDIA has backed. That application is exotic, but the underlying technology, a panel that knows what every circuit is drawing in real time and can intervene before limits are exceeded, is exactly the hardware layer the Purdue algorithm needs.</p>
+
+			<p>The gap between what is commercially available and what the NEC permits is growing: smart thermostats with manufacturer APIs are standard equipment, communicating water heaters ship with Wi-Fi built in, and Level II EV chargers from ChargePoint, JuiceBox, and others already support demand-response curtailment via utility programs. Every piece of whole-home load orchestration exists on retail shelves, but code hasn't blessed the assembly.</p>
+
+			<h2>The Counterargument Deserves Full Weight</h2>
+
+			<p>Fires kill people.</p>
+
+			<p>That is why electrical codes exist. Circuit breakers are mechanical devices that function without electricity, without software, without an internet connection, without a firmware update, and they trip when current exceeds safe limits in milliseconds. A panel rated at 200 amps can physically handle 200 amps, every circuit at full load, simultaneously, indefinitely, within its thermal limits, regardless of whether a server at Purdue or a SPAN controller is running.</p>
+
+			<p>An algorithm introduces a single point of failure that legacy panels do not have. If the high-level controller's optimization solver crashes, if the Wi-Fi connection to the thermostat drops, if a manufacturer changes an API without notice, if the water heater's communicating board fails and reverts to its mechanical setpoint, every load can draw peak current at the same time. Kircher's team acknowledges this explicitly by including a low-level safety controller that operates on direct real-time measurements and uses rule-based logic, precisely because the high-level optimizer cannot be guaranteed to never fail. Built into the architecture is an assumption that the smart layer will eventually break, and a dumb layer needs to catch it.</p>
+
+			<p>That is careful engineering, but whether it satisfies the legal standard for life-safety code compliance is a different question, and every code official who looks at this study will reach their own answer. The NEC's code cycle runs three years, and the 2026 edition now in development includes no algorithmic load management provisions in the current draft.</p>
+
+			<h2>If You're Electrifying Now</h2>
+
+			<p>Here is what this means for a homeowner considering electrification today. If your panel is rated at 100 amps and you want a heat pump, an electric water heater, and an EV charger, the code requires a panel upgrade.</p>
+
+			<p>That is not negotiable.</p>
+
+			<p>Expect to pay $1,300 to $4,500 for the panel, breakers, and labor. If your utility needs to upgrade the service drop or transformer, add $1,000 to $5,000. If the electrician discovers aluminum wiring or a Federal Pacific panel behind the drywall, budget for a full rewire at $12,000 to $20,000.</p>
+
+			<p>NEC 220.87 may let you skip the upgrade if your metered demand data, one year of utility bills or 30 days of clamp-on ammeter logging, shows enough headroom. Ask your electrician about it, because many don't bring it up: the standard calculation is faster to run, safer to defend to the inspector, and generates a larger job. But if your measured peak demand is 60 amps on a 100-amp panel and you're adding a 240-volt water heater at 18.75 amps, the math might work.</p>
+
+			<p>The algorithmic approach, managing loads in real time so your panel never sees the theoretical maximum, is not code-compliant. It is not available as a product you can buy and point to on a permit application. It is a research result from a single occupied house over a single winter in Indiana. It is also the first field demonstration of a technology that could eliminate tens of billions of dollars in infrastructure costs and remove the single largest barrier to residential electrification for low-income households in legacy housing.</p>
+
+			<p>Code will eventually have to reckon with it. Whether 23 million homeowners will pay for hardware upgrades in the meantime is the open question.</p>
+
+			<h2>What We Don't Know</h2>
+
+			<p>The Purdue study is a single home, a single winter, and a single occupancy pattern. Scaling the algorithm to diverse building types, climates, and occupant behaviors is untested. Manufacturer thermostat APIs that the system relies on are not standardized; a different heat pump brand may not expose the same controls. No study has documented real-world failure modes of algorithmic load management, where the software crashes, loses connectivity, or encounters an edge case the optimizer didn't anticipate and the low-level controller must intervene. Thirty-one days is a proof of concept, not the multi-year reliability record a code body would require before writing it into Article 220. SPAN's smart panel is in production, but it is not marketed as a substitute for panel upgrades, and the company's product documentation does not claim NEC compliance for load management as an alternative to adequate panel sizing. That 23 million home estimate is extrapolated from regional surveys with relatively small sample sizes and no national census of residential panel capacities. It could be higher or lower.</p>
+
+		</article>
+	</div>
+</body>
+</html>
