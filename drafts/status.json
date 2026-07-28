@@ -1865,6 +1865,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 660,
+      "slug": "residential-fall-ai-gap",
+      "headline": "389 Construction Workers Fell to Their Deaths Last Year. The AI That Could Warn Them Doesn't Fit the Budget.",
+      "journalist": "Marcus Washington",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-19",
+      "completed": "2026-07-28T04:30:00-07:00",
+      "img_hash": "11aa35e6",
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 207.3,
+          "short_pct": 9.1,
+          "long_pct": 48.9,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
