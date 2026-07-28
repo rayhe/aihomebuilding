@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "ai-land-acquisition-spreadsheet-gap",
-    "number": 664,
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-07-28T12:04:00-07:00",
-    "headline_wip": "D.R. Horton Deployed AI Across 30 States to Buy Land. Your Builder Is Still Using Spreadsheets."
-  },
+  "current": null,
   "last_completed": 564,
   "ship_ready": [
     {
@@ -2045,6 +2038,49 @@
         "construction_expert": 8.5
       },
       "critique_notes": "Round 1: Avg 8.79. Voice coach 8.0 (rhythm variance 168 vs 200 target). All other gates pass, all other critics 8.5+. Need rhythm fix or accept close pass."
+    },
+    {
+      "number": 664,
+      "slug": "ai-land-acquisition-spreadsheet-gap",
+      "headline": "D.R. Horton Deployed AI Across 30 States to Buy Land. Your Builder Is Still Using Spreadsheets.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "ship_after": "2026-10-23",
+      "completed": "2026-07-28T14:05:00-07:00",
+      "img_hash": "1dcff7e0",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 411.6,
+          "short_pct": 8.8,
+          "long_pct": 57.5,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
