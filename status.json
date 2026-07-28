@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 569,
+  "last_completed": 664,
   "ship_ready": [
     {
       "number": 548,
@@ -123,6 +123,12 @@
       "journalist": "Elena Vasquez",
       "phase": "SHIP_READY",
       "ship_after": "2026-10-19"
+    },
+    {
+      "number": 664,
+      "slug": "ai-land-acquisition-spreadsheet-gap",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-10-20"
     }
   ]
 }
