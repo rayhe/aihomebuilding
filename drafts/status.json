@@ -1,17 +1,17 @@
 {
   "current": {
-    "number": 655,
-    "slug": "new-home-iaq-formaldehyde-testing-gap",
-    "headline": "Your Builder Tested How Tight Your Home Is. Nobody Tested What It Traps Inside.",
-    "journalist": "Priya Greenwood",
+    "number": 656,
+    "slug": "ai-battery-sizing-calculator-residential-backup-gap",
+    "headline": "The Online Calculator Said One Battery Would Cover Your House. The Outage Proved It Wrong in Six Hours.",
+    "journalist": "Jake Kowalski",
     "phase": "SHIP",
     "rounds": 1,
-    "started": "2026-07-27T21:13:18-07:00",
-    "ship_after": "2026-10-16",
-    "critique_score": 8.93,
+    "started": "2026-07-28T01:22:28-07:00",
+    "ship_after": "2026-10-17",
+    "critique_score": 8.86,
     "critique_scores": {
       "general_editor": 9.0,
-      "voice_coach": 9.0,
+      "voice_coach": 8.5,
       "ethics_reviewer": 9.0,
       "social_shareability": 9.0,
       "legal_accuracy": 9.0,
@@ -20,12 +20,12 @@
     },
     "hard_gates": {
       "em_dash": {
-        "count": 1,
+        "count": 0,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 0.0,
+        "pct": 6.7,
         "limit": 15.0,
         "passed": true
       },
@@ -34,14 +34,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 398.9,
-        "short_pct": 3.6,
-        "long_pct": 76.8,
+        "variance": 222.5,
+        "short_pct": 13.0,
+        "long_pct": 43.5,
         "passed": true
       }
     },
-    "img_hash": "a39f5324",
-    "completed": "2026-07-27T21:13:18-07:00"
+    "img_hash": "10a5b80a",
+    "completed": "2026-07-28T01:22:28-07:00"
   },
   "last_completed": 560,
   "ship_ready": [
@@ -1687,6 +1687,49 @@
           "variance": 71.5,
           "short_pct": 36.7,
           "long_pct": 12.5,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 655,
+      "slug": "new-home-iaq-formaldehyde-testing-gap",
+      "headline": "Your Builder Tested How Tight Your Home Is. Nobody Tested What It Traps Inside.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.93,
+      "ship_after": "2026-10-16",
+      "completed": "2026-07-27T21:13:18-07:00",
+      "img_hash": "a39f5324",
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 398.9,
+          "short_pct": 3.6,
+          "long_pct": 76.8,
           "passed": true
         }
       },
