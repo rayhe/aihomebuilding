@@ -2503,6 +2503,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 675,
+      "slug": "ai-punch-list-closeout-bottleneck",
+      "headline": "Your Builder Spent Three Hours Turning a Walkthrough Into Emails. The AI Did It During the Drive Back.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-03",
+      "completed": "2026-07-29T19:24:53.792527+00:00",
+      "img_hash": "a4a5be81",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 241.7,
+          "short_pct": 10.2,
+          "long_pct": 43.2,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
