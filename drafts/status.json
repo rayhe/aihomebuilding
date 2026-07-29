@@ -2460,6 +2460,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 674,
+      "slug": "ai-change-order-prediction-residential-builder-gap",
+      "headline": "Your Builder Lost $2,847 on the Last Job in Changes He Never Billed. The AI That Could Have Caught It Costs More Than His Truck.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-02",
+      "completed": "2026-07-29T17:18:53.785726+00:00",
+      "img_hash": "720fe993",
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 225.5,
+          "short_pct": 11.0,
+          "long_pct": 46.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
