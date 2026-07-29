@@ -2331,6 +2331,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 671,
+      "slug": "ai-home-inspection-report-detection-gap",
+      "headline": "Your Home Inspector Used AI. It Wrote the Report in Half the Time. It Never Opened the Crawl Space.",
+      "journalist": "Elena Vasquez",
+      "critique_score": 8.86,
+      "ship_after": "2026-10-30",
+      "completed": "2026-07-29T11:09:54.178371+00:00",
+      "img_hash": "ebc68b34",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 80.0,
+          "short_pct": 33.7,
+          "long_pct": 15.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
