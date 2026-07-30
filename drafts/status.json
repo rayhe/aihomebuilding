@@ -1,5 +1,47 @@
 {
-  "current": null,
+  "current": {
+    "slug": "canadian-plywood-tariff-osb-swap-code-gap",
+    "number": 687,
+    "phase": "SHIP",
+    "journalist": "Catherine Chen",
+    "started": "2026-07-30T12:02:00-07:00",
+    "headline_wip": "Canadian Plywood Just Got a 50% Tariff. Your Builder Has 19 Days to Re-Spec 60 Sheets. No Software Knows Which Ones He Can Swap.",
+    "headline": "Canadian Plywood Just Got a 50% Tariff. Your Builder Has 19 Days to Re-Spec 60 Sheets. No Software Knows Which Ones He Can Swap.",
+    "critique_score": 8.86,
+    "rounds": 1,
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 7.4,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 455.7,
+        "short_pct": 9.7,
+        "long_pct": 72.6,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "img_hash": "cb1ac025"
+  },
   "last_completed": 566,
   "ship_ready": [
     {
