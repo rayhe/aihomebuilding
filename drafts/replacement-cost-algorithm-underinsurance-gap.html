@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>The Algorithm That Estimates Your Home&rsquo;s Rebuild Cost Was Wrong About the Foundation Half the Time. Your Insurer Knew. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/replacement-cost-algorithm-underinsurance-gap.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "The Algorithm That Estimates Your Home's Rebuild Cost Was Wrong About the Foundation Half the Time. Your Insurer Knew.",
+		"description": "Verisk's 360Value replacement cost estimator got foundation shape wrong 50% of the time. Insurers kept using it. Now most American homeowners cover only 70% of what a rebuild would cost, and LA fire survivors face an average $660,000 gap.",
+		"image": "https://aihomebuilding.com/images/replacement-cost-algorithm-underinsurance-gap.jpg?v=b07fc737",
+		"datePublished": "2026-07-30",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/replacement-cost-algorithm-underinsurance-gap.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="The Algorithm That Estimates Your Home's Rebuild Cost Was Wrong About the Foundation Half the Time. Your Insurer Knew.">
+	<meta property="og:description" content="Verisk's 360Value replacement cost estimator got foundation shape wrong 50% of the time. Insurers kept using it. Now most US homeowners cover only 70% of what a rebuild would cost.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/replacement-cost-algorithm-underinsurance-gap.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/replacement-cost-algorithm-underinsurance-gap.jpg?v=b07fc737">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="The Algorithm That Estimates Your Home's Rebuild Cost Was Wrong About the Foundation Half the Time. Your Insurer Knew.">
+	<meta name="twitter:description" content="Verisk's 360Value replacement cost estimator got foundation shape wrong 50% of the time. Insurers kept using it. Now most US homeowners cover only 70% of what a rebuild would cost.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/replacement-cost-algorithm-underinsurance-gap.jpg?v=b07fc737">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/replacement-cost-algorithm-underinsurance-gap.jpg?v=b07fc737" alt="A charred concrete foundation slab surrounded by debris, a clipboard with a printed cost estimate visible in the foreground, warm light catching ash particles in the air" loading="eager">
+		<div class="overlay">
+			<span class="badge">Policy &amp; Regulation</span>
+			<h1>The Algorithm That Estimates Your Home&rsquo;s Rebuild Cost Was Wrong About the Foundation Half the Time. Your Insurer Knew.</h1>
+			<div class="byline">By Catherine Chen &middot; July 30, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>An insurance agent in Woodland Hills pulls up a software tool called <a href="https://www.verisk.com/insurance/products/replacement-cost/" target="_blank">360Value</a>, types in an address, and clicks generate. Ninety seconds later the screen displays a replacement cost estimate for a four-bedroom house in Pacific Palisades. That number matters. This number will set Coverage A on the homeowner's policy. It will determine what happens to a family if fire turns everything they own into foundation rubble and melted appliances.</p>
+
+			<p>A 2019 internal report from <a href="https://uphelp.org/a-broken-system-is-keeping-california-homes-underinsured-millions-have-no-idea-theyre-at-risk/" target="_blank">Verisk, 360Value's manufacturer</a>, found that the tool's prefilled data for foundation shape was wrong 50% of the time. Verisk acknowledged the tool was not consistently accurate. It performed worse on high-value homes, the exact category that dominates fire-prone California hillsides. Farmers Insurance learned from its own depositions that agents rarely corrected these errors. Rather than fix the inputs or switch products, Farmers increased its reliance on 360Value. The errors stayed.</p>
+
+			<p>Thirteen months later, 11,500 families in Los Angeles learned what a wrong number looks like from the inside of a FEMA trailer.</p>
+
+			<h2>How a Replacement Cost Estimate Becomes a Coverage Limit</h2>
+
+			<p>360Value and its main competitor, <a href="https://www.moneygeek.com/insurance/homeowners/underinsurance/" target="_blank">CoreLogic's Marshall &amp; Swift</a>, work by decomposing a house into components: square footage of flooring, gallons of paint, count of doors, roof type, exterior finish, foundation shape. Each component gets multiplied by a cost-per-unit figure drawn from construction cost databases, and the sum becomes your replacement cost, the number on which your entire financial recovery depends.</p>
+
+			<p>Simple enough in theory, except the input data flows from county assessor records that can lag renovations by years and contain miscoded fields, and when data is missing the algorithm fills the gap with an educated guess that nobody verifies. Foundation shape alone, whether slab, crawlspace, or full basement, changes rebuild cost by tens of thousands of dollars, and the software got it right barely more often than a coin flip. Agents see prefilled fields and rarely override them because checking means driving to the property, and nobody's paying for that visit.</p>
+
+			<div class="pull-stat">
+				<span class="number">70%</span>
+				<span class="label">Average coverage ratio for US homeowners. Most carry dwelling limits that would cover roughly 70 cents of every dollar needed to rebuild after a total loss. <a href="https://www.moneygeek.com/insurance/homeowners/underinsurance/" target="_blank">Source: MoneyGeek/CoreLogic analysis</a></span>
+			</div>
+
+			<p>In 2007, Marshall &amp; Swift/Boeckh, the company that at that time manufactured the <em>industry standard</em> estimator, <a href="https://uphelp.org/wp-content/uploads/2020/11/pg_34-111_-_minding_the_protection_gap_0.pdf" target="_blank">published its own study</a> concluding that roughly 60% of American homeowners were underinsured by 20 to 25%, not after a fire, not in a disaster zone, but across the entire national housing stock in normal times using their own tool.</p>
+
+			<p>Nobody recalled the product.</p>
+
+			<h2>$660,000 Between the Estimate and Reality</h2>
+
+			<p>After the January 2025 Palisades and Eaton fires destroyed approximately 13,000 residential structures, the California Community Foundation surveyed <a href="https://www.calfund.org/news-and-events/housing-support-running-out-for-la-fire-survivors-as-rebuilding-costs-soar-new-survey-finds/" target="_blank">more than 2,000 fire survivors</a> across every impacted community. Homeowners estimated they would need $660,000 on average above what insurance was expected to provide, with a median gap of $500,000. For total losses, the average climbed to $850,000.</p>
+
+			<p>Survivors insured through the California FAIR Plan, the insurer of last resort covering roughly 40% of homes in high-fire zones, estimated needing over $1.35 million to rebuild. That figure exceeded the average gap for any other carrier by more than $500,000. Think about that number.</p>
+
+			<p>Nearly half of all survivors depleted significant savings, and more than four in ten took on new debt, with a median debt load exceeding $100,000 and one in three total-loss survivors borrowing $250,000 or more. As of mid-2026, fewer than <a href="https://www.burnsandwilcox.com/insights/la-wildfire-losses-changing-how-high-value-homes-are-built-bought-and-insured/" target="_blank">a dozen homes have been rebuilt</a>, according to Associated Press reporting.</p>
+
+			<p>Amy Bach, co-founder of <a href="https://www.bankrate.com/insurance/homeowners-insurance/replacement-cost-reality-check-when-home-insurance-falls-short/" target="_blank">United Policyholders</a>, has documented cases where homes insured at $400 per square foot faced actual rebuild costs near $850 per square foot. "And that's on the low end of the gaps people have."</p>
+
+			<div class="pull-stat">
+				<span class="number">25%</span>
+				<span class="label">Reduction in rebuild permits filed within one year, attributable to underinsurance alone. Every 10-percentage-point increase in underinsurance reduced permit filing by 4 points. <a href="https://www.moneygeek.com/insurance/homeowners/underinsurance/" target="_blank">Source: Philadelphia Fed, Marshall Fire analysis</a></span>
+			</div>
+
+			<h2>Downstream: Who Doesn't Rebuild</h2>
+
+			<p>A Philadelphia Federal Reserve <a href="https://www.moneygeek.com/insurance/homeowners/underinsurance/" target="_blank">analysis of the 2021 Marshall Fire</a> in Colorado tracked what happened after 74% of affected homeowners turned out to be underinsured. Each 10-percentage-point increase in the underinsurance ratio correlated with a four-point drop in the share of homeowners filing rebuild permits within a year. Overall, underinsurance reduced rebuild permits by 25% and accounted for more than half of all destroyed-home property sales within 18 months, a data point that suggests the algorithm's error rate has consequences compounding across entire communities and persisting for years beyond the initial loss event.</p>
+
+			<p>When a family sells a destroyed lot instead of rebuilding, underinsurance didn't just shrink a claim payment; it ended homeownership entirely. Community composition changes, schools lose enrollment, and tax bases erode in ways that municipal budgets can measure for a decade, all downstream of a number that a software tool computed from stale assessor data in under two minutes.</p>
+
+			<h2>An Honest Look at the Other Side</h2>
+
+			<p>Insurers counter that replacement cost estimates are tools, not guarantees, and they have a point. Agents review the output before binding a policy. Inflation guard endorsements adjust Coverage A by 2 to 4% annually, and extended replacement cost endorsements can add 25 to 50% above the dwelling limit for catastrophe scenarios. Homeowners can request higher limits at any time. If they choose lower premiums instead, that's a consumer decision, not an insurer scheme. Blaming software lets everyone off the hook.</p>
+
+			<p>Fair points, every one. But the Alameda County District Attorney's office found them insufficient. DA Pamela Price <a href="https://www.carriermanagement.com/news/2024/06/17/263316.htm" target="_blank">sued multiple carriers</a> including Farmers Insurance Exchange in June 2024, alleging they knowingly provided inaccurately low replacement cost estimates by relying on software that "considers little information about a specific home" and generates "an estimate to rebuild a hypothetical home, not the actual home for which consumers are purchasing coverage." California's <a href="https://boe.ca.gov/meetings/pdf/2025/202506-MI-IH-Wildfire.pdf" target="_blank">Board of Equalization testimony</a> in June 2025 described estimates that are "algorithmically derived and can rely on outdated or incomplete data," a situation "masked from the view of agents" themselves. Agents flying blind.</p>
+
+			<p>When the tool manufacturer's own study says 60% of homeowners are underinsured, and the insurer's own depositions show agents don't verify inputs, invoking consumer choice requires ignoring both data points entirely.</p>
+
+			<h2>What a Homeowner Can Do Right Now</h2>
+
+			<p>Pull your declarations page and find your Coverage A dwelling limit. Multiply your home's square footage by local per-square-foot rebuild costs; your agent can run this through CoreLogic's Marshall &amp; Swift database, or you can use contractor estimates for your zip code. Divide Coverage A by that result to get your coverage ratio. Below 1.0 means a total loss leaves a shortfall, and below 0.8 triggers the coinsurance penalty on partial losses, reducing payouts proportionally even for covered events like a kitchen fire.</p>
+
+			<p>If your insurer used 360Value or a similar estimator, ask for the underlying data: foundation type, exterior finish, roof material, quality grade, and compare each field to your actual house. If the algorithm defaulted "crawlspace" when you have a full basement, or "standard" when your kitchen has custom cabinetry, the estimate was wrong before any cost index touched it.</p>
+
+			<p>In fire-prone and disaster-prone regions, factor in demand surge, because after a regional catastrophe rebuild costs can spike 30 to 50% above normal as contractors and materials become scarce across hundreds of simultaneous projects. Extended replacement cost endorsements exist for exactly this scenario, and guaranteed replacement cost policies, increasingly rare but still available through some carriers, eliminate the cap entirely.</p>
+
+			<h2>Limitations of This Analysis</h2>
+
+			<p>Verisk's 50% foundation shape error rate comes from a 2019 internal report. Current accuracy may have improved, though no public audit exists to confirm it. CalFund survey data is self-reported, with respondents estimating their own rebuild gaps rather than submitting independently verified costs. United Policyholders' $400 vs. $850 per-square-foot comparison reflects post-disaster demand surge pricing, not normal market conditions. And this analysis focuses on California, where regulatory history, fire exposure, and home values create an extreme case. Underinsurance patterns differ in other states, though Marshall &amp; Swift's own 2007 national study suggests the structural problem extends everywhere.</p>
+
+		</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>
