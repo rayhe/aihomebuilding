@@ -2925,6 +2925,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 685,
+      "slug": "ai-paint-color-algorithmic-convergence",
+      "headline": "40% of Homeowners Can't Pick a Paint Color. The AI That Picks for Them Chose the Same One for Everyone.",
+      "journalist": "Elena Vasquez",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-13",
+      "completed": "2026-07-30T15:20:45.284-07:00",
+      "img_hash": "dd828001",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 244.2,
+          "short_pct": 5.1,
+          "long_pct": 59.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
