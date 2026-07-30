@@ -2839,6 +2839,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 683,
+      "slug": "ai-lumber-grading-sawmill-jobsite-gap",
+      "headline": "A Sawmill Scanner Grades Your Lumber 31% Better Than the Human It Replaced. Your Builder Still Checks It by Eye.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-11",
+      "completed": "2026-07-30T04:14:00.316970-07:00",
+      "img_hash": "9b82b880",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 281.4,
+          "short_pct": 14.1,
+          "long_pct": 60.3,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
