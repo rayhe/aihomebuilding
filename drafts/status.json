@@ -2632,6 +2632,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 678,
+      "slug": "ai-construction-waste-sorting-residential-scale-gap",
+      "headline": "Your New Home Sent Four Tons to the Landfill. A Camera That Catches Contamination Needs Forty Houses to Break Even.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-06",
+      "completed": "2026-07-30T01:17:03.528131+00:00",
+      "img_hash": "84125ef9",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 356.2,
+          "short_pct": 0.0,
+          "long_pct": 82.1,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
