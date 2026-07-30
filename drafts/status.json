@@ -2675,6 +2675,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 679,
+      "slug": "shm-residential-foundation-monitoring-gap",
+      "headline": "A $4 Billion Industry Watches Every Bridge in the Country for Cracks. Your Foundation Gets a Guy With a Flashlight.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-07",
+      "completed": "2026-07-30T03:14:59.563955+00:00",
+      "img_hash": "2931514b",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 212.8,
+          "short_pct": 9.6,
+          "long_pct": 56.2,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
