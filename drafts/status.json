@@ -3054,6 +3054,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 688,
+      "slug": "ai-hallucination-construction-spec-liability-gap",
+      "headline": "Your Builder Used AI to Write the Material Spec. The Product It Specified Doesn't Exist.",
+      "journalist": "Catherine Chen",
+      "critique_score": 8.0,
+      "ship_after": "2026-11-16",
+      "completed": "2026-07-30T21:33:08.066529",
+      "img_hash": "84125ef9",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 788.0,
+          "short_pct": 11.9,
+          "long_pct": 57.1,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 8.0,
+        "voice_coach": 8.0,
+        "ethics_reviewer": 7.0,
+        "social_shareability": 8.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 7.0,
+        "construction_expert": 8.0
+      },
+      "phase": "SHIP",
+      "rounds": 3
     }
   ]
 }
