@@ -2968,6 +2968,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 686,
+      "slug": "data-center-electrician-drain-residential-housing",
+      "headline": "Your Electrician Lost Five Workers to a Data Center. He's Hiring Teenagers. Your House Takes Two More Months.",
+      "journalist": "Marcus Washington",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-14",
+      "completed": "2026-07-30T17:20:32.113138+00:00",
+      "img_hash": "37a7e832",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 208.9,
+          "short_pct": 14.1,
+          "long_pct": 39.1,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
