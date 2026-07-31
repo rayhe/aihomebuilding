@@ -1,6 +1,13 @@
 {
-  "current": null,
-  "last_completed": 567,
+  "current": {
+    "number": 691,
+    "slug": "ai-contractor-adoption-gap-supply-chain",
+    "journalist": "Frank DeLuca",
+    "phase": "SHIP",
+    "round": 3,
+    "started": "2026-07-30T20:02:00-07:00"
+  },
+  "last_completed": 691,
   "ship_ready": [
     {
       "number": 567,
@@ -3183,6 +3190,23 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 691,
+      "slug": "ai-contractor-adoption-gap-supply-chain",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-31",
+      "scores": {
+        "factual_accuracy": 7,
+        "voice_authenticity": 8,
+        "reader_utility": 7,
+        "original_contribution": 7,
+        "structure_flow": 7,
+        "intellectual_honesty": 7,
+        "prose_craft": 7,
+        "average": 7.1,
+        "critique_rounds": 3
+      }
     }
   ]
 }
