@@ -1,5 +1,43 @@
 {
-  "current": null,
+  "current": {
+    "number": 692,
+    "slug": "pattern-book-ai-generation-gap",
+    "journalist": "Elena Vasquez",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-31T00:01:00-07:00",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 8.4,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 181.0,
+        "short_pct": 30.5,
+        "long_pct": 24.2,
+        "passed": true
+      }
+    }
+  },
   "last_completed": 691,
   "ship_ready": [
     {
@@ -3222,6 +3260,49 @@
         }
       },
       "headline": "38% of Contractors Report AI Is Working. The Other 62% Are Still Logging Into 15 Different Systems."
+    },
+    {
+      "number": 692,
+      "slug": "pattern-book-ai-generation-gap",
+      "headline": "Congress Just Funded Pattern Books to Speed Up Home Construction. Every Program Has 13 Plans or Fewer.",
+      "journalist": "Elena Vasquez",
+      "critique_score": 8.86,
+      "ship_after": "2026-08-01",
+      "completed": "2026-07-31T07:15:46.341527",
+      "img_hash": "8fb9473a",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 181.0,
+          "short_pct": 30.5,
+          "long_pct": 24.2,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ]
 }
