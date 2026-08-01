@@ -1,45 +1,6 @@
 {
-  "current": {
-    "number": 692,
-    "slug": "pattern-book-ai-generation-gap",
-    "journalist": "Elena Vasquez",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-31T00:01:00-07:00",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 8.4,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 181.0,
-        "short_pct": 30.5,
-        "long_pct": 24.2,
-        "passed": true
-      }
-    },
-    "published_at": "2026-08-01T03:02:00Z"
-  },
-  "last_completed": 691,
+  "current": null,
+  "last_completed": 692,
   "ship_ready": [
     {
       "number": 568,
