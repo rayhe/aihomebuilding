@@ -1,5 +1,39 @@
 {
-  "current": null,
+  "current": {
+    "slug": "dr-horton-dirty-dozen-ai-safety-gap",
+    "phase": "SHIP",
+    "journalist": "Marcus Washington",
+    "started": "2026-08-01T07:07:56-07:00",
+    "round": 1,
+    "img_hash": "7a5443b8",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 9.6,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "headline": "The Nation's Largest Homebuilder Just Made the Safety Dirty Dozen. Its AI Budget Went to Marketing.",
+    "critique_score": 8.79
+  },
   "last_completed": 693,
   "ship_ready": [
     {
