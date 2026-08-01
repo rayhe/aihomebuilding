@@ -1,47 +1,5 @@
 {
-  "current": {
-    "number": 698,
-    "slug": "construction-ai-vaporware-build-vs-buy-gap",
-    "headline": "Half of Builders Say They Use AI. Fewer Than 5% Use It to Build Anything.",
-    "journalist": "Jake Kowalski",
-    "critique_score": 8.86,
-    "ship_after": "2026-08-13",
-    "completed": "2026-08-01T17:02:00.000000Z",
-    "img_hash": "e5036119",
-    "hard_gates": {
-      "em_dash": {
-        "count": 2,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 383.1,
-        "short_pct": 13.8,
-        "long_pct": 63.7,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "phase": "SHIP",
-    "rounds": 1
-  },
+  "current": null,
   "last_completed": 694,
   "ship_ready": [
     {
@@ -3205,45 +3163,6 @@
       "rounds": 1
     },
     {
-      "number": 691,
-      "slug": "ai-contractor-adoption-gap-supply-chain",
-      "journalist": "Frank DeLuca",
-      "ship_after": "2026-07-31",
-      "critique_score": 8.86,
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 10.7,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 201.6,
-          "short_pct": 12.2,
-          "long_pct": 54.9,
-          "passed": true
-        }
-      },
-      "headline": "38% of Contractors Report AI Is Working. The Other 62% Are Still Logging Into 15 Different Systems."
-    },
-    {
       "number": 692,
       "slug": "pattern-book-ai-generation-gap",
       "headline": "Congress Just Funded Pattern Books to Speed Up Home Construction. Every Program Has 13 Plans or Fewer.",
@@ -3457,9 +3376,93 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 698,
+      "slug": "construction-ai-vaporware-build-vs-buy-gap",
+      "headline": "Half of Builders Say They Use AI. Fewer Than 5% Use It to Build Anything.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.86,
+      "ship_after": "2026-08-13",
+      "completed": "2026-08-01T17:02:00.000000Z",
+      "img_hash": "e5036119",
+      "hard_gates": {
+        "em_dash": {
+          "count": 2,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 383.1,
+          "short_pct": 13.8,
+          "long_pct": 63.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ],
   "completed_history": [
+    {
+      "number": 691,
+      "slug": "ai-contractor-adoption-gap-supply-chain",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2026-07-31",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.6,
+          "short_pct": 12.2,
+          "long_pct": 54.9,
+          "passed": true
+        }
+      },
+      "headline": "38% of Contractors Report AI Is Working. The Other 62% Are Still Logging Into 15 Different Systems.",
+      "completed": "2026-08-01T21:06:18.675734+00:00",
+      "phase": "PUBLISHED"
+    },
     {
       "number": 694,
       "slug": "dr-horton-dirty-dozen-ai-safety-gap",
