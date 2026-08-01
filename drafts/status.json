@@ -1,5 +1,45 @@
 {
-  "current": null,
+  "current": {
+    "number": 693,
+    "slug": "builder-confidence-ai-spending-paradox",
+    "journalist": "Jake Kowalski",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-31T20:10:00-07:00",
+    "headline": "Builder Confidence Has Been Below 40 for 15 Months. Their AI Budget Was the First Thing Cut.",
+    "img_hash": "eedfd19e",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 1.4,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 723.7,
+        "short_pct": 14.3,
+        "long_pct": 65.3,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    }
+  },
   "last_completed": 692,
   "ship_ready": [
     {
@@ -3248,6 +3288,49 @@
         "voice_coach": 9.0,
         "ethics_reviewer": 9.0,
         "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 693,
+      "slug": "builder-confidence-ai-spending-paradox",
+      "headline": "Builder Confidence Has Been Below 40 for 15 Months. Their AI Budget Was the First Thing Cut.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.86,
+      "ship_after": "2026-08-02",
+      "completed": "2026-08-01T03:20:00Z",
+      "img_hash": "eedfd19e",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 723.7,
+          "short_pct": 14.3,
+          "long_pct": 65.3,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
         "legal_accuracy": 9.0,
         "research_rigor": 9.0,
         "construction_expert": 8.5
