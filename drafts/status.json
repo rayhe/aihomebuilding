@@ -3372,6 +3372,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 697,
+      "slug": "ai-construction-draw-funding-speed-gap",
+      "headline": "Your Builder Waited Seven Days for a $60,000 Draw. The AI That Would Have Released It in Three Minutes Exists. Your Lender Doesn't Use It.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-20",
+      "completed": "2026-08-01T15:28:30.236516Z",
+      "img_hash": "41a3d0e5",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 614.8,
+          "short_pct": 3.3,
+          "long_pct": 59.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ],
   "completed_history": [
