@@ -1,5 +1,47 @@
 {
-  "current": null,
+  "current": {
+    "number": 698,
+    "slug": "construction-ai-vaporware-build-vs-buy-gap",
+    "headline": "Half of Builders Say They Use AI. Fewer Than 5% Use It to Build Anything.",
+    "journalist": "Jake Kowalski",
+    "critique_score": 8.86,
+    "ship_after": "2026-08-13",
+    "completed": "2026-08-01T17:02:00.000000Z",
+    "img_hash": "e5036119",
+    "hard_gates": {
+      "em_dash": {
+        "count": 2,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 383.1,
+        "short_pct": 13.8,
+        "long_pct": 63.7,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "phase": "SHIP",
+    "rounds": 1
+  },
   "last_completed": 694,
   "ship_ready": [
     {
