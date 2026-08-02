@@ -3556,6 +3556,15 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 695,
+      "slug": "engineered-stone-silicosis-ai-dust-monitoring-gap",
+      "headline": "Litigation Over Your Countertop Just Hit $200 Million. The Sensor That Would Have Prevented It Costs $150.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "ship_after": "2026-08-03",
+      "completed": "2026-08-02T09:15:34.620722+00:00"
     }
   ],
   "completed_history": [
@@ -3636,6 +3645,49 @@
       "phase": "PUBLISHED",
       "rounds": 1,
       "published_at": "2026-08-02T09:03:50.011583+00:00"
+    },
+    {
+      "number": 695,
+      "slug": "engineered-stone-silicosis-ai-dust-monitoring-gap",
+      "headline": "Litigation Over Your Countertop Just Hit $200 Million. The Sensor That Would Have Prevented It Costs $150.",
+      "journalist": "Catherine Chen",
+      "critique_score": 9.0,
+      "completed": "2026-08-02T09:15:34.620689+00:00",
+      "img_hash": "9b90ff23",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 398.7,
+          "short_pct": 14.3,
+          "long_pct": 49.4,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "ship_after": "2026-08-03",
+      "rounds": 1
     }
   ]
 }
