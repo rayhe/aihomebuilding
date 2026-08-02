@@ -3513,6 +3513,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 696,
+      "slug": "ai-wildfire-risk-score-homeowner-transparency-gap",
+      "headline": "The AI That Decides Whether You Can Insure Your Home Won't Tell You the Score. One State Just Changed That.",
+      "journalist": "Catherine Chen",
+      "critique_score": 8.86,
+      "ship_after": "2026-08-03",
+      "completed": "2026-08-02T07:14:15.845429",
+      "img_hash": "a86f7cc2",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.0,
+          "short_pct": 11.4,
+          "long_pct": 44.3,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ],
   "completed_history": [
