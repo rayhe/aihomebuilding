@@ -1,48 +1,6 @@
 {
-  "current": {
-    "slug": "heat-pump-water-heater-sizing-ai-gap",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "number": 696,
-    "headline": "The DOE Says Your Next Water Heater Has to Be a Heat Pump. Nobody Built the Tool to Size It Right.",
-    "started": "2026-08-02T11:22:58.724627+00:00",
-    "critique_score": 8.86,
-    "img_hash": "1b44f110",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 8.8,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 201.7,
-        "short_pct": 11.8,
-        "long_pct": 42.2,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 8.5,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "rounds": 1,
-    "ship_after": "2026-08-03"
-  },
-  "last_completed": 695,
+  "current": null,
+  "last_completed": 696,
   "ship_ready": [
     {
       "number": 570,
@@ -3602,6 +3560,50 @@
       "critique_score": 9.0,
       "ship_after": "2026-08-03",
       "completed": "2026-08-02T09:15:34.620722+00:00"
+    },
+    {
+      "slug": "heat-pump-water-heater-sizing-ai-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Jake Kowalski",
+      "number": 696,
+      "headline": "The DOE Says Your Next Water Heater Has to Be a Heat Pump. Nobody Built the Tool to Size It Right.",
+      "started": "2026-08-02T11:22:58.724627+00:00",
+      "critique_score": 8.86,
+      "img_hash": "1b44f110",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.7,
+          "short_pct": 11.8,
+          "long_pct": 42.2,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-03",
+      "published_at": "2026-08-03T07:04:04.894550+00:00"
     }
   ],
   "completed_history": [
