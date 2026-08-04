@@ -3799,6 +3799,49 @@
       "rounds": 1,
       "ship_after": "2026-08-05",
       "completed": "2026-08-04T13:27:16.892238+00:00"
+    },
+    {
+      "number": 703,
+      "slug": "heat-wearable-residential-adoption-gap",
+      "headline": "A $125 Sensor Eliminated Heat Illness at a 98-Person Texas GC. The Three-Man Crew Roofing Your House Has Never Seen One.",
+      "journalist": "Marcus Washington",
+      "critique_score": 8.86,
+      "completed": "2026-08-04T15:11:34.313360+00:00",
+      "img_hash": "17a1fef1",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 351.2,
+          "short_pct": 14.9,
+          "long_pct": 51.8,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "ship_after": "2026-08-16",
+      "rounds": 1
     }
   ],
   "completed_history": [
