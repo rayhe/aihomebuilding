@@ -1,13 +1,6 @@
 {
-  "current": {
-    "slug": "wildfire-ai-home-vulnerability-prediction-gap",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "number": 698,
-    "headline": "A Model Can Tell You Whether Your House Will Survive a Wildfire. Your Insurance Company Can't.",
-    "started": "2026-08-04T02:55:46.075748+00:00"
-  },
-  "last_completed": 697,
+  "current": null,
+  "last_completed": 695,
   "ship_ready": [
     {
       "number": 573,
@@ -3272,8 +3265,9 @@
         "research_rigor": 9.0,
         "construction_expert": 8.5
       },
-      "phase": "SHIP",
-      "rounds": 1
+      "phase": "PUBLISHED",
+      "rounds": 1,
+      "published_at": "2026-08-04T03:41:04.663186+00:00"
     },
     {
       "number": 696,
@@ -3586,6 +3580,49 @@
       "rounds": 1,
       "ship_after": "2026-08-03",
       "published_at": "2026-08-03T07:04:04.894550+00:00"
+    },
+    {
+      "number": 698,
+      "slug": "wildfire-ai-home-vulnerability-prediction-gap",
+      "headline": "A Model Can Tell You Whether Your House Will Survive a Wildfire. Your Insurance Company Can't.",
+      "journalist": "Priya Greenwood",
+      "critique_score": 8.86,
+      "ship_after": "2026-11-23",
+      "completed": "2026-08-04T03:39:25.792087",
+      "img_hash": "cb95d5cf",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 352.6,
+          "short_pct": 13.3,
+          "long_pct": 57.8,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ],
   "completed_history": [
