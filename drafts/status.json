@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 697,
+  "last_completed": 698,
   "ship_ready": [
     {
       "number": 573,
@@ -3712,6 +3712,49 @@
       "phase": "SHIP",
       "ship_after": "2026-08-05",
       "rounds": 1
+    },
+    {
+      "slug": "a2l-refrigerant-hvac-contractor-training-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Jake Kowalski",
+      "started": "2026-08-04T04:01:52-07:00",
+      "headline": "Every New Air Conditioner Sold in 2026 Uses Flammable Refrigerant. The Training to Install It Safely Is Optional.",
+      "number": 698,
+      "critique_score": 8.86,
+      "img_hash": "27168a66",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 480.5,
+          "short_pct": 11.6,
+          "long_pct": 72.5,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "published_at": "2026-08-04T11:21:53.662098+00:00"
     }
   ],
   "completed_history": [
