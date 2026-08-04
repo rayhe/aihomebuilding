@@ -3842,6 +3842,49 @@
       "phase": "SHIP",
       "ship_after": "2026-08-16",
       "rounds": 1
+    },
+    {
+      "number": 704,
+      "slug": "ai-autonomous-grading-residential-lot-gap",
+      "headline": "The Excavator That Grades to a Centimeter Just Debuted at ConExpo. It Won't Fit on Your Lot.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.79,
+      "completed": "2026-08-04T17:16:48.838327+00:00",
+      "img_hash": "a90fdf1c",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 490.2,
+          "short_pct": 14.0,
+          "long_pct": 56.1,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "phase": "SHIP",
+      "ship_after": "2026-08-17",
+      "rounds": 1
     }
   ],
   "completed_history": [
