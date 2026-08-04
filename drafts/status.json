@@ -1,5 +1,48 @@
 {
-  "current": null,
+  "current": {
+    "number": 706,
+    "slug": "autonomous-earthmoving-residential-lot-gap",
+    "headline": "An Autonomous Excavator Saved $74,000 Digging a Pipeline in Argentina. It Won't Dig Your Foundation.",
+    "journalist": "Jake Kowalski",
+    "phase": "SHIP",
+    "started": "2026-08-04T21:08:19.656445",
+    "rounds": 1,
+    "critique_score": 8.79,
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "hard_gates": {
+      "em_dash": {
+        "count": 2,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 782.9,
+        "short_pct": 13.5,
+        "long_pct": 63.5,
+        "passed": true
+      }
+    },
+    "completed": "2026-08-04T21:18:35.941973+00:00",
+    "img_hash": "cc7ed6e1",
+    "ship_after": "2026-08-05"
+  },
   "last_completed": 698,
   "ship_ready": [
     {
@@ -57,15 +100,6 @@
       "completed": "2026-07-20T02:30:00-07:00"
     },
     {
-      "number": 585,
-      "slug": "ai-radon-map-building-code-gap",
-      "headline": "The Radon Map Your Building Code Relies On Was Drawn in 1993. An AI Trained on 718,000 Homes Found What It Missed.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.64,
-      "ship_after": "2026-08-11",
-      "completed": "2026-07-20T12:30:00-07:00"
-    },
-    {
       "number": 588,
       "slug": "concrete-maturity-sensor-residential-gap",
       "headline": "Your Concrete Foundation Cures for a Week Before Anyone Checks It. A $150 Sensor Would Have Known in Twelve Hours.",
@@ -100,15 +134,6 @@
       "critique_score": 8.93,
       "ship_after": "2026-08-15",
       "completed": "2026-07-21T04:15:00-07:00"
-    },
-    {
-      "number": 593,
-      "slug": "ai-roof-nailing-inspection-drone-gap",
-      "headline": "Sixty Percent of Roof Failures Start With a Nail. A $200 Drone Flight Finds Them All. Nobody Flies It.",
-      "journalist": "Jake Kowalski",
-      "critique_score": 8.93,
-      "ship_after": "2026-08-16",
-      "completed": "2026-07-21T06:30:00-07:00"
     },
     {
       "number": 594,
@@ -266,15 +291,6 @@
       "ship_after": "2026-09-03",
       "completed": "2026-07-23T08:01:00-07:00",
       "img_hash": "9b7c332f"
-    },
-    {
-      "number": 575,
-      "slug": "ai-construction-tech-manufactured-housing-blind-spot",
-      "headline": "The AI Construction Revolution Raised $300 Million This Year. None of It Works for the Cheapest Homes in America.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.93,
-      "completed": "2026-07-19T16:30:00-07:00",
-      "ship_after": "2026-09-04"
     },
     {
       "number": 613,
@@ -488,38 +504,6 @@
           "passed": true
         }
       }
-    },
-    {
-      "number": 629,
-      "slug": "ai-meeting-minutes-construction-litigation-trap",
-      "headline": "Your Contractor's AI Took Notes at Every Meeting. Now Opposing Counsel Has the Transcript.",
-      "journalist": "Catherine Chen",
-      "critique_score": 9.0,
-      "ship_after": "2026-09-20",
-      "img_hash": "0a34c08f",
-      "hard_gates": {
-        "em_dash": {
-          "count": 2,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 1.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 203.3,
-          "short_pct": 14.0,
-          "long_pct": 46.2,
-          "passed": true
-        }
-      },
-      "completed": "2026-07-25T06:01:52-07:00"
     },
     {
       "number": 630,
@@ -2967,92 +2951,6 @@
       "rounds": 1
     },
     {
-      "number": 687,
-      "slug": "canadian-plywood-tariff-osb-swap-code-gap",
-      "headline": "Canadian Plywood Just Got a 50% Tariff. Your Builder Has 19 Days to Re-Spec 60 Sheets. No Software Knows Which Ones He Can Swap.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.86,
-      "ship_after": "2026-11-15",
-      "completed": "2026-07-30T19:17:24.494235+00:00",
-      "img_hash": "cb1ac025",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 7.4,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 455.7,
-          "short_pct": 9.7,
-          "long_pct": 72.6,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "phase": "SHIP",
-      "rounds": 1
-    },
-    {
-      "number": 688,
-      "slug": "ai-hallucination-construction-spec-liability-gap",
-      "headline": "Your Builder Used AI to Write the Material Spec. The Product It Specified Doesn't Exist.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.0,
-      "ship_after": "2026-11-16",
-      "completed": "2026-07-30T21:33:08.066529",
-      "img_hash": "84125ef9",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 2.2,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 788.0,
-          "short_pct": 11.9,
-          "long_pct": 57.1,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 8.0,
-        "voice_coach": 8.0,
-        "ethics_reviewer": 7.0,
-        "social_shareability": 8.0,
-        "legal_accuracy": 8.5,
-        "research_rigor": 7.0,
-        "construction_expert": 8.0
-      },
-      "phase": "SHIP",
-      "rounds": 3
-    },
-    {
       "number": 689,
       "slug": "replacement-cost-algorithm-underinsurance-gap",
       "headline": "The Algorithm That Estimates Your Home's Rebuild Cost Was Wrong About the Foundation Half the Time. Your Insurer Knew.",
@@ -3137,137 +3035,6 @@
       },
       "phase": "SHIP",
       "rounds": 1
-    },
-    {
-      "number": 692,
-      "slug": "pattern-book-ai-generation-gap",
-      "headline": "Congress Just Funded Pattern Books to Speed Up Home Construction. Every Program Has 13 Plans or Fewer.",
-      "journalist": "Elena Vasquez",
-      "critique_score": 8.86,
-      "ship_after": "2026-08-01",
-      "completed": "2026-07-31T07:15:46.341527",
-      "img_hash": "8fb9473a",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 8.4,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 181.0,
-          "short_pct": 30.5,
-          "long_pct": 24.2,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "phase": "PUBLISHED",
-      "rounds": 1
-    },
-    {
-      "number": 693,
-      "slug": "builder-confidence-ai-spending-paradox",
-      "headline": "Builder Confidence Has Been Below 40 for 15 Months. Their AI Budget Was the First Thing Cut.",
-      "journalist": "Jake Kowalski",
-      "critique_score": 8.86,
-      "ship_after": "2026-08-02",
-      "completed": "2026-08-01T03:20:00Z",
-      "img_hash": "eedfd19e",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 1.4,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 723.7,
-          "short_pct": 14.3,
-          "long_pct": 65.3,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 8.5,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "phase": "PUBLISHED",
-      "rounds": 1,
-      "published_at": "2026-08-02T07:04:29.001349"
-    },
-    {
-      "number": 695,
-      "slug": "hud-ai-permitting-grant-evidence-gap",
-      "headline": "The Federal Government Just Bet $3 Million on AI Permitting. The Best Evidence Comes From 19 Houses in Honolulu.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.86,
-      "ship_after": "2026-08-02",
-      "completed": "2026-08-01T11:20:00Z",
-      "img_hash": "ee2c2545",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 217.8,
-          "short_pct": 8.1,
-          "long_pct": 45.9,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "phase": "PUBLISHED",
-      "rounds": 1,
-      "published_at": "2026-08-04T03:41:04.663186+00:00"
     },
     {
       "number": 696,
@@ -3443,148 +3210,6 @@
       "rounds": 1
     },
     {
-      "number": 700,
-      "slug": "ai-training-literacy-vs-productivity-gap",
-      "headline": "1,500 Instructors Got AI Training. The Industry Needs 800,000 Workers. Do the Math.",
-      "journalist": "Marcus Washington",
-      "critique_score": 8.86,
-      "ship_after": "2026-11-22",
-      "completed": "2026-08-01T23:01:00+00:00",
-      "img_hash": "533c15f0",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 6.5,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 203.9,
-          "short_pct": 13.8,
-          "long_pct": 40.0,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "phase": "SHIP",
-      "rounds": 1
-    },
-    {
-      "number": 696,
-      "slug": "ai-wildfire-risk-score-homeowner-transparency-gap",
-      "headline": "The AI That Decides Whether You Can Insure Your Home Won't Tell You the Score. One State Just Changed That.",
-      "journalist": "Catherine Chen",
-      "critique_score": 8.86,
-      "ship_after": "2026-08-03",
-      "completed": "2026-08-02T07:14:15.845429",
-      "img_hash": "a86f7cc2",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 2.5,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 201.0,
-          "short_pct": 11.4,
-          "long_pct": 44.3,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "phase": "PUBLISHED",
-      "rounds": 1,
-      "published_at": "2026-08-04T05:06:48.031333+00:00"
-    },
-    {
-      "number": 695,
-      "slug": "engineered-stone-silicosis-ai-dust-monitoring-gap",
-      "headline": "Litigation Over Your Countertop Just Hit $200 Million. The Sensor That Would Have Prevented It Costs $150.",
-      "journalist": "Catherine Chen",
-      "critique_score": 9.0,
-      "ship_after": "2026-08-03",
-      "completed": "2026-08-02T09:15:34.620722+00:00",
-      "phase": "PUBLISHED",
-      "published_at": "2026-08-04T07:04:45.911683+00:00"
-    },
-    {
-      "slug": "heat-pump-water-heater-sizing-ai-gap",
-      "phase": "PUBLISHED",
-      "journalist": "Jake Kowalski",
-      "number": 696,
-      "headline": "The DOE Says Your Next Water Heater Has to Be a Heat Pump. Nobody Built the Tool to Size It Right.",
-      "started": "2026-08-02T11:22:58.724627+00:00",
-      "critique_score": 8.86,
-      "img_hash": "1b44f110",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 8.8,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 201.7,
-          "short_pct": 11.8,
-          "long_pct": 42.2,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.5,
-        "social_shareability": 9.0,
-        "legal_accuracy": 8.5,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "rounds": 1,
-      "ship_after": "2026-08-03",
-      "published_at": "2026-08-03T07:04:04.894550+00:00"
-    },
-    {
       "number": 698,
       "slug": "wildfire-ai-home-vulnerability-prediction-gap",
       "headline": "A Model Can Tell You Whether Your House Will Survive a Wildfire. Your Insurance Company Can't.",
@@ -3712,49 +3337,6 @@
       "phase": "SHIP",
       "ship_after": "2026-08-05",
       "rounds": 1
-    },
-    {
-      "slug": "a2l-refrigerant-hvac-contractor-training-gap",
-      "phase": "PUBLISHED",
-      "journalist": "Jake Kowalski",
-      "started": "2026-08-04T04:01:52-07:00",
-      "headline": "Every New Air Conditioner Sold in 2026 Uses Flammable Refrigerant. The Training to Install It Safely Is Optional.",
-      "number": 698,
-      "critique_score": 8.86,
-      "img_hash": "27168a66",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 13.2,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 480.5,
-          "short_pct": 11.6,
-          "long_pct": 72.5,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.5,
-        "construction_expert": 8.5
-      },
-      "rounds": 1,
-      "published_at": "2026-08-04T11:21:53.662098+00:00"
     },
     {
       "slug": "blower-door-ai-prediction-pre-drywall-gap",
