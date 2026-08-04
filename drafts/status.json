@@ -3510,6 +3510,49 @@
       },
       "phase": "SHIP",
       "rounds": 1
+    },
+    {
+      "number": 707,
+      "slug": "robotic-microfactory-vs-permit-bottleneck-gap",
+      "headline": "Sixteen Thousand Homes Burned. One Year Later, Seven Have Been Rebuilt. The Robot Isn't the Bottleneck.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.93,
+      "completed": "2026-08-04T23:14:29.543168+00:00",
+      "img_hash": "7d69d6af",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 712.9,
+          "short_pct": 11.8,
+          "long_pct": 58.8,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "ship_after": "2026-08-18",
+      "rounds": 1
     }
   ],
   "completed_history": [
