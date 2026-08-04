@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 695,
+  "last_completed": 696,
   "ship_ready": [
     {
       "number": 573,
@@ -3525,8 +3525,9 @@
         "research_rigor": 9.0,
         "construction_expert": 8.5
       },
-      "phase": "SHIP",
-      "rounds": 1
+      "phase": "PUBLISHED",
+      "rounds": 1,
+      "published_at": "2026-08-04T05:06:48.031333+00:00"
     },
     {
       "number": 695,
