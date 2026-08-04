@@ -1,48 +1,5 @@
 {
-  "current": {
-    "number": 706,
-    "slug": "autonomous-earthmoving-residential-lot-gap",
-    "headline": "An Autonomous Excavator Saved $74,000 Digging a Pipeline in Argentina. It Won't Dig Your Foundation.",
-    "journalist": "Jake Kowalski",
-    "phase": "SHIP",
-    "started": "2026-08-04T21:08:19.656445",
-    "rounds": 1,
-    "critique_score": 8.79,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "hard_gates": {
-      "em_dash": {
-        "count": 2,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 782.9,
-        "short_pct": 13.5,
-        "long_pct": 63.5,
-        "passed": true
-      }
-    },
-    "completed": "2026-08-04T21:18:35.941973+00:00",
-    "img_hash": "cc7ed6e1",
-    "ship_after": "2026-08-05"
-  },
+  "current": null,
   "last_completed": 698,
   "ship_ready": [
     {
@@ -3496,6 +3453,49 @@
           "variance": 392.6,
           "short_pct": 10.0,
           "long_pct": 60.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
+    },
+    {
+      "number": 706,
+      "slug": "autonomous-earthmoving-residential-lot-gap",
+      "headline": "An Autonomous Excavator Saved $74,000 Digging a Pipeline in Argentina. It Won't Dig Your Foundation.",
+      "journalist": "Jake Kowalski",
+      "critique_score": 8.79,
+      "ship_after": "2026-08-05",
+      "completed": "2026-08-04T21:18:35.941973+00:00",
+      "img_hash": "cc7ed6e1",
+      "hard_gates": {
+        "em_dash": {
+          "count": 2,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 782.9,
+          "short_pct": 13.5,
+          "long_pct": 63.5,
           "passed": true
         }
       },
