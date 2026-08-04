@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "genai-construction-defect-detection-field-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Frank DeLuca",
     "number": 697,
     "headline": "An AI Can Tell You What's Happening on Your Job Site. It Can't Tell You If It's Done Right.",
@@ -40,7 +40,8 @@
       "legal_accuracy": 8.5,
       "research_rigor": 9.0,
       "construction_expert": 8.5
-    }
+    },
+    "published_at": "2026-08-04T02:47:00+00:00"
   },
   "last_completed": 696,
   "ship_ready": [
@@ -3421,8 +3422,9 @@
         "research_rigor": 9.0,
         "construction_expert": 8.5
       },
-      "phase": "SHIP",
-      "rounds": 1
+      "phase": "PUBLISHED",
+      "rounds": 1,
+      "published_at": "2026-08-04T02:47:00+00:00"
     },
     {
       "number": 698,
