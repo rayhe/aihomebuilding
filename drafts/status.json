@@ -1,49 +1,13 @@
 {
   "current": {
-    "slug": "genai-construction-defect-detection-field-gap",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
-    "number": 697,
-    "headline": "An AI Can Tell You What's Happening on Your Job Site. It Can't Tell You If It's Done Right.",
-    "started": "2026-08-03T07:07:54.370381+00:00",
-    "critique_score": 8.86,
-    "rounds": 1,
-    "img_hash": "f85ce236",
-    "ship_after": "2026-08-04",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 13.9,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 226.3,
-        "short_pct": 6.8,
-        "long_pct": 66.2,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "published_at": "2026-08-04T02:47:00+00:00"
+    "slug": "wildfire-ai-home-vulnerability-prediction-gap",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "number": 698,
+    "headline": "A Model Can Tell You Whether Your House Will Survive a Wildfire. Your Insurance Company Can't.",
+    "started": "2026-08-04T02:55:46.075748+00:00"
   },
-  "last_completed": 696,
+  "last_completed": 697,
   "ship_ready": [
     {
       "number": 570,
