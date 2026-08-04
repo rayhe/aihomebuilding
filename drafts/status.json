@@ -3885,6 +3885,49 @@
       "phase": "SHIP",
       "ship_after": "2026-08-17",
       "rounds": 1
+    },
+    {
+      "number": 705,
+      "slug": "ai-scheduling-residential-enterprise-gap",
+      "headline": "An AI Can Simulate a Million Schedules for a Highway. Your Home Builder Is Using a Whiteboard.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.79,
+      "ship_after": "2026-11-24",
+      "completed": "2026-08-04T19:13:13.583776+00:00",
+      "img_hash": "03d07e2c",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 392.6,
+          "short_pct": 10.0,
+          "long_pct": 60.0,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "phase": "SHIP",
+      "rounds": 1
     }
   ],
   "completed_history": [
