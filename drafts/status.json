@@ -3755,6 +3755,50 @@
       },
       "rounds": 1,
       "published_at": "2026-08-04T11:21:53.662098+00:00"
+    },
+    {
+      "slug": "blower-door-ai-prediction-pre-drywall-gap",
+      "headline": "The Test That Decides Whether Your New Home Meets Code Happens After the Walls Are Sealed. The AI That Could Predict It Hasn't Been Built.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "started": "2026-08-04T13:26:22.860302+00:00",
+      "number": 702,
+      "critique_score": 8.86,
+      "img_hash": "a6c9b5ed",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.0,
+          "short_pct": 12.7,
+          "long_pct": 51.8,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-05",
+      "completed": "2026-08-04T13:27:16.892238+00:00"
     }
   ],
   "completed_history": [
