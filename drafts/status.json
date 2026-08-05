@@ -3553,6 +3553,51 @@
       "phase": "SHIP",
       "ship_after": "2026-08-18",
       "rounds": 1
+    },
+    {
+      "slug": "atlas15-stormwater-residential-design-gap",
+      "headline": "Your Home's Drainage Was Designed for a Climate That No Longer Exists. The Data That Proves It Arrives in September.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "round": 1,
+      "started": "2026-08-04T18:02:00-07:00",
+      "critique_score": 8.93,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 719.0,
+          "short_pct": 9.4,
+          "long_pct": 71.7,
+          "passed": true
+        }
+      },
+      "img_hash": "034410ed",
+      "rounds": 1,
+      "ship_after": "2026-08-05",
+      "completed": "2026-08-04T18:30:00-07:00",
+      "number": 708
     }
   ],
   "completed_history": [
