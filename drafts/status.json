@@ -1,48 +1,6 @@
 {
-  "current": {
-    "slug": "avm-computer-vision-renovation-blind-spot",
-    "phase": "SHIP",
-    "journalist": "Catherine Chen",
-    "started": "2026-08-04T20:05:00-07:00",
-    "number": 709,
-    "headline": "You Spent $80,000 on Your Kitchen. The Algorithm That Sets Your Home's Value Has Never Seen It.",
-    "critique_score": 9.0,
-    "completed": "2026-08-04T20:30:00-07:00",
-    "img_hash": "7bd23319",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 2.8,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 117.1,
-        "short_pct": 30.7,
-        "long_pct": 19.8,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "rounds": 1
-  },
-  "last_completed": 698,
+  "current": null,
+  "last_completed": 709,
   "ship_ready": [
     {
       "number": 573,
@@ -3763,6 +3721,50 @@
       "phase": "SHIP",
       "ship_after": "2026-08-03",
       "rounds": 1
+    },
+    {
+      "slug": "avm-computer-vision-renovation-blind-spot",
+      "phase": "PUBLISHED",
+      "journalist": "Catherine Chen",
+      "started": "2026-08-04T20:05:00-07:00",
+      "number": 709,
+      "headline": "You Spent $80,000 on Your Kitchen. The Algorithm That Sets Your Home's Value Has Never Seen It.",
+      "critique_score": 9.0,
+      "completed": "2026-08-04T20:30:00-07:00",
+      "img_hash": "7bd23319",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 117.1,
+          "short_pct": 30.7,
+          "long_pct": 19.8,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "published_at": "2026-08-05T03:11:37.546686+00:00"
     }
   ]
 }
