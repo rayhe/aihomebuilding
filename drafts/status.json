@@ -1,10 +1,10 @@
 {
   "current": null,
-  "last_completed": 709,
+  "last_completed": 710,
   "ship_ready": [
     {
       "slug": "ai-heat-wearable-residential-gap",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "journalist": "Marcus Washington",
       "started": "2026-08-05T05:01:00-07:00",
       "number": 710,
@@ -44,7 +44,8 @@
       },
       "rounds": 1,
       "ship_after": "2026-08-05",
-      "completed": "2026-08-05T05:20:00-07:00"
+      "completed": "2026-08-05T05:20:00-07:00",
+      "published_at": "2026-08-05T07:01:00+00:00"
     },
     {
       "number": 573,
