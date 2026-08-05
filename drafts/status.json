@@ -3,6 +3,50 @@
   "last_completed": 709,
   "ship_ready": [
     {
+      "slug": "ai-heat-wearable-residential-gap",
+      "phase": "SHIP",
+      "journalist": "Marcus Washington",
+      "started": "2026-08-05T05:01:00-07:00",
+      "number": 710,
+      "headline": "A Nuclear Worker Wears a Sensor That Predicts Heat Stroke Twenty Minutes Before It Happens. Your Roofer Gets a Water Jug.",
+      "critique_score": 8.93,
+      "img_hash": "09c5ba75",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 238.9,
+          "short_pct": 9.1,
+          "long_pct": 54.5,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-05",
+      "completed": "2026-08-05T05:20:00-07:00"
+    },
+    {
       "number": 573,
       "slug": "ai-mep-design-residential-gap",
       "headline": "A $75 Million AI Can Design Your Building's Plumbing, Wiring, and Fire Alarms in Hours. It Doesn't Work on Houses.",
