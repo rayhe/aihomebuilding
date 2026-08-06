@@ -1,50 +1,52 @@
 {
-  "current": {
-    "slug": "ai-termite-acoustic-detection-residential-gap",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-08-05T07:02:00-07:00",
-    "number": 711,
-    "headline": "A Neural Network Identifies Termites Inside Your Wall by Listening to Them Eat. Your Inspector Uses a Screwdriver.",
-    "critique_score": 8.93,
-    "img_hash": "7c393437",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 1.9,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 99.8,
-        "short_pct": 17.9,
-        "long_pct": 13.2,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 8.5
-    },
-    "rounds": 1,
-    "ship_after": "2026-08-06",
-    "completed": "2026-08-05T07:15:00-07:00"
-  },
-  "last_completed": 710,
+  "current": null,
+  "last_completed": 711,
   "ship_ready": [
+    {
+      "slug": "ai-termite-acoustic-detection-residential-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Jake Kowalski",
+      "started": "2026-08-05T07:02:00-07:00",
+      "number": 711,
+      "headline": "A Neural Network Identifies Termites Inside Your Wall by Listening to Them Eat. Your Inspector Uses a Screwdriver.",
+      "critique_score": 8.93,
+      "img_hash": "7c393437",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 99.8,
+          "short_pct": 17.9,
+          "long_pct": 13.2,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-06",
+      "completed": "2026-08-05T07:15:00-07:00",
+      "published_at": "2026-08-06T07:02:00+00:00"
+    },
     {
       "slug": "ai-heat-wearable-residential-gap",
       "phase": "PUBLISHED",
