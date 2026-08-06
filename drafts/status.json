@@ -1,5 +1,48 @@
 {
-  "current": null,
+  "current": {
+    "slug": "vpp-home-battery-ai-optimization-asymmetry",
+    "phase": "SHIP",
+    "journalist": "Priya Greenwood",
+    "started": "2026-08-06T00:02:00-07:00",
+    "number": 712,
+    "headline": "Your Home Battery Earned $1,500 Last Year Supporting the Grid. The Company That Controls It Avoided Building a $500 Million Power Plant.",
+    "critique_score": 8.86,
+    "img_hash": "46a37c8e",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 7.4,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 101.6,
+        "short_pct": 21.3,
+        "long_pct": 13.9,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 8.5
+    },
+    "rounds": 1,
+    "ship_after": "2026-08-07",
+    "completed": "2026-08-06T00:15:00-07:00"
+  },
   "last_completed": 711,
   "ship_ready": [
     {
