@@ -1,50 +1,52 @@
 {
-  "current": {
-    "slug": "ai-permit-prescreen-coverage-gap",
-    "phase": "SHIP",
-    "journalist": "Catherine Chen",
-    "started": "2026-08-07T07:08:29+00:00",
-    "number": 713,
-    "headline": "An AI Checked Your Building Plans Against the Zoning Code in Three Minutes. The City Reviewer Who Checks the Other 2,000 Rules Still Needs Eight Weeks.",
-    "critique_score": 8.79,
-    "img_hash": "d61e5627",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 10.1,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 113.4,
-        "short_pct": 32.2,
-        "long_pct": 8.7,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 8.5
-    },
-    "rounds": 1,
-    "ship_after": "2026-08-08",
-    "completed": "2026-08-07T07:14:36+00:00"
-  },
-  "last_completed": 712,
+  "current": null,
+  "last_completed": 713,
   "ship_ready": [
+    {
+      "slug": "ai-permit-prescreen-coverage-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Catherine Chen",
+      "started": "2026-08-07T07:08:29+00:00",
+      "number": 713,
+      "headline": "An AI Checked Your Building Plans Against the Zoning Code in Three Minutes. The City Reviewer Who Checks the Other 2,000 Rules Still Needs Eight Weeks.",
+      "critique_score": 8.79,
+      "img_hash": "d61e5627",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 113.4,
+          "short_pct": 32.2,
+          "long_pct": 8.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-08",
+      "completed": "2026-08-07T07:14:36+00:00",
+      "published_at": "2026-08-08T07:03:36.480508+00:00"
+    },
     {
       "slug": "vpp-home-battery-ai-optimization-asymmetry",
       "phase": "PUBLISHED",
