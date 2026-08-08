@@ -1,5 +1,48 @@
 {
-  "current": null,
+  "current": {
+    "slug": "residential-lot-grading-ai-verification-gap",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-08-08T07:10:25.631959+00:00",
+    "number": 714,
+    "headline": "An AI Grades a 2,000-Acre Solar Farm in Hours. Your Half-Acre Lot Got a Guy on a Bulldozer and a Four-Foot Level.",
+    "critique_score": 8.86,
+    "img_hash": "6f1ce633",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 7.9,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 81.6,
+        "short_pct": 40.5,
+        "long_pct": 5.6,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 9.0
+    },
+    "rounds": 1,
+    "ship_after": "2026-08-09",
+    "completed": "2026-08-08T07:10:25.631959+00:00"
+  },
   "last_completed": 713,
   "ship_ready": [
     {
