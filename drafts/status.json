@@ -1,13 +1,13 @@
 {
   "current": {
-    "slug": "residential-lot-grading-ai-verification-gap",
+    "slug": "ai-sound-insulation-prediction-residential-gap",
     "phase": "SHIP",
-    "journalist": "Frank DeLuca",
-    "started": "2026-08-08T07:10:25.631959+00:00",
-    "number": 714,
-    "headline": "An AI Grades a 2,000-Acre Solar Farm in Hours. Your Half-Acre Lot Got a Guy on a Bulldozer and a Four-Foot Level.",
-    "critique_score": 8.86,
-    "img_hash": "6f1ce633",
+    "journalist": "Elena Vasquez",
+    "started": "2026-08-09T07:15:54.681075+00:00",
+    "number": 715,
+    "headline": "A Neural Network Predicts Your Wall's Sound Rating Within One Decibel. Your Builder Didn't Measure It at All.",
+    "critique_score": 9.0,
+    "img_hash": "bd4b56a1",
     "hard_gates": {
       "em_dash": {
         "count": 0,
@@ -15,7 +15,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 7.9,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -24,26 +24,26 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 81.6,
-        "short_pct": 40.5,
-        "long_pct": 5.6,
+        "variance": 74.3,
+        "short_pct": 36.4,
+        "long_pct": 1.4,
         "passed": true
       }
     },
     "critique_scores": {
       "general_editor": 9.0,
-      "voice_coach": 8.5,
+      "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
+      "social_shareability": 9.5,
       "legal_accuracy": 9.0,
       "research_rigor": 8.5,
       "construction_expert": 9.0
     },
     "rounds": 1,
-    "ship_after": "2026-08-09",
-    "completed": "2026-08-08T07:10:25.631959+00:00"
+    "ship_after": "2026-08-10",
+    "completed": "2026-08-09T07:15:54.681075+00:00"
   },
-  "last_completed": 713,
+  "last_completed": 714,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -380,6 +380,50 @@
     }
   ],
   "completed_history": [
+    {
+      "number": 714,
+      "slug": "residential-lot-grading-ai-verification-gap",
+      "headline": "An AI Grades a 2,000-Acre Solar Farm in Hours. Your Half-Acre Lot Got a Guy on a Bulldozer and a Four-Foot Level.",
+      "journalist": "Frank DeLuca",
+      "critique_score": 8.86,
+      "completed": "2026-08-08T07:10:25.631959+00:00",
+      "img_hash": "6f1ce633",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 81.6,
+          "short_pct": 40.5,
+          "long_pct": 5.6,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "phase": "PUBLISHED",
+      "rounds": 1,
+      "published_at": "2026-08-09T07:05:07.811227+00:00",
+      "ship_after": "2026-08-09"
+    },
     {
       "number": 691,
       "slug": "ai-contractor-adoption-gap-supply-chain",
