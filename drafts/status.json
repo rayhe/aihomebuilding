@@ -1,13 +1,13 @@
 {
   "current": {
-    "slug": "ai-sound-insulation-prediction-residential-gap",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
-    "started": "2026-08-09T07:15:54.681075+00:00",
-    "number": 715,
-    "headline": "A Neural Network Predicts Your Wall's Sound Rating Within One Decibel. Your Builder Didn't Measure It at All.",
+    "slug": "ai-radon-prediction-residential-testing-gap",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-08-10T07:16:37.669432+00:00",
+    "number": 716,
+    "headline": "A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test.",
     "critique_score": 9.0,
-    "img_hash": "bd4b56a1",
+    "img_hash": "b7d50b20",
     "hard_gates": {
       "em_dash": {
         "count": 0,
@@ -15,7 +15,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 0.0,
+        "pct": 11.7,
         "limit": 15.0,
         "passed": true
       },
@@ -24,9 +24,9 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 74.3,
-        "short_pct": 36.4,
-        "long_pct": 1.4,
+        "variance": 220.8,
+        "short_pct": 12.1,
+        "long_pct": 45.5,
         "passed": true
       }
     },
@@ -40,9 +40,8 @@
       "construction_expert": 9.0
     },
     "rounds": 1,
-    "ship_after": "2026-08-10",
-    "completed": "2026-08-09T07:15:54.681075+00:00",
-    "published_at": "2026-08-10T07:03:32.935166+00:00"
+    "ship_after": "2026-08-11",
+    "completed": "2026-08-10T07:16:37.669432+00:00"
   },
   "last_completed": 715,
   "ship_ready": [
@@ -382,6 +381,51 @@
   ],
   "completed_history": [
     {
+      "slug": "ai-sound-insulation-prediction-residential-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Elena Vasquez",
+      "started": "2026-08-09T07:15:54.681075+00:00",
+      "number": 715,
+      "headline": "A Neural Network Predicts Your Wall's Sound Rating Within One Decibel. Your Builder Didn't Measure It at All.",
+      "critique_score": 9.0,
+      "img_hash": "bd4b56a1",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 74.3,
+          "short_pct": 36.4,
+          "long_pct": 1.4,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-10",
+      "completed": "2026-08-09T07:15:54.681075+00:00",
+      "published_at": "2026-08-10T07:03:32.935166+00:00"
+    },
+    {
       "number": 714,
       "slug": "residential-lot-grading-ai-verification-gap",
       "headline": "An AI Grades a 2,000-Acre Solar Farm in Hours. Your Half-Acre Lot Got a Guy on a Bulldozer and a Four-Foot Level.",
@@ -545,50 +589,6 @@
       "phase": "SHIP",
       "ship_after": "2026-08-03",
       "rounds": 1
-    },
-    {
-      "slug": "avm-computer-vision-renovation-blind-spot",
-      "phase": "PUBLISHED",
-      "journalist": "Catherine Chen",
-      "started": "2026-08-04T20:05:00-07:00",
-      "number": 709,
-      "headline": "You Spent $80,000 on Your Kitchen. The Algorithm That Sets Your Home's Value Has Never Seen It.",
-      "critique_score": 9.0,
-      "completed": "2026-08-04T20:30:00-07:00",
-      "img_hash": "7bd23319",
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 2.8,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 117.1,
-          "short_pct": 30.7,
-          "long_pct": 19.8,
-          "passed": true
-        }
-      },
-      "critique_scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "construction_expert": 8.5
-      },
-      "rounds": 1,
-      "published_at": "2026-08-05T03:11:37.546686+00:00"
     }
   ]
 }
