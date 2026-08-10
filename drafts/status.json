@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-sound-insulation-prediction-residential-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Elena Vasquez",
     "started": "2026-08-09T07:15:54.681075+00:00",
     "number": 715,
@@ -41,9 +41,10 @@
     },
     "rounds": 1,
     "ship_after": "2026-08-10",
-    "completed": "2026-08-09T07:15:54.681075+00:00"
+    "completed": "2026-08-09T07:15:54.681075+00:00",
+    "published_at": "2026-08-10T07:03:32.935166+00:00"
   },
-  "last_completed": 714,
+  "last_completed": 715,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
