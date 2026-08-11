@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test. &mdash; AI Home Building</title>
+	<meta name="description" content="A physics-informed neural network predicts indoor radon concentrations with R-squared of 0.96. The EPA's radon zone map is from 1993. One in fifteen American homes exceeds the action level. Ninety-seven percent of homeowners in high-risk areas have never tested.">
+	<meta name="author" content="Jake Kowalski">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test.",
+		"image": "https://aihomebuilding.com/images/ai-radon-prediction-residential-testing-gap.jpg?v=b7d50b20",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/images/logo.png"
+			}
+		},
+		"datePublished": "2026-08-11",
+		"dateModified": "2026-08-11"
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test.">
+	<meta property="og:description" content="A physics-informed neural network predicts indoor radon with R² of 0.96. The EPA's radon zone map is from 1993. One in fifteen American homes exceeds the action level.">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-radon-prediction-residential-testing-gap.jpg?v=b7d50b20">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-radon-prediction-residential-testing-gap.jpg?v=b7d50b20">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+
+	<link rel="stylesheet" type="text/css" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+<div class="story-body">
+
+<div class="hero-image">
+	<img src="../images/ai-radon-prediction-residential-testing-gap.jpg?v=b7d50b20" alt="Basement foundation of a residential home with visible concrete slab and a radon test kit placed on the floor">
+</div>
+
+<h1>A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test.</h1>
+
+<p class="story-byline">By Jake Kowalski</p>
+
+<p>Twenty-one thousand Americans die every year from radon-induced lung cancer, not factory workers or uranium miners but homeowners. People who sleep in their own bedrooms, in houses they paid for, breathing a colorless, odorless gas seeping up through the foundation while they watch television and argue about what to have for dinner.</p>
+
+<p>Radon is the number one cause of lung cancer in non-smokers, second only to cigarettes overall. EPA has known this for decades. They set an action level of 4 picocuries per liter. They published a radon zone map classifying every county in the country by risk and recommended every home be tested.</p>
+
+<p>That map is from 1993.</p>
+
+<p>In the thirty-three years since, machine learning has learned to predict indoor radon concentrations from geological data with an accuracy that would have seemed absurd in 1993. A physics-informed neural network published in Applied Radiation and Isotopes in February 2026 predicts indoor radon concentrations with a mean absolute error of 52 becquerels per cubic meter and an R-squared of 0.96. That is a near-perfect correlation between what the model predicts and what the sensor measures. The model, called GIRA (Geologically-Informed Radon Assessment), incorporates radon contributions from geological foundations, fault lines, and building materials while accounting for building porosity. It does not need a sensor inside the house. It needs the geology underneath it, the construction type above it, and a few seconds of computation.</p>
+
+<p>Validated against 957 structures in Western T&uuml;rkiye, GIRA identified 15.3% of buildings as high-risk, exceeding 300 Bq/m&sup3;. That matches the rough proportion of American homes above the EPA action level. Physics works the same on this side of the Atlantic. Uranium-238 decays to radium-226 in the soil, and radium decays to radon-222, which seeps through cracks in concrete, gaps around pipes, sump pits, floor drains, and construction joints. The gas accumulates in enclosed spaces, and the half-life of 3.8 days is long enough to build up indoors, short enough that continuous replenishment from the soil keeps concentrations elevated indefinitely.</p>
+
+<p>Nobody built the consumer product. Nobody is building it now. Why?</p>
+
+<p>Meanwhile, in Pennsylvania, 40% of homes that have been tested show radon levels at or above the EPA action level. Researchers at Penn State processed 718,111 radon test results using Random Forest and Quantile Regression Forest models at the ZIP code tabulation area level. Published in Scientific Reports in 2026, the study found something the county-level EPA map cannot show: regions with moderate average radon levels that still harbor extreme outliers. A ZIP code averaging 3.2 pCi/L might have individual homes at 15 or 19 pCi/L, nearly five times the action level. The average is safe, but the house is not. Mean-based models miss these cases entirely, and the QRF approach captures them by predicting upper quantiles of the exposure distribution rather than just the central tendency.</p>
+
+<p>That distinction matters because the question a homebuyer asks is not "What is the average radon level in this ZIP code?" It is "What is the radon level in this house?" And the answer, for the vast majority of American homes, is: nobody knows. Nobody measured.</p>
+
+<p>In a study of 58 households in rural Appalachia, 97% had never tested their home for radon before the study offered them free kits. Of the 28 who returned completed tests, 29% were above the EPA action level, with readings as high as 19.5 pCi/L. Montana's Department of Environmental Quality reports that approximately half of all homes tested in the state have levels at or above 4.0 pCi/L. In New Jersey, only 46% of homes that tested above the action level have actually been mitigated.</p>
+
+<p>A short-term radon test kit costs $15 at a hardware store. You open the package, set it on the lowest livable floor, leave it for 48 to 96 hours, seal it, and mail it to a lab. Results come back in a week. If you are above 4 pCi/L, a certified contractor installs a sub-slab depressurization system: a pipe through the foundation, a fan pulling soil gas from beneath the slab, and a vent stack exhausting it above the roofline. Average cost: $1,200. Range: $500 to $2,500. Utah's DEQ puts the typical system around $2,000. The fan runs continuously, costing about $50 to $100 per year in electricity, less than your Netflix subscription.</p>
+
+<p>Compare that to the problem it solves, which is measured not in dollars but in human lives and in the staggering asymmetry between a $1,200 intervention and the cost of a lung cancer diagnosis that arrives fifteen or twenty years after the exposure began in a room the patient assumed was safe. At 4 pCi/L, the EPA estimates a lifetime lung cancer risk of about 7 per 1,000 for non-smokers and 62 per 1,000 for smokers. At 8 pCi/L, those numbers roughly double. A $1,200 mitigation system in a home at 8 pCi/L is among the most cost-effective health interventions available in residential construction. It beats lead paint abatement on a cost-per-QALY basis. It beats most HVAC upgrades on an ROI basis if you account for health outcomes rather than just energy savings.</p>
+
+<p>For new construction, the math is even more lopsided. Installing radon-resistant features during construction costs $350 to $500: a layer of clean gravel under the slab, a vapor barrier, sealed penetrations, and a three-inch PVC pipe stubbed from the gravel through the roof. If the house tests high later, you add a fan to the pipe and it becomes an active mitigation system. Without the passive stub, retrofitting costs four times as much because a contractor has to core-drill the slab, route piping through the living space, and patch the finishes. Montana reports that nearly half of newly constructed homes are now built with radon-resistant features, but most states have no such requirement.</p>
+
+<p>Here is where the AI gap bites hardest, because the geological data that drives radon risk already exists in extraordinary detail. The USGS maps bedrock geology, surficial geology, and soil composition at resolutions that would support address-level prediction in most metropolitan areas. Fault maps are public, and building permits contain foundation type, construction year, and square footage. Weather stations report barometric pressure, soil moisture, and wind speed, all of which modulate radon entry rates. Every input the GIRA model needs is publicly available or obtainable for a few dollars per parcel from county assessor databases.</p>
+
+<p>Combine those datasets and you do not need a sensor in every house. You need a model that tells you which houses should be tested first, risk stratification rather than universal testing. Target the 15% of homes most likely to exceed the action level and you catch 80% or more of the actual high-radon buildings, based on the concentration distributions documented in the Pennsylvania study. A nationwide model using Random Forest on geological, meteorological, and building data would cost less to build than a single year of the EPA's radon outreach budget.</p>
+
+<p>No one has built it. Not the EPA. Not Google. Not any of the real estate platforms sitting on geological datasets large enough to train the model in a weekend.</p>
+
+<p>The EPA's existing radon zone map classifies entire counties into three tiers. Zone 1 counties have predicted average indoor radon levels above 4 pCi/L. Zone 2 is 2 to 4 pCi/L, and Zone 3 is below 2 pCi/L. Its underlying data comes from the 1992 National Residential Radon Survey, adjusted with Census 2000 housing stock numbers. Its methodology predates Google, predates consumer internet, predates the word "machine learning" entering common use. It is still the primary tool the EPA points homeowners to for assessing whether they should test.</p>
+
+<p>A county is a terrible unit for radon prediction, a fact that becomes obvious the moment you consider that radon concentrations can vary by a factor of 10 or more within a single neighborhood depending on local geology, foundation type, and soil permeability, and that two houses on the same street, one built on a granite ledge and one on alluvial fill, can differ by 15 pCi/L. The county average tells you nothing about either house. It is the equivalent of predicting whether you will be hit by a car based on the average traffic speed in your state.</p>
+
+<p>Real estate disclosure compounds the problem because federal law does not require radon testing or disclosure. Some states require sellers to disclose known radon levels, but "known" does the heavy lifting: if no one tested, there is nothing to disclose. In practice, most single-family home transactions include a radon test during the inspection period only if the buyer requests one. Many do not request it because they do not know they should, because the EPA's outreach budget is a fraction of the marketing budget for any major real estate platform, and because the word "radon" does not appear in most listing descriptions, buyer guides, or closing documents unless a state law requires it.</p>
+
+<p>A machine learning model that estimates radon risk at the address level and surfaces that estimate at the point of home search would change the information asymmetry overnight. Embed it in Zillow, Redfin, or Realtor.com, next to the flood zone indicator and the Zestimate, and suddenly every buyer in a high-risk area asks the question before the offer, not after the closing. Testing rates go up, mitigation rates go up, and lung cancer incidence from residential radon goes down. The model does not need to be perfect. Close enough will do. It needs to be better than the current system, which is a 1993 county-level map and a suggestion to maybe buy a $15 test kit.</p>
+
+<p>The GIRA model's R-squared of 0.96 is better. The Pennsylvania QRF model's ability to flag extreme outliers within moderate-average zones is better. A South Korean study using extreme learning machines achieved an AUC of 0.824 mapping geogenic radon potential across 1,452 dwellings, capturing roughly 40% of the study area as high or very high risk. Studies in Switzerland, Finland, Georgia, and the greater Boston area have all demonstrated that machine learning on geological and building data outperforms traditional statistical approaches for radon prediction. The literature is deep, the models work, and the product does not exist.</p>
+
+<p>There is one caveat worth stating at full strength. A prediction model based on geology and building characteristics is not a measurement. A house flagged as low-risk could still have high radon if the foundation has an unusual defect, if ductwork creates a negative pressure zone pulling soil gas through an unexpected pathway, or if a homeowner renovates the basement and breaches a sealed penetration. A model that says "your address has a 73% probability of being below the action level" is useful for prioritization but not a substitute for a $15 test kit. The strongest counterargument against deploying address-level radon prediction is that it might create a false sense of security in low-risk zones, suppressing testing among homeowners who need it. That risk is real and must be addressed in any deployment through clear messaging: a low prediction does not mean you should not test. It means you are less likely to be in danger, not that you are safe.</p>
+
+<p>But the alternative is what we have now: a 33-year-old county map, ninety-seven percent of homes in high-risk areas untested, and twenty-one thousand deaths a year. A $15 test kit sitting on the shelf at Home Depot, unpurchased, while a neural network in a journal paper knows exactly which houses need it most.</p>
+
+<p class="story-sources"><strong>Sources:</strong> Zeybek M (2026) A novel physics-informed AI framework for the assessment and prediction of indoor radon concentration and risk classification, Applied Radiation and Isotopes 232:112533; Scientific Reports (2026) Quantifying mean, variability, and uncertainty in indoor radon exposure in Pennsylvania using random forest and quantile regression forest models, DOI 10.1038/s41598-026-37891-3; EPA National Residential Radon Survey (1992), cfpub.epa.gov/roe/indicator.cfm?i=27; Frontiers in Environmental Science (2021) Application of Machine Learning Algorithms for Geogenic Radon Potential Mapping, DOI 10.3389/fenvs.2021.753028; PMC8243395 Home Radon Testing in Rural Appalachia; Montana DEQ radon statistics; NJ DEP radon mitigation data (2024); American Lung Association Pennsylvania radon guidance (Jan 2026); EPA Radon Zone Map methodology; NCHH radon mitigation cost estimates ($500-$2,500); Utah DEQ radon mitigation guidance.</p>
+
+</div>
+</div>
+</body>
+</html>

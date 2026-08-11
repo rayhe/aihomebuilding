@@ -1,49 +1,6 @@
 {
-  "current": {
-    "slug": "ai-radon-prediction-residential-testing-gap",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-08-10T07:16:37.669432+00:00",
-    "number": 716,
-    "headline": "A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test.",
-    "critique_score": 9.0,
-    "img_hash": "b7d50b20",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 11.7,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 220.8,
-        "short_pct": 12.1,
-        "long_pct": 45.5,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 9.0
-    },
-    "rounds": 1,
-    "ship_after": "2026-08-11",
-    "completed": "2026-08-10T07:16:37.669432+00:00"
-  },
-  "last_completed": 715,
+  "current": null,
+  "last_completed": 716,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -380,6 +337,51 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "ai-radon-prediction-residential-testing-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Jake Kowalski",
+      "started": "2026-08-10T07:16:37.669432+00:00",
+      "number": 716,
+      "headline": "A Neural Network Predicts Your Home's Radon Level From the Geology Underneath It. You Didn't Even Test.",
+      "critique_score": 9.0,
+      "img_hash": "b7d50b20",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 220.8,
+          "short_pct": 12.1,
+          "long_pct": 45.5,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-11",
+      "completed": "2026-08-10T07:16:37.669432+00:00",
+      "published_at": "2026-08-11T07:04:35.196653+00:00"
+    },
     {
       "slug": "ai-sound-insulation-prediction-residential-gap",
       "phase": "PUBLISHED",
