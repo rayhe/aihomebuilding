@@ -1,5 +1,48 @@
 {
-  "current": null,
+  "current": {
+    "slug": "property-tax-assessment-ai-regressivity-gap",
+    "phase": "SHIP",
+    "journalist": "Catherine Chen",
+    "started": "2026-08-11T07:18:08.686961+00:00",
+    "number": 717,
+    "headline": "Ninety-Eight Percent of U.S. Counties Overtax Their Cheapest Homes. A Model Trained on Census Data Fixes It. Nobody Uses the Model.",
+    "critique_score": 9.0,
+    "img_hash": "4aed1e70",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 5.2,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 110.6,
+        "short_pct": 35.4,
+        "long_pct": 15.6,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "rounds": 1,
+    "ship_after": "2026-08-12",
+    "completed": "2026-08-11T07:18:08.686990+00:00"
+  },
   "last_completed": 716,
   "ship_ready": [
     {
