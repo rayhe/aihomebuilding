@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ninety-Eight Percent of U.S. Counties Overtax Their Cheapest Homes. A Model Trained on Census Data Fixes It. Nobody Uses the Model. &mdash; AI Home Building</title>
+	<meta name="description" content="A 2026 study of 26 million property sales across 95% of U.S. counties found that property tax assessments are regressive almost everywhere. Machine learning models eliminate the bias. Only 16% of assessor offices use one.">
+	<meta name="author" content="Catherine Chen">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Ninety-Eight Percent of U.S. Counties Overtax Their Cheapest Homes. A Model Trained on Census Data Fixes It. Nobody Uses the Model.",
+		"image": "https://aihomebuilding.com/images/property-tax-assessment-ai-regressivity-gap.jpg?v=4aed1e70",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/images/logo.png"
+			}
+		},
+		"datePublished": "2026-08-12",
+		"dateModified": "2026-08-12"
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Ninety-Eight Percent of U.S. Counties Overtax Their Cheapest Homes. A Model Trained on Census Data Fixes It. Nobody Uses the Model.">
+	<meta property="og:description" content="A 2026 study of 26 million property sales across 95% of U.S. counties found that property tax assessments are regressive almost everywhere. ML models eliminate the bias. Only 16% of assessor offices use one.">
+	<meta property="og:image" content="https://aihomebuilding.com/images/property-tax-assessment-ai-regressivity-gap.jpg?v=4aed1e70">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/property-tax-assessment-ai-regressivity-gap.jpg?v=4aed1e70">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+
+	<link rel="stylesheet" type="text/css" href="../story.css">
+</head>
+<body>
+<div class="story-page">
+<div class="story-body">
+
+<div class="hero-image">
+	<img src="../images/property-tax-assessment-ai-regressivity-gap.jpg?v=4aed1e70" alt="County assessor office with a stack of property files and a desktop computer showing a spreadsheet of assessed home values">
+</div>
+
+<h1>Ninety-Eight Percent of U.S. Counties Overtax Their Cheapest Homes. A Model Trained on Census Data Fixes It. Nobody Uses the Model.</h1>
+
+<p class="story-byline">By Catherine Chen</p>
+
+<p>In Edwards, Mississippi, in 1966, the local tax assessor raised the assessed values of Black-owned homes by ten times the increase applied to white-owned homes. Largest adjustments landed on the organizers of a community boycott. Property tax assessment was the weapon, and it worked because nobody outside the assessor's office could see the math.</p>
+
+<p>That was sixty years ago. The math has improved. Transparency has not.</p>
+
+<p>A <a href="https://arxiv.org/abs/2605.15020v1">2026 study</a> presented at the ACM Conference on Fairness, Accountability, and Transparency analyzed 26 million property sales across 95% of U.S. counties between 2018 and 2023. Researchers from the American Bar Foundation, Cornell Tech, the University of Chicago, and Stanford found that 98% of counties produced regressive property tax assessments. Lower-valued homes were systematically over-assessed relative to their market value. Higher-valued homes were systematically under-assessed. A tax system intended by every state constitution to be proportional operates in practice as a wealth transfer from the people who have the least to the people who have the most.</p>
+
+<p>How it works is not complicated. An assessor needs to estimate the fair market value of every property in a jurisdiction. Market value is what a buyer actually pays in an arms-length transaction after touring the home, hiring an inspector, pulling comparables, and negotiating. Assessors do not have that information for every property. They have square footage, year built, lot size, maybe construction quality. They work from sparse data, so their estimates regress toward the mean. A $150,000 home gets pushed up. A $900,000 home gets pulled down. Both pay taxes on a number that does not reflect reality, but one of them overpays and the other underpays.</p>
+
+<p>IAAO, the International Association of Assessing Officers, sets the professional standard for this work. Its key metric is the Price-Related Differential. A PRD above 1.03 is considered regressive. Most counties exceed it. Confirmation came from the FAccT study using two additional metrics, and the result held across all three: assessment inaccuracy and assessment unfairness move together.</p>
+
+<p>What happens when you give the model better data? Researchers built LASSO regression models for 2,059 counties, testing whether additional property features improved both accuracy and fairness. In 908 counties, the changes were statistically significant. In 907 of those 908, accuracy and fairness improved simultaneously. One county out of 2,059 showed a tradeoff. DeSoto County, Missouri. That is a 99.9% hit rate for doing better on both fronts by using better data.</p>
+
+<p>Next, they tried something even simpler. They took status quo assessments and added publicly available U.S. Census block-group data: neighborhood demographics, household structure, income distribution, job access. In 229 of 238 counties with significant results, accuracy and fairness both improved. Census data lowered assessed values in predominantly Black neighborhoods and raised them in wealthier areas, making the tax more progressive without any change to the statutory rate. Free data. Published by the Census Bureau. A county could download it tonight.</p>
+
+<p>Exactly one assessor's office in the country is known to use Census data in its valuation model. Cook County, Illinois, the same county where an FBI investigation sent assessors to prison for accepting bribes in exchange for reducing assessments on high-value properties. Cook County's model is <a href="https://github.com/ccao-data/model-res-avm">open-source on GitHub</a>. Sitting there, documented, auditable, free. Nobody else picked it up.</p>
+
+<p>According to a 2019 IAAO survey, only 16% of assessor offices nationwide use any kind of Automated Valuation Model. Everyone else relies on valuation tables purchased from vendors, hand-selected comparables, or methods that predate the widespread availability of computing power. When asked why they do not adopt AVMs, the most commonly cited reason is the belief that current methods work equally well. One in four assessors said they found AVMs hard to explain to taxpayers. One in five pointed to budget constraints or insufficient expertise.</p>
+
+<p>That belief is contradicted by the data. This FAccT study is not the first to show it, but it is the most comprehensive, covering 95% of U.S. counties, three independent fairness metrics, robustness checks with sampling weights, and consistent results regardless of whether you measure accuracy by MAPE, RMSE, or MAE. The assessor who believes their valuation tables perform as well as a regression model trained on actual sales data is wrong, and the homeowner whose $150,000 house is assessed at $175,000 is paying the cost of that belief.</p>
+
+<p>Appeals do not fix this. They make it worse. In Cook County between 2021 and 2023, homeowners in the highest quintile of sale price appealed their assessments at four times the rate of homeowners in the lowest quintile. Not surprising. Filing an appeal requires time, knowledge, and sometimes a hired appraiser or attorney. The person with a $900,000 house has a larger tax bill at stake and more resources to fight it. Someone with a $150,000 house has a smaller bill, fewer resources, and less familiarity with the process. So appeals reduce assessments disproportionately for high-value properties, making the overall system more accurate at the top and more regressive at the bottom. As the FAccT researchers confirm directly: accuracy gains concentrated among over-assessed high-value properties can increase regressivity.</p>
+
+<p>A September 2025 <a href="https://www.gao.gov/assets/gao-25-107201.pdf">Government Accountability Office report</a> to Congress added a different dimension. GAO examined automated valuation models used not by assessors but by lenders and real estate platforms. One company reported its AVMs can estimate values for approximately 85% of U.S. properties but lack sufficient data for the remaining 15%, which tend to be older, less homogeneous, or located in areas with limited comparable sales. GAO noted that AVMs relying on historical data may perpetuate valuation disparities by continuing to undervalue properties in historically undervalued communities. Same bias the FAccT study found in assessments, reproduced in the private sector tool that was supposed to be more sophisticated.</p>
+
+<p>For a homeowner, the practical implications are these. If you own a home worth less than the median in your county, your effective property tax rate is probably higher than your wealthier neighbor's. Not because the statutory rate differs, but because the assessed value on your property is inflated relative to what a buyer would actually pay. A machine learning model trained on property features and Census data could correct this without changing any tax law. Validated across 26 million transactions, and in the one county that uses it, the code is available for free.</p>
+
+<p>What you can do: request your assessment records from the county, compare the assessed value to recent sales of comparable homes in your area, and file an appeal if the ratio is significantly above 1.0. Appeal deadlines vary by state. In most jurisdictions, you have 30 to 90 days after receiving your assessment notice. You do not need an attorney for a residential appeal, but you do need comparable sales data and a coherent argument that your home is over-assessed. Some states allow informal reviews before formal hearings.</p>
+
+<p>Technology is not the limitation. Cook County built the model, published the code, and documented the methodology. The problem is that 84% of assessors have not adopted it, and the people harmed most by that inaction are the people least equipped to fight it through the appeals system. Seventeen states add a structural layer of inertia by capping annual assessment increases, designed to protect homeowners from sudden tax spikes but in practice freezing regressivity in place by preventing corrections on rapidly appreciating properties.</p>
+
+<p>Limitations of the FAccT paper are worth noting. It does not show that fairness-accuracy tradeoffs can never occur, only that they do not occur in the current context where most assessors are far from the efficiency frontier. It does not prove that Census data will improve every county, only that it improved most counties in the sample. It relies on brokered sales data from Cotality, which may not be fully representative. And it uses market sale price as the definition of fair market value, which assumes arms-length transactions capture true value, a debatable assumption in distressed or speculative markets.</p>
+
+<p>Those are real limitations. They do not change the core finding: almost every county in the country is doing this wrong, the tool to do it right is available, and the consequence of not adopting it is a tax system that punishes the people it was supposed to treat proportionally. The code is on GitHub. Census data is on census.gov. Twenty-six million sale records say the same thing in every metric the researchers tried.</p>
+
+<p>Ask not whether the model works. Ask who benefits from not deploying it.</p>
+
+<p class="story-source"><strong>Sources:</strong> Smith et al., "Tradeoffs are Domain Dependent: Improving Accuracy and Fairness in Property Tax Assessments," ACM FAccT '26 (DOI: 10.1145/3805689.3812318); GAO-25-107201, "Property Technology for Homebuying," September 2025; Berry, "Reassessing the Property Tax," 2021; Amornsiripanitch, "How Do Americans Respond to Property Tax Assessments?," 2022; IAAO Survey of Assessment Practices, 2019; Kahrl, "The Black Tax," 2024; Cook County Assessor's Office residential AVM (github.com/ccao-data/model-res-avm).</p>
+
+</div>
+</div>
+</body>
+</html>
