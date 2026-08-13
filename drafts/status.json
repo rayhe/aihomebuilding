@@ -1,49 +1,6 @@
 {
-  "current": {
-    "slug": "ai-tree-canopy-shade-residential-energy-gap",
-    "phase": "SHIP",
-    "journalist": "Priya Greenwood",
-    "started": "2026-08-12T07:16:36.534651+00:00",
-    "number": 718,
-    "headline": "An AI Maps Every Tree in Your City From a Single Aerial Photo. Your HVAC Contractor Sized Your System as if the Lot Were Clearcut.",
-    "critique_score": 8.93,
-    "img_hash": "80a9466a",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 97.4,
-        "short_pct": 36.5,
-        "long_pct": 6.1,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 8.5
-    },
-    "rounds": 1,
-    "ship_after": "2026-08-13",
-    "completed": "2026-08-12T07:16:36.534684+00:00"
-  },
-  "last_completed": 717,
+  "current": null,
+  "last_completed": 718,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -380,6 +337,51 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "ai-tree-canopy-shade-residential-energy-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Priya Greenwood",
+      "started": "2026-08-12T07:16:36.534651+00:00",
+      "number": 718,
+      "headline": "An AI Maps Every Tree in Your City From a Single Aerial Photo. Your HVAC Contractor Sized Your System as if the Lot Were Clearcut.",
+      "critique_score": 8.93,
+      "img_hash": "80a9466a",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 97.4,
+          "short_pct": 36.5,
+          "long_pct": 6.1,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-13",
+      "completed": "2026-08-12T07:16:36.534684+00:00",
+      "published_at": "2026-08-13T07:03:48.203570+00:00"
+    },
     {
       "slug": "property-tax-assessment-ai-regressivity-gap",
       "phase": "PUBLISHED",
