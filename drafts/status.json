@@ -1,49 +1,6 @@
 {
-  "current": {
-    "slug": "ai-predictive-maintenance-residential-commercial-gap",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-08-13T07:12:56.671386+00:00",
-    "number": 719,
-    "headline": "Your Office Building Knows Its HVAC Will Fail in Six Weeks. Your House Finds Out When It Stops Working.",
-    "critique_score": 8.86,
-    "img_hash": "2892c274",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 11.1,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 71.6,
-        "short_pct": 41.7,
-        "long_pct": 10.4,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 8.5
-    },
-    "rounds": 1,
-    "ship_after": "2026-08-14",
-    "completed": "2026-08-13T07:12:56.671386+00:00"
-  },
-  "last_completed": 718,
+  "current": null,
+  "last_completed": 719,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -380,6 +337,51 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "ai-predictive-maintenance-residential-commercial-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Jake Kowalski",
+      "started": "2026-08-13T07:12:56.671386+00:00",
+      "number": 719,
+      "headline": "Your Office Building Knows Its HVAC Will Fail in Six Weeks. Your House Finds Out When It Stops Working.",
+      "critique_score": 8.86,
+      "img_hash": "2892c274",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 71.6,
+          "short_pct": 41.7,
+          "long_pct": 10.4,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "ship_after": "2026-08-14",
+      "completed": "2026-08-13T07:12:56.671386+00:00",
+      "published_at": "2026-08-14T07:04:03.393593+00:00"
+    },
     {
       "slug": "ai-tree-canopy-shade-residential-energy-gap",
       "phase": "PUBLISHED",
