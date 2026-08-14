@@ -1,5 +1,48 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-photo-documentation-residential-commercial-gap",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-08-14T07:10:42.439519+00:00",
+    "number": 720,
+    "headline": "A $1.6 Billion Company Maps Every Wall in Your Office Every Week. Your $400,000 Home Gets Fifty Phone Photos and a Prayer.",
+    "critique_score": 8.93,
+    "img_hash": "937248e7",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 9.7,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 63.2,
+        "short_pct": 39.3,
+        "long_pct": 2.7,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 9.0
+    },
+    "rounds": 1,
+    "ship_after": "2026-08-15",
+    "completed": "2026-08-14T07:10:42.439519+00:00"
+  },
   "last_completed": 719,
   "ship_ready": [
     {
