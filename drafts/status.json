@@ -1,5 +1,45 @@
 {
-  "current": null,
+  "current": {
+    "slug": "construction-misclassification-ai-payroll-fraud-detection-gap",
+    "phase": "SHIP",
+    "journalist": "Marcus Washington",
+    "started": "2026-08-15T15:11:09.366090+00:00",
+    "headline": "Your Contractor's Lowest Bid Was Subsidized by Workers Who Don't Exist on Paper. The AI That Catches Payroll Fraud Can't See Them Either.",
+    "critique_score": 8.79,
+    "img_hash": "a6d6f9aa",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 9.2,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 137.2,
+        "short_pct": 26.9,
+        "long_pct": 8.4,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5,
+      "construction_expert": 8.5
+    },
+    "rounds": 1
+  },
   "last_completed": 722,
   "ship_ready": [
     {
