@@ -1,47 +1,5 @@
 {
-  "current": {
-    "slug": "smart-panel-ev-charger-unnecessary-upgrade-gap",
-    "phase": "QA",
-    "journalist": "Priya Greenwood",
-    "started": "2026-08-15T11:01:52+00:00",
-    "headline": "Your Electrician Said You Need a $4,500 Panel Upgrade for an EV Charger. Eighty Percent of the Time, You Don't.",
-    "critique_score": 8.93,
-    "img_hash": "420449b6",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 8.3,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 214.7,
-        "short_pct": 14.4,
-        "long_pct": 53.3,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 8.5
-    },
-    "rounds": 1,
-    "number": 722,
-    "published_at": "2026-08-15T15:03:25.244496+00:00"
-  },
+  "current": null,
   "last_completed": 722,
   "ship_ready": [
     {
@@ -379,6 +337,50 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "smart-panel-ev-charger-unnecessary-upgrade-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Priya Greenwood",
+      "started": "2026-08-15T11:01:52+00:00",
+      "headline": "Your Electrician Said You Need a $4,500 Panel Upgrade for an EV Charger. Eighty Percent of the Time, You Don't.",
+      "critique_score": 8.93,
+      "img_hash": "420449b6",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 214.7,
+          "short_pct": 14.4,
+          "long_pct": 53.3,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "number": 722,
+      "published_at": "2026-08-15T15:03:25.244496+00:00",
+      "completed": "2026-08-15T15:04:14.820327+00:00"
+    },
     {
       "slug": "ai-wildfire-home-vulnerability-code-gap",
       "phase": "PUBLISHED",
