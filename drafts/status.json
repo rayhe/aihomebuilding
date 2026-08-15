@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 720,
+  "last_completed": 721,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -337,6 +337,51 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "ai-wildfire-home-vulnerability-code-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Catherine Chen",
+      "started": "2026-08-15T09:01:52+00:00",
+      "number": 721,
+      "headline": "Your Insurer Uses AI to Set Your Wildfire Premium. The Builder Who Rebuilt Your House Wasn't Required to Fix What the AI Found.",
+      "critique_score": 8.93,
+      "img_hash": "d8c52dc8",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 215.1,
+          "short_pct": 8.7,
+          "long_pct": 62.3,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "rounds": 1,
+      "completed": "2026-08-15T09:15:03.683394+00:00",
+      "published_at": "2026-08-15T09:15:03.683394+00:00",
+      "ship_after": "2026-08-16"
+    },
     {
       "slug": "ai-photo-documentation-residential-commercial-gap",
       "phase": "PUBLISHED",
