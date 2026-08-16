@@ -1,5 +1,46 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-building-orientation-solar-optimization-residential-gap",
+    "phase": "SHIP",
+    "journalist": "Elena Vasquez",
+    "started": "2026-08-16T07:12:01.873953+00:00",
+    "headline": "An Algorithm Rotated Your House Forty-Five Degrees and Cut the Heating Bill in Half. Your Builder Pointed It at the Street.",
+    "critique_score": 8.93,
+    "img_hash": "116d6200",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 359.5,
+        "short_pct": 7.9,
+        "long_pct": 74.6,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 9.0
+    },
+    "rounds": 1,
+    "ship_after": "2026-08-17"
+  },
   "last_completed": 723,
   "ship_ready": [
     {
