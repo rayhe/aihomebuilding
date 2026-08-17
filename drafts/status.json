@@ -1,5 +1,46 @@
 {
-  "current": null,
+  "current": {
+    "slug": "layout-robot-residential-construction-gap",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-08-17T07:08:43.309396+00:00",
+    "headline": "A Robot Prints Your Office Layout on the Floor in Forty-Five Minutes. Your House Gets a Guy with a Chalk Line.",
+    "critique_score": 8.93,
+    "img_hash": "c1e2ba2e",
+    "rounds": 1,
+    "ship_after": "2026-08-18",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 1.8,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 156.8,
+        "short_pct": 26.6,
+        "long_pct": 19.3,
+        "passed": true
+      }
+    },
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 9.0
+    }
+  },
   "last_completed": 724,
   "ship_ready": [
     {
