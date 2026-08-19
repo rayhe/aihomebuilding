@@ -1,49 +1,6 @@
 {
-  "current": {
-    "slug": "change-order-management-ai-residential-gap",
-    "phase": "QA",
-    "journalist": "Frank DeLuca",
-    "started": "2026-08-18T07:01:52+00:00",
-    "headline": "Seventy-Seven Percent of Subcontractors Write Off Unpaid Change Orders as Bad Debt. The Software That Fixes It Wasn't Built for Houses.",
-    "critique_score": 8.93,
-    "img_hash": "e7cb469f",
-    "rounds": 1,
-    "ship_after": "2026-08-19",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 12.3,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 115.7,
-        "short_pct": 38.4,
-        "long_pct": 13.7,
-        "passed": true
-      }
-    },
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 9.0
-    },
-    "number": 726,
-    "published_at": "2026-08-19T07:04:17+00:00"
-  },
-  "last_completed": 725,
+  "current": null,
+  "last_completed": 726,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -380,6 +337,51 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "change-order-management-ai-residential-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Frank DeLuca",
+      "started": "2026-08-18T07:01:52+00:00",
+      "headline": "Seventy-Seven Percent of Subcontractors Write Off Unpaid Change Orders as Bad Debt. The Software That Fixes It Wasn't Built for Houses.",
+      "critique_score": 8.93,
+      "img_hash": "e7cb469f",
+      "rounds": 1,
+      "ship_after": "2026-08-19",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 115.7,
+          "short_pct": 38.4,
+          "long_pct": 13.7,
+          "passed": true
+        }
+      },
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "number": 726,
+      "published_at": "2026-08-19T07:05:20.314923+00:00",
+      "completed": "2026-08-19T07:05:20.314923+00:00"
+    },
     {
       "slug": "layout-robot-residential-construction-gap",
       "phase": "PUBLISHED",
