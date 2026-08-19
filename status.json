@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 726,
+  "last_completed": "ai-mold-prediction-residential-moisture-gap",
   "ship_ready": [
     {
       "number": 727,
@@ -142,6 +142,25 @@
       "slug": "ai-land-acquisition-spreadsheet-gap",
       "journalist": "Frank DeLuca",
       "ship_after": "2026-10-20"
+    },
+    {
+      "number": 728,
+      "slug": "ai-mold-prediction-residential-moisture-gap",
+      "headline": "An AI Trained on Two Thousand Home Inspections Predicts Mold Before It Grows. Your Builder Sealed the Envelope and Walked Away.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-08-20",
+      "completed": "2026-08-19T02:24:00-07:00",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0,
+        "mean": 8.71
+      }
     }
   ]
 }
