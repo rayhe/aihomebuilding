@@ -1,7 +1,26 @@
 {
   "current": null,
-  "last_completed": 664,
+  "last_completed": 726,
   "ship_ready": [
+    {
+      "number": 727,
+      "slug": "construction-vibration-monitoring-residential-gap",
+      "headline": "Your Neighbor's Demolition Shook Your Foundation for Nine Months. Downtown Got Vibration Monitoring. You Got Nothing.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-08-20",
+      "completed": "2026-08-19T00:20:00-07:00",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 8.5,
+        "mean": 8.86
+      }
+    },
     {
       "number": 550,
       "slug": "contech-market-housing-starts-mismatch",
