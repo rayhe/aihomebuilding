@@ -115,7 +115,7 @@
 			</div>
 		</header>
 
-		<img class="hero-image" src="../images/ai-mold-prediction-residential-moisture-gap.jpg" alt="A tight residential building envelope cross-section showing concealed moisture accumulation behind drywall, with a digital overlay of AI sensor readings detecting the hidden dampness">
+		<img class="hero-image" src="../images/ai-mold-prediction-residential-moisture-gap.jpg?v=46ddd079" alt="A tight residential building envelope cross-section showing concealed moisture accumulation behind drywall, with a digital overlay of AI sensor readings detecting the hidden dampness">
 
 		<div class="story-body">
 
@@ -127,7 +127,7 @@
 
 <p>Gulala Aziz, a PhD researcher at Leeds Beckett's Sustainability Institute, spent three years building a machine learning tool trained on more than 2,000 home inspections across 125 local authorities in England. Her model analyzes building characteristics that most housing providers already have on file: wall insulation type, heating system efficiency, construction age, energy performance rating. It needs no site visit, no sensor, no new data collection of any kind. It reads the data a council already holds and flags which properties sit in the danger zone.</p>
 
-<p>Accuracy with current data reaches 98 percent, but when the underlying records go stale, that drops to 70 percent, which tells you something important about both the model and the organizations using it. Published in Nature Scientific Reports, Aziz's work represents the first peer-reviewed application of artificial intelligence specifically to damp and mold risk prediction.</p>
+<p>Accuracy with current data reaches 98 percent, but when the underlying records go stale, that drops to 70 percent, which tells you something important about both the model and the organizations using it. Published in <a href="https://www.nature.com/articles/s41598-025-86028-3">Nature Scientific Reports</a>, Aziz's work represents the first peer-reviewed application of artificial intelligence specifically to damp and mold risk prediction.</p>
 
 <blockquote>"We take data which most housing providers will already have access to, meaning the tool can be deployed in a quick and cost-effective manner," Aziz said.</blockquote>
 
@@ -137,7 +137,7 @@
 
 <p>Mold is not mysterious, and its requirements are depressingly mundane: moisture, warmth, time, and an organic substrate like drywall paper or the kraft facing on fiberglass batts or the dust that settles on any surface left undisturbed in a closed cavity for more than a few weeks. Finland's VTT Technical Research Centre formalized this decades ago with the mold growth index, a scale from zero to six that tracks how quickly fungal growth progresses on a given material at a given temperature and relative humidity, where a score above three means visible mold and above five the coverage is dense enough to require professional remediation.</p>
 
-<p>Researchers at the National Research Council Canada built a machine learning model around exactly this framework. They simulated 48,855 residential wall assemblies, varying insulation levels, vapor barrier permeance, sheathing properties, and climate zone, then trained an automated machine learning pipeline to predict the maximum mold index for each combination. Results: R-squared values above 0.93, meaning the model explains more than 93 percent of the variation in mold risk from physical parameters alone, an accuracy level that most commercial building energy models would consider enviable and that exceeds the predictive power of a standard home energy audit.</p>
+<p>Researchers at the National Research Council Canada built a machine learning model around exactly this framework. They simulated 48,855 residential wall assemblies, varying insulation levels, vapor barrier permeance, sheathing properties, and climate zone, then trained an automated machine learning pipeline to predict the maximum mold index for each combination. Results: R-squared values above 0.93, meaning the model explains more than 93 percent of the variation in mold risk from physical parameters alone (<a href="https://www.mdpi.com/1996-1073/16/4/2033">MDPI Energies</a>), an accuracy level that most commercial building energy models would consider enviable and that exceeds the predictive power of a standard home energy audit.</p>
 
 <p>Three features dominate the prediction, in order: the vapor barrier's resistance to moisture movement, the R-value of continuous exterior insulation, and thermal resistance of the exterior sheathing. If you know those three numbers for a proposed wall assembly, the model can tell you with high confidence whether mold will grow inside it.</p>
 
@@ -145,7 +145,7 @@
 
 <h2>Thirteen Billion Dollars a Year</h2>
 
-<p>Water damage claims cost American insurers $13 billion annually, according to the National Association of Insurance Commissioners, and mold claims alone exceed $2 billion per year per the Insurance Information Institute. Average water damage restoration runs $3,860 according to Angi and PuroClean data, but when mold is involved, costs climb to $7.50 per square foot or more, and a typical remediation for a single room can exceed $16,000.</p>
+<p>Water damage claims cost American insurers $13 billion annually, according to the <a href="https://content.naic.org/cipr-topics/homeowners-insurance">National Association of Insurance Commissioners</a>, and mold claims alone exceed $2 billion per year per the Insurance Information Institute. Average water damage restoration runs $3,860 according to Angi and PuroClean data, but when mold is involved, costs climb to $7.50 per square foot or more, and a typical remediation for a single room can exceed $16,000.</p>
 
 <p>These are not edge cases but the single most common category of homeowner insurance claim in the United States. Most common by a wide margin.</p>
 
@@ -167,7 +167,7 @@
 
 <p>Monitoring infrastructure for a commercial building costs roughly $2 to $5 per square foot, which for a 50,000-square-foot office means $100,000 to $250,000. Nobody expects a homeowner to match that.</p>
 
-<p>But sensor costs have collapsed in the past decade. Sensor Innovation, a Norwegian company, sells the into Control System, which uses AI-powered sensors to monitor humidity and temperature development inside building assemblies in real time, detecting moisture in hidden structural elements including roofs, walls, floors, and pipe chases. A hybrid AI engine combining machine learning with building physics models pushes them via SMS, email, or integration with a building management system.</p>
+<p>But sensor costs have collapsed in the past decade. <a href="https://businessnorway.com/solutions/sensor-innovation-uses-ai-to-monitor-humidity-in-buildings">Sensor Innovation</a>, a Norwegian company, sells the into Control System, which uses AI-powered sensors to monitor humidity and temperature development inside building assemblies in real time, detecting moisture in hidden structural elements including roofs, walls, floors, and pipe chases. A hybrid AI engine combining machine learning with building physics models pushes them via SMS, email, or integration with a building management system.</p>
 
 <p>In Sunderland, England, the city council is piloting smart environmental sensors in 21 social housing properties, using AICO sensors connected via 4G and iOpt sensors running on LoRaWAN that each cost under $200 per home for three sensing units. Window open/close sensors add ventilation behavior data to the picture. Running from March 2025, the year-long pilot is testing whether continuous monitoring can catch conditions that lead to mold before residents file complaints.</p>
 
@@ -191,11 +191,15 @@
 
 <p>Second, during construction: install humidity sensors in at least two wall cavities on the most vulnerable orientations, typically north-facing walls and any wall with a bathroom on the other side. Wireless sensors from companies like Monnit or SensorPush cost $30 to $80 each, a hub and cloud monitoring subscription runs $100 to $200 per year, and the total cost for four sensors and a year of monitoring comes to under $500.</p>
 
-<p>Third, post-occupancy: run a whole-house dehumidification strategy if your climate zone has more than 4,000 cooling degree days, adding ASHRAE 62.2 ventilation plus a standalone dehumidifier sized to handle the latent load during swing seasons for $1,500 to $3,000 installed. No residential building code in the United States requires supplemental dehumidification, leaving the decision to homeowners who have no way to know they need it until the problem has already started.</p>
+<p>Third, post-occupancy: run a whole-house dehumidification strategy if your climate zone has more than 4,000 cooling degree days, adding ASHRAE 62.2 ventilation plus a whole-house dehumidifier (AprilAire, Santa Fe, or equivalent) sized to handle the latent load during swing seasons for $1,500 to $3,000 installed. No residential building code in the United States requires supplemental dehumidification, leaving the decision to homeowners who have no way to know they need it until the problem has already started.</p>
 
 <p>Total additional cost for all three layers: $2,200 to $4,700, which on a $400,000 new home is 0.5 to 1.2 percent of the construction budget. Compare that to the $16,000 average mold remediation bill or the insurance claim that drives your premiums up for five years.</p>
 
 <h2>Why Nobody Does It</h2>
+
+<p>Several caveats first. Aziz's model was trained on English housing stock with brick-and-block cavity walls, gas central heating, and energy performance certificates, and its 98 percent accuracy has not been validated on American wood-frame construction with spray foam, ZIP sheathing, and forced-air HVAC. NRC Canada's model achieved its R-squared values on simulated assemblies, not in-situ measurements from occupied homes. Prevention cost estimates of $2,200 to $4,700 assume mid-market sensor and consultant pricing in 2026; labor rates in the Bay Area or metro New York could push the upper bound past $7,000. And no US-based pilot of predictive mold modeling for new residential construction has been attempted, making the deployment path speculative even where the underlying science is sound.</p>
+
+<p>Then there is the base-rate objection, which is the strongest argument against universal adoption: most new homes built to current code do not develop mold problems, and if the incidence rate in new construction is five percent, spending $4,700 on every home to prevent a $16,000 event in one out of twenty looks like $94,000 spent to avoid $16,000 in damage. But that math changes substantially when you factor in insurance premium increases that follow a water damage claim for five years, health costs from chronic mold exposure that the EPA has linked to respiratory illness in 21 percent of the nation's 21.8 million asthma cases, and the 10 to 15 percent property value reduction that a mold history inflicts at resale. Nobody has run a prospective study on the ROI of predictive mold monitoring in new US residential construction, and that study is the next step nobody is funding.</p>
 
 <p>Incentives run backwards at every level of the supply chain, from the architect who specifies the wall assembly to the insurer who writes the policy on the finished home. Builder warranties expire before most mold problems manifest, energy codes reward a tight envelope without requiring verification that it manages moisture correctly, insurers pay the claim and raise the premium rather than mandating prevention, and building codes require ventilation rates but not ventilation outcomes. It is a perfect circle of deferred accountability.</p>
 
