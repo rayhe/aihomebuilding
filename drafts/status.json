@@ -1,47 +1,6 @@
 {
-  "current": {
-    "slug": "ai-mold-prediction-residential-moisture-gap",
-    "phase": "SHIP",
-    "journalist": "Priya Greenwood",
-    "started": "2026-08-19T09:08:20.337012+00:00",
-    "hero_hash": "46ddd079",
-    "ship_after": "2026-08-20",
-    "headline": "An AI Trained on Two Thousand Home Inspections Predicts Mold Before It Grows. Your Builder Sealed the Envelope and Walked Away.",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 8.5,
-      "research_rigor": 8.5,
-      "construction_expert": 9.0
-    },
-    "critique_score": 8.71,
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 1.1,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 274.5,
-        "short_pct": 14.0,
-        "long_pct": 66.0,
-        "passed": true
-      }
-    },
-    "rounds": 1
-  },
-  "last_completed": 726,
+  "current": null,
+  "last_completed": 727,
   "ship_ready": [
     {
       "slug": "ai-permit-prescreen-coverage-gap",
@@ -378,6 +337,51 @@
     }
   ],
   "completed_history": [
+    {
+      "slug": "ai-mold-prediction-residential-moisture-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Priya Greenwood",
+      "started": "2026-08-19T09:08:20.337012+00:00",
+      "hero_hash": "46ddd079",
+      "ship_after": "2026-08-20",
+      "headline": "An AI Trained on Two Thousand Home Inspections Predicts Mold Before It Grows. Your Builder Sealed the Envelope and Walked Away.",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "construction_expert": 9.0
+      },
+      "critique_score": 8.71,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 274.5,
+          "short_pct": 14.0,
+          "long_pct": 66.0,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "number": 727,
+      "published_at": "2026-08-20T07:05:41.905850+00:00",
+      "completed": "2026-08-20T07:05:41.905850+00:00"
+    },
     {
       "slug": "change-order-management-ai-residential-gap",
       "phase": "PUBLISHED",
