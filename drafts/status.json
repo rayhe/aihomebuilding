@@ -1,48 +1,52 @@
 {
-  "current": {
-    "slug": "coi-fraud-ai-verification-residential-gap",
-    "phase": "SHIP",
-    "journalist": "Catherine Chen",
-    "started": "2026-08-20T07:17:30.736772+00:00",
-    "hero_hash": "203a537c",
-    "ship_after": "2026-08-21",
-    "headline": "Your Contractor's Proof of Insurance Contains a Sentence That Says It Isn't Proof. An AI Catches That in Thirty Seconds. Nobody Built It for Your Kitchen Remodel.",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "construction_expert": 8.5
-    },
-    "critique_score": 8.79,
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 238.5,
-        "short_pct": 12.2,
-        "long_pct": 50.0,
-        "passed": true
-      }
-    },
-    "rounds": 1
-  },
-  "last_completed": 727,
+  "current": null,
+  "last_completed": 728,
   "ship_ready": [
+    {
+      "slug": "coi-fraud-ai-verification-residential-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Catherine Chen",
+      "started": "2026-08-20T07:17:30.736772+00:00",
+      "hero_hash": "203a537c",
+      "ship_after": "2026-08-21",
+      "headline": "Your Contractor's Proof of Insurance Contains a Sentence That Says It Isn't Proof. An AI Catches That in Thirty Seconds. Nobody Built It for Your Kitchen Remodel.",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "critique_score": 8.79,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 238.5,
+          "short_pct": 12.2,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "number": 728,
+      "published_at": "2026-08-21T07:04:37.038001+00:00",
+      "completed": "2026-08-21T07:04:37.038001+00:00"
+    },
     {
       "slug": "ai-permit-prescreen-coverage-gap",
       "phase": "PUBLISHED",
