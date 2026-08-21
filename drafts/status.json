@@ -1,5 +1,46 @@
 {
-  "current": null,
+  "current": {
+    "slug": "smart-torque-tool-fastener-verification-residential-gap",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-08-21T07:14:03.684089+00:00",
+    "hero_hash": "66d69357",
+    "ship_after": "2026-08-22",
+    "headline": "A Machine-Learning Impact Wrench Records Every Bolt It Drives and Flags the Ones You Got Wrong. It Costs $450. Your Deck Builder Has Never Heard of It.",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 8.5
+    },
+    "critique_score": 8.79,
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 80.7,
+        "short_pct": 32.5,
+        "long_pct": 7.5,
+        "passed": true
+      }
+    },
+    "rounds": 1
+  },
   "last_completed": 728,
   "ship_ready": [
     {
