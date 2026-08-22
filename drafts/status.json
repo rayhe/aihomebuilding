@@ -1,5 +1,46 @@
 {
-  "current": null,
+  "current": {
+    "slug": "concrete-curing-sensor-residential-strength-gap",
+    "phase": "SHIP",
+    "journalist": "Frank DeLuca",
+    "started": "2026-08-22T07:15:49.129145+00:00",
+    "hero_hash": "aba21873",
+    "ship_after": "2026-08-23",
+    "headline": "A $135 Sensor Predicts Your Foundation's Strength While It Cures. Your Builder Waits 28 Days and Hopes.",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 8.5
+    },
+    "critique_score": 8.79,
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 7.5,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 247.9,
+        "short_pct": 13.5,
+        "long_pct": 64.9,
+        "passed": true
+      }
+    },
+    "rounds": 1
+  },
   "last_completed": 729,
   "ship_ready": [
     {
