@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-training-gap-residential-builder-workforce",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Marcus Washington",
     "started": "2026-08-23T07:09:11.618284+00:00",
     "hero_hash": "66fbba31",
@@ -39,9 +39,11 @@
         "passed": true
       }
     },
-    "rounds": 1
+    "rounds": 1,
+    "number": 731,
+    "published_at": "2026-08-24T07:04:18.484905+00:00"
   },
-  "last_completed": 730,
+  "last_completed": 731,
   "ship_ready": [
     {
       "slug": "concrete-curing-sensor-residential-strength-gap",
