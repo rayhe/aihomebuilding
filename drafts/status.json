@@ -1,30 +1,30 @@
 {
   "current": {
-    "slug": "ai-training-gap-residential-builder-workforce",
-    "phase": "QA",
-    "journalist": "Marcus Washington",
-    "started": "2026-08-23T07:09:11.618284+00:00",
-    "hero_hash": "66fbba31",
-    "ship_after": "2026-08-24",
-    "headline": "Microsoft Just Trained a Million Union Workers on AI. The Residential Builder Shortage Hit 400,000 and Nobody Signed Them Up.",
+    "slug": "recycled-pet-plastic-structural-framing-code-gap",
+    "phase": "SHIP",
+    "journalist": "Elena Vasquez",
+    "started": "2026-08-24T07:13:35.562133+00:00",
+    "hero_hash": "e298eb8d",
+    "ship_after": "2026-08-25",
+    "headline": "MIT Printed a Floor Truss From Recycled Plastic Bottles in 13 Minutes. It Held 4,000 Pounds. Your Building Department Has No Permit Category for It.",
     "critique_scores": {
       "general_editor": 9.0,
-      "voice_coach": 8.5,
+      "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
       "social_shareability": 9.0,
       "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
+      "research_rigor": 9.0,
       "construction_expert": 8.5
     },
-    "critique_score": 8.79,
+    "critique_score": 8.93,
     "hard_gates": {
       "em_dash": {
-        "count": 0,
+        "count": 1,
         "limit": 3,
         "passed": true
       },
       "the_starters": {
-        "pct": 12.4,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -33,18 +33,61 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 65.2,
-        "short_pct": 36.3,
-        "long_pct": 5.3,
+        "variance": 294.1,
+        "short_pct": 9.8,
+        "long_pct": 72.5,
         "passed": true
       }
     },
-    "rounds": 1,
-    "number": 731,
-    "published_at": "2026-08-24T07:04:18.484905+00:00"
+    "rounds": 1
   },
   "last_completed": 731,
   "ship_ready": [
+    {
+      "slug": "ai-training-gap-residential-builder-workforce",
+      "phase": "PUBLISHED",
+      "journalist": "Marcus Washington",
+      "started": "2026-08-23T07:09:11.618284+00:00",
+      "hero_hash": "66fbba31",
+      "ship_after": "2026-08-24",
+      "headline": "Microsoft Just Trained a Million Union Workers on AI. The Residential Builder Shortage Hit 400,000 and Nobody Signed Them Up.",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "construction_expert": 8.5
+      },
+      "critique_score": 8.79,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 65.2,
+          "short_pct": 36.3,
+          "long_pct": 5.3,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "number": 731,
+      "published_at": "2026-08-24T07:04:18.484905+00:00",
+      "completed": "2026-08-24T07:05:07.142572+00:00"
+    },
     {
       "slug": "concrete-curing-sensor-residential-strength-gap",
       "phase": "PUBLISHED",
