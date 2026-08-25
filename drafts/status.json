@@ -1,50 +1,52 @@
 {
-  "current": {
-    "slug": "recycled-pet-plastic-structural-framing-code-gap",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
-    "started": "2026-08-24T07:13:35.562133+00:00",
-    "hero_hash": "e298eb8d",
-    "ship_after": "2026-08-25",
-    "headline": "MIT Printed a Floor Truss From Recycled Plastic Bottles in 13 Minutes. It Held 4,000 Pounds. Your Building Department Has No Permit Category for It.",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "critique_score": 8.93,
-    "hard_gates": {
-      "em_dash": {
-        "count": 1,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 294.1,
-        "short_pct": 9.8,
-        "long_pct": 72.5,
-        "passed": true
-      }
-    },
-    "rounds": 1,
-    "number": 732,
-    "published_at": "2026-08-25T07:05:25.090805+00:00"
-  },
+  "current": null,
   "last_completed": 732,
   "ship_ready": [
+    {
+      "slug": "recycled-pet-plastic-structural-framing-code-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Elena Vasquez",
+      "started": "2026-08-24T07:13:35.562133+00:00",
+      "hero_hash": "e298eb8d",
+      "ship_after": "2026-08-25",
+      "headline": "MIT Printed a Floor Truss From Recycled Plastic Bottles in 13 Minutes. It Held 4,000 Pounds. Your Building Department Has No Permit Category for It.",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "critique_score": 8.93,
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 294.1,
+          "short_pct": 9.8,
+          "long_pct": 72.5,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "number": 732,
+      "published_at": "2026-08-25T07:05:25.090805+00:00",
+      "completed": "2026-08-25T07:06:10.568575+00:00"
+    },
     {
       "slug": "ai-training-gap-residential-builder-workforce",
       "phase": "PUBLISHED",
