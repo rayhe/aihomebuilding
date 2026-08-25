@@ -2,11 +2,44 @@
   "current": {
     "number": 733,
     "slug": "airtight-home-fire-behavior-ai-prediction-code-gap",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE_PASSED",
     "journalist": "Priya Greenwood",
     "started": "2026-08-25T07:26:28.776580+00:00",
     "headline": "Your Energy Code Demands an Airtight House. Your Fire Code Assumes a Drafty One. A Waterloo Lab Burned Fifteen Homes to Measure What Falls Through the Gap.",
-    "ship_after": "2026-08-26"
+    "ship_after": "2026-08-26",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "critique_score": 8.86,
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 257.1,
+        "short_pct": 13.7,
+        "long_pct": 58.9,
+        "passed": true
+      }
+    },
+    "rounds": 1
   },
   "last_completed": 732,
   "ship_ready": [
