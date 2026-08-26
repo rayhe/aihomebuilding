@@ -1,50 +1,53 @@
 {
-  "current": {
-    "number": 733,
-    "slug": "airtight-home-fire-behavior-ai-prediction-code-gap",
-    "phase": "SHIP",
-    "journalist": "Priya Greenwood",
-    "started": "2026-08-25T07:26:28.776580+00:00",
-    "headline": "Your Energy Code Demands an Airtight House. Your Fire Code Assumes a Drafty One. A Waterloo Lab Burned Fifteen Homes to Measure What Falls Through the Gap.",
-    "ship_after": "2026-08-26",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "critique_score": 8.86,
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 0.0,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 203.4,
-        "short_pct": 11.1,
-        "long_pct": 58.7,
-        "passed": true
-      }
-    },
-    "rounds": 1,
-    "hero_image_needed": false,
-    "hero_hash": "e888831b"
-  },
-  "last_completed": 732,
+  "current": null,
+  "last_completed": 733,
   "ship_ready": [
+    {
+      "number": 733,
+      "slug": "airtight-home-fire-behavior-ai-prediction-code-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Priya Greenwood",
+      "started": "2026-08-25T07:26:28.776580+00:00",
+      "headline": "Your Energy Code Demands an Airtight House. Your Fire Code Assumes a Drafty One. A Waterloo Lab Burned Fifteen Homes to Measure What Falls Through the Gap.",
+      "ship_after": "2026-08-26",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 8.5
+      },
+      "critique_score": 8.86,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.4,
+          "short_pct": 11.1,
+          "long_pct": 58.7,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "hero_image_needed": false,
+      "hero_hash": "e888831b",
+      "published_at": "2026-08-26T07:03:34.365785+00:00",
+      "completed": "2026-08-26T07:03:34.365785+00:00"
+    },
     {
       "slug": "recycled-pet-plastic-structural-framing-code-gap",
       "phase": "PUBLISHED",
