@@ -1,5 +1,49 @@
 {
-  "current": null,
+  "current": {
+    "article_number": 735,
+    "slug": "trench-collapse-ai-wall-monitoring-residential-gap",
+    "stage": "SHIP",
+    "journalist": "Jake Kowalski",
+    "headline": "Every Fatal Trench Collapse in Three Years Had Zero Shoring. A Soil Sensor That Detects Wall Movement Before It Kills Costs Less Than the Penalty.",
+    "research_file": "drafts/trench-collapse-ai-wall-monitoring-residential-gap-research.md",
+    "primary_sources": 11,
+    "created_at": "2026-08-27T00:13:48.513769-07:00",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.5
+    },
+    "critique_score": 8.86,
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 366.1,
+        "short_pct": 0.0,
+        "long_pct": 80.5,
+        "passed": true
+      }
+    },
+    "rounds": 1,
+    "hero_hash": "264c8e80",
+    "ship_after": "2026-08-28"
+  },
   "last_completed": 734,
   "ship_ready": [
     {
