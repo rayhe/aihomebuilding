@@ -1,11 +1,32 @@
 {
   "current": {
     "slug": "ai-native-qa-qc-upcodes-plan-review-residential-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
+    "headline": "Your Architect Checked 40 Pages of Code. The AI Checked 11 Million.",
     "started": "2026-08-28T04:01:52-07:00",
-    "round": 0,
-    "hero_image": "images/ai-native-qa-qc-upcodes-plan-review-residential-gap.jpg"
+    "research_file": "drafts/ai-native-qa-qc-upcodes-plan-review-residential-gap-research.md",
+    "primary_sources": 6,
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.8,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "construction_expert": 8.6
+    },
+    "critique_score": 8.8,
+    "hard_gates": {
+      "em_dash": {"count": 0, "limit": 3, "passed": true},
+      "the_starters": {"pct": 10.8, "limit": 15.0, "passed": true},
+      "banned_phrases": {"count": 0, "passed": true},
+      "sentence_rhythm": {"variance": 746.9, "short_pct": 5.6, "long_pct": 91.7, "passed": true}
+    },
+    "rounds": 1,
+    "hero_hash": "baf2e39f",
+    "ship_after": "2026-08-29",
+    "created_at": "2026-08-28T04:08:00-07:00"
   },
   "last_completed": 736,
   "ship_ready": [
