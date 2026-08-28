@@ -1,32 +1,20 @@
 {
-  "current": {
-    "slug": "residential-cost-overrun-ai-prediction-gap",
-    "phase": "SHIP",
-    "journalist": "Frank DeLuca",
-    "started": "2026-08-28T02:01:52-07:00",
-    "research_file": "drafts/residential-cost-overrun-ai-prediction-gap-research.md",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "construction_expert": 8.5
-    },
-    "critique_score": 8.86,
-    "hard_gates": {
-      "em_dash": {"count": 0, "limit": 3, "passed": true},
-      "the_starters": {"pct": 5.7, "limit": 15.0, "passed": true},
-      "banned_phrases": {"count": 0, "passed": true},
-      "sentence_rhythm": {"variance": 227.6, "short_pct": 6.5, "long_pct": 25.0, "passed": true}
-    },
-    "rounds": 1,
-    "hero_hash": "f4fad7f9",
-    "ship_after": "2026-08-28"
-  },
-  "last_completed": 735,
+  "current": null,
+  "last_completed": 736,
   "ship_ready": [
+    {
+      "article_number": 736,
+      "number": 736,
+      "slug": "residential-cost-overrun-ai-prediction-gap",
+      "phase": "PUBLISHED",
+      "journalist": "Frank DeLuca",
+      "headline": "Seventy-Five Percent of Projects Blow Their Budget by Twenty-Seven Percent. The AI That Predicts Which Ones Has Never Seen a House.",
+      "published_at": "2026-08-28T02:05:00-07:00",
+      "hero_hash": "a5425d82",
+      "critique_score": 8.86,
+      "ship_after": "2026-08-28",
+      "completed": "2026-08-28T02:10:00-07:00"
+    },
     {
       "article_number": 735,
       "number": 735,
