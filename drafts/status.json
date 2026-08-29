@@ -1,5 +1,54 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-drywall-tracking-track3d-performance-contracting-48hour-gap",
+    "phase": "SHIP",
+    "journalist": "Jake Kowalski",
+    "started": "2026-08-29T02:01:52-07:00",
+    "research_file": "drafts/ai-drywall-tracking-track3d-performance-contracting-48hour-gap-research.md",
+    "primary_sources": 5,
+    "headline": "Your Drywall Sub Spent 48 Hours This Week Counting Walls. The AI Did It From Photos.",
+    "round": 1,
+    "critique_started": "2026-08-29T09:15:00-07:00",
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.6,
+      "ethics_reviewer": 8.6,
+      "social_shareability": 8.8,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "construction_expert": 8.6
+    },
+    "critique_score": 8.69,
+    "hard_gates": {
+      "em_dash": {
+        "count": 1,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 6.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 1012.6,
+        "short_pct": 4.8,
+        "long_pct": 76.2,
+        "passed": true,
+        "mean": 34.7,
+        "median": 34
+      }
+    },
+    "ship_after": "2026-08-30",
+    "hero_hash": "1fb0ed61",
+    "article_number": 738,
+    "number": 738,
+    "rounds": 1
+  },
   "last_completed": 737,
   "ship_ready": [
     {
@@ -61,7 +110,9 @@
       "hero_hash": "a5425d82",
       "critique_score": 8.86,
       "ship_after": "2026-08-28",
-      "completed": "2026-08-28T02:10:00-07:00"
+      "completed": "2026-08-28T02:10:00-07:00",
+      "research_file": "drafts/residential-cost-overrun-ai-prediction-gap-research.md",
+      "primary_sources": 8
     },
     {
       "article_number": 735,
