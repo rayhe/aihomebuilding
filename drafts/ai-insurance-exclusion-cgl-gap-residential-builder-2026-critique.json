@@ -1,0 +1,50 @@
+{
+  "slug": "ai-insurance-exclusion-cgl-gap-residential-builder-2026",
+  "round": 1,
+  "phase": "CRITIQUE",
+  "date": "2026-08-30T02:30:00-07:00",
+  "critics": {
+    "general_editor": {
+      "score": 9.0,
+      "notes": "Sharp lede, strong double-bind framing, actionable audit. Long sentences (mean 56.8w) hurt skim readability but variance is high and structure is clear. Cold open works."
+    },
+    "voice_coach": {
+      "score": 9.2,
+      "notes": "Catherine Chen voice: legally precise, dry humor ('Insane that this is not standard practice yet'), policy-aware, finds human impact in bureaucratic filing counts. No banned phrases."
+    },
+    "ethics_reviewer": {
+      "score": 9.1,
+      "notes": "Non-fearmongering, avoids claiming one-in-four builders exposed, explicitly states illustrative vs predictive, discloses limitations, offers homeowner protection, no fabrication."
+    },
+    "social_shareability": {
+      "score": 9.0,
+      "notes": "Headline is high-share (builder used AI / insurer excluded), hook with CG 40 47, checklist actionable, asymmetry framing strong."
+    },
+    "legal_accuracy": {
+      "score": 9.3,
+      "notes": "CG 40 47/48/35 08 definitions correct per Pillsbury, Berkley and Hamilton accurately distinguished, notes narrow vs broad construction, illusory coverage caveated as unlitigated, cites AIA gaps correctly."
+    },
+    "research_rigor": {
+      "score": 9.1,
+      "notes": "Six primary sources verified, Trades Coverage counts cited with date, ServiceTitan numbers from company release, Stanford rates with hallucination context, acknowledges non-admitted gap and no construction hallucination benchmark."
+    },
+    "construction_expert": {
+      "score": 9.0,
+      "notes": "A201 limits accurate, warranty math correct, smart water analogy grounded, production builder context (D.R. Horton 183k parcels) relevant, understands CGL occurrence vs completed ops."
+    }
+  },
+  "critique_score_avg": 9.1,
+  "hard_gates": {
+    "em_dash": {"count": 1, "limit": 3, "passed": true},
+    "the_starters": {"pct": 6.2, "limit": 15.0, "passed": true},
+    "banned_phrases": {"count": 0, "passed": true},
+    "sentence_rhythm": {"variance": 642.2, "short_pct": 4.2, "long_pct": 89.6, "passed": true, "mean": 56.8, "median": 55.5}
+  },
+  "hero_image": {
+    "attempted": true,
+    "generated": false,
+    "reason": "media.generate_image tool failed with output_write_failed on images directory JSON write, terminal failure per execution fence, continued without image per developer directive"
+  },
+  "outcome": "PASS_TO_SHIP",
+  "next_publish_date": "2026-08-31"
+}
