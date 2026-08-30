@@ -1,1 +1,217 @@
-{"current":{"article_number":739,"critique_score":9.1,"critique_scores":{"construction_expert":9.0,"ethics_reviewer":9.1,"general_editor":9.0,"legal_accuracy":9.3,"research_rigor":9.1,"social_shareability":9.0,"voice_coach":9.2},"hard_gates":{"banned_phrases":{"count":0,"passed":true},"em_dash":{"count":1,"limit":3,"passed":true},"sentence_rhythm":{"long_pct":89.6,"mean":56.8,"median":55.5,"passed":true,"short_pct":4.2,"variance":642.2},"the_starters":{"limit":15.0,"passed":true,"pct":6.2}},"headline":"Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage.","hero_hash":null,"hero_image_error":"media.generate_image output_write_failed terminal failure, continued without image per developer directive","hero_image_missing":true,"journalist":"Catherine Chen","number":739,"phase":"SHIP","primary_sources":6,"research_file":"drafts/ai-insurance-exclusion-cgl-gap-residential-builder-2026-research.md","rounds":1,"ship_after":"2026-08-31","slug":"ai-insurance-exclusion-cgl-gap-residential-builder-2026","started":"2026-08-30T02:01:52-07:00"},"last_completed":738,"last_published_at":"2026-08-30T07:02:48.518857+00:00","ship_ready":[{"article_number":738,"critique_score":8.69,"critique_scores":{"construction_expert":8.6,"ethics_reviewer":8.6,"general_editor":8.7,"legal_accuracy":9.0,"research_rigor":8.5,"social_shareability":8.8,"voice_coach":8.6},"hard_gates":{"banned_phrases":{"count":0,"passed":true},"em_dash":{"count":1,"limit":3,"passed":true},"sentence_rhythm":{"long_pct":76.2,"mean":34.7,"median":34,"passed":true,"short_pct":4.8,"variance":1012.6},"the_starters":{"limit":15.0,"passed":true,"pct":6.0}},"headline":"Your Drywall Sub Spent 48 Hours This Week Counting Walls. The AI Did It From Photos.","hero_hash":"1fb0ed61","journalist":"Jake Kowalski","number":738,"phase":"PUBLISHED","primary_sources":5,"published_at":"2026-08-30T07:02:48.518857+00:00","research_file":"drafts/ai-drywall-tracking-track3d-performance-contracting-48hour-gap-research.md","rounds":1,"ship_after":"2026-08-30","slug":"ai-drywall-tracking-track3d-performance-contracting-48hour-gap","started":"2026-08-29T02:01:52-07:00"},{"article_number":737,"created_at":"2026-08-28T04:08:00-07:00","critique_score":8.8,"critique_scores":{"construction_expert":8.6,"ethics_reviewer":9.0,"general_editor":8.7,"legal_accuracy":9.0,"research_rigor":9.0,"social_shareability":8.8,"voice_coach":8.5},"hard_gates":{"banned_phrases":{"count":0,"passed":true},"em_dash":{"count":0,"limit":3,"passed":true},"sentence_rhythm":{"long_pct":91.7,"passed":true,"short_pct":5.6,"variance":746.9},"the_starters":{"limit":15.0,"passed":true,"pct":10.8}},"headline":"Your Architect Checked 40 Pages of Code. The AI Checked 11 Million.","hero_hash":"baf2e39f","journalist":"Catherine Chen","number":737,"phase":"PUBLISHED","primary_sources":6,"published_at":"2026-08-29T07:02:50.728871+00:00","research_file":"drafts/ai-native-qa-qc-upcodes-plan-review-residential-gap-research.md","rounds":1,"ship_after":"2026-08-29","slug":"ai-native-qa-qc-upcodes-plan-review-residential-gap","started":"2026-08-28T04:01:52-07:00"},{"article_number":736,"completed":"2026-08-28T02:10:00-07:00","critique_score":8.86,"headline":"Seventy-Five Percent of Projects Blow Their Budget by Twenty-Seven Percent. The AI That Predicts Which Ones Has Never Seen a House.","hero_hash":"a5425d82","journalist":"Frank DeLuca","number":736,"phase":"PUBLISHED","primary_sources":8,"published_at":"2026-08-28T02:05:00-07:00","research_file":"drafts/residential-cost-overrun-ai-prediction-gap-research.md","ship_after":"2026-08-28","slug":"residential-cost-overrun-ai-prediction-gap"},{"article_number":735,"completed":"2026-08-28T07:04:45.043367+00:00","created_at":"2026-08-27T00:13:48.513769-07:00","critique_score":8.86,"critique_scores":{"construction_expert":8.5,"ethics_reviewer":9.0,"general_editor":9.0,"legal_accuracy":9.0,"research_rigor":9.0,"social_shareability":9.0,"voice_coach":8.5},"hard_gates":{"banned_phrases":{"count":0,"passed":true},"em_dash":{"count":0,"limit":3,"passed":true},"sentence_rhythm":{"long_pct":80.5,"passed":true,"short_pct":0.0,"variance":366.1},"the_starters":{"limit":15.0,"passed":true,"pct":0.0}},"headline":"Every Fatal Trench Collapse in Three Years Had Zero Shoring. A Soil Sensor That Detects Wall Movement Before It Kills Costs Less Than the Penalty.","hero_hash":"264c8e80","journalist":"Jake Kowalski","number":735,"phase":"PUBLISHED","primary_sources":11,"published_at":"2026-08-28T00:01:52-07:00","research_file":"drafts/trench-collapse-ai-wall-monitoring-residential-gap-research.md","rounds":1,"ship_after":"2026-08-28","slug":"trench-collapse-ai-wall-monitoring-residential-gap","stage":"SHIP"}]}
+{
+  "current": {
+    "article_number": 739,
+    "critique_score": 9.1,
+    "critique_scores": {
+      "construction_expert": 9.0,
+      "ethics_reviewer": 9.1,
+      "general_editor": 9.0,
+      "legal_accuracy": 9.3,
+      "research_rigor": 9.1,
+      "social_shareability": 9.0,
+      "voice_coach": 9.2
+    },
+    "hard_gates": {
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "em_dash": {
+        "count": 1,
+        "limit": 3,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "long_pct": 89.6,
+        "mean": 56.8,
+        "median": 55.5,
+        "passed": true,
+        "short_pct": 4.2,
+        "variance": 642.2
+      },
+      "the_starters": {
+        "limit": 15.0,
+        "passed": true,
+        "pct": 6.2
+      }
+    },
+    "headline": "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage.",
+    "hero_hash": "9e6a85e0",
+    "hero_image_error": null,
+    "hero_image_missing": false,
+    "journalist": "Catherine Chen",
+    "number": 739,
+    "phase": "SHIP",
+    "primary_sources": 6,
+    "research_file": "drafts/ai-insurance-exclusion-cgl-gap-residential-builder-2026-research.md",
+    "rounds": 1,
+    "ship_after": "2026-08-31",
+    "slug": "ai-insurance-exclusion-cgl-gap-residential-builder-2026",
+    "started": "2026-08-30T02:01:52-07:00"
+  },
+  "last_completed": 738,
+  "last_published_at": "2026-08-30T07:02:48.518857+00:00",
+  "ship_ready": [
+    {
+      "article_number": 738,
+      "critique_score": 8.69,
+      "critique_scores": {
+        "construction_expert": 8.6,
+        "ethics_reviewer": 8.6,
+        "general_editor": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.8,
+        "voice_coach": 8.6
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 76.2,
+          "mean": 34.7,
+          "median": 34,
+          "passed": true,
+          "short_pct": 4.8,
+          "variance": 1012.6
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 6.0
+        }
+      },
+      "headline": "Your Drywall Sub Spent 48 Hours This Week Counting Walls. The AI Did It From Photos.",
+      "hero_hash": "1fb0ed61",
+      "journalist": "Jake Kowalski",
+      "number": 738,
+      "phase": "PUBLISHED",
+      "primary_sources": 5,
+      "published_at": "2026-08-30T07:02:48.518857+00:00",
+      "research_file": "drafts/ai-drywall-tracking-track3d-performance-contracting-48hour-gap-research.md",
+      "rounds": 1,
+      "ship_after": "2026-08-30",
+      "slug": "ai-drywall-tracking-track3d-performance-contracting-48hour-gap",
+      "started": "2026-08-29T02:01:52-07:00"
+    },
+    {
+      "article_number": 737,
+      "created_at": "2026-08-28T04:08:00-07:00",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "construction_expert": 8.6,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.8,
+        "voice_coach": 8.5
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 91.7,
+          "passed": true,
+          "short_pct": 5.6,
+          "variance": 746.9
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 10.8
+        }
+      },
+      "headline": "Your Architect Checked 40 Pages of Code. The AI Checked 11 Million.",
+      "hero_hash": "baf2e39f",
+      "journalist": "Catherine Chen",
+      "number": 737,
+      "phase": "PUBLISHED",
+      "primary_sources": 6,
+      "published_at": "2026-08-29T07:02:50.728871+00:00",
+      "research_file": "drafts/ai-native-qa-qc-upcodes-plan-review-residential-gap-research.md",
+      "rounds": 1,
+      "ship_after": "2026-08-29",
+      "slug": "ai-native-qa-qc-upcodes-plan-review-residential-gap",
+      "started": "2026-08-28T04:01:52-07:00"
+    },
+    {
+      "article_number": 736,
+      "completed": "2026-08-28T02:10:00-07:00",
+      "critique_score": 8.86,
+      "headline": "Seventy-Five Percent of Projects Blow Their Budget by Twenty-Seven Percent. The AI That Predicts Which Ones Has Never Seen a House.",
+      "hero_hash": "a5425d82",
+      "journalist": "Frank DeLuca",
+      "number": 736,
+      "phase": "PUBLISHED",
+      "primary_sources": 8,
+      "published_at": "2026-08-28T02:05:00-07:00",
+      "research_file": "drafts/residential-cost-overrun-ai-prediction-gap-research.md",
+      "ship_after": "2026-08-28",
+      "slug": "residential-cost-overrun-ai-prediction-gap"
+    },
+    {
+      "article_number": 735,
+      "completed": "2026-08-28T07:04:45.043367+00:00",
+      "created_at": "2026-08-27T00:13:48.513769-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "construction_expert": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 8.5
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 80.5,
+          "passed": true,
+          "short_pct": 0.0,
+          "variance": 366.1
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
+        }
+      },
+      "headline": "Every Fatal Trench Collapse in Three Years Had Zero Shoring. A Soil Sensor That Detects Wall Movement Before It Kills Costs Less Than the Penalty.",
+      "hero_hash": "264c8e80",
+      "journalist": "Jake Kowalski",
+      "number": 735,
+      "phase": "PUBLISHED",
+      "primary_sources": 11,
+      "published_at": "2026-08-28T00:01:52-07:00",
+      "research_file": "drafts/trench-collapse-ai-wall-monitoring-residential-gap-research.md",
+      "rounds": 1,
+      "ship_after": "2026-08-28",
+      "slug": "trench-collapse-ai-wall-monitoring-residential-gap",
+      "stage": "SHIP"
+    }
+  ]
+}
