@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-permitting-automation-civcheck-archistar-2026",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
     "started": "2026-08-31T02:03:32.178646-07:00",
     "research_file": "drafts/ai-permitting-automation-civcheck-archistar-2026-research.md",
@@ -9,7 +9,46 @@
     "hero_hash": "6be5323d",
     "headline": "Your Permit Took 73 Days. Honolulu's AI Cut It to 32.5 \u2014 And LA Is Using the Same Trick to Rebuild 12,000 Homes.",
     "hero_image": "images/ai-permitting-automation-civcheck-archistar-2026.jpg",
-    "html_file": "drafts/ai-permitting-automation-civcheck-archistar-2026.html"
+    "html_file": "drafts/ai-permitting-automation-civcheck-archistar-2026.html",
+    "critique_score": 9.0,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.8,
+      "legal_accuracy": 9.1,
+      "research_rigor": 9.1,
+      "construction_expert": 9.0
+    },
+    "hard_gates": {
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "long_pct": 46.8,
+        "mean": 22.2,
+        "median": 18,
+        "passed": true,
+        "short_pct": 10.8,
+        "variance": 314.3
+      },
+      "the_starters": {
+        "limit": 15.0,
+        "passed": true,
+        "pct": 5.6
+      }
+    },
+    "primary_sources": 7,
+    "ship_after": "2026-09-01",
+    "number": 740,
+    "article_number": 740,
+    "critique_rounds": 1
   },
   "last_completed": 739,
   "last_published_at": "2026-08-31T07:03:07.071991+00:00",
@@ -225,5 +264,5 @@
       "stage": "SHIP"
     }
   ],
-  "last_checked": "2026-08-31T07:03:23.962064+00:00"
+  "last_checked": "2026-08-31T09:07:31.907289+00:00"
 }
