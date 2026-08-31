@@ -1,57 +1,57 @@
 {
-  "current": {
-    "article_number": 739,
-    "critique_score": 9.1,
-    "critique_scores": {
-      "construction_expert": 9.0,
-      "ethics_reviewer": 9.1,
-      "general_editor": 9.0,
-      "legal_accuracy": 9.3,
-      "research_rigor": 9.1,
-      "social_shareability": 9.0,
-      "voice_coach": 9.2
-    },
-    "hard_gates": {
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "em_dash": {
-        "count": 1,
-        "limit": 3,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "long_pct": 89.6,
-        "mean": 56.8,
-        "median": 55.5,
-        "passed": true,
-        "short_pct": 4.2,
-        "variance": 642.2
-      },
-      "the_starters": {
-        "limit": 15.0,
-        "passed": true,
-        "pct": 6.2
-      }
-    },
-    "headline": "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage.",
-    "hero_hash": "9e6a85e0",
-    "hero_image_error": null,
-    "hero_image_missing": false,
-    "journalist": "Catherine Chen",
-    "number": 739,
-    "phase": "SHIP",
-    "primary_sources": 6,
-    "research_file": "drafts/ai-insurance-exclusion-cgl-gap-residential-builder-2026-research.md",
-    "rounds": 1,
-    "ship_after": "2026-08-31",
-    "slug": "ai-insurance-exclusion-cgl-gap-residential-builder-2026",
-    "started": "2026-08-30T02:01:52-07:00"
-  },
-  "last_completed": 738,
-  "last_published_at": "2026-08-30T07:02:48.518857+00:00",
+  "current": null,
+  "last_completed": 739,
+  "last_published_at": "2026-08-31T07:03:07.071991+00:00",
   "ship_ready": [
+    {
+      "article_number": 739,
+      "critique_score": 9.1,
+      "critique_scores": {
+        "construction_expert": 9.0,
+        "ethics_reviewer": 9.1,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.3,
+        "research_rigor": 9.1,
+        "social_shareability": 9.0,
+        "voice_coach": 9.2
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 89.6,
+          "mean": 56.8,
+          "median": 55.5,
+          "passed": true,
+          "short_pct": 4.2,
+          "variance": 642.2
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 6.2
+        }
+      },
+      "headline": "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage.",
+      "hero_hash": "9e6a85e0",
+      "journalist": "Catherine Chen",
+      "number": 739,
+      "phase": "PUBLISHED",
+      "primary_sources": 6,
+      "published_at": "2026-08-31T07:03:07.071991+00:00",
+      "research_file": "drafts/ai-insurance-exclusion-cgl-gap-residential-builder-2026-research.md",
+      "rounds": 1,
+      "ship_after": "2026-08-31",
+      "slug": "ai-insurance-exclusion-cgl-gap-residential-builder-2026",
+      "started": "2026-08-30T02:01:52-07:00"
+    },
     {
       "article_number": 738,
       "critique_score": 8.69,
@@ -214,5 +214,5 @@
       "stage": "SHIP"
     }
   ],
-  "last_checked": "2026-08-31T05:02:14.100489+00:00"
+  "last_checked": "2026-08-31T07:03:23.962064+00:00"
 }
