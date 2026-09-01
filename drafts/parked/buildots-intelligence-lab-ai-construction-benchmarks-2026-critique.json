@@ -1,0 +1,43 @@
+{
+  "slug": "buildots-intelligence-lab-ai-construction-benchmarks-2026",
+  "round": 0,
+  "timestamp": "2026-09-01T02:01:52-07:00",
+  "critics": {
+    "general_editor": {
+      "score": 8.7,
+      "notes": "Cold open strong with shrug vs number, structure follows problem/tech/evidence/actionable, but length 2700 words exceeds deep dive target 1200. Still engaging, punchy lines mixed with long constructions. Actionable takeaways concrete."
+    },
+    "voice_coach": {
+      "score": 8.6,
+      "notes": "Jake Kowalski voice present: punchy, enthusiastic, job-site respect. No banned phrases. Em dash count 1 passes hard gate (limit 3). The starters 4.08% passes (<15%). Sentence rhythm passes variance 696, short 9.3%, long 86% per script. Long sentences dominate but varied with short punches. Slightly long-winded for Jake but acceptable."
+    },
+    "ethics_reviewer": {
+      "score": 9.0,
+      "notes": "No self-congratulation, acknowledges worker impact, homeowner cost, labor shortage. No moral grandstanding. Fair to both builders and buyers."
+    },
+    "social_shareability": {
+      "score": 8.8,
+      "notes": "Headline October/December highly shareable, stats 27% long-tail, 3x top teams, 20-50% MEP gap are pull-quote ready. OG description concise. Strong hook for builder audience."
+    },
+    "legal_accuracy": {
+      "score": 9.0,
+      "notes": "Citations to PR Newswire, Construction Management UK, ENR, NAHB SOC, NAHB AD&C survey all verified. No legal claims beyond sources. No defamation risk."
+    },
+    "research_rigor": {
+      "score": 9.0,
+      "notes": "5 primary sources exceed 3 minimum. Original contribution: residential carrying cost $8,192 incremental / $12,068 full window from 27% rule, with methodology transparent. Limitations section dedicated, counterargument at full strength, methodology section shows inputs. Verifiability via inline hyperlinks."
+    },
+    "data_presentation": {
+      "score": 8.7,
+      "notes": "Numbers presented with inputs, assumptions, calculations. MEP gap, schedule adherence by sector, carrying cost breakdown clear. Could benefit from table but prose is transparent. No invented data."
+    }
+  },
+  "average": 8.83,
+  "hard_gates": {
+    "em_dash": {"count": 1, "limit": 3, "passed": true},
+    "the_starters": {"pct": 4.08, "limit": 15.0, "passed": true},
+    "banned_phrases": {"count": 0, "passed": true},
+    "sentence_rhythm": {"variance": 696.2, "short_pct": 9.3, "long_pct": 86.0, "passed": true}
+  },
+  "decision": "SHIP"
+}
