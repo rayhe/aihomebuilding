@@ -1,53 +1,57 @@
 {
-  "current": {
-    "slug": "hud-ai-robotics-factory-housing-cleora-3d-community-2026",
-    "phase": "SHIP",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-01T13:03:43.837869+00:00",
-    "number": 742,
-    "round": 0,
-    "headline": "HUD Just Offered $10M to Build Homes With Robots. A Colorado Town Already Built Seven.",
-    "critique_score": 8.9,
-    "critique_scores": {
-      "construction_expert": 8.9,
-      "ethics_reviewer": 9.0,
-      "general_editor": 8.8,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.1,
-      "social_shareability": 8.7,
-      "voice_coach": 8.8
-    },
-    "hard_gates": {
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "em_dash": {
-        "count": 1,
-        "limit": 3,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "long_pct": 90.3,
-        "mean": 61.7,
-        "median": 60.5,
-        "passed": true,
-        "short_pct": 6.5,
-        "variance": 750.8
-      },
-      "the_starters": {
-        "limit": 15.0,
-        "passed": true,
-        "pct": 2.4
-      }
-    },
-    "hero_hash": "53fe65cd",
-    "primary_sources": 6,
-    "rounds": 0
-  },
-  "last_completed": 741,
-  "last_published_at": "2026-09-01T11:09:33.666949+00:00",
+  "current": null,
+  "last_completed": 742,
+  "last_published_at": "2026-09-01T13:09:25.204214+00:00",
   "ship_ready": [
+    {
+      "article_number": 742,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "construction_expert": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 90.3,
+          "mean": 61.7,
+          "median": 60.5,
+          "passed": true,
+          "short_pct": 6.5,
+          "variance": 750.8
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 2.4
+        }
+      },
+      "headline": "HUD Just Offered $10M to Build Homes With Robots. A Colorado Town Already Built Seven.",
+      "hero_hash": "53fe65cd",
+      "journalist": "Jake Kowalski",
+      "number": 742,
+      "phase": "PUBLISHED",
+      "primary_sources": 6,
+      "published_at": "2026-09-01T13:09:25.204266+00:00",
+      "research_file": "drafts/hud-ai-robotics-factory-housing-cleora-3d-community-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2026-09-01",
+      "slug": "hud-ai-robotics-factory-housing-cleora-3d-community-2026",
+      "started": "2026-09-01T13:03:43.837869+00:00"
+    },
     {
       "article_number": 739,
       "critique_score": 9.1,
@@ -208,56 +212,7 @@
       "research_file": "drafts/residential-cost-overrun-ai-prediction-gap-research.md",
       "ship_after": "2026-08-28",
       "slug": "residential-cost-overrun-ai-prediction-gap"
-    },
-    {
-      "article_number": 735,
-      "completed": "2026-08-28T07:04:45.043367+00:00",
-      "created_at": "2026-08-27T00:13:48.513769-07:00",
-      "critique_score": 8.86,
-      "critique_scores": {
-        "construction_expert": 8.5,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.0,
-        "voice_coach": 8.5
-      },
-      "hard_gates": {
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "long_pct": 80.5,
-          "passed": true,
-          "short_pct": 0.0,
-          "variance": 366.1
-        },
-        "the_starters": {
-          "limit": 15.0,
-          "passed": true,
-          "pct": 0.0
-        }
-      },
-      "headline": "Every Fatal Trench Collapse in Three Years Had Zero Shoring. A Soil Sensor That Detects Wall Movement Before It Kills Costs Less Than the Penalty.",
-      "hero_hash": "264c8e80",
-      "journalist": "Jake Kowalski",
-      "number": 735,
-      "phase": "PUBLISHED",
-      "primary_sources": 11,
-      "published_at": "2026-08-28T00:01:52-07:00",
-      "research_file": "drafts/trench-collapse-ai-wall-monitoring-residential-gap-research.md",
-      "rounds": 1,
-      "ship_after": "2026-08-28",
-      "slug": "trench-collapse-ai-wall-monitoring-residential-gap",
-      "stage": "SHIP"
     }
   ],
-  "last_checked": "2026-09-01T07:03:27.385890+00:00"
+  "last_checked": "2026-09-01T13:09:25.204259+00:00"
 }
