@@ -1,11 +1,45 @@
 {
   "current": {
     "slug": "ai-permit-precheck-toronto-honolulu-la-2026",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
     "started": "2026-09-01T15:04:29.289313Z",
-    "round": 0,
-    "research_file": "drafts/ai-permit-precheck-toronto-honolulu-la-2026-research.md"
+    "round": 1,
+    "research_file": "drafts/ai-permit-precheck-toronto-honolulu-la-2026-research.md",
+    "critique_scores": {
+      "general_editor": 8.8,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.7,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.1,
+      "construction_expert": 8.9
+    },
+    "critique_score": 8.9,
+    "hard_gates": {
+      "em_dash": {
+        "count": 1,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 4.8,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 437.7,
+        "short_pct": 10.1,
+        "long_pct": 60.6,
+        "passed": true
+      }
+    },
+    "headline": "Toronto Just Launched an AI Permit Pre-Check. Honolulu Made It Mandatory.",
+    "primary_sources": 6
   },
   "last_completed": 742,
   "last_published_at": "2026-09-01T13:09:25.204214+00:00",
