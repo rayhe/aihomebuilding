@@ -583,7 +583,53 @@
       "research_file": "drafts/ai-change-order-fee-erosion-gc-margin-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #750 for 2026-09-08"
+    },
+    {
+      "article_number": 752,
+      "slug": "ai-translation-earbuds-bilingual-crew-rework-2026",
+      "headline": "Your Framer Speaks Spanish. Your Foreman Speaks English. The $140 Earbud Speaks Both.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP",
+      "ship_after": "2026-09-10",
+      "started": "2026-09-02T16:05:00-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.3,
+          "short_pct": 10.2,
+          "long_pct": 53.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "0f6b0afc",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-translation-earbuds-bilingual-crew-rework-2026-research.md",
+      "rounds": 2,
+      "hold_reason": "1/day rule: publishes already on 2026-09-02 PT; #745 queued for 2026-09-03 through #751 for 2026-09-09"
     }
   ],
-  "last_checked": "2026-09-02T14:30:00-07:00"
+  "last_checked": "2026-09-02T16:30:00-07:00"
 }
