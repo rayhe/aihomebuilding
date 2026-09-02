@@ -1,16 +1,5 @@
 {
-  "current": {
-    "slug": "ai-daylight-simulation-window-design-surrogate-models-2026",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Elena Vasquez",
-    "article_number": 750,
-    "ship_after": "2026-09-08",
-    "started": "2026-09-02T12:05:00-07:00",
-    "headline": "Your Windows Were Sized by Habit. An AI Trained on 2,000 Simulations Disagreed.",
-    "hero_hash": "69b5e919",
-    "research_file": "drafts/ai-daylight-simulation-window-design-surrogate-models-2026-research.md"
-  },
+  "current": null,
   "last_completed": 747,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -502,7 +491,53 @@
       "research_file": "drafts/ai-manual-j-load-calc-ipad-oversize-trap-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06"
+    },
+    {
+      "article_number": 750,
+      "slug": "ai-daylight-simulation-window-design-surrogate-models-2026",
+      "headline": "Your Windows Were Sized by Habit. An AI Trained on 2,000 Simulations Disagreed.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP",
+      "ship_after": "2026-09-08",
+      "started": "2026-09-02T12:05:00-07:00",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.5,
+          "short_pct": 12.2,
+          "long_pct": 47.3,
+          "passed": true
+        }
+      },
+      "hero_hash": "69b5e919",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-daylight-simulation-window-design-surrogate-models-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06, #749 for 2026-09-07"
     }
   ],
-  "last_checked": "2026-09-02T12:05:00-07:00"
+  "last_checked": "2026-09-02T12:35:00-07:00"
 }
