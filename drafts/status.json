@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "ai-manual-j-load-calc-ipad-oversize-trap-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "article_number": 749,
-    "ship_after": "2026-09-07",
-    "started": "2026-09-02T10:05:00-07:00"
-  },
+  "current": null,
   "last_completed": 747,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -452,7 +445,53 @@
       "research_file": "drafts/navigate-ai-trades-knowledge-capture-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05"
+    },
+    {
+      "article_number": 749,
+      "slug": "ai-manual-j-load-calc-ipad-oversize-trap-2026",
+      "headline": "Your Contractor Sized Your AC by Square Footage. An iPad Did the Real Math in 15 Minutes.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "ship_after": "2026-09-07",
+      "started": "2026-09-02T10:05:00-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 200.1,
+          "short_pct": 10.4,
+          "long_pct": 54.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "61bd48d1",
+      "primary_sources": 11,
+      "research_file": "drafts/ai-manual-j-load-calc-ipad-oversize-trap-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06"
     }
   ],
-  "last_checked": "2026-09-02T08:30:00-07:00"
+  "last_checked": "2026-09-02T10:30:00-07:00"
 }
