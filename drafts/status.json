@@ -399,7 +399,53 @@
       "research_file": "drafts/ai-seismic-triage-street-view-brace-bolt-2026-research.md",
       "rounds": 2,
       "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04"
+    },
+    {
+      "article_number": 748,
+      "slug": "navigate-ai-trades-knowledge-capture-2026",
+      "headline": "175,000 Construction Veterans Will Retire This Year. 40,000 Apprentices Will Finish Training. A $25M Startup Is Filming the Gap.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP",
+      "ship_after": "2026-09-06",
+      "started": "2026-09-02T08:01:52-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 257.2,
+          "short_pct": 2.7,
+          "long_pct": 56.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "39a6109f",
+      "primary_sources": 7,
+      "research_file": "drafts/navigate-ai-trades-knowledge-capture-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05"
     }
   ],
-  "last_checked": "2026-09-02T06:30:00-07:00"
+  "last_checked": "2026-09-02T08:30:00-07:00"
 }
