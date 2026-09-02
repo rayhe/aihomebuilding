@@ -307,7 +307,53 @@
       "research_file": "drafts/ai-generator-sizing-oversize-trap-whole-house-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT"
+    },
+    {
+      "article_number": 746,
+      "slug": "ai-deconstruction-salvage-inventory-teardown-lumber-2026",
+      "headline": "Your Teardown Is Holding $3,280 in Lumber. The Excavator Will Never Know.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "ship_after": "2026-09-04",
+      "started": "2026-09-02T04:01:52-07:00",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 206.9,
+          "short_pct": 7.8,
+          "long_pct": 48.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "7c340f1c",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-deconstruction-salvage-inventory-teardown-lumber-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03"
     }
   ],
-  "last_checked": "2026-09-02T02:30:00-07:00"
+  "last_checked": "2026-09-02T04:30:00-07:00"
 }
