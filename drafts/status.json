@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ai-microfactory-wildfire-rebuild-abb-cosmic-palisades-2026",
-    "phase": "SHIP_READY",
+    "phase": "QA",
     "journalist": "Jake Kowalski",
     "started": "2026-09-02T01:03:52.294129",
     "research_file": "drafts/ai-microfactory-wildfire-rebuild-abb-cosmic-palisades-2026-research.md",
@@ -45,13 +45,10 @@
       }
     },
     "primary_sources": 3,
-    "ship_after": "2026-09-02",
-    "deferred_reason": "1/day gate active (4 publishes 2026-09-01 PT) + ship_after 2026-09-02 holds, deferring to 2026-09-02 \u2014 checked 2026-09-01 22:01 PT",
-    "deferred_at": "2026-09-02T05:02:27.561733+00:00",
-    "deferred_count_today": 4
+    "published_at": "2026-09-02T07:03:46.685696+00:00"
   },
-  "last_completed": 743,
-  "last_published_at": "2026-09-01T21:03:39.361617Z",
+  "last_completed": 744,
+  "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -262,7 +259,56 @@
       "research_file": "drafts/residential-cost-overrun-ai-prediction-gap-research.md",
       "ship_after": "2026-08-28",
       "slug": "residential-cost-overrun-ai-prediction-gap"
+    },
+    {
+      "article_number": 744,
+      "critique_score": 8.87,
+      "critique_scores": {
+        "construction_expert": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.9,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 58.9,
+          "mean": 27.3,
+          "median": 23,
+          "passed": true,
+          "short_pct": 0.0,
+          "variance": 246.1
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 2.04
+        }
+      },
+      "headline": "Your Palisades Rebuild Was Quoted at $900 a Foot. The Robot Parked on Your Lot Says $625.",
+      "hero_hash": "09872a4d",
+      "journalist": "Jake Kowalski",
+      "number": 744,
+      "phase": "PUBLISHED",
+      "primary_sources": 3,
+      "published_at": "2026-09-02T07:03:46.685696+00:00",
+      "research_file": "drafts/ai-microfactory-wildfire-rebuild-abb-cosmic-palisades-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2026-09-02",
+      "slug": "ai-microfactory-wildfire-rebuild-abb-cosmic-palisades-2026",
+      "started": "2026-09-02T01:03:52.294129"
     }
   ],
-  "last_checked": "2026-09-02T05:02:27.561733+00:00"
+  "last_checked": "2026-09-02T07:03:46.685696+00:00"
 }
