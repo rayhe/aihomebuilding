@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 744,
+  "last_completed": 747,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
@@ -353,7 +353,53 @@
       "research_file": "drafts/ai-deconstruction-salvage-inventory-teardown-lumber-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03"
+    },
+    {
+      "article_number": 747,
+      "slug": "ai-seismic-triage-street-view-brace-bolt-2026",
+      "headline": "1.2 Million California Homes Could Slide Off Their Foundations. The Grant Program Fixes 2,400 a Year.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP",
+      "ship_after": "2026-09-05",
+      "started": "2026-09-02T06:05:00-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 214.6,
+          "short_pct": 10.1,
+          "long_pct": 41.8,
+          "passed": true
+        }
+      },
+      "hero_hash": "c70224c5",
+      "primary_sources": 9,
+      "research_file": "drafts/ai-seismic-triage-street-view-brace-bolt-2026-research.md",
+      "rounds": 2,
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04"
     }
   ],
-  "last_checked": "2026-09-02T04:30:00-07:00"
+  "last_checked": "2026-09-02T06:30:00-07:00"
 }
