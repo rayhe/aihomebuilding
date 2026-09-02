@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-change-order-fee-erosion-gc-margin-2026",
+    "article_number": 751,
+    "phase": "DRAFT",
+    "journalist": "Frank DeLuca",
+    "started": "2026-09-02T14:05:00-07:00",
+    "ship_after": "2026-09-09",
+    "round": 0
+  },
   "last_completed": 747,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -539,5 +547,5 @@
       "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06, #749 for 2026-09-07"
     }
   ],
-  "last_checked": "2026-09-02T12:35:00-07:00"
+  "last_checked": "2026-09-02T14:05:00-07:00"
 }
