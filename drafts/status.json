@@ -1,13 +1,5 @@
 {
-  "current": {
-    "slug": "ai-change-order-fee-erosion-gc-margin-2026",
-    "article_number": 751,
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-02T14:05:00-07:00",
-    "ship_after": "2026-09-09",
-    "round": 0
-  },
+  "current": null,
   "last_completed": 747,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -545,7 +537,53 @@
       "research_file": "drafts/ai-daylight-simulation-window-design-surrogate-models-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06, #749 for 2026-09-07"
+    },
+    {
+      "article_number": 751,
+      "slug": "ai-change-order-fee-erosion-gc-margin-2026",
+      "headline": "Six Change Orders Added $44,874 to the Job. Arguing About Them Cost the Builder $14,400.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "ship_after": "2026-09-09",
+      "started": "2026-09-02T14:05:00-07:00",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 204.7,
+          "short_pct": 13.8,
+          "long_pct": 47.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "c1e56552",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-change-order-fee-erosion-gc-margin-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #750 for 2026-09-08"
     }
   ],
-  "last_checked": "2026-09-02T14:05:00-07:00"
+  "last_checked": "2026-09-02T14:30:00-07:00"
 }
