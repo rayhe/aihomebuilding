@@ -45,7 +45,10 @@
       }
     },
     "primary_sources": 3,
-    "ship_after": "2026-09-02"
+    "ship_after": "2026-09-02",
+    "deferred_reason": "1/day gate active (4 publishes 2026-09-01 PT) + ship_after 2026-09-02 holds, deferring to 2026-09-02",
+    "deferred_at": "2026-09-02T03:02:29.277389+00:00",
+    "deferred_count_today": 4
   },
   "last_completed": 743,
   "last_published_at": "2026-09-01T21:03:39.361617Z",
@@ -261,5 +264,5 @@
       "slug": "residential-cost-overrun-ai-prediction-gap"
     }
   ],
-  "last_checked": "2026-09-02T01:09:06.917534+00:00"
+  "last_checked": "2026-09-02T03:02:29.277389+00:00"
 }
