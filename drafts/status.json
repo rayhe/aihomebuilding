@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "pge-span-edge-meter-electrification-2026",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-03T16:05:00-07:00",
-    "article_number": 764,
-    "ship_after": "2026-09-22"
-  },
+  "current": null,
   "last_completed": 756,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -1141,7 +1134,53 @@
       "research_file": "drafts/ai-heat-stress-wearables-calosha-federal-stall-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #762 queued for 2026-09-04 through 2026-09-20"
+    },
+    {
+      "article_number": 764,
+      "slug": "pge-span-edge-meter-electrification-2026",
+      "headline": "Your 100-Amp Panel Can't Run the Heat Pump and the EV. A $500 Meter Device Means It Doesn't Have To.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "ship_after": "2026-09-22",
+      "started": "2026-09-03T16:05:00-07:00",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 215.5,
+          "short_pct": 11.6,
+          "long_pct": 56.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "0697dc02",
+      "primary_sources": 5,
+      "research_file": "drafts/pge-span-edge-meter-electrification-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #763 queued for 2026-09-04 through 2026-09-21"
     }
   ],
-  "last_checked": "2026-09-03T16:05:00-07:00"
+  "last_checked": "2026-09-03T16:30:00-07:00"
 }
