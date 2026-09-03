@@ -858,7 +858,53 @@
       "research_file": "drafts/ai-pay-app-overbilling-front-load-detection-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #756 queued for 2026-09-04 through 2026-09-14"
+    },
+    {
+      "article_number": 758,
+      "slug": "ai-takeoff-shootout-residential-estimating-2026",
+      "headline": "Your Estimator Spent Two Days Measuring PDFs. The AI Finished Before Lunch, Then a Human Checked Its Math.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "ship_after": "2026-09-16",
+      "started": "2026-09-03T04:01:52-07:00",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 205.0,
+          "short_pct": 14.7,
+          "long_pct": 67.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "eea8e5e9",
+      "primary_sources": 9,
+      "research_file": "drafts/ai-takeoff-shootout-residential-estimating-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #757 queued for 2026-09-04 through 2026-09-15"
     }
   ],
-  "last_checked": "2026-09-03T02:30:00-07:00"
+  "last_checked": "2026-09-03T04:30:00-07:00"
 }
