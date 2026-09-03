@@ -812,7 +812,53 @@
       "research_file": "drafts/ai-envelope-optimization-free-orientation-triple-pane-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #755 queued for 2026-09-04 through 2026-09-13"
+    },
+    {
+      "article_number": 757,
+      "slug": "ai-pay-app-overbilling-front-load-detection-2026",
+      "headline": "Your Sub Billed 15% Ahead of the Work. That Was His Entire Profit, Paid Early.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "ship_after": "2026-09-15",
+      "started": "2026-09-03T02:01:52-07:00",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 212.0,
+          "short_pct": 6.1,
+          "long_pct": 43.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "ba952ec1",
+      "primary_sources": 10,
+      "research_file": "drafts/ai-pay-app-overbilling-front-load-detection-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #756 queued for 2026-09-04 through 2026-09-14"
     }
   ],
-  "last_checked": "2026-09-03T01:00:00-07:00"
+  "last_checked": "2026-09-03T02:30:00-07:00"
 }
