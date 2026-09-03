@@ -777,3 +777,13 @@ When you discover a new topic worth covering, add it here with:
 - Rule requires nondiscrimination compliance but lacks specific accuracy thresholds, testing protocols, or racial equity metrics
 - Journalist: Catherine Chen (policy & regulation beat)
 - **Published:** "Six Federal Agencies Wrote a Rule to Make AI Home Appraisals Fair. The First Individual-Level Study Found a $14,960 Racial Gap." (#570)
+
+### 74. 🟢 AI-Generated Plan Copyrightability Gap (Who Owns the Plans?)
+- USCO Part 2 AI Report (Jan 29, 2025): only human-determined expressive elements protected; prompts alone insufficient
+- Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. Mar 18, 2025): Copyright Act requires human authorship as statutory law
+- Zarya of the Dawn Review Board (2023): text + selection/arrangement protected, AI images not
+- AIS Designs v. J.J.S. Custom Built Homes (S.D. Tex.): ~$856K verdict shows enforcement value of registered human-authored plans
+- 17 U.S.C. § 504(c) ($150K/work willful) vs § 412 registration gate; Frantz Ward 5 AIA contract AI gaps; AIA 2024 ownership-dilemma article
+- Original contribution: plan-set copyrightability audit on hypothetical $800K home ($96K fee at 12%) sorting deliverables into likely-protected vs likely-unprotected
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Queued SHIP 2026-09-20 as #762:** "Your Architect Billed You $96,000 for Custom Plans. Federal Law Says Nobody Owns Them." (critique 8.87, round 1)
