@@ -996,7 +996,53 @@
       "research_file": "drafts/ai-solar-roof-timing-reroof-crossover-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #759 queued for 2026-09-04 through 2026-09-17"
+    },
+    {
+      "article_number": 761,
+      "slug": "ai-predrywall-scan-wall-archive-homeowner-2026",
+      "headline": "Your Builder Photographed Every Wire Before the Drywall Went Up. Now Ask for the Photos.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "ship_after": "2026-09-19",
+      "started": "2026-09-03T10:01:52-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 407.9,
+          "short_pct": 2.7,
+          "long_pct": 62.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "2d959baa",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-predrywall-scan-wall-archive-homeowner-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #760 queued for 2026-09-04 through 2026-09-18"
     }
   ],
-  "last_checked": "2026-09-03T08:30:00-07:00"
+  "last_checked": "2026-09-03T10:15:00-07:00"
 }
