@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "ai-envelope-optimization-free-orientation-triple-pane-2026",
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "article_number": 756,
-    "started": "2026-09-03T00:20:00-07:00"
-  },
+  "current": null,
   "last_completed": 753,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -772,7 +766,53 @@
       "research_file": "drafts/ai-asbestos-photo-screening-vermiculite-abatement-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12"
+    },
+    {
+      "article_number": 756,
+      "slug": "ai-envelope-optimization-free-orientation-triple-pane-2026",
+      "headline": "Your Architect Quoted $2,400 for Triple-Pane Windows. Turning the House Was Free.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP",
+      "ship_after": "2026-09-14",
+      "started": "2026-09-03T00:20:00-07:00",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 202.7,
+          "short_pct": 14.1,
+          "long_pct": 52.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "60394964",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-envelope-optimization-free-orientation-triple-pane-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #755 queued for 2026-09-04 through 2026-09-13"
     }
   ],
-  "last_checked": "2026-09-03T00:20:00-07:00"
+  "last_checked": "2026-09-03T00:45:00-07:00"
 }
