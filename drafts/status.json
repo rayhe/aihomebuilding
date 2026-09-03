@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "ai-jobsite-theft-cameras-insurance-discount-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-02T20:05:00-07:00",
-    "article_number": 754,
-    "ship_after": "2026-09-12"
-  },
+  "current": null,
   "last_completed": 753,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -682,7 +675,53 @@
       "research_file": "drafts/ai-greywater-home-water-recycling-payback-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #752 for 2026-09-10"
+    },
+    {
+      "article_number": 754,
+      "slug": "ai-jobsite-theft-cameras-insurance-discount-2026",
+      "headline": "Your Builder's Risk Insurer Will Cut Your Premium If You Point AI Cameras at the Lumber Pile",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP",
+      "ship_after": "2026-09-12",
+      "started": "2026-09-02T20:05:00-07:00",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 240.2,
+          "short_pct": 12.1,
+          "long_pct": 57.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "316f43ee",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-jobsite-theft-cameras-insurance-discount-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #753 for 2026-09-11"
     }
   ],
-  "last_checked": "2026-09-02T20:05:00-07:00"
+  "last_checked": "2026-09-02T20:30:00-07:00"
 }
