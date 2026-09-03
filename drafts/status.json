@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 747,
+  "last_completed": 753,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
@@ -629,7 +629,53 @@
       "research_file": "drafts/ai-translation-earbuds-bilingual-crew-rework-2026-research.md",
       "rounds": 2,
       "hold_reason": "1/day rule: publishes already on 2026-09-02 PT; #745 queued for 2026-09-03 through #751 for 2026-09-09"
+    },
+    {
+      "article_number": 753,
+      "slug": "ai-greywater-home-water-recycling-payback-2026",
+      "headline": "Your Laundry Makes 420 Gallons of Free Water a Week. You Are Sending It to the Sewer.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "ship_after": "2026-09-11",
+      "started": "2026-09-02T18:05:00-07:00",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 217.0,
+          "short_pct": 6.9,
+          "long_pct": 46.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "5fb9a3a8",
+      "primary_sources": 11,
+      "research_file": "drafts/ai-greywater-home-water-recycling-payback-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #752 for 2026-09-10"
     }
   ],
-  "last_checked": "2026-09-02T16:30:00-07:00"
+  "last_checked": "2026-09-02T18:30:00-07:00"
 }
