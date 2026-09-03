@@ -1,14 +1,5 @@
 {
-  "current": {
-    "article_number": 763,
-    "slug": "ai-heat-stress-wearables-calosha-federal-stall-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-03T14:05:00-07:00",
-    "research_file": "drafts/ai-heat-stress-wearables-calosha-federal-stall-2026-research.md",
-    "ship_after": "2026-09-21",
-    "headline_working": "Construction Is 7% of the Workforce and 38% of Heat Deaths. The Federal Rule Is Stalled and a Sensor Knows Before You Do."
-  },
+  "current": null,
   "last_completed": 756,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -1097,7 +1088,53 @@
       "research_file": "drafts/ai-generated-house-plans-copyright-nobody-owns-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #761 queued for 2026-09-04 through 2026-09-19"
+    },
+    {
+      "article_number": 763,
+      "slug": "ai-heat-stress-wearables-calosha-federal-stall-2026",
+      "headline": "Construction Holds 7% of Jobs and 38% of Heat Deaths. The Federal Rule Stalled, So an Armband Took the Shift.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP",
+      "ship_after": "2026-09-21",
+      "started": "2026-09-03T14:05:00-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 220.3,
+          "short_pct": 11.5,
+          "long_pct": 62.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "3ea6a108",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-heat-stress-wearables-calosha-federal-stall-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #762 queued for 2026-09-04 through 2026-09-20"
     }
   ],
-  "last_checked": "2026-09-03T14:05:00-07:00"
+  "last_checked": "2026-09-03T14:40:00-07:00"
 }
