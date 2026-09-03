@@ -662,7 +662,7 @@ When you discover a new topic worth covering, add it here with:
 - Journalist: Jake "Jackhammer" Kowalski (construction technology beat)
 - **In progress:** "Your Builder Promised October. The Data Says December. An AI Finally Measured How Wrong Construction Schedules Really Are."
 
-### 64. 🟡 AI Home Inspection Software: Three Tools Ship, Zero Liability Frameworks Follow
+### 64. 🟢 AI Home Inspection Software: Three Tools Ship, Zero Liability Frameworks Follow
 - Spectora (Denver): AI Report Assist — voice+photo→template matching, 25% time savings, 10,000+ inspectors. AI Scheduling Agent. MCP/API.
 - Palmtech 11: AI Image Defect Detector — scans photos for cracks, moisture. AI does visual analysis inspector may skip.
 - Alpine Intelligence (Colorado): Free ChatGPT-powered predictive forecaster — MLS data + permit history → predicted defects by home age/location.
@@ -670,7 +670,7 @@ When you discover a new topic worth covering, add it here with:
 - Liability gap: no state licensing framework mentions AI; E&O coverage ambiguous; CFPB addressed AVMs but not inspections.
 - Original contribution: economic pressure calculation ($17,300/yr additional revenue), three unresolved liability scenarios.
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
-- **In progress:** "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet."
+- **Published as #759:** "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet." (queued, ship_after 2026-09-17)
 
 ### 65. 🟡 AI Insurance Exclusion Coverage Gap in Residential Construction
 - ISO/Verisk CG 40 47 and CG 40 48: standardized AI exclusion for CGL policies, effective January 1, 2026
