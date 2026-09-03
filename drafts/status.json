@@ -1,14 +1,5 @@
 {
-  "current": {
-    "article_number": 755,
-    "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
-    "headline": "Your Flip\u2019s Attic Is Full of Gray Pebbles. Pulling Them Out Costs $12,000, and an AI Spotted Them From a Photo.",
-    "journalist": "Jake Kowalski",
-    "phase": "DRAFT",
-    "started": "2026-09-02T22:05:00-07:00",
-    "research_file": "drafts/ai-asbestos-photo-screening-vermiculite-abatement-2026-research.md",
-    "primary_sources": 6
-  },
+  "current": null,
   "last_completed": 753,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -730,7 +721,53 @@
       "research_file": "drafts/ai-jobsite-theft-cameras-insurance-discount-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #753 for 2026-09-11"
+    },
+    {
+      "article_number": 755,
+      "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
+      "headline": "Your Flip's Attic Is Full of Gray Pebbles. Pulling Them Out Costs $12,000, and an AI Spotted Them From a Photo.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "ship_after": "2026-09-13",
+      "started": "2026-09-02T22:05:00-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.3,
+          "short_pct": 3.4,
+          "long_pct": 58.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "61ffc437",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-asbestos-photo-screening-vermiculite-abatement-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12"
     }
   ],
-  "last_checked": "2026-09-02T22:05:00-07:00"
+  "last_checked": "2026-09-02T22:30:00-07:00"
 }
