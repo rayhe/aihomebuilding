@@ -267,8 +267,7 @@
       "slug": "ai-generator-sizing-oversize-trap-whole-house-2026",
       "headline": "Your Dealer Quoted a 24 kW Generator. Your House Needs 14.",
       "journalist": "Frank DeLuca",
-      "phase": "SHIP",
-      "ship_after": "2026-09-03",
+      "phase": "PUBLISHED",
       "started": "2026-09-02T02:01:52-07:00",
       "critique_score": 8.81,
       "critique_scores": {
@@ -306,7 +305,7 @@
       "primary_sources": 7,
       "research_file": "drafts/ai-generator-sizing-oversize-trap-whole-house-2026-research.md",
       "rounds": 0,
-      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT"
+      "published_at": "2026-09-03T07:02:42.171496+00:00"
     },
     {
       "article_number": 746,
@@ -769,5 +768,5 @@
       "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12"
     }
   ],
-  "last_checked": "2026-09-02T22:30:00-07:00"
+  "last_checked": "2026-09-03T00:05:00-07:00"
 }
