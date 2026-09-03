@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "pge-span-edge-meter-electrification-2026",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "started": "2026-09-03T16:05:00-07:00",
+    "article_number": 764,
+    "ship_after": "2026-09-22"
+  },
   "last_completed": 756,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -1136,5 +1143,5 @@
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #762 queued for 2026-09-04 through 2026-09-20"
     }
   ],
-  "last_checked": "2026-09-03T14:40:00-07:00"
+  "last_checked": "2026-09-03T16:05:00-07:00"
 }
