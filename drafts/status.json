@@ -1,15 +1,6 @@
 {
-  "current": {
-    "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "article_number": 773,
-    "started": "2026-09-04T10:15:00-07:00",
-    "research_file": "drafts/ai-simulator-rookie-crew-hiring-screening-2026-research.md",
-    "primary_sources": 7,
-    "round": 0
-  },
-  "last_completed": 771,
+  "current": null,
+  "last_completed": 773,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
@@ -1488,7 +1479,40 @@
       "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
       "rounds": 0,
       "completed": "2026-09-04"
+    },
+    {
+      "id": 773,
+      "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
+      "journalist": "Marcus Washington",
+      "headline": "A Third of the Crew Building Your House Has Been There Less Than a Year. The Simulator Grades Them in 20 Minutes.",
+      "ship_after": "2026-10-01",
+      "phase": "SHIP",
+      "critics": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.9,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 3.4,
+        "banned_phrases": 0,
+        "sentence_rhythm": {
+          "variance": 207.4,
+          "short_pct": 10.3,
+          "long_pct": 50.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "955cbaed",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-simulator-rookie-crew-hiring-screening-2026-research.md",
+      "rounds": 1,
+      "completed": null
     }
   ],
-  "last_checked": "2026-09-04T08:30:00-07:00"
+  "last_checked": "2026-09-04T10:45:00-07:00"
 }
