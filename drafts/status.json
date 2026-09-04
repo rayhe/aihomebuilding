@@ -1413,7 +1413,40 @@
       "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
       "rounds": 0,
       "completed": "2026-09-04"
+    },
+    {
+      "id": 771,
+      "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026",
+      "journalist": "Frank DeLuca",
+      "headline": "Your Framing Crew Stood Around for Four Hours Waiting on Lumber. The Delivery App Knew It Would Be Late.",
+      "ship_after": "2026-09-29",
+      "phase": "ship_ready",
+      "critics": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 11.3,
+        "banned_phrases": 0,
+        "sentence_rhythm": {
+          "variance": 173.7,
+          "short_pct": 25.4,
+          "long_pct": 16.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "f7e99fe7",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
+      "rounds": 1,
+      "completed": "2026-09-04"
     }
   ],
-  "last_checked": "2026-09-04T06:03:04.821988-07:00"
+  "last_checked": "2026-09-04T06:05:17.359753-07:00"
 }
