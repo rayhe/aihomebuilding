@@ -1,16 +1,6 @@
 {
-  "current": {
-    "id": 774,
-    "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
-    "journalist": "Jake Kowalski",
-    "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
-    "phase": "DRAFT",
-    "started": "2026-09-04T12:20:00-07:00",
-    "ship_after": "2026-10-02",
-    "research_file": "drafts/ai-exoskeleton-framing-crew-back-injury-2026-research.md",
-    "rounds": 0
-  },
-  "last_completed": 773,
+  "current": null,
+  "last_completed": 774,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
@@ -1522,7 +1512,55 @@
       "research_file": "drafts/ai-simulator-rookie-crew-hiring-screening-2026-research.md",
       "rounds": 1,
       "completed": null
+    },
+    {
+      "id": 774,
+      "article_number": 774,
+      "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
+      "journalist": "Jake Kowalski",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "phase": "SHIP",
+      "ship_after": "2026-10-02",
+      "started": "2026-09-04T12:20:00-07:00",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.9,
+          "short_pct": 11.1,
+          "long_pct": 60.3,
+          "passed": true
+        }
+      },
+      "hero_hash": "7118cf97",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-exoskeleton-framing-crew-back-injury-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-04T12:45:00-07:00",
+      "hold_reason": "1/day rule: #746 published 2026-09-04; #747 through #773 queued for 2026-09-05 through 2026-10-01"
     }
   ],
-  "last_checked": "2026-09-04T12:20:00-07:00"
+  "last_checked": "2026-09-04T12:45:00-07:00"
 }
