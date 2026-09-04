@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Neighbor's Trees Can't Legally Shade More Than 10% of Your Solar Panels. AI Can Now Prove It From a Satellite Photo. — AI Home Building</title>
+<link rel="stylesheet" href="../story.css">
+<meta property="og:title" content="Your Neighbor's Trees Can't Legally Shade More Than 10% of Your Solar Panels. AI Can Now Prove It From a Satellite Photo.">
+<meta property="og:description" content="California's 1978 Solar Shade Control Act gives your panels a property right against later-planted trees, but not against buildings. NREL-validated AI shade modeling turned an address into courtroom-grade evidence.">
+<meta property="og:image" content="../images/solar-shade-act-ai-shadow-model-2026.jpg?v=5c7aac27">
+<meta name="author" content="Catherine Chen">
+<meta name="published" content="September 4, 2026">
+</head>
+<body>
+<div class="story-page">
+<article class="story-body">
+<header>
+<h1>Your Neighbor's Trees Can't Legally Shade More Than 10% of Your Solar Panels. AI Can Now Prove It From a Satellite Photo.</h1>
+<div class="byline">By Catherine Chen, September 4, 2026, Policy & Regulation</div>
+<img src="../images/solar-shade-act-ai-shadow-model-2026.jpg?v=5c7aac27" alt="Rooftop solar panels on a California suburban home with long shadows from neighboring redwood trees falling across the array" class="hero-image">
+</header>
+
+<p>In 2008, two Sunnyvale residents discovered that their trees had made them violators of state law.</p>
+
+<p>Their eight coast redwoods shaded a neighbor's rooftop solar array, and a judge ruled the trees ran afoul of California's Solar Shade Control Act. Two of the redwoods had to come down even though the trees were there first, and after Sacramento noticed the uproar, Governor Schwarzenegger signed a fix establishing "first come, first served," under which vegetation predating the panels stays while vegetation planted or grown afterward that takes more than a tenth of the collector during midday hours has to be cut.</p>
+
+<p>That was eighteen years ago, and the law it amended has been on the books since 1978, though almost nobody building, buying, or remodeling a home in California knows what it says. That obscurity is a shame, because the statute is one of the few in America that treats sunlight as something close to a property right, and artificial intelligence just made it enforceable in a way the drafters never imagined.</p>
+
+<p>Sunlight has a statute.</p>
+
+<h2>What the code actually says</h2>
+
+<p>Public Resources Code sections 25980 through 25986 read like they were written by engineers who wandered into a legislature. Once a solar collector goes up, nobody owning or controlling a neighboring property may allow a tree or shrub to be placed, or if placed, to grow, so that it casts a shadow over more than 10 percent of the collector's absorption area at any moment between 10 a.m. and 2 p.m. local standard time. Every clause repays a slow reading, and the <a href="https://law.justia.com/codes/california/2021/code-prc/division-15/chapter-12/section-25980/">full text is on Justia</a>.</p>
+
+<p>Ten percent, not "some"; a four-hour window centered on solar noon, not all day; trees and shrubs only. And the protection runs in a single direction: whatever was there before the panels keeps its place in the sun.</p>
+
+<p>Paperwork comes with the statute. Since the 2008 amendment (<a href="http://leginfo.ca.gov/pub/07-08/bill/sen/sb_1351-1400/sb_1399_bill_20080722_chaptered.html">SB 1399</a>), anyone planning an installation can send neighbors a certified-mail "SOLAR SHADE CONTROL NOTICE" up to 60 days before the install, naming the address, the parcel number, and the date, at the cost of postage, timestamping priority in a way almost no installer mentions.</p>
+
+<p>One more clause, the one that ruins dinner parties: any city or county can exempt itself from the entire chapter by majority vote. Before citing this law at a neighbor, check whether your jurisdiction opted out. Your feelings do not matter to the code, and it does not apply where it was voted away.</p>
+
+<h2>The part the law skips is the bigger story</h2>
+
+<p>Now the sentence that should change how you think about this statute. It comes from a California State Parks review of the state's solar access laws: "No similar law exists to prevent new or modified structures on an adjacent property from shading an existing solar energy system." That review is <a href="http://ohp.parks.ca.gov/pages/1054/files/Solar%20Rights%20Act-A%20Review%20of%20Statutes%20and%20Relevant%20Cases.pdf">publicly available</a>, and that sentence is doing more work than the rest of the document combined.</p>
+
+<p>Trees the legislature restrained; buildings it left alone. Your neighbor's fully permitted second story can shade half your array at noon and the Solar Shade Control Act has nothing to say about it. What remains is a solar easement, a voluntary agreement recorded against the neighboring parcel under Civil Code sections 801 and 801.5, where voluntary is the load-bearing word, since it requires the neighbor's signature, which is the one thing you cannot compel.</p>
+
+<p>Courts have been equally unsentimental toward sunlight claims. In 1986, the California Court of Appeal decided <a href="http://www.quimbee.com/cases/sher-v-leiderman">Sher versus Leiderman</a>: a couple leasing adjacent lots on Stanford land watched their neighbors' trees grow until their passive-solar home went, in the record's words, dark and dreary. They claimed $15,000 to $45,000 in lost market value and lost on every count, the court holding both that blocking sunlight is not a private nuisance in California and that the Shade Control Act protects only active collectors, meaning devices that convert sun into hot water, space conditioning, or electricity. South-facing windows, however cleverly designed, are not collectors, which leaves the rule brutally simple: no panels, no claim.</p>
+
+<p>So the law draws a bright line around a narrow thing, active solar collectors shaded by later vegetation during four midday hours past ten percent, and everything else is negotiation.</p>
+
+<h2>The proof problem, and what solved it</h2>
+
+<p>For most of the statute's life, the practical barrier was evidence, since demonstrating that a neighbor's redwood covers 11 percent of your absorption area at 11:40 a.m. meant hiring someone with a fisheye shade meter to stand on your roof, a few hundred dollars a visit, on a clear day, repeated as the tree kept growing. That barrier is gone. No ladder required.</p>
+
+<p>Aurora Solar builds a three-dimensional model of any rooftop from LiDAR data or satellite imagery using computer vision, then simulates the sun's path across it. Under a Department of Energy SunShot grant, the National Renewable Energy Laboratory ran a blind study comparing Aurora's remote shading analysis against on-site measurements in Los Angeles and Denver. NREL's <a href="https://www.nrel.gov/docs/fy16osti/65558.pdf">fact sheet</a> reports the remote analysis matched physical measurements within 3 percent where LiDAR was available and within about 5 percent on satellite imagery alone.</p>
+
+<p>An address now buys what used to require a ladder. Your installer's shade report, already generated to design the system, doubles as a timestamped baseline of your solar access. Rerun it a year later and the neighbor's eucalyptus has to answer for its growth in numbers.</p>
+
+<h2>Why the four-hour window is smarter than it looks</h2>
+
+<p>Here is the cross-reference nobody seems to have published. NREL's field research on residential shading found that a typical home loses around a fifth of its annual solar irradiance to shade, with the losses concentrated in the morning and late-afternoon shoulders, roughly 6 to 10 a.m. and 2 to 6 p.m. (see <a href="https://www.nrel.gov/docs/fy10osti/49504.pdf">NREL's shading characterization</a>). The statute ignores those shoulders entirely and protects only the four hours around solar noon.</p>
+
+<p>That is not a gap in the law; it is the point, since the protected window is the high-irradiance core of the day, when each shaded square foot costs the most kilowatt-hours. Ten percent of a collector during those four hours represents far more than ten percent of daily production. The legislature, intentionally or not, protected the most valuable sunlight and left the cheap stuff unregulated.</p>
+
+<p>Only the expensive sunlight got protection.</p>
+
+<p>To run the stakes, take an 8-kilowatt residential array in California producing roughly 12,000 kilowatt-hours a year. Assumption one: your azimuth, tilt, and soiling will move this number. Let a neighbor's tree growth push midday shade from nothing to about 12 percent of the collector. NREL's measured range for partial-shading losses on homes runs 10 to 20 percent a year (<a href="https://www.nrel.gov/docs/fy15osti/63765.pdf">Deline's module-level study</a>), so call the damage 10 to 12 percent of annual output: 1,200 to 1,440 kilowatt-hours a year. Assumption two: shaded area maps linearly to lost energy, which flatters reality slightly, since shaded cells drag down whole strings.</p>
+
+<p>At 30 cents per kilowatt-hour, a reasonable figure for California residential rates, that is $360 to $430 a year, or roughly $9,000 to $10,800 over a 25-year module life, from one untrimmed tree. One tree.</p>
+
+<p>Two honest adjustments follow. Under California's current net billing tariff, a midday kilowatt-hour you export is worth a few cents, not thirty; the thirty-cent math holds for energy you consume yourself, which is why pairing the array with a battery changes the value of the shade fight. And every input above is yours to replace: system size, actual production, your utility's tariff, because the method is the point, not the number.</p>
+
+<h2>The skepticism this deserves</h2>
+
+<p>A few cold facts before anyone prints the statute and marches next door.</p>
+
+<p>In 48 years, this law has produced a thin scattering of reported disputes. Most shade conflicts end with a conversation and a chainsaw, not a courtroom. That makes the AI evidence less a trial exhibit than leverage: a certified letter with a modeled shade report attached tends to concentrate a neighbor's mind.</p>
+
+<p>Paper beats memory.</p>
+
+<p>At the margin, the accuracy math gets uncomfortable. Satellite-based modeling carries around 5 percent of uncertainty against a 10 percent legal threshold. A model reading of 11 percent might be a true 8. If a claim lives within a few points of the line, pay for the on-site survey before sending the legal threat. Never threaten on eleven percent. LiDAR-based readings, at 3 percent, are the ones to lean on.</p>
+
+<p>Still, the building gap remains the real story, since nothing in this chapter stops a permitted addition from shading an array into irrelevance, and easements require cooperation. What the model offers there is not a cause of action but a number: the quantified kilowatt-hour loss that turns a neighborly ask, or a recorded easement negotiation, from vibes into arithmetic. Numbers negotiate.</p>
+
+<p>Trees grow slowly, which means the highest-value use of today's model is not winning today's argument but timestamping today's baseline, so the argument three years from now starts from evidence instead of memory.</p>
+
+<h2>What to actually do</h2>
+
+<p>If you are installing solar in California, have the installer send the certified Solar Shade Control Notice to adjoining owners before installation day, and keep a dated copy of the installer's shade model with it. Total cost: postage and a PDF you already paid for.</p>
+
+<p>If you are buying a home with solar, or with a roof you intend to panel, get a remote shade analysis for the address and walk the neighboring lots. Look for fast-growing species planted after the array's install date. Then check whether your city opted out of the Act. The exemption is a public record.</p>
+
+<p>If you are designing an addition next to a solar neighbor, model your massing's shadow path before submitting plans. No statute can touch your building, but the neighbor's attorney, handed a modeled production loss, can still make life interesting. A proactive conversation backed by numbers beats a reactive one backed by lawyers.</p>
+
+<p>If you are already in a tree dispute, assemble the package: the certified notice, a LiDAR-based shade model showing the 10 percent line crossed between 10 and 2, and dated imagery showing the growth trend. That is what enforcement looks like in 2026: a 1978 law, a satellite photo, and arithmetic.</p>
+
+<h2>Limitations of this analysis</h2>
+
+<p>No public dataset counts how many shade-control notices get mailed or how many disputes the Act resolves quietly; the enforcement picture is inferred from thin case law. The NREL accuracy figures come from a vendor-partnered incubator study, blind but not independently replicated, while the dollar arithmetic rests on assumed system size, yield, and tariff, with the export value of lost midday energy under net billing sitting far below the retail rate used above. This article is not legal advice, and California shade disputes hold enough edge cases, pre-1979 plantings, exempted jurisdictions, passive-solar heartbreak, to merit an actual attorney before anyone sends anything certified.</p>
+
+<p>Hire the lawyer.</p>
+
+</article>
+</div>
+</body>
+</html>
