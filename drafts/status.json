@@ -1,14 +1,6 @@
 {
-  "current": {
-    "id": 768,
-    "slug": "zone-zero-five-feet-ai-inspection-2026",
-    "journalist": "Elena Vasquez",
-    "phase": "critique",
-    "started": "2026-09-04",
-    "scheduled": "2026-09-26",
-    "research_file": "drafts/zone-zero-five-feet-ai-inspection-2026-research.md"
-  },
-  "last_completed": 756,
+  "current": null,
+  "last_completed": 768,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
@@ -1326,6 +1318,35 @@
       "research_file": "drafts/sb800-right-to-repair-ai-defect-paper-trail-2026-research.md",
       "rounds": 2,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #766 queued for 2026-09-04 through 2026-09-24"
+    },
+    {
+      "id": 768,
+      "slug": "zone-zero-five-feet-ai-inspection-2026",
+      "journalist": "Elena Vasquez",
+      "headline": "The Five Feet Around Your House Are Now Fire Code. 2.1 Million California Homes Have Three Years to Redesign Them.",
+      "ship_after": "2026-09-26",
+      "phase": "ship_ready",
+      "critics": {
+        "general": 9.0,
+        "voice": 8.7,
+        "ethics": 9.2,
+        "social": 8.8,
+        "legal": 9.5,
+        "rigor": 9.3,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 0.0,
+        "banned_phrases": 0,
+        "sentence_rhythm": {
+          "variance": 218.1,
+          "short_pct": 10.1,
+          "long_pct": 45.5,
+          "passed": true
+        }
+      },
+      "completed": "2026-09-04"
     }
   ],
   "last_checked": "2026-09-04T05:30:00+00:00"
