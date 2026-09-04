@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 774,
+  "last_completed": 775,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
     {
@@ -1560,7 +1560,55 @@
       "rounds": 0,
       "completed": "2026-09-04T12:45:00-07:00",
       "hold_reason": "1/day rule: #746 published 2026-09-04; #747 through #773 queued for 2026-09-05 through 2026-10-01"
+    },
+    {
+      "id": 775,
+      "article_number": 775,
+      "slug": "ai-digital-twin-home-warranty-carfax-digs-2026",
+      "journalist": "Frank DeLuca",
+      "headline": "Your House Just Got a CarFax. Ask Your Builder What's in It.",
+      "phase": "SHIP",
+      "ship_after": "2026-10-03",
+      "started": "2026-09-04T14:15:00-07:00",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.9,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.7,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 205.6,
+          "short_pct": 5.0,
+          "long_pct": 80.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "08d57925",
+      "primary_sources": 4,
+      "research_file": "drafts/ai-digital-twin-home-warranty-carfax-digs-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-04T14:35:00-07:00",
+      "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #774 queued for 2026-09-05 through 2026-10-02"
     }
   ],
-  "last_checked": "2026-09-04T12:45:00-07:00"
+  "last_checked": "2026-09-04T14:35:00-07:00"
 }
