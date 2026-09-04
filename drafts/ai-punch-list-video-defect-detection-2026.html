@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You Walked the House Twice. Your Phone Found 31 Things You Missed. — AI Home Building</title>
+<link rel="stylesheet" href="../story.css">
+<meta property="og:title" content="You Walked the House Twice. Your Phone Found 31 Things You Missed.">
+<meta property="og:description" content="AI punch-list tools turn a 10-minute narrated walkthrough video into a trade-sorted defect list. Jake Kowalski runs the callback math and asks what happens when the model misses the one that matters.">
+<meta property="og:image" content="../images/ai-punch-list-video-defect-detection-2026.jpg?v=b8515960">
+<meta name="author" content="Jake Kowalski">
+<meta name="published" content="September 3, 2026">
+</head>
+<body>
+<div class="story-page">
+<article class="story-body">
+<header>
+<h1>You Walked the House Twice. Your Phone Found 31 Things You Missed.</h1>
+<div class="byline">By Jake Kowalski, September 3, 2026, Construction Technology</div>
+<img src="../images/ai-punch-list-video-defect-detection-2026.jpg?v=b8515960" alt="A superintendent filming a walkthrough video on a smartphone inside a nearly finished home, with AI callouts marking paint defects and trim gaps on screen" class="hero-image">
+</header>
+
+<p>Picture the final walk. The super has a clipboard, a blue tape roll, and forty-five minutes before the buyers show up with their agent and a mood. He moves room to room, sticking tape on a scuffed baseboard here, a drywall ding there, a caulk gap behind the powder room toilet that he only caught because he dropped his pen. He finds nineteen items. He feels good about nineteen items.</p>
+
+<p>There were fifty.</p>
+
+<p>I am not guessing. That gap between what tired human eyes catch at 4 PM on a Friday and what is actually wrong with a six-hundred-thousand-dollar product is the most expensive blind spot in residential construction, and a new crop of tools is trying to close it with the thing already in the super's pocket. Not a laser scanner. Not a $20,000 rig. His phone.</p>
+
+<h2>Talk at the house, get a punch list back</h2>
+
+<p><a href="https://tech.einnews.com/pr_news/906507117/walkpunch-launches-ai-powered-punch-list-tool-that-converts-job-site-videos-into-trade-sorted-action-items">WalkPunch launched this spring</a> from a small shop called Archieboy Holdings, and the pitch is almost insultingly simple. You walk the house shooting video on your smartphone and you narrate like you are leaving a voicemail for your future self. "Master bath, grout cracked at the curb, tile guy." "Kitchen island, pendant hangs crooked, electrician." Upload the video and the platform transcribes your narration, pulls out the punch items, figures out which trade each one belongs to, grabs still frames as evidence, and spits out vendor-ready PDFs. Pro bundles everything into a ZIP sorted by trade, which is the part that made me sit up, because sorting 200 punch items by subcontractor is the soul-crushing admin work that turns supers into data entry clerks.</p>
+
+<p>It also works for warranty visits. Per the company, a quick video walkthrough can replace a formal site visit report, and for once the marketing copy describes something I have watched supers actually do with their phones already, just without the AI doing the paperwork after.</p>
+
+<p>Now the price, because that is where this gets interesting. Free tier: one project, one walkthrough, ten items, basically a demo. Starter: twenty-nine bucks a month, unlimited everything, email PDFs straight to vendors. Pro: seventy-nine a month, adds the trade-sorted ZIP. Compare that against the incumbents <a href="https://safetyculture.com/apps/punch-list-software">SafetyCulture rounded up this year</a>: Fieldwire at fifty-four dollars per user per month, SafetyCulture itself at twenty-four per seat, Bluebeam at two-sixty per user. WalkPunch Starter costs less than a single Fieldwire seat and does the one thing Fieldwire still makes you do by hand: turning observations into organized, assigned items.</p>
+
+<p>Twenty-nine dollars. That is not a software purchase, that is a rounding error on a lumber package.</p>
+
+<h2>Why the list matters more than the tool</h2>
+
+<p>Some context on what a missed punch item actually costs, because "AI finds more defects" only matters if defects are expensive. They are.</p>
+
+<p><a href="https://www.warrantyweek.com/archive/ww20250417.html">WarrantyWeek's 2025 report</a>, built from the actual SEC filings of 27 publicly traded homebuilders, puts 2024 warranty claims paid at $1.071 billion. Billion, with a B, for one year, just the public builders. Hovnanian's claims jumped 45 percent year over year, from $22 million to $32 million. Every one of those dollars started life as something somebody didn't catch at the walkthrough, or caught and didn't document well enough to get fixed before closing.</p>
+
+<p>For builders who actually track this stuff, <a href="https://www.builderonline.com/article/callbacks-revisited_o">Joe Stoddard's reporting at BuilderOnline</a> puts the hard cost of callbacks at 1 to 2 percent of sales, plus roughly $500 per home in soft costs just to administer warranty work. The case study that stuck with me: Arvida in Florida, $415 million in sales, processed around 20,000 warranty requests representing 40,000 line items in a year, and got the average line-item cost down to $98.05 by keeping warranty techs in-house. Ninety-eight bucks a pop sounds cheap until you multiply it by forty thousand.</p>
+
+<p>So here is the math the WalkPunch pricing begs you to do. Starter costs $348 a year. At Arvida's $98 per line item, avoiding four callbacks a year pays for it. Four. A super who catches one extra legitimate defect per quarter, stuff that would have become a truck roll in month eight, is money ahead. And that is before you count the soft costs, the super's afternoons burned driving back to houses, the review that mentions the thing nobody fixed.</p>
+
+<p>Cheap tool, expensive problem. My favorite kind of asymmetry.</p>
+
+<h2>The vision research is real, and it is not about your baseboards</h2>
+
+<p>Underneath the transcription trick sits a serious body of computer vision research, and I want to give it its due before I start throwing elbows, because the numbers are genuinely impressive.</p>
+
+<p>A 2024 paper in MDPI Applied Sciences <a href="https://www.mdpi.com/2076-3417/14/10/4148/xml">ran an improved Mask R-CNN over concrete defects</a>, cracks, spalling, exposed rebar, efflorescence, voids, and reported 95.6 percent precision with 95.8 percent recall. A 2026 Springer paper <a href="https://link.springer.com/article/10.1186/s43251-025-00194-0">put YOLOv8 on prestressed concrete beams</a>: 94.8 percent precision, 92.3 percent recall, running at 32 frames per second. An earlier MDPI Sensors study <a href="https://www.mdpi.com/1424-8220/18/10/3452/xml">tested a crack classifier on real job-site photos and drone video</a> and still held 88 to 92 percent precision outside the lab. At finding cracks in concrete, the machines are legitimately good.</p>
+
+<p>And then there is the guy who just built one in his garage, metaphorically. <a href="https://dev.to/sergius_tech/-how-i-built-an-ai-bot-for-electrical-inspection-5eeg">An electrical veteran with fifteen years in the trade wrote up his DIY inspection bot last month</a>: YOLOv8 plus a similarity search, running in Telegram, trained on five hundred photos of violations he collected himself. Send it a photo of a panel and it flags missing cable tags, bad earthing, unsealed penetrations. Total operating cost: seven to twenty-five bucks a month in cloud hosting. No app to install, no training course, no enterprise license. A foreman could use it today.</p>
+
+<p>That story matters more than the academic papers, because it shows where this technology actually lives now. Not in the lab. In a Telegram chat, for the price of lunch.</p>
+
+<h2>Now the elbows</h2>
+
+<p>All those 90-percent-plus numbers share a catch that the papers state plainly and the vendors skip: they were measured on concrete. Cracks, spalling, exposed rebar. Structural defects with strong visual signatures and big labeled datasets behind them.</p>
+
+<p>Your punch list is not concrete cracks. Your punch list is a paint holiday on the stairwell wall that only shows at 4 PM when the sun hits it sideways. It is a tile lippage of two millimeters that your fingertip finds and a camera never will. It is a caulk line with a one-inch gap behind a toilet, a door that rubs the jamb only in August, a GFCI that trips when the espresso machine and the microwave run together. The visual domain of finish defects is wildly different from structural defects, and the labeled training data for "proud drywall screw, eggshell finish, bad lighting" basically does not exist. Nobody should let a vendor launder concrete-crack accuracy numbers into implied baseboard accuracy. Different sport.</p>
+
+<p>Then there is the false positive problem, which the industry is already tripping over. <a href="https://www.sityos.com/sites/default/files/documents/2026-07/ai-punch-list-defect-tracking-spacecapture-procore-n8n_en.pdf">Sityos AI published a whitepaper this summer</a> on piping AI defect detection into Procore, claiming a 70 percent cut in punch-list time, and buried in it is the most honest sentence in the whole document: batch minor defects into a single weekly item per trade, because too many notifications make subs start ignoring the channel. Read that again. The vendor's own deployment guide admits the AI over-flags badly enough that subcontractors tune it out. A punch list that cries wolf is worse than a short one, because the drywaller who ignored twelve AI-generated scuff alerts will also ignore the thirteenth, which was the actual leaking shower pan.</p>
+
+<p>And that brings the liability question nobody has answered. When the AI misses the shower pan and it becomes a $30,000 warranty claim in month nine, who owns it? The builder signed the walkthrough, not the model. Vendor terms of service will call the tool advisory. The homeowner's lawyer will say the builder had a 200-item AI-generated list and still missed the big one, which somehow sounds worse than missing it with a clipboard. I do not know how this plays out. I know the first deposition will be fascinating.</p>
+
+<p>One more thing the automation pitch gets wrong: a punch list is not just a defect list. It is a negotiation document. Buyers use it as leverage before closing. Builders triage it by cost and by which sub they can get back on site. Supers quietly decide that the tiny grout crack in the laundry room is getting fixed and the philosophical disagreement about orange-peel texture is not. Automating the generation of the list does not automate any of that judgment. It just gives everyone a longer starting document to argue about, which, to be fair, might be exactly what the buyer wants.</p>
+
+<h2>What I would actually do</h2>
+
+<p>I like this category. I am skeptical of every specific claim in it. Both can be true. If I were running a custom shop building ten to twenty-five homes a year, here is the playbook:</p>
+
+<p>Pay the twenty-nine dollars. It is the cheapest experiment in your tech stack. But narrate your walkthrough video like you are training the person who will watch it, because the transcription is what assigns trades, and mumbling "yeah, this thing here" generates a punch item assigned to nobody.</p>
+
+<p>Batch the cosmetics. Send structural, mechanical, electrical, and plumbing items immediately and individually. Roll every paint touch-up and caulk gap into one weekly item per trade. Your subs will actually read the second kind. This is the Sityos whitepaper's best idea, and it is free.</p>
+
+<p>Never let the AI list go straight to subs unreviewed. Every item gets super approval first, every time. The minute an auto-generated list hits a trim carpenter's inbox with forty bogus flags, you have lost him, and getting a sub's attention back is harder than getting it the first time.</p>
+
+<p>Buyers, this one's for you: shoot your own walkthrough before closing. Your phone, your narration, your copy. Expect the builder's list and yours to differ. Yours is leverage. Store the video somewhere you will find it in month eleven, because the one-year warranty inspection is where punch lists go to get their sequel, and "here is the video from closing" ends arguments.</p>
+
+<p>And keep the human final walk. The AI is a second set of eyes that never gets tired and never needs lunch. It is not a substitute for the judgment of someone who has watched houses settle, leak, and crack for twenty years and knows which tiny defect is a harbinger and which is just a Tuesday. Use the machine to make the list longer. Use the human to decide what the list means.</p>
+
+<p>The super with the clipboard found nineteen items and felt good. The phone found fifty-one, of which maybe thirty matter. Thirty is better than nineteen. I will take that trade all day, as long as somebody who knows what a house is still reads the list before it goes out.</p>
+</article>
+</div>
+</body>
+</html>
