@@ -1446,7 +1446,40 @@
       "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
       "rounds": 1,
       "completed": "2026-09-04"
+    },
+    {
+      "id": 772,
+      "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026",
+      "journalist": "Marcus Washington",
+      "headline": "Your Office Manager Costs $48,000 a Year. The AI That Answers Her Phone Costs $200 a Month.",
+      "ship_after": "2026-09-30",
+      "phase": "ship_ready",
+      "critics": {
+        "general_editor": 8.9,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 1.5,
+        "banned_phrases": 0,
+        "sentence_rhythm": {
+          "variance": 212.9,
+          "short_pct": 12.3,
+          "long_pct": 60.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "df4742f3",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-04"
     }
   ],
-  "last_checked": "2026-09-04T06:07:17.271555-07:00"
+  "last_checked": "2026-09-04T08:30:00-07:00"
 }

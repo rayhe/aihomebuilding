@@ -654,13 +654,13 @@ When you discover a new topic worth covering, add it here with:
 - **Published:** "One in Three Workers Speaks Spanish. The Safety Briefing Was in English. The AI Translator Costs Less Than the Funeral." (Marcus Washington)
 - Journalist: Marcus "Steel" Washington (workforce & labor beat)
 
-### 63. 🟡 Buildots Intelligence Lab: First AI-Powered Construction Benchmarks
+### 63. 🟢 Buildots Intelligence Lab: First AI-Powered Construction Benchmarks
 - Buildots Intelligence Lab launched June 25, 2026 — first AI-powered construction research hub publishing freely available benchmarks
 - Key findings: final 20% of any activity takes 27% of duration (long-tail effect), 20-50% MEP output gap, top teams 3x faster, schedule adherence 39-65% by type
 - Original contribution: calculated ~$1,066/home carrying cost from long-tail effect on 6.3-month residential timeline
 - No residential-specific data yet — only commercial (data centers, healthcare, education)
 - Journalist: Jake "Jackhammer" Kowalski (construction technology beat)
-- **In progress:** "Your Builder Promised October. The Data Says December. An AI Finally Measured How Wrong Construction Schedules Really Are."
+- **Published:** "Your Builder Promised October. The Data Says December. An AI Finally Measured How Wrong Construction Schedules Really Are."
 
 ### 64. 🟢 AI Home Inspection Software: Three Tools Ship, Zero Liability Frameworks Follow
 - Spectora (Denver): AI Report Assist — voice+photo→template matching, 25% time savings, 10,000+ inspectors. AI Scheduling Agent. MCP/API.
@@ -672,7 +672,7 @@ When you discover a new topic worth covering, add it here with:
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Published as #759:** "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet." (queued, ship_after 2026-09-17)
 
-### 65. 🟡 AI Insurance Exclusion Coverage Gap in Residential Construction
+### 65. 🟢 AI Insurance Exclusion Coverage Gap in Residential Construction
 - ISO/Verisk CG 40 47 and CG 40 48: standardized AI exclusion for CGL policies, effective January 1, 2026
 - ISO forms underpin ~82% of U.S. property and casualty insurance policies (Cohen Seglias)
 - Philadelphia Insurance and Hamilton Select: already excluding AI-related claims from E&O coverage
@@ -685,7 +685,7 @@ When you discover a new topic worth covering, add it here with:
 - Risk Specialty Group 4-step policy audit for renewal
 - Original contribution: connecting insurance exclusion movement to residential builder's uninsured exposure gap
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
-- **In progress:** "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage."
+- **Published:** "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage." (#739, 2026-08-31)
 
 ### 66. 🟢 AI Concrete Maturity Sensors for Residential Foundations
 - Giatec SmartRock3 ($150/sensor), Maturix (Saint-Gobain, $15/use thermocouple), WaveLogix REBEL (AASHTO T 412-24)
@@ -733,7 +733,7 @@ When you discover a new topic worth covering, add it here with:
 - Journalist: Catherine Chen (policy & regulation beat)
 - **Published:** "Congress Just Passed the Biggest Housing Bill in a Generation. Most of It Is Optional." (#508)
 
-### 70. 🟡 DOE Zero Energy Home Program Rename & Net-Zero Marketing Gap
+### 70. 🟢 DOE Zero Energy Home Program Rename & Net-Zero Marketing Gap
 - DOE renamed "Zero Energy Ready Home" to "DOE Efficient New Homes" in late 2025 — dropped "zero" from program name
 - HERS Index baseline is 2006 IECC — modern code homes score ~70 automatically, inflating savings claims
 - 12,000+ ZERH-certified homes; only ~1% of Meritage buyers (10K homes/yr) add enough solar for actual net-zero
@@ -743,7 +743,7 @@ When you discover a new topic worth covering, add it here with:
 - Green Built Alliance uses HERS ≤15 (not 0) as net-zero threshold
 - Sources: DOE, RESNET, NIST, LBNL, Green Builder Media, HousingWire, Wood Mackenzie, EnergySage, Builder, ULI
 - Journalist: Priya Greenwood (sustainability beat)
-- **Draft:** "The Government Renamed Its 'Zero Energy' Home Program. The Word It Dropped Was 'Zero.'" (#537)
+- **Published:** "The Government Renamed Its 'Zero Energy' Home Program. The Word It Dropped Was 'Zero.'"
 
 ### 71. 🟢 AI Panel Photo Analysis and Electrification Readiness Gap
 - Qmerit Panel Insights™: AI reads single photo of electrical panel, determines capacity and electrification readiness
@@ -787,3 +787,16 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: plan-set copyrightability audit on hypothetical $800K home ($96K fee at 12%) sorting deliverables into likely-protected vs likely-unprotected
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Queued SHIP 2026-09-20 as #762:** "Your Architect Billed You $96,000 for Custom Plans. Federal Law Says Nobody Owns Them." (critique 8.87, round 1)
+
+### 75. 🟢 AI Voice Agents as Contractor Receptionists: Missed-Call Economics & Office Labor Displacement
+- Missed calls: 30-50% during busy periods (Contractor+ 2026); 25-35% of potential revenue (CallRail benchmark via Hook Agency); 90%+ answer rate = 23% more/month revenue
+- Answered-call conversion 40-70% vs voicemail 1-2%; 45% of voicemail leavers book a competitor before callback (dialfyne 2026, sourcing ServiceTitan/PATLive/AMBS/HBR)
+- AI receptionist <$200/mo 24/7 vs $35-50K/yr human ($99/call vs $4.74/call, NextPhone 2026); live answering $2-4/min; AI adoption up 47% YoY
+- TradeWorks AI May 2026: contractor AI adoption doubled 17%->38%; voice agents recover 28-30% of missed leads; early adopters +48% productivity
+- AI-first + human escalation = 92% satisfaction, highest of any model (AI Answering Review Q1 2026); 62% of SMB calls unanswered
+- FieldCamp AI Dispatcher: 15-tech HVAC shop 32->45 jobs/week same headcount, $3,200/mo saved vs dispatcher
+- Google I/O 2026: "Ask Google to Call Local Businesses" - AI agent calls contractors on behalf of customers (home repair/HVAC/pest control)
+- Voice AI market: $2.4B (2024) -> $47.5B (2034), 34.8% CAGR (Market.us via DesignRush)
+- Original contribution: missed-call math for 10-tech shop ($97K/yr lost, break-even one call/quarter); quiet displacement via hiring freezes, gendered office-labor impact
+- Journalist: Marcus "Steel" Washington (workforce & labor beat)
+- **Queued SHIP 2026-09-30 as #772:** "Your Office Manager Costs $48,000 a Year. The AI That Answers Her Phone Costs $200 a Month." (critique avg 8.84, round 0)
