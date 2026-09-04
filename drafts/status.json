@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-concrete-carbon-mix-optimization-2026",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "started": "2026-09-04T11:02:55.916660+00:00"
+  },
   "last_completed": 769,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -1383,5 +1388,5 @@
       "hold_reason": "1/day rule: 2026-09-04 slot held by ai-deconstruction-salvage-inventory-teardown-lumber-2026; queue tail was 2026-09-26"
     }
   ],
-  "last_checked": "2026-09-04T05:30:00+00:00"
+  "last_checked": "2026-09-04T11:10:00+00:00"
 }
