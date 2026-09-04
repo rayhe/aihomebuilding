@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "ai-concrete-carbon-mix-optimization-2026",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-04T11:02:55.916660+00:00"
-  },
+  "current": null,
   "last_completed": 769,
   "last_published_at": "2026-09-02T07:03:46.685696+00:00",
   "ship_ready": [
@@ -1386,7 +1381,40 @@
       "rounds": 1,
       "completed": "2026-09-04",
       "hold_reason": "1/day rule: 2026-09-04 slot held by ai-deconstruction-salvage-inventory-teardown-lumber-2026; queue tail was 2026-09-26"
+    },
+    {
+      "id": 770,
+      "slug": "ai-concrete-carbon-mix-optimization-2026",
+      "journalist": "Priya Greenwood",
+      "headline": "Your Foundation Poured 14 Tons of CO2 Before the Walls Existed. An Algorithm Can Erase a Third of It.",
+      "ship_after": "2026-09-28",
+      "phase": "ship_ready",
+      "critics": {
+        "general": 8.8,
+        "voice": 8.7,
+        "ethics": 9.0,
+        "social": 8.7,
+        "legal": 8.9,
+        "rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 1,
+        "the_starters_pct": 13.6,
+        "banned_phrases": 0,
+        "sentence_rhythm": {
+          "variance": 200.7,
+          "short_pct": 13.5,
+          "long_pct": 45.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "f6961564",
+      "primary_sources": 9,
+      "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-04"
     }
   ],
-  "last_checked": "2026-09-04T11:10:00+00:00"
+  "last_checked": "2026-09-04T11:35:00+00:00"
 }

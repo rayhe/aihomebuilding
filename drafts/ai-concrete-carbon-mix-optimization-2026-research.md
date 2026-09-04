@@ -24,8 +24,8 @@ Inputs and assumptions:
 - Baseline foundation CO2: 34.4 m3 x 410 kg/m3 = 14,104 kg = 14.1 metric tons CO2.
 - With 30% fly ash replacement: 290 kg CO2/m3 (same source) -> 34.4 x 290 = 9,976 kg = 10.0 t. Savings: 4.1 t (-29%).
 - CarbonCure alone: 25 lb/yard x 45 yards = 1,125 lb = 0.51 t (-3.6% on baseline).
-- BOxCrete-style multi-objective optimization: published capability is 10-15% cement reduction while holding target strength; model it as -12% on baseline = 1.7 t saved.
-- Combined (fly ash + CarbonCure + ML optimization): roughly 10.0 t baseline-with-SCM, minus 12% optimization, minus 0.51 t CarbonCure = ~8.3 t vs 14.1 t. Total reduction ~5.8 t (-41%).
+- BOxCrete-style multi-objective optimization: published capability is 10-15% cement reduction while holding target strength; model it as -12% on the post-SCM 10.0 t = 1.2 t saved.
+- Combined (fly ash + CarbonCure + ML optimization): 10.0 t minus 1.2 t optimization minus 0.51 t CarbonCure = 8.3 t vs 14.1 t baseline. Total reduction 5.8 t (-41%).
 - Cost math: CarbonCure costs $1/yard, saves $1.50/yard in cement = net -$0.50/yard for the producer, usually no premium passed to buyer. ML mix optimization reduces cement bill directly. PLC (Type IL) is typically cost-neutral vs Type I/II.
 
 ## What to be skeptical about
