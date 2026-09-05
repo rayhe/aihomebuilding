@@ -1,5 +1,12 @@
 # Research: AI vs. the HOA Design Committee — Architectural Review Delay, State Law, and CC&R-Reading AI
 
+### Revision note (critique round 1, 2026-09-05)
+- HOA price premium now cited: Freedman & Clarke, Journal of Urban Economics (35 years of Zillow data), ~4% premium — https://kinder.rice.edu/urbanedge/hoas-are-spreading-what-cost-cities
+- Hedged "only hard clock" → "only deemed-approval clock I could document"; "49 states" → "most states"
+- "Several HOA attorneys warning" → reframed as plausible liability trail (unattributed claim removed)
+- "Most contractors hold 30 days" → "contractors often hold 30 days"
+- De-duplicated "which tells you" construction
+
 ## Article #780 — Catherine "Code" Chen
 
 ### Angle

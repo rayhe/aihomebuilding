@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "ai-hoa-architectural-review-ccr-delay-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-05T02:01:52-07:00",
-    "article_number": 780
-  },
+  "current": null,
   "last_completed": 779,
   "last_published_at": "2026-09-05T00:40:00-07:00",
   "ship_ready": [
@@ -1746,7 +1740,55 @@
       "rounds": 0,
       "completed": "2026-09-05T05:04:12.296647+00:00",
       "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #777 queued for 2026-09-05 through 2026-10-05"
+    },
+    {
+      "id": 780,
+      "article_number": 780,
+      "slug": "ai-hoa-architectural-review-ccr-delay-2026",
+      "journalist": "Catherine Chen",
+      "headline": "Your HOA Sat on Your Deck Plans for Two Months. The AI Read Your CC&Rs in 40 Seconds.",
+      "phase": "SHIP",
+      "ship_after": "2026-10-07",
+      "started": "2026-09-05T02:01:52-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 226.9,
+          "short_pct": 1.8,
+          "long_pct": 66.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "8b7cee9d",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-hoa-architectural-review-ccr-delay-2026-research.md",
+      "rounds": 1,
+      "completed": "2026-09-05T02:45:00-07:00",
+      "hold_reason": "1/day rule: #779 published 2026-09-05; #747 through #780 queued for 2026-09-05 through 2026-10-07"
     }
   ],
-  "last_checked": "2026-09-05T00:50:00-07:00"
+  "last_checked": "2026-09-05T02:45:00-07:00"
 }
