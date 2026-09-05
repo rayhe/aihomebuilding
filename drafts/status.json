@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "article_number": 786,
+    "slug": "ai-construction-waste-diversion-dumpster-audit-2026",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "started": "2026-09-05T16:04:04.070835-07:00"
+  },
   "last_completed": 784,
   "last_published_at": "2026-09-05T00:40:00-07:00",
   "ship_ready": [
@@ -2070,5 +2076,5 @@
       "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind existing ship_ready queue"
     }
   ],
-  "last_checked": "2026-09-05T15:30:00-07:00"
+  "last_checked": "2026-09-05T16:04:04-07:00"
 }
