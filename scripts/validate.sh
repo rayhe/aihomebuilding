@@ -66,32 +66,33 @@ echo ""
 
 # 5. Every image referenced in index.html must exist on disk
 echo "=== Image File References ==="
+ERR_FILE=$(mktemp)
+trap 'rm -f "$ERR_FILE"' EXIT
 grep -oP 'src="images/[^"]+' index.html | sed 's/src="//' | sed 's/?.*//' | sort -u | while read -r img; do
     if [ ! -f "$img" ]; then
         echo "  ❌ MISSING file: $img"
         # Can't increment ERRORS in subshell, use temp file
-        echo "1" >> /tmp/aih_validate_errors
+        echo "1" >> "$ERR_FILE"
     fi
 done
-if [ -f /tmp/aih_validate_errors ]; then
-    count=$(wc -l < /tmp/aih_validate_errors)
+count=$(wc -l < "$ERR_FILE")
+if [ "$count" -gt 0 ]; then
     ERRORS=$((ERRORS + count))
-    rm /tmp/aih_validate_errors
 fi
+: > "$ERR_FILE"
 
 # Also check article image references
 for f in articles/*.html; do
-    grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null | sed 's/src="//' | sed 's|../||' | sed 's/?.*//' | while read -r img; do
+    (grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null || true) | sed 's/src="//' | sed 's|^\.\./||' | sed 's/?.*//' | while read -r img; do
         if [ ! -f "$img" ]; then
             echo "  ❌ MISSING file in $(basename "$f"): $img"
-            echo "1" >> /tmp/aih_validate_errors
+            echo "1" >> "$ERR_FILE"
         fi
     done
 done
-if [ -f /tmp/aih_validate_errors ]; then
-    count=$(wc -l < /tmp/aih_validate_errors)
+count=$(wc -l < "$ERR_FILE")
+if [ "$count" -gt 0 ]; then
     ERRORS=$((ERRORS + count))
-    rm /tmp/aih_validate_errors
 else
     echo "  ✅ All referenced images exist"
 fi
