@@ -1979,7 +1979,51 @@
       "rounds": 0,
       "completed": "2026-09-05T10:07:49.817619-07:00",
       "hold_reason": "1/day rule: #779 published 2026-09-05; #784 queued for 2026-10-10"
+    },
+    {
+      "headline": "Your West-Facing Glass Adds $250 a Year to Your Cooling Bill. The Simulation Takes an Hour.",
+      "journalist": "Elena Vasquez",
+      "slug": "ai-window-placement-shading-design-cooling-2026",
+      "hero_hash": "3129fbb4",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-window-placement-shading-design-cooling-2026-research.md",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 204.2,
+          "short_pct": 13.3,
+          "long_pct": 61.4,
+          "passed": true
+        }
+      },
+      "rounds": 0,
+      "started": "2026-09-05T12:01:52-07:00",
+      "completed": "2026-09-05T12:45:00-07:00",
+      "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind #784 (ship_after 2026-10-10)"
     }
   ],
-  "last_checked": "2026-09-05T10:07:49.817619-07:00"
+  "last_checked": "2026-09-05T12:45:00-07:00"
 }
