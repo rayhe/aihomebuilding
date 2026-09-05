@@ -1698,7 +1698,49 @@
    "rounds": 0,
    "completed": "2026-09-04T20:07:00-07:00",
    "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #776 queued for 2026-09-05 through 2026-10-04"
+  },
+  {
+   "id": 778,
+   "article_number": 778,
+   "slug": "ai-city-permit-prescreen-civcheck-homeowners-2026",
+   "journalist": "Catherine Chen",
+   "headline": "Your City Now Lets AI Read Your Permit Application First. Run It Before the City Does.",
+   "phase": "SHIP",
+   "ship_after": "2026-10-06",
+   "started": "2026-09-05T05:04:12.296647+00:00",
+   "critique_score": 8.69,
+   "critique_scores": {
+    "general_editor": 8.6,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 8.9,
+    "social_shareability": 8.5,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.7,
+    "data_presentation": 8.6
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 13.0,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    }
+   },
+   "hero_hash": "9f4d2b1c",
+   "primary_sources": 6,
+   "research_file": "drafts/ai-city-permit-prescreen-civcheck-homeowners-2026-research.md",
+   "rounds": 0,
+   "completed": "2026-09-05T05:04:12.296647+00:00",
+   "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #777 queued for 2026-09-05 through 2026-10-05"
   }
  ],
- "last_checked": "2026-09-04T20:07:00-07:00"
+ "last_checked": "2026-09-05T05:04:12.296647+00:00"
 }
