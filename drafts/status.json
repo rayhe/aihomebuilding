@@ -2,7 +2,7 @@
   "current": {
     "article_number": 786,
     "slug": "ai-construction-waste-diversion-dumpster-audit-2026",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Priya Greenwood",
     "started": "2026-09-05T16:04:04.070835-07:00"
   },
@@ -2074,6 +2074,55 @@
       "started": "2026-09-05T14:05:00-07:00",
       "completed": "2026-09-05T15:30:00-07:00",
       "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind existing ship_ready queue"
+    },
+    {
+      "article_number": 786,
+      "number": 786,
+      "phase": "SHIP",
+      "headline": "Your New Home Generated 8,000 Pounds of Waste. California Law Says 5,200 of It Was Never Supposed to Reach a Landfill.",
+      "slug": "ai-construction-waste-diversion-dumpster-audit-2026",
+      "journalist": "Priya Greenwood",
+      "research_file": "drafts/ai-construction-waste-diversion-dumpster-audit-2026-research.md",
+      "hero_hash": "d86ae381",
+      "critique_score": 9.1,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "construction_expert": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.9,
+          "short_pct": 14.0,
+          "long_pct": 39.5,
+          "mean": 21.3,
+          "passed": true
+        }
+      },
+      "primary_sources": 5,
+      "rounds": 1,
+      "started": "2026-09-05T16:04:04.070835-07:00",
+      "published_at": null,
+      "ship_after": null,
+      "queue_note": "SHIP held: 1/day rule already satisfied by #779 on 2026-09-05. Queued behind ship-ready #778, #780-#784; publish per 1/day cadence."
     }
   ],
   "last_checked": "2026-09-05T16:04:04-07:00"
