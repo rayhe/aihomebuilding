@@ -1,12 +1,6 @@
 {
- "current": {
-  "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026",
-  "phase": "DRAFT",
-  "journalist": "Frank DeLuca",
-  "article_number": 777,
-  "started": "2026-09-04T18:03:04.179808-07:00"
- },
- "last_completed": 776,
+ "current": null,
+ "last_completed": 777,
  "last_published_at": "2026-09-02T07:03:46.685696+00:00",
  "ship_ready": [
   {
@@ -1662,7 +1656,49 @@
    "rounds": 0,
    "completed": "2026-09-04T16:07:00-07:00",
    "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #775 queued for 2026-09-05 through 2026-10-03"
+  },
+  {
+   "id": 777,
+   "article_number": 777,
+   "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026",
+   "journalist": "Frank DeLuca",
+   "headline": "Water Got Behind the Stucco in 2021. You Will Find Out in 2026, for $75,000.",
+   "phase": "SHIP",
+   "ship_after": "2026-10-05",
+   "started": "2026-09-04T18:03:04.179808-07:00",
+   "critique_score": 8.7,
+   "critique_scores": {
+    "general_editor": 8.6,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 8.7,
+    "research_rigor": 8.6,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 5.6,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    }
+   },
+   "hero_hash": "100c91b2",
+   "primary_sources": 6,
+   "research_file": "drafts/thermal-drone-stucco-rot-moisture-intrusion-2026-research.md",
+   "rounds": 0,
+   "completed": "2026-09-04T20:07:00-07:00",
+   "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #776 queued for 2026-09-05 through 2026-10-04"
   }
  ],
- "last_checked": "2026-09-04T18:03:04.179831-07:00"
+ "last_checked": "2026-09-04T20:07:00-07:00"
 }
