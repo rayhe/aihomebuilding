@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "ai-coi-verification-ghost-policy-sub-liability-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-05T06:15:00-07:00",
-    "article_number": 782
-  },
+  "current": null,
   "last_completed": 779,
   "last_published_at": "2026-09-05T00:40:00-07:00",
   "ship_ready": [
@@ -1842,7 +1836,55 @@
       "rounds": 1,
       "completed": "2026-09-05T11:07:41.588293+00:00",
       "hold_reason": "1/day rule: #779 published 2026-09-05; #747 through #781 queued for 2026-09-05 through 2026-10-08"
+    },
+    {
+      "id": 782,
+      "article_number": 782,
+      "slug": "ai-coi-verification-ghost-policy-sub-liability-2026",
+      "journalist": "Marcus Washington",
+      "headline": "Your Sub's Insurance Certificate Is Real. His Coverage Isn't.",
+      "phase": "SHIP",
+      "ship_after": "2026-10-09",
+      "started": "2026-09-05T06:15:00-07:00",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 210.5,
+          "short_pct": 13.4,
+          "long_pct": 52.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "90d5d3b5",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-coi-verification-ghost-policy-sub-liability-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-05T06:45:00-07:00",
+      "hold_reason": "1/day rule: #779 published 2026-09-05; queued through 2026-10-09"
     }
   ],
-  "last_checked": "2026-09-05T04:45:00-07:00"
+  "last_checked": "2026-09-05T06:45:00-07:00"
 }
