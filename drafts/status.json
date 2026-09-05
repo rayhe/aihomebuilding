@@ -1,11 +1,6 @@
 {
-  "current": {
-    "slug": "geotech-report-conservative-pier-tax-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-05T10:02:46.029022-07:00"
-  },
-  "last_completed": 783,
+  "current": null,
+  "last_completed": 784,
   "last_published_at": "2026-09-05T00:40:00-07:00",
   "ship_ready": [
     {
@@ -1937,7 +1932,54 @@
       "rounds": 1,
       "completed": "2026-09-05T08:55:00-07:00",
       "hold_reason": "1/day rule: #779 published 2026-09-05; #783 queued for 2026-10-09"
+    },
+    {
+      "article_number": 784,
+      "slug": "geotech-report-conservative-pier-tax-2026",
+      "journalist": "Frank DeLuca",
+      "headline": "Your Geotech Report Had Three Foundation Options. You Only Heard About the Expensive One.",
+      "phase": "SHIP",
+      "ship_after": "2026-10-10",
+      "started": "2026-09-05T10:10:00-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "construction_expert": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 344.7,
+          "short_pct": 3.3,
+          "long_pct": 47.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "e84bd14f",
+      "primary_sources": 12,
+      "research_file": "drafts/geotech-report-conservative-pier-tax-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-05T10:07:49.817619-07:00",
+      "hold_reason": "1/day rule: #779 published 2026-09-05; #784 queued for 2026-10-10"
     }
   ],
-  "last_checked": "2026-09-05T10:02:46.029048-07:00"
+  "last_checked": "2026-09-05T10:07:49.817619-07:00"
 }
