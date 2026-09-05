@@ -1,13 +1,5 @@
 {
-  "current": {
-    "slug": "ai-roof-measurement-bid-referee-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "headline": "Your Roofers Measured 24, 26, and 28 Squares. The Satellite Photo Cost $18.",
-    "started": "2026-09-05T14:05:00-07:00",
-    "article_number": 785,
-    "research_file": "drafts/ai-roof-measurement-bid-referee-2026-research.md"
-  },
+  "current": null,
   "last_completed": 784,
   "last_published_at": "2026-09-05T00:40:00-07:00",
   "ship_ready": [
@@ -2031,7 +2023,52 @@
       "started": "2026-09-05T12:01:52-07:00",
       "completed": "2026-09-05T12:45:00-07:00",
       "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind #784 (ship_after 2026-10-10)"
+    },
+    {
+      "article_number": 785,
+      "headline": "Your Roofers Measured 24, 26, and 28 Squares. The Satellite Photo Cost $18.",
+      "journalist": "Marcus Washington",
+      "slug": "ai-roof-measurement-bid-referee-2026",
+      "hero_hash": "df7e913d",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-roof-measurement-bid-referee-2026-research.md",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 360.3,
+          "short_pct": 14.7,
+          "long_pct": 38.2,
+          "passed": true
+        }
+      },
+      "rounds": 2,
+      "started": "2026-09-05T14:05:00-07:00",
+      "completed": "2026-09-05T15:30:00-07:00",
+      "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind existing ship_ready queue"
     }
   ],
-  "last_checked": "2026-09-05T14:05:00-07:00"
+  "last_checked": "2026-09-05T15:30:00-07:00"
 }
