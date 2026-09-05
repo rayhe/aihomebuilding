@@ -80,8 +80,7 @@ Extra peak cooling load: 120 × 50 = **6,000 BTU/hr ≈ 0.5 tons**.
 Annual extra energy: 800 equivalent full-load cooling hours (Sacramento assumption) ×
 6,000 BTU/hr = 4.8M BTU ÷ EER 11 (SEER2 14.3 minimum system) ≈ **436 kWh/yr** ≈
 **$140/yr** at $0.32/kWh. Equipment upsizing for the half-ton: **~$800–1,200**.
-30-year present cost of the AI's window placement: roughly **$4,000–5,000** in today's
-dollars, before demand charges and before the comfort penalty (west rooms running
+30-year all-in cost of the AI's window placement: roughly **$5,000–5,400** (about $4,200 in energy over 30 years at $140/yr in nominal dollars, plus $800–1,200 for the half-ton equipment upsize, a standard rule-of-thumb estimate rather than a quoted bid), before demand charges and before the comfort penalty (west rooms running
 5–8°F hot on August afternoons).
 
 Methodology note: single-zone steady-state estimate, not a whole-building EnergyPlus
