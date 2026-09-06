@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-translation-jobsite-safety-latino-workers-2026",
+    "phase": "DRAFT",
+    "journalist": "Marcus Washington",
+    "article_number": 793,
+    "started": "2026-09-06T14:20:00-07:00"
+  },
   "last_completed": 786,
   "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
@@ -2407,5 +2413,5 @@
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-15), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T12:30:00-07:00"
+  "last_checked": "2026-09-06T14:20:00-07:00"
 }
