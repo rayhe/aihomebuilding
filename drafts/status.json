@@ -2213,6 +2213,54 @@
       "completed": "2026-09-06T04:08:28.089083-07:00",
       "ship_after": "2026-10-12",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-11), publish per 1/day cadence."
+    },
+    {
+      "article_number": 789,
+      "number": 789,
+      "phase": "SHIP",
+      "headline": "Your Submittals Get Rejected 35% of the Time. Each One Costs You $805.",
+      "slug": "ai-submittal-review-rejection-cost-residential-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/ai-submittal-review-rejection-cost-residential-2026-research.md",
+      "hero_hash": "2b6cf731",
+      "critique_score": 8.71,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.9,
+        "construction_expert": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 213.7,
+          "short_pct": 14.7,
+          "long_pct": 52.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 1,
+      "started": "2026-09-06T06:01:52-07:00",
+      "completed": "2026-09-06T06:45:00-07:00",
+      "ship_after": "2026-10-13",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-12), publish per 1/day cadence."
     }
   ],
   "last_checked": "2026-09-06T04:08:28.089083-07:00"
