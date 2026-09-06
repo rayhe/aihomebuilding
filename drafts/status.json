@@ -2309,7 +2309,55 @@
       "completed": "2026-09-06T15:07:51.472831+00:00",
       "ship_after": "2026-10-14",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-13), publish per 1/day cadence."
+    },
+    {
+      "article_number": 791,
+      "number": 791,
+      "phase": "SHIP",
+      "headline": "Your Foundation Released 9.8 Tons of CO2 Before You Moved In. An Algorithm Shrank the Mix Without Touching the Strength.",
+      "slug": "ai-mix-optimization-foundation-carbon-scm-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/ai-mix-optimization-foundation-carbon-scm-2026-research.md",
+      "hero_hash": "ca51b17d",
+      "critique_score": 8.91,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 209.5,
+          "short_pct": 1.3,
+          "long_pct": 46.2,
+          "passed": true
+        }
+      },
+      "primary_sources": 10,
+      "rounds": 1,
+      "started": "2026-09-06T10:01:52-07:00",
+      "completed": "2026-09-06T17:30:00+00:00",
+      "ship_after": "2026-10-15",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-14), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T15:07:51.472855+00:00"
+  "last_checked": "2026-09-06T17:30:00+00:00"
 }
