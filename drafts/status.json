@@ -2261,7 +2261,55 @@
       "completed": "2026-09-06T06:45:00-07:00",
       "ship_after": "2026-10-13",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-12), publish per 1/day cadence."
+    },
+    {
+      "article_number": 790,
+      "number": 790,
+      "phase": "SHIP",
+      "headline": "Your Energy Model Passed Title 24. The Field Test Failed It. You Are Holding the Bill.",
+      "slug": "title-24-energy-model-passed-hers-failed-liability-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/title-24-energy-model-passed-hers-failed-liability-2026-research.md",
+      "hero_hash": "d407a5f1",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 302.3,
+          "short_pct": 6.9,
+          "long_pct": 61.1,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 1,
+      "started": "2026-09-06T08:01:52-07:00",
+      "completed": "2026-09-06T15:07:51.472831+00:00",
+      "ship_after": "2026-10-14",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-13), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T04:08:28.089083-07:00"
+  "last_checked": "2026-09-06T15:07:51.472855+00:00"
 }
