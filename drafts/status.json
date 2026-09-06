@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "ai-translation-jobsite-safety-latino-workers-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "article_number": 793,
-    "started": "2026-09-06T14:20:00-07:00"
-  },
+  "current": null,
   "last_completed": 786,
   "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
@@ -2411,7 +2405,55 @@
       "completed": "2026-09-06T12:30:00-07:00",
       "ship_after": "2026-10-16",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-15), publish per 1/day cadence."
+    },
+    {
+      "article_number": 793,
+      "number": 793,
+      "phase": "SHIP",
+      "headline": "Your Crew Speaks Six Languages. Your Safety Briefing Speaks One. OSHA Noticed.",
+      "slug": "ai-translation-jobsite-safety-latino-workers-2026",
+      "journalist": "Marcus Washington",
+      "research_file": "drafts/ai-translation-jobsite-safety-latino-workers-2026-research.md",
+      "hero_hash": "875b41bf",
+      "critique_score": 9.01,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 321.6,
+          "short_pct": 9.8,
+          "long_pct": 52.9,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 0,
+      "started": "2026-09-06T14:20:00-07:00",
+      "completed": "2026-09-06T14:45:00-07:00",
+      "ship_after": "2026-10-17",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-16), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T14:20:00-07:00"
+  "last_checked": "2026-09-06T14:45:00-07:00"
 }
