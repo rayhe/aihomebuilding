@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "sb-721-balcony-inspection-ai-triage-deadline-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "article_number": 792,
-    "started": "2026-09-06T12:05:00-07:00"
-  },
+  "current": null,
   "last_completed": 786,
   "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
@@ -2363,7 +2357,55 @@
       "completed": "2026-09-06T17:30:00+00:00",
       "ship_after": "2026-10-15",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-14), publish per 1/day cadence."
+    },
+    {
+      "article_number": 792,
+      "number": 792,
+      "phase": "SHIP",
+      "headline": "Your Apartment Building Owed You a Balcony Inspection by January 1. Ask to See It.",
+      "slug": "sb-721-balcony-inspection-ai-triage-deadline-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/sb-721-balcony-inspection-ai-triage-deadline-2026-research.md",
+      "hero_hash": "428519c2",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 214.0,
+          "short_pct": 2.8,
+          "long_pct": 55.6,
+          "passed": true
+        }
+      },
+      "primary_sources": 11,
+      "rounds": 0,
+      "started": "2026-09-06T12:05:00-07:00",
+      "completed": "2026-09-06T12:30:00-07:00",
+      "ship_after": "2026-10-16",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-15), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T17:30:00+00:00"
+  "last_checked": "2026-09-06T12:30:00-07:00"
 }
