@@ -1,37 +1,5 @@
 {
-  "current": {
-    "slug": "ai-aging-in-place-hospital-aesthetic-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Elena Vasquez",
-    "article_number": 794,
-    "started": "2026-09-06T16:30:00-07:00",
-    "headline": "An AI Scanned Your Mother's House for Fall Risks. Its Fix Looked Like a Hospital.",
-    "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
-    "round": 0,
-    "hero_hash": "7410ac40",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 1.1,
-        "limit": 15.0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 249.8,
-        "short_pct": 12.8,
-        "long_pct": 44.2,
-        "mean": 22.3,
-        "passed": true
-      }
-    }
-  },
+  "current": null,
   "last_completed": 786,
   "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
@@ -2485,6 +2453,54 @@
       "completed": "2026-09-06T14:45:00-07:00",
       "ship_after": "2026-10-17",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-16), publish per 1/day cadence."
+    },
+    {
+      "article_number": 794,
+      "number": 794,
+      "phase": "SHIP",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "slug": "ai-aging-in-place-hospital-aesthetic-2026",
+      "journalist": "Elena Vasquez",
+      "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
+      "hero_hash": "7410ac40",
+      "critique_score": 8.67,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.6,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 246.1,
+          "short_pct": 12.6,
+          "long_pct": 42.5,
+          "passed": true
+        }
+      },
+      "primary_sources": 10,
+      "rounds": 1,
+      "started": "2026-09-06T16:00:00-07:00",
+      "completed": "2026-09-06T16:15:13-07:00",
+      "ship_after": "2026-10-18",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-17), publish per 1/day cadence."
     }
   ],
   "last_checked": "2026-09-06T16:30:00-07:00"
