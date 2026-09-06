@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-wildfire-smoke-indoor-air-purifier-hvac-2026",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "started": "2026-09-06T04:04:00.555468-07:00",
+    "headline": "Your House Lets In 23% of Wildfire Smoke. An Algorithm Can Tell You Which Room Is Worst."
+  },
   "last_completed": 786,
   "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
@@ -2167,5 +2173,5 @@
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue, publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T02:30:00-07:00"
+  "last_checked": "2026-09-06T04:04:00.555468-07:00"
 }
