@@ -2117,7 +2117,55 @@
       "published_at": "2026-09-06T00:04:00-07:00",
       "ship_after": "2026-09-06",
       "queue_note": "SHIP held: 1/day rule already satisfied by #779 on 2026-09-05. Queued behind ship-ready #778, #780-#784; publish per 1/day cadence."
+    },
+    {
+      "article_number": 787,
+      "number": 787,
+      "phase": "SHIP",
+      "headline": "Your AC Is 40% Too Big. The Load Calculation That Would Have Caught It Takes 20 Minutes Now.",
+      "slug": "ai-manual-j-oversized-ac-20-minute-load-calc-2026",
+      "journalist": "Jake Kowalski",
+      "research_file": "drafts/ai-manual-j-oversized-ac-20-minute-load-calc-2026-research.md",
+      "hero_hash": "df22cf4f",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.6,
+        "research_rigor": 9.1,
+        "construction_expert": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 204.4,
+          "short_pct": 15.0,
+          "long_pct": 41.2,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "started": "2026-09-06T02:01:52-07:00",
+      "completed": "2026-09-06T02:30:00-07:00",
+      "ship_after": "2026-10-11",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue, publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T00:10:00-07:00"
+  "last_checked": "2026-09-06T02:30:00-07:00"
 }
