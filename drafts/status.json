@@ -2,12 +2,12 @@
   "current": {
     "article_number": 786,
     "slug": "ai-construction-waste-diversion-dumpster-audit-2026",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Priya Greenwood",
     "started": "2026-09-05T16:04:04.070835-07:00"
   },
   "last_completed": 784,
-  "last_published_at": "2026-09-05T00:40:00-07:00",
+  "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -2078,7 +2078,7 @@
     {
       "article_number": 786,
       "number": 786,
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "headline": "Your New Home Generated 8,000 Pounds of Waste. California Law Says 5,200 of It Was Never Supposed to Reach a Landfill.",
       "slug": "ai-construction-waste-diversion-dumpster-audit-2026",
       "journalist": "Priya Greenwood",
@@ -2120,8 +2120,8 @@
       "primary_sources": 5,
       "rounds": 1,
       "started": "2026-09-05T16:04:04.070835-07:00",
-      "published_at": null,
-      "ship_after": null,
+      "published_at": "2026-09-06T00:04:00-07:00",
+      "ship_after": "2026-09-06",
       "queue_note": "SHIP held: 1/day rule already satisfied by #779 on 2026-09-05. Queued behind ship-ready #778, #780-#784; publish per 1/day cadence."
     }
   ],
