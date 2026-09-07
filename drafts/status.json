@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-hoa-resale-package-review-special-assessment-2026",
+    "phase": "DRAFT",
+    "journalist": "Catherine Chen",
+    "started": "2026-09-07T10:15:00-07:00"
+  },
   "last_completed": 749,
   "last_published_at": "2026-09-07T00:05:00-07:00",
   "ship_ready": [
@@ -2834,5 +2839,5 @@
       "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-24), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T08:40:00-07:00"
+  "last_checked": "2026-09-07T10:15:00-07:00"
 }
