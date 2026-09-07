@@ -2922,7 +2922,55 @@
       "completed": "2026-09-07T12:45:00-07:00",
       "ship_after": "2026-10-27",
       "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-26), publish per 1/day cadence."
+    },
+    {
+      "article_number": 803,
+      "number": 803,
+      "phase": "SHIP",
+      "headline": "Your Lumber Supplier Just Became Your Software Vendor. The Data Bill Comes Later.",
+      "slug": "builders-firstsource-digs-ai-partnership-digital-twin-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/builders-firstsource-digs-ai-partnership-digital-twin-2026-research.md",
+      "hero_hash": "a676d17b",
+      "critique_score": 8.82,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 211.4,
+          "short_pct": 13.3,
+          "long_pct": 56.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 0,
+      "started": "2026-09-07T14:01:52-07:00",
+      "completed": "2026-09-07T14:30:00-07:00",
+      "ship_after": "2026-10-28",
+      "hold_reason": "1/day rule: 4 publishes already today 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-27), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T12:45:00-07:00"
+  "last_checked": "2026-09-07T14:30:00-07:00"
 }
