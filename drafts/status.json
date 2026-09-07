@@ -2501,7 +2501,55 @@
       "completed": "2026-09-06T16:15:13-07:00",
       "ship_after": "2026-10-18",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-17), publish per 1/day cadence."
+    },
+    {
+      "article_number": 795,
+      "number": 795,
+      "phase": "SHIP",
+      "headline": "Your House Isn't Bolted to Its Foundation. California Will Pay You $3,000 to Fix That.",
+      "slug": "california-ebb-grant-ai-seismic-retrofit-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/california-ebb-grant-ai-seismic-retrofit-2026-research.md",
+      "hero_hash": "c9d32931",
+      "critique_score": 8.91,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 242.8,
+          "short_pct": 8.0,
+          "long_pct": 48.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 10,
+      "rounds": 1,
+      "started": "2026-09-06T18:01:00-07:00",
+      "completed": "2026-09-06T18:23:48-07:00",
+      "ship_after": "2026-10-19",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-18), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T16:30:00-07:00"
+  "last_checked": "2026-09-06T18:23:48-07:00"
 }
