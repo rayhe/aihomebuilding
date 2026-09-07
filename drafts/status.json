@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "ai-hoa-resale-package-review-special-assessment-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-07T10:15:00-07:00"
-  },
+  "current": null,
   "last_completed": 749,
   "last_published_at": "2026-09-07T00:05:00-07:00",
   "ship_ready": [
@@ -2837,7 +2832,55 @@
       "completed": "2026-09-07T08:40:00-07:00",
       "ship_after": "2026-10-25",
       "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-24), publish per 1/day cadence."
+    },
+    {
+      "article_number": 801,
+      "number": 801,
+      "phase": "SHIP",
+      "headline": "Nobody Reads the 400-Page HOA Package. The AI Did, and Found the $9,200 Assessment.",
+      "slug": "ai-hoa-resale-package-review-special-assessment-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/ai-hoa-resale-package-review-special-assessment-2026-research.md",
+      "hero_hash": "61124222",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 250.2,
+          "short_pct": 3.7,
+          "long_pct": 54.3,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 0,
+      "started": "2026-09-07T10:15:00-07:00",
+      "completed": "2026-09-07T10:45:00-07:00",
+      "ship_after": "2026-10-26",
+      "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-25), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T10:15:00-07:00"
+  "last_checked": "2026-09-07T10:45:00-07:00"
 }
