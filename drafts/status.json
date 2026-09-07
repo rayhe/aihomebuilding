@@ -2784,7 +2784,55 @@
       "completed": "2026-09-07T06:35:00-07:00",
       "ship_after": "2026-10-24",
       "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-23), publish per 1/day cadence."
+    },
+    {
+      "article_number": 800,
+      "number": 800,
+      "phase": "SHIP",
+      "headline": "The Cheapest Bid Is a Scope Gap With a Signature. AI Bid Leveling Catches What Excel Misses.",
+      "slug": "ai-bid-leveling-scope-gap-gc-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/ai-bid-leveling-scope-gap-gc-2026-research.md",
+      "hero_hash": "99015136",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 200.7,
+          "short_pct": 11.6,
+          "long_pct": 52.2,
+          "passed": true
+        }
+      },
+      "primary_sources": 5,
+      "rounds": 0,
+      "started": "2026-09-07T08:05:00-07:00",
+      "completed": "2026-09-07T08:40:00-07:00",
+      "ship_after": "2026-10-25",
+      "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-24), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T06:35:00-07:00"
+  "last_checked": "2026-09-07T08:40:00-07:00"
 }
