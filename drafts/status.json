@@ -2694,7 +2694,55 @@
       "completed": "2026-09-07T00:10:52.808404-07:00",
       "ship_after": "2026-10-22",
       "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-21), publish per 1/day cadence."
+    },
+    {
+      "article_number": 798,
+      "number": 798,
+      "phase": "SHIP",
+      "headline": "90% of Deck Collapses Start at One Board. AI Can See Whether Yours Is Bolted or Just Nailed.",
+      "slug": "ai-deck-ledger-inspection-collapse-gap-2026",
+      "journalist": "Jake Kowalski",
+      "research_file": "drafts/ai-deck-ledger-inspection-collapse-gap-2026-research.md",
+      "hero_hash": "9d483698",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 142.8,
+          "short_pct": 37.4,
+          "long_pct": 19.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 12,
+      "rounds": 0,
+      "started": "2026-09-07T04:15:00-07:00",
+      "completed": "2026-09-07T04:45:00-07:00",
+      "ship_after": "2026-10-23",
+      "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-22), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T00:10:52.808430-07:00"
+  "last_checked": "2026-09-07T04:45:00-07:00"
 }
