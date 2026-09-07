@@ -2597,7 +2597,55 @@
       "completed": "2026-09-06T20:45:00-07:00",
       "ship_after": "2026-10-20",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-19), publish per 1/day cadence."
+    },
+    {
+      "article_number": 796,
+      "number": 796,
+      "phase": "SHIP",
+      "headline": "Your New Home Has a Radon Inlet Built Into the Slab. The $400 Fix Expires When It Cures.",
+      "slug": "radon-new-construction-appendix-f-2026",
+      "journalist": "Priya Greenwood",
+      "research_file": "drafts/radon-new-construction-appendix-f-2026-research.md",
+      "hero_hash": "5c7bb8b3",
+      "critique_score": 8.99,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.1,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 208.3,
+          "short_pct": 9.0,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 1,
+      "started": "2026-09-06T22:05:00-07:00",
+      "completed": "2026-09-06T22:09:23.415303-07:00",
+      "ship_after": "2026-10-21",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-20), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T20:45:00-07:00"
+  "last_checked": "2026-09-06T22:09:23.415303-07:00"
 }
