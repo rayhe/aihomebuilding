@@ -1,5 +1,16 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-electrical-fire-detection-arc-fault-panel-photo-2026",
+    "phase": "CRITIQUE",
+    "journalist": "Jake Kowalski",
+    "headline": "Your Panel's Breakers Haven't Tripped in 40 Years. An AI Can Tell You Why From One Photo.",
+    "article_number": 802,
+    "round": 0,
+    "started": "2026-09-07T12:10:00-07:00",
+    "research_file": "drafts/ai-electrical-fire-detection-arc-fault-panel-photo-2026-research.md",
+    "hero_hash": "3a7c30e2",
+    "primary_sources": 7
+  },
   "last_completed": 749,
   "last_published_at": "2026-09-07T00:05:00-07:00",
   "ship_ready": [
@@ -2882,5 +2893,5 @@
       "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-25), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T10:45:00-07:00"
+  "last_checked": "2026-09-07T12:30:00-07:00"
 }
