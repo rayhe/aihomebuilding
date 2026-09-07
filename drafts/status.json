@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_completed": 787,
-  "last_published_at": "2026-09-06T00:04:00-07:00",
+  "last_completed": 749,
+  "last_published_at": "2026-09-07T00:05:00-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -449,7 +449,7 @@
       "slug": "ai-manual-j-load-calc-ipad-oversize-trap-2026",
       "headline": "Your Contractor Sized Your AC by Square Footage. An iPad Did the Real Math in 15 Minutes.",
       "journalist": "Jake Kowalski",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-07",
       "started": "2026-09-02T10:05:00-07:00",
       "critique_score": 8.86,
@@ -488,7 +488,8 @@
       "primary_sources": 11,
       "research_file": "drafts/ai-manual-j-load-calc-ipad-oversize-trap-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06"
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06",
+      "published_at": "2026-09-07T00:05:00-07:00"
     },
     {
       "article_number": 750,
@@ -2647,5 +2648,5 @@
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-20), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T22:09:23.415303-07:00"
+  "last_checked": "2026-09-07T00:03:42.086828-07:00"
 }
