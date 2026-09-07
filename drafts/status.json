@@ -2646,7 +2646,55 @@
       "completed": "2026-09-06T22:09:23.415303-07:00",
       "ship_after": "2026-10-21",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-20), publish per 1/day cadence."
+    },
+    {
+      "article_number": 797,
+      "number": 797,
+      "phase": "SHIP",
+      "headline": "Your Slab Edge Is the Coldest Square Foot in Your House. The Infrared Scan Sees What the Inspector Can't.",
+      "slug": "slab-edge-thermal-bridge-infrared-ai-2026",
+      "journalist": "Priya Greenwood",
+      "research_file": "drafts/slab-edge-thermal-bridge-infrared-ai-2026-research.md",
+      "hero_hash": "494e3bb8",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 302.0,
+          "short_pct": 12.1,
+          "long_pct": 39.4,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 1,
+      "started": "2026-09-07T00:05:00-07:00",
+      "completed": "2026-09-07T00:10:52.808404-07:00",
+      "ship_after": "2026-10-22",
+      "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-21), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-07T00:03:42.086828-07:00"
+  "last_checked": "2026-09-07T00:10:52.808430-07:00"
 }
