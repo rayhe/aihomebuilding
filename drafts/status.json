@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 786,
+  "last_completed": 787,
   "last_published_at": "2026-09-06T00:04:00-07:00",
   "ship_ready": [
     {
@@ -2549,7 +2549,55 @@
       "completed": "2026-09-06T18:23:48-07:00",
       "ship_after": "2026-10-19",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-18), publish per 1/day cadence."
+    },
+    {
+      "article_number": 787,
+      "number": 787,
+      "phase": "SHIP",
+      "headline": "Your Lender Isn't Sending a Draw Inspector Anymore. They're Texting You a Link.",
+      "slug": "virtual-draw-inspection-borrower-phone-lender-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/virtual-draw-inspection-borrower-phone-lender-2026-research.md",
+      "hero_hash": "cfc38a0b",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 225.6,
+          "short_pct": 7.6,
+          "long_pct": 40.5,
+          "passed": true
+        }
+      },
+      "primary_sources": 5,
+      "rounds": 0,
+      "started": "2026-09-06T20:05:00-07:00",
+      "completed": "2026-09-06T20:45:00-07:00",
+      "ship_after": "2026-10-20",
+      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-19), publish per 1/day cadence."
     }
   ],
-  "last_checked": "2026-09-06T18:23:48-07:00"
+  "last_checked": "2026-09-06T20:45:00-07:00"
 }

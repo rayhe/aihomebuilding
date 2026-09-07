@@ -800,3 +800,12 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: missed-call math for 10-tech shop ($97K/yr lost, break-even one call/quarter); quiet displacement via hiring freezes, gendered office-labor impact
 - Journalist: Marcus "Steel" Washington (workforce & labor beat)
 - **Queued SHIP 2026-09-30 as #772:** "Your Office Manager Costs $48,000 a Year. The AI That Answers Her Phone Costs $200 a Month." (critique avg 8.84, round 0)
+
+### 76. 🟢 AI Virtual Draw Inspections: Borrower Performs Lender's Inspection on Their Phone
+- Truepic Vision: authenticated borrower-captured draw inspections, median 24hr turnaround; one lender funds draws in <30 min (Chris Marohn, VP Operations)
+- Truepic + Cotality integration (June 23, 2026): Vision embedded in Mercury Network + CMS for construction/renovation draws; "risk intelligence network" fraud watch across lenders
+- DroneDeploy Progress AI: vision-language models validate pay apps from drone/360 captures, 95% vendor-claimed accuracy
+- Original contribution: draw-float carrying-cost math ($3,680/project at $600K loan, 7%, 8 draws, 6 business days saved/draw)
+- Strongest counterargument: draw inspectors never did QA; faster draws can fund faster mistakes; community banks still manual
+- Journalist: Frank "The Foreman" DeLuca (project management & operations beat)
+- **Queued SHIP 2026-10-20 as #787:** "Your Lender Isn't Sending a Draw Inspector Anymore. They're Texting You a Link." (critique avg 8.9, round 0)
