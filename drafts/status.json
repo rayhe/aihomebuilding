@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-safety-cameras-watch-workers-falls-2026",
+    "phase": "DRAFT",
+    "journalist": "Marcus Washington",
+    "number": 805,
+    "started": "2026-09-07T18:01:52-07:00",
+    "ship_after": "2026-10-30"
+  },
   "last_completed": 749,
   "last_published_at": "2026-09-07T00:05:00-07:00",
   "ship_ready": [
@@ -3020,5 +3027,5 @@
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-28), next open slot 2026-10-29."
     }
   ],
-  "last_checked": "2026-09-07T16:11:49.849903-07:00"
+  "last_checked": "2026-09-07T18:05:00-07:00"
 }
