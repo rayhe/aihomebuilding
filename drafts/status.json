@@ -3111,8 +3111,55 @@
       "ship_after": "2026-10-31",
       "research_file": "drafts/ai-punch-list-360-camera-defect-detection-2026-research.md",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-30), next open slot 2026-10-31."
+    },
+    {
+      "slug": "ai-roof-imagery-claim-denial-2026",
+      "phase": "SHIP",
+      "journalist": "Catherine Chen",
+      "number": 807,
+      "headline": "The AI Said Your Roof Was Failing. The Roofer Said It Was Dirty. Your Policy Was Cancelled Anyway.",
+      "hero_hash": "441a5209",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 224.4,
+          "short_pct": 14.3,
+          "long_pct": 58.3,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 2,
+      "started": "2026-09-07T22:05:00-07:00",
+      "completed": "2026-09-07T22:40:00-07:00",
+      "ship_after": "2026-11-01",
+      "research_file": "drafts/ai-roof-imagery-claim-denial-2026-research.md",
+      "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-31), next open slot 2026-11-01."
     }
   ],
-  "last_checked": "2026-09-07T20:45:00-07:00",
+  "last_checked": "2026-09-07T22:40:00-07:00",
   "current": null
 }

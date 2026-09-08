@@ -809,3 +809,10 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: draw inspectors never did QA; faster draws can fund faster mistakes; community banks still manual
 - Journalist: Frank "The Foreman" DeLuca (project management & operations beat)
 - **Queued SHIP 2026-10-20 as #787:** "Your Lender Isn't Sending a Draw Inspector Anymore. They're Texting You a Link." (critique avg 8.9, round 0)
+
+### 77. 🟢 AI Roof Imagery in Underwriting & Claims: Your Right to See the Photo
+- Eagleview Horizon agentic GeoAI (Apr 2026); Assess claims 1.5x claims/day, 20% lower LAE; Verisk 2026 Roof Report (38% moderate-poor, $49->$155 premium gap, deductibles +22%)
+- J.D. Power 2025: 44-day avg claim cycle; automated denials without human review; United Policyholders error modes (skylights, solar panels, moss); Galveston State Farm non-renewal 2023 ($20K demand vs cleaning)
+- CA AB 75/AB 1559/SB 260, MA bill, CT guidance 3/2025, PA bulletin 2024; state rights map; Fermi calc $437M/yr insurer-error spend; full-strength industry counterargument; Limitations section
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Queued SHIP 2026-11-01 as #807:** "The AI Said Your Roof Was Failing. The Roofer Said It Was Dirty. Your Policy Was Cancelled Anyway." (critique avg 8.90, round 2)
