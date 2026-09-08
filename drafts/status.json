@@ -3066,6 +3066,13 @@
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-29), next open slot 2026-10-30."
     }
   ],
-  "last_checked": "2026-09-07T18:40:00-07:00",
-  "current": null
+  "last_checked": "2026-09-07T20:15:00-07:00",
+  "current": {
+    "slug": "ai-punch-list-360-camera-defect-detection-2026",
+    "phase": "DRAFT",
+    "journalist": "Jake Kowalski",
+    "number": 806,
+    "started": "2026-09-07T20:15:00-07:00",
+    "research_file": "drafts/ai-punch-list-360-camera-defect-detection-2026-research.md"
+  }
 }
