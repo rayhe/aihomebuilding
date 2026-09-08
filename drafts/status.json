@@ -3158,13 +3158,55 @@
       "ship_after": "2026-11-01",
       "research_file": "drafts/ai-roof-imagery-claim-denial-2026-research.md",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-31), next open slot 2026-11-01."
+    },
+    {
+      "slug": "ai-asbuilt-phone-lidar-remodel-2026",
+      "phase": "SHIP",
+      "journalist": "Elena Vasquez",
+      "number": 808,
+      "headline": "Your Phone Scanned Your House in 30 Minutes. The As-Built Survey Took Three Weeks.",
+      "hero_hash": "36b7b51c",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 218.4,
+          "short_pct": 10.2,
+          "long_pct": 38.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 2,
+      "started": "2026-09-08T00:15:00-07:00",
+      "completed": "2026-09-08T00:45:00-07:00",
+      "ship_after": "2026-11-02",
+      "research_file": "drafts/ai-asbuilt-phone-lidar-remodel-2026-research.md",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-01), next open slot 2026-11-02."
     }
   ],
-  "last_checked": "2026-09-07T22:40:00-07:00",
-  "current": {
-    "slug": "ai-asbuilt-phone-lidar-remodel-2026",
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "started": "2026-09-08T00:15:00-07:00"
-  }
+  "last_checked": "2026-09-08T00:45:00-07:00",
+  "current": null
 }

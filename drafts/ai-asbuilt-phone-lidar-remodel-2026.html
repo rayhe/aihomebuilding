@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Phone Scanned Your House in 30 Minutes. The As-Built Survey Took Three Weeks. - AI Home Building</title>
+<meta name="description" content="Phone LiDAR and cloud drafting can produce measured as-built drawings for a 2,000 sq ft home for $200 instead of $5,000. But the beautiful, authoritative-looking floor plan your phone generates may be off by inches, and nothing in it tells you where the pipes run.">
+<meta property="og:title" content="Your Phone Scanned Your House in 30 Minutes. The As-Built Survey Took Three Weeks.">
+<meta property="og:description" content="A phone scan plus $200 of cloud drafting now produces as-built drawings that cost architects $5,000 to make. The catch: measurement drift, rectangular lies, and everything hidden behind drywall.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://aihomebuilding.com/images/ai-asbuilt-phone-lidar-remodel-2026.jpg?v=36b7b51c">
+<link rel="stylesheet" href="../story.css">
+</head>
+<body>
+<article class="story-page">
+<header class="story-header">
+<p class="story-kicker">Architecture &amp; Design</p>
+<h1>Your Phone Scanned Your House in 30 Minutes. The As-Built Survey Took Three Weeks.</h1>
+<p class="story-byline">By Elena Vasquez &middot; September 8, 2026 &middot; 8 min read</p>
+</header>
+
+<figure class="story-hero">
+<img src="../images/ai-asbuilt-phone-lidar-remodel-2026.jpg?v=36b7b51c" alt="Architect scanning a sunlit home hallway with a smartphone, translucent blue LiDAR point-cloud mesh overlaid on the walls" class="story-hero-img">
+<figcaption>A walk-through with a phone can now capture what used to require a survey crew. What it cannot capture is the part that matters most.</figcaption>
+</figure>
+
+<div class="story-body">
+
+<p>Every remodel begins with a question that sounds trivial and costs thousands of dollars to answer: what is actually there? Before an architect can draw your new kitchen, someone must document the old one, every wall, opening, ceiling height, stair riser, in measured drawings the industry calls as-builts. Traditionally that means a survey crew with laser measures and clipboards, plus a bill of $3,500 to $5,000 from a California firm like Letter Four, or $0.60 to $1.50 per square foot from a dedicated as-built service, with weeks of waiting before the first drawing exists.</p>
+
+<p>Or you can walk your house with a phone.</p>
+
+<p>Canvas, the iPhone app from Occipital, converts a thirty-minute walk-through into a colorized 3D model. Upload it and three days later you receive a scaled 2D floor plan for $200 or a 3D SketchUp or Revit file for $300, priced around $0.15 per square foot, a figure an Engineering.com reviewer confirmed in a timed test. Polycam offers a similar pipeline for $80 to $100 a year with unlimited free room captures, and its floor plans, export options, and inch-level measurement claims earned it AEC Magazine's description as "a budget Matterport scanner in your pocket." Underneath all of this sits Apple RoomPlan, the ARKit framework that hands any developer a room-scanning engine built on iPhone LiDAR.</p>
+
+<p>Run the numbers side by side, because nobody else has. A 2,000-square-foot home: a traditional as-built survey runs $1,200 to $3,000 at per-square-foot rates, $3,500 to $5,000 at a California architecture firm, or $4,000 to $6,000 at the $2-to-$3-per-square-foot figures Crest Real Estate cites. By phone, the same deliverable costs $200 for the 2D plan and $300 for the 3D model, plus half an hour of walking. Roughly ten to fifteen times cheaper, in three days instead of three weeks. That gap is not a marginal efficiency: it converts a line item that once stopped projects into one that barely registers.</p>
+
+<p>Yet the drawing is a fiction. Not an obvious fiction, but a plausible one, which is far more dangerous.</p>
+
+<h2>What the scanner assumes</h2>
+
+<p>Phone LiDAR captures surfaces beautifully and understands them barely at all. Apple RoomPlan, which powers much of this ecosystem, reduces every wall to rectangles, models every wall at a uniform 16 centimeters thick regardless of reality, and silently straightens angles that deviate slightly from ninety degrees, which means your sixty-year-old house with its settled walls and hand-framed corners arrives in the file as crisp orthogonal geometry that never existed. Per-wall measurement drift of up to five centimeters, documented by the IT-Jim development team, compounds across long walls into inches of error, rooms larger than about 30 by 30 feet exceed what the framework handles gracefully, and the longer you keep scanning the worse tracking gets. Vaulted ceilings confuse it, French doors baffle it, and double doors merge into a single one.</p>
+
+<p>Precision has thresholds, and they differ by trade. A SketchUp-forum interior designer measured her Canvas scans off by a quarter inch over five feet, close enough to call herself a huge fan, and she still double-checks every dimension before trusting the model. Architizer's review of RoomScan stated the threshold cleanly: the scans suffice for feasibility studies, while architects round to a sixteenth of an inch for design-phase drawings, a tolerance no phone sensor on earth can hold. Asked whether they would use Polycam on a major airport refurbishment, AEC Magazine's reviewers answered honestly. Only as a quick rough.</p>
+
+<p>Then there is everything the scanner cannot see, which is everything inside your walls. No scan detects plumbing runs, electrical wiring, ductwork, structural members, moisture, rot, or termites, and while no as-built drawing has ever shown those either, a surveyor walking your house will at least ask how old the water heater is, notice the sagging ceiling, and mention that the crawl space smells wrong. A phone stays silent about all of it. The beautiful point cloud lends the whole exercise an aura of total knowledge that the deliverable does not actually possess.</p>
+
+<h2>The strongest case against doing this at all</h2>
+
+<p>Phone-scan as-builts are dangerous precisely because they look finished. A homeowner arrives at the first architect meeting holding a crisp, plausible floor plan and treats it as ground truth. Five centimeters of drift per wall will blow a cabinet run, a tile layout, or a doorway rough opening. Worse, the scan says nothing about the things that actually kill remodel budgets, unpermitted work, undersized structural members, knob-and-tube wiring, rot behind the shower. A $200 plan that lets you skip the architect's verification is no bargain. It is a $20,000 change order waiting for demo day.</p>
+
+<p>Still, the traditional process deserves no nostalgia. Three weeks and five thousand dollars merely to learn what exists is a tax on anyone remodeling a modest home, charged by an industry that had no alternative. That alternative now exists, and the democratization is real: a homeowner who walks into the first meeting holding measured drawings, even imperfect ones, negotiates from a fundamentally stronger position than one who arrives empty-handed. The scan is not the deliverable; it is the draft.</p>
+
+<h2>Limitations of this analysis</h2>
+
+<p>Our cost comparison uses Canvas's published per-square-foot pricing and vendor-reported turnaround times from a single Engineering.com test, and multi-room homes or heavy clutter may cost more or require rescans; we found no independent audit of Canvas's delivery claims. Traditional survey prices come from published rate cards at asbuiltdrawings.com, Letter Four, and Crest Real Estate, all varying by region and complexity. RoomPlan accuracy figures come from the IT-Jim development team's testing, not from a peer-reviewed measurement study. And none of this touches permitting: an as-built is documentation, not entitlement, and your city still wants engineered plans.</p>
+
+<h2>What to actually do</h2>
+
+<p>For anyone planning a remodel, the play is simple, and it is not to replace your architect. Walk the house yourself with a LiDAR-equipped phone and an app like Canvas or Polycam. It costs an afternoon and a few hundred dollars. Hand the result to your architect, insist kindly that critical dimensions get field-verified with a laser measure before anything gets built, and spend what you saved on the things no scan can show you: a sewer lateral inspection, a crawl space assessment, and a structural engineer's opinion on the walls you want to remove. The scanner measures your house. Understanding it remains human work.</p>
+
+</div>
+
+<footer class="story-footer">
+<p><strong>Sources:</strong> Engineering.com, <a href="https://www.engineering.com/canvas-is-without-measure-3d-cad-model-of-house-using-iphone/">Canvas iPhone scan test</a>; IT-Jim, <a href="https://www.it-jim.com/blog/apple-roomplan-api/">Apple RoomPlan API limitations</a>; AEC Magazine, <a href="https://aecmag.com/reality-capture-modelling/polycam-for-aec/">Polycam for AEC</a>; asbuiltdrawings.com, <a href="https://asbuiltdrawings.com/residential-as-built-survey-pricing-packages/">residential as-built pricing</a>; Letter Four, <a href="https://www.letterfour.com/resources/building-or-remodeling-a-home-in-california">California remodeling fee guide</a>; Alterpex, <a href="https://alterpex.com/blog/as-built-drawings-cost">as-built drawings cost</a>; Architizer Journal, <a href="https://architizer.com/blog/practice/tools/architects-app-of-the-week-draw-a-plan-in-seconds-with-roomscan-pro/amp/">RoomScan review</a>; SketchUp Community, <a href="https://forums.sketchup.com/t/importing-room-scans/213204">interior designer field report</a>; Crest Real Estate, <a href="https://www.crestrealestate.com/an-expert-guide-to-understanding-as-built-drawings/">as-built drawings guide</a>.</p>
+</footer>
+</article>
+</body>
+</html>
