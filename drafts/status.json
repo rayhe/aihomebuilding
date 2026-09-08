@@ -3064,18 +3064,55 @@
       "ship_after": "2026-10-30",
       "research_file": "drafts/ai-safety-cameras-watch-workers-falls-2026-research.md",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-29), next open slot 2026-10-30."
+    },
+    {
+      "slug": "ai-punch-list-360-camera-defect-detection-2026",
+      "phase": "SHIP",
+      "journalist": "Jake Kowalski",
+      "number": 806,
+      "headline": "Your Punch List Has 400 Items. The Camera on the Hardhat Found 600.",
+      "hero_hash": "4e34893d",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 14.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 373.0,
+          "short_pct": 8.6,
+          "long_pct": 61.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "started": "2026-09-07T20:15:00-07:00",
+      "completed": "2026-09-07T20:45:00-07:00",
+      "ship_after": "2026-10-31",
+      "research_file": "drafts/ai-punch-list-360-camera-defect-detection-2026-research.md",
+      "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-30), next open slot 2026-10-31."
     }
   ],
-  "last_checked": "2026-09-07T20:30:00-07:00",
-  "current": {
-    "slug": "ai-punch-list-360-camera-defect-detection-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Jake Kowalski",
-    "number": 806,
-    "started": "2026-09-07T20:15:00-07:00",
-    "research_file": "drafts/ai-punch-list-360-camera-defect-detection-2026-research.md",
-    "round": 0,
-    "headline": "Your Punch List Has 400 Items. The Camera on the Hardhat Found 600.",
-    "hero_hash": "4e34893d"
-  }
+  "last_checked": "2026-09-07T20:45:00-07:00",
+  "current": null
 }
