@@ -1,12 +1,4 @@
 {
-  "current": {
-    "slug": "ai-safety-cameras-watch-workers-falls-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "number": 805,
-    "started": "2026-09-07T18:01:52-07:00",
-    "ship_after": "2026-10-30"
-  },
   "last_completed": 749,
   "last_published_at": "2026-09-07T00:05:00-07:00",
   "ship_ready": [
@@ -3025,7 +3017,55 @@
       "completed": "2026-09-07T16:11:49.849903-07:00",
       "ship_after": "2026-10-29",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-28), next open slot 2026-10-29."
+    },
+    {
+      "slug": "ai-safety-cameras-watch-workers-falls-2026",
+      "phase": "SHIP",
+      "journalist": "Marcus Washington",
+      "number": 805,
+      "headline": "The Camera Caught the Missing Harness. It Couldn't Clip It On.",
+      "hero_hash": "bb7d833a",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 202.3,
+          "short_pct": 7.6,
+          "long_pct": 65.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "started": "2026-09-07T18:01:52-07:00",
+      "completed": "2026-09-07T18:35:00-07:00",
+      "ship_after": "2026-10-30",
+      "research_file": "drafts/ai-safety-cameras-watch-workers-falls-2026-research.md",
+      "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-29), next open slot 2026-10-30."
     }
   ],
-  "last_checked": "2026-09-07T18:05:00-07:00"
+  "last_checked": "2026-09-07T18:40:00-07:00",
+  "current": null
 }
