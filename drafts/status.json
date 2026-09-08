@@ -1,6 +1,6 @@
 {
-  "last_completed": 749,
-  "last_published_at": "2026-09-07T00:05:00-07:00",
+  "last_completed": 750,
+  "last_published_at": "2026-09-08T04:03:07.127707-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -495,7 +495,7 @@
       "slug": "ai-daylight-simulation-window-design-surrogate-models-2026",
       "headline": "Your Windows Were Sized by Habit. An AI Trained on 2,000 Simulations Disagreed.",
       "journalist": "Elena Vasquez",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-08",
       "started": "2026-09-02T12:05:00-07:00",
       "critique_score": 8.89,
@@ -534,7 +534,10 @@
       "primary_sources": 7,
       "research_file": "drafts/ai-daylight-simulation-window-design-surrogate-models-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06, #749 for 2026-09-07"
+      "published_at": "2026-09-08T04:03:07.127707-07:00",
+      "draft_html": "stories/ai-daylight-simulation-window-design-surrogate-models-2026.html",
+      "hero": "images/ai-daylight-simulation-window-design-surrogate-models-2026.jpg",
+      "number": 750
     },
     {
       "article_number": 751,
@@ -3256,7 +3259,7 @@
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03."
     }
   ],
-  "last_checked": "2026-09-08T09:13:09.299473+00:00",
+  "last_checked": "2026-09-08T04:03:07.127707-07:00",
   "current": {
     "slug": "concrete-maturity-sensors-residential-foundations-2026",
     "phase": "SHIP",
