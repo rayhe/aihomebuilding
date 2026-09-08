@@ -3205,15 +3205,67 @@
       "ship_after": "2026-11-02",
       "research_file": "drafts/ai-asbuilt-phone-lidar-remodel-2026-research.md",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-01), next open slot 2026-11-02."
+    },
+    {
+      "slug": "concrete-maturity-sensors-residential-foundations-2026",
+      "phase": "SHIP",
+      "journalist": "Jake Kowalski",
+      "number": 809,
+      "headline": "You Poured the Footings Tuesday. The Concrete Was Ready Wednesday. The Lab Called Friday.",
+      "hero_hash": "6ced9848",
+      "critique_score": 9.0,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 365.9,
+          "short_pct": 8.8,
+          "long_pct": 68.4,
+          "mean": 31.5,
+          "median": 32.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 14,
+      "rounds": 1,
+      "started": "2026-09-08T09:03:32.646134+00:00",
+      "completed": "2026-09-08T09:12:40.647212+00:00",
+      "ship_after": "2026-11-03",
+      "research_file": "drafts/concrete-maturity-sensors-residential-foundations-2026-research.md",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03."
     }
   ],
-  "last_checked": "2026-09-08T09:11:57.276838+00:00",
+  "last_checked": "2026-09-08T09:12:40.647212+00:00",
   "current": {
     "slug": "concrete-maturity-sensors-residential-foundations-2026",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
     "started": "2026-09-08T09:03:32.646134+00:00",
     "draft_html": "drafts/concrete-maturity-sensors-residential-foundations-2026.html",
-    "hero": "images/concrete-maturity-sensors-residential-foundations-2026.jpg"
+    "hero": "images/concrete-maturity-sensors-residential-foundations-2026.jpg",
+    "number": 809,
+    "ship_after": "2026-11-03",
+    "completed": "2026-09-08T09:12:40.647212+00:00"
   }
 }
