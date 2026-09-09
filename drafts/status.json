@@ -1,6 +1,6 @@
 {
-  "last_completed": 750,
-  "last_published_at": "2026-09-08T04:03:07.127707-07:00",
+  "last_completed": 751,
+  "last_published_at": "2026-09-09T00:07:20.709799-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -544,7 +544,7 @@
       "slug": "ai-change-order-fee-erosion-gc-margin-2026",
       "headline": "Six Change Orders Added $44,874 to the Job. Arguing About Them Cost the Builder $14,400.",
       "journalist": "Frank DeLuca",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-09",
       "started": "2026-09-02T14:05:00-07:00",
       "critique_score": 8.89,
@@ -583,7 +583,7 @@
       "primary_sources": 6,
       "research_file": "drafts/ai-change-order-fee-erosion-gc-margin-2026-research.md",
       "rounds": 0,
-      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #750 for 2026-09-08"
+      "published_at": "2026-09-09T00:07:20.709799-07:00"
     },
     {
       "article_number": 752,
@@ -1521,7 +1521,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2461,7 +2461,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -3259,7 +3259,7 @@
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03."
     }
   ],
-  "last_checked": "2026-09-08T22:02:05.473822-07:00",
+  "last_checked": "2026-09-09T00:07:20.709799-07:00",
   "current": {
     "slug": "concrete-maturity-sensors-residential-foundations-2026",
     "phase": "SHIP",
