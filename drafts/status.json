@@ -3353,13 +3353,57 @@
       "ship_after": "2026-11-05",
       "research_file": "drafts/ai-lumber-price-forecast-framing-package-timing-2026-research.md",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-04), next open slot 2026-11-05."
+    },
+    {
+      "article_number": 812,
+      "number": 812,
+      "slug": "solarapp-automated-permit-approval-residential-solar-2026",
+      "headline": "Your Solar Permit Sat on a Desk for Six Weeks. The Algorithm Approved Your Neighbor's in a Day.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "construction_expert": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.7,
+        "voice_coach": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 215.2,
+          "short_pct": 4.6,
+          "long_pct": 58.5,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 0,
+      "hero_hash": "2ce94e17",
+      "started": "2026-09-10T06:15:00-07:00",
+      "completed": "2026-09-10T06:55:00-07:00",
+      "ship_after": "2026-11-06",
+      "research_file": "drafts/solarapp-automated-permit-approval-residential-solar-2026-research.md",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-05), next open slot 2026-11-06."
     }
   ],
-  "last_checked": "2026-09-10T06:15:00-07:00",
-  "current": {
-    "slug": "solarapp-automated-permit-approval-residential-solar-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-10T06:15:00-07:00"
-  }
+  "last_checked": "2026-09-10T06:55:00-07:00",
+  "current": null
 }
