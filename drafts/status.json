@@ -3306,13 +3306,55 @@
       "ship_after": "2026-11-04",
       "research_file": "drafts/invoice-diversion-fraud-bec-homebuilders-2026-research.md",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-03), next open slot 2026-11-04."
+    },
+    {
+      "slug": "ai-lumber-price-forecast-framing-package-timing-2026",
+      "phase": "SHIP",
+      "journalist": "Frank DeLuca",
+      "number": 811,
+      "headline": "Lumber Is Up 23% in a Year. Your Framing Package Costs $2,250 More.",
+      "hero_hash": "42a8d290",
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 206.3,
+          "short_pct": 11.1,
+          "long_pct": 34.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 0,
+      "started": "2026-09-10T04:03:20.418057-07:00",
+      "completed": "2026-09-10T04:09:07.411948-07:00",
+      "ship_after": "2026-11-05",
+      "research_file": "drafts/ai-lumber-price-forecast-framing-package-timing-2026-research.md",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-04), next open slot 2026-11-05."
     }
   ],
-  "last_checked": "2026-09-10T04:03:20.418057-07:00",
-  "current": {
-    "slug": "ai-lumber-price-forecast-framing-package-timing-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-10T04:03:20.418057-07:00"
-  }
+  "last_checked": "2026-09-10T04:09:07.411948-07:00",
+  "current": null
 }
