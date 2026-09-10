@@ -3594,14 +3594,56 @@
       "ship_after": "2026-11-10",
       "research_file": "drafts/ai-panel-photo-stab-lok-insurance-denial-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-09), next open slot 2026-11-10."
+    },
+    {
+      "article_number": 814,
+      "number": 814,
+      "slug": "ai-new-build-price-inversion-discount-2026",
+      "headline": "New Homes Just Sold for $25,000 Less Than Used Ones. Most of the Discount Is a Mortgage Trick.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 200.1,
+          "short_pct": 10.3,
+          "long_pct": 46.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 2,
+      "hero_hash": "c55d12cb",
+      "started": "2026-09-10T16:20:00-07:00",
+      "completed": "2026-09-10T17:05:00-07:00",
+      "ship_after": "2026-11-11",
+      "research_file": "drafts/ai-new-build-price-inversion-discount-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-10), next open slot 2026-11-11."
     }
   ],
-  "last_checked": "2026-09-10T15:30:00-07:00",
-  "current": {
-    "slug": "ai-new-build-price-inversion-discount-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-10T16:20:00-07:00",
-    "research_file": "drafts/ai-new-build-price-inversion-discount-2026-research.md"
-  }
+  "last_checked": "2026-09-10T17:05:00-07:00",
+  "current": null
 }
