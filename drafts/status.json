@@ -3498,8 +3498,56 @@
       "ship_after": "2026-11-08",
       "research_file": "drafts/ai-lien-deadline-tracker-missed-notice-subcontractor-2026-research.md",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-07), next open slot 2026-11-08."
+    },
+    {
+      "article_number": 755,
+      "number": 755,
+      "slug": "ai-gpr-post-tension-scan-core-drill-2026",
+      "headline": "One Saw Cut, One Cable, $56,000. The Scan Your Remodeler Never Ordered.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "critique_score": 8.91,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 211.4,
+          "short_pct": 10.3,
+          "long_pct": 67.2,
+          "passed": true
+        }
+      },
+      "primary_sources": 10,
+      "rounds": 0,
+      "hero_hash": "baa53ea1",
+      "started": "2026-09-10T12:01:52-07:00",
+      "completed": "2026-09-10T12:35:00-07:00",
+      "ship_after": "2026-11-09",
+      "research_file": "drafts/ai-gpr-post-tension-scan-core-drill-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-08), next open slot 2026-11-09."
     }
   ],
-  "last_checked": "2026-09-10T10:45:00-07:00",
+  "last_checked": "2026-09-10T12:35:00-07:00",
   "current": null
 }
