@@ -3261,6 +3261,13 @@
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03."
     }
   ],
-  "last_checked": "2026-09-10T00:08:52.473877-07:00",
-  "current": null
+  "last_checked": "2026-09-10T02:05:18.234532-07:00",
+  "current": {
+    "slug": "invoice-diversion-fraud-bec-homebuilders-2026",
+    "phase": "DRAFT",
+    "journalist": "Frank DeLuca",
+    "number": 810,
+    "started": "2026-09-10T02:05:18.234532-07:00",
+    "research_file": "drafts/invoice-diversion-fraud-bec-homebuilders-2026-research.md"
+  }
 }
