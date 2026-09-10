@@ -816,3 +816,15 @@ When you discover a new topic worth covering, add it here with:
 - CA AB 75/AB 1559/SB 260, MA bill, CT guidance 3/2025, PA bulletin 2024; state rights map; Fermi calc $437M/yr insurer-error spend; full-strength industry counterargument; Limitations section
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Queued SHIP 2026-11-01 as #807:** "The AI Said Your Roof Was Failing. The Roofer Said It Was Dirty. Your Policy Was Cancelled Anyway." (critique avg 8.90, round 2)
+
+### 78. 🟢 AI Lien Deadline Tracking & the Missed-Notice Epidemic
+- Siteline State of Subcontractor Billing 2026 (n=492, May 2026): 56% missed a critical mechanic's lien deadline in past 2 years; 92% floated payroll; 67% spend 11+ hrs/mo on pay apps
+- Billd 2026 National Subcontractor Market Report (n=600+): 51-day avg payment wait vs 35-day GC estimate; 64% slow-paid; 83% worried about cash flow
+- Levelset (Procore): auto deadline calculation from state/type/role/dates; $19/notice, $349 lien filing; 9Wood +26% revenue, Concrete Related Products halved collection time
+- Built Payments with Lien Waivers (Oct 2025): first no-cost digital payments + automatic lien waivers, Procore Groundbreak
+- LienWaiver.pro (Feb 2026): email-link signing, 50 states + DC, 12 statutory-form states; 300+ waivers per 15-sub/12-mo project; existing software $149-$599/mo
+- Colorado S.B. 26-074 (2026): delay/disruption costs now lienable; TX SB 929 (2025): weekend deadline roll
+- Original contribution: 50-state deadline-trap math (~40-60 distinct notice/lien deadlines/quarter for 10-person shop across 2 states)
+- Counterargument: tools don't make owners pay faster; Built free tier is a land-grab; Colorado expansion cuts both ways
+- Journalist: Frank DeLuca (project management & operations beat)
+- **Queued SHIP 2026-11-08 as #754:** "56% of Subcontractors Missed a Lien Deadline in Two Years. The Calendar That Wouldn't Have Costs $19." (critique avg 8.81, round 0)
