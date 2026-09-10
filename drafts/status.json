@@ -3259,15 +3259,55 @@
       "ship_after": "2026-11-03",
       "research_file": "drafts/concrete-maturity-sensors-residential-foundations-2026-research.md",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03."
+    },
+    {
+      "slug": "invoice-diversion-fraud-bec-homebuilders-2026",
+      "phase": "SHIP",
+      "journalist": "Frank DeLuca",
+      "number": 810,
+      "headline": "The Invoice Looked Exactly Right. The Bank Account Belonged to a Stranger.",
+      "hero_hash": "592f7b57",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 225.7,
+          "short_pct": 5.1,
+          "long_pct": 43.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 1,
+      "started": "2026-09-10T02:05:18.234532-07:00",
+      "completed": "2026-09-10T02:11:31.959979-07:00",
+      "ship_after": "2026-11-04",
+      "research_file": "drafts/invoice-diversion-fraud-bec-homebuilders-2026-research.md",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-03), next open slot 2026-11-04."
     }
   ],
-  "last_checked": "2026-09-10T02:05:18.234532-07:00",
-  "current": {
-    "slug": "invoice-diversion-fraud-bec-homebuilders-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "number": 810,
-    "started": "2026-09-10T02:05:18.234532-07:00",
-    "research_file": "drafts/invoice-diversion-fraud-bec-homebuilders-2026-research.md"
-  }
+  "last_checked": "2026-09-10T02:11:31.959979-07:00",
+  "current": null
 }
