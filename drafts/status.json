@@ -1,5 +1,5 @@
 {
-  "last_completed": 824,
+  "last_completed": 825,
   "last_published_at": "2026-09-11T00:03:59.380110+00:00",
   "ship_ready": [
     {
@@ -4117,14 +4117,56 @@
       "rounds": 1,
       "completed": "2026-09-11T19:12:58.156254+00:00",
       "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-20), next open slot 2026-11-21."
+    },
+    {
+      "article_number": 825,
+      "number": 825,
+      "slug": "ai-mechanics-lien-preliminary-notice-deadline-2026",
+      "headline": "You Have 20 Days to Protect Your Right to Get Paid. 56% of Subcontractors Missed It.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-22",
+      "started": "2026-09-11T14:20:00-07:00",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 290.8,
+          "short_pct": 9.7,
+          "long_pct": 44.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "b2ce0fe2",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-mechanics-lien-preliminary-notice-deadline-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-11T14:45:00-07:00",
+      "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-21), next open slot 2026-11-22."
     }
   ],
-  "last_checked": "2026-09-11T14:20:00-07:00",
-  "current": {
-    "slug": "ai-mechanics-lien-preliminary-notice-deadline-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-11T14:20:00-07:00",
-    "article_number": 825
-  }
+  "last_checked": "2026-09-11T14:45:00-07:00",
+  "current": null
 }
