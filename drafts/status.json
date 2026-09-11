@@ -1,5 +1,5 @@
 {
-  "last_completed": 753,
+  "last_completed": 823,
   "last_published_at": "2026-09-11T00:03:59.380110+00:00",
   "ship_ready": [
     {
@@ -4021,15 +4021,56 @@
       "rounds": 0,
       "completed": "2026-09-11T16:15:00+00:00",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-18), next open slot 2026-11-19."
+    },
+    {
+      "article_number": 823,
+      "number": 823,
+      "slug": "ai-geothermal-lease-25d-dead-geo-as-a-service-2026",
+      "headline": "The 30% Geothermal Tax Credit Died on New Year's Eve. The Lease That Replaced It Costs Builders Nothing Upfront.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-20",
+      "started": "2026-09-11T17:04:21.394958+00:00",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 205.4,
+          "short_pct": 10.1,
+          "long_pct": 62.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "29f588a3",
+      "primary_sources": 12,
+      "research_file": "drafts/ai-geothermal-lease-25d-dead-geo-as-a-service-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-11T17:14:58.876686+00:00",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-19), next open slot 2026-11-20."
     }
   ],
-  "last_checked": "2026-09-11T17:04:21.394985+00:00",
-  "current": {
-    "slug": "ai-geothermal-lease-25d-dead-geo-as-a-service-2026",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-11T17:04:21.394958+00:00",
-    "article_number": 823,
-    "ship_after": "2026-11-20"
-  }
+  "last_checked": "2026-09-11T17:14:58.876686+00:00",
+  "current": null
 }
