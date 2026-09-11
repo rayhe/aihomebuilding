@@ -3975,6 +3975,12 @@
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-17), next open slot 2026-11-18."
     }
   ],
-  "last_checked": "2026-09-11T13:11:47.775972+00:00",
-  "current": null
+  "last_checked": "2026-09-11T15:30:00+00:00",
+  "current": {
+    "slug": "ai-design-center-options-price-audit-2026",
+    "phase": "DRAFT",
+    "journalist": "Frank DeLuca",
+    "started": "2026-09-11T15:30:00+00:00",
+    "article_number": 822
+  }
 }
