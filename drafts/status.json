@@ -4071,14 +4071,38 @@
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-19), next open slot 2026-11-20."
     }
   ],
-  "last_checked": "2026-09-11T19:07:14.885420+00:00",
+  "last_checked": "2026-09-11T19:12:27.578282+00:00",
   "current": {
     "slug": "ai-timekeeping-wage-theft-crew-surveillance-2026",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Marcus Washington",
     "started": "2026-09-11T19:07:14.885382+00:00",
     "article_number": 824,
     "research_file": "drafts/ai-timekeeping-wage-theft-crew-surveillance-2026-research.md",
-    "primary_sources": 8
+    "primary_sources": 8,
+    "round": 0,
+    "hero_hash": "ba50e421",
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 8.1,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 223.0,
+        "short_pct": 6.9,
+        "long_pct": 48.3,
+        "passed": true
+      }
+    }
   }
 }
