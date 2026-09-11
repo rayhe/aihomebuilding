@@ -3927,6 +3927,13 @@
       "hold_reason": "1/day rule: Publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-16), next open slot 2026-11-17."
     }
   ],
-  "last_checked": "2026-09-11T11:09:01.326103+00:00",
-  "current": null
+  "last_checked": "2026-09-11T13:05:00+00:00",
+  "current": {
+    "slug": "ai-lead-paint-risk-model-homebuyer-pre1978-2026",
+    "phase": "DRAFT",
+    "journalist": "Frank DeLuca",
+    "number": 821,
+    "started": "2026-09-11T13:05:00+00:00",
+    "research_file": "drafts/ai-lead-paint-risk-model-homebuyer-pre1978-2026-research.md"
+  }
 }
