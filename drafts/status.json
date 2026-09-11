@@ -1,5 +1,5 @@
 {
-  "last_completed": 823,
+  "last_completed": 824,
   "last_published_at": "2026-09-11T00:03:59.380110+00:00",
   "ship_ready": [
     {
@@ -4069,40 +4069,56 @@
       "rounds": 0,
       "completed": "2026-09-11T17:14:58.876686+00:00",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-19), next open slot 2026-11-20."
+    },
+    {
+      "article_number": 824,
+      "number": 824,
+      "slug": "ai-timekeeping-wage-theft-crew-surveillance-2026",
+      "headline": "A Record $259 Million in Stolen Wages Got Returned Last Year. The Tool That Could End Wage Theft Is the One Workers Call a Snitch.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-21",
+      "started": "2026-09-11T19:07:14.885382+00:00",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 223.0,
+          "short_pct": 6.9,
+          "long_pct": 48.3,
+          "passed": true
+        }
+      },
+      "hero_hash": "ba50e421",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-timekeeping-wage-theft-crew-surveillance-2026-research.md",
+      "rounds": 1,
+      "completed": "2026-09-11T19:12:58.156254+00:00",
+      "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-20), next open slot 2026-11-21."
     }
   ],
-  "last_checked": "2026-09-11T19:12:27.578282+00:00",
-  "current": {
-    "slug": "ai-timekeeping-wage-theft-crew-surveillance-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-11T19:07:14.885382+00:00",
-    "article_number": 824,
-    "research_file": "drafts/ai-timekeeping-wage-theft-crew-surveillance-2026-research.md",
-    "primary_sources": 8,
-    "round": 0,
-    "hero_hash": "ba50e421",
-    "hard_gates": {
-      "em_dash": {
-        "count": 0,
-        "limit": 3,
-        "passed": true
-      },
-      "the_starters": {
-        "pct": 8.1,
-        "limit": 15.0,
-        "passed": true
-      },
-      "banned_phrases": {
-        "count": 0,
-        "passed": true
-      },
-      "sentence_rhythm": {
-        "variance": 223.0,
-        "short_pct": 6.9,
-        "long_pct": 48.3,
-        "passed": true
-      }
-    }
-  }
+  "last_checked": "2026-09-11T19:12:58.156254+00:00",
+  "current": null
 }
