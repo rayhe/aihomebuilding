@@ -3973,14 +3973,56 @@
       "rounds": 0,
       "completed": "2026-09-11T13:11:47.775972+00:00",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-17), next open slot 2026-11-18."
+    },
+    {
+      "article_number": 822,
+      "number": 822,
+      "slug": "ai-design-center-options-price-audit-2026",
+      "headline": "Your Builder Charged $4,200 for the Quartz Upgrade. The Builder's Own Math Says It Cost $2,940.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-19",
+      "started": "2026-09-11T15:30:00+00:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 204.6,
+          "short_pct": 11.8,
+          "long_pct": 54.4,
+          "passed": true
+        }
+      },
+      "hero_hash": "3323b1bb",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-design-center-options-price-audit-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-11T16:15:00+00:00",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-18), next open slot 2026-11-19."
     }
   ],
-  "last_checked": "2026-09-11T15:30:00+00:00",
-  "current": {
-    "slug": "ai-design-center-options-price-audit-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-11T15:30:00+00:00",
-    "article_number": 822
-  }
+  "last_checked": "2026-09-11T16:15:00+00:00",
+  "current": null
 }
