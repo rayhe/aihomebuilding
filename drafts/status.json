@@ -4119,6 +4119,12 @@
       "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-20), next open slot 2026-11-21."
     }
   ],
-  "last_checked": "2026-09-11T19:12:58.156254+00:00",
-  "current": null
+  "last_checked": "2026-09-11T14:20:00-07:00",
+  "current": {
+    "slug": "ai-mechanics-lien-preliminary-notice-deadline-2026",
+    "phase": "DRAFT",
+    "journalist": "Catherine Chen",
+    "started": "2026-09-11T14:20:00-07:00",
+    "article_number": 825
+  }
 }
