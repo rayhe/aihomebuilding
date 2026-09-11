@@ -3738,13 +3738,56 @@
       "ship_after": "2026-11-13",
       "research_file": "drafts/ai-floor-plan-price-war-design-fee-disruption-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-12), next open slot 2026-11-13."
+    },
+    {
+      "article_number": 817,
+      "number": 817,
+      "slug": "ai-sprinkler-design-13d-mandate-gap-2026",
+      "headline": "Three in 10 Homes Catch Fire. The $4,200 Sprinkler Fix Is Illegal to Require in 34 States.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "technical_accuracy": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 204.4,
+          "short_pct": 7.8,
+          "long_pct": 56.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 2,
+      "hero_hash": "ce2d8202",
+      "started": "2026-09-10T22:15:00-07:00",
+      "completed": "2026-09-10T22:45:00-07:00",
+      "ship_after": "2026-11-14",
+      "research_file": "drafts/ai-sprinkler-design-13d-mandate-gap-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-13), next open slot 2026-11-14."
     }
   ],
   "last_checked": "2026-09-10T20:45:00-07:00",
-  "current": {
-    "slug": "ai-sprinkler-design-13d-mandate-gap-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-10T22:15:00-07:00"
-  }
+  "current": null
 }
