@@ -4165,8 +4165,56 @@
       "rounds": 0,
       "completed": "2026-09-11T14:45:00-07:00",
       "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-21), next open slot 2026-11-22."
+    },
+    {
+      "article_number": 826,
+      "number": 826,
+      "slug": "ai-mold-photo-screening-inspection-remediation-gap-2026",
+      "headline": "Your Inspector Photographed the Mold. Nobody Looked at the Photo.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-23",
+      "started": "2026-09-11T16:05:00-07:00",
+      "completed": "2026-09-11T16:45:00-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 226.6,
+          "short_pct": 13.8,
+          "long_pct": 46.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "37b93b91",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-mold-photo-screening-inspection-remediation-gap-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-22), next open slot 2026-11-23."
     }
   ],
-  "last_checked": "2026-09-11T14:45:00-07:00",
+  "last_checked": "2026-09-11T16:45:00-07:00",
   "current": null
 }
