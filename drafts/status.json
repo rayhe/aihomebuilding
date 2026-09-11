@@ -3644,14 +3644,16 @@
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-10), next open slot 2026-11-11."
     }
   ],
-  "last_checked": "2026-09-10T18:05:00-07:00",
+  "last_checked": "2026-09-10T18:10:00-07:00",
   "current": {
     "slug": "ai-builder-spec-sheet-decoder-new-home-2026",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Catherine Chen",
     "started": "2026-09-10T18:05:00-07:00",
     "headline": "Your Builder Spec Sheet Says Quartz or Equivalent. That Word Cost You $9,000.",
     "research_file": "drafts/ai-builder-spec-sheet-decoder-new-home-2026-research.md",
-    "primary_sources": 8
+    "primary_sources": 8,
+    "round": 0,
+    "hero_hash": "b3469ce4"
   }
 }
