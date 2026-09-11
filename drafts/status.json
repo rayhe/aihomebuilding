@@ -3788,8 +3788,50 @@
       "ship_after": "2026-11-14",
       "research_file": "drafts/ai-sprinkler-design-13d-mandate-gap-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-13), next open slot 2026-11-14."
+    },
+    {
+      "article_number": 818,
+      "number": 818,
+      "slug": "ai-material-pricing-intelligence-tariff-lock-in-2026",
+      "headline": "Tariffs Added $30 Billion to Homebuilding Costs. An AI Is Reading Your Builder's Invoices to Beat the Next Price Spike.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 1,
+      "hero_hash": "82925349",
+      "started": "2026-09-11T00:10:37.784982+00:00",
+      "completed": "2026-09-11T00:10:37.784982+00:00",
+      "ship_after": "2026-11-15",
+      "research_file": "drafts/ai-material-pricing-intelligence-tariff-lock-in-2026-research.md",
+      "hold_reason": "1/day rule: Publish #753 shipped 2026-09-11; queued behind existing ship_ready queue (last ship_after 2026-11-14), next open slot 2026-11-15."
     }
   ],
-  "last_checked": "2026-09-11T00:03:59.380110+00:00",
+  "last_checked": "2026-09-11T00:10:37.784982+00:00",
   "current": null
 }
