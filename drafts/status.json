@@ -3690,15 +3690,56 @@
       "ship_after": "2026-11-12",
       "research_file": "drafts/ai-builder-spec-sheet-decoder-new-home-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-11), next open slot 2026-11-12."
+    },
+    {
+      "article_number": 816,
+      "number": 816,
+      "slug": "ai-floor-plan-price-war-design-fee-disruption-2026",
+      "headline": "Your AI Drew a Beautiful Floor Plan in Nine Minutes. It Still Costs $6,500 to Build From.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 460.4,
+          "short_pct": 6.2,
+          "long_pct": 53.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "hero_hash": "93be399b",
+      "started": "2026-09-10T20:05:00-07:00",
+      "completed": "2026-09-10T20:45:00-07:00",
+      "ship_after": "2026-11-13",
+      "research_file": "drafts/ai-floor-plan-price-war-design-fee-disruption-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-12), next open slot 2026-11-13."
     }
   ],
-  "last_checked": "2026-09-10T20:05:00-07:00",
-  "current": {
-    "slug": "ai-floor-plan-price-war-design-fee-disruption-2026",
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "article_number": 816,
-    "started": "2026-09-10T20:05:00-07:00",
-    "ship_after": "2026-11-13"
-  }
+  "last_checked": "2026-09-10T20:45:00-07:00",
+  "current": null
 }
