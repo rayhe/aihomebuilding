@@ -1,6 +1,6 @@
 {
-  "last_completed": 752,
-  "last_published_at": "2026-09-10T00:05:49.701412-07:00",
+  "last_completed": 753,
+  "last_published_at": "2026-09-11T00:03:59.380110+00:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -404,7 +404,7 @@
       "slug": "navigate-ai-trades-knowledge-capture-2026",
       "headline": "175,000 Construction Veterans Will Retire This Year. 40,000 Apprentices Will Finish Training. A $25M Startup Is Filming the Gap.",
       "journalist": "Marcus Washington",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-06",
       "started": "2026-09-02T08:01:52-07:00",
       "critique_score": 8.83,
@@ -443,7 +443,9 @@
       "primary_sources": 7,
       "research_file": "drafts/navigate-ai-trades-knowledge-capture-2026-research.md",
       "rounds": 0,
-      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05"
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05",
+      "published_at": "2026-09-11T00:03:59.380110+00:00",
+      "publish_number": 753
     },
     {
       "article_number": 749,
@@ -3788,6 +3790,6 @@
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-13), next open slot 2026-11-14."
     }
   ],
-  "last_checked": "2026-09-10T20:45:00-07:00",
+  "last_checked": "2026-09-11T00:03:59.380110+00:00",
   "current": null
 }
