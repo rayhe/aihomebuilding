@@ -828,3 +828,15 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: tools don't make owners pay faster; Built free tier is a land-grab; Colorado expansion cuts both ways
 - Journalist: Frank DeLuca (project management & operations beat)
 - **Queued SHIP 2026-11-08 as #754:** "56% of Subcontractors Missed a Lien Deadline in Two Years. The Calendar That Wouldn't Have Costs $19." (critique avg 8.81, round 0)
+
+### 79. 🟢 AI-Audited Design Center Options: Buy the Bones, Defer the Finishes
+- ProBuilder "Margin vs Markup": large builders target 30% margin on options = 42.85% markup on installed cost; reverse math (÷1.4285) estimates builder cost from option price
+- Shea Homes: buyers spend 10%+ of home value on upgrades; design center "a profit center for sure"; one center did $1M+/mo vs $600K projected
+- Homes.com survey (~Oct 2025): 58% buyers prefer full customization; first questions = final cost, upgrades, timeline
+- Houzz 2024: median aftermarket reno spend $24,000 (+60% since 2020) — cuts both ways in buy-now-vs-later math
+- AI tooling: Home Depot Material List Builder AI (Jan 2026, Pro Xtra), photo-to-estimate apps with live material pricing, Etsy AI Contractor Quote Comparison Kit (prompt product)
+- Marna Friedman (Sep 2026): design-center credits negotiable on inventory homes; structural options hold resale value
+- Original contribution: options-vs-aftermarket audit table (8 upgrades, buy-now vs defer verdicts) + worked $55K-options example ($38.5K implied cost, $16.5K gross) + financing comparison ($4,200 option = $9,560 all-in at 6.5% vs $3,300 cash aftermarket)
+- Counterargument: builder warranty integration, schedule certainty, mortgage financing vs cash/HELOC; AI price estimates hallucinate labor
+- Journalist: Frank DeLuca (project management & operations beat)
+- **Queued SHIP 2026-11-19 as #822:** "Your Builder Charged $4,200 for the Quartz Upgrade. The Builder's Own Math Says It Cost $2,940." (critique avg 8.83, round 0)
