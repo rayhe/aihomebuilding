@@ -4023,6 +4023,13 @@
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-18), next open slot 2026-11-19."
     }
   ],
-  "last_checked": "2026-09-11T16:15:00+00:00",
-  "current": null
+  "last_checked": "2026-09-11T17:04:21.394985+00:00",
+  "current": {
+    "slug": "ai-geothermal-lease-25d-dead-geo-as-a-service-2026",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "started": "2026-09-11T17:04:21.394958+00:00",
+    "article_number": 823,
+    "ship_after": "2026-11-20"
+  }
 }
