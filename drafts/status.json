@@ -3877,15 +3877,56 @@
       "rounds": 1,
       "completed": "2026-09-11T09:10:01.380365+00:00",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-15), next open slot 2026-11-16."
+    },
+    {
+      "article_number": 820,
+      "number": 820,
+      "slug": "yellow-csst-gas-line-lightning-bonding-gap-2026",
+      "headline": "Your Gas Line Is Yellow. Lightning Doesn't Have to Hit Your House to Set It on Fire.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-17",
+      "started": "2026-09-11T11:04:12.873277+00:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 228.9,
+          "short_pct": 8.0,
+          "long_pct": 48.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "1fbd3c35",
+      "primary_sources": 11,
+      "research_file": "drafts/yellow-csst-gas-line-lightning-bonding-gap-2026-research.md",
+      "rounds": 0,
+      "completed": "2026-09-11T11:09:01.326103+00:00",
+      "hold_reason": "1/day rule: Publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-16), next open slot 2026-11-17."
     }
   ],
-  "last_checked": "2026-09-11T09:10:01.380410+00:00",
-  "current": {
-    "slug": "yellow-csst-gas-line-lightning-bonding-gap-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-11T11:04:12.873277+00:00",
-    "article_number": 820,
-    "research_file": "drafts/yellow-csst-gas-line-lightning-bonding-gap-2026-research.md"
-  }
+  "last_checked": "2026-09-11T11:09:01.326103+00:00",
+  "current": null
 }
