@@ -3830,17 +3830,55 @@
       "ship_after": "2026-11-15",
       "research_file": "drafts/ai-material-pricing-intelligence-tariff-lock-in-2026-research.md",
       "hold_reason": "1/day rule: Publish #753 shipped 2026-09-11; queued behind existing ship_ready queue (last ship_after 2026-11-14), next open slot 2026-11-15."
+    },
+    {
+      "article_number": 819,
+      "slug": "ai-dryer-vent-lint-fire-sensor-blockage-2026",
+      "headline": "Your Lint Trap Is Clean. The Vent Behind It Is a 38-Foot Fire Hazard.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-16",
+      "started": "2026-09-11T09:05:41.049487+00:00",
+      "critique_score": 8.77,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.5,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.8,
+          "short_pct": 10.1,
+          "long_pct": 52.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "eb004207",
+      "primary_sources": 6,
+      "research_file": "drafts/ai-dryer-vent-lint-fire-sensor-blockage-2026-research.md",
+      "rounds": 1,
+      "completed": "2026-09-11T09:10:01.380365+00:00",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-15), next open slot 2026-11-16."
     }
   ],
-  "last_checked": "2026-09-11T09:05:41.050334+00:00",
-  "current": {
-    "article_number": 819,
-    "slug": "ai-dryer-vent-lint-fire-sensor-blockage-2026",
-    "headline": "Your Lint Trap Is Clean. The Vent Behind It Is a 38-Foot Fire Hazard.",
-    "journalist": "Jake Kowalski",
-    "phase": "DRAFT",
-    "started": "2026-09-11T09:05:41.049487+00:00",
-    "research_file": "drafts/ai-dryer-vent-lint-fire-sensor-blockage-2026-research.md",
-    "primary_sources": 6
-  }
+  "last_checked": "2026-09-11T09:10:01.380410+00:00",
+  "current": null
 }
