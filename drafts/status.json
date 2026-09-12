@@ -1527,7 +1527,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2467,7 +2467,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -4357,9 +4357,33 @@
     "id": 830,
     "slug": "ai-home-battery-tou-arbitrage-nem3-payback-2026",
     "journalist": "Priya Greenwood",
-    "stage": "DRAFT",
+    "stage": "SHIP_READY",
     "started": "2026-09-12T02:10:00-07:00",
     "ship_after": "2026-11-27",
-    "note": "RESEARCH done. Angle: NEM 3.0 8c export vs ~55c peak import; battery arbitrages spread; 'AI dispatch' is the garnish, the rate spread does the work. 7 primary sources (CPUC, PG&E/3CE tariff, Cali Energy/EIA, EnergySage, VPP/ELRP, NREL x2). Original contribution: payback model (7.9yr arbitrage-only, ~6.4yr with VPP; 20yr without solar). Kill test pass."
+    "research": "drafts/ai-home-battery-tou-arbitrage-nem3-payback-2026-research.md",
+    "hero": "images/ai-home-battery-tou-arbitrage-nem3-payback-2026.jpg",
+    "hero_hash": "275f9db5",
+    "hero_real_jpeg": "FF D8 magic, 2048x1152, verified on-screen: California dusk home, rooftop solar, wall battery with green status light",
+    "critique": {
+      "rounds": 1,
+      "general_editor": 8.7,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.7,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.9,
+      "data_presentation": 8.8
+    },
+    "critique_average": 8.84,
+    "hard_gates": {
+      "em_dash_count": 0,
+      "the_starter_pct": 7.5,
+      "banned_phrases": "none found",
+      "sentence_rhythm": "PASS (variance 210.6, short 12.9%, long 35.5%)"
+    },
+    "revision_notes": "Round 1: merged 4 short sentences, extended 2 into long complex constructions for rhythm variance; added IRS-expiry inline link and degradation source link. No content weakened.",
+    "kill_test_passed": "Would a California home builder specify this battery? Yes: the labeled-assumption payback model (7.9yr, 6.4yr with VPP) directly answers the $12k-$17k battery decision.",
+    "published": "not published; 2026-09-12 PT slot taken by #754",
+    "notes": "Original contribution: labeled-assumption payback model for Powerwall 3 under NEM 3.0 + ELRP VPP income; provocative conclusion that TOU arbitrage does the work and AI dispatch is garnish. 10 inline source links (CPUC, pv-magazine x2, 3CE rate sheet, cali-energy x2, EnergySage, ecogenamerica, higherpowersolar, NREL, PNNL). 30% ITC expiry claim confirmed by IRS per cali-energy; labeled as such."
   }
 }
