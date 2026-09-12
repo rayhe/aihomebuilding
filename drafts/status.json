@@ -1,5 +1,5 @@
 {
-  "last_completed": 829,
+  "last_completed": 831,
   "last_published_at": "2026-09-12T07:06:52.029889+00:00",
   "ship_ready": [
     {
@@ -4399,15 +4399,57 @@
       "primary_sources": 10,
       "research_file": "drafts/ai-home-battery-tou-arbitrage-nem3-payback-2026-research.md",
       "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-26), next open slot 2026-11-27."
+    },
+    {
+      "article_number": 831,
+      "number": 831,
+      "slug": "fannie-mae-adu-rental-income-mortgage-qualifying-2026",
+      "headline": "Fannie Mae Will Count Your Backyard Cottage as Income. The Cap Is 30%.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-28",
+      "started": "2026-09-12T04:15:00-07:00",
+      "completed": "2026-09-12T05:05:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.84,
+      "rounds": 2,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 202.9,
+          "short_pct": 13.0,
+          "long_pct": 55.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "19addbc6",
+      "hero_real_jpeg": "FF D8 magic, 2048x1152, verified on-screen: framed backyard cottage under construction, golden hour, main house behind",
+      "primary_sources": 14,
+      "research_file": "drafts/fannie-mae-adu-rental-income-mortgage-qualifying-2026-research.md",
+      "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-27), next open slot 2026-11-28."
     }
   ],
   "last_checked": "2026-09-12T02:05:00-07:00",
-  "current": {
-    "slug": "fannie-mae-adu-rental-income-mortgage-qualifying-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Catherine Chen",
-    "number": 831,
-    "round": 0,
-    "started": "2026-09-12T04:15:00-07:00"
-  }
+  "current": null
 }

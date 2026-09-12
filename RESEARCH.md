@@ -840,3 +840,12 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: builder warranty integration, schedule certainty, mortgage financing vs cash/HELOC; AI price estimates hallucinate labor
 - Journalist: Frank DeLuca (project management & operations beat)
 - **Queued SHIP 2026-11-19 as #822:** "Your Builder Charged $4,200 for the Quartz Upgrade. The Builder's Own Math Says It Cost $2,940." (critique avg 8.83, round 0)
+
+### 80. 🟢 Fannie Mae ADU Rental Income for Mortgage Qualifying (SEL-2025-08)
+- Fannie Mae SEL-2025-08 (Oct 8, 2025): ADU rental income now qualifies buyers — 75% of market rent counted, capped at 30% of total qualifying income, one ADU's income only; lease or Form 1007/1025; expanded eligibility (up to 3 ADUs, manufactured homes, 2-3 unit + ADU to 4 total) gated behind UAD 3.6 (mandatory Nov 2, 2026)
+- Terner Center/CCI 2021 survey: $150K median cost ($250/sf), $2,000 median rent; no newer rigorous study (confirmed Sept 2026); LA 2026 contractor pricing $300-500/sf detached, $180-320 garage conversion
+- AI angle: FutureLot address-in feasibility reports, cove/Vitras.ai; Urban Institute 2026 RAG test on Minneapolis 467-page zoning code found AI answers often unhelpful — "zoning interpretation is not a search problem but a reasoning problem"
+- Original contribution: worked cap math ($6K buyer → +$91.5K buying power; $3.5K buyer loses $150/mo to the 30% cap — subsidy flows uphill) + payback table (750sf at $350/sf = $262.5K, 9.1% gross, ~17yr payback) + appraisal-bottleneck synthesis (rule unlocks income, not value)
+- Counterargument: qualify on income, die on appraisal; lender implementation "underway"; AI zoning answers confidently wrong; 8% STR — long-term-tenant story
+- Journalist: Catherine Chen (policy & regulation beat)
+- **Queued SHIP 2026-11-28 as #831:** "Fannie Mae Will Count Your Backyard Cottage as Income. The Cap Is 30%." (critique avg 8.84, round 2)
