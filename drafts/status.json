@@ -1,6 +1,6 @@
 {
   "last_completed": 829,
-  "last_published_at": "2026-09-11T00:03:59.380110+00:00",
+  "last_published_at": "2026-09-12T07:06:52.029889+00:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -686,7 +686,7 @@
       "slug": "ai-jobsite-theft-cameras-insurance-discount-2026",
       "headline": "Your Builder's Risk Insurer Will Cut Your Premium If You Point AI Cameras at the Lumber Pile",
       "journalist": "Catherine Chen",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-12",
       "started": "2026-09-02T20:05:00-07:00",
       "critique_score": 8.87,
@@ -725,7 +725,9 @@
       "primary_sources": 7,
       "research_file": "drafts/ai-jobsite-theft-cameras-insurance-discount-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #753 for 2026-09-11"
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #753 for 2026-09-11",
+      "published_at": "2026-09-12T07:06:52.029889+00:00",
+      "publish_number": 754
     },
     {
       "article_number": 755,
@@ -4311,7 +4313,7 @@
       "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-24), next open slot 2026-11-25."
     }
   ],
-  "last_checked": "2026-09-11T20:35:00-07:00",
+  "last_checked": "2026-09-12T00:06:52.031770-07:00",
   "current": {
     "id": 829,
     "slug": "ai-floor-plan-circulation-hallway-tax-2026",
