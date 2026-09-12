@@ -4448,16 +4448,57 @@
       "primary_sources": 14,
       "research_file": "drafts/fannie-mae-adu-rental-income-mortgage-qualifying-2026-research.md",
       "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-27), next open slot 2026-11-28."
+    },
+    {
+      "article_number": 832,
+      "number": 832,
+      "slug": "sewer-lateral-ai-camera-trenchless-repair-2026",
+      "headline": "Your Sewer Lateral Is Older Than Your Mortgage. The $299 Camera Knows Where It'll Break.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-29",
+      "started": "2026-09-12T06:30:00-07:00",
+      "completed": "2026-09-12T07:15:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "critique_average": 8.84,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 319.3,
+          "short_pct": 12.7,
+          "long_pct": 63.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "dfe73a9e",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, plumber feeding inspection camera into sewer cleanout, trenchless equipment staged in suburban yard",
+      "primary_sources": 9,
+      "research_file": "drafts/sewer-lateral-ai-camera-trenchless-repair-2026-research.md",
+      "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-28), next open slot 2026-11-29."
     }
   ],
-  "last_checked": "2026-09-12T06:30:00-07:00",
-  "current": {
-    "article_number": 832,
-    "slug": "sewer-lateral-ai-camera-trenchless-repair-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-12T06:30:00-07:00",
-    "headline": "Your Sewer Lateral Is Older Than Your Mortgage. The $299 Camera Knows Where It'll Break.",
-    "research_file": "drafts/sewer-lateral-ai-camera-trenchless-repair-2026-research.md"
-  }
+  "last_checked": "2026-09-12T07:15:00-07:00",
+  "current": null
 }
