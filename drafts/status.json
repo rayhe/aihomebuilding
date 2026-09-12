@@ -4353,5 +4353,13 @@
     }
   ],
   "last_checked": "2026-09-12T02:05:00-07:00",
-  "current": null
+  "current": {
+    "id": 830,
+    "slug": "ai-home-battery-tou-arbitrage-nem3-payback-2026",
+    "journalist": "Priya Greenwood",
+    "stage": "DRAFT",
+    "started": "2026-09-12T02:10:00-07:00",
+    "ship_after": "2026-11-27",
+    "note": "RESEARCH done. Angle: NEM 3.0 8c export vs ~55c peak import; battery arbitrages spread; 'AI dispatch' is the garnish, the rate spread does the work. 7 primary sources (CPUC, PG&E/3CE tariff, Cali Energy/EIA, EnergySage, VPP/ELRP, NREL x2). Original contribution: payback model (7.9yr arbitrage-only, ~6.4yr with VPP; 20yr without solar). Kill test pass."
+  }
 }
