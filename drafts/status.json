@@ -4350,40 +4350,57 @@
       "primary_sources": 12,
       "research_file": "drafts/ai-floor-plan-circulation-hallway-tax-2026-research.md",
       "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-25), next open slot 2026-11-26."
+    },
+    {
+      "article_number": 830,
+      "number": 830,
+      "slug": "ai-home-battery-tou-arbitrage-nem3-payback-2026",
+      "headline": "NEM 3.0 Pays You 8 Cents at Noon and Bills You 55 Cents at 7 PM. A $13,500 Battery Pockets the Spread.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-27",
+      "started": "2026-09-12T02:10:00-07:00",
+      "completed": "2026-09-12T02:55:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.84,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 210.6,
+          "short_pct": 12.9,
+          "long_pct": 35.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "275f9db5",
+      "hero_real_jpeg": "FF D8 magic, 2048x1152, verified on-screen: California dusk home, rooftop solar, wall battery with green status light",
+      "primary_sources": 10,
+      "research_file": "drafts/ai-home-battery-tou-arbitrage-nem3-payback-2026-research.md",
+      "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-26), next open slot 2026-11-27."
     }
   ],
   "last_checked": "2026-09-12T02:05:00-07:00",
-  "current": {
-    "id": 830,
-    "slug": "ai-home-battery-tou-arbitrage-nem3-payback-2026",
-    "journalist": "Priya Greenwood",
-    "stage": "SHIP_READY",
-    "started": "2026-09-12T02:10:00-07:00",
-    "ship_after": "2026-11-27",
-    "research": "drafts/ai-home-battery-tou-arbitrage-nem3-payback-2026-research.md",
-    "hero": "images/ai-home-battery-tou-arbitrage-nem3-payback-2026.jpg",
-    "hero_hash": "275f9db5",
-    "hero_real_jpeg": "FF D8 magic, 2048x1152, verified on-screen: California dusk home, rooftop solar, wall battery with green status light",
-    "critique": {
-      "rounds": 1,
-      "general_editor": 8.7,
-      "voice_coach": 8.8,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.7,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.9,
-      "data_presentation": 8.8
-    },
-    "critique_average": 8.84,
-    "hard_gates": {
-      "em_dash_count": 0,
-      "the_starter_pct": 7.5,
-      "banned_phrases": "none found",
-      "sentence_rhythm": "PASS (variance 210.6, short 12.9%, long 35.5%)"
-    },
-    "revision_notes": "Round 1: merged 4 short sentences, extended 2 into long complex constructions for rhythm variance; added IRS-expiry inline link and degradation source link. No content weakened.",
-    "kill_test_passed": "Would a California home builder specify this battery? Yes: the labeled-assumption payback model (7.9yr, 6.4yr with VPP) directly answers the $12k-$17k battery decision.",
-    "published": "not published; 2026-09-12 PT slot taken by #754",
-    "notes": "Original contribution: labeled-assumption payback model for Powerwall 3 under NEM 3.0 + ELRP VPP income; provocative conclusion that TOU arbitrage does the work and AI dispatch is garnish. 10 inline source links (CPUC, pv-magazine x2, 3CE rate sheet, cali-energy x2, EnergySage, ecogenamerica, higherpowersolar, NREL, PNNL). 30% ITC expiry claim confirmed by IRS per cali-energy; labeled as such."
-  }
+  "current": null
 }
