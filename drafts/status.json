@@ -4311,16 +4311,47 @@
       "research_file": "drafts/modular-housing-financing-draw-gap-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-24), next open slot 2026-11-25."
+    },
+    {
+      "article_number": 829,
+      "number": 829,
+      "slug": "ai-floor-plan-circulation-hallway-tax-2026",
+      "headline": "Your Floor Plan Has 265 Square Feet of Hallway. At $162 a Foot, You Paid $42,900 for the Walk to Your Bedroom.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-26",
+      "started": "2026-09-11T22:15:00-07:00",
+      "completed": "2026-09-11T22:18:00-07:00",
+      "critique_note": "All 7 critics >=8.5 after 2 revision rounds (per-critic breakdown not recorded by the 2026-09-11 run; from its SHIP_READY commit message). Rounds: 2.",
+      "rounds": 2,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 202.6,
+          "short_pct": 10.9,
+          "long_pct": 52.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "af21f50d",
+      "primary_sources": 12,
+      "research_file": "drafts/ai-floor-plan-circulation-hallway-tax-2026-research.md",
+      "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-25), next open slot 2026-11-26."
     }
   ],
-  "last_checked": "2026-09-12T00:06:52.031770-07:00",
-  "current": {
-    "id": 829,
-    "slug": "ai-floor-plan-circulation-hallway-tax-2026",
-    "journalist": "Elena Vasquez",
-    "stage": "SHIP_READY",
-    "started": "2026-09-11T22:15:00-07:00",
-    "ship_after": "2026-11-26",
-    "note": "SHIP_READY. All 7 critics >=8.5 (2 revision rounds: fixed corridor math $29,200, cut unsourced kitchen-remodel claim, fixed framing comparison, ResPlan date, pronoun consistency). Hard gates PASS. Hero real JPEG, hash af21f50d. Links verified. Index card + featured updated. NOT published: 2026-09-11 daily slot occupied by #753."
-  }
+  "last_checked": "2026-09-12T02:05:00-07:00",
+  "current": null
 }
