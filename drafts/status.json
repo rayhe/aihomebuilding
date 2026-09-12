@@ -4261,8 +4261,56 @@
       "research_file": "drafts/ai-chimney-flue-camera-scan-fire-insurance-neglect-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-23), next open slot 2026-11-24."
+    },
+    {
+      "article_number": 828,
+      "number": 828,
+      "slug": "modular-housing-financing-draw-gap-2026",
+      "headline": "Modular Homes Cost 25% Less to Build. Your Construction Loan Was Built to Stop You From Using One.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-25",
+      "started": "2026-09-11T20:05:00-07:00",
+      "completed": "2026-09-11T20:35:00-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 106.1,
+          "short_pct": 26.0,
+          "long_pct": 20.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "b82a2dca",
+      "primary_sources": 5,
+      "research_file": "drafts/modular-housing-financing-draw-gap-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-24), next open slot 2026-11-25."
     }
   ],
-  "last_checked": "2026-09-11T18:15:00-07:00",
+  "last_checked": "2026-09-11T20:35:00-07:00",
   "current": null
 }
