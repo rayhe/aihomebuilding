@@ -1,5 +1,5 @@
 {
-  "last_completed": 831,
+  "last_completed": 833,
   "last_published_at": "2026-09-12T07:06:52.029889+00:00",
   "ship_ready": [
     {
@@ -4497,23 +4497,58 @@
       "primary_sources": 9,
       "research_file": "drafts/sewer-lateral-ai-camera-trenchless-repair-2026-research.md",
       "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-28), next open slot 2026-11-29."
+    },
+    {
+      "article_number": 833,
+      "number": 833,
+      "slug": "sb-79-transit-upzone-your-lot-math-2026",
+      "headline": "Your Lot Was Upzoned on July 1. The State Says 160 Units Per Acre. Your City Might Disagree.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-30",
+      "started": "2026-09-12T15:10:00Z",
+      "completed": "2026-09-12T15:20:00Z",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.2
+      },
+      "critique_average": 8.96,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 312.3,
+          "short_pct": 10.0,
+          "long_pct": 51.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "8baf37af",
+      "hero_real_jpeg": "FF D8 magic, 2736x912, ranch house with BART train on elevated tracks and translucent mid-rise massing overlays",
+      "primary_sources": 8,
+      "research_file": "drafts/sb-79-transit-upzone-your-lot-math-2026-research.md",
+      "draft_file": "drafts/sb-79-transit-upzone-your-lot-math-2026.html",
+      "publish_note": "Not published: article #754 already published 2026-09-12 (one-per-day rule). Queued ship-ready."
     }
   ],
   "last_checked": "2026-09-12T07:15:00-07:00",
-  "current": {
-    "slug": "sb-79-transit-upzone-your-lot-math-2026",
-    "phase": "SHIP",
-    "round": 0,
-    "journalist": "Catherine Chen",
-    "started": "2026-09-12T15:10:00Z",
-    "critics": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 8.7,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data_presentation": 9.2
-    }
-  }
+  "current": null
 }
