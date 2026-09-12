@@ -1,5 +1,5 @@
 {
-  "last_completed": 826,
+  "last_completed": 829,
   "last_published_at": "2026-09-11T00:03:59.380110+00:00",
   "ship_ready": [
     {
@@ -4316,9 +4316,9 @@
     "id": 829,
     "slug": "ai-floor-plan-circulation-hallway-tax-2026",
     "journalist": "Elena Vasquez",
-    "stage": "DRAFT",
+    "stage": "SHIP_READY",
     "started": "2026-09-11T22:15:00-07:00",
     "ship_after": "2026-11-26",
-    "note": "AI floor-plan circulation scoring vs the hallway tax. Original contribution: NAHB $162/sq ft x circulation share = $34,300-$64,300 hallway tax on typical new home. Research: RPLAN 80k, ResPlan 17k, ArchiMetricsNet 120k (ACL 2025, circulation as eval dimension), Higharc $90M Series C, TestFit generative design, QLCM method. Hard gates PASS (variance 214.6, short 11.8%, long 51.6%, 0 em dashes, The-starters 6.5%). Hero real JPEG 1920x1280, hash af21f50d."
+    "note": "SHIP_READY. All 7 critics >=8.5 (2 revision rounds: fixed corridor math $29,200, cut unsourced kitchen-remodel claim, fixed framing comparison, ResPlan date, pronoun consistency). Hard gates PASS. Hero real JPEG, hash af21f50d. Links verified. Index card + featured updated. NOT published: 2026-09-11 daily slot occupied by #753."
   }
 }
