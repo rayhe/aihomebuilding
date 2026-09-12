@@ -1,5 +1,5 @@
 {
-  "last_completed": 825,
+  "last_completed": 826,
   "last_published_at": "2026-09-11T00:03:59.380110+00:00",
   "ship_ready": [
     {
@@ -4213,15 +4213,56 @@
       "research_file": "drafts/ai-mold-photo-screening-inspection-remediation-gap-2026-research.md",
       "rounds": 1,
       "hold_reason": "1/day rule: publishes #752/#753 shipped 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-22), next open slot 2026-11-23."
+    },
+    {
+      "article_number": 827,
+      "number": 827,
+      "slug": "ai-chimney-flue-camera-scan-fire-insurance-neglect-2026",
+      "headline": "Your Chimney's Fire Costs $381. Your Flue Liner's Failure Costs $77,700. The Camera Knows the Difference.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-11-24",
+      "started": "2026-09-11T18:05:00-07:00",
+      "completed": "2026-09-11T18:15:00-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 213.3,
+          "short_pct": 12.5,
+          "long_pct": 55.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "f8968a78",
+      "primary_sources": 11,
+      "research_file": "drafts/ai-chimney-flue-camera-scan-fire-insurance-neglect-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-11 PT; queued behind existing ship_ready queue (last ship_after 2026-11-23), next open slot 2026-11-24."
     }
   ],
-  "last_checked": "2026-09-11T16:45:00-07:00",
-  "current": {
-    "slug": "ai-chimney-flue-camera-scan-fire-insurance-neglect-2026",
-    "article_number": 827,
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-11T18:05:00-07:00",
-    "research_file": "drafts/ai-chimney-flue-camera-scan-fire-insurance-neglect-2026-research.md"
-  }
+  "last_checked": "2026-09-11T18:15:00-07:00",
+  "current": null
 }
