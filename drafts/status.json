@@ -4647,16 +4647,58 @@
       "research_file": "drafts/ice-dam-ai-thermal-scan-attic-heat-leak-2026-research.md",
       "draft_file": "drafts/ice-dam-ai-thermal-scan-attic-heat-leak-2026.html",
       "publish_note": "Not published: article #754 already published 2026-09-12 PT (one-per-day rule). Queued ship-ready; next open slot 2026-12-02 (after #834 ship_after 2026-12-01)."
+    },
+    {
+      "article_number": 836,
+      "number": 836,
+      "slug": "builders-firstsource-digs-ai-digital-twin-2026",
+      "headline": "The Biggest Building-Products Giant in America Just Bet $25.3M That AI Will Remember Everything About Your House",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-12-03",
+      "started": "2026-09-12T14:05:00-07:00",
+      "completed": "2026-09-12T14:35:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.87,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 228.9,
+          "short_pct": 10.8,
+          "long_pct": 49.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "5df08d53",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, residential construction at golden hour, foreman with tablet showing digital blueprint overlay",
+      "primary_sources": 3,
+      "research_file": "drafts/builders-firstsource-digs-ai-digital-twin-2026-research.md",
+      "draft_file": "drafts/builders-firstsource-digs-ai-digital-twin-2026.html",
+      "publish_note": "Not published: 2 articles already published 2026-09-12 PT (one-per-day rule). Queued ship-ready; next open slot 2026-12-03 (after #835 ship_after 2026-12-02)."
     }
   ],
-  "last_checked": "2026-09-12T12:45:00-07:00",
-  "current": {
-    "slug": "builders-firstsource-digs-ai-digital-twin-2026",
-    "article_number": 836,
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-12T14:05:00-07:00",
-    "headline": "The Biggest Building-Products Giant in America Just Bet $25.3M That AI Will Remember Everything About Your House",
-    "research_file": "drafts/builders-firstsource-digs-ai-digital-twin-2026-research.md"
-  }
+  "last_checked": "2026-09-12T14:35:00-07:00",
+  "current": null
 }
