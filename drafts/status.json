@@ -1527,7 +1527,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2467,7 +2467,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -4599,6 +4599,15 @@
       "publish_note": "Not published: article #754 already published 2026-09-12 PT (one-per-day rule). Queued ship-ready behind existing queue (last ship_after 2026-11-30); next open slot 2026-12-01."
     }
   ],
-  "last_checked": "2026-09-12T10:35:00-07:00",
-  "current": null
+  "last_checked": "2026-09-12T12:15:00-07:00",
+  "current": {
+    "article_number": 835,
+    "slug": "ice-dam-ai-thermal-scan-attic-heat-leak-2026",
+    "phase": "DRAFT",
+    "journalist": "Priya Greenwood",
+    "started": "2026-09-12T12:15:00-07:00",
+    "research_file": "drafts/ice-dam-ai-thermal-scan-attic-heat-leak-2026-research.md",
+    "primary_sources": 6,
+    "headline_working": "Your Roof Will Grow Icicles This Winter. The AI Saw the Heat Leak in August."
+  }
 }
