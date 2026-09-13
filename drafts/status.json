@@ -1,5 +1,5 @@
 {
- "last_completed": 834,
+ "last_completed": 843,
  "last_published_at": "2026-09-12T07:06:52.029889+00:00",
  "ship_ready": [
   {
@@ -4990,8 +4990,58 @@
    "research_file": "drafts/expansion-tank-waterlogged-tap-test-2026-research.md",
    "draft_file": "stories/expansion-tank-waterlogged-tap-test-2026.html",
    "publish_note": "Queued, not shipped: one article already published 2026-09-13 PT (one-per-day rule). Kill-test passed; expansion-tank waterlogging/tap-test angle is novel vs 840+ stories in repo."
+  },
+  {
+   "article_number": 843,
+   "number": 843,
+   "slug": "builder-material-substitution-ai-spec-verification-2026",
+   "headline": "Your Builder Saved $8,400 Swapping Your Materials. You Won't Know for Ten Years.",
+   "journalist": "Catherine Chen",
+   "phase": "SHIP_READY",
+   "ship_after": "2026-12-16",
+   "started": "2026-09-13T08:15:00-07:00",
+   "completed": "2026-09-13T08:45:00-07:00",
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.6
+   },
+   "critique_average": 8.86,
+   "rounds": 0,
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 11.9,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 888.3,
+     "short_pct": 6.7,
+     "long_pct": 57.8,
+     "passed": true
+    }
+   },
+   "hero_hash": "7e136e01",
+   "hero_real_jpeg": true,
+   "primary_sources": 7,
+   "research_file": "drafts/builder-material-substitution-ai-spec-verification-2026-research.md",
+   "draft_file": "stories/builder-material-substitution-ai-spec-verification-2026.html",
+   "publish_note": "Queued, not shipped: two articles already published 2026-09-13 PT (one-per-day rule). Kill-test passed; material-substitution/spec-verification angle is novel vs 840+ stories in repo."
   }
  ],
- "last_checked": "2026-09-13T09:26:30.000000+00:00",
+ "last_checked": "2026-09-13T15:45:00.000000+00:00",
  "current": null
 }
