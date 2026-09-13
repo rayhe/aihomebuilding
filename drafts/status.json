@@ -5040,8 +5040,58 @@
    "research_file": "drafts/builder-material-substitution-ai-spec-verification-2026-research.md",
    "draft_file": "stories/builder-material-substitution-ai-spec-verification-2026.html",
    "publish_note": "Queued, not shipped: two articles already published 2026-09-13 PT (one-per-day rule). Kill-test passed; material-substitution/spec-verification angle is novel vs 840+ stories in repo."
+  },
+  {
+   "article_number": 844,
+   "number": 844,
+   "slug": "wind-mitigation-1802-form-reset-credit-paperwork-gap-2026",
+   "headline": "Florida Inspected 109,000 Homes for Hurricane Discounts. Only 12% Saw Their Premium Drop.",
+   "journalist": "Jake Kowalski",
+   "phase": "SHIP_READY",
+   "ship_after": "2026-12-17",
+   "started": "2026-09-13T10:01:52-07:00",
+   "completed": "2026-09-13T10:45:00-07:00",
+   "critique_scores": {
+    "general_editor": 9.0,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.9,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "critique_average": 8.9,
+   "rounds": 0,
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 8.2,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 297.7,
+     "short_pct": 13.9,
+     "long_pct": 39.2,
+     "passed": true
+    }
+   },
+   "hero_hash": "d7df6035",
+   "hero_real_jpeg": true,
+   "primary_sources": 7,
+   "research_file": "drafts/wind-mitigation-1802-form-reset-credit-paperwork-gap-2026-research.md",
+   "draft_file": "stories/wind-mitigation-1802-form-reset-credit-paperwork-gap-2026.html",
+   "publish_note": "Queued, not shipped: two articles already published 2026-09-13 PT (one-per-day rule). Kill-test passed; 1802-form-reset/paperwork-gap angle is novel vs 840+ stories in repo."
   }
  ],
- "last_checked": "2026-09-13T15:45:00.000000+00:00",
+ "last_checked": "2026-09-13T17:45:00.000000+00:00",
  "current": null
 }
