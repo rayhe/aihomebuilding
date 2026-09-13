@@ -4697,8 +4697,58 @@
       "research_file": "drafts/builders-firstsource-digs-ai-digital-twin-2026-research.md",
       "draft_file": "drafts/builders-firstsource-digs-ai-digital-twin-2026.html",
       "publish_note": "Not published: 2 articles already published 2026-09-12 PT (one-per-day rule). Queued ship-ready; next open slot 2026-12-03 (after #835 ship_after 2026-12-02)."
+    },
+    {
+      "article_number": 837,
+      "number": 837,
+      "slug": "formx-12m-ai-platform-fragmentation-tax-2026",
+      "headline": "A Startup Raised $12.5M to Replace Your Builder's Six Apps. Construction's Graveyard Says Good Luck.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-12-04",
+      "started": "2026-09-12T18:10:00-07:00",
+      "completed": "2026-09-12T18:45:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "critique_average": 8.86,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 206.5,
+          "short_pct": 5.1,
+          "long_pct": 41.4,
+          "passed": true
+        }
+      },
+      "hero_hash": "942e5200",
+      "hero_real_jpeg": true,
+      "primary_sources": 5,
+      "research_file": "drafts/formx-12m-ai-platform-fragmentation-tax-2026-research.md",
+      "draft_file": "stories/formx-12m-ai-platform-fragmentation-tax-2026.html",
+      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent \u2014 every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
     }
   ],
-  "last_checked": "2026-09-12T14:35:00-07:00",
+  "last_checked": "2026-09-12T18:45:00-07:00",
   "current": null
 }
