@@ -5345,8 +5345,58 @@
       "research_file": "drafts/sb9-lot-split-fizzle-sb1123-10-homes-2026-research.md",
       "draft_file": "drafts/sb9-lot-split-fizzle-sb1123-10-homes-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-13 PT (one-per-day rule); queue tail was 2026-12-21. Kill-test passed; SB 9 lot-split fizzle (LA 0-of-28, Terner 13-city survey) vs SB 1123 ten-parcel investor path is the original contribution, novel vs stories in repo."
+    },
+    {
+      "article_number": 851,
+      "number": 851,
+      "slug": "ai-rebuilds-lost-victorian-details-false-history-2026",
+      "headline": "A 1906 Earthquake Stole This Victorian's Tower. AI Rebuilt It From a Single Photograph. The Law Decides Which Details Are Real.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-12-23",
+      "started": "2026-09-14T02:01:52-07:00",
+      "completed": "2026-09-14T02:40:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 9.0
+      },
+      "critique_average": 8.9,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 236.6,
+          "short_pct": 10.2,
+          "long_pct": 61.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "951bcdb4",
+      "hero_real_jpeg": true,
+      "primary_sources": 4,
+      "research_file": "drafts/ai-rebuilds-lost-victorian-details-false-history-2026-research.md",
+      "draft_file": "drafts/ai-rebuilds-lost-victorian-details-false-history-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-22. Kill-test passed; AI-interpolated evidence gray zone between NPS Standards 3 and 6 (36 CFR 67) is the original contribution, novel vs stories in repo."
     }
   ],
-  "last_checked": "2026-09-13T20:45:00-07:00",
+  "last_checked": "2026-09-14T02:40:00-07:00",
   "current": null
 }
