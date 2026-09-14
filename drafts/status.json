@@ -1,5 +1,5 @@
 {
-  "last_completed": 843,
+  "last_completed": 852,
   "last_published_at": "2026-09-14T07:30:00-07:00",
   "ship_ready": [
     {
@@ -5395,13 +5395,59 @@
       "research_file": "drafts/ai-rebuilds-lost-victorian-details-false-history-2026-research.md",
       "draft_file": "drafts/ai-rebuilds-lost-victorian-details-false-history-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-22. Kill-test passed; AI-interpolated evidence gray zone between NPS Standards 3 and 6 (36 CFR 67) is the original contribution, novel vs stories in repo."
+    },
+    {
+      "article_number": 852,
+      "number": 852,
+      "slug": "ai-workers-comp-emr-bid-tax-residential-2026",
+      "headline": "Your Experience Mod Is 1.28. Your Competitor's Is 0.89. That Gap Costs You $38,000 a Year.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-12-24",
+      "started": "2026-09-14T04:01:52-07:00",
+      "completed": "2026-09-14T05:30:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "critique_average": 9.0,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.9,
+          "short_pct": 10.8,
+          "long_pct": 58.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "49a85539",
+      "hero_real_jpeg": true,
+      "primary_sources": 10,
+      "word_count": 1812,
+      "research_file": "drafts/ai-workers-comp-emr-bid-tax-residential-2026-research.md",
+      "draft_file": "drafts/ai-workers-comp-emr-bid-tax-residential-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-23. Kill-test passed; original contribution is the worked $37,560/yr EMR cost calculation on CA class 5403 payroll plus the single-bid $5,478 handicap, novel vs stories in repo."
     }
   ],
-  "last_checked": "2026-09-14T04:30:00-07:00",
-  "current": {
-    "slug": "ai-workers-comp-emr-bid-tax-residential-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-14T04:01:52-07:00"
-  }
+  "last_checked": "2026-09-14T05:30:00-07:00",
+  "current": null
 }
