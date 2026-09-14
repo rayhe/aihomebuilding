@@ -1,5 +1,5 @@
 {
-  "last_completed": 857,
+  "last_completed": 858,
   "last_published_at": "2026-09-14T07:30:00-07:00",
   "ship_ready": [
     {
@@ -5693,8 +5693,56 @@
       "ship_after": "2026-12-29",
       "started": "2026-09-14T14:05:00-07:00",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-28. Kill-test passed; original contribution is the worked certification-cost-vs-credit math (10-home subdivision: $25,000 credit vs ~$11,500 certification = ~$13,500 net, EPA's own negative-cost HVAC checklist figures). Full-strength counterargument (split incentive, compliance burden, California Title 24 windfall) and Limitations section included; 8 inline primary-source links."
+    },
+    {
+      "article_number": 858,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 321.2,
+          "short_pct": 14.8,
+          "long_pct": 51.9,
+          "passed": true
+        }
+      },
+      "headline": "Your Appraisal Gets Rewritten in 49 Days. AI Gets Better Data. You Get the Bill.",
+      "hero_hash": "e596bfc2",
+      "hero_real_jpeg": true,
+      "journalist": "Catherine \"Code\" Chen",
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
+      "word_count": 1420,
+      "rounds": 0,
+      "research_file": "drafts/uad36-appraisal-modernization-fannie-freddie-november-2026-research.md",
+      "draft_file": "drafts/uad36-appraisal-modernization-fannie-freddie-november-2026.html",
+      "ship_after": "2026-12-30",
+      "started": "2026-09-14T16:05:00-07:00",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-29. Kill-test passed; original contribution is the worked rate-lock math ($420K loan: $1,050 lock-extension + ~$63/mo = ~$22,680 lifetime if a 2-day UAD 3.6 appraisal delay busts the lock, formula shown). Full-strength counterargument (bias reduction, $4B in waiver savings) and Limitations section included; 8 inline primary-source links. Rhythm gate: variance 321.2, short 14.8%, long 51.9%."
     }
   ],
-  "last_checked": "2026-09-14T14:30:00-07:00",
+  "last_checked": "2026-09-14T16:30:00-07:00",
   "current": null
 }
