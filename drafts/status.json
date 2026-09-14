@@ -1,6 +1,6 @@
 {
   "last_completed": 843,
-  "last_published_at": "2026-09-12T07:06:52.029889+00:00",
+  "last_published_at": "2026-09-14T07:30:00-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -730,7 +730,7 @@
       "publish_number": 754
     },
     {
-      "article_number": 755,
+      "article_number": 850,
       "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
       "headline": "Your Flip's Attic Is Full of Gray Pebbles. Pulling Them Out Costs $12,000, and an AI Spotted Them From a Photo.",
       "journalist": "Jake Kowalski",
@@ -773,14 +773,14 @@
       "primary_sources": 6,
       "research_file": "drafts/ai-asbestos-photo-screening-vermiculite-abatement-2026-research.md",
       "rounds": 0,
-      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12"
+      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12; renumbered 755->850 on 2026-09-14 (755 was published 2026-09-13 as the Framer/Spanish translation article)"
     },
     {
       "article_number": 756,
       "slug": "ai-envelope-optimization-free-orientation-triple-pane-2026",
       "headline": "Your Architect Quoted $2,400 for Triple-Pane Windows. Turning the House Was Free.",
       "journalist": "Elena Vasquez",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-14",
       "started": "2026-09-03T00:20:00-07:00",
       "critique_score": 8.87,
@@ -819,7 +819,9 @@
       "primary_sources": 6,
       "research_file": "drafts/ai-envelope-optimization-free-orientation-triple-pane-2026-research.md",
       "rounds": 0,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #755 queued for 2026-09-04 through 2026-09-13"
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #755 queued for 2026-09-04 through 2026-09-13",
+      "published_at": "2026-09-14T07:30:00-07:00",
+      "publish_note": "Published 2026-09-14 PT (local commit; push pending network restore)"
     },
     {
       "article_number": 757,

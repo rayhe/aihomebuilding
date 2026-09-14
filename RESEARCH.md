@@ -695,7 +695,7 @@ When you discover a new topic worth covering, add it here with:
 - Residential blind spot: all case studies are commercial, 1.5M US housing starts unaddressed
 - Original contribution: residential cost comparison (sensors vs. traditional + schedule savings) nobody publishes
 - Journalist: Jake Kowalski (construction tech beat)
-- **In progress:** "You Poured Your Foundation Tuesday. The Lab Called Thursday. The Concrete Hit 4,000 PSI on Wednesday."
+- **Published as #781:** "Your Foundation Cured Under a Tarp at 41 Degrees. Your Builder Tested a Cylinder in a 73-Degree Water Tank." (queued SHIP, ship_after 2026-10-08; critique avg 8.8, round 1, all hard gates pass)
 
 ### 67. 🟢 Single-Stair Building Code Reform
 - 19 states + DC introduced bills since 2022; 7 enacted in 2025 (CO, MT, NH, TX + ME, HI, MD study)
