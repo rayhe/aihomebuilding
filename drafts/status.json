@@ -5194,15 +5194,60 @@
    "research_file": "drafts/ai-range-hood-makeup-air-depressurization-2026-research.md",
    "draft_file": "drafts/ai-range-hood-makeup-air-depressurization-2026.html",
    "publish_note": "Queued, not shipped: one article already published 2026-09-13 PT (one-per-day rule). Kill-test passed; 400-CFM M1503.4 depressurization table (70 Pa vs -2 Pa limit) is the original contribution, novel vs stories in repo."
+  },
+  {
+   "article_number": 847,
+   "number": 847,
+   "slug": "greywater-rough-in-vs-retrofit-cost-gap-2026",
+   "headline": "Your Washing Machine Makes 60 Gallons of Free Irrigation Water a Day. Your Plumber Buried the Option Under the Slab.",
+   "journalist": "Priya Greenwood",
+   "phase": "SHIP_READY",
+   "ship_after": "2026-12-20",
+   "started": "2026-09-13T18:05:00-07:00",
+   "completed": "2026-09-13T18:25:00-07:00",
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.6,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "critique_average": 8.81,
+   "rounds": 1,
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 13.6,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 969.5,
+     "mean": 27.3,
+     "median": 21.0,
+     "short_pct": 10.0,
+     "long_pct": 55.0,
+     "passed": true
+    }
+   },
+   "hero_hash": "abff6390",
+   "hero_real_jpeg": true,
+   "primary_sources": 7,
+   "research_file": "drafts/greywater-rough-in-vs-retrofit-cost-gap-2026-research.md",
+   "draft_file": "drafts/greywater-rough-in-vs-retrofit-cost-gap-2026.html",
+   "publish_note": "Queued, not shipped: two articles already published 2026-09-13 PT (one-per-day rule). Kill-test passed; rough-in vs retrofit cost asymmetry (25-50:1, UCLA cost factors) is the original contribution, novel vs stories in repo (no prior greywater coverage)."
   }
  ],
- "last_checked": "2026-09-13T16:16:02.229723-07:00",
- "current": {
-  "slug": "greywater-rough-in-vs-retrofit-cost-gap-2026",
-  "phase": "DRAFT",
-  "journalist": "Priya Greenwood",
-  "started": "2026-09-13T18:05:00-07:00",
-  "article_number": 847,
-  "research_file": "drafts/greywater-rough-in-vs-retrofit-cost-gap-2026-research.md"
- }
+ "last_checked": "2026-09-13T18:25:00-07:00",
+ "current": null
 }
