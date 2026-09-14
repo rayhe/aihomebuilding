@@ -5446,8 +5446,59 @@
       "research_file": "drafts/ai-workers-comp-emr-bid-tax-residential-2026-research.md",
       "draft_file": "drafts/ai-workers-comp-emr-bid-tax-residential-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-23. Kill-test passed; original contribution is the worked $37,560/yr EMR cost calculation on CA class 5403 payroll plus the single-bid $5,478 handicap, novel vs stories in repo."
+    },
+    {
+      "article_number": 853,
+      "number": 853,
+      "slug": "smart-sump-monitor-water-claim-evidence-basement-2026",
+      "headline": "Your $15,400 Water Claim Has a 1-in-10 Chance of Being Denied. A Timestamped Sensor Log Is the Difference.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2026-12-25",
+      "started": "2026-09-14T06:05:00-07:00",
+      "completed": "2026-09-14T06:30:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.87,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 239.9,
+          "short_pct": 2.7,
+          "long_pct": 56.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "aae5d70f",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "word_count": 1919,
+      "research_file": "drafts/smart-sump-monitor-water-claim-evidence-basement-2026-research.md",
+      "draft_file": "drafts/smart-sump-monitor-water-claim-evidence-basement-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-24. Kill-test passed; original contribution is the ~40% lifetime water-claim probability over a 30-year mortgage with worked expected-dollar math, plus the sensor-log-as-claim-evidence framing, novel vs stories in repo (zero prior waterproofing/sump coverage)."
     }
   ],
-  "last_checked": "2026-09-14T05:30:00-07:00",
+  "last_checked": "2026-09-14T06:30:00-07:00",
   "current": null
 }
