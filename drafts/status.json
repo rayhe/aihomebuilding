@@ -5497,8 +5497,58 @@
       "research_file": "drafts/smart-sump-monitor-water-claim-evidence-basement-2026-research.md",
       "draft_file": "drafts/smart-sump-monitor-water-claim-evidence-basement-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-24. Kill-test passed; original contribution is the ~40% lifetime water-claim probability over a 30-year mortgage with worked expected-dollar math, plus the sensor-log-as-claim-evidence framing, novel vs stories in repo (zero prior waterproofing/sump coverage)."
+    },
+    {
+      "article_number": 854,
+      "number": 854,
+      "slug": "ember-resistant-vents-attic-wildfire-ignition-2026",
+      "headline": "Your Attic Vent Is a Backdoor for Wildfire Embers. A $50 Baffle Vent Slams It Shut.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 14.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 281.0,
+          "short_pct": 14.3,
+          "long_pct": 65.3,
+          "passed": true
+        }
+      },
+      "hero_hash": "46ca89f4",
+      "hero_real_jpeg": true,
+      "primary_sources": 10,
+      "word_count": 1416,
+      "rounds": 1,
+      "research_file": "drafts/ember-resistant-vents-attic-wildfire-ignition-2026-research.md",
+      "draft_file": "drafts/ember-resistant-vents-attic-wildfire-ignition-2026.html",
+      "ship_after": "2026-12-26",
+      "started": "2026-09-14T08:05:00-07:00",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-25. Kill-test passed; original contribution is the component-level vent-swap ROI ranking (cheapest per-dollar ember-path closure in Chapter 7A vs $5,860 roof delta, $5,200 IBHS Plus eaves) plus the 1/16-inch-mesh airflow tradeoff and CDI discount payback math (~4 yr on a $600 retrofit at 5% of $2,843 avg premium)."
     }
   ],
-  "last_checked": "2026-09-14T06:30:00-07:00",
+  "last_checked": "2026-09-14T08:30:00-07:00",
   "current": null
 }
