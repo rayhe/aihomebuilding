@@ -1,5 +1,5 @@
 {
-  "last_completed": 852,
+  "last_completed": 857,
   "last_published_at": "2026-09-14T07:30:00-07:00",
   "ship_ready": [
     {
@@ -5645,8 +5645,56 @@
       "ship_after": "2026-12-28",
       "started": "2026-09-14T12:01:52-07:00",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-27. Kill-test passed; original contribution is the worked MWELO lawn-fraction math for a 2,000 sq ft Bay Area yard (ETo 50.1): MAWA 34,168 gal/yr, full lawn needs 66,260 gal (194% of budget), compliant ceiling ~740 sq ft (37%) with drip on the rest, cross-checked against San Mateo County's sample worksheet (sitewide ETAF 0.549 vs 0.55 max). Full-strength counterargument (concept tool vs permit document) and Limitations section included; 8 inline primary-source links."
+    },
+    {
+      "article_number": 857,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 222.8,
+          "short_pct": 5.9,
+          "long_pct": 54.4,
+          "passed": true
+        }
+      },
+      "headline": "The $5,000 Federal Credit for Efficient New Homes Died 76 Days Ago. Your Builder Can Still Collect It.",
+      "hero_hash": "efca2eee",
+      "hero_real_jpeg": true,
+      "journalist": "Catherine \"Code\" Chen",
+      "phase": "SHIP_READY",
+      "primary_sources": 6,
+      "word_count": 1726,
+      "rounds": 0,
+      "research_file": "drafts/45l-credit-died-june-2026-builder-claim-deadline-2026-research.md",
+      "draft_file": "drafts/45l-credit-died-june-2026-builder-claim-deadline-2026.html",
+      "ship_after": "2026-12-29",
+      "started": "2026-09-14T14:05:00-07:00",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-28. Kill-test passed; original contribution is the worked certification-cost-vs-credit math (10-home subdivision: $25,000 credit vs ~$11,500 certification = ~$13,500 net, EPA's own negative-cost HVAC checklist figures). Full-strength counterargument (split incentive, compliance burden, California Title 24 windfall) and Limitations section included; 8 inline primary-source links."
     }
   ],
-  "last_checked": "2026-09-14T12:01:52-07:00",
+  "last_checked": "2026-09-14T14:30:00-07:00",
   "current": null
 }
