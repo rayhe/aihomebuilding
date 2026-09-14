@@ -5246,14 +5246,55 @@
    "research_file": "drafts/greywater-rough-in-vs-retrofit-cost-gap-2026-research.md",
    "draft_file": "drafts/greywater-rough-in-vs-retrofit-cost-gap-2026.html",
    "publish_note": "Queued, not shipped: two articles already published 2026-09-13 PT (one-per-day rule). Kill-test passed; rough-in vs retrofit cost asymmetry (25-50:1, UCLA cost factors) is the original contribution, novel vs stories in repo (no prior greywater coverage)."
+  },
+  {
+   "article_number": 848,
+   "slug": "ai-predictive-safety-small-contractor-data-gap-2026",
+   "headline": "Oracle's AI Predicts Jobsite Accidents From 10,000 Project-Years of Data. Your Roofer's Four-Man Crew Isn't in It.",
+   "journalist": "Marcus Washington",
+   "phase": "SHIP",
+   "ship_after": "2026-12-21",
+   "started": "2026-09-13T20:05:00-07:00",
+   "critique_score": 8.86,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.9,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 7.9,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 206.6,
+     "short_pct": 11.6,
+     "long_pct": 50.7,
+     "passed": true
+    }
+   },
+   "hero_hash": "0215052f",
+   "primary_sources": 7,
+   "research_file": "drafts/ai-predictive-safety-small-contractor-data-gap-2026-research.md",
+   "rounds": 0,
+   "completed": "2026-09-13T20:45:00-07:00",
+   "hold_reason": "1/day rule: #755 published 2026-09-13 (local commit, push pending network restore); queue tail was 2026-12-20"
   }
  ],
- "last_checked": "2026-09-13T18:25:00-07:00",
- "current": {
-  "slug": "ai-predictive-safety-small-contractor-data-gap-2026",
-  "phase": "DRAFT",
-  "journalist": "Marcus Washington",
-  "article_number": 848,
-  "started": "2026-09-13T20:05:00-07:00"
- }
+ "last_checked": "2026-09-13T20:45:00-07:00",
+ "current": null
 }
