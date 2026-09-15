@@ -5938,8 +5938,54 @@
       "research_file": "drafts/hvac-oversize-manual-j-ai-load-calc-2026-research.md",
       "draft_file": "drafts/hvac-oversize-manual-j-ai-load-calc-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-02. Original contribution connects the DOE 40%-admitted-oversizing survey, the 30-40% cushion tradition, NREL's conditional 10-21% penalty (scaled to the 60%-oversize example at the lower end of the band), the $900/ton installed premium, and the sub-$1,000 independent Manual J arbitrage, with a worked homeowner cost table. Full-strength NREL heat-pump counterargument + Limitations section; 12 primary sources with inline links. Gates: 0 em dashes, 'The' starters 0.0%, 0 banned phrases, rhythm variance 317.5 pass."
+    },
+    {
+      "article_number": 863,
+      "critique_score": 8.87,
+      "critique_scores": {
+        "construction_expert": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.6,
+          "limit": 15.0,
+          "passed": true
+        }
+      },
+      "headline": "Your Pipes Lost a $950 Million Lawsuit in 1995. You're Still Drinking Through Them.",
+      "hero_hash": "14776697",
+      "hero_real_jpeg": true,
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "primary_sources": 10,
+      "research_file": "drafts/polybutylene-repipe-cost-insurance-ai-detection-2026-research.md",
+      "draft_file": "drafts/polybutylene-repipe-cost-insurance-ai-detection-2026.html",
+      "rounds": 0,
+      "ship_after": "2027-01-04",
+      "started": "2026-09-15T04:30:00-07:00",
+      "slug": "polybutylene-repipe-cost-insurance-ai-detection-2026",
+      "word_count": 2166,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-03. Original contribution is the patch-trap cost table (two $2k-4k patches = $4k-8k sunk, zero risk retired, vs ~$9k managed PEX repipe), a day-by-day 4-day repipe critical path, and a buyer's 15-minute PB2110 pipe check. Full-strength do-nothing counterargument + Limitations section; 10 primary sources with inline links. Gates: 0 em dashes, 'The' starters 10.6%, 0 banned phrases."
     }
   ],
-  "last_checked": "2026-09-15T02:21:32.884267-07:00",
+  "last_checked": "2026-09-15T04:45:00-07:00",
   "current": null
 }
