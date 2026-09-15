@@ -5889,8 +5889,57 @@
       "research_file": "drafts/crawlspace-inspection-robot-ai-2026-research.md",
       "draft_file": "drafts/crawlspace-inspection-robot-ai-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2027-01-01. Kill-test passed; original contribution connects the SOP crawlspace-disclaimer loophole, Wombat robot economics ($4,395, trade-ins, 30-45 min saved per inspection, sub-6-month payback math), and the AI vision layer (Drexel CNN crack detection, Spectora AI Report Assist). Full skepticism: gen-1 crawlers roasted on InterNACHI forum, no water resistance, 1.9\" clearance, camera can't probe wood or smell mold. Buyer playbook + Limitations included; 6 primary sources with inline links. Gates: 0 em dashes, 'The' starters 3.0%, 0 banned phrases."
+    },
+    {
+      "article_number": 862,
+      "slug": "hvac-oversize-manual-j-ai-load-calc-2026",
+      "headline": "Your AC Is a Ton Too Big. Your Contractor Did It on Purpose.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-03",
+      "started": "2026-09-15T02:02:00-07:00",
+      "rounds": 2,
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 317.5,
+          "short_pct": 1.4,
+          "long_pct": 50.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "a1f329e0",
+      "hero_real_jpeg": true,
+      "primary_sources": 12,
+      "word_count": 1875,
+      "research_file": "drafts/hvac-oversize-manual-j-ai-load-calc-2026-research.md",
+      "draft_file": "drafts/hvac-oversize-manual-j-ai-load-calc-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-02. Original contribution connects the DOE 40%-admitted-oversizing survey, the 30-40% cushion tradition, NREL's conditional 10-21% penalty (scaled to the 60%-oversize example at the lower end of the band), the $900/ton installed premium, and the sub-$1,000 independent Manual J arbitrage, with a worked homeowner cost table. Full-strength NREL heat-pump counterargument + Limitations section; 12 primary sources with inline links. Gates: 0 em dashes, 'The' starters 0.0%, 0 banned phrases, rhythm variance 317.5 pass."
     }
   ],
-  "last_checked": "2026-09-15T00:07:52-07:00",
+  "last_checked": "2026-09-15T02:21:32.884267-07:00",
   "current": null
 }
