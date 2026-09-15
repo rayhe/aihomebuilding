@@ -6140,8 +6140,58 @@
       "slug": "ai-gas-range-ventilation-cfm-gap-recirculating-hood-induction-2026",
       "word_count": 1720,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-06. Original contribution is the CFM worksheet (50-60k BTU range needs 500-600 CFM vs 160-250 CFM builder hoods), the code-vs-physics 5x disagreement (ASHRAE 62.2 108 CFM fallback vs 500+ CFM BTU rule), and induction pre-wire optionality economics (low hundreds at rough-in vs $1,500-3,000 retrofit). 7 primary sources inline. Gates: 0 em dashes, 'The' starters 8.5%, 0 banned phrases, rhythm variance 216.5 pass (two revision rounds)."
+    },
+    {
+      "article_number": 867,
+      "slug": "ai-adu-plan-generator-cross-ventilation-egress-design-gap-2026",
+      "headline": "Your ADU Plan Arrived in 40 Seconds. Nobody Asked Which Way the Wind Blows.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-adu-plan-generator-cross-ventilation-egress-design-gap-2026-research.md",
+      "draft_file": "drafts/ai-adu-plan-generator-cross-ventilation-egress-design-gap-2026.html",
+      "critique_file": "drafts/ai-adu-plan-generator-cross-ventilation-egress-design-gap-2026-critique-r0.md",
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 263.2,
+          "short_pct": 13.8,
+          "long_pct": 38.5,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "ship_after": "2027-01-08",
+      "started": "2026-09-15T12:01:52-07:00",
+      "hero_hash": "74e96c36",
+      "hero_real_jpeg": true,
+      "word_count": 1050,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-07. Original contribution is the Three-Window Audit (trace the breeze / furnish the egress / measure the daylight). 7 primary sources inline. Gates: 0 em dashes, 'The' starters 4.3%, 0 banned phrases, rhythm variance 263.2 pass (one revision round)."
     }
   ],
-  "last_checked": "2026-09-15T10:21:06.115265-07:00",
+  "last_checked": "2026-09-15T12:20:00-07:00",
   "current": null
 }
