@@ -5741,8 +5741,56 @@
       "ship_after": "2026-12-30",
       "started": "2026-09-14T16:05:00-07:00",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-29. Kill-test passed; original contribution is the worked rate-lock math ($420K loan: $1,050 lock-extension + ~$63/mo = ~$22,680 lifetime if a 2-day UAD 3.6 appraisal delay busts the lock, formula shown). Full-strength counterargument (bias reduction, $4B in waiver savings) and Limitations section included; 8 inline primary-source links. Rhythm gate: variance 321.2, short 14.8%, long 51.9%."
+    },
+    {
+      "article_number": 859,
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.1,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 212.9,
+          "short_pct": 12.3,
+          "long_pct": 60.0,
+          "passed": true
+        }
+      },
+      "headline": "Your Office Manager Costs $48,000 a Year. The AI That Answers Her Phone Costs $200 a Month.",
+      "hero_hash": "ba77517e",
+      "hero_real_jpeg": true,
+      "journalist": "Marcus \"Steel\" Washington",
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
+      "word_count": 2221,
+      "rounds": 0,
+      "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
+      "draft_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026.html",
+      "ship_after": "2026-12-31",
+      "started": "2026-09-14T18:05:00-07:00",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-30. Kill-test passed; original contribution is the worked missed-call math for a 10-tech shop ($97K/yr revenue lost to voicemail on stated assumptions: 30 calls/wk, 40% missed, $485 avg ticket, 40% close rate, 40-wk season; break-even = 1 converted call/quarter; conservative 20% recovery = 5.4x ROI). Full-strength counterargument (two-tech shops get their first-ever office worker; 92% hybrid satisfaction = keep humans for judgment, machines for intake) and Limitations section included; 8 primary sources with inline links. Gates: 0 em dashes, 'The' starters 7.1%, rhythm variance 212.9."
     }
   ],
-  "last_checked": "2026-09-14T16:30:00-07:00",
+  "last_checked": "2026-09-14T18:20:00-07:00",
   "current": null
 }
