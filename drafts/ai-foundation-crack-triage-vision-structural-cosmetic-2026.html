@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Foundation Has a Crack. The AI Says It's Catastrophic. The Math Says Otherwise. &mdash; AI Home Building</title>
+<link rel="stylesheet" href="../story.css">
+<meta name="description" content="Vision models detect concrete cracks with 97% recall, but they were trained on bridges, not basements. The AI severity ladder calls anything over 1 millimeter urgent. Your structural engineer starts worrying at a quarter inch, six times wider. Here is the triage ladder that actually decides your next move.">
+<meta property="og:title" content="Your Foundation Has a Crack. The AI Says It's Catastrophic. The Math Says Otherwise.">
+<meta property="og:description" content="Vision models detect concrete cracks with 97% recall, but they were trained on bridges, not basements. The AI severity ladder calls anything over 1 millimeter urgent. Your structural engineer starts worrying at a quarter inch.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="../images/ai-foundation-crack-triage-vision-structural-cosmetic-2026.jpg?v=94692e93">
+<meta property="article:author" content="Jake Kowalski">
+<meta property="article:published_time" content="2026-09-15">
+<meta name="author" content="Jake Kowalski">
+<meta name="published" content="September 15, 2026">
+</head>
+<body>
+<div class="story-page">
+<article class="story-body">
+<header>
+<h1>Your Foundation Has a Crack. The AI Says It's Catastrophic. The Math Says Otherwise.</h1>
+<div class="byline">By Jake Kowalski, September 15, 2026, Construction Technology</div>
+<img src="../images/ai-foundation-crack-triage-vision-structural-cosmetic-2026.jpg?v=94692e93" alt="Close-up of a vertical crack in a poured concrete basement foundation wall with a steel ruler held beside it for scale, warm work light" class="hero-image">
+</header>
+
+<p>You are standing in your basement at 11 PM with a phone flashlight, staring at a crack in the foundation wall that you swear was not there last year, and everyone's next move is the same: take a photo and start typing. Three hours later you have read seventeen forum threads, one of which insists your house is about to fall over, and you have downloaded an app that promises to analyze the photo with AI, complete with a confidence score and a cheerful button offering a free inspection. It obliges. Crack found, labeled SEVERE, free inspection offered from a local foundation company.</p>
+
+<p>Do not tap that button yet, because while the AI is probably right about the crack, it is almost certainly wrong about what the crack means.</p>
+
+<h2>Great at finding cracks, trained on the wrong buildings.</h2>
+
+<p>Give the computer-vision people their due, because the research is legitimately good: a 2026 paper in Scientific Reports trained a YOLO26n model on 6,806 annotated concrete images and hit <a href="https://www.nature.com/articles/s41598-026-68706-0">95.8% precision and 97.7% recall</a> on concrete deterioration detection, cracks included, while a separate YOLOv8n study in The Journal of Engineering reported <a href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/tje2.70208">93% overall accuracy</a> finding cracks in complex backgrounds in real time. These are real numbers from peer-reviewed work, and detection is a solved problem, which means your crack will not survive the scan: the model will find it and draw a tidy box around it, so look at the training data, because it is bridges, dams, retaining walls, and highway overpasses all the way down. A comprehensive 2026 Wiley survey of the field lays out the <a href="https://onlinelibrary.wiley.com/doi/10.1155/vib/4950659">severity ladder those models learn from</a>: hairline cracks under 0.1 millimeters are cosmetic, 0.1 to 0.3 millimeters get monitored, 0.3 to 1.0 millimeters threaten reinforcement protection, and anything over 1.0 millimeter is an urgent structural concern. One millimeter, for reference, is the thickness of a credit card.</p>
+
+<h2>Your engineer works in inches. The AI works in credit cards.</h2>
+
+<p>Here is where the two worlds stop speaking the same language, because every homeowner guide in the country runs on the quarter-inch rule. Angi's 2026 crack guide says <a href="https://www.angi.com/articles/quarter-inch-crack-my-foundation-major-concern.htm?cid=ssabadge&page=16&entry_point_id=33797117">cracks wider than 1/4 inch signal serious structural damage</a> and deserve a professional, while anything under 1/8 inch just gets sealed against water, and Houston's Association of Realtors publishes the same ladder: hairline mortar cracks mean nothing, L-section shrinkage cracks get monitored, stair-step cracks over a quarter inch or any horizontal crack means call someone.</p>
+
+<p>Do the conversion, because a quarter inch is 6.35 millimeters, which means the AI severity ladder treats as "urgent" anything six times narrower than what makes your engineer pick up the phone. Between those two numbers sits essentially every crack a homeowner will ever photograph, because a 1-millimeter crack is about as thin as a crack can be while still showing up in a phone photo. They flag at bridge-inspection sensitivity, and your house is not a bridge: run your basement through a detector trained on dam imagery and every visible crack comes back catastrophic, and you have learned nothing.</p>
+
+<p>Nobody has built the residential dataset. It would need engineer-verified outcomes, not just labeled pixels: this crack got epoxy and sat still for a decade, this one got piers, this one was nothing. That dataset does not exist publicly, so until it does, AI crack analysis is a detection tool wearing a diagnosis costume.</p>
+
+<h2>Width is not even the right question</h2>
+
+<p>This is the part the apps never mention, and it is the part your structural engineer asks about first: she does not care how wide the crack is in your photo, she cares whether it is moving. A vertical crack that has sat at 2 millimeters since 2004 is a shrug, while a 1-millimeter crack that grew from nothing this winter, with a companion stair-step running through the mortar joints, is a problem. One photo cannot distinguish them, and no single-frame classifier can, which makes change over time the decisive variable, one the industry solved decades ago with a piece of plastic that costs about fifteen dollars.</p>
+
+<p>Crack monitors, the tell-tale kind, are two overlapping plates you screw across the crack with a millimeter scale and a crosshair cursor, and when the crack opens, closes, or shears, the cursor moves off the scale. You read it monthly, and that fifteen-dollar gauge answers the one question the AI cannot: is this thing active or dormant? Angi's guide recommends the free version, two pencil marks dated across the crack and rechecked every couple of months, because active versus dormant is what decides whether you are buying epoxy or piers.</p>
+
+<p>Continuous-monitoring wireless sensor systems exist, running $300 to $2,000 apiece with LoRa or cellular backhaul, but they are infrastructure-grade units meant for bridges. Nobody sells the residential version yet. Somebody should. Still waiting.</p>
+
+<h2>Free inspections are the product</h2>
+
+<p>Now the part that should make you suspicious of any "free AI foundation inspection": the company analyzing your photo also sells piers, which is no conspiracy theory but the business model itself, and the numbers explain the incentive on their own.</p>
+
+<p>Sealing a minor crack costs <a href="https://medium.com/@lewis_35028/how-much-does-foundation-repair-cost-in-2026-complete-price-guide-76abe3f76025">$250 to $800</a>, while a stamped engineer's evaluation, an opinion from someone who sells nothing but the opinion, runs $400 to $800. A piering job runs 7 to 10 piers at $1,000 to $3,000 each, <a href="https://pr.wvcjournal.com/article/Foundation-Piering-Cost-Guide-Push-Piers-vs-Helical-Piers-Price/6a5a745d5bfb640002370cd8">averaging about $16,000 nationally</a>, with Angi putting typical underpinning totals between <a href="https://www.angi.com/articles/how-much-underpinning-foundation-cost.htm?intcmp=NoOff_thedrive_blog_body-blog-post_ext&entry_point_id=33797117">$2,000 and $20,000</a>. When the same company does the diagnosis and the $16,000 cure, the diagnosis will find a lot of candidates for the cure, so get the engineer's letter first: it is the cheapest money in the whole process.</p>
+
+<p>This does not mean every foundation company is running a racket, since plenty of them do excellent work on genuinely failing foundations. But the incentive structure is real, and an AI label that says SEVERE is the perfect lead qualifier. Skepticism costs you nothing.</p>
+
+<h2>Your triage ladder</h2>
+
+<p>Enough theory; here is what to do with the crack, in order.</p>
+
+<p>Vertical crack under 1/8 inch, no water coming through, nothing else moving in the house? That is shrinkage or early settlement: seal it, draw two dated pencil marks across it, and check it in ninety days. Total cost: a tube of epoxy and five minutes.</p>
+
+<p>Between 1/8 and 1/4 inch, or any crack that lets water in during rain? Seal it and monitor properly with a fifteen-dollar tell-tale gauge, monthly readings, and a photo log on your phone. Congratulations, you are now doing time-series crack monitoring, and you are ahead of every AI app on the market.</p>
+
+<p>Over 1/4 inch, horizontal, stair-step through the mortar with visible separation, wall bowing inward, doors sticking, floors sloping? Call the engineer, not the repair company. Four hundred to eight hundred dollars buys a stamped letter that tells you what you actually have.</p>
+
+<p>If the letter says piers, get three bids and expect 7 to 10 of them, and ask each bidder what their piers bear on and how deep, because "we put in piers" without a bearing stratum is landscaping with extra steps. Keep the monitoring habit afterward too, because piers stop settlement but they do not fix the drainage that caused it.</p>
+
+<p>One more thing the guides agree on: water is the accelerant for nearly all of it. Hydrostatic pressure cracks walls, expansive clay swells and shrinks with moisture, and their drainage spec runs <a href="https://www.har.com/ri/553/identifying-house-foundation-problems?cid=JAD">six inches of fall in the first ten feet</a> away from the foundation. Before you spend a dollar on concrete, spend a weekend on gutters and grading. It is the highest-ROI foundation work that exists.</p>
+
+<h2>In fairness to the AI</h2>
+
+<p>I have been rough on the apps, so here is the honest counter: human inspectors miss things too. For most homeowners at 11 PM, the real alternative is panic-Googling or a free inspection from a pier salesman, and a vision model that simply finds every crack, honestly framed, beats both of those. Detection plus an honest severity disclaimer is a genuinely useful product.</p>
+
+<p>And the time-series version is coming. Tonight's phone can take another photo in ninety days, and change detection between two photos of the same crack is computationally easy. When someone trains that system on engineer-verified outcomes instead of bridge-inspection severity labels, it could cut both ways: fewer panicked homeowners buying piers they do not need, and fewer dormant-looking cracks that were quietly growing. That product does not exist yet. Everything on the market right now is a bridge detector in a homeowner costume.</p>
+
+<h2>What this article did not prove</h2>
+
+<p>Honest accounting. That millimeter-scale severity ladder comes from civil-infrastructure literature, bridges and dams, not residential foundations. The cross-domain comparison is the entire point of the article, but it means I am holding an academic ladder next to a trade ladder and pointing at the gap, not citing a residential AI study that failed. No such study exists, which is itself the story.</p>
+
+<p>Cost figures here are national averages from Angi and industry price guides; in high-cost coastal and union markets, expect higher, and Texas expansive-clay pricing runs toward the pier-heavy end. Tell-tale monitor pricing comes from manufacturer catalogs and a consumer listing; prices move. No third-party audit exists for any consumer AI foundation app's accuracy claims, so this analysis uses published academic benchmarks, not vendor marketing. Treat any vendor's 99% number the way you would treat a free inspection, which is to say with curiosity, a second opinion, and a firm grip on the knowledge that the person quoting the number has a financial interest in the answer it produces.</p>
+
+<h2>What to do at 11 PM</h2>
+
+<p>Your crack has a width, a direction, and a history. The AI sees the first, guesses at the second, and knows nothing about the third. You can measure all three with a ruler, a pencil, and a calendar for about fifteen dollars, so do that before you let anyone sell you sixteen thousand dollars of steel.</p>
+
+<p>A photo is the beginning of a diagnosis. It is not the diagnosis.</p>
+</article>
+</div>
+</body>
+</html>
