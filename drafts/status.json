@@ -6190,16 +6190,59 @@
       "hero_real_jpeg": true,
       "word_count": 1050,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-07. Original contribution is the Three-Window Audit (trace the breeze / furnish the egress / measure the daylight). 7 primary sources inline. Gates: 0 em dashes, 'The' starters 4.3%, 0 banned phrases, rhythm variance 263.2 pass (one revision round)."
+    },
+    {
+      "article_number": 868,
+      "slug": "ai-framing-lumber-waste-factor-takeoff-higharc-2026",
+      "headline": "Your Framing Bid Pads 15% for Waste. An AI Just Read the Plans in 90 Seconds.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "primary_sources": 5,
+      "research_file": "drafts/ai-framing-lumber-waste-factor-takeoff-higharc-2026-research.md",
+      "draft_file": "drafts/ai-framing-lumber-waste-factor-takeoff-higharc-2026.html",
+      "critique_file": "drafts/ai-framing-lumber-waste-factor-takeoff-higharc-2026-critique-r0.md",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 106.2,
+          "short_pct": 41.2,
+          "long_pct": 5.9,
+          "mean": 14.9,
+          "passed": true
+        }
+      },
+      "rounds": 0,
+      "ship_after": "2027-01-09",
+      "started": "2026-09-15T14:06:54.451498-07:00",
+      "hero_hash": "71f0daf9",
+      "hero_real_jpeg": true,
+      "word_count": 1516,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-08. Original contribution is the Waste Factor Audit (3 questions for the framing bid). 5 primary sources inline. Gates: 0 em dashes, 'The' starters 9.8%, 0 banned phrases."
     }
   ],
-  "last_checked": "2026-09-15T14:06:54.451547-07:00",
-  "current": {
-    "slug": "ai-framing-lumber-waste-factor-takeoff-higharc-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-15T14:06:54.451498-07:00",
-    "headline": "Your Framing Bid Pads 15% for Waste. An AI Just Read the Plans in 90 Seconds.",
-    "research_file": "drafts/ai-framing-lumber-waste-factor-takeoff-higharc-2026-research.md",
-    "primary_sources": 5
-  }
+  "last_checked": "2026-09-15T14:14:57.249945-07:00",
+  "current": null
 }
