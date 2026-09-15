@@ -1529,7 +1529,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2469,7 +2469,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -4748,7 +4748,7 @@
       "primary_sources": 5,
       "research_file": "drafts/formx-12m-ai-platform-fragmentation-tax-2026-research.md",
       "draft_file": "stories/formx-12m-ai-platform-fragmentation-tax-2026.html",
-      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent — every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
+      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent \u2014 every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
     },
     {
       "article_number": 838,
@@ -5838,8 +5838,57 @@
       "research_file": "drafts/ai-contract-review-arbitration-cslb-home-improvement-2026-research.md",
       "draft_file": "drafts/ai-contract-review-arbitration-cslb-home-improvement-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-31. Kill-test passed; original contribution is the CSLB cross-reference nobody published (private arbitration clause disqualifies homeowner from BPC 7085 free mandatory arbitration) plus worked $18K-dispute forum-cost math and a 10-point CSLB-derived AI review checklist. Full-strength counterargument (arbitration not always villain: $25K CSLB cap, $10K small-claims cap; AI hallucination risk per ABA Op. 512; license check matters more) and Limitations section included; 10 primary sources with inline links. Gates: 0 em dashes, 'The' starters 6.8%, rhythm variance 336.8."
+    },
+    {
+      "article_number": 861,
+      "slug": "crawlspace-inspection-robot-ai-2026",
+      "headline": "Your Inspector Never Went Under the House. The $4,395 Robot Did.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-02",
+      "started": "2026-09-14T22:12:14.048795-07:00",
+      "rounds": 1,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 94.7,
+          "short_pct": 44.7,
+          "long_pct": 16.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "7e53fa35",
+      "hero_real_jpeg": true,
+      "primary_sources": 6,
+      "word_count": 1863,
+      "research_file": "drafts/crawlspace-inspection-robot-ai-2026-research.md",
+      "draft_file": "drafts/crawlspace-inspection-robot-ai-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2027-01-01. Kill-test passed; original contribution connects the SOP crawlspace-disclaimer loophole, Wombat robot economics ($4,395, trade-ins, 30-45 min saved per inspection, sub-6-month payback math), and the AI vision layer (Drexel CNN crack detection, Spectora AI Report Assist). Full skepticism: gen-1 crawlers roasted on InterNACHI forum, no water resistance, 1.9\" clearance, camera can't probe wood or smell mold. Buyer playbook + Limitations included; 6 primary sources with inline links. Gates: 0 em dashes, 'The' starters 3.0%, 0 banned phrases."
     }
   ],
-  "last_checked": "2026-09-14T20:30:00-07:00",
+  "last_checked": "2026-09-14T22:12:14.048795-07:00",
   "current": null
 }
