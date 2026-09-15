@@ -1531,7 +1531,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2471,7 +2471,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -4750,7 +4750,7 @@
       "primary_sources": 5,
       "research_file": "drafts/formx-12m-ai-platform-fragmentation-tax-2026-research.md",
       "draft_file": "stories/formx-12m-ai-platform-fragmentation-tax-2026.html",
-      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent — every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
+      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent \u2014 every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
     },
     {
       "article_number": 838,
@@ -6036,8 +6036,61 @@
       "slug": "ai-foundation-crack-triage-vision-structural-cosmetic-2026",
       "word_count": 1706,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-04. Original contribution is the mm-to-inch severity mismatch calculation (academic AI ladder calls >1.0mm 'urgent'; residential pro threshold is 6.35mm, so every photo-visible crack reads catastrophic in AI-speak), plus the active-vs-dormant triage ladder and the $15 tell-tale vs $16K piering cost frame. Full-strength counterargument + Limitations section; 9 primary sources with inline links. Gates: 0 em dashes, 'The' starters 8.8%, 0 banned phrases, rhythm variance 202.0 pass."
+    },
+    {
+      "article_number": 865,
+      "critique_score": 8.97,
+      "critique_scores": {
+        "construction_expert": 9.0,
+        "ethics_reviewer": 9.2,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "social_shareability": 8.8,
+        "voice_coach": 8.8
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 51.9,
+          "mean": 17.6,
+          "median": 15.5,
+          "passed": true,
+          "short_pct": 11.1,
+          "variance": 214.6
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 10.3
+        }
+      },
+      "headline": "Your EV Charger Doesn't Need a $9,000 Service Upgrade. Your Meter Proves It.",
+      "hero_hash": "85243853",
+      "hero_real_jpeg": true,
+      "journalist": "Jake Kowalski",
+      "number": 865,
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-smart-panel-service-upgrade-load-calc-220-87-2026-research.md",
+      "draft_file": "drafts/ai-smart-panel-service-upgrade-load-calc-220-87-2026.html",
+      "critique_file": "drafts/ai-smart-panel-service-upgrade-load-calc-220-87-2026-critique-r0.md",
+      "rounds": 0,
+      "ship_after": "2027-01-06",
+      "started": "2026-09-15T08:01:52-07:00",
+      "slug": "ai-smart-panel-service-upgrade-load-calc-220-87-2026",
+      "word_count": 1348,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-05. Original contribution is the worked 182A standard-method load calc on a 2,000 sq ft home vs SPAN fleet data (peaks rarely over 80A, avg 12 min), plus the NEC 220.87 demand-data bridge electricians skip. 8 primary sources inline. Gates: 0 em dashes, 'The' starters 10.3%, 0 banned phrases, rhythm variance 214.6 pass (one revision to lift variance from 193.7)."
     }
   ],
-  "last_checked": "2026-09-15T06:17:02.208161-07:00",
+  "last_checked": "2026-09-15T08:13:51.474761-07:00",
   "current": null
 }
