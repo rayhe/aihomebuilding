@@ -1,6 +1,6 @@
 {
   "last_completed": 858,
-  "last_published_at": "2026-09-14T07:30:00-07:00",
+  "last_published_at": "2026-09-15T00:07:52-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -828,7 +828,7 @@
       "slug": "ai-pay-app-overbilling-front-load-detection-2026",
       "headline": "Your Sub Billed 15% Ahead of the Work. That Was His Entire Profit, Paid Early.",
       "journalist": "Frank DeLuca",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-15",
       "started": "2026-09-03T02:01:52-07:00",
       "critique_score": 8.87,
@@ -867,7 +867,9 @@
       "primary_sources": 10,
       "research_file": "drafts/ai-pay-app-overbilling-front-load-detection-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #756 queued for 2026-09-04 through 2026-09-14"
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #756 queued for 2026-09-04 through 2026-09-14",
+      "published_at": "2026-09-15T00:07:52-07:00",
+      "publish_note": "Published 2026-09-15 PT (local commit; push pending network restore)"
     },
     {
       "article_number": 758,
@@ -5889,6 +5891,6 @@
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2027-01-01. Kill-test passed; original contribution connects the SOP crawlspace-disclaimer loophole, Wombat robot economics ($4,395, trade-ins, 30-45 min saved per inspection, sub-6-month payback math), and the AI vision layer (Drexel CNN crack detection, Spectora AI Report Assist). Full skepticism: gen-1 crawlers roasted on InterNACHI forum, no water resistance, 1.9\" clearance, camera can't probe wood or smell mold. Buyer playbook + Limitations included; 6 primary sources with inline links. Gates: 0 em dashes, 'The' starters 3.0%, 0 banned phrases."
     }
   ],
-  "last_checked": "2026-09-14T22:12:14.048795-07:00",
+  "last_checked": "2026-09-15T00:07:52-07:00",
   "current": null
 }
