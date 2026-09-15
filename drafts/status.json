@@ -6241,13 +6241,60 @@
       "hero_real_jpeg": true,
       "word_count": 1516,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-08. Original contribution is the Waste Factor Audit (3 questions for the framing bid). 5 primary sources inline. Gates: 0 em dashes, 'The' starters 9.8%, 0 banned phrases."
+    },
+    {
+      "article_number": 869,
+      "number": 869,
+      "slug": "ai-fall-protection-camera-roofing-residential-2026",
+      "headline": "Fall Protection Topped OSHA's Violation List for the 15th Straight Year. A Camera Cut Violations 41.7% in 90 Days.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-fall-protection-camera-roofing-residential-2026-research.md",
+      "draft_file": "drafts/ai-fall-protection-camera-roofing-residential-2026.html",
+      "critique_file": "drafts/ai-fall-protection-camera-roofing-residential-2026-critique-r0.md",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.6,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 14.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 95.6,
+          "short_pct": 37.1,
+          "long_pct": 20.0,
+          "mean": 14.8,
+          "passed": true
+        }
+      },
+      "rounds": 0,
+      "ship_after": "2027-01-10",
+      "started": "2026-09-15T16:09:41.829142-07:00",
+      "hero_hash": "afc47bca",
+      "hero_real_jpeg": true,
+      "word_count": 1562,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-09. Original contribution is the Rescue Plan Test (3 questions for the roofing bid). 7 primary sources inline. Gates: 0 em dashes, The-starters 14.3%, 0 banned phrases."
     }
   ],
-  "last_checked": "2026-09-15T16:09:41.829175-07:00",
-  "current": {
-    "slug": "ai-fall-protection-camera-roofing-residential-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-15T16:09:41.829142-07:00"
-  }
+  "last_checked": "2026-09-15T16:15:26.651773-07:00",
+  "current": null
 }
