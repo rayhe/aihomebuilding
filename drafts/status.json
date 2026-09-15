@@ -1529,7 +1529,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2469,7 +2469,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -4748,7 +4748,7 @@
       "primary_sources": 5,
       "research_file": "drafts/formx-12m-ai-platform-fragmentation-tax-2026-research.md",
       "draft_file": "stories/formx-12m-ai-platform-fragmentation-tax-2026.html",
-      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent \u2014 every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
+      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent — every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
     },
     {
       "article_number": 838,
@@ -5789,8 +5789,57 @@
       "ship_after": "2026-12-31",
       "started": "2026-09-14T18:05:00-07:00",
       "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-30. Kill-test passed; original contribution is the worked missed-call math for a 10-tech shop ($97K/yr revenue lost to voicemail on stated assumptions: 30 calls/wk, 40% missed, $485 avg ticket, 40% close rate, 40-wk season; break-even = 1 converted call/quarter; conservative 20% recovery = 5.4x ROI). Full-strength counterargument (two-tech shops get their first-ever office worker; 92% hybrid satisfaction = keep humans for judgment, machines for intake) and Limitations section included; 8 primary sources with inline links. Gates: 0 em dashes, 'The' starters 7.1%, rhythm variance 212.9."
+    },
+    {
+      "article_number": 860,
+      "headline": "Your Remodel Contract Has an Arbitration Clause. It Just Locked You Out of California's Free Hearing.",
+      "journalist": "Catherine \"Code\" Chen",
+      "slug": "ai-contract-review-arbitration-cslb-home-improvement-2026",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-01",
+      "started": "2026-09-14T20:10:00-07:00",
+      "rounds": 0,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 336.8,
+          "short_pct": 9.9,
+          "long_pct": 39.4,
+          "passed": true
+        }
+      },
+      "hero_hash": "6ab01864",
+      "hero_real_jpeg": true,
+      "primary_sources": 10,
+      "word_count": 2146,
+      "research_file": "drafts/ai-contract-review-arbitration-cslb-home-improvement-2026-research.md",
+      "draft_file": "drafts/ai-contract-review-arbitration-cslb-home-improvement-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-31. Kill-test passed; original contribution is the CSLB cross-reference nobody published (private arbitration clause disqualifies homeowner from BPC 7085 free mandatory arbitration) plus worked $18K-dispute forum-cost math and a 10-point CSLB-derived AI review checklist. Full-strength counterargument (arbitration not always villain: $25K CSLB cap, $10K small-claims cap; AI hallucination risk per ABA Op. 512; license check matters more) and Limitations section included; 10 primary sources with inline links. Gates: 0 em dashes, 'The' starters 6.8%, rhythm variance 336.8."
     }
   ],
-  "last_checked": "2026-09-14T18:20:00-07:00",
+  "last_checked": "2026-09-14T20:30:00-07:00",
   "current": null
 }
