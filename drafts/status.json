@@ -6089,8 +6089,59 @@
       "slug": "ai-smart-panel-service-upgrade-load-calc-220-87-2026",
       "word_count": 1348,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-05. Original contribution is the worked 182A standard-method load calc on a 2,000 sq ft home vs SPAN fleet data (peaks rarely over 80A, avg 12 min), plus the NEC 220.87 demand-data bridge electricians skip. 8 primary sources inline. Gates: 0 em dashes, 'The' starters 10.3%, 0 banned phrases, rhythm variance 214.6 pass (one revision to lift variance from 193.7)."
+    },
+    {
+      "article_number": 866,
+      "number": 866,
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 216.5,
+          "short_pct": 10.8,
+          "long_pct": 60.0,
+          "passed": true
+        }
+      },
+      "headline": "Your Builder Hung a 200-CFM Hood Over a 60,000-BTU Gas Range. The Air Math Doesn't Work.",
+      "hero_hash": "b1e2d675",
+      "hero_real_jpeg": true,
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-gas-range-ventilation-cfm-gap-recirculating-hood-induction-2026-research.md",
+      "draft_file": "drafts/ai-gas-range-ventilation-cfm-gap-recirculating-hood-induction-2026.html",
+      "critique_file": "drafts/ai-gas-range-ventilation-cfm-gap-recirculating-hood-induction-2026-critique-r0.md",
+      "rounds": 1,
+      "ship_after": "2027-01-07",
+      "started": "2026-09-15T10:01:52-07:00",
+      "slug": "ai-gas-range-ventilation-cfm-gap-recirculating-hood-induction-2026",
+      "word_count": 1720,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-06. Original contribution is the CFM worksheet (50-60k BTU range needs 500-600 CFM vs 160-250 CFM builder hoods), the code-vs-physics 5x disagreement (ASHRAE 62.2 108 CFM fallback vs 500+ CFM BTU rule), and induction pre-wire optionality economics (low hundreds at rough-in vs $1,500-3,000 retrofit). 7 primary sources inline. Gates: 0 em dashes, 'The' starters 8.5%, 0 banned phrases, rhythm variance 216.5 pass (two revision rounds)."
     }
   ],
-  "last_checked": "2026-09-15T08:13:51.474761-07:00",
+  "last_checked": "2026-09-15T10:21:06.115265-07:00",
   "current": null
 }
