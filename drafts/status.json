@@ -6497,8 +6497,57 @@
       "ship_after": "2027-01-14",
       "started": "2026-09-16T00:20:00-07:00",
       "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (one-per-day rule); queue tail was 2027-01-13. Original contribution is the Fee Bill Audit (line-item citation demand, schedule-version check, ADU <750 sq ft tripwire under Gov Code 65852.2, uncodified-exaction flag) plus the modeled $6,000-$12,000 opacity tax (40-80 hrs at $150/hr to estimate fees). 5 primary sources inline (Terner LIHTC fee brief, Terner 7-city It All Adds Up, Terner AB 879 Mitigation Fee Act study, GreenLite $49.5M Series B PR, Gov Code 65852.2). Gates: 1 em dash (title suffix), The-starters 11.8%, 0 banned phrases, rhythm variance 201.6. One revision round (r0): rhythm repair 145.6->201.6 plus cut unsourced 'bill from memory' claim and fabricated fourteen-document figures."
+    },
+    {
+      "article_number": 874,
+      "slug": "sb222-heat-pump-permit-soft-cost-cap-2026",
+      "headline": "Your Heat Pump Permit Just Got a $200 Price Cap. Your HOA's Veto Is Now Illegal.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-15",
+      "started": "2026-09-16T02:05:00-07:00",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 130.0,
+          "short_pct": 14.8,
+          "long_pct": 49.2,
+          "passed": true
+        }
+      },
+      "rounds": 2,
+      "hero_hash": "5dc323b1",
+      "hero_real_jpeg": true,
+      "primary_sources": 5,
+      "word_count": 1282,
+      "critique_file": "drafts/sb222-heat-pump-permit-soft-cost-cap-2026-critique-r0.md",
+      "research_file": "drafts/sb222-heat-pump-permit-soft-cost-cap-2026-research.md",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-14. Original contribution: modeled heat-pump soft-cost stack (permit $300-600 + second trade permit $150-400 + 2-6 week plan-check + 30-90 day HOA vs $150/$200 caps) plus the Permit Counter Playbook (five rights with 2027/2028 effective dates). 5 primary sources inline (Wiener release, Canary Media final form, Senate Local Gov analysis, SPUR/TECH Clean CA data, CEC 2025 Energy Code). Framed as passed-legislature/pending-governor (deadline Sept 30). Gates: 1 em dash (title suffix boilerplate), The-starters 6.6%, 0 banned phrases, rhythm variance 130.0. Two revision rounds (r1: The-starter repair 18.3->13.8; r2: bimodal rhythm repair + The 13.8->6.6)."
     }
   ],
-  "last_checked": "2026-09-16T00:45:00-07:00",
+  "last_checked": "2026-09-16T02:30:00-07:00",
   "current": null
 }
