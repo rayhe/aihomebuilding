@@ -6546,8 +6546,57 @@
       "critique_file": "drafts/sb222-heat-pump-permit-soft-cost-cap-2026-critique-r0.md",
       "research_file": "drafts/sb222-heat-pump-permit-soft-cost-cap-2026-research.md",
       "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-14. Original contribution: modeled heat-pump soft-cost stack (permit $300-600 + second trade permit $150-400 + 2-6 week plan-check + 30-90 day HOA vs $150/$200 caps) plus the Permit Counter Playbook (five rights with 2027/2028 effective dates). 5 primary sources inline (Wiener release, Canary Media final form, Senate Local Gov analysis, SPUR/TECH Clean CA data, CEC 2025 Energy Code). Framed as passed-legislature/pending-governor (deadline Sept 30). Gates: 1 em dash (title suffix boilerplate), The-starters 6.6%, 0 banned phrases, rhythm variance 130.0. Two revision rounds (r1: The-starter repair 18.3->13.8; r2: bimodal rhythm repair + The 13.8->6.6)."
+    },
+    {
+      "article_number": 875,
+      "slug": "ai-grading-audit-lidar-drainage-verification-2026",
+      "headline": "Your Grading Plan Promised 6 Inches of Fall in 10 Feet. Your Yard Delivered a Pond.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-16",
+      "started": "2026-09-16T04:30:00-07:00",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 220.4,
+          "short_pct": 12.8,
+          "long_pct": 52.3,
+          "passed": true
+        }
+      },
+      "rounds": 0,
+      "hero_hash": "26a1bc91",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "word_count": 2045,
+      "critique_file": "drafts/ai-grading-audit-lidar-drainage-verification-2026-critique-r0.md",
+      "research_file": "drafts/ai-grading-audit-lidar-drainage-verification-2026-research.md",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-15. Original contribution: modeled 374-gallon low-spot math (300 sq ft x 2in = 50 cu ft = 374 gal vs IRC R401.3 5% requirement, 1.7% reverse grade) plus the rough-grade verification playbook (string+line-level DIY check, TraceAir/lidar before landscape mobilization). 7 primary sources inline (IRC text, III claim data, Clean Pro/EIN gutter data, Autodesk Grading Optimization, TraceAir/ENR, Adams/Microdrones lidar, SiteRecon AI). Gates: 1 em dash (title boilerplate), The-starters 5.5%, 0 banned phrases, rhythm variance 220.4. Round 0, no revisions."
     }
   ],
-  "last_checked": "2026-09-16T02:30:00-07:00",
+  "last_checked": "2026-09-16T05:00:00-07:00",
   "current": null
 }
