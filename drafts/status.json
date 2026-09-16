@@ -6344,14 +6344,59 @@
       "hero_real_jpeg": true,
       "word_count": 1770,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-10. Original contribution is the inspection-dividend calculation (30-45x ROI on a $250 inspection). 8 primary sources inline. Gates: 0 em dashes, The-starters 1.3%, 0 banned phrases, rhythm variance 202.9."
+    },
+    {
+      "article_number": 871,
+      "number": 871,
+      "slug": "ai-hail-damage-claim-verdict-roof-2026",
+      "headline": "The Hail Lasted Nine Minutes. The Fight Over Your Roof Will Last Nine Months.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-hail-damage-claim-verdict-roof-2026-research.md",
+      "draft_file": "drafts/ai-hail-damage-claim-verdict-roof-2026.html",
+      "critique_file": "drafts/ai-hail-damage-claim-verdict-roof-2026-critique-r0.md",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 257.2,
+          "short_pct": 10.4,
+          "long_pct": 54.5,
+          "passed": true
+        }
+      },
+      "rounds": 0,
+      "ship_after": "2027-01-12",
+      "started": "2026-09-15T20:05:00-07:00",
+      "hero_hash": "43c5f9ba",
+      "hero_real_jpeg": true,
+      "word_count": 1907,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-11. Original contribution is the Functional-Damage Test (5-question homeowner framework: own scan, bruise test, IBHS rating lookup, claim pricing, CLUE awareness). 8 primary sources inline (Verisk 2026 Roof Report, Cotality, IBHS hail cannon + ratings, Haag, NRCA, EagleView x2, Swiss Re). Gates: 0 em dashes, The-starters 4.8%, 0 banned phrases."
     }
   ],
-  "last_checked": "2026-09-15T20:05:00-07:00",
-  "current": {
-    "slug": "ai-hail-damage-claim-verdict-roof-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-15T20:05:00-07:00",
-    "article_number": 871
-  }
+  "last_checked": "2026-09-15T20:20:00-07:00",
+  "current": null
 }
