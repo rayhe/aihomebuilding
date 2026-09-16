@@ -6595,13 +6595,57 @@
       "critique_file": "drafts/ai-grading-audit-lidar-drainage-verification-2026-critique-r0.md",
       "research_file": "drafts/ai-grading-audit-lidar-drainage-verification-2026-research.md",
       "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-15. Original contribution: modeled 374-gallon low-spot math (300 sq ft x 2in = 50 cu ft = 374 gal vs IRC R401.3 5% requirement, 1.7% reverse grade) plus the rough-grade verification playbook (string+line-level DIY check, TraceAir/lidar before landscape mobilization). 7 primary sources inline (IRC text, III claim data, Clean Pro/EIN gutter data, Autodesk Grading Optimization, TraceAir/ENR, Adams/Microdrones lidar, SiteRecon AI). Gates: 1 em dash (title boilerplate), The-starters 5.5%, 0 banned phrases, rhythm variance 220.4. Round 0, no revisions."
+    },
+    {
+      "article_number": 876,
+      "slug": "ai-biometric-time-clocks-bipa-jobsite-2026",
+      "headline": "The Clock That Stops Buddy-Punching Costs $1,000 Per Worker in Illinois. The Fix Is a Piece of Paper.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-17",
+      "started": "2026-09-16T06:05:00-07:00",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 219.9,
+          "short_pct": 5.4,
+          "long_pct": 53.8,
+          "passed": true
+        }
+      },
+      "hero_hash": "69585775",
+      "hero_real_jpeg": true,
+      "primary_sources": 9,
+      "word_count": 2389,
+      "rounds": 0,
+      "research_file": "drafts/ai-biometric-time-clocks-bipa-jobsite-2026-research.md",
+      "critique_file": "drafts/ai-biometric-time-clocks-bipa-jobsite-2026-critique-r0.md",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-16. Original contribution: 25-worker crew BIPA exposure model (12,500 scans/yr; $12.5M pre-SB-2979 per-scan vs $50K post-amendment per-person vs $34K/yr prevented buddy-punching) plus the 4-step GC audit (written policy, pre-scan release, name the payroll vendor, check the CBA). 9 primary sources inline (BIPA 740 ILCS 14, SB 2979/Reed Smith+Taft, Cothron, Walton/Lexology, Anviz/Bloomberg Law, Cornerstone/Thomas, TI Communities/Crowell, ExakTime/FleetOwner, ClockShark, ENR, APA/QuickBooks/OnTheClock). Gates: 1 em dash (title boilerplate), The-starters 5.2%, 0 banned phrases, rhythm variance 219.9. Round 0, no revisions."
     }
   ],
-  "last_checked": "2026-09-16T05:00:00-07:00",
-  "current": {
-    "slug": "ai-biometric-time-clocks-bipa-jobsite-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-16T06:05:00-07:00"
-  }
+  "last_checked": "2026-09-16T06:15:00-07:00",
+  "current": null
 }
