@@ -6395,8 +6395,59 @@
       "hero_real_jpeg": true,
       "word_count": 1907,
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-11. Original contribution is the Functional-Damage Test (5-question homeowner framework: own scan, bruise test, IBHS rating lookup, claim pricing, CLUE awareness). 8 primary sources inline (Verisk 2026 Roof Report, Cotality, IBHS hail cannon + ratings, Haag, NRCA, EagleView x2, Swiss Re). Gates: 0 em dashes, The-starters 4.8%, 0 banned phrases."
+    },
+    {
+      "number": 872,
+      "article_number": 872,
+      "slug": "ai-stair-design-steepest-legal-riser-2026",
+      "headline": "Your Stairs Are Legal. They Are Also the Steepest Shape the Code Allows.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "research_file": "drafts/ai-stair-design-steepest-legal-riser-2026-research.md",
+      "draft_file": "drafts/ai-stair-design-steepest-legal-riser-2026.html",
+      "critique_file": "drafts/ai-stair-design-steepest-legal-riser-2026-critique-r0.md",
+      "critique_score": 9.0,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 212.0,
+          "short_pct": 12.4,
+          "long_pct": 60.7,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "hero_hash": "eb663de7",
+      "hero_real_jpeg": true,
+      "primary_sources": 8,
+      "word_count": 2356,
+      "ship_after": "2027-01-13",
+      "started": "2026-09-15T22:21:28-07:00",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-12. Original contribution is the 108-inch dual stair calculation (code-max 14x7.71/13x10, 130in run, 37.6 deg vs gentle 16x6.75/15x11, 165in run, 31.5 deg; delta 35in run, ~8.75 sq ft, $4,000-$9,000 at $500-$1,000/sq ft). 8 primary sources inline (AJEM stair study, LendingTree/CPSC NEISS, CPSC 2020 NEISS highlights, IRC R311.7.5 via SMA, RedX, Engineering.com/ARCHICAD, AEC Magazine, MDPI Remote Sensing). Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 212.0. One revision round (r1): fixed item-5 redundancy, cost-assumption clarity, softened builder-maximum claim, grandfathering accuracy."
     }
   ],
-  "last_checked": "2026-09-15T20:20:00-07:00",
+  "last_checked": "2026-09-15T22:21:28-07:00",
   "current": null
 }
