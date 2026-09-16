@@ -1531,7 +1531,7 @@
       "article_number": 774,
       "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
       "journalist": "Jake Kowalski",
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "phase": "SHIP",
       "ship_after": "2026-10-02",
       "started": "2026-09-04T12:20:00-07:00",
@@ -2471,7 +2471,7 @@
       "article_number": 794,
       "number": 794,
       "phase": "SHIP",
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "slug": "ai-aging-in-place-hospital-aesthetic-2026",
       "journalist": "Elena Vasquez",
       "research_file": "drafts/ai-aging-in-place-hospital-aesthetic-2026-research.md",
@@ -4750,7 +4750,7 @@
       "primary_sources": 5,
       "research_file": "drafts/formx-12m-ai-platform-fragmentation-tax-2026-research.md",
       "draft_file": "stories/formx-12m-ai-platform-fragmentation-tax-2026.html",
-      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent — every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
+      "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent \u2014 every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations)."
     },
     {
       "article_number": 838,
@@ -6598,5 +6598,10 @@
     }
   ],
   "last_checked": "2026-09-16T05:00:00-07:00",
-  "current": null
+  "current": {
+    "slug": "ai-biometric-time-clocks-bipa-jobsite-2026",
+    "phase": "DRAFT",
+    "journalist": "Marcus Washington",
+    "started": "2026-09-16T06:05:00-07:00"
+  }
 }
