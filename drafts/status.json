@@ -6446,14 +6446,59 @@
       "ship_after": "2027-01-13",
       "started": "2026-09-15T22:21:28-07:00",
       "publish_note": "Queued, not shipped: one article already published 2026-09-15 PT (one-per-day rule); queue tail was 2027-01-12. Original contribution is the 108-inch dual stair calculation (code-max 14x7.71/13x10, 130in run, 37.6 deg vs gentle 16x6.75/15x11, 165in run, 31.5 deg; delta 35in run, ~8.75 sq ft, $4,000-$9,000 at $500-$1,000/sq ft). 8 primary sources inline (AJEM stair study, LendingTree/CPSC NEISS, CPSC 2020 NEISS highlights, IRC R311.7.5 via SMA, RedX, Engineering.com/ARCHICAD, AEC Magazine, MDPI Remote Sensing). Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 212.0. One revision round (r1): fixed item-5 redundancy, cost-assumption clarity, softened builder-maximum claim, grandfathering accuracy."
+    },
+    {
+      "number": 873,
+      "article_number": 873,
+      "slug": "ai-impact-fee-audit-development-exactions-2026",
+      "headline": "Fremont Adds $150,000 in Fees to Every New Home. UC Berkeley Needed Months to Figure Out Why.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "research_file": "drafts/ai-impact-fee-audit-development-exactions-2026-research.md",
+      "draft_file": "drafts/ai-impact-fee-audit-development-exactions-2026.html",
+      "critique_file": "drafts/ai-impact-fee-audit-development-exactions-2026-critique-r0.md",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.6,
+          "short_pct": 8.3,
+          "long_pct": 68.3,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "hero_hash": "91a2dd14",
+      "hero_real_jpeg": true,
+      "primary_sources": 5,
+      "word_count": 1657,
+      "ship_after": "2027-01-14",
+      "started": "2026-09-16T00:20:00-07:00",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (one-per-day rule); queue tail was 2027-01-13. Original contribution is the Fee Bill Audit (line-item citation demand, schedule-version check, ADU <750 sq ft tripwire under Gov Code 65852.2, uncodified-exaction flag) plus the modeled $6,000-$12,000 opacity tax (40-80 hrs at $150/hr to estimate fees). 5 primary sources inline (Terner LIHTC fee brief, Terner 7-city It All Adds Up, Terner AB 879 Mitigation Fee Act study, GreenLite $49.5M Series B PR, Gov Code 65852.2). Gates: 1 em dash (title suffix), The-starters 11.8%, 0 banned phrases, rhythm variance 201.6. One revision round (r0): rhythm repair 145.6->201.6 plus cut unsourced 'bill from memory' claim and fabricated fourteen-document figures."
     }
   ],
-  "last_checked": "2026-09-16T00:20:00-07:00",
-  "current": {
-    "slug": "ai-impact-fee-audit-development-exactions-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-16T00:20:00-07:00",
-    "article_number": 873
-  }
+  "last_checked": "2026-09-16T00:45:00-07:00",
+  "current": null
 }
