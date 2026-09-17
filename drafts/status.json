@@ -6932,8 +6932,42 @@
       "rounds": 0,
       "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #883 queued for 2026-09-18 through 2027-01-24",
       "note": "Round 0, no content revisions; 2 draft-stage passes (The-starters 19.8% -> 0.0%, rhythm variance 160.5 -> 228.1). Original contribution: great-room Sabine walkthrough (1.47s bare -> 0.80s furnished -> 0.6s benchmark at ~$880 retrofit / design-stage fraction) + STC assembly cost math. 12 primary sources inline (MDPI dwellings, IASS 2023, Acoustic Bulletin/Lund, POMA 2023 random forest, MDPI ML indicators, WHO/NCBI, jstage sleep, Toronto review, ASU Mag S12.60, spaces4learning, QuietRock 510 datasheet, Sheffield Sabine)."
+    },
+    {
+      "article_number": 885,
+      "slug": "ai-silica-dust-monitor-table1-residential-2026",
+      "headline": "Ninety Minutes of Dry Cutting Is Three Days of Legal Silica in Your Lungs.",
+      "journalist": "Marcus \"Steel\" Washington",
+      "phase": "SHIP",
+      "ship_after": "2027-01-26",
+      "started": "2026-09-17T08:27:16.951975-07:00",
+      "critique_score": 8.74,
+      "critique_scores": {
+        "general": 8.8,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.6,
+        "legal": 8.7,
+        "rigor": 8.6,
+        "data": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 9.2,
+        "banned_phrases": 0,
+        "rhythm_variance": 208.4,
+        "rhythm_short_pct": 12.6,
+        "rhythm_long_pct": 61.1,
+        "hero": "JPEG 1920x1280"
+      },
+      "hero_hash": "d4f250de",
+      "primary_sources": 9,
+      "research_file": "drafts/ai-silica-dust-monitor-table1-residential-2026-research.md",
+      "rounds": 1,
+      "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #884 queued for 2026-09-18 through 2027-01-25",
+      "note": "Round 1. Original contribution: 90-minute dose math (800 ug/m3 illustrative x 1.5h = 1,200 ug-h/m3 = 3 days of legal dose) + 5-violation citation stack ($82,750 theoretical max vs <$1,000 water/vacuum fix). Fabricated composite person and fake quotes removed pre-critique; 'first of its kind' removed; lab-turnaround softened; Perkins 1930s sourced (In These Times). Rhythm required 6 revision passes (variance 109.5 -> 208.4). 9 primary sources inline (DOL, OSHA penalties, NIOSH, CDC, RAECO, Frontline Safety, Inlec, safetyandhealthmagazine, medicalxpress, In These Times)."
     }
   ],
-  "last_checked": "2026-09-17T06:16:28.565857-07:00",
+  "last_checked": "2026-09-17T08:27:16.951975-07:00",
   "current": null
 }

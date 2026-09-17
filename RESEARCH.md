@@ -885,3 +885,21 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: EMG is not injury reduction; zero longitudinal claims studies; load relocates (extensors +15% below shoulder); deconditioning and surveillance-data questions
 - Journalist: Marcus "Steel" Washington (workforce & labor beat)
 - **Queued SHIP 2027-01-24 as #883:** "Your Framer's Shoulder Gave Out at 52. A $1,599 Vest Keeps the Next One Working." (critique avg 8.89, round 0)
+
+### 84. 🟢 AI Open-Plan Echo & Acoustic Design
+- Elena Vasquez (design beat)
+- Original contribution: great-room Sabine walkthrough (1.47s bare → 0.80s furnished → 0.6s benchmark at ~$880 retrofit / design-stage fraction) + STC assembly cost math; 12 primary sources inline
+- **Queued SHIP 2027-01-25 as #884:** "Your Open Floor Plan Has the Acoustics of a Parking Garage. AI Can Hear It Before the Drywall Goes Up." (critique avg 8.91, round 0)
+
+### 85. 🟢 AI Silica Dust Monitoring & OSHA Table 1 on Residential Jobsites
+- OSHA 29 CFR 1926.1153 (effective Sept 23, 2017): PEL 50 µg/m³ 8-hr TWA, action level 25 µg/m³; Table 1 specified exposure control methods per task (handheld power saws incl. fiber-cement cutting = dust collection + HEPA vacuum; stationary masonry saws = water delivery); full Table 1 compliance = deemed in compliance
+- DOL 2016 final-rule announcement: ~2.3M workers exposed incl. ~2M construction; 600+ lives/yr saved, 900+ silicosis cases/yr prevented, net benefits ~$7.7B/yr (dol.gov newsroom release)
+- IARC: crystalline silica = known human carcinogen; NIOSH 2015: ~100 silicosis deaths/yr still; Frances Perkins sounded the alarm on silicosis in the 1930s (In These Times)
+- OSHA penalties effective Jan 15, 2026: serious $16,550/violation; willful/repeated $165,514/violation; failure to abate $16,550/day (osha.gov/penalties); serious-violation minimums start at $1,221
+- Trolex Air XS: real-time respirable crystalline silica area monitor (Optical Refraction Technology); ±25% RCS accuracy typical; purchase ~£10,000–£16,062 (Frontline Safety £16,062 incl VAT; Shawcity £12,995 ex VAT; AU AU$18,500); hire £250–410/week (Inlec, Shawcity); XD1+ personal monitor £185/week; RAECO Rents (US): process-control/early-warning use, gravimetric sampling remains the OSHA compliance method
+- NIOSH Helmet-CAM + EVADE: task-synchronized video/exposure, free public software (cdc.gov/niosh bulletin 2018)
+- AI breath test (Mar 2025): 31 silicosis patients, 60 controls, >90% accuracy, <5 min/sample, lab-bound (medicalxpress)
+- Original contribution: 90-minute dose math (800 µg/m³ illustrative × 1.5h = 1,200 µg·h/m³ = 3 days of legal dose) + five-serious-violation citation stack ($82,750 theoretical max, caveated) vs <$1,000 water/vacuum/Table 1 fix
+- Strongest counterargument: the box is not the answer — Air XS is an area monitor not personal, ±25% accuracy, not accepted for compliance sampling; Table 1 already solved the cheap part; surveillance/privacy risk of worker cameras (worker data ownership)
+- Journalist: Marcus "Steel" Washington (workforce & labor beat)
+- **Queued SHIP 2027-01-26 as #885:** "Ninety Minutes of Dry Cutting Is Three Days of Legal Silica in Your Lungs." (critique avg 8.74, round 1)
