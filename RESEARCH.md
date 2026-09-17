@@ -874,3 +874,14 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: hardware economics don't serve $8K foundation pours; trim-water discipline (NRMCA recommended practice) achieves the same without AI
 - Journalist: Jake Kowalski (construction technology beat)
 - **Queued SHIP 2027-01-23 as #882:** "Your Mixer Driver Added 40 Gallons of Water to Your Foundation. Nobody Wrote It Down." (critique avg 8.84, round 0)
+
+### 83. 🟢 AI Exoskeletons & the Aging Trades Workforce: The Crew Break-Even Math
+- CPWR Feb 2025 data bulletin: average construction worker age 42.1 (up from 41.6 in 2011); 4.1M Americans turn 65 between 2024-2027
+- CDC MMWR Ohio 2007-2017: overexertion WMSD claim cost $3,492 (18-24) to $25,932 (45-54) = 7.4x age multiplier; upper-extremity sprains $15,284 at 45-54; 40.5% lost-time at 55-64
+- CPWR Q3 2019: back injuries 41.7% of construction WMSDs; median DAFW 8 days (1992) to 13 days (2017); BLS shoulder MSDs median 21 days (most severe)
+- Hilti EXO-01 ($1,599, with Ottobock, 47% strain reduction) vs HeroWear Apex 2 ($1,199, first female-specific) vs German Bionic Apogee ($9,995, AI-adaptive, $299/mo RaaS, 31% sick-leave vendor claim) vs Apogee Ultra CES 2025 (70-lb lift feels like 9-11 lb)
+- Evidence: Musso et al. 2024 (-45.46% anterior deltoid), Huysamen 2018 (-62% medial deltoid), MDPI field study 2024 (>80% would reuse for sustained overhead, won't wear daily), NIOSH 2022 bulletin
+- Original contribution: 6-person crew math (6 x $1,599 = $9,594 vs one $15,284 claim = $5,690 surplus) + AI premium bar ($8,400/worker/yr, no published study clears it)
+- Strongest counterargument: EMG is not injury reduction; zero longitudinal claims studies; load relocates (extensors +15% below shoulder); deconditioning and surveillance-data questions
+- Journalist: Marcus "Steel" Washington (workforce & labor beat)
+- **Queued SHIP 2027-01-24 as #883:** "Your Framer's Shoulder Gave Out at 52. A $1,599 Vest Keeps the Next One Working." (critique avg 8.89, round 0)

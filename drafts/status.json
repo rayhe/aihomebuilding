@@ -6864,15 +6864,42 @@
       "rounds": 0,
       "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #881 queued for 2026-09-18 through 2027-01-22",
       "note": "Round 0, no content revisions; 3 rhythm passes during drafting (variance 99 -> 280.7). Original contribution: slump-tax Abrams math (2 gal/yd3 = 4,995 psi, -5.6%; 4 gal/yd3 = 4,716 psi, -10.9%) on 6-sack mix. 9 primary sources inline (ASTM C94/NRMCA, MoDOT VERIFI, GCP spec, Command Alkon May 2024, TxDOT, Abo Mustafa & Zregh, Alhozaimy via retempering review, NRMCA CIP 26, 1 gal/yd3 rule of thumb)."
+    },
+    {
+      "article_number": 883,
+      "slug": "ai-exoskeleton-aging-trades-2026",
+      "headline": "Your Framer's Shoulder Gave Out at 52. A $1,599 Vest Keeps the Next One Working.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP",
+      "ship_after": "2027-01-24",
+      "started": "2026-09-17T04:05:23.935876-07:00",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general": 8.8,
+        "voice": 8.9,
+        "ethics": 9.0,
+        "social": 8.8,
+        "legal": 8.8,
+        "rigor": 9.0,
+        "data": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 0.0,
+        "banned_phrases": 0,
+        "rhythm_variance": 213.2,
+        "rhythm_short_pct": 13.8,
+        "rhythm_long_pct": 46.2,
+        "hero": "JPEG 1920x1280"
+      },
+      "hero_hash": "61f0f8d7",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-exoskeleton-aging-trades-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #882 queued for 2026-09-18 through 2027-01-23",
+      "note": "Round 0, no content revisions; 3 draft-stage passes (The-starters 20.6% -> 0.0%, rhythm variance 195.4 -> 213.2). Original contribution: 6-person crew break-even math ($9,594 in Hilti EXO-01 vests vs $15,284 single upper-extremity claim at 45-54, $5,690 surplus) + AI premium bar ($8,400/worker/yr). 8 primary sources inline (CDC MMWR Ohio 2007-2017, CPWR Q3 2019 MSD trends, NIOSH 2022 exoskeleton bulletin, MDPI Appl Sci 2024 field study, Musso et al. Appl Ergon 2024, CPWR Feb 2025 aging bulletin, Equipment World Hilti EXO-01, TNW German Bionic)."
     }
   ],
-  "last_checked": "2026-09-17T04:05:23.935876-07:00",
-  "current": {
-    "slug": "ai-exoskeleton-aging-trades-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "article_number": 883,
-    "ship_after": "2027-01-24",
-    "started": "2026-09-17T04:05:23.935876-07:00"
-  }
+  "last_checked": "2026-09-17T04:13:17.470420-07:00",
+  "current": null
 }
