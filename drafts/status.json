@@ -6898,8 +6898,42 @@
       "rounds": 0,
       "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #882 queued for 2026-09-18 through 2027-01-23",
       "note": "Round 0, no content revisions; 3 draft-stage passes (The-starters 20.6% -> 0.0%, rhythm variance 195.4 -> 213.2). Original contribution: 6-person crew break-even math ($9,594 in Hilti EXO-01 vests vs $15,284 single upper-extremity claim at 45-54, $5,690 surplus) + AI premium bar ($8,400/worker/yr). 8 primary sources inline (CDC MMWR Ohio 2007-2017, CPWR Q3 2019 MSD trends, NIOSH 2022 exoskeleton bulletin, MDPI Appl Sci 2024 field study, Musso et al. Appl Ergon 2024, CPWR Feb 2025 aging bulletin, Equipment World Hilti EXO-01, TNW German Bionic)."
+    },
+    {
+      "article_number": 884,
+      "slug": "ai-open-plan-echo-acoustic-design-2026",
+      "headline": "Your Open Floor Plan Has the Acoustics of a Parking Garage. AI Can Hear It Before the Drywall Goes Up.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP",
+      "ship_after": "2027-01-25",
+      "started": "2026-09-17T06:16:28.565796-07:00",
+      "critique_score": 8.91,
+      "critique_scores": {
+        "general": 8.8,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.8,
+        "legal": 9.0,
+        "rigor": 9.0,
+        "data": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 0.0,
+        "banned_phrases": 0,
+        "rhythm_variance": 228.1,
+        "rhythm_short_pct": 9.9,
+        "rhythm_long_pct": 56.4,
+        "hero": "JPEG 1920x1280"
+      },
+      "hero_hash": "68ddbf0b",
+      "primary_sources": 12,
+      "research_file": "drafts/ai-open-plan-echo-acoustic-design-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #883 queued for 2026-09-18 through 2027-01-24",
+      "note": "Round 0, no content revisions; 2 draft-stage passes (The-starters 19.8% -> 0.0%, rhythm variance 160.5 -> 228.1). Original contribution: great-room Sabine walkthrough (1.47s bare -> 0.80s furnished -> 0.6s benchmark at ~$880 retrofit / design-stage fraction) + STC assembly cost math. 12 primary sources inline (MDPI dwellings, IASS 2023, Acoustic Bulletin/Lund, POMA 2023 random forest, MDPI ML indicators, WHO/NCBI, jstage sleep, Toronto review, ASU Mag S12.60, spaces4learning, QuietRock 510 datasheet, Sheffield Sabine)."
     }
   ],
-  "last_checked": "2026-09-17T04:13:17.470420-07:00",
+  "last_checked": "2026-09-17T06:16:28.565857-07:00",
   "current": null
 }
