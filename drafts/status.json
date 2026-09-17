@@ -1,5 +1,5 @@
 {
-  "last_completed": 759,
+  "last_completed": "ai-in-transit-slump-sensor-residential-2026",
   "last_published_at": "2026-09-17T00:27:05.910044-07:00",
   "ship_ready": [
     {
@@ -6830,8 +6830,42 @@
       "research_file": "drafts/septic-pump-not-inspection-drainfield-2026-research.md",
       "rounds": 0,
       "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #880 queued for 2026-09-18 through 2027-01-21"
+    },
+    {
+      "article_number": 882,
+      "slug": "ai-in-transit-slump-sensor-residential-2026",
+      "headline": "Your Mixer Driver Added 40 Gallons of Water to Your Foundation. Nobody Wrote It Down.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "ship_after": "2027-01-23",
+      "started": "2026-09-17T02:01:52-07:00",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general": 8.7,
+        "voice": 8.8,
+        "ethics": 8.9,
+        "social": 8.8,
+        "legal": 9.0,
+        "rigor": 8.9,
+        "data": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 8.9,
+        "banned_phrases": 0,
+        "rhythm_variance": 280.7,
+        "rhythm_short_pct": 12.7,
+        "rhythm_long_pct": 49.1,
+        "hero": "JPEG 1920x1280"
+      },
+      "hero_hash": "3e0c2218",
+      "primary_sources": 9,
+      "research_file": "drafts/ai-in-transit-slump-sensor-residential-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #881 queued for 2026-09-18 through 2027-01-22",
+      "note": "Round 0, no content revisions; 3 rhythm passes during drafting (variance 99 -> 280.7). Original contribution: slump-tax Abrams math (2 gal/yd3 = 4,995 psi, -5.6%; 4 gal/yd3 = 4,716 psi, -10.9%) on 6-sack mix. 9 primary sources inline (ASTM C94/NRMCA, MoDOT VERIFI, GCP spec, Command Alkon May 2024, TxDOT, Abo Mustafa & Zregh, Alhozaimy via retempering review, NRMCA CIP 26, 1 gal/yd3 rule of thumb)."
     }
   ],
-  "last_checked": "2026-09-17T00:27:05.910044-07:00",
+  "last_checked": "2026-09-17T03:15:00-07:00",
   "current": null
 }

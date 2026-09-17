@@ -861,3 +861,16 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: most builders finish; PE roll-ups and thin-margin customs are the cluster; escrow converts waterfall to non-event; vetting has social cost with busy contractors
 - Journalist: Catherine Chen (policy & regulation beat)
 - **Queued SHIP 2027-01-20 as #879:** "Your Builder Took Your $40,000 Deposit. Then the Trucks Stopped Coming." (critique avg 8.90, round 0)
+
+### 82. 🟢 AI In-Transit Concrete Slump Management & the Residential Water Gap
+- ASTM C94 (2013 revision): water additions during transit allowed for trucks with automated slump/water management systems; jobsite additions must be documented on delivery ticket, 30 mixing revolutions after each addition
+- NRMCA CIP 26: no water after desired slump/max w/cm reached; pre-placement conference should designate who authorizes additions
+- VERIFI (GCP/Saint-Gobain): in-drum sensors, automatic water/admixture dosing, slump ±25mm accuracy; MoDOT research: transit water addition does not harm performance; data usable for acceptance
+- Command Alkon Load Assurance (May 2024): real-time slump, temp, volume, water additions, w/c ratio, air content; tighter water control reduces cement/yard and strength std dev
+- TxDOT + FL/IL/MO DOTs accept sensor-managed loads as ASTM C94 compliant
+- Research: Alhozaimy 2006 (within-limits retempering <10% strength loss, beyond-limits up to 35%); Abo Mustafa & Zregh (-19% to -29% with water retempering); 1 gal/yd³ ≈ 1 in. slump
+- Residential gap: no inspector, no slump cone, no cylinders, no water records on home pours
+- Original contribution: "slump tax" Abrams'-law math — one unrecorded hose round (2 gal/yd³) on a 6-sack mix: w/c 0.50→0.530, 5,291→4,995 psi (5.6% loss); two rounds: w/c 0.559, 4,716 psi (10.9% loss)
+- Counterargument: hardware economics don't serve $8K foundation pours; trim-water discipline (NRMCA recommended practice) achieves the same without AI
+- Journalist: Jake Kowalski (construction technology beat)
+- **Queued SHIP 2027-01-23 as #882:** "Your Mixer Driver Added 40 Gallons of Water to Your Foundation. Nobody Wrote It Down." (critique avg 8.84, round 0)
