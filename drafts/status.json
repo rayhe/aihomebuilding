@@ -1,6 +1,6 @@
 {
-  "last_completed": 758,
-  "last_published_at": "2026-09-16T00:04:13.392953-07:00",
+  "last_completed": 759,
+  "last_published_at": "2026-09-17T00:27:05.910044-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -916,52 +916,6 @@
       "research_file": "drafts/ai-takeoff-shootout-residential-estimating-2026-research.md",
       "rounds": 0,
       "published_at": "2026-09-16T00:04:13.392953-07:00"
-    },
-    {
-      "article_number": 759,
-      "slug": "ai-home-inspection-coauthored-liability-gap-2026",
-      "headline": "Your Inspector's Report Was Co-Written by AI. The Licensing Board Doesn't Know That Yet.",
-      "journalist": "Catherine Chen",
-      "phase": "SHIP",
-      "ship_after": "2026-09-17",
-      "started": "2026-09-03T06:01:52-07:00",
-      "critique_score": 8.89,
-      "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.9,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 1,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 1.4,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 205.7,
-          "short_pct": 7.8,
-          "long_pct": 50.6,
-          "passed": true
-        }
-      },
-      "hero_hash": "7e3b618d",
-      "primary_sources": 9,
-      "research_file": "drafts/ai-home-inspection-coauthored-liability-gap-2026-research.md",
-      "rounds": 1,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #758 queued for 2026-09-04 through 2026-09-16"
     },
     {
       "article_number": 760,
@@ -6843,18 +6797,41 @@
       "critique_file": "drafts/ai-concrete-maturity-sensor-slab-strength-2026-critique-r0.md",
       "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-20. Original contribution: residential break-even math for wireless maturity sensors on a $9,600/768-sq-ft slab (2 sensors = $220-370 = 2.3-3.9% of slab cost; break-even = one avoided callback or one saved framing-crew day). 9 primary sources inline (ASTM C1074, Giatec battlecard pricing, Giatec/Alizadeh case study, SmartRock Pro page, CertifiedMTP specs, WSDOT maturity report, London Construction Magazine Sept 2026, 2026 slab cost guide, Day's Concrete $9,600 slab example). Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 223.6. Round 0, no content revisions; 2 rhythm/voice passes during drafting.",
       "hold_reason": "1/day rule: #758 published 2026-09-16; #759 through #879 queued for 2026-09-17 through 2027-01-20"
+    },
+    {
+      "article_number": 881,
+      "slug": "septic-pump-not-inspection-drainfield-2026",
+      "headline": "77% of Septic Owners Pump Their Tanks. Only 32% Inspect Them. The Drain Field Does Not Care.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "ship_after": "2027-01-22",
+      "started": "2026-09-17T00:30:00-07:00",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general": 8.7,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.8,
+        "legal": 8.7,
+        "rigor": 8.8,
+        "data": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 5.5,
+        "banned_phrases": 0,
+        "rhythm_variance": 214.2,
+        "rhythm_short_pct": 9.3,
+        "rhythm_long_pct": 70.7,
+        "hero": "JPEG 1920x1280"
+      },
+      "hero_hash": "1d437d73",
+      "primary_sources": 10,
+      "research_file": "drafts/septic-pump-not-inspection-drainfield-2026-research.md",
+      "rounds": 0,
+      "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #880 queued for 2026-09-18 through 2027-01-21"
     }
   ],
-  "last_checked": "2026-09-16T22:30:00-07:00",
-  "current": {
-    "article_number": 881,
-    "slug": "septic-pump-not-inspection-drainfield-2026",
-    "headline": "77% of Septic Owners Pump Their Tanks. Only 32% Inspect Them. The Drain Field Does Not Care.",
-    "journalist": "Frank DeLuca",
-    "phase": "DRAFT",
-    "started": "2026-09-17T00:30:00-07:00",
-    "ship_after": "2027-01-22",
-    "primary_sources": 10,
-    "research_file": "drafts/septic-pump-not-inspection-drainfield-2026-research.md"
-  }
+  "last_checked": "2026-09-17T00:27:05.910044-07:00",
+  "current": null
 }
