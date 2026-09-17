@@ -903,3 +903,17 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: the box is not the answer — Air XS is an area monitor not personal, ±25% accuracy, not accepted for compliance sampling; Table 1 already solved the cheap part; surveillance/privacy risk of worker cameras (worker data ownership)
 - Journalist: Marcus "Steel" Washington (workforce & labor beat)
 - **Queued SHIP 2027-01-26 as #885:** "Ninety Minutes of Dry Cutting Is Three Days of Legal Silica in Your Lungs." (critique avg 8.74, round 1)
+
+### 86. 🟢 AI + California CEQA Infill Exemption (AB 130 / SB 131): Builder Self-Screen
+- AB 130 + SB 131 signed June 30, 2025 as budget trailer bills (Newsom made budget signature contingent); took effect immediately; 10 new CEQA exemptions
+- PRC § 21080.66: COMPLETE CEQA exemption for qualifying urban infill "housing development project" (Gov Code 65589.5(h)(2)); incl. permits + public improvements; all incorporated cities + Census urban unincorporated areas
+- 7 gates: project type / location / infill (4 alternative tests: prior urban use, 75% perimeter, 75% quarter-mile radius, 3-of-4-sides) / ≤20 acres / ≥half Mullin density (Santa Barbara Co: 30 → 15 du/ac) / zoning consistency / clean ground (Phase I ESA in certain circumstances)
+- No new BMR or wage requirements (<85 ft); no unit cap; no transit proximity (broader than Class 32)
+- SB 131 "near-miss": streamlined review limited to single disqualifying condition, no alternatives analysis, no growth-inducing analysis; Housing Element rezoning exemption (PRC § 21080.085, HCD memo May 19, 2026); narrowed admin record
+- Hernandez studies: 47,999 units targeted in 2020 suits (~50% of ~110,784/yr production); most-targeted = housing in existing communities (infill); 4-5 yr litigation; lenders won't fund during pendency ("low-cost, no-risk strategy"); ~2/3 allege GHG/VMT
+- AI builder side: LightBox survey (300+ professionals; AI in Phase I ESAs; Terracon "outsized role" quote; AEI disclosure debate); Ecobot (60K+ field reports, 6,500 projects); LocusAI Report Agent (June 2026); CIR EPSA (minutes vs 3-4 days)
+- AI opponent side: CiviClick 20,000+ AI-generated comments to SCAQMD (LA Times investigation, some in real names w/o consent); SB 1159 (Cabaldon, INTRODUCED not enacted): AI not "persons" under CEQA/Brown Act/APA
+- Original contribution: 7-gate self-screen checklist (first builder-facing synthesis) + marginal-criterion analysis (cheapest gate = highest-leverage design variable; 14.3 du/ac → +1 unit/acre flips full exemption) + litigation-vector math (most-sued category = infill = exemption coverage)
+- Strongest counterargument: exemptions relocate lawsuits to the exemption determination (substantial evidence per gate); near-miss untested on appeal; AI arms race both sides; SB 1159 not law
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Queued SHIP 2027-01-27 as #886:** "California Deleted CEQA Review for Infill Housing. Your Project Might Qualify. Run This Checklist Before You Hire a Lawyer." (critique avg 8.86, round 0; gates: 0 em dashes, 4.1% The-starters, rhythm variance 224.8)
