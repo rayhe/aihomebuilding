@@ -849,3 +849,15 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: qualify on income, die on appraisal; lender implementation "underway"; AI zoning answers confidently wrong; 8% STR — long-term-tenant story
 - Journalist: Catherine Chen (policy & regulation beat)
 - **Queued SHIP 2026-11-28 as #831:** "Fannie Mae Will Count Your Backyard Cottage as Income. The Cap Is 30%." (critique avg 8.84, round 2)
+
+### 81. 🟢 Builder Bankruptcy: Deposit Recovery Waterfall + Five-Signal Distress Screen
+- Renovo Home Partners Ch.7 (Nov 2025, Delaware): liabilities $100-500M, assets <$100K; customers became unsecured creditors (TheStreet)
+- Van Der Valk Construction Ch.11 (Apr 2025): Citrus Springs retiree, life savings sunk in half-built house (Moneywise)
+- Bankruptcy Code §365(j): buyer whose purchase contract is rejected gets a lien for purchase price paid — subordinate to pre-existing liens, "worthless" on encumbered property (Lexology)
+- California B&P §7159.5(a)(3): home-improvement down payment capped at $1,000 or 10%, whichever is less — NOT tract-home purchase deposits (Sacramento Law Group)
+- CSLB license bond $25,000: "not per job; amount available for all jobs during life of the bond" (CSLB guide + bond basics)
+- AHL Contractor Vetting Checklist (Jun 2026): cash-only terms, "start tomorrow," verbal quotes as autopsy-report flags; NPR/KSMU on developer-favoring contracts
+- Original contribution: five-step deposit recovery waterfall on $400K/$40K custom build (secured lender → mechanics liens → §365(j) lien → $25K shared bond → unsecured pennies, low single-digit cents) + five-signal distress screen (license/bond lookup, permit velocity, preliminary notices, review forensics, deposit terms) + home-improvement vs tract-purchase deposit-track distinction
+- Counterargument: most builders finish; PE roll-ups and thin-margin customs are the cluster; escrow converts waterfall to non-event; vetting has social cost with busy contractors
+- Journalist: Catherine Chen (policy & regulation beat)
+- **Queued SHIP 2027-01-20 as #879:** "Your Builder Took Your $40,000 Deposit. Then the Trucks Stopped Coming." (critique avg 8.90, round 0)

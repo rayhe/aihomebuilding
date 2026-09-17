@@ -6743,8 +6743,58 @@
       "critique_file": "drafts/ai-community-microgrid-subdivision-buyer-2026-critique-r0.md",
       "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-18. Original contribution: three-ownership-model comparison of community microgrids (utility-owned Myrtlebrook / builder-bundled KB Home / VPP-clustered Veridian) plus modeled-vs-measured distinction on self-sufficiency claims and a five-question buyer checklist. 7 primary sources inline (Schneider Electric KB Home release, Electrek Myrtlebrook, Solar Power World Veridian, Microgrid Knowledge Redwood Energy, pv-tech sonnen algorithm, Solar Power World sonnenConnect, technology.org DERMS explainer). Gates: 1 em dash (title boilerplate), The-starters 13.4%, 0 banned phrases, rhythm variance 204.9. Round 0, no content revisions; 5 rhythm-only passes. Real JPEG hero verified (ffd8 magic, 1920x1280).",
       "hold_reason": "1/day rule: #758 published 2026-09-16; #759 through #877 queued for 2026-09-17 through 2027-01-18"
+    },
+    {
+      "article_number": 879,
+      "slug": "ai-builder-bankruptcy-deposit-recovery-2026",
+      "headline": "Your Builder Took Your $40,000 Deposit. Then the Trucks Stopped Coming.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-01-20",
+      "started": "2026-09-16T20:05:00-07:00",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 200.4,
+          "short_pct": 3.1,
+          "long_pct": 53.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "e89bd2ab",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "word_count": 2375,
+      "rounds": 0,
+      "research_file": "drafts/ai-builder-bankruptcy-deposit-recovery-2026-research.md",
+      "critique_file": "drafts/ai-builder-bankruptcy-deposit-recovery-2026-critique-r0.md",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-19. Original contribution: five-step deposit recovery waterfall on a $400K/$40K custom build (secured lender, mechanics liens, section 365(j) lien, $25K shared CSLB bond, unsecured pennies) plus five-signal builder-distress screen and home-improvement vs tract-purchase deposit-track distinction. 7 primary sources inline (TheStreet Renovo Ch.7, Moneywise Van Der Valk Ch.11, Lexology 365(j), CSLB bond guide + bond basics, B&P 7159.5 via Sacramento Law Group, AHL vetting checklist, NPR/KSMU deposit reporting). Gates: 1 em dash (title boilerplate), The-starters 3.5%, 0 banned phrases, rhythm variance 200.4. Round 0, no content revisions; 2 rhythm/voice passes.",
+      "hold_reason": "1/day rule: #758 published 2026-09-16; #759 through #878 queued for 2026-09-17 through 2027-01-19"
     }
   ],
-  "last_checked": "2026-09-16T10:30:00-07:00",
+  "last_checked": "2026-09-16T20:45:00-07:00",
   "current": null
 }
