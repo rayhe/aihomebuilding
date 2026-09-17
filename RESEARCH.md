@@ -917,3 +917,17 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: exemptions relocate lawsuits to the exemption determination (substantial evidence per gate); near-miss untested on appeal; AI arms race both sides; SB 1159 not law
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Queued SHIP 2027-01-27 as #886:** "California Deleted CEQA Review for Infill Housing. Your Project Might Qualify. Run This Checklist Before You Hire a Lawyer." (critique avg 8.86, round 0; gates: 0 em dashes, 4.1% The-starters, rhythm variance 224.8)
+
+### 87. 🟢 AI Multigenerational Suite Design: The Kitchenette as Legal Device
+- Pew (Mar 2022 census analysis): 18% of Americans in multigenerational households, >2x early-1970s share; 31% of ages 25-29
+- NAR 2025: 14% of buyers purchased multigenerational (down from 17%); reasons: aging-parent care 41%, cost savings 29%
+- Realtor.com 2026: ~4M owner-occupied multigenerational households (~4.5%), pace picking up; typical: 5 people, 4BR, $131K median income
+- Veterans United (n=900, 2025): 28% of prospective buyers plan multigenerational purchase
+- Lennar Next Gen "home within a home" since 2011: separate entrance, living room, bedroom, bath, kitchenette + interior lockable door; Jeff Roos (Regional President, Lennar West) quote verified via Lennar Resource Center 2026-09-17
+- Angi 2026: in-law suite avg $82,750 national, $165,500-$190,400 Los Angeles; architect addition design $2,400-$14,000
+- HomeAdvisor 2025: rough-in plumbing ~$6,500; plumber labor $150-$275/hr
+- NAHB: 39% of all buyers want multigenerational design; 53% Hispanic, 50% African-American, 46% Asian vs 35% white
+- Original contribution: kitchenette-vs-kitchen as zoning legal device (range triggers ADU/duplex reclassification) + worked payback math ($2K/mo rent = 3.5-yr, $1.3K/mo daycare = 5.3-yr simple) + plumbing-stack 10-15 ft rule + lockable-door pattern
+- Strongest counterargument: NAR share fell 17%→14% in a year; multigenerational homes carry a price premium (Realtor.com 2025); 41% of demand is caregiving not investment, so payback math is irrelevant to most buyers; binding constraint is zoning/permitting, which no generator evaluates
+- Journalist: Elena Vasquez (architecture & design beat)
+- **Queued SHIP 2027-01-30 as #889:** "Your Mother-in-Law Is Moving In. An Algorithm Drew the Second Kitchen." (critique avg 8.93, round 0; gates: 0 em dashes, 5.7% The-starters, rhythm variance 208.9)
