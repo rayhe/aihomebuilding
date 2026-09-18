@@ -7305,8 +7305,41 @@
         "short_pct": 6.1,
         "long_pct": 48.5
       }
+    },
+    {
+      "article_number": 897,
+      "headline": "71% of Septic Repair Money Goes to the Drain Field. The $200 Sensor Watches the Tank.",
+      "journalist": "Jake Kowalski",
+      "slug": "ai-septic-failure-prediction-sensor-monitor-2026",
+      "hero_hash": "f3edd125",
+      "primary_sources": 11,
+      "research_file": "drafts/ai-septic-failure-prediction-sensor-monitor-2026-research.md",
+      "phase": "SHIP",
+      "ship_after": "2027-02-07",
+      "started": "2026-09-18T10:05:00-07:00",
+      "completed": "2026-09-18T10:55:00-07:00",
+      "critique_rounds": 1,
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "gates": {
+        "em_dash": 0,
+        "the_starters_pct": 11.1,
+        "rhythm_variance": 210.8,
+        "short_pct": 11.5,
+        "long_pct": 49.0,
+        "banned_phrases": 0
+      },
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #896 queued for 2026-09-19 through 2027-02-06; #897 queued for 2027-02-07"
     }
   ],
-  "last_checked": "2026-09-18T08:25:00-07:00",
+  "last_checked": "2026-09-18T10:55:00-07:00",
   "current": null
 }
