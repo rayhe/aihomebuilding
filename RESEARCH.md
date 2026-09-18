@@ -938,3 +938,14 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: NAR share fell 17%→14% in a year; multigenerational homes carry a price premium (Realtor.com 2025); 41% of demand is caregiving not investment, so payback math is irrelevant to most buyers; binding constraint is zoning/permitting, which no generator evaluates
 - Journalist: Elena Vasquez (architecture & design beat)
 - **Queued SHIP 2027-01-30 as #889:** "Your Mother-in-Law Is Moving In. An Algorithm Drew the Second Kitchen." (critique avg 8.93, round 0; gates: 0 em dashes, 5.7% The-starters, rhythm variance 208.9)
+
+### 88. 🟢 AI HVAC Load Calc Audit: The Oversize Tax vs. Rule-of-Thumb Sizing
+- Manual J 8th ed is code-required (IECC/state codes); thumb rule = 1 ton per 500 sq ft, rounds up
+- NREL (James et al. 1997, 300+ FL homes): +20% oversize = 3.7% more cooling energy; +50% = 9.3% (cycling degradation + parasitic draw; worse % on high-SEER)
+- NYSERDA: inverter heat pumps most efficient at 40-80% capacity; oversize short-cycling = up to 25% efficiency penalty at low load
+- Rutgers NJGBM: HVAC = 48% of typical US home energy; rule-of-thumb is a main oversizing driver
+- FSEC (Cummings/Withers): oversized VARIABLE-capacity heat pump beat rightsized unit in lab house (modulation 40-120%) — codes written for fixed-capacity may misfire on inverter equipment
+- Original contribution: oversize-tax worked math (2,000 sq ft hot climate, Manual J 2.5t vs sold 3.5t: $600-1,200 equipment premium + $500-1,260/15yr energy + dehumidifier; clears $2,000 vs $300-500 Manual J) + AI-as-auditor framing
+- Strongest counterargument: callback insurance is a real tradeoff; rightsized system failing on 105-degree design-exceedance day is contractor's free warranty call
+- Journalist: Jake Kowalski (construction tech beat)
+- **Queued SHIP 2027-02-02 as #892:** "Your AC Is One Ton Too Big. You Paid for It Twice." (critique avg 8.83, round 0; gates: 1 em dash, 3.1% The-starters, rhythm variance 200.2)
