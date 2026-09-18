@@ -7274,18 +7274,39 @@
       "rounds": 1,
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04; #895 queued for 2027-02-05",
       "note": "Round 0 hard-gate fixes: The-starters 27.8%->0.0%, rhythm variance 128.2->225.9 (merged fragments into longer constructions, added punches). Original contribution: ponding weight math (5,200 lb per inch per 1,000 sq ft; 2 in. over 20x30 ft = 3.1 tons = pickup truck); FM Global 32 psf design rain load vs 20 psf residential live load = 160%. Sources: FM Global DS 1-54/1-55, IBC Ch.15 + ASCE 7-10 S8.4 (via IBEC Interface 2019), AISC Design Guide 40 (ASCE 7-2022 ponding head change), NRCA 48-hour positive drainage definition, EagleView Assess (2022/2025), Angi 2026 tapered-roof costs."
+    },
+    {
+      "article_number": 896,
+      "headline": "Congress Wrote a Pool Safety Law in 2007. It Skipped 97% of Pools.",
+      "journalist": "Catherine Chen",
+      "slug": "ai-pool-safety-law-gap-drowning-detection-2026",
+      "hero_hash": "2ce55b52",
+      "primary_sources": 12,
+      "research_file": "drafts/ai-pool-safety-law-gap-drowning-detection-2026-research.md",
+      "phase": "SHIP",
+      "ship_after": "2027-02-06",
+      "started": "2026-09-18T08:10:00-07:00",
+      "completed": "2026-09-18T08:25:00-07:00",
+      "critique_rounds": 1,
+      "critique_score": 8.79,
+      "critique_scores": {
+        "accuracy_auditor": 8.5,
+        "legal_policy_specialist": 9.0,
+        "data_methods_reviewer": 9.0,
+        "voice_style_editor": 8.5,
+        "structure_narrative": 9.0,
+        "reader_advocate": 8.5,
+        "copyeditor": 9.0
+      },
+      "gates": {
+        "em_dash": 0,
+        "the_starters_pct": 0.0,
+        "rhythm_variance": 205.9,
+        "short_pct": 6.1,
+        "long_pct": 48.5
+      }
     }
   ],
-  "last_checked": "2026-09-18T08:20:00-07:00",
-  "current": {
-    "slug": "ai-pool-safety-law-gap-drowning-detection-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Catherine \"Code\" Chen",
-    "started": "2026-09-18T08:10:00-07:00",
-    "article_number": 896,
-    "ship_after": "2027-02-06",
-    "research_file": "drafts/ai-pool-safety-law-gap-drowning-detection-2026-research.md",
-    "primary_sources": 12,
-    "critique_round": 0
-  }
+  "last_checked": "2026-09-18T08:25:00-07:00",
+  "current": null
 }
