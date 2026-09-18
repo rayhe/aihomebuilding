@@ -241,6 +241,13 @@ When you discover a new topic worth covering, add it here with:
 
 ## Recently Added
 
+### 27. ⚪ AI Trench & Excavation Safety Monitoring
+- AI vision (DroneDeploy Safety AI, EarthCam, Sitemetric) flagging unshored trenches, missing egress, spoil-pile violations
+- 3 in 4 trench deaths on residential jobsites; 86% competent-person absence; fine-to-rental cost arithmetic
+- Surveillance vs. worker protection; no regulation recognizes software as competent person
+- Marcus Washington (workforce & labor)
+- **Published:** "Three of Every Four Trench Deaths Happen on Residential Jobs. The Fix Rents for $400 a Week." (queued 2027-02-01)
+
 ### 26. 🟢 AI-Powered Construction Waste Sorting & Circular Materials
 - 600M tons/year of C&D waste in the US — more than double municipal garbage
 - AMP Robotics ($91M Series D), ZenRobotics (9,200 picks/hour), Madaster material passports

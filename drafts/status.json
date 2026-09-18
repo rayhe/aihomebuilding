@@ -1,5 +1,5 @@
 {
- "last_completed": "ai-multigenerational-suite-design-two-kitchen-home-2026",
+ "last_completed": "ai-trench-shoring-vision-fatality-watch-2026",
  "last_published_at": "2026-09-17T00:27:05.910044-07:00",
  "ship_ready": [
   {
@@ -7136,8 +7136,42 @@
    "rounds": 2,
    "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #889 queued for 2026-09-18 through 2027-01-30",
    "note": "Round 2. Original contribution: storage-timing mismatch quantified (San Antonio 2,000 sq ft roof collects ~30,000 gal/yr vs 50,500 gal/yr outdoor demand; one 4-inch May month dumps ~5,000 gal while 500-gal tanks overflow) + Colorado 110-gal legal cap vs 1,246 gal from one inch of rain on the same roof (less than one-tenth of one storm) + sensitivity-table ROI ($205/yr at $6/CCF, $340/yr at $10/CCF; 7-11 yr payback on $2,250 barrel systems, 35-44 yr on $12-15K cisterns). Counterargument: municipal water is cheap vs storage; native plantings + WaterSense controller beat a cistern for most homes. Rhythm revised across two passes (149.3 -> 181.1 -> 205.3). 10 sources inline."
+  },
+  {
+   "article_number": 891,
+   "slug": "ai-trench-shoring-vision-fatality-watch-2026",
+   "headline": "Three of Every Four Trench Deaths Happen on Residential Jobs. The Fix Rents for $400 a Week.",
+   "journalist": "Marcus \"Steel\" Washington",
+   "phase": "SHIP",
+   "ship_after": "2027-02-01",
+   "started": "2026-09-17T20:05:00-07:00",
+   "critique_score": 8.83,
+   "critique_scores": {
+    "general_editor": 8.6,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.8,
+    "data_presentation": 8.9
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "the_starters_pct": 12.3,
+    "banned_phrases": 0,
+    "rhythm_variance": 200.1,
+    "rhythm_short_pct": 10.4,
+    "rhythm_long_pct": 53.9,
+    "hero": "JPEG 1920x1280"
+   },
+   "hero_hash": "e7fc25fc",
+   "primary_sources": 7,
+   "research_file": "drafts/ai-trench-shoring-vision-fatality-watch-2026-research.md",
+   "rounds": 0,
+   "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #890 queued for 2026-09-18 through 2027-01-31",
+   "note": "Round 0 pass. Original contribution: fine-to-rental arithmetic (one serious citation $16,550 = 41 weeks of $400/wk trench box rental; one willful $165,514 = 414 weeks; Jarrell $250,272 fine = 625 weeks / 12 years of boxes for a 2-week sewer job) + the competent-person gap framed against AI monitoring (86% absent at fatal incidents; no regulation recognizes software as competent person). Counterargument: surveillance/discipline-data risk on sub-10-employee crews, alert fatigue, rain-changed soil false negatives, camera subscription pricing unverified and likely to reach large GCs first. 7 sources inline (OSHA penalties, DOL release, BLS-derived trench stats, Construction Dive Jarrell case, MIT Tech Review DroneDeploy Safety AI, trench box rental pricing, OHSOnline). Rhythm 200.1/10.4/53.9 after two revision passes."
   }
  ],
- "last_checked": "2026-09-17T18:30:00-07:00",
+ "last_checked": "2026-09-17T20:45:00-07:00",
  "current": null
 }
