@@ -7102,8 +7102,42 @@
    "rounds": 0,
    "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #888 queued for 2026-09-18 through 2027-01-29",
    "note": "Round 0. Original contribution: kitchenette-vs-kitchen as zoning legal device (range triggers ADU/duplex reclassification) + worked payback math (3.5-yr vs $2K/mo rent, 5.3-yr vs $1.3K/mo daycare, simple undiscounted) + plumbing-stack 10-15 ft rule + Lennar lockable-door pattern. AI angle: generators explore dozens of layouts cheaply but never ask the zoning district; phone call to planning department is the first architectural move. Counterargument: NAR share fell 17%->14% in a year; multigenerational homes carry a price premium; 41% of demand is caregiving not investment; binding constraint is permitting, which no generator evaluates. 9 sources inline. Rhythm revised 150.0 -> 208.9 across the run. Roos quote verified against Lennar Resource Center during review."
+  },
+  {
+   "article_number": 890,
+   "slug": "ai-rainwater-harvesting-roof-cistern-sizing-2026",
+   "headline": "Your Roof Catches 30,000 Gallons a Year. Your Tank Holds 500. That Is the Entire Problem.",
+   "journalist": "Priya Greenwood",
+   "phase": "SHIP",
+   "ship_after": "2027-01-31",
+   "started": "2026-09-17T18:05:00-07:00",
+   "critique_score": 8.83,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.7
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "the_starters_pct": 7.2,
+    "banned_phrases": 0,
+    "rhythm_variance": 205.3,
+    "rhythm_short_pct": 12.9,
+    "rhythm_long_pct": 60.0,
+    "hero": "JPEG 1920x1280"
+   },
+   "hero_hash": "aec7f68d",
+   "primary_sources": 10,
+   "research_file": "drafts/ai-rainwater-harvesting-roof-cistern-sizing-2026-research.md",
+   "rounds": 2,
+   "hold_reason": "1/day rule: #759 published 2026-09-17; #760 through #889 queued for 2026-09-18 through 2027-01-30",
+   "note": "Round 2. Original contribution: storage-timing mismatch quantified (San Antonio 2,000 sq ft roof collects ~30,000 gal/yr vs 50,500 gal/yr outdoor demand; one 4-inch May month dumps ~5,000 gal while 500-gal tanks overflow) + Colorado 110-gal legal cap vs 1,246 gal from one inch of rain on the same roof (less than one-tenth of one storm) + sensitivity-table ROI ($205/yr at $6/CCF, $340/yr at $10/CCF; 7-11 yr payback on $2,250 barrel systems, 35-44 yr on $12-15K cisterns). Counterargument: municipal water is cheap vs storage; native plantings + WaterSense controller beat a cistern for most homes. Rhythm revised across two passes (149.3 -> 181.1 -> 205.3). 10 sources inline."
   }
  ],
- "last_checked": "2026-09-17T16:21:02-07:00",
+ "last_checked": "2026-09-17T18:30:00-07:00",
  "current": null
 }
