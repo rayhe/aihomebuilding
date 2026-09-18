@@ -7387,16 +7387,56 @@
       "completed": "2026-09-18T12:45:00-07:00",
       "ship_after": "2027-02-08",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #897 queued for 2026-09-19 through 2027-02-07; #898 queued for 2027-02-08"
+    },
+    {
+      "article_number": 899,
+      "number": 899,
+      "phase": "SHIP",
+      "headline": "Your Framing Failed Inspection. That Just Cost You $1,300 and Three Workdays.",
+      "slug": "ai-failed-inspection-cost-math-schedule-slip-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/ai-failed-inspection-cost-math-schedule-slip-2026-research.md",
+      "hero_hash": "5a3afbb7",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 233.0,
+          "short_pct": 12.1,
+          "long_pct": 42.4,
+          "passed": true
+        }
+      },
+      "primary_sources": 10,
+      "rounds": 1,
+      "started": "2026-09-18T14:05:00-07:00",
+      "completed": "2026-09-18T14:45:00-07:00",
+      "ship_after": "2027-02-09",
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #898 queued for 2026-09-19 through 2027-02-08; #899 queued for 2027-02-09"
     }
   ],
-  "last_checked": "2026-09-18T12:45:00-07:00",
-  "current": {
-    "article_number": 899,
-    "slug": "ai-failed-inspection-cost-math-schedule-slip-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-18T14:05:00-07:00",
-    "research_file": "drafts/ai-failed-inspection-cost-math-schedule-slip-2026-research.md",
-    "ship_after": null
-  }
+  "last_checked": "2026-09-18T14:45:00-07:00",
+  "current": null
 }
