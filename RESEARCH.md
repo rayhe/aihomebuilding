@@ -961,3 +961,9 @@ When you discover a new topic worth covering, add it here with:
 - Counterargument: tech layers risk supervision complacency; evidence hierarchy = barriers (Cochrane) > alarms (limited research, AAP) > AI detection (vendor claims only)
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Queued SHIP 2027-02-06 as #896:** "Your Backyard Pool Isn't Covered by the Federal Safety Law. The Fence That Cuts Drowning Risk 83% Is Optional in Most States."
+
+### 33. 🟢 AI Flood Mapping vs. Residential Lot Grading
+- Autodesk InfoDrainage ML Deluge tool: ML trained on 10,000+ traditional simulations, virtual-rain flood maps in seconds, places swales/rain gardens/ponds
+- IRC R401.3 cross-reference: 6 inches of fall in 10 feet, checkable by a buyer with a level and tape measure
+- Prevention arithmetic: $10-$20/ft grading vs. $4,920 avg waterproofing (HomeAdvisor), $8,000-$30,000 full stabilization; GC running 30 homes/yr needs one avoided $5K callback to justify flood-mapping every lot
+- **Published:** "Your $4,900 Basement Flood Was Decided Before the Foundation Poured. A Flood Map Spots It in Seconds." (Priya Greenwood, queued 2027-02-08)

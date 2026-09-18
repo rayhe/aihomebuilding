@@ -1,5 +1,5 @@
 {
-  "last_completed": 760,
+  "last_completed": "2026-09-18T12:45:00-07:00",
   "last_published_at": "2026-09-18T00:05:00-07:00",
   "ship_ready": [
     {
@@ -7338,13 +7338,57 @@
         "banned_phrases": 0
       },
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #896 queued for 2026-09-19 through 2027-02-06; #897 queued for 2027-02-07"
+    },
+    {
+      "article_number": 898,
+      "number": 898,
+      "phase": "SHIP",
+      "headline": "Your $4,900 Basement Flood Was Decided Before the Foundation Poured. A Flood Map Spots It in Seconds.",
+      "slug": "ai-lot-grading-flood-map-deluge-foundation-water-2026",
+      "journalist": "Priya Greenwood",
+      "research_file": "drafts/ai-lot-grading-flood-map-deluge-foundation-water-2026-research.md",
+      "hero_hash": "e49afd19",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true,
+          "note": "single em dash is the site template title separator, not body text"
+        },
+        "the_starters": {
+          "pct": 8.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 207.6,
+          "short_pct": 9.6,
+          "long_pct": 39.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "started": "2026-09-18T12:10:00-07:00",
+      "completed": "2026-09-18T12:45:00-07:00",
+      "ship_after": "2027-02-08",
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #897 queued for 2026-09-19 through 2027-02-07; #898 queued for 2027-02-08"
     }
   ],
-  "last_checked": "2026-09-18T12:10:00-07:00",
-  "current": {
-    "slug": "ai-lot-grading-flood-map-deluge-foundation-water-2026",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-18T12:10:00-07:00"
-  }
+  "last_checked": "2026-09-18T12:45:00-07:00",
+  "current": null
 }
