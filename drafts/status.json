@@ -7276,15 +7276,16 @@
       "note": "Round 0 hard-gate fixes: The-starters 27.8%->0.0%, rhythm variance 128.2->225.9 (merged fragments into longer constructions, added punches). Original contribution: ponding weight math (5,200 lb per inch per 1,000 sq ft; 2 in. over 20x30 ft = 3.1 tons = pickup truck); FM Global 32 psf design rain load vs 20 psf residential live load = 160%. Sources: FM Global DS 1-54/1-55, IBC Ch.15 + ASCE 7-10 S8.4 (via IBEC Interface 2019), AISC Design Guide 40 (ASCE 7-2022 ponding head change), NRCA 48-hour positive drainage definition, EagleView Assess (2022/2025), Angi 2026 tapered-roof costs."
     }
   ],
-  "last_checked": "2026-09-18T08:10:00-07:00",
+  "last_checked": "2026-09-18T08:20:00-07:00",
   "current": {
     "slug": "ai-pool-safety-law-gap-drowning-detection-2026",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Catherine \"Code\" Chen",
     "started": "2026-09-18T08:10:00-07:00",
     "article_number": 896,
     "ship_after": "2027-02-06",
     "research_file": "drafts/ai-pool-safety-law-gap-drowning-detection-2026-research.md",
-    "primary_sources": 12
+    "primary_sources": 12,
+    "critique_round": 0
   }
 }
