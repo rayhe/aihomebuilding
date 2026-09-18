@@ -1,5 +1,5 @@
 {
-  "last_completed": "2026-09-18T12:45:00-07:00",
+  "last_completed": "2026-09-18T17:05:00-07:00",
   "last_published_at": "2026-09-18T00:05:00-07:00",
   "ship_ready": [
     {
@@ -7435,8 +7435,56 @@
       "completed": "2026-09-18T14:45:00-07:00",
       "ship_after": "2027-02-09",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #898 queued for 2026-09-19 through 2027-02-08; #899 queued for 2027-02-09"
+    },
+    {
+      "article_number": 900,
+      "number": 900,
+      "phase": "SHIP",
+      "headline": "Your Listing Says 2,400 Square Feet. The Permit File Says 2,000. The Missing 400 Could Cost You $50,000.",
+      "slug": "ai-permit-history-unpermitted-addition-buyer-risk-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/ai-permit-history-unpermitted-addition-buyer-risk-2026-research.md",
+      "hero_hash": "cf268300",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.9,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 217.2,
+          "short_pct": 14.0,
+          "long_pct": 56.1,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 1,
+      "started": "2026-09-18T16:10:00-07:00",
+      "completed": "2026-09-18T17:05:00-07:00",
+      "ship_after": "2027-02-10",
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #899 queued for 2026-09-19 through 2027-02-09; #900 queued for 2027-02-10"
     }
   ],
-  "last_checked": "2026-09-18T14:45:00-07:00",
+  "last_checked": "2026-09-18T17:05:00-07:00",
   "current": null
 }
