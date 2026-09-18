@@ -949,3 +949,15 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: callback insurance is a real tradeoff; rightsized system failing on 105-degree design-exceedance day is contractor's free warranty call
 - Journalist: Jake Kowalski (construction tech beat)
 - **Queued SHIP 2027-02-02 as #892:** "Your AC Is One Ton Too Big. You Paid for It Twice." (critique avg 8.83, round 0; gates: 1 em dash, 3.1% The-starters, rhythm variance 200.2)
+
+### 89. 🟢 AI Pool Barrier Compliance & the Residential Safety-Law Gap
+- VGB Act (2007) covers only 309K public pools; 10.4M residential pools (96.9%) outside federal drain-safety enforcement
+- Cochrane: 4-sided isolation fencing vs 3-sided OR 0.17 = ~83% risk reduction; Injury Prevention 2025: fencing + life jackets could prevent 348 deaths/$4.5B per year
+- CDC: drowning #1 cause of death ages 1-4; 461 deaths in 2022 (+28% vs 2019), most in home pools; CPSC 2025: 376 fatal/yr under 15, 74% residential
+- California HSC §115920 (SB 442/SB 552): 2-of-7 features at permit, disclosure at sale; §115928.5 anti-entrapment covers + dual drains on new residential pools
+- Drain-cover stamped service life 3-10 yrs (commonly 5-7) vs 25-30 yr pool life = 3-8 unmonitored replacement cycles
+- Coral Mylo ($999-$1,499) residential AI underwater detection; Poseidon (commercial, 19 vendor-claimed saves, all guarded pools); no peer-reviewed residential validation
+- Original contribution: 97-to-3 enforcement gap math; expiring-protection calculation; mandate-cost audit ($300-$350 cheapest pair vs $2,000-$3,800 most-effective pair on a $65K-$73.5K pool)
+- Counterargument: tech layers risk supervision complacency; evidence hierarchy = barriers (Cochrane) > alarms (limited research, AAP) > AI detection (vendor claims only)
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Queued SHIP 2027-02-06 as #896:** "Your Backyard Pool Isn't Covered by the Federal Safety Law. The Fence That Cuts Drowning Risk 83% Is Optional in Most States."
