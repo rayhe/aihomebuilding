@@ -1,6 +1,6 @@
 {
- "last_completed": "ai-trench-shoring-vision-fatality-watch-2026",
- "last_published_at": "2026-09-17T00:27:05.910044-07:00",
+ "last_completed": 760,
+ "last_published_at": "2026-09-18T00:05:00-07:00",
  "ship_ready": [
   {
    "article_number": 742,
@@ -916,52 +916,6 @@
    "research_file": "drafts/ai-takeoff-shootout-residential-estimating-2026-research.md",
    "rounds": 0,
    "published_at": "2026-09-16T00:04:13.392953-07:00"
-  },
-  {
-   "article_number": 760,
-   "slug": "ai-solar-roof-timing-reroof-crossover-2026",
-   "headline": "Your Roof Has 9 Years Left. Your Solar Panels Need 25. The Math Says Do Both Now.",
-   "journalist": "Priya Greenwood",
-   "phase": "SHIP",
-   "ship_after": "2026-09-18",
-   "started": "2026-09-03T08:05:00-07:00",
-   "critique_score": 8.83,
-   "critique_scores": {
-    "general_editor": 8.8,
-    "voice_coach": 8.7,
-    "ethics_reviewer": 9.0,
-    "social_shareability": 8.7,
-    "legal_accuracy": 8.8,
-    "research_rigor": 8.9,
-    "data_presentation": 8.8
-   },
-   "hard_gates": {
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "the_starters": {
-     "pct": 9.2,
-     "limit": 15.0,
-     "passed": true
-    },
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "variance": 200.7,
-     "short_pct": 5.1,
-     "long_pct": 55.1,
-     "passed": true
-    }
-   },
-   "hero_hash": "9f647133",
-   "primary_sources": 7,
-   "research_file": "drafts/ai-solar-roof-timing-reroof-crossover-2026-research.md",
-   "rounds": 1,
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #759 queued for 2026-09-04 through 2026-09-17"
   },
   {
    "article_number": 761,
@@ -7172,6 +7126,6 @@
    "note": "Round 0 pass. Original contribution: fine-to-rental arithmetic (one serious citation $16,550 = 41 weeks of $400/wk trench box rental; one willful $165,514 = 414 weeks; Jarrell $250,272 fine = 625 weeks / 12 years of boxes for a 2-week sewer job) + the competent-person gap framed against AI monitoring (86% absent at fatal incidents; no regulation recognizes software as competent person). Counterargument: surveillance/discipline-data risk on sub-10-employee crews, alert fatigue, rain-changed soil false negatives, camera subscription pricing unverified and likely to reach large GCs first. 7 sources inline (OSHA penalties, DOL release, BLS-derived trench stats, Construction Dive Jarrell case, MIT Tech Review DroneDeploy Safety AI, trench box rental pricing, OHSOnline). Rhythm 200.1/10.4/53.9 after two revision passes."
   }
  ],
- "last_checked": "2026-09-17T20:45:00-07:00",
+ "last_checked": "2026-09-18T00:05:00-07:00",
  "current": null
 }
