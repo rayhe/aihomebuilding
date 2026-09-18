@@ -7158,8 +7158,42 @@
    "rounds": 0,
    "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #891 queued for 2026-09-19 through 2027-02-01",
    "note": "Round 0 pass. Original contribution: oversize-tax worked math on 2,000 sq ft hot-climate house (phantom ton $600-1,200 equipment premium + 3.7-9.3% cooling penalty $500-1,260/15yr + dehumidifier; total clears $2,000 vs $300-500 Manual J) + AI-as-auditor framing (demand the report, run it past an independent check). Counterargument: FSEC lab data that oversized variable-capacity heat pumps beat rightsized units on seasonal energy; callback-insurance tradeoff named as real. 7 sources inline (NREL/James et al. 1997, FSEC Cummings/Withers, NYSERDA, Rutgers NJGBM, Contracting Business/Bailes, MS State Extension, krasa-ai load-calc skill). Rhythm 200.2/13.5/53.8 after three revision passes."
+  },
+  {
+   "article_number": 893,
+   "slug": "ai-retaining-wall-drainage-hydrostatic-failure-2026",
+   "headline": "Water Doubled the Load on Your Retaining Wall. The Missing Drain Cost $1,000.",
+   "journalist": "Frank DeLuca",
+   "phase": "SHIP",
+   "ship_after": "2027-02-03",
+   "started": "2026-09-18T02:10:00-07:00",
+   "critique_score": 8.87,
+   "critique_scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "data_presentation": 8.9
+   },
+   "hard_gates": {
+    "em_dashes": 1,
+    "the_starters_pct": 3.7,
+    "banned_phrases": 0,
+    "rhythm_variance": 238.0,
+    "rhythm_short_pct": 12.5,
+    "rhythm_long_pct": 48.8,
+    "hero": "JPEG 1920x1280"
+   },
+   "hero_hash": "ad38dae2",
+   "primary_sources": 8,
+   "research_file": "drafts/ai-retaining-wall-drainage-hydrostatic-failure-2026-research.md",
+   "rounds": 0,
+   "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #893 queued for 2026-09-19 through 2027-02-03",
+   "note": "Round 0 pass after gate fixes (short_pct 17.6->12.5, the-starters 16.9->3.7). Original contribution: worked Rankine hydrostatic math on a 5-ft wall (495 lb/ft dry -> 1,018 lb/ft saturated, 2.06x) + drainage materials takeoff (~$1,000 on 50-ft wall) vs rebuild $7,500-27,500 at pro rates + the 4-ft measurement trap (bottom of footing, not finished grade). Counterargument: manufacturer-spec segmental walls rarely fail from drainage alone; surcharge, bad base prep, and global slope instability dominate catastrophic failures; drains need a daylight outlet. 8 primary sources inline (Geoengineer.org, NC 21 NCAC 28B .0508, Prince George's Co. Techno-Gram 002-2021, IBC 105.2 via county adoptions, Nix/cpaver 2026 cost guides, Valdez v. Hajoca $101M verdict Jun 2026, CILA claims guidance, MDPI Sensors 2025 drone-LiDAR vs TLS)."
   }
  ],
- "last_checked": "2026-09-18T00:35:00-07:00",
+ "last_checked": "2026-09-18T02:35:00-07:00",
  "current": null
 }
