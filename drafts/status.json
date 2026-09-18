@@ -7226,18 +7226,56 @@
       "rounds": 0,
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04",
       "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes \u2014 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing."
+    },
+    {
+      "article_number": 895,
+      "headline": "Your Flat Roof Is Holding 5,200 Pounds of Water. The Dip That Caught It Is Getting Deeper.",
+      "journalist": "Elena Vasquez",
+      "slug": "ai-flat-roof-ponding-deflection-feedback-2026",
+      "hero_hash": "ce781f32",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-flat-roof-ponding-deflection-feedback-2026-research.md",
+      "phase": "SHIP",
+      "ship_after": "2027-02-05",
+      "started": "2026-09-18T06:20:00-07:00",
+      "completed": "2026-09-18T06:16:40.097415-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 225.9,
+          "short_pct": 8.6,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "rounds": 1,
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04; #895 queued for 2027-02-05",
+      "note": "Round 0 hard-gate fixes: The-starters 27.8%->0.0%, rhythm variance 128.2->225.9 (merged fragments into longer constructions, added punches). Original contribution: ponding weight math (5,200 lb per inch per 1,000 sq ft; 2 in. over 20x30 ft = 3.1 tons = pickup truck); FM Global 32 psf design rain load vs 20 psf residential live load = 160%. Sources: FM Global DS 1-54/1-55, IBC Ch.15 + ASCE 7-10 S8.4 (via IBEC Interface 2019), AISC Design Guide 40 (ASCE 7-2022 ponding head change), NRCA 48-hour positive drainage definition, EagleView Assess (2022/2025), Angi 2026 tapered-roof costs."
     }
   ],
-  "last_checked": "2026-09-18T06:20:00-07:00",
-  "current": {
-    "slug": "ai-flat-roof-ponding-deflection-feedback-2026",
-    "article_number": 895,
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "headline": "Your Flat Roof Is Holding 5,200 Pounds of Water. The Dip That Caught It Is Getting Deeper.",
-    "ship_after": "2027-02-05",
-    "primary_sources": 7,
-    "research_file": "drafts/ai-flat-roof-ponding-deflection-feedback-2026-research.md",
-    "started": "2026-09-18T06:20:00-07:00"
-  }
+  "last_checked": "2026-09-18T06:45:00-07:00",
+  "current": null
 }
