@@ -976,3 +976,12 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: detection != prevention; sub-1-acre lots under state/local rules; AI footage cuts both ways; pans fail (overflow, torn liners)
 - Journalist: Catherine Chen (policy & regulation beat)
 - **Queued SHIP 2027-02-12 as #902:** "Your Concrete Truck Washed Out on the Curb. That's a $68,445-a-Day Violation." (critique avg 8.77, round 0; gates: 1 em dash, 9.9% The-starters, rhythm variance 220.3)
+
+### 67. 🟢 AI Tenant Screening: SafeRent Settlement + RentGrow + Colorado SB 26-189
+- Louis v. SafeRent Solutions (D. Mass., Nov 2024): $2.275M settlement, Registry ScorePLUS ignored voucher income, 5-year ban on scoring voucher holders, customer certification requirement
+- HUD April 2024 FHA screening guidance (deleted from HUD website Feb 2025 per GAO-25-107196) — disparate impact applies to AI screening; landlords must independently evaluate, cannot rely solely on default settings
+- FTC v. RentGrow (July 9, 2026): $2.25M proposed settlement, FCRA accuracy, duplicate case records
+- Colorado SB 24-205 repealed/replaced by SB 26-189 (eff. Jan 1, 2027): ADMT notice, 30-day adverse-decision explanation, data correction, human review
+- Original contribution: 140%-vs-31% rent-burden mispricing arithmetic from HUD averages ($17,111 income, $437 TTP, $2,000 unit)
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Published as #909:** "The Algorithm Priced Her Rent at 140% of Her Income. She Actually Owed 31%." (queued, ship_after 2027-02-19)
