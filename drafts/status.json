@@ -7725,8 +7725,56 @@
       "completed": "2026-09-19T05:05:00-07:00",
       "ship_after": "2027-02-16",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #905 queued for 2026-09-20 through 2027-02-15; #906 queued for 2027-02-16"
+    },
+    {
+      "article_number": 907,
+      "number": 907,
+      "phase": "SHIP",
+      "headline": "79,000 Businesses in California Advertise Construction Work With No License. Checking Yours Takes 90 Seconds.",
+      "slug": "ai-unlicensed-contractor-license-check-cslb-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/ai-unlicensed-contractor-license-check-cslb-2026-research.md",
+      "hero_hash": "746e355a",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.9,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 209.7,
+          "short_pct": 13.7,
+          "long_pct": 56.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 10,
+      "rounds": 1,
+      "started": "2026-09-19T06:10:00-07:00",
+      "completed": "2026-09-19T06:20:00-07:00",
+      "ship_after": "2027-02-17",
+      "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #906 queued for 2026-09-20 through 2027-02-16; #907 queued for 2027-02-17"
     }
   ],
-  "last_checked": "2026-09-19T05:05:00-07:00",
+  "last_checked": "2026-09-19T06:20:00-07:00",
   "current": null
 }
