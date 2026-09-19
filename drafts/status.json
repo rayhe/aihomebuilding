@@ -1,5 +1,10 @@
 {
-  "last_completed": 761,
+  "last_completed": {
+    "slug": "ai-refrigerant-charge-a2l-leak-detection-residential-2026",
+    "article_number": 912,
+    "phase": "SHIP",
+    "completed": "2026-09-19T16:45:00-07:00"
+  },
   "last_published_at": "2026-09-19T00:30:00-07:00",
   "ship_ready": [
     {
@@ -7965,13 +7970,56 @@
       "completed": "2026-09-19T15:00:00-07:00",
       "ship_after": "2027-02-21",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #910 queued for 2026-09-20 through 2027-02-20; #911 queued for 2027-02-21"
+    },
+    {
+      "article_number": 912,
+      "number": 912,
+      "phase": "SHIP",
+      "headline": "Your New Heat Pump Ships With a Leak Sensor the Law Required. It Can Also Read Your Charge.",
+      "slug": "ai-refrigerant-charge-a2l-leak-detection-residential-2026",
+      "journalist": "Frank DeLuca",
+      "research_file": "drafts/ai-refrigerant-charge-a2l-leak-detection-residential-2026-research.md",
+      "hero_hash": "736be112",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 202.1,
+          "short_pct": 8.8,
+          "long_pct": 67.6,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 2,
+      "started": "2026-09-19T16:05:00-07:00",
+      "completed": "2026-09-19T16:45:00-07:00",
+      "ship_after": "2027-02-22",
+      "hold_reason": "1/day rule: #760 and #761 published 2026-09-19; #762 through #911 queued for 2026-09-20 through 2027-02-21; #912 queued for 2027-02-22"
     }
   ],
-  "last_checked": "2026-09-19T16:05:00-07:00",
-  "current": {
-    "slug": "ai-refrigerant-charge-a2l-leak-detection-residential-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-19T16:05:00-07:00"
-  }
+  "last_checked": "2026-09-19T16:45:00-07:00",
+  "current": null
 }
