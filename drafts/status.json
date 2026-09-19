@@ -7917,8 +7917,56 @@
       "completed": "2026-09-19T12:35:00-07:00",
       "ship_after": "2027-02-20",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #909 queued for 2026-09-20 through 2027-02-19; #910 queued for 2027-02-20"
+    },
+    {
+      "article_number": 911,
+      "number": 911,
+      "phase": "SHIP",
+      "headline": "You Paid for 16 SEER. Your Ducts Are Delivering 11.",
+      "slug": "ai-duct-leakage-seer-tax-residential-2026",
+      "journalist": "Jake Kowalski",
+      "research_file": "drafts/ai-duct-leakage-seer-tax-residential-2026-research.md",
+      "hero_hash": "0d2668f7",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 226.3,
+          "short_pct": 10.6,
+          "long_pct": 53.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 0,
+      "started": "2026-09-19T14:02:00-07:00",
+      "completed": "2026-09-19T15:00:00-07:00",
+      "ship_after": "2027-02-21",
+      "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #910 queued for 2026-09-20 through 2027-02-20; #911 queued for 2027-02-21"
     }
   ],
-  "last_checked": "2026-09-19T12:35:00-07:00",
+  "last_checked": "2026-09-19T15:00:00-07:00",
   "current": null
 }

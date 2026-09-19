@@ -985,3 +985,15 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: 140%-vs-31% rent-burden mispricing arithmetic from HUD averages ($17,111 income, $437 TTP, $2,000 unit)
 - Journalist: Catherine "Code" Chen (policy & regulation beat)
 - **Published as #909:** "The Algorithm Priced Her Rent at 140% of Her Income. She Actually Owed 31%." (queued, ship_after 2027-02-19)
+
+### 91. 🟢 AI Duct Leakage Diagnostics & the SEER Tax
+- ENERGY STAR: 20-30% of air lost through duct leaks/holes/poor connections; DOE: most duct systems lose 25-40% of energy; EPA: up to 30% of energy lost to duct leakage
+- Trade publications citing EPA research: 13 SEER unit on leaky ducts performs like 7-9 SEER
+- IECC R403.3.3/R403.3.4 (mandatory, new construction): duct pressure test at 25 Pa, ≤4 CFM25/100 SF, signed written report to building official — no equivalent for ~140M existing homes
+- Aeroseal aerosol sealing: $1,300-$3,000, seals gaps ≤15mm, providers claim up to 95% leakage sealed and 15-20% bill reduction (provider-sourced, no independent audit)
+- AI-assisted diagnostics (Diamond Air Design, May 2026, ASHRAE 62.2); Multibot camera robot pre-inspection; FLIR thermal triage — none replaces the duct blaster test
+- 25C credit (30% for duct sealing) ended Dec 31, 2025 per OBBBA (IRS FAQ, PL 119-21) — warn against stale federal-credit pitches
+- Original contribution: SEER-tax math ($14K 16 SEER2 × 25% loss ≈ $3.5K wasted premium vs $300-500 test); new-vs-existing enforcement gap; test-first decision tree (≤10% leave, 10-20% mastic, >20% Aeroseal)
+- Strongest counterargument: ducts inside envelope leak mostly back into the house; sealing can't fix undersized ducts/oversized equipment (Manual D problem)
+- Journalist: Jake Kowalski (construction tech beat)
+- **Queued SHIP 2027-02-21 as #911:** "You Paid for 16 SEER. Your Ducts Are Delivering 11." (critique avg 8.87, round 0; gates: 0 em dashes, 10.4% The-starters, rhythm variance 226.3)
