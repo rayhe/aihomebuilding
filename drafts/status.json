@@ -7773,8 +7773,56 @@
       "completed": "2026-09-19T06:20:00-07:00",
       "ship_after": "2027-02-17",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #906 queued for 2026-09-20 through 2027-02-16; #907 queued for 2027-02-17"
+    },
+    {
+      "article_number": 908,
+      "number": 908,
+      "phase": "SHIP",
+      "headline": "Three in Four Heat Deaths Happen in the First Week. Your New Hire Started This Morning.",
+      "slug": "heat-illness-first-week-acclimatization-wearable-2026",
+      "journalist": "Marcus \"Steel\" Washington",
+      "research_file": "drafts/heat-illness-first-week-acclimatization-wearable-2026-research.md",
+      "hero_hash": "543f727d",
+      "critique_score": 8.93,
+      "critique_scores": {
+        "general_editor": 8.9,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 213.1,
+          "short_pct": 9.8,
+          "long_pct": 49.4,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 1,
+      "started": "2026-09-19T08:05:00-07:00",
+      "completed": "2026-09-19T08:40:00-07:00",
+      "ship_after": "2027-02-18",
+      "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #907 queued for 2026-09-20 through 2027-02-17; #908 queued for 2027-02-18"
     }
   ],
-  "last_checked": "2026-09-19T06:20:00-07:00",
+  "last_checked": "2026-09-19T08:40:00-07:00",
   "current": null
 }
