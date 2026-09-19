@@ -7483,8 +7483,56 @@
       "completed": "2026-09-18T17:05:00-07:00",
       "ship_after": "2027-02-10",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #899 queued for 2026-09-19 through 2027-02-09; #900 queued for 2027-02-10"
+    },
+    {
+      "article_number": 901,
+      "number": 901,
+      "phase": "SHIP",
+      "headline": "The Sunset View Is Worth 59% More. The West Glass That Frames It Cooks the Room.",
+      "slug": "ai-view-premium-west-glass-solar-penalty-orientation-2026",
+      "journalist": "Elena Vasquez",
+      "research_file": "drafts/ai-view-premium-west-glass-solar-penalty-orientation-2026-research.md",
+      "hero_hash": "b1439b92",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 215.7,
+          "short_pct": 14.0,
+          "long_pct": 59.3,
+          "passed": true
+        }
+      },
+      "primary_sources": 14,
+      "rounds": 0,
+      "started": "2026-09-18T18:05:00-07:00",
+      "completed": "2026-09-18T18:16:24.523793-07:00",
+      "ship_after": "2027-02-11",
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #900 queued for 2026-09-19 through 2027-02-10; #901 queued for 2027-02-11"
     }
   ],
-  "last_checked": "2026-09-18T17:05:00-07:00",
+  "last_checked": "2026-09-18T18:16:24.523793-07:00",
   "current": null
 }
