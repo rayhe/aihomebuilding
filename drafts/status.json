@@ -7677,15 +7677,56 @@
       "completed": "2026-09-19T01:10:00-07:00",
       "ship_after": "2027-02-15",
       "hold_reason": "1/day rule: #762 publishing 2026-09-20; #763 through #904 queued for 2026-09-21 through 2027-02-14; #905 queued for 2027-02-15"
+    },
+    {
+      "article_number": 906,
+      "number": 906,
+      "phase": "SHIP",
+      "headline": "32% of the Crew Is Latino. Your Safety Talk Is in English. OSHA Fines That $16,550.",
+      "slug": "ai-multilingual-safety-translation-toolbox-talks-2026",
+      "journalist": "Marcus \"Steel\" Washington",
+      "research_file": "drafts/ai-multilingual-safety-translation-toolbox-talks-2026-research.md",
+      "hero_hash": "a6bb79db",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.9,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 2,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 236.6,
+          "short_pct": 12.3,
+          "long_pct": 47.9,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 1,
+      "started": "2026-09-19T04:05:00-07:00",
+      "completed": "2026-09-19T05:05:00-07:00",
+      "ship_after": "2027-02-16",
+      "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #905 queued for 2026-09-20 through 2027-02-15; #906 queued for 2027-02-16"
     }
   ],
-  "last_checked": "2026-09-19T04:05:00-07:00",
-  "current": {
-    "article_number": 906,
-    "number": 906,
-    "phase": "DRAFT",
-    "slug": "ai-multilingual-safety-translation-toolbox-talks-2026",
-    "journalist": "Marcus \"Steel\" Washington",
-    "started": "2026-09-19T04:05:00-07:00"
-  }
+  "last_checked": "2026-09-19T05:05:00-07:00",
+  "current": null
 }
