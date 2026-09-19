@@ -7531,8 +7531,56 @@
       "completed": "2026-09-18T18:16:24.523793-07:00",
       "ship_after": "2027-02-11",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #900 queued for 2026-09-19 through 2027-02-10; #901 queued for 2027-02-11"
+    },
+    {
+      "article_number": 902,
+      "number": 902,
+      "phase": "SHIP",
+      "headline": "Your Concrete Truck Washed Out on the Curb. That's a $68,445-a-Day Violation.",
+      "slug": "concrete-washout-68445-day-ai-surveillance-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/concrete-washout-68445-day-ai-surveillance-2026-research.md",
+      "hero_hash": "55e02eba",
+      "critique_score": 8.77,
+      "critique_scores": {
+        "general_editor": 8.6,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 220.3,
+          "short_pct": 13.4,
+          "long_pct": 56.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 0,
+      "started": "2026-09-18T20:05:00-07:00",
+      "completed": "2026-09-18T20:20:00-07:00",
+      "ship_after": "2027-02-12",
+      "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #901 queued for 2026-09-19 through 2027-02-11; #902 queued for 2027-02-12"
     }
   ],
-  "last_checked": "2026-09-18T18:16:24.523793-07:00",
+  "last_checked": "2026-09-18T20:20:00-07:00",
   "current": null
 }

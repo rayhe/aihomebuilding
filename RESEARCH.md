@@ -967,3 +967,12 @@ When you discover a new topic worth covering, add it here with:
 - IRC R401.3 cross-reference: 6 inches of fall in 10 feet, checkable by a buyer with a level and tape measure
 - Prevention arithmetic: $10-$20/ft grading vs. $4,920 avg waterproofing (HomeAdvisor), $8,000-$30,000 full stabilization; GC running 30 homes/yr needs one avoided $5K callback to justify flood-mapping every lot
 - **Published:** "Your $4,900 Basement Flood Was Decided Before the Foundation Poured. A Flood Map Spots It in Seconds." (Priya Greenwood, queued 2027-02-08)
+
+### 90. 🟢 AI + Concrete Washout Surveillance: the $68,445-a-Day Violation at the Curb
+- EPA CGP 2.3.4 (40 CFR 450.21(e)): washout into leakproof container only; 33 USC 1319(d) penalty $68,445/day/violation (Jan 2025 inflation adjustment, 90 FR 1375)
+- EPA expedited-settlement pilot EXCLUDES concrete washout discharges (categorical seriousness signal); M.D.C. Holdings $795,000 settlement cited missing washout basins
+- Detection surface: Sitemetric AI Camera (June 2026, hazard detection), 3rd Eye Connected City (Sep 2026, AI cameras on garbage trucks flag stormwater concerns), DOT drone stormwater inspections (29% of state DOTs)
+- Original contribution: 752:1 ratio ($68,445 one-day exposure vs $91 Outpak pan); $479,115 one-week theoretical; per-pour ledger (<$100/building compliance); no marketed "AI washout detector" (honest gap)
+- Strongest counterargument: detection != prevention; sub-1-acre lots under state/local rules; AI footage cuts both ways; pans fail (overflow, torn liners)
+- Journalist: Catherine Chen (policy & regulation beat)
+- **Queued SHIP 2027-02-12 as #902:** "Your Concrete Truck Washed Out on the Curb. That's a $68,445-a-Day Violation." (critique avg 8.77, round 0; gates: 1 em dash, 9.9% The-starters, rhythm variance 220.3)
