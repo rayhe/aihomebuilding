@@ -7629,13 +7629,56 @@
       "completed": "2026-09-19T00:55:00-07:00",
       "ship_after": "2027-02-14",
       "hold_reason": "1/day rule: #761 publishing 2026-09-19; #762 through #903 queued for 2026-09-20 through 2027-02-13; #904 queued for 2027-02-14"
+    },
+    {
+      "article_number": 905,
+      "number": 905,
+      "phase": "SHIP",
+      "headline": "Your Basement Wall Cracked. Your Phone Can Read It Before the Engineer Bills You $500.",
+      "slug": "ai-foundation-crack-photo-screening-2026",
+      "journalist": "Jake Kowalski",
+      "research_file": "drafts/ai-foundation-crack-photo-screening-2026-research.md",
+      "hero_hash": "53269349",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 240.9,
+          "short_pct": 9.5,
+          "long_pct": 36.5,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 0,
+      "started": "2026-09-19T00:40:00-07:00",
+      "completed": "2026-09-19T01:10:00-07:00",
+      "ship_after": "2027-02-15",
+      "hold_reason": "1/day rule: #762 publishing 2026-09-20; #763 through #904 queued for 2026-09-21 through 2027-02-14; #905 queued for 2027-02-15"
     }
   ],
-  "last_checked": "2026-09-19T00:40:00-07:00",
-  "current": {
-    "slug": "ai-foundation-crack-photo-screening-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-19T00:40:00-07:00"
-  }
+  "last_checked": "2026-09-19T01:10:00-07:00",
+  "current": null
 }
