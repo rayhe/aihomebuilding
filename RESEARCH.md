@@ -1007,4 +1007,4 @@ When you discover a new topic worth covering, add it here with:
 - Original contribution: mandated-sensor convergence (UL 2683 detection = free ML diagnostic install base) + leak-pricing arithmetic (16 oz × escalated refrigerant price vs commissioning check) + RCAVP-adjusted verification ROI
 - Strongest counterargument: detection isn't prevention; ML validated on lab data, no residential field deployment peer-reviewed; charge is one of three install faults
 - Journalist: Frank DeLuca (project management & operations beat)
-- **Draft #912:** research complete 2026-09-19
+- **Queued SHIP 2027-02-22 as #912:** "Your New Heat Pump Ships With a Leak Sensor the Law Required. It Can Also Read Your Charge." (critique avg 8.87, rounds 2; gates: 0 em dashes, 0.0% The-starters, rhythm variance 202.1)
