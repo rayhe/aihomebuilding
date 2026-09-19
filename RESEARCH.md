@@ -997,3 +997,14 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: ducts inside envelope leak mostly back into the house; sealing can't fix undersized ducts/oversized equipment (Manual D problem)
 - Journalist: Jake Kowalski (construction tech beat)
 - **Queued SHIP 2027-02-21 as #911:** "You Paid for 16 SEER. Your Ducts Are Delivering 11." (critique avg 8.87, round 0; gates: 0 em dashes, 10.4% The-starters, rhythm variance 226.3)
+
+### 92. 🟢 AI Refrigerant Charge Diagnostics: The Sensor the Law Already Installed
+- AIM Act 85% HFC phasedown by 2036 (40% baseline 2026, 30% 2028, 20% 2030); Technology Transitions Rule GWP≤700 for new AC/HP from Jan 1 2025; May 2026 EPA rule killed the Jan 1 2026 install deadline (pre-2025 R-410A sell-through legal indefinitely)
+- UL 60335-2-40 / UL 2683: refrigerant detection mandatory on A2L (R-454B GWP 466, R-32 GWP 675) systems with charge above room limit; ASHRAE 15 30-sec leak shutdown
+- Field charge data: 34% under / 28% over / 38% correct (4,000+ CA systems, GA Tech thesis); 57% needed charge repair (Proctor CheckMe! n=13,258, avg top-off 16 oz); 62% incorrect residential (2004 n=55,000); RCAVP: 65% old / 45% new units needed adjustment
+- ML FDD: Kim & Braun charge prediction (evaporator inlet quality + discharge DSH); MDPI RF/EGB high-accuracy refrigerant leakage classification (ASHRAE 1043-RP); water-to-water HP charge fault within 4.5% cooling / 1.1% heating error; Ding et al. 2021 BPNN on VRF improper charging
+- R-410A bulk price up 40-70% since 2022 (oxmaint AIM compliance guide)
+- Original contribution: mandated-sensor convergence (UL 2683 detection = free ML diagnostic install base) + leak-pricing arithmetic (16 oz × escalated refrigerant price vs commissioning check) + RCAVP-adjusted verification ROI
+- Strongest counterargument: detection isn't prevention; ML validated on lab data, no residential field deployment peer-reviewed; charge is one of three install faults
+- Journalist: Frank DeLuca (project management & operations beat)
+- **Draft #912:** research complete 2026-09-19
