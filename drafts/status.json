@@ -7869,18 +7869,56 @@
       "completed": "2026-09-19T10:45:00-07:00",
       "ship_after": "2027-02-19",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #908 queued for 2026-09-20 through 2027-02-18; #909 queued for 2027-02-19"
+    },
+    {
+      "article_number": 910,
+      "number": 910,
+      "phase": "SHIP",
+      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54\u00b0F Hotter Than the White House Next Door.",
+      "slug": "ai-black-house-cooling-penalty-2026",
+      "journalist": "Elena Vasquez",
+      "research_file": "drafts/ai-black-house-cooling-penalty-2026-research.md",
+      "hero_hash": "38993f7e",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 2,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 207.1,
+          "short_pct": 9.8,
+          "long_pct": 50.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "started": "2026-09-19T12:10:00-07:00",
+      "completed": "2026-09-19T12:35:00-07:00",
+      "ship_after": "2027-02-20",
+      "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #909 queued for 2026-09-20 through 2027-02-19; #910 queued for 2027-02-20"
     }
   ],
-  "last_checked": "2026-09-19T12:10:00-07:00",
-  "current": {
-    "article_number": 910,
-    "number": 910,
-    "phase": "DRAFT",
-    "headline": "Your AI Designer Rendered a Black House. Nobody Mentioned the 15% Cooling Penalty.",
-    "slug": "ai-black-house-cooling-penalty-2026",
-    "journalist": "Elena Vasquez",
-    "research_file": "drafts/ai-black-house-cooling-penalty-2026-research.md",
-    "started": "2026-09-19T12:10:00-07:00",
-    "last_checked": "2026-09-19T12:10:00-07:00"
-  }
+  "last_checked": "2026-09-19T12:35:00-07:00",
+  "current": null
 }
