@@ -1008,3 +1008,10 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: detection isn't prevention; ML validated on lab data, no residential field deployment peer-reviewed; charge is one of three install faults
 - Journalist: Frank DeLuca (project management & operations beat)
 - **Queued SHIP 2027-02-22 as #912:** "Your New Heat Pump Ships With a Leak Sensor the Law Required. It Can Also Read Your Charge." (critique avg 8.87, rounds 2; gates: 0 em dashes, 0.0% The-starters, rhythm variance 202.1)
+
+### 93. 🟢 AI Contractor Vetting Before You Sign
+- BuildZoom: 3.5M contractors, 300M permits, 135K reviews; score = license, insurance, work history, consumer-group standing, verified reviews
+- CSLB hides settled complaints from public record (Anchored Tiny Homes: 10 public vs ~249 actual; 10,719 uninvestigated 2020-2024 per NBC)
+- Complaints-per-permit rate as novel normalization; 9,317 CSLB complaints FY2024-25, $11.7M restitution, BBB: 81,925 home-improvement scams, $1,800 median loss
+- Algorithmic redlining risk: no appeals process for a bad score
+- **Queued SHIP 2027-02-26 as #916:** "Your Contractor's License Looks Clean. 10,719 Complaints Were Closed Before You Could See Them." (critique avg 8.81, rounds 0; gates: 0 em dashes, 13.9% The-starters, rhythm variance 201.2)

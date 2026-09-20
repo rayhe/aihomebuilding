@@ -1,9 +1,9 @@
 {
   "last_completed": {
-    "slug": "ai-refrigerant-charge-a2l-leak-detection-residential-2026",
-    "article_number": 912,
+    "slug": "ai-contractor-vetting-homeowner-sign-contract-2026",
+    "article_number": 916,
     "phase": "SHIP",
-    "completed": "2026-09-19T16:45:00-07:00"
+    "completed": "2026-09-20T01:05:00-07:00"
   },
   "last_published_at": "2026-09-19T00:30:00-07:00",
   "ship_ready": [
@@ -8162,13 +8162,56 @@
       "completed": "2026-09-19T22:45:00-07:00",
       "ship_after": "2027-02-25",
       "hold_reason": "1/day rule: #760 and #761 published 2026-09-19; #762 through #914 queued for 2026-09-20 through 2027-02-24; #915 queued for 2027-02-25"
+    },
+    {
+      "article_number": 916,
+      "number": 916,
+      "phase": "SHIP",
+      "headline": "Your Contractor's License Looks Clean. 10,719 Complaints Were Closed Before You Could See Them.",
+      "slug": "ai-contractor-vetting-homeowner-sign-contract-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/ai-contractor-vetting-homeowner-sign-contract-2026-research.md",
+      "hero_hash": "7956d457",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.2,
+          "short_pct": 8.5,
+          "long_pct": 47.9,
+          "passed": true
+        }
+      },
+      "primary_sources": 4,
+      "rounds": 0,
+      "started": "2026-09-20T00:15:00-07:00",
+      "completed": "2026-09-20T01:05:00-07:00",
+      "ship_after": "2027-02-26",
+      "hold_reason": "1/day rule: #762 through #915 queued for 2026-09-20 through 2027-02-25; #916 queued for 2027-02-26"
     }
   ],
-  "last_checked": "2026-09-20T00:15:00-07:00",
-  "current": {
-    "slug": "ai-contractor-vetting-homeowner-sign-contract-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-20T00:15:00-07:00"
-  }
+  "last_checked": "2026-09-20T01:05:00-07:00",
+  "current": null
 }
