@@ -1,9 +1,9 @@
 {
   "last_completed": {
-    "slug": "ai-contractor-vetting-homeowner-sign-contract-2026",
-    "article_number": 916,
+    "slug": "ai-siding-install-defect-detection-warranty-gap-2026",
+    "article_number": 917,
     "phase": "SHIP",
-    "completed": "2026-09-20T01:05:00-07:00"
+    "completed": "2026-09-20T02:13:55.981140-07:00"
   },
   "last_published_at": "2026-09-19T00:30:00-07:00",
   "ship_ready": [
@@ -8210,17 +8210,56 @@
       "completed": "2026-09-20T01:05:00-07:00",
       "ship_after": "2027-02-26",
       "hold_reason": "1/day rule: #762 through #915 queued for 2026-09-20 through 2027-02-25; #916 queued for 2027-02-26"
+    },
+    {
+      "article_number": 917,
+      "number": 917,
+      "phase": "SHIP",
+      "headline": "Your Siding Has a 30-Year Warranty. The Installation Manual Has 40 Ways to Void It.",
+      "slug": "ai-siding-install-defect-detection-warranty-gap-2026",
+      "journalist": "Catherine Chen",
+      "research_file": "drafts/ai-siding-install-defect-detection-warranty-gap-2026-research.md",
+      "hero_hash": "5caa3b8e",
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 249.5,
+          "short_pct": 12.9,
+          "long_pct": 48.6,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 0,
+      "started": "2026-09-20T02:08:54.432364-07:00",
+      "completed": "2026-09-20T02:13:55.981140-07:00",
+      "ship_after": "2027-02-27",
+      "hold_reason": "1/day rule: #762 queued for 2026-09-20; #763 through #916 queued for 2026-09-21 through 2027-02-26; #917 queued for 2027-02-27"
     }
   ],
-  "last_checked": "2026-09-20T02:11:02.503208-07:00",
-  "current": {
-    "slug": "ai-siding-install-defect-detection-warranty-gap-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Catherine Chen",
-    "article_number": 917,
-    "research_file": "drafts/ai-siding-install-defect-detection-warranty-gap-2026-research.md",
-    "started": "2026-09-20T02:08:54.432364-07:00",
-    "round": 0,
-    "hero_hash": "5caa3b8e"
-  }
+  "last_checked": "2026-09-20T02:13:55.981140-07:00",
+  "current": null
 }
