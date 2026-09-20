@@ -8454,16 +8454,55 @@
       "completed": "2026-09-20T12:35:00-07:00",
       "ship_after": "2027-03-03",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #920 queued for 2026-09-21 through 2027-03-02; #921 queued for 2027-03-03"
+    },
+    {
+      "slug": "ai-aluminum-wiring-remediation-cost-decision-2026",
+      "phase": "SHIP",
+      "journalist": "Jake Kowalski",
+      "number": 922,
+      "headline": "Aluminum Wiring Makes Your Outlets 55 Times More Likely to Catch Fire. The Fix Starts at $2.70.",
+      "hero_hash": "2443c785",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 219.6,
+          "short_pct": 13.4,
+          "long_pct": 53.6,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 0,
+      "started": "2026-09-20T14:20:00-07:00",
+      "completed": "2026-09-20T15:05:00-07:00",
+      "ship_after": "2027-03-04",
+      "research_file": "drafts/ai-aluminum-wiring-remediation-cost-decision-2026-research.md",
+      "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #921 queued for 2026-09-21 through 2027-03-03; #922 queued for 2027-03-04"
     }
   ],
-  "last_checked": "2026-09-20T14:20:00-07:00",
-  "current": {
-    "slug": "ai-aluminum-wiring-remediation-cost-decision-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "number": 922,
-    "started": "2026-09-20T14:20:00-07:00",
-    "research_file": "drafts/ai-aluminum-wiring-remediation-cost-decision-2026-research.md",
-    "ship_after": "2027-03-04"
-  }
+  "last_checked": "2026-09-20T15:05:00-07:00",
+  "current": null
 }
