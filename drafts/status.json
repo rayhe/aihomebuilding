@@ -8018,16 +8018,56 @@
       "completed": "2026-09-19T16:45:00-07:00",
       "ship_after": "2027-02-22",
       "hold_reason": "1/day rule: #760 and #761 published 2026-09-19; #762 through #911 queued for 2026-09-20 through 2027-02-21; #912 queued for 2027-02-22"
+    },
+    {
+      "article_number": 913,
+      "number": 913,
+      "phase": "SHIP",
+      "headline": "Dallas Found 29,000 Code Violations With Cameras on Garbage Trucks. Your Unpermitted Addition Is in the Frame.",
+      "slug": "ai-unpermitted-work-aerial-code-enforcement-2026",
+      "journalist": "Catherine \"Code\" Chen",
+      "research_file": "drafts/ai-unpermitted-work-aerial-code-enforcement-2026-research.md",
+      "hero_hash": "e5d231f9",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 206.3,
+          "short_pct": 12.5,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 1,
+      "started": "2026-09-19T18:20:00-07:00",
+      "completed": "2026-09-19T19:30:00-07:00",
+      "ship_after": "2027-02-23",
+      "hold_reason": "1/day rule: #760 and #761 published 2026-09-19; #762 through #912 queued for 2026-09-20 through 2027-02-22; #913 queued for 2027-02-23"
     }
   ],
-  "last_checked": "2026-09-19T19:05:00-07:00",
-  "current": {
-    "slug": "ai-unpermitted-work-aerial-code-enforcement-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Catherine \"Code\" Chen",
-    "article_number": 913,
-    "started": "2026-09-19T18:20:00-07:00",
-    "round": 0,
-    "hero_hash": "e5d231f9"
-  }
+  "last_checked": "2026-09-19T19:30:00-07:00",
+  "current": null
 }
