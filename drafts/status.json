@@ -8360,12 +8360,14 @@
    "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #918 queued for 2026-09-21 through 2027-02-28; #919 queued for 2027-03-01"
   }
  ],
- "last_checked": "2026-09-20T10:10:00-07:00",
+ "last_checked": "2026-09-20T10:25:00-07:00",
  "current": {
   "article_number": 920,
   "slug": "ai-deck-ledger-lag-screw-gap-2026",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Jake Kowalski",
-  "started": "2026-09-20T10:10:00-07:00"
+  "started": "2026-09-20T10:10:00-07:00",
+  "round": 0,
+  "hero_hash": "6d54323e"
  }
 }
