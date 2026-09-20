@@ -8358,16 +8358,56 @@
    "completed": "2026-09-20T08:18:00-07:00",
    "ship_after": "2027-03-01",
    "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #918 queued for 2026-09-21 through 2027-02-28; #919 queued for 2027-03-01"
+  },
+  {
+   "article_number": 920,
+   "number": 920,
+   "phase": "SHIP",
+   "headline": "Your Deck Ledger Needs 18 Bolts. It Has Nails. That's Where 90% of Collapses Start.",
+   "slug": "ai-deck-ledger-lag-screw-gap-2026",
+   "journalist": "Jake Kowalski",
+   "research_file": "drafts/ai-deck-ledger-lag-screw-gap-2026-research.md",
+   "hero_hash": "6d54323e",
+   "critique_score": 8.91,
+   "critique_scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.2,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 9.0,
+    "legal_accuracy": 8.7,
+    "research_rigor": 8.7,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 1.8,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 217.1,
+     "short_pct": 5.5,
+     "long_pct": 63.6,
+     "passed": true
+    }
+   },
+   "primary_sources": 6,
+   "rounds": 1,
+   "started": "2026-09-20T10:10:00-07:00",
+   "completed": "2026-09-20T10:45:00-07:00",
+   "ship_after": "2027-03-02",
+   "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #919 queued for 2026-09-21 through 2027-03-01; #920 queued for 2027-03-02"
   }
  ],
- "last_checked": "2026-09-20T10:25:00-07:00",
- "current": {
-  "article_number": 920,
-  "slug": "ai-deck-ledger-lag-screw-gap-2026",
-  "phase": "CRITIQUE",
-  "journalist": "Jake Kowalski",
-  "started": "2026-09-20T10:10:00-07:00",
-  "round": 0,
-  "hero_hash": "6d54323e"
- }
+ "last_checked": "2026-09-20T10:45:00-07:00",
+ "current": null
 }
