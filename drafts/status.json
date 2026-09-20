@@ -1,11 +1,11 @@
 {
   "last_completed": {
-    "slug": "ai-siding-install-defect-detection-warranty-gap-2026",
-    "article_number": 917,
+    "slug": "ai-generated-house-plans-copyright-nobody-owns-2026",
+    "article_number": 762,
     "phase": "SHIP",
-    "completed": "2026-09-20T02:13:55.981140-07:00"
+    "completed": "2026-09-20T04:15:00-07:00"
   },
-  "last_published_at": "2026-09-19T00:30:00-07:00",
+  "last_published_at": "2026-09-20T04:15:00-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -599,7 +599,7 @@
       "slug": "ai-translation-earbuds-bilingual-crew-rework-2026",
       "headline": "Your Framer Speaks Spanish. Your Foreman Speaks English. The $140 Earbud Speaks Both.",
       "journalist": "Marcus Washington",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-10",
       "started": "2026-09-02T16:05:00-07:00",
       "critique_score": 8.86,
@@ -638,7 +638,9 @@
       "primary_sources": 7,
       "research_file": "drafts/ai-translation-earbuds-bilingual-crew-rework-2026-research.md",
       "rounds": 2,
-      "publish_note": "Publish #755 committed locally 2026-09-13 (git log 'Publish #755: Your Framer Speaks Spanish'). Push to origin failed: egress proxy unreachable, all proxy creds HTTP 000 as of 2026-09-13 ~00:35 PDT. DO NOT republish as new; push the commit and run live QA on network restore, then mark PUBLISHED and update last_published_at."
+      "publish_note": "Publish #755 committed locally 2026-09-13 (git log 'Publish #755: Your Framer Speaks Spanish'). Push to origin failed: egress proxy unreachable, all proxy creds HTTP 000 as of 2026-09-13 ~00:35 PDT. DO NOT republish as new; push the commit and run live QA on network restore, then mark PUBLISHED and update last_published_at.",
+      "publish_number": 755,
+      "published_at": "2026-09-10T07:05:52-07:00"
     },
     {
       "article_number": 753,
@@ -927,7 +929,7 @@
       "slug": "ai-generated-house-plans-copyright-nobody-owns-2026",
       "headline": "Your Architect Billed You $96,000 for Custom Plans. Federal Law Says Nobody Owns Them.",
       "journalist": "Catherine Chen",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-20",
       "started": "2026-09-03T12:15:00-07:00",
       "critique_score": 8.87,
@@ -966,7 +968,9 @@
       "primary_sources": 6,
       "research_file": "drafts/ai-generated-house-plans-copyright-nobody-owns-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #761 queued for 2026-09-04 through 2026-09-19"
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #761 queued for 2026-09-04 through 2026-09-19",
+      "publish_number": 762,
+      "published_at": "2026-09-20T04:15:00-07:00"
     },
     {
       "article_number": 763,
@@ -8260,6 +8264,6 @@
       "hold_reason": "1/day rule: #762 queued for 2026-09-20; #763 through #916 queued for 2026-09-21 through 2027-02-26; #917 queued for 2027-02-27"
     }
   ],
-  "last_checked": "2026-09-20T02:13:55.981140-07:00",
+  "last_checked": "2026-09-20T04:15:00-07:00",
   "current": null
 }
