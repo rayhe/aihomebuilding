@@ -283,6 +283,13 @@ When you discover a new topic worth covering, add it here with:
 - NCOA: $45M annual investment could save $1.2B in Medicare costs (26:1 ROI)
 - **Published:** "14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes." (Catherine Chen)
 
+### 32. 🟢 AI Crane Lift Planning for Residential Truss Sets
+- BLS 42-44 crane deaths/yr (2011-2017), OSHA analysis ~71/yr; OSHA IMIS 1365303.015 (2018 boom collapse killing 36-year-old laborer receiving wooden trusses); OR-FACE domino collapse after 13th truss
+- A1A 3D Lift Plan: 1,400+ crane database, load charts, ground bearing pressure, rigging design; 3D Lift Vision VR rehearsal; ALL Erection offers planning free to customers
+- Lost-crane-day arithmetic: ~$3,300-$4,100 burned vs free planning; boom-truck residential culture vs Subpart CC
+- Marcus Washington (workforce & labor)
+- **Published:** "Your Builder Rented a $300-an-Hour Crane. The Lift Plan Was Free. He Skipped the Free Part." (queued 2027-02-28)
+
 ### 31. 🟢 AI HVAC Design & Manual J Load Calculations
 - 50% of US homes have oversized HVAC systems (ENERGY STAR / LBNL)
 - AutoHVAC: GPT-4 Vision reads blueprints, does Manual J in 60 seconds (vs 30-60 min traditional)
