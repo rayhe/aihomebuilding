@@ -8262,8 +8262,56 @@
       "completed": "2026-09-20T02:13:55.981140-07:00",
       "ship_after": "2027-02-27",
       "hold_reason": "1/day rule: #762 queued for 2026-09-20; #763 through #916 queued for 2026-09-21 through 2027-02-26; #917 queued for 2027-02-27"
+    },
+    {
+      "article_number": 918,
+      "number": 918,
+      "phase": "SHIP",
+      "headline": "Your Builder Rented a $300-an-Hour Crane. The Lift Plan Was Free. He Skipped the Free Part.",
+      "slug": "ai-crane-lift-plan-truss-set-residential-2026",
+      "journalist": "Marcus Washington",
+      "research_file": "drafts/ai-crane-lift-plan-truss-set-residential-2026-research.md",
+      "hero_hash": "41667a65",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 376.8,
+          "short_pct": 6.5,
+          "long_pct": 39.1,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 1,
+      "started": "2026-09-20T06:02:00-07:00",
+      "completed": "2026-09-20T06:14:52.581715-07:00",
+      "ship_after": "2027-02-28",
+      "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #917 queued for 2026-09-21 through 2027-02-27; #918 queued for 2027-02-28"
     }
   ],
-  "last_checked": "2026-09-20T04:15:00-07:00",
+  "last_checked": "2026-09-20T06:14:52.581715-07:00",
   "current": null
 }
