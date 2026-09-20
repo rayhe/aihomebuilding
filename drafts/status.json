@@ -8406,17 +8406,56 @@
       "completed": "2026-09-20T10:45:00-07:00",
       "ship_after": "2027-03-02",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #919 queued for 2026-09-21 through 2027-03-01; #920 queued for 2027-03-02"
+    },
+    {
+      "article_number": 921,
+      "number": 921,
+      "phase": "SHIP",
+      "headline": "Your House Burns 164 Watts While You Sleep. An Algorithm Can Name Every One.",
+      "slug": "ai-always-on-load-nilm-standby-watts-2026",
+      "journalist": "Priya Greenwood",
+      "research_file": "drafts/ai-always-on-load-nilm-standby-watts-2026-research.md",
+      "hero_hash": "706796b7",
+      "critique_score": 8.77,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 372.5,
+          "short_pct": 6.5,
+          "long_pct": 59.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 0,
+      "started": "2026-09-20T12:06:00-07:00",
+      "completed": "2026-09-20T12:35:00-07:00",
+      "ship_after": "2027-03-03",
+      "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #920 queued for 2026-09-21 through 2027-03-02; #921 queued for 2027-03-03"
     }
   ],
   "last_checked": "2026-09-20T12:06:00-07:00",
-  "current": {
-    "article_number": 921,
-    "slug": "ai-always-on-load-nilm-standby-watts-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-20T12:06:00-07:00",
-    "headline": "Your House Burns 164 Watts While You Sleep. An Algorithm Can Name Every One.",
-    "critique_round": 0,
-    "hero_hash": "706796b7"
-  }
+  "current": null
 }
