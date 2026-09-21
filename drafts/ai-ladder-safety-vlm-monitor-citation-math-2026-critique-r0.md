@@ -2,6 +2,8 @@
 **Article:** "Your Deadliest Tool Costs $200. Most Workers Who Die on It Fall Less Than 10 Feet."
 **Journalist:** Marcus Washington | **Round:** 0 | **Date:** 2026-09-21
 
+**Disclosure:** the scores below were self-assessed by the writing worker in a single critique pass, not by an independently constituted seven-person panel. Treat the 9.0 mean as the worker's own scoring against the rubric.
+
 ## 1. General Editor — 9.0/10
 Structure works: cold open (the untied ladder at quarter past seven), the BLS body count, the tech (VLM reasoning, Lorenzo quote), the two-column math (injury vs. citation), the blind spots, the workforce/trust section, the free-things-first action list, the limitations, the "both columns" close. The thesis arrives early and the $144-vs-$66,200 contrast is the engine of the whole piece. Deduction: the cold open is a single 110-word paragraph; it reads fast, but a breath after the nail-gun line would have helped. The closing echo ("Both columns.") lands.
 
