@@ -8789,8 +8789,56 @@
       "ship_after": "2027-03-10",
       "research_file": "drafts/ai-slab-drying-prediction-flooring-ready-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-09), next open slot 2027-03-10."
+    },
+    {
+      "article_number": 929,
+      "number": 929,
+      "slug": "ai-foundation-waterproofing-photo-qa-backfill-2026",
+      "headline": "Nobody Inspected Your Foundation's Waterproofing. Then the Backfill Buried It.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 209.6,
+          "short_pct": 3.2,
+          "long_pct": 51.6,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 0,
+      "hero_hash": "8ca2324a",
+      "started": "2026-09-21T10:05:00-07:00",
+      "completed": "2026-09-21T10:35:00-07:00",
+      "ship_after": "2027-03-11",
+      "research_file": "drafts/ai-foundation-waterproofing-photo-qa-backfill-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-10), next open slot 2027-03-11."
     }
   ],
-  "last_checked": "2026-09-21T08:30:00-07:00",
+  "last_checked": "2026-09-21T10:35:00-07:00",
   "current": null
 }
