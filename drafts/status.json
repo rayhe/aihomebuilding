@@ -1,10 +1,5 @@
 {
-  "last_completed": {
-    "slug": "ai-heat-stress-wearables-calosha-federal-stall-2026",
-    "article_number": 763,
-    "phase": "SHIP",
-    "completed": "2026-09-21T05:10:00-07:00"
-  },
+  "last_completed": "ai-ladder-safety-vlm-monitor-citation-math-2026",
   "last_published_at": "2026-09-21T05:10:00-07:00",
   "ship_ready": [
     {
@@ -8885,14 +8880,56 @@
       "ship_after": "2027-03-12",
       "research_file": "drafts/ai-solar-roof-cost-math-post-25d-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-11), next open slot 2027-03-12."
+    },
+    {
+      "article_number": 931,
+      "number": 931,
+      "slug": "ai-ladder-safety-vlm-monitor-citation-math-2026",
+      "headline": "Your Deadliest Tool Costs $200. Most Workers Who Die on It Fall Less Than 10 Feet.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "critique_score": 9.0,
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.3,
+        "research_rigor": 9.1,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 212.4,
+          "short_pct": 9.7,
+          "long_pct": 43.1,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 0,
+      "hero_hash": "fdd975ed",
+      "started": "2026-09-21T16:10:00-07:00",
+      "completed": "2026-09-21T16:35:00-07:00",
+      "ship_after": "2027-03-13",
+      "research_file": "drafts/ai-ladder-safety-vlm-monitor-citation-math-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-12), next open slot 2027-03-13."
     }
   ],
-  "last_checked": "2026-09-21T16:10:00-07:00",
-  "current": {
-    "article_number": 931,
-    "slug": "ai-ladder-safety-vlm-monitor-citation-math-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus Washington",
-    "started": "2026-09-21T16:10:00-07:00"
-  }
+  "last_checked": "2026-09-21T16:35:00-07:00",
+  "current": null
 }
