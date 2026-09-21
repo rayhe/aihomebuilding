@@ -8596,14 +8596,56 @@
       "ship_after": "2027-03-06",
       "research_file": "drafts/ai-window-flashing-photo-qa-water-intrusion-2026-research.md",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-05), next open slot 2027-03-06."
+    },
+    {
+      "article_number": 925,
+      "number": 925,
+      "slug": "ai-builder-track-record-public-records-score-2026",
+      "headline": "One Family Paid $193,000 for an ADU That Was Never Built. The Warning Signs Were Public the Whole Time.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 202.7,
+          "short_pct": 13.6,
+          "long_pct": 39.5,
+          "passed": true
+        }
+      },
+      "primary_sources": 5,
+      "rounds": 1,
+      "hero_hash": "e3af8276",
+      "started": "2026-09-21T02:10:00-07:00",
+      "completed": "2026-09-21T02:55:00-07:00",
+      "ship_after": "2027-03-07",
+      "research_file": "drafts/ai-builder-track-record-public-records-score-2026-research.md",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-06), next open slot 2027-03-07."
     }
   ],
-  "last_checked": "2026-09-21T02:10:00-07:00",
-  "current": {
-    "slug": "ai-builder-track-record-public-records-score-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "article_number": 925,
-    "started": "2026-09-21T02:10:00-07:00"
-  }
+  "last_checked": "2026-09-21T02:55:00-07:00",
+  "current": null
 }

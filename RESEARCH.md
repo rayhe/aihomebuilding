@@ -1022,3 +1022,10 @@ When you discover a new topic worth covering, add it here with:
 - Complaints-per-permit rate as novel normalization; 9,317 CSLB complaints FY2024-25, $11.7M restitution, BBB: 81,925 home-improvement scams, $1,800 median loss
 - Algorithmic redlining risk: no appeals process for a bad score
 - **Queued SHIP 2027-02-26 as #916:** "Your Contractor's License Looks Clean. 10,719 Complaints Were Closed Before You Could See Them." (critique avg 8.81, rounds 0; gates: 0 em dashes, 13.9% The-starters, rhythm variance 201.2)
+
+### 30. 🟢 AI Builder Track-Record Scoring From Public Records
+- BuildZoom-style fusion: 3.5M contractors, 300M permits, 135K reviews; score inputs (license, insurance, work history, consumer standing, reviews, self-report)
+- CSLB FY24-25: 9,317 complaints, $11.7M restitution; Multiple Offender Unit (10+ open complaints); 242,847 licensees, 15,748 licensed complaints in 2024
+- Original math: 10-complaint threshold = 154x average complaint volume; $25K bond = 13% of $193K Oceanside ADU loss; reviews cover <4% of contractors
+- Ten-minute buyer background check protocol; full-strength skepticism (stale/gamed scores, new-entity problem, unpermitted work invisible)
+- **Published:** "One Family Paid $193,000 for an ADU That Was Never Built. The Warning Signs Were Public the Whole Time." (Catherine Chen, queued 2027-03-07)
