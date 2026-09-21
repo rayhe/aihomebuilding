@@ -1,11 +1,11 @@
 {
   "last_completed": {
-    "slug": "ai-generated-house-plans-copyright-nobody-owns-2026",
-    "article_number": 762,
+    "slug": "ai-heat-stress-wearables-calosha-federal-stall-2026",
+    "article_number": 763,
     "phase": "SHIP",
-    "completed": "2026-09-20T04:15:00-07:00"
+    "completed": "2026-09-21T05:10:00-07:00"
   },
-  "last_published_at": "2026-09-20T04:15:00-07:00",
+  "last_published_at": "2026-09-21T05:10:00-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -977,7 +977,7 @@
       "slug": "ai-heat-stress-wearables-calosha-federal-stall-2026",
       "headline": "Construction Holds 7% of Jobs and 38% of Heat Deaths. The Federal Rule Stalled, So an Armband Took the Shift.",
       "journalist": "Marcus Washington",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-21",
       "started": "2026-09-03T14:05:00-07:00",
       "critique_score": 8.86,
@@ -1016,7 +1016,8 @@
       "primary_sources": 7,
       "research_file": "drafts/ai-heat-stress-wearables-calosha-federal-stall-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #762 queued for 2026-09-04 through 2026-09-20"
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #762 queued for 2026-09-04 through 2026-09-20",
+      "published_at": "2026-09-21T05:10:00-07:00"
     },
     {
       "article_number": 764,
@@ -8694,6 +8695,6 @@
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-07), next open slot 2027-03-08."
     }
   ],
-  "last_checked": "2026-09-21T05:00:00-07:00",
+  "last_checked": "2026-09-21T05:10:00-07:00",
   "current": null
 }
