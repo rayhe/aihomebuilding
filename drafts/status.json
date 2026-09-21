@@ -8501,18 +8501,55 @@
       "ship_after": "2027-03-04",
       "research_file": "drafts/ai-aluminum-wiring-remediation-cost-decision-2026-research.md",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #921 queued for 2026-09-21 through 2027-03-03; #922 queued for 2027-03-04"
+    },
+    {
+      "slug": "ai-sinkhole-susceptibility-map-florida-homebuyer-2026",
+      "phase": "SHIP",
+      "journalist": "Frank DeLuca",
+      "number": 923,
+      "headline": "Your Florida Dream Home Sits on Swiss Cheese. A Free AI Map Shows Where the Holes Are.",
+      "hero_hash": "8e494d16",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 206.8,
+          "short_pct": 11.7,
+          "long_pct": 42.9,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 2,
+      "started": "2026-09-20T22:20:00-07:00",
+      "completed": "2026-09-20T22:45:00-07:00",
+      "ship_after": "2027-03-05",
+      "research_file": "drafts/ai-sinkhole-susceptibility-map-florida-homebuyer-2026-research.md",
+      "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #922 queued for 2026-09-21 through 2027-03-04; #923 queued for 2027-03-05"
     }
   ],
-  "last_checked": "2026-09-20T22:25:00-07:00",
-  "current": {
-    "slug": "ai-sinkhole-susceptibility-map-florida-homebuyer-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Frank DeLuca",
-    "article_number": 923,
-    "started": "2026-09-20T22:20:00-07:00",
-    "research_file": "drafts/ai-sinkhole-susceptibility-map-florida-homebuyer-2026-research.md",
-    "round": 0,
-    "hero_hash": "8e494d16",
-    "primary_sources": 8
-  }
+  "last_checked": "2026-09-20T22:45:00-07:00",
+  "current": null
 }
