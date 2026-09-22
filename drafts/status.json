@@ -1,5 +1,5 @@
 {
-  "last_completed": "ai-cabinet-shop-nesting-yield-offcut-math-2026",
+  "last_completed": "ai-vapor-intrusion-new-construction-code-gap-2026",
   "last_published_at": "2026-09-21T05:10:00-07:00",
   "ship_ready": [
     {
@@ -8978,15 +8978,57 @@
       "research_file": "drafts/ai-cabinet-shop-nesting-yield-offcut-math-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-13), next open slot 2027-03-14.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 933,
+      "number": 933,
+      "slug": "ai-vapor-intrusion-new-construction-code-gap-2026",
+      "headline": "The Dry Cleaner Closed in 1998. Its Solvents May Be Under Your Slab.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 296.9,
+          "short_pct": 14.1,
+          "long_pct": 45.3,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "rounds": 0,
+      "hero_hash": "c0f88cb7",
+      "started": "2026-09-21T20:05:00-07:00",
+      "completed": "2026-09-21T20:45:00-07:00",
+      "ship_after": "2027-03-15",
+      "research_file": "drafts/ai-vapor-intrusion-new-construction-code-gap-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-14), next open slot 2027-03-15.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-21T20:05:00-07:00",
-  "current": {
-    "article_number": 933,
-    "slug": "ai-vapor-intrusion-new-construction-code-gap-2026",
-    "headline": "The Dry Cleaner Closed in 1998. Its Solvents May Be Under Your Slab.",
-    "journalist": "Jake Kowalski",
-    "phase": "DRAFT",
-    "started": "2026-09-21T20:05:00-07:00"
-  }
+  "last_checked": "2026-09-21T20:45:00-07:00",
+  "current": null
 }
