@@ -1,5 +1,9 @@
 {
-  "last_completed": "ai-vapor-intrusion-new-construction-code-gap-2026",
+  "last_completed": {
+    "slug": "ai-lot-fit-zoning-check-before-you-buy-2026",
+    "phase": "SHIP_READY",
+    "at": "2026-09-21T22:45:00-07:00"
+  },
   "last_published_at": "2026-09-21T05:10:00-07:00",
   "ship_ready": [
     {
@@ -9027,14 +9031,57 @@
       "research_file": "drafts/ai-vapor-intrusion-new-construction-code-gap-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-14), next open slot 2027-03-15.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 934,
+      "number": 934,
+      "slug": "ai-lot-fit-zoning-check-before-you-buy-2026",
+      "headline": "Your Lot Is 6,000 Square Feet. The Code Only Lets You Build 2,400.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 275.4,
+          "short_pct": 13.6,
+          "long_pct": 35.2,
+          "passed": true
+        }
+      },
+      "primary_sources": 6,
+      "rounds": 1,
+      "hero_hash": "60fbf697",
+      "started": "2026-09-21T22:20:00-07:00",
+      "completed": "2026-09-21T22:45:00-07:00",
+      "ship_after": "2027-03-16",
+      "research_file": "drafts/ai-lot-fit-zoning-check-before-you-buy-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-15), next open slot 2027-03-16.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-21T22:20:00-07:00",
-  "current": {
-    "slug": "ai-lot-fit-zoning-check-before-you-buy-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-21T22:20:00-07:00",
-    "research_file": "drafts/ai-lot-fit-zoning-check-before-you-buy-2026-research.md"
-  }
+  "last_checked": "2026-09-21T22:45:00-07:00",
+  "current": null
 }
