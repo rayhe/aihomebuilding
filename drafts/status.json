@@ -9087,6 +9087,12 @@
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-06), next open slot 2026-11-06 -> 2026-11-07."
     }
   ],
-  "last_checked": "2026-09-22T07:55:00+00:00",
-  "current": null
+  "last_checked": "2026-09-22T09:30:00+00:00",
+  "current": {
+    "slug": "ai-private-well-failure-pump-monitor-water-quality-gap-2026",
+    "phase": "DRAFT",
+    "journalist": "Jake Kowalski",
+    "number": 936,
+    "started": "2026-09-22T09:30:00+00:00"
+  }
 }
