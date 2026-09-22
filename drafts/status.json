@@ -9037,6 +9037,54 @@
       "research_file": "drafts/ai-radiant-floor-slab-lag-predictive-control-2026-research.md",
       "hold_reason": "1/day rule: 0 publishes on 2026-09-22 PT so far, but 26 articles already due in ship_ready queue ahead of this one; queued behind existing ship_ready queue (last ship_after 2027-03-16), next open slot 2027-03-17.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 753,
+      "number": 753,
+      "slug": "sb9-lot-split-ai-feasibility-uptake-gap-2026",
+      "headline": "Your Lot Could Legally Become Two. The AI Checked in 40 Seconds. The County Needs 14 Months.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 210.0,
+          "short_pct": 12.5,
+          "long_pct": 57.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 0,
+      "hero_hash": "bcb65b11",
+      "started": "2026-09-10T08:15:00-07:00",
+      "completed": "2026-09-10T09:00:00-07:00",
+      "ship_after": "2026-11-07",
+      "research_file": "drafts/sb9-lot-split-ai-feasibility-uptake-gap-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-06), next open slot 2026-11-06 -> 2026-11-07."
     }
   ],
   "last_checked": "2026-09-22T07:55:00+00:00",
