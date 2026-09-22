@@ -9184,14 +9184,59 @@
       "research_file": "drafts/ai-bathroom-fan-vented-attic-mold-code-violation-2026-research.md",
       "draft_file": "drafts/ai-bathroom-fan-vented-attic-mold-code-violation-2026.html",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-18), next open slot 2027-03-19."
+    },
+    {
+      "article_number": 938,
+      "number": 938,
+      "slug": "ai-scaffold-inspection-lidar-digital-twin-2026",
+      "headline": "OSHA Cited Scaffolding 1,725 Times Last Year. The AI Inspector Never Blinks.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-20",
+      "started": "2026-09-22T06:15:00-07:00",
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 226.4,
+          "short_pct": 10.2,
+          "long_pct": 55.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "e1a0abf3",
+      "hero_real_jpeg": true,
+      "primary_sources": 6,
+      "rounds": 0,
+      "completed": "2026-09-22T06:45:00-07:00",
+      "research_file": "drafts/ai-scaffold-inspection-lidar-digital-twin-2026-research.md",
+      "draft_file": "drafts/ai-scaffold-inspection-lidar-digital-twin-2026.html",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-19), next open slot 2027-03-20.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T11:45:00-07:00",
-  "current": {
-    "slug": "ai-scaffold-inspection-lidar-digital-twin-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-22T06:15:00-07:00",
-    "article_number": 938
-  }
+  "last_checked": "2026-09-22T06:50:00-07:00",
+  "current": null
 }
