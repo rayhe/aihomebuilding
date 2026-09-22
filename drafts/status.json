@@ -9134,14 +9134,58 @@
       "completed": "2026-09-22T10:15:00+00:00",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-17), next open slot 2027-03-18.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 937,
+      "number": 937,
+      "slug": "ai-bathroom-fan-vented-attic-mold-code-violation-2026",
+      "headline": "Your Bathroom Fan Vents Into the Attic. Section M1507.2 Would Like a Word.",
+      "journalist": "Catherine \"Code\" Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-19",
+      "started": "2026-09-22T11:05:00-07:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 291.8,
+          "short_pct": 13.3,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "a3b95809",
+      "hero_real_jpeg": true,
+      "primary_sources": 8,
+      "rounds": 1,
+      "completed": "2026-09-22T11:45:00-07:00",
+      "research_file": "drafts/ai-bathroom-fan-vented-attic-mold-code-violation-2026-research.md",
+      "draft_file": "drafts/ai-bathroom-fan-vented-attic-mold-code-violation-2026.html",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-18), next open slot 2027-03-19."
     }
   ],
-  "last_checked": "2026-09-22T11:05:00-07:00",
-  "current": {
-    "slug": "ai-bathroom-fan-vented-attic-mold-code-violation-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine \"Code\" Chen",
-    "article_number": 937,
-    "started": "2026-09-22T11:05:00-07:00"
-  }
+  "last_checked": "2026-09-22T11:45:00-07:00",
+  "current": null
 }
