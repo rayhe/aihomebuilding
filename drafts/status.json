@@ -1,5 +1,5 @@
 {
-  "last_completed": "ai-ladder-safety-vlm-monitor-citation-math-2026",
+  "last_completed": "ai-cabinet-shop-nesting-yield-offcut-math-2026",
   "last_published_at": "2026-09-21T05:10:00-07:00",
   "ship_ready": [
     {
@@ -8929,14 +8929,57 @@
       "research_file": "drafts/ai-ladder-safety-vlm-monitor-citation-math-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-12), next open slot 2027-03-13.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 932,
+      "number": 932,
+      "slug": "ai-cabinet-shop-nesting-yield-offcut-math-2026",
+      "headline": "Your Cabinet Shop Feeds $25,000 of Plywood to the Dumpster Every Year. The Fix Is $225 a Month.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 116.8,
+          "short_pct": 14.7,
+          "long_pct": 26.7,
+          "passed": true
+        }
+      },
+      "primary_sources": 8,
+      "rounds": 0,
+      "hero_hash": "2985cfb0",
+      "started": "2026-09-21T18:10:00-07:00",
+      "completed": "2026-09-21T18:45:00-07:00",
+      "ship_after": "2027-03-14",
+      "research_file": "drafts/ai-cabinet-shop-nesting-yield-offcut-math-2026-research.md",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-13), next open slot 2027-03-14.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-21T18:10:00-07:00",
-  "current": {
-    "slug": "ai-cabinet-shop-nesting-yield-offcut-math-2026",
-    "article_number": 932,
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-21T18:10:00-07:00"
-  }
+  "last_checked": "2026-09-21T18:45:00-07:00",
+  "current": null
 }
