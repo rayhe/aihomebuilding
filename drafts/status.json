@@ -9235,14 +9235,59 @@
       "draft_file": "drafts/ai-scaffold-inspection-lidar-digital-twin-2026.html",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-19), next open slot 2027-03-20.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 939,
+      "number": 939,
+      "slug": "ai-drone-roof-inspection-claim-denial-hail-2026",
+      "headline": "Your Adjuster Denied the Claim. A $400 Drone Flight Is How You Get It Back.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-21",
+      "started": "2026-09-22T15:10:00+00:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 218.4,
+          "short_pct": 10.7,
+          "long_pct": 62.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "be6e2024",
+      "hero_real_jpeg": true,
+      "primary_sources": 6,
+      "rounds": 2,
+      "completed": "2026-09-22T15:35:00+00:00",
+      "research_file": "drafts/ai-drone-roof-inspection-claim-denial-hail-2026-research.md",
+      "draft_file": "drafts/ai-drone-roof-inspection-claim-denial-hail-2026.html",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-20), next open slot 2027-03-21.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T15:10:00+00:00",
-  "current": {
-    "slug": "ai-drone-roof-inspection-claim-denial-hail-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-22T15:10:00+00:00",
-    "research_file": "drafts/ai-drone-roof-inspection-claim-denial-hail-2026-research.md"
-  }
+  "last_checked": "2026-09-22T15:35:00+00:00",
+  "current": null
 }
