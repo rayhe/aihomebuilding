@@ -1,8 +1,8 @@
 {
   "last_completed": {
-    "slug": "ai-lot-fit-zoning-check-before-you-buy-2026",
+    "slug": "ai-radiant-floor-slab-lag-predictive-control-2026",
     "phase": "SHIP_READY",
-    "at": "2026-09-21T22:45:00-07:00"
+    "at": "2026-09-22T07:45:00+00:00"
   },
   "last_published_at": "2026-09-21T05:10:00-07:00",
   "ship_ready": [
@@ -9080,17 +9080,58 @@
       "research_file": "drafts/ai-lot-fit-zoning-check-before-you-buy-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-21; queued behind existing ship_ready queue (last ship_after 2027-03-15), next open slot 2027-03-16.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 935,
+      "number": 935,
+      "slug": "ai-radiant-floor-slab-lag-predictive-control-2026",
+      "headline": "Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It's a Furnace.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 521.8,
+          "short_pct": 13.0,
+          "long_pct": 38.0,
+          "passed": true
+        }
+      },
+      "primary_sources": 9,
+      "rounds": 1,
+      "hero_hash": "3a4bf733",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, orange PEX serpentine tubing on concrete slab with brass manifold, warm late-afternoon light",
+      "started": "2026-09-22T07:15:00+00:00",
+      "completed": "2026-09-22T07:45:00+00:00",
+      "ship_after": "2027-03-17",
+      "research_file": "drafts/ai-radiant-floor-slab-lag-predictive-control-2026-research.md",
+      "hold_reason": "1/day rule: 0 publishes on 2026-09-22 PT so far, but 26 articles already due in ship_ready queue ahead of this one; queued behind existing ship_ready queue (last ship_after 2027-03-16), next open slot 2027-03-17.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T07:15:00+00:00",
-  "current": {
-    "article_number": 935,
-    "slug": "ai-radiant-floor-slab-lag-predictive-control-2026",
-    "headline": "Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It Is a Furnace.",
-    "journalist": "Jake Kowalski",
-    "phase": "DRAFT",
-    "started": "2026-09-22T07:15:00+00:00",
-    "research_file": "drafts/ai-radiant-floor-slab-lag-predictive-control-2026-research.md",
-    "primary_sources": 9
-  }
+  "last_checked": "2026-09-22T07:45:00+00:00",
+  "current": null
 }

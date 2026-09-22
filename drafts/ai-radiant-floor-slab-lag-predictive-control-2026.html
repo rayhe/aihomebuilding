@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It&rsquo;s a Furnace. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/articles/ai-radiant-floor-slab-lag-predictive-control-2026.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It's a Furnace.",
+		"description": "A hydronic radiant slab takes six hours to change temperature, which breaks every thermostat strategy designed for forced air. Jake Kowalski runs the payback math, the predictive-control research, and the heat-pump pairing that actually makes the $12K-$35K decision work.",
+		"image": "https://aihomebuilding.com/images/ai-radiant-floor-slab-lag-predictive-control-2026.jpg?v=3a4bf733",
+		"datePublished": "2026-09-22",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/articles/ai-radiant-floor-slab-lag-predictive-control-2026.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It's a Furnace.">
+	<meta property="og:description" content="A hydronic radiant slab takes six hours to change temperature, which breaks every thermostat strategy designed for forced air. Jake Kowalski runs the payback math, the predictive-control research, and the heat-pump pairing that actually makes the $12K-$35K decision work.">
+	<meta property="og:url" content="https://aihomebuilding.com/articles/ai-radiant-floor-slab-lag-predictive-control-2026.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-radiant-floor-slab-lag-predictive-control-2026.jpg?v=3a4bf733">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It's a Furnace.">
+	<meta name="twitter:description" content="A hydronic radiant slab takes six hours to change temperature, which breaks every thermostat strategy designed for forced air. Jake Kowalski runs the payback math, the predictive-control research, and the heat-pump pairing that actually makes the $12K-$35K decision work.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-radiant-floor-slab-lag-predictive-control-2026.jpg?v=3a4bf733">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+		.article-body table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0 2rem;
+			font-size: 0.92rem;
+		}
+		.article-body th, .article-body td {
+			border: 1px solid var(--border);
+			padding: 0.65rem 0.75rem;
+			text-align: left;
+			vertical-align: top;
+		}
+		.article-body th {
+			background: var(--bg-card);
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/ai-radiant-floor-slab-lag-predictive-control-2026.jpg?v=3a4bf733" alt="Orange PEX hydronic radiant floor tubing laid in serpentine loops across a concrete slab, with a brass manifold and valves mounted on the wall, warm late-afternoon light" loading="eager">
+		<div class="overlay">
+			<span class="badge">Construction Technology</span>
+			<h1>Your Radiant Floor Takes 6 Hours to Warm Up. Your Thermostat Still Thinks It&rsquo;s a Furnace.</h1>
+			<div class="byline">By Jake Kowalski &middot; September 22, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+<p>A homeowner on the Eichler Network forum asked a reasonable question: should I turn my radiant floor heat off at night to save money? Veterans of thirty-year-old slab homes answered within hours. Do not bother. Concrete takes six hours to notice you touched the thermostat.</p>
+
+<p>That exchange is the entire radiant heating industry in miniature. A concrete slab is a thermal battery the size of your house, and every thermostat strategy developed in the last half century was designed for a furnace that changes air temperature in twenty minutes. Bolt a setback thermostat onto a six-hour slab and you get the worst of both worlds: a cold kitchen at 6 AM and a boiler screaming through the most expensive electricity hours of the day trying to catch up.</p>
+
+<h2>Your slab does not care about your schedule</h2>
+
+<p>The lag is physics, not a settings problem. Researchers who mapped a 70-millimeter concrete slab with infrared cameras found it needs one to three hours just to reach temperature uniformity after hot water starts flowing (<a href="https://Www.mdpi.com/2313-433X/2/3/22" target="_blank">MDPI</a>). Scale that to a full structural slab with tubing buried in four inches of concrete and the Eichler veterans' six-hour figure stops sounding like folklore. In heavy-mass homes the lag stretches toward days.</p>
+
+<p>Floors can stay warm up to twelve hours after the system shuts off (<a href="https://infloorheat.ca/thermal-mass/" target="_blank">InFloorHeat</a>), which sounds like free heat until you run the logic in reverse. A conventional night setback, eight degrees down at 10 PM and back up by 7 AM, assumes the house recovers in an hour. It cannot. One Eichler owner put it plainly: the energy required to drag the slab back to temperature can exceed the energy of simply maintaining it (<a href="https://www.eichlernetwork.com/content/radiant-floor-heating-onoff-night" target="_blank">Eichler Network</a>). Decades of setback advice were written for forced air. Nobody re-ran the guidance for tens of tons of concrete.</p>
+
+<p>This is also why a learning thermostat can make things worse. Those devices were trained on the thermal behavior of air: they see the house still cold an hour after calling for heat and conclude the system is undersized, then overcorrect. On a slab, patience is the entire control strategy, and no off-the-shelf thermostat from the forced-air era has it.</p>
+
+<h2>Machines draw the loops now</h2>
+
+<p>Before any of this matters, somebody has to design the tubing layout, and that is where the AI story actually starts: in the drafting room, not on the wall. <a href="https://www.contractormag.com/management/article/20875944/design-radiant-loops-manage-service-calls" target="_blank">LoopCAD</a>, the industry-standard radiant layout tool, automatically draws eighty to ninety percent of a project's loops straight from the floor plan. Serpentine, double serpentine around high-loss exterior walls, mixed spacing inside a single loop: six-inch spacing at the perimeter where the cold lives, twelve inches in the room interior.</p>
+
+<p>What contractors care about is balancing. Unequal loop lengths mean unequal flow, which means cold spots no thermostat can fix. LoopCAD's auto-balancing lands loop lengths within five percent on its own, and the vendor says minor tweaks get it to one percent. A manifold with three circuits used to mean twenty or thirty possible piping combinations worked out by hand. Now the designer clicks the path and the software draws it.</p>
+
+<h2>An algorithm learns the slab</h2>
+
+<p>The same thermal mass that defeats dumb thermostats is exactly what makes the system learnable. A slab does nothing surprising. It absorbs heat slowly and releases it slowly, on a schedule physics wrote in advance.</p>
+
+<p>Researchers who built an LSTM neural-network controller for underfloor heating found their load forecast hit an R&sup2; of 73 percent on radiant systems, versus 43 percent on conventional heaters (<a href="https://WWW.HAEE.GR/media/4316/mier2022abstract.pdf" target="_blank">HAEE/MIER 2022</a>). Read that again: the slab's behavior is nearly twice as predictable as a forced-air system's. That lag is a feature, provided your controller can see six hours into the future.</p>
+
+<p>Model-predictive control papers have demonstrated the payoff for years. One team optimized a hydronic radiant zone against time-of-use electricity prices, preheating the slab during cheap hours and letting the heating load fall to zero during the price spike, cutting total cost by more than ten percent in simulation: $18.60 versus $20.70 for the reference strategy (<a href="https://www.Mdpi.com/1996-1073/14/4/1195" target="_blank">MDPI Energies</a>). Another found radiant zones using twenty-four percent less energy than all-air systems under predictive control (<a href="https://www.mdpi.com/1996-1073/14/7/1996/xml" target="_blank">MDPI Energies</a>). Floor surface temperatures stayed inside the ASHRAE comfort band, 23 to 29&deg;C, the entire time.</p>
+
+<p>This thinking already ships in commercial products. Uponor's Smatrix Pulse controller runs what the company calls a smart algorithm with autobalancing that adapts to daily routines: no manual balancing valves, no commissioning visit to dial in each loop (<a href="https://www.georgfischer.com/content/dam/gfcorp/gfbfs/documents/media-releases/20250710-en-media-release-new-uponor-smatrix-thermostats-combine-precise-and-intuitive-room-temperature-control.pdf" target="_blank">GF Building Flow Solutions, July 2025</a>). Open source has its own take: EMHASS, a home energy optimizer, models a radiant slab explicitly as a thermal battery with a two-hour inertia constant and schedules heating around it (<a href="https://github.com/davidusb-geek/emhass/blob/HEAD/docs/thermal_battery.md" target="_blank">GitHub</a>). Your slab is a battery. People are finally treating it like one.</p>
+
+<h2>Marrying the heat pump</h2>
+
+<p>Radiant floors run on water at 80 to 110&deg;F. Baseboards and radiators want 140 to 180&deg;F. That temperature gap is the entire economic argument for pairing radiant with a heat pump, because a heat pump's efficiency, its COP, climbs as the required output temperature falls. Ask the compressor for 100-degree water instead of 140-degree water and the thermodynamic lift shrinks dramatically (<a href="https://engineerfix.com/can-you-use-a-heat-pump-with-radiant-floor-heating/" target="_blank">EngineerFix</a>).</p>
+
+<p>Lab numbers back it up. A capillary radiant floor driven directly by an air-source heat pump held a COP of 3.06 with the outdoor temperature at minus 10&deg;C (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0140700724004201" target="_blank">ScienceDirect</a>). A 2026 modeling study of a solar-assisted heat pump feeding radiant floors in Calgary pushed seasonal COP from the 2-to-4 range into the 2-to-6 range (<a href="https://www.pv-magazine.com/2026/04/30/solar-assisted-air-source-heat-pump-for-radiant-floor-heating/" target="_blank">PV Magazine</a>). And a Korean study found that holding the floor at 22 to 23&deg;C, the barefoot comfort band, instead of 25&deg;C, cut primary energy use by thirty-one to thirty-eight percent (<a href="https://www.mdpi.com/1996-1073/14/5/1321" target="_blank">MDPI Energies</a>).</p>
+
+<p>Design it for the heat pump from day one: flow temperatures of 35 to 45&deg;C, tubing at 100 to 150 millimeter spacing, tighter spacing near exterior walls for responsiveness (<a href="https://www.goodheatglobal.com/Air-to-Water-Heat-Pumps-for-Underfloor-Heating-Systems-A-Perfect-Match-id49239106.html" target="_blank">GoodHeatGlobal</a>). A boiler can drive a radiant floor. In 2026 it is the expensive way to do it.</p>
+
+<h2>Money, with the math shown</h2>
+
+<p>None of this matters if the check does not clear. Installed costs for hydronic radiant run six to twenty dollars per square foot; electric mats run eight to fifteen (<a href="https://modernize.com/hvac/heating-repair-installation/underfloor-heating" target="_blank">Modernize</a>). A whole-home hydronic system for a 1,500 to 2,000 square foot house lands between twelve and thirty-five thousand dollars, and a boiler adds another four to eight thousand if you go that route. Bathrooms are the gateway drug: five hundred to twenty-eight hundred dollars for electric heat under tile (<a href="https://homeguide.com/costs/radiant-floor-heating-cost" target="_blank">HomeGuide</a>).</p>
+
+<table>
+<tr><th>System</th><th>Installed cost</th><th>Best for</th></tr>
+<tr><td>Electric mat / cable</td><td>$8&ndash;$15 / sq ft</td><td>Bathrooms, kitchens, retrofits</td></tr>
+<tr><td>Hydronic, new construction</td><td>$6&ndash;$20 / sq ft</td><td>Whole-home, heating climates</td></tr>
+<tr><td>Whole-home hydronic, 1,500&ndash;2,000 sq ft</td><td>$12,000&ndash;$35,000+</td><td>New builds paired with a heat pump</td></tr>
+<tr><td>Boiler adder (instead of heat pump)</td><td>+$4,000&ndash;$8,000</td><td>The legacy choice</td></tr>
+</table>
+
+<p>Now the payback math, with inputs visible so you can argue with them. Take a 2,000 square foot home. Hydronic radiant at eighteen thousand dollars versus eight thousand for a decent forced-air system: a ten-thousand-dollar premium. Annual heating bill of eighteen hundred dollars with twenty percent operating savings from the radiant system: three hundred sixty dollars a year. Ten thousand divided by three hundred sixty is twenty-eight years.</p>
+
+<div class="pull-stat">
+<span class="number">28 yrs</span>
+<span class="label">payback on the $10,000 radiant premium at 20% operating savings. No sugarcoating.</span>
+</div>
+
+<p>Twenty-eight years is longer than many people own the house. That number is the honest center of this article, so here are the conditions that change it. New construction erases the retrofit premium, because the tubing goes in before the slab is poured and there is no finished floor to tear up. A heat pump instead of a boiler widens the operating-cost gap, since the COP advantage compounds across every heating hour. Time-of-use rates plus predictive preheating shave roughly another ten percent off the energy bill in simulation. And some buyers are not buying payback at all: silent heat, no drafts, no dust moving through ducts, warm tile at 6 AM. Comfort is a product with a price. This one costs about ten grand over forced air.</p>
+
+<h2>Why it might not pencil out</h2>
+
+<p>Strip away the enthusiasm and radiant looks like a luxury comfort upgrade wearing an efficiency costume. Best-case payback in industry surveys runs seven to fifteen years, and plenty of homeowners move before the system earns out (<a href="https://minihomehub.online/blog/radiant-floor-heating-vs-forced-air-2026-cost.html" target="_blank">MiniHomeHub</a>). In cooling-dominated climates the investment sits idle all summer while the ductwork you declined to install would have been carrying your air conditioning. A cold-climate heat pump on forced air with a smart thermostat captures most of the operating-cost benefit at a fraction of the capital cost, and it cools the house in July, which the floor cannot.</p>
+
+<p>Control reality deserves equal skepticism. Predictive controllers posting those ten and twenty-four percent savings live in papers and pilot projects, not on the shelf at the supply house. What you can buy today is autobalancing and scheduling: useful, not clairvoyant. Anyone selling a radiant system on the promise of AI optimization is selling the roadmap, not the truck.</p>
+
+<h2>What to do on Monday</h2>
+
+<p>If you already own a high-mass radiant home, kill the deep setback. One to two degrees at most, or hold a constant temperature around the clock. Eichler consensus exists for a reason: recovery energy beats maintenance energy on a six-hour slab.</p>
+
+<p>If your utility bills by time of use, run the inverse of conventional wisdom. Preheat the slab overnight during off-peak hours and let it coast through the expensive morning and evening peaks. This is the manual version of what the model-predictive papers do, and the physics is identical whether or not an algorithm is involved.</p>
+
+<p>If you are building, demand the loop design in software and actually read it. Six-inch spacing at exterior walls, twelve inches in the interior, loop lengths balanced within five percent. Ask the contractor for the design flow temperature; anything above 120&deg;F on a heat-pump system means the design is fighting the equipment.</p>
+
+<p>Buy a thermostat with a floor sensor and a floor-temperature limit. ASHRAE caps comfortable floor surface temperature at 29&deg;C (84&deg;F); a thermostat that only reads air temperature is flying half-blind on a radiant system. Multi-zone homes should get autobalancing controls, Uponor's Smatrix line or equivalent, so nobody is hand-tuning balancing valves in year three.</p>
+
+<p>Skip whole-home radiant as a retrofit. Tearing up finished floors to bury tubing destroys the economics, and subfloor preparation alone can double the per-square-foot cost. Do the bathrooms and kitchen in electric, enjoy the warm tile, and put the big money into the building envelope instead.</p>
+
+<h2>What this analysis cannot tell you</h2>
+
+<p>The predictive-control savings figures, ten percent on cost and twenty-four percent on energy, come from simulations and laboratory studies, not from large residential field trials. Real homes add slab-thickness variation, imperfect insulation, and occupants who leave windows open. Treat those numbers as the ceiling, not the quote.</p>
+
+<p>Installed-cost figures are 2025&ndash;2026 aggregator ranges for the US market. Union-labor markets and retrofit subfloor preparation push toward the top of every range; production-builder tract work lands near the bottom. Payback arithmetic here uses midpoints throughout. Your utility rate and your climate zone dominate the result more than any equipment choice.</p>
+
+<p>Heat-pump COP figures come from specific studies in specific climates. Below roughly minus 15&deg;F design temperatures, most air-source systems still need backup heat and the economics shift. Uponor's autobalancing claims are vendor-published, with no independent test of the energy attribution. LoopCAD's eighty-to-ninety-percent auto-draw figure dates to a 2005 trade-magazine piece; the current version does more, but that specific number is vintage.</p>
+
+<p>Finally, nothing here replaces a Manual J load calculation for your actual house. Rules of thumb about spacing and flow temperature are starting points. A contractor who measures beats one who remembers.</p>
+
+<h2>Sources</h2>
+
+<p>Six-hour slab warm-up consensus and the reheat-vs-steady-state debate from Eichler Network homeowner threads via <a href="https://www.eichlernetwork.com/content/radiant-floor-heating-onoff-night" target="_blank">Eichler Network</a>; 70mm slab needing 1&ndash;3 hours for temperature uniformity, verified by infrared thermography, via <a href="https://Www.mdpi.com/2313-433X/2/3/22" target="_blank">MDPI J. Imaging</a>; floors staying warm up to 12 hours after shutoff via <a href="https://infloorheat.ca/thermal-mass/" target="_blank">InFloorHeat</a>; LoopCAD auto-drawing 80&ndash;90% of loops and auto-balancing within 5% via <a href="https://www.contractormag.com/management/article/20875944/design-radiant-loops-manage-service-calls" target="_blank">Contractor Magazine</a>; LSTM underfloor-heating load forecast at R&sup2; 73.1% vs 43.2% conventional via <a href="https://WWW.HAEE.GR/media/4316/mier2022abstract.pdf" target="_blank">HAEE/MIER 2022</a>; MPC time-of-use preheating cutting cost $20.70 to $18.60 (&gt;10%) inside the 23&ndash;29&deg;C ASHRAE band via <a href="https://www.Mdpi.com/1996-1073/14/4/1195" target="_blank">MDPI Energies 14(4)</a>; radiant zones using 24.3% less energy than all-air under predictive control via <a href="https://www.mdpi.com/1996-1073/14/7/1996/xml" target="_blank">MDPI Energies 14(7)</a>; Uponor Smatrix Pulse smart algorithm, autobalancing, and T-247/T-267 thermostats (July 2025) via <a href="https://www.georgfischer.com/content/dam/gfcorp/gfbfs/documents/media-releases/20250710-en-media-release-new-uponor-smatrix-thermostats-combine-precise-and-intuitive-room-temperature-control.pdf" target="_blank">GF Building Flow Solutions</a>; radiant slab modeled as a thermal battery with a 2-hour inertia constant via <a href="https://github.com/davidusb-geek/emhass/blob/HEAD/docs/thermal_battery.md" target="_blank">EMHASS</a>; radiant supply temps of 80&ndash;110&deg;F vs 140&ndash;180&deg;F for radiators and the COP/lift relationship via <a href="https://engineerfix.com/can-you-use-a-heat-pump-with-radiant-floor-heating/" target="_blank">EngineerFix</a>; air-source heat pump with capillary radiant holding COP 3.06 at &minus;10&deg;C via <a href="https://www.sciencedirect.com/science/article/abs/pii/S0140700724004201" target="_blank">ScienceDirect</a>; solar-assisted heat pump plus radiant in Calgary modeling via <a href="https://www.pv-magazine.com/2026/04/30/solar-assisted-air-source-heat-pump-for-radiant-floor-heating/" target="_blank">PV Magazine</a>; 22&ndash;23&deg;C floors cutting primary energy 31.5&ndash;37.6% vs 25&deg;C via <a href="https://www.mdpi.com/1996-1073/14/5/1321" target="_blank">MDPI Energies 14(5)</a>; 35&ndash;45&deg;C flow temps and 100&ndash;150mm tubing spacing via <a href="https://www.goodheatglobal.com/Air-to-Water-Heat-Pumps-for-Underfloor-Heating-Systems-A-Perfect-Match-id49239106.html" target="_blank">GoodHeatGlobal</a>; installed costs ($6&ndash;$20 hydronic, $8&ndash;$15 electric, $12K&ndash;$35K+ whole-home) via <a href="https://modernize.com/hvac/heating-repair-installation/underfloor-heating" target="_blank">Modernize</a> and <a href="https://homeguide.com/costs/radiant-floor-heating-cost" target="_blank">HomeGuide</a>; radiant-vs-forced-air premium and 7&ndash;15 year payback surveys via <a href="https://minihomehub.online/blog/radiant-floor-heating-vs-forced-air-2026-cost.html" target="_blank">MiniHomeHub</a>.</p>
+
+
+	</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>
