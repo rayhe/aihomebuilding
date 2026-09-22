@@ -9085,14 +9085,57 @@
       "ship_after": "2026-11-07",
       "research_file": "drafts/sb9-lot-split-ai-feasibility-uptake-gap-2026-research.md",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-10; queued behind existing ship_ready queue (last ship_after 2026-11-06), next open slot 2026-11-06 -> 2026-11-07."
+    },
+    {
+      "article_number": 936,
+      "number": 936,
+      "slug": "ai-private-well-failure-pump-monitor-water-quality-gap-2026",
+      "headline": "Your Well Pump Dies Without Warning. A $212 Controller Reads Its Pulse.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-18",
+      "started": "2026-09-22T09:30:00+00:00",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 11.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 233.6,
+          "short_pct": 2.2,
+          "long_pct": 41.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "71183d60",
+      "primary_sources": 5,
+      "research_file": "drafts/ai-private-well-failure-pump-monitor-water-quality-gap-2026-research.md",
+      "rounds": 1,
+      "completed": "2026-09-22T10:15:00+00:00",
+      "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-17), next open slot 2027-03-18.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T09:30:00+00:00",
-  "current": {
-    "slug": "ai-private-well-failure-pump-monitor-water-quality-gap-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "number": 936,
-    "started": "2026-09-22T09:30:00+00:00"
-  }
+  "last_checked": "2026-09-22T10:15:00+00:00",
+  "current": null
 }
