@@ -9337,14 +9337,59 @@
       "draft_file": "drafts/ai-roof-underlayment-lap-photo-qa-buried-2026.html",
       "hold_reason": "1/day rule: publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-21), next open slot 2027-03-22.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 941,
+      "number": 941,
+      "slug": "ai-near-miss-auto-logging-residential-safety-2026",
+      "headline": "Your Crew Had 600 Near-Misses This Year. Your Safety Log Shows Zero.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-23",
+      "started": "2026-09-22T12:20:00-07:00",
+      "completed": "2026-09-22T13:05:00-07:00",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.5,
+          "short_pct": 13.5,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "d4e9bfb4",
+      "hero_real_jpeg": true,
+      "primary_sources": 11,
+      "rounds": 1,
+      "research_file": "drafts/ai-near-miss-auto-logging-residential-safety-2026-research.md",
+      "draft_file": "drafts/ai-near-miss-auto-logging-residential-safety-2026.html",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-22), next open slot 2027-03-23.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T12:20:00-07:00",
-  "current": {
-    "slug": "ai-near-miss-auto-logging-residential-safety-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus \"Steel\" Washington",
-    "started": "2026-09-22T12:20:00-07:00",
-    "article_number": 941
-  }
+  "last_checked": "2026-09-22T13:05:00-07:00",
+  "current": null
 }
