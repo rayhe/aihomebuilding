@@ -9745,8 +9745,59 @@
       "draft_file": "drafts/hpwh-first-hour-rating-right-size-2026.html",
       "publish_note": "Queued ship-ready behind existing queue (last ship_after 2027-03-29); next open slot 2027-03-30. 26 ship_ready entries already due as of 2026-09-23; publisher drains in ship_after order.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 949,
+      "number": 949,
+      "slug": "ai-excavation-subsurface-dirt-math-strike-cost-2026",
+      "headline": "Your Excavator Is About to Dig a $56,000 Hole. AI Looked Down First.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-31",
+      "started": "2026-09-23T04:00:00-07:00",
+      "completed": "2026-09-23T04:10:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.81,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 98.8,
+          "short_pct": 12.5,
+          "long_pct": 24.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "7e50c44b",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, excavator digging foundation trench at golden hour, worker with tablet showing 3D cut-and-fill map",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-excavation-subsurface-dirt-math-strike-cost-2026-research.md",
+      "draft_file": "drafts/ai-excavation-subsurface-dirt-math-strike-cost-2026.html",
+      "publish_note": "Queued ship-ready behind existing queue (last ship_after 2027-03-30); next open slot 2027-03-31. Publisher drains in ship_after order.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T03:10:00-07:00",
+  "last_checked": "2026-09-23T04:10:00-07:00",
   "current": null
 }
