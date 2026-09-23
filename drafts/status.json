@@ -9815,16 +9815,64 @@
       },
       "critique_rounds": 1,
       "hero": "images/ai-hurricane-strap-photo-audit-wind-mitigation-2026.jpg?v=a6f81d05"
+    },
+    {
+      "article_number": 951,
+      "number": 951,
+      "slug": "ai-sump-pump-failure-prediction-smart-monitor-2026",
+      "headline": "Your Sump Pump Is 9 Years Old. A $200 Outlet Can Hear It Dying.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-02",
+      "started": "2026-09-23T08:02:00-07:00",
+      "completed": "2026-09-23T08:25:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "critique_average": 8.83,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.7,
+          "short_pct": 13.1,
+          "long_pct": 63.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "ecd0cd56",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, cast-iron sump pump in concrete pit with PVC discharge and smartphone pump-monitor dashboard",
+      "primary_sources": 10,
+      "research_file": "drafts/ai-sump-pump-failure-prediction-smart-monitor-2026-research.md",
+      "draft_file": "drafts/ai-sump-pump-failure-prediction-smart-monitor-2026.html",
+      "publish_note": "Queued ship-ready behind existing queue (last ship_after 2027-04-01); next open slot 2027-04-02. Publisher drains in ship_after order.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T08:20:00-07:00",
+  "last_checked": "2026-09-23T08:25:00-07:00",
   "current": {
-    "phase": "CRITIQUE",
-    "article_number": 951,
-    "critique_round": 0,
-    "slug": "ai-sump-pump-failure-prediction-smart-monitor-2026",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-23T08:02:00-07:00",
-    "note": "Draft complete: 1515 words, 16 inline citations, hero stamped ?v=ecd0cd56"
+    "phase": "IDLE",
+    "article_number": null,
+    "critique_round": null,
+    "note": "#951 SHIP_READY 2027-04-02; queue extends to 2027-04-02"
   }
 }
