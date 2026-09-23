@@ -9933,13 +9933,14 @@
       "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T16:10:00-07:00",
+  "last_checked": "2026-09-23T16:25:00-07:00",
   "current": {
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "article_number": 954,
     "slug": "ai-shear-wall-nail-count-photo-audit-shiner-2026",
     "journalist": "Jake Kowalski",
     "started": "2026-09-23T16:10:00-07:00",
-    "note": "Research complete: 5 primary sources, original nail-count + capacity math; kill test passed; zero topic overlap vs 900+ articles"
+    "critique_round": 0,
+    "note": "Draft complete: all hard gates pass (0 em dashes, The-starters 0.0%, rhythm variance 209.0, short 14.8%), real JPEG hero 1920x1280 stamped ?v=5c828f45, 5 primary sources"
   }
 }
