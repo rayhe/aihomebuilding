@@ -9931,16 +9931,64 @@
       "draft_file": "drafts/ai-parametric-facade-west-glass-cost-2026.html",
       "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-04. Original contribution: worked $13,700 west-glass premium calc (install + 15yr cooling) with stated assumptions; Title 24 5%-west-cap framing; full-strength counterargument (the view is the product).",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 954,
+      "number": 954,
+      "slug": "ai-shear-wall-nail-count-photo-audit-shiner-2026",
+      "headline": "Your Shear Wall Has 66 Nails Per Sheet. The Inspector Counted Zero of Them.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-05",
+      "started": "2026-09-23T16:10:00-07:00",
+      "completed": "2026-09-23T16:35:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.9,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 209.0,
+          "short_pct": 14.8,
+          "long_pct": 45.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "5c828f45",
+      "hero_real_jpeg": true,
+      "primary_sources": 5,
+      "research_file": "drafts/ai-shear-wall-nail-count-photo-audit-shiner-2026-research.md",
+      "draft_file": "drafts/ai-shear-wall-nail-count-photo-audit-shiner-2026.html",
+      "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-05. Original contribution: 66-nails-per-sheet count, 1-in-4-miss capacity math on HUD 742-vs-754 lb/ft example, free 4-ft/9-nail photo check. Zero topic overlap vs 900+ articles; continues AI photo-QA series.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T16:25:00-07:00",
+  "last_checked": "2026-09-23T16:35:00-07:00",
   "current": {
-    "phase": "CRITIQUE",
-    "article_number": 954,
-    "slug": "ai-shear-wall-nail-count-photo-audit-shiner-2026",
-    "journalist": "Jake Kowalski",
-    "started": "2026-09-23T16:10:00-07:00",
-    "critique_round": 0,
-    "note": "Draft complete: all hard gates pass (0 em dashes, The-starters 0.0%, rhythm variance 209.0, short 14.8%), real JPEG hero 1920x1280 stamped ?v=5c828f45, 5 primary sources"
+    "phase": "IDLE",
+    "article_number": null,
+    "critique_round": null,
+    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-24 (ship_after); #954 queued SHIP_READY 2027-04-05"
   }
 }
