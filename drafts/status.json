@@ -9694,14 +9694,59 @@
       "draft_file": "drafts/electrical-load-calc-ev-charger-nec-220-2026.html",
       "hold_reason": "1/day rule: Publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-28), next open slot 2027-03-29.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 948,
+      "number": 948,
+      "slug": "hpwh-first-hour-rating-right-size-2026",
+      "headline": "Your 80-Gallon Heat Pump Water Heater Is Sized for a Household You Don't Have",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-30",
+      "started": "2026-09-23T02:30:00-07:00",
+      "completed": "2026-09-23T03:10:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.86,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 208.9,
+          "short_pct": 13.8,
+          "long_pct": 51.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "ad9739e0",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, modern heat pump water heater in warmly lit residential garage, copper pipes, morning light",
+      "primary_sources": 7,
+      "research_file": "drafts/hpwh-first-hour-rating-right-size-2026-research.md",
+      "draft_file": "drafts/hpwh-first-hour-rating-right-size-2026.html",
+      "publish_note": "Queued ship-ready behind existing queue (last ship_after 2027-03-29); next open slot 2027-03-30. 26 ship_ready entries already due as of 2026-09-23; publisher drains in ship_after order.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T02:30:00-07:00",
-  "current": {
-    "slug": "hpwh-first-hour-rating-right-size-2026",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-23T02:30:00-07:00",
-    "article_number": 948
-  }
+  "last_checked": "2026-09-23T03:10:00-07:00",
+  "current": null
 }
