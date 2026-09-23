@@ -9541,8 +9541,59 @@
       "draft_file": "drafts/drywall-finishing-robot-canvas-jlg-break-even-2026.html",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-25), next open slot 2027-03-26.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 945,
+      "number": 945,
+      "slug": "tpr-valve-discharge-ai-photo-inspection-2026",
+      "headline": "Fourteen Rules Govern the One Pipe on Your Water Heater Nobody Looks At.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-27",
+      "started": "2026-09-22T20:10:00-07:00",
+      "completed": "2026-09-22T20:45:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.87,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 1168.5,
+          "short_pct": 5.9,
+          "long_pct": 56.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "821189d8",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, water heater in garage with brass TPR valve and copper discharge pipe, warm lighting",
+      "primary_sources": 7,
+      "research_file": "drafts/tpr-valve-discharge-ai-photo-inspection-2026-research.md",
+      "draft_file": "drafts/tpr-valve-discharge-ai-photo-inspection-2026.html",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-26), next open slot 2027-03-27.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T18:20:00-07:00",
+  "last_checked": "2026-09-22T20:45:00-07:00",
   "current": null
 }

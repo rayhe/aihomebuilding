@@ -1029,3 +1029,11 @@ When you discover a new topic worth covering, add it here with:
 - Original math: 10-complaint threshold = 154x average complaint volume; $25K bond = 13% of $193K Oceanside ADU loss; reviews cover <4% of contractors
 - Ten-minute buyer background check protocol; full-strength skepticism (stale/gamed scores, new-entity problem, unpermitted work invisible)
 - **Published:** "One Family Paid $193,000 for an ADU That Was Never Built. The Warning Signs Were Public the Whole Time." (Catherine Chen, queued 2027-03-07)
+
+### 31. 🟢 AI Water Heater TPR Valve Discharge Photo Inspection
+- IRC 2021 P2804.6.1: 14 requirements for the discharge pipe; 9 photo-checkable
+- Spencer, Oklahoma 1982 explosion (6 children + teacher, malfunctioning TPR valve)
+- HUD NSPIRE Severe deficiency, 24-hour correction; MythBusters 335-psi rupture test
+- Spectora AI Report Assist (June 2026): 25% report-time savings via voice+photo matching
+- Original: single-photo audit matrix; $150 fix vs ~$550 failed final (3.6x break-even)
+- **Published:** "Fourteen Rules Govern the One Pipe on Your Water Heater Nobody Looks At." (Catherine Chen) — SHIP_READY, ships 2027-03-27
