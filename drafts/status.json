@@ -9796,27 +9796,32 @@
       "draft_file": "drafts/ai-excavation-subsurface-dirt-math-strike-cost-2026.html",
       "publish_note": "Queued ship-ready behind existing queue (last ship_after 2027-03-30); next open slot 2027-03-31. Publisher drains in ship_after order.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 950,
+      "slug": "ai-hurricane-strap-photo-audit-wind-mitigation-2026",
+      "journalist": "Catherine Chen",
+      "headline": "Your Roof Is Held Down by $20 Worth of Steel. The Insurance Company Trusts One Photo of It.",
+      "ship_after": "2027-04-01",
+      "primary_sources": 8,
+      "critic_scores": {
+        "general": 8.9,
+        "voice": 9.0,
+        "ethics": 8.9,
+        "social": 8.5,
+        "legal": 8.9,
+        "rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "critique_rounds": 1,
+      "hero": "images/ai-hurricane-strap-photo-audit-wind-mitigation-2026.jpg?v=a6f81d05"
     }
   ],
   "last_checked": "2026-09-23T06:30:00-07:00",
   "current": {
-    "article_number": 950,
-    "slug": "ai-hurricane-strap-photo-audit-wind-mitigation-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Catherine Chen",
-    "started": "2026-09-23T06:30:00-07:00",
-    "headline": "Your Roof Is Held Down by $20 Worth of Steel. The Insurance Company Trusts One Photo of It.",
-    "research_file": "drafts/ai-hurricane-strap-photo-audit-wind-mitigation-2026-research.md",
-    "primary_sources": 8,
-    "critique_round": 0,
-    "gates": {
-      "em_dashes": 0,
-      "the_starters_pct": 0.9,
-      "banned_phrases": 0,
-      "rhythm_variance": 236.8,
-      "rhythm_short_pct": 10.3,
-      "rhythm_long_pct": 44.3,
-      "all_pass": true
-    }
+    "phase": "IDLE",
+    "article_number": null,
+    "critique_round": null,
+    "note": "#950 SHIP_READY 2027-04-01; queue extends to 2027-04-01"
   }
 }
