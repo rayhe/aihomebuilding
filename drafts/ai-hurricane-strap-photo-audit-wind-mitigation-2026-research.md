@@ -69,4 +69,4 @@ Connectors only help if the whole load path is sound. A strapped roof on a stapl
 5. Home Innovation, Retrofit Improvements - Roof to Wall Connection (cost data, Simpson catalog): https://www.homeinnovation.com/documents/Reports/Retrofit-Improvements-Roof-to-Wall-Connection.pdf
 6. Louisiana Regulation 136 / Act 533 mandatory FORTIFIED discounts (Insurance Journal): https://www.insurancejournal.com/news/southcentral/2026/03/10/861210.htm?print
 7. MDPI Buildings 16-02637, agentic AI roof design compliance (CV connector gap): https://mdpi-res.com/d_attachment/buildings/buildings-16-02637/article_deploy/buildings-16-02637.pdf
-8. FLASH via Pro Builder (50-cent straps): https://www.probuilder.com/construction/codes-standards/article/55207534/reinforcing-roofs-to withstand-hurricanes-not-expensive-says-florida-non-profit
+8. FLASH via Pro Builder (50-cent straps): https://www.probuilder.com/construction/codes-standards/article/55207534/reinforcing-roofs-to-withstand-hurricanes-not-expensive-says-florida-non-profit
