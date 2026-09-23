@@ -9490,8 +9490,59 @@
       "draft_file": "drafts/ai-slab-leak-acoustic-detection-spot-repair-reroute-2026.html",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-24), next open slot 2027-03-25.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 944,
+      "number": 944,
+      "slug": "drywall-finishing-robot-canvas-jlg-break-even-2026",
+      "headline": "A 1,200-Pound Robot Finishes Drywall in 2 Days. Your House Is Too Small for It.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-26",
+      "started": "2026-09-22T18:02:00-07:00",
+      "completed": "2026-09-22T18:20:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.83,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 205.8,
+          "short_pct": 1.5,
+          "long_pct": 43.9,
+          "passed": true
+        }
+      },
+      "hero_hash": "23b996a2",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, verified on-screen: wheeled robot with arm spraying joint compound on drywall, warm job-site lighting, worker observing",
+      "primary_sources": 10,
+      "research_file": "drafts/drywall-finishing-robot-canvas-jlg-break-even-2026-research.md",
+      "draft_file": "drafts/drywall-finishing-robot-canvas-jlg-break-even-2026.html",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-25), next open slot 2027-03-26.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T16:55:00-07:00",
+  "last_checked": "2026-09-22T18:20:00-07:00",
   "current": null
 }
