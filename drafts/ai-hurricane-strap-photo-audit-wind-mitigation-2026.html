@@ -167,7 +167,27 @@
 			color: var(--accent);
 			font-family: 'Playfair Display', serif;
 		}
-		.pull-stat .label {
+		.data-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0 0.5rem;
+			font-size: 0.95rem;
+		}
+		.data-table th, .data-table td {
+			border: 1px solid var(--border);
+			padding: 0.6rem 0.9rem;
+			text-align: left;
+		}
+		.data-table th {
+			background: var(--bg-card);
+			font-weight: 700;
+		}
+		.data-table td:last-child, .data-table th:last-child { text-align: right; }
+		.table-note {
+			font-size: 0.85rem;
+			color: var(--text-muted);
+			margin: 0 0 1.2rem;
+		}
 			display: block;
 			margin-top: 0.3rem;
 			font-size: 0.95rem;
@@ -206,7 +226,7 @@
 
 			<p>The most valuable photograph in Florida residential construction is not the twilight hero shot on the listing. It is a blurry close-up of a bent piece of galvanized steel in a dark attic, taken by a licensed inspector who crawled up there on a Tuesday, and it is worth up to three thousand dollars a year in insurance premiums.</p>
 
-			<p>That photo attaches to OIR-B1-1802, the state's Uniform Mitigation Verification Inspection Form, four pages that decide how much of a wind discount your house earns. Question 4 asks exactly one thing: what is the weakest roof-to-wall connection on this property? Toe nails get an A and effectively no credit. Clips earn a B. Single wraps a C. Double wraps a D, the best grade available. Inspectors must attach at least one photograph validating each attribute, and once filed, the form stays valid for five years. If the attic is inaccessible, the answer is G, which means no credit at all.</p>
+			<p>That photo attaches to OIR-B1-1802, the state's Uniform Mitigation Verification Inspection Form, four pages that decide how much of a wind discount your house earns. Question 4 asks exactly one thing: what is the weakest roof-to-wall connection on this property? Toe nails get an A and effectively no credit. Clips earn a B. Single wraps a C. Double wraps a D, the best grade available. Inspectors must attach at least one photograph validating each attribute, and once filed, the form stays valid for up to five years. If the attic is inaccessible, the answer is G, which means no credit at all.</p>
 
 			<p>Your roof, in other words, is graded like a term paper, on hardware most homeowners have never heard of, from a photograph nobody will look at again for half a decade.</p>
 
@@ -229,11 +249,23 @@
 
 			<p>To qualify for anything above a toenail grade, every visible metal connector needs a minimum of three nails, less than a half-inch gap from the blocking, blocking within an inch and a half, and no visible severe corrosion. This is where do-it-yourself retrofits quietly die. Codes generally require nails for these connectors, and for good reason: a 16d common nail carries roughly 3,000 pounds of shear, comfortably more than the screws homeowners reach for. A weekend of work with the wrong fasteners can cost a thousand dollars and purchase exactly zero dollars of insurance credit, because the form denies the grade and the photo is the evidence.</p>
 
-			<p>And the photo is everything: at least one photograph must accompany the form to validate each attribute in questions 3 through 7, one photo per attribute. Then the form is good for five years, during which corrosion continues, attics get remodeled, and nobody looks again. All of it, the multi-thousand-dollar credit apparatus, rests on a human being glancing at a dark rectangle and deciding whether that smudge is a clip or a single wrap.</p>
+			<p>And the photo is everything: at least one photograph must accompany the form to validate each attribute in questions 3 through 7, one photo per attribute. Then the form is good for up to five years, during which corrosion continues, attics get remodeled, and nobody looks again. All of it, the multi-thousand-dollar credit apparatus, rests on a human being glancing at a dark rectangle and deciding whether that smudge is a clip or a single wrap.</p>
 
 			<h2>States that priced the discount into law</h2>
 
-			<p>Florida's system is credit-based: better hardware, bigger discount, documented by the form. Louisiana went further and wrote the discount into statute. Under Act 533 and the state insurance department's Regulation 136, insurers must offer premium discounts to homes carrying an IBHS FORTIFIED designation, with benchmarks set from Verisk and Moody's hurricane catastrophe models. That table is public and startlingly specific. On the hurricane portion of the premium: in the north zone, 16 to 24 percent off depending on the designation tier; central zone, 27 to 42 percent; south zone, 29 to 49 percent. It took effect for policies issued or renewed starting January 1, 2027.</p>
+			<p>Florida's system is credit-based: better hardware, bigger discount, documented by the form. Louisiana went further and wrote the discount into statute. Under Act 533 and the state insurance department's Regulation 136, insurers must offer premium discounts to homes carrying an IBHS FORTIFIED designation, with benchmarks set from Verisk and Moody's hurricane catastrophe models. That table is public and startlingly specific, applying to the hurricane portion of the premium:</p>
+
+			<table class="data-table">
+				<thead>
+					<tr><th>Zone</th><th>Discount on hurricane portion</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>North</td><td>16&ndash;24%</td></tr>
+					<tr><td>Central</td><td>27&ndash;42%</td></tr>
+					<tr><td>South</td><td>29&ndash;49%</td></tr>
+				</tbody>
+			</table>
+			<p class="table-note">Ranges reflect FORTIFIED designation tiers (Roof, Silver, Gold). Effective for policies issued or renewed starting January 1, 2027. Source: Louisiana Regulation 136 via Insurance Journal.</p>
 
 			<p>Louisiana also pays for the upgrade directly, through its Fortify Homes Program, which grants eligible homeowners up to $10,000 to cover the difference between a standard roof replacement and a FORTIFIED one, paid straight to the contractor so homeowners never front the capital. In Florida, the private math is nearly as stark: contractors estimate that documented clip upgrades alone can cut premiums 15 to 25 percent, and industry sources put a typical $1,500 wind-mitigation retrofit against up to $3,000 a year in premium savings. That is a six-month payback, before the next storm season.</p>
 
