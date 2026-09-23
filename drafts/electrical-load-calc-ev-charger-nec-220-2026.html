@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Panel Calculation Says 151 Amps. Your Utility Bill Says 83. The EV Charger Fits. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/stories/electrical-load-calc-ev-charger-nec-220-2026.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Panel Calculation Says 151 Amps. Your Utility Bill Says 83. The EV Charger Fits.",
+		"description": "An NEC Article 220.83 calculation says a typical 100A home needs a $4,800 service upgrade to add an EV charger. The same code book's 220.87 real-data path says the charger fits with room to spare. The difference is worth thousands, and most electricians only run the first calculation.",
+		"image": "https://aihomebuilding.com/images/electrical-load-calc-ev-charger-nec-220-2026.jpg?v=80af4805",
+		"datePublished": "2026-09-23",
+		"author": {
+			"@type": "Person",
+			"name": "Catherine Chen"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/stories/electrical-load-calc-ev-charger-nec-220-2026.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Panel Calculation Says 151 Amps. Your Utility Bill Says 83. The EV Charger Fits.">
+	<meta property="og:description" content="The NEC's paper calculation says your 100A panel can't take an EV charger. The code's own real-data path disagrees by 68 amps. Here's the math your electrician probably didn't run.">
+	<meta property="og:url" content="https://aihomebuilding.com/stories/electrical-load-calc-ev-charger-nec-220-2026.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/electrical-load-calc-ev-charger-nec-220-2026.jpg?v=80af4805">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Panel Calculation Says 151 Amps. Your Utility Bill Says 83. The EV Charger Fits.">
+	<meta name="twitter:description" content="The NEC's paper calculation says your 100A panel can't take an EV charger. The code's own real-data path disagrees by 68 amps.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/electrical-load-calc-ev-charger-nec-220-2026.jpg?v=80af4805">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+		.calc-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0 2rem;
+			font-size: 0.92rem;
+		}
+		.calc-table th, .calc-table td {
+			border: 1px solid var(--border);
+			padding: 0.6rem 0.8rem;
+			text-align: left;
+		}
+		.calc-table th {
+			background: var(--bg-card);
+			font-weight: 700;
+		}
+		.calc-table tr.total td {
+			font-weight: 700;
+			background: var(--bg-card);
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/electrical-load-calc-ev-charger-nec-220-2026.jpg?v=80af4805" alt="Electrician measuring current with a clamp meter inside an open residential breaker panel in a warmly lit garage, EV charging cable visible in the background" loading="eager">
+		<div class="overlay">
+			<span class="badge">Policy &amp; Regulation</span>
+			<h1>Your Panel Calculation Says 151 Amps. Your Utility Bill Says 83. The EV Charger Fits.</h1>
+			<div class="byline">By Catherine Chen &middot; September 23, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>The electrician spent eleven minutes in your panel before delivering the verdict. Your 100-amp service cannot handle a Level 2 EV charger, he said, not with the electric range, the dryer, and the water heater you already own. His fix is a service upgrade to 200 amps: $4,800, plus a permit, plus a utility shutdown, plus whatever your panel's age reveals once someone opens it up. Get it scheduled before winter, he added, because the heat pump quote coming next will demand the same capacity, and the utility shutdown behind it has to be coordinated weeks in advance.</p>
+
+			<p>He was probably right on the math. Which is precisely what makes this interesting: the number is correct, the worksheet is defensible, and the conclusion is still avoidable.</p>
+
+			<p>What he ran was the National Electrical Code's optional calculation for existing dwellings, the standard worksheet every electrician learns in school and reaches for without thinking, because it is fast, defensible, and almost always produces a number the existing service cannot touch. For a typical 2,000-square-foot house it produces a number so far past 100 amps that the charger never stood a chance. But the same code book contains a second, quieter path that most residential electricians never reach for. It uses your actual metered demand instead of the worksheet. For the same house, it lands 68 amps lower.</p>
+
+			<h2>The Paper Calculation That Fails</h2>
+
+			<p>Take the house. Two thousand square feet, gas furnace, a four-ton air conditioner drawing roughly 5.7 kilowatts, electric range at 12 kW, electric dryer at 5 kW, electric water heater at 4.5 kW, plus dishwasher, disposal, and microwave. <a href="https://nassaunationalcable.com/blogs/blog/nec-220-a-practical-guide-to-load-calculations-for-feeders-and-services" target="_blank">NEC Article 220.83</a> prices it like this:</p>
+
+			<table class="calc-table">
+				<tr><th>Load</th><th>Calculation</th><th>VA</th></tr>
+				<tr><td>General lighting and receptacles</td><td>2,000 sq ft &times; 3 VA</td><td>6,000</td></tr>
+				<tr><td>Small-appliance circuits</td><td>2 &times; 1,500 VA</td><td>3,000</td></tr>
+				<tr><td>Laundry circuit</td><td>1,500 VA</td><td>1,500</td></tr>
+				<tr><td>Fixed appliances (nameplate)</td><td>Range, dryer, water heater, dishwasher, disposal, microwave</td><td>25,000</td></tr>
+				<tr class="total"><td>General subtotal with demand factor</td><td>8,000 at 100% + 27,500 at 40%</td><td>19,000</td></tr>
+				<tr><td>HVAC (larger of heating or cooling)</td><td>4-ton AC</td><td>5,700</td></tr>
+				<tr class="total"><td>Existing dwelling total</td><td></td><td>24,700 VA = 103 A</td></tr>
+			</table>
+
+			<p>Read that again, because it matters: the house fails on paper before you buy a single thing, since a 103-amp calculated load on a 100-amp service is a violation waiting for the next inspector to notice.</p>
+
+			<p>Now add the 48-amp EV charger at its nameplate rating of 11,520 VA. EV charging counts as a continuous load (<a href="https://forums.mikeholt.com/threads/electrical-load-calculation.2583164/" target="_blank">NEC 625.42</a>), so it goes in at full rating with no discount. That divides out to one hundred fifty-one amps on a service the code rates for one hundred.</p>
+
+			<p>No sales tactic was involved; the worksheet genuinely says no, and he would be on the hook for violating the code if he installed against it.</p>
+
+			<h2>The Section of the Code Nobody Quotes</h2>
+
+			<p>NEC 220.87 does something the worksheet does not: it lets you size an existing service from recorded maximum demand. Twelve months of 15-minute interval data from your utility, multiplied by 125 percent. Plus the new load. Your actual peak, not the hypothetical Tuesday in February when the range, dryer, water heater, and heat strips all fire at once, which is the scenario the worksheet silently prices in.</p>
+
+			<p>Assume the utility data shows a recorded peak of 6.8 kilowatts. That figure comes from the <a href="https://www.pecanstreet.org/wp-content/uploads/2023/11/PSI-Panel-Paper-2023-Final.pdf" target="_blank">Pecan Street Research Institute's 2023 panel study</a>, which monitored 407 homes and found that only six of them, 1.5 percent, ever drew more than 20 kW, with nearly all of those events driven by electric resistance heat or EV charging; a gas-furnace house without an EV almost never breaks 10.</p>
+
+			<div class="pull-stat">
+				<span class="number">68 amps</span>
+				<span class="label">The gap between the NEC worksheet calculation (151A) and the real-data calculation (83A) for the same house, same EV charger, same code book.</span>
+			</div>
+
+			<p>Run the numbers: 6,800 VA times 1.25 equals 8,500, and adding the charger's 11,520 lands at 20,020 VA, or 83 amps on the same 100-amp service the worksheet condemned. It fits, with 17 amps to spare, and the code permits the calculation, which is the part that tends to surprise people who assumed the worksheet was the whole story.</p>
+
+			<p>This is not a loophole; the code authors wrote 220.87 precisely because worksheets overestimate real homes. If the twelve-month data does not exist, the section allows a 30-day recording ammeter during occupied peak season, with seasonal loads measured or calculated in.</p>
+
+			<h2>The Middle Path Your Electrician May Not Mention</h2>
+
+			<p>Suppose neither calculation carries the day, or suppose your utility cannot produce the interval data and your AHJ is one of the stricter ones that insists on the worksheet no matter what the meter says. There is a third option sitting between the $4,800 upgrade and giving up: a listed energy management device.</p>
+
+			<p>An EVEMS unit watches your whole-home current with CT clamps and throttles or pauses the charger when the house approaches service capacity. Real, certified products, real prices: the RVE DCC-12 lists at $985, ABB's EMEV-S51-1 at $1,381, Timely Electric's ACT-101 at $1,118, and Variablegrid's VarianHome line from $799 to $1,749, all CSA certified and published in <a href="https://pluginrichmond.ca/reports/EV-power-management-eligible-models.pdf" target="_blank">British Columbia's January 2026 eligible-devices list</a>. Installed cost typically lands between $800 and $1,650.</p>
+
+			<p>Downstream, the concept keeps moving: Schneider Electric's <a href="https://electrek.co/2026/08/25/481029/" target="_blank">Schneider Charge</a>, released in August 2026, builds dynamic load management into the 48-amp charger itself, monitoring the home and adjusting the charge rate automatically. Schneider cites panel and service upgrades at $2,000 to $6,500 as the cost it is designed to avoid. A <a href="https://www.ulandpower.com/blog/level-2-home-ev-charger-installation-guide/" target="_blank">2026 installation survey</a> found panel upgrades required in roughly 40 percent of homes, with total project costs ranging from $950 to over $7,000.</p>
+
+			<h2>What to Actually Do</h2>
+
+			<p>If you are electrifying a 100-amp home, the sequence matters more than any single product.</p>
+
+			<p>First, download twelve months of interval data from your utility before you accept a failed worksheet. It is free, it takes ten minutes, and it is the raw material for the 220.87 calculation that could make the whole question disappear.</p>
+
+			<p>Second, ask your electrician specifically for a 220.87 calculation. Not every AHJ accepts it, and not every electrician offers it unprompted, but you cannot get approval for a calculation nobody runs.</p>
+
+			<p>Third, get a quote for a listed EVEMS device alongside the upgrade quote. Eight hundred to sixteen hundred dollars against forty-eight hundred is a comparison worth seeing in writing, and the device carries a listing, not a hope.</p>
+
+			<p>One exception, and it is written into the code: if you have rooftop solar or any form of peak load shaving, 220.87 is off the table, because the section explicitly excludes it. For solar homes, the EVEMS path is the play.</p>
+
+			<h2>Why the Code Is Conservative on Purpose</h2>
+
+			<p>The strongest argument against everything above is also the simplest. The worksheet's conservatism is a feature.</p>
+
+			<p>A panel must survive the one February evening when the range, the dryer, the water heater, and the backup heat strips all fire simultaneously. Pecan Street's finding that 98.5 percent of homes never exceed 20 kW is no comfort if yours is one of the six. Load management devices insert another electronic component between your car and a charge; if a CT clamp drifts or firmware glitches, the "safe" system becomes a nuisance. And a 200-amp service, for all its expense, is dumb metal that never needs a software update.</p>
+
+			<p>There is also real money downstream, because Pecan Street's research puts a full service upgrade at $2,000 to $8,000, with utility-side transformer work adding $3,000 to $15,000 in rare cases, and if your neighborhood transformer is already saturated, no device on your wall changes that. Stated honestly, the thesis is narrower than the headline: many individual homes do not need the upgrade, but the grid might.</p>
+
+			<h2>Limitations</h2>
+
+			<p>The worked calculation uses assumed appliance nameplates, not a real house, and the optional method is one of two recognized paths; some jurisdictions require the standard method. Acceptance of 220.87 varies by AHJ, and the 30-day recording alternative must reflect occupied peak-season conditions with seasonal loads measured or calculated in. Pecan Street's 407-home sample skews toward monitored Texas and New York homes and does not capture every climate or gas-versus-electric mix. Cost figures are 2026 national ranges from installer surveys and manufacturer publications; Bay Area quotes routinely run higher. Those EVEMS devices are CSA-certified products common in the Canadian market and increasingly used in the US; confirm your AHJ accepts the specific listing before purchasing.</p>
+
+			<p>The code does not care about your feelings, as the saying goes among inspectors; but it does, in one quiet section, care about your meter, and that section could save you five thousand dollars. But it does, in one quiet section, care about your meter. Run both calculations before you write the check.</p>
+
+		</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>

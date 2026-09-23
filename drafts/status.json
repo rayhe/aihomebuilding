@@ -9643,14 +9643,59 @@
       "draft_file": "drafts/septic-tank-30-year-timer-ai-failure-prediction-2026.html",
       "hold_reason": "1/day rule: Publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-27), next open slot 2027-03-28.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 947,
+      "number": 947,
+      "slug": "electrical-load-calc-ev-charger-nec-220-2026",
+      "headline": "Your Panel Calculation Says 151 Amps. Your Utility Bill Says 83. The EV Charger Fits.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-29",
+      "started": "2026-09-23T00:10:00-07:00",
+      "completed": "2026-09-23T01:05:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.1,
+        "data_presentation": 9.0
+      },
+      "critique_average": 8.94,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 276.8,
+          "short_pct": 7.8,
+          "long_pct": 57.8,
+          "passed": true
+        }
+      },
+      "hero_hash": "80af4805",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, electrician measuring current with clamp meter inside open residential breaker panel, EV charging cable in garage background",
+      "primary_sources": 8,
+      "research_file": "drafts/electrical-load-calc-ev-charger-nec-220-2026-research.md",
+      "draft_file": "drafts/electrical-load-calc-ev-charger-nec-220-2026.html",
+      "hold_reason": "1/day rule: Publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-28), next open slot 2027-03-29.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T00:10:00-07:00",
-  "current": {
-    "slug": "electrical-load-calc-ev-charger-nec-220-2026",
-    "phase": "DRAFT",
-    "journalist": "Catherine Chen",
-    "article_number": 947,
-    "started": "2026-09-23T00:10:00-07:00"
-  }
+  "last_checked": "2026-09-23T01:05:00-07:00",
+  "current": null
 }
