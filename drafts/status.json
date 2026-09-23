@@ -9868,14 +9868,14 @@
       "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T10:15:00-07:00",
+  "last_checked": "2026-09-23T10:45:00-07:00",
   "current": {
     "slug": "ai-xactimate-claim-audit-underpaid-estimate-2026",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Frank DeLuca",
     "article_number": 952,
     "started": "2026-09-23T10:15:00-07:00",
-    "critique_round": null,
-    "note": "Research complete; 11 primary sources; kill test passed"
+    "critique_round": 0,
+    "note": "Draft complete; all hard gates pass (em-dash 0, the-starters 1.9%, banned 0, rhythm variance 224.6); hero JPEG verified FF D8 1920x1280; 2390 words"
   }
 }
