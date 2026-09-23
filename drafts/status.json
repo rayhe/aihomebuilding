@@ -3,7 +3,16 @@
     "slug": "pge-span-edge-meter-electrification-2026",
     "phase": "PUBLISHED",
     "at": "2026-09-23T12:15:00-07:00",
-    "article_number": 764
+    "article_number": 764,
+    "qa": {
+      "at": "2026-09-23T12:30:00-07:00",
+      "story": 200,
+      "hero": 200,
+      "og_tags": true,
+      "index_card": true,
+      "sitemap": "valid",
+      "note": "story 308->200 extensionless (site canonical form)"
+    }
   },
   "last_published_at": "2026-09-23T12:15:00-07:00",
   "ship_ready": [
@@ -9873,11 +9882,11 @@
       "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T12:15:00-07:00",
+  "last_checked": "2026-09-23T12:30:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#764 PUBLISHED 2026-09-23; #765 due 2026-09-23 (ship_after today)"
+    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-23 (ship_after today)"
   }
 }
