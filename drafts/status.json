@@ -9592,8 +9592,59 @@
       "draft_file": "drafts/tpr-valve-discharge-ai-photo-inspection-2026.html",
       "hold_reason": "1/day rule: 2 publishes already on 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-26), next open slot 2027-03-27.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 946,
+      "number": 946,
+      "slug": "septic-tank-30-year-timer-ai-failure-prediction-2026",
+      "headline": "Your Septic Tank Is a 30-Year Timer. The Last Guy Who Looked at It Is Gone.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-03-28",
+      "started": "2026-09-22T22:05:00-07:00",
+      "completed": "2026-09-22T22:45:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.84,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 231.4,
+          "short_pct": 13.3,
+          "long_pct": 50.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "68b1b5d5",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, verified on-screen: excavator uncovering concrete septic tank with lid open, drain field pipes in gravel trenches, worker with shovel at golden hour, suburban backyard",
+      "primary_sources": 12,
+      "research_file": "drafts/septic-tank-30-year-timer-ai-failure-prediction-2026-research.md",
+      "draft_file": "drafts/septic-tank-30-year-timer-ai-failure-prediction-2026.html",
+      "hold_reason": "1/day rule: Publish #753 shipped 2026-09-22 PT; queued behind existing ship_ready queue (last ship_after 2027-03-27), next open slot 2027-03-28.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-22T20:45:00-07:00",
+  "last_checked": "2026-09-22T22:45:00-07:00",
   "current": null
 }
