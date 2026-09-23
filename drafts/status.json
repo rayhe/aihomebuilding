@@ -9880,13 +9880,64 @@
       "draft_file": "drafts/ai-xactimate-claim-audit-underpaid-estimate-2026.html",
       "publish_note": "Queued ship-ready behind existing queue (last ship_after 2027-04-02); next open slot 2027-04-03. Publisher drains in ship_after order.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 953,
+      "number": 953,
+      "slug": "ai-parametric-facade-west-glass-cost-2026",
+      "headline": "Your West-Facing Glass Wall Costs $13,700. The Simulation Is Free.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-04",
+      "started": "2026-09-23T14:05:00-07:00",
+      "completed": "2026-09-23T15:10:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "critique_average": 8.99,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.4,
+          "short_pct": 9.4,
+          "long_pct": 60.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "5f10352b",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, west-facing glass wall at sunset with deep overhang shadows, warm interior glow",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-parametric-facade-west-glass-cost-2026-research.md",
+      "draft_file": "drafts/ai-parametric-facade-west-glass-cost-2026.html",
+      "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-04. Original contribution: worked $13,700 west-glass premium calc (install + 15yr cooling) with stated assumptions; Title 24 5%-west-cap framing; full-strength counterargument (the view is the product).",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T12:30:00-07:00",
+  "last_checked": "2026-09-23T15:10:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-23 (ship_after today)"
+    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-24 (ship_after); #953 queued SHIP_READY 2027-04-04"
   }
 }
