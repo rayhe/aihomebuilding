@@ -10151,9 +10151,58 @@
       "draft_file": "drafts/ai-anchor-bolt-spacing-photo-qa-foundation-2026.html",
       "publish_note": "Queued, not shipped: one article already published 2026-09-23 PT (one-per-day rule); next due 2026-09-24. Queue tail now 2027-04-08. Original contribution: missed-anchor-bolt first-principles calculation (~3 consecutive missed bolts erase the code's seismic safety margin on a typical 1,800 sq ft home, assumptions stated). Zero topic overlap vs existing slugs (anchor/holdown verified absent 2026-09-23).",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 958,
+      "number": 958,
+      "slug": "ai-membrane-before-backfill-photo-qa-2026",
+      "headline": "Nobody Checked Your Foundation Waterproofing. The Backfill Buried the Evidence.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-09",
+      "started": "2026-09-24T04:02:00-07:00",
+      "completed": "2026-09-24T04:30:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "critique_average": 8.83,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "passed": true
+        }
+      },
+      "hero_hash": "2efec323",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "research_file": "drafts/ai-membrane-before-backfill-photo-qa-2026-research.md",
+      "draft_file": "drafts/ai-membrane-before-backfill-photo-qa-2026.html",
+      "critique_file": "drafts/ai-membrane-before-backfill-photo-qa-2026-critique.md",
+      "publish_note": "Queued, not shipped: Publish #765 already shipped 2026-09-24 PT (one-per-day rule). Kill-test passed; membrane/backfill coverage gap angle is novel vs 957+ stories in repo (zero prior membrane coverage). Real JPEG hero, validated ff d8, 1920x1280. 1 hard-gate revision (The-starters 20.5% -> 9.3%).",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T02:05:00-07:00",
+  "last_checked": "2026-09-24T04:30:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
