@@ -10033,13 +10033,64 @@
       "draft_file": "drafts/ai-dryer-vent-length-lint-fire-code-2026.html",
       "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-06. Original contribution: 36.5-ft equivalent-length worked example for second-floor laundry (24 ft + 2 mitered 90s + 1 mitered 45), booster-fan-prohibition vs UL 705 ventilator distinction, three free audit checks (tissue/thermal/borescope). Zero topic overlap vs 900+ articles.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 956,
+      "number": 956,
+      "slug": "shower-pan-flood-test-15-minute-code-24-hour-gap-2026",
+      "headline": "Your Shower Passed Inspection in 15 Minutes. The Leak Needed Four Years to Show Up.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-07",
+      "started": "2026-09-23T20:05:00-07:00",
+      "completed": "2026-09-23T20:45:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "critique_average": 8.8,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 7.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 205.2,
+          "short_pct": 10.4,
+          "long_pct": 63.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "cae75c67",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "research_file": "drafts/shower-pan-flood-test-15-minute-code-24-hour-gap-2026-research.md",
+      "draft_file": "drafts/shower-pan-flood-test-15-minute-code-24-hour-gap-2026.html",
+      "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-07. Original contribution: shower-pan flood-test detection-floor math (147 mL/min for 15-min test, 1.5 mL/min for 24-hr test on a 5x3 pan) with stated assumptions, plus the gradual-damage insurance exclusion trap. Zero topic overlap vs 919 existing slugs (shower/pan/flood-test previously uncovered).",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T18:40:00-07:00",
+  "last_checked": "2026-09-23T20:45:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-24 (ship_after); #955 queued SHIP_READY 2027-04-06"
+    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-24 (ship_after); #956 queued SHIP_READY 2027-04-07"
   }
 }
