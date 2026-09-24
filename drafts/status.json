@@ -1062,7 +1062,7 @@
       },
       "hard_gates": {
         "em_dash": {
-          "count": 1,
+          "count": 0,
           "limit": 3,
           "passed": true
         },
@@ -1088,7 +1088,14 @@
       "rounds": 0,
       "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #765 queued for 2026-09-04 through 2026-09-23",
       "draft_file": "drafts/ai-punch-list-video-defect-detection-2026.html",
-      "hero_file": "images/ai-punch-list-video-defect-detection-2026.jpg"
+      "hero_file": "images/ai-punch-list-video-defect-detection-2026.jpg",
+      "markup": "converted to current article-hero/article-container/article-body + bootstrap.min.css/print.css convention 2026-09-24 (was retired story-page/story-body/story.css); body prose byte-identical",
+      "hero_verified": {
+        "real_jpeg": true,
+        "size": "1920x1280",
+        "path": "images/ai-punch-list-video-defect-detection-2026.jpg"
+      },
+      "ship_ready_verified": "2026-09-24T06:10:00-07:00"
     },
     {
       "article_number": 767,
@@ -10202,11 +10209,11 @@
       "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T04:32:00-07:00",
+  "last_checked": "2026-09-24T06:10:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#765 PUBLISHED+QA 2026-09-24; #766 due 2026-09-25 (ship_after 2026-09-24, 1/day rule); #958 queued SHIP_READY 2027-04-09 (queue now 218)"
+    "note": "#765 PUBLISHED+QA 2026-09-24; #766 markup converted to current convention + verified ready for 2026-09-25 ship (1/day rule); #958 queued SHIP_READY 2027-04-09 (queue now 218)"
   }
 }
