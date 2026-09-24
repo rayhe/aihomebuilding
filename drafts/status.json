@@ -10084,9 +10084,60 @@
       "draft_file": "drafts/shower-pan-flood-test-15-minute-code-24-hour-gap-2026.html",
       "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-07. Original contribution: shower-pan flood-test detection-floor math (147 mL/min for 15-min test, 1.5 mL/min for 24-hr test on a 5x3 pan) with stated assumptions, plus the gradual-damage insurance exclusion trap. Zero topic overlap vs 919 existing slugs (shower/pan/flood-test previously uncovered).",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 957,
+      "number": 957,
+      "slug": "ai-anchor-bolt-spacing-photo-qa-foundation-2026",
+      "headline": "Your House Sits on Thirty Bolts. Nobody Counted Them.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-08",
+      "started": "2026-09-23T22:00:00-07:00",
+      "completed": "2026-09-23T22:15:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "critique_average": 8.84,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 256.7,
+          "short_pct": 11.6,
+          "long_pct": 43.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "7657546c",
+      "hero_real_jpeg": true,
+      "primary_sources": 9,
+      "research_file": "drafts/ai-anchor-bolt-spacing-photo-qa-foundation-2026-research.md",
+      "draft_file": "drafts/ai-anchor-bolt-spacing-photo-qa-foundation-2026.html",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-23 PT (one-per-day rule); next due 2026-09-24. Queue tail now 2027-04-08. Original contribution: missed-anchor-bolt first-principles calculation (~3 consecutive missed bolts erase the code's seismic safety margin on a typical 1,800 sq ft home, assumptions stated). Zero topic overlap vs existing slugs (anchor/holdown verified absent 2026-09-23).",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T20:45:00-07:00",
+  "last_checked": "2026-09-23T22:15:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
