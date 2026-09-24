@@ -10313,13 +10313,65 @@
       "critique_file": "drafts/ai-soil-compaction-verification-residential-fill-2026-critique.md",
       "publish_note": "Queued, not shipped: Publish #765 already shipped 2026-09-24 PT (one-per-day rule). Kill-test passed; residential compaction-verification asymmetry + 100:1 testing arithmetic is the original contribution, novel vs 339 stories + 219 queued (zero prior compaction coverage). Real JPEG hero, validated ff d8, 1920x1280. 2 hard-gate revisions (The-starters 16.4% -> 11.1%; rhythm variance 96.8 -> 276.8).",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 961,
+      "number": 961,
+      "slug": "ai-rebar-cover-photo-audit-foundation-pour-2026",
+      "headline": "Your Footing's Rebar Needs 3 Inches of Cover. Nobody Brought a Tape Measure.",
+      "journalist": "Frank \"The Foreman\" DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-12",
+      "started": "2026-09-24T12:10:00-07:00",
+      "completed": "2026-09-24T12:35:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "critique_average": 8.8,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.2,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 201.5,
+          "short_pct": 7.4,
+          "long_pct": 66.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "4a4ce515",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "research_file": "drafts/ai-rebar-cover-photo-audit-foundation-pour-2026-research.md",
+      "draft_file": "drafts/ai-rebar-cover-photo-audit-foundation-pour-2026.html",
+      "critique_file": "drafts/ai-rebar-cover-photo-audit-foundation-pour-2026-critique.md",
+      "publish_note": "Queued, not shipped: Publish #765 shipped 2026-09-24 PT (one-per-day rule); #766 ready 2026-09-25; queue tail was 2027-04-11. Kill-test passed; original contribution = rebar cover-cost arithmetic (38:1 vs spall repair, 500:1 vs rebuild), novel vs 339 stories + 220 queued (zero prior rebar coverage). Real JPEG hero, validated ff d8, 1920x1280. 7 rhythm revisions (variance 116.5 -> 201.5).",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T10:50:00-07:00",
+  "last_checked": "2026-09-24T12:35:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#765 PUBLISHED+QA 2026-09-24; #766 verified ready for 2026-09-25 ship (1/day rule); #960 queued SHIP_READY 2027-04-11 (queue now 220)"
+    "note": "#765 PUBLISHED+QA 2026-09-24; #766 verified ready for 2026-09-25 ship (1/day rule); #961 queued SHIP_READY 2027-04-12 (queue now 221)"
   }
 }
