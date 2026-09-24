@@ -14,7 +14,7 @@
       "note": "story 308->200 extensionless (site canonical form)"
     }
   },
-  "last_published_at": "2026-09-23T12:15:00-07:00",
+  "last_published_at": "2026-09-24T12:15:00-07:00",
   "ship_ready": [
     {
       "article_number": 742,
@@ -987,7 +987,7 @@
       "slug": "ai-construction-draw-agent-lender-approval-2026",
       "headline": "Your Builder's Draw Got AI-Approved in 3 Minutes. The Check Still Takes 9 Days.",
       "journalist": "Frank DeLuca",
-      "phase": "SHIP",
+      "phase": "PUBLISHED",
       "ship_after": "2026-09-23",
       "started": "2026-09-04T01:05:00+00:00",
       "critique_score": 8.83,
@@ -1026,7 +1026,10 @@
       "primary_sources": 6,
       "research_file": "drafts/ai-construction-draw-agent-lender-approval-2026-research.md",
       "rounds": 1,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #764 queued for 2026-09-04 through 2026-09-22"
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #764 queued for 2026-09-04 through 2026-09-22",
+      "published_at": "2026-09-24T12:15:00-07:00",
+      "draft_file": "stories/ai-construction-draw-agent-lender-approval-2026.html",
+      "publish_note": "Published 2026-09-24 PT per 1/day rule; converted to new markup (article-hero/article-container/article-body, bootstrap+print css) at ship."
     },
     {
       "article_number": 766,
@@ -10139,9 +10142,8 @@
   ],
   "last_checked": "2026-09-23T22:15:00-07:00",
   "current": {
-    "phase": "IDLE",
-    "article_number": null,
-    "critique_round": null,
-    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-24 (ship_after); #957 queued SHIP_READY 2027-04-08"
+    "phase": "PUBLISHING",
+    "article_number": 765,
+    "note": "#765 PUBLISHED 2026-09-24 (commit pending); #766 due 2026-09-24 (ship_after) but 1/day rule defers to 2026-09-25"
   }
 }
