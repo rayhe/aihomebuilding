@@ -1044,3 +1044,14 @@ When you discover a new topic worth covering, add it here with:
 - Spectora AI Report Assist (June 2026): 25% report-time savings via voice+photo matching
 - Original: single-photo audit matrix; $150 fix vs ~$550 failed final (3.6x break-even)
 - **Published:** "Fourteen Rules Govern the One Pipe on Your Water Heater Nobody Looks At." (Catherine Chen) — SHIP_READY, ships 2027-03-27
+
+### 32. 🟢 AI Soil Compaction Verification for Residential Fill
+- FHWA intelligent compaction spec (accelerometer + RTK-GPS + IC-MV color maps); Caltrans Veta daily QC; residential pads get zero mandated field-density tests
+- Testing Engineers fee schedule: Proctor $190, nuclear gauge $50/day, tech $60/hr; field density test ~$20/test (2011 Pasco schedule)
+- JLC 1996: 17% of foundation problems = improperly compacted fill; $4-5K prevention vs $60K+ repair
+- ASCE via Align: ~1 in 4 homes affected by settling; 10% severe; expansive soils $15B/yr US
+- Zorn ZFG 3000 GPS LWD (ASTM E2835-11, 10K GPS-tagged measurements); MDPI 2023 Arduino LWD research kit
+- Original contribution: residential verification asymmetry vs highways; ~100:1 testing arithmetic; IC->LWD->Arduino tech funnel; nobody sells the service
+- Strongest counterargument: moisture/expansive clay dominates settlement; LWD measures stiffness not density; verification is not vaccination
+- Journalist: Jake Kowalski (construction tech beat)
+- **Queued SHIP 2027-04-11 as #960:** "The Highway Got GPS-Mapped Compaction. Your House Got a Foreman Squinting at Dirt." (critique avg 8.77, rounds 2; gates: 0 em dashes, 11.1% The-starters, rhythm variance 276.8)
