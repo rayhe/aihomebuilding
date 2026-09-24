@@ -241,7 +241,14 @@ When you discover a new topic worth covering, add it here with:
 
 ## Recently Added
 
-### 27. ⚪ AI Trench & Excavation Safety Monitoring
+### 31. 🟢 In-Drum Concrete Intelligence — Slump & Water-Addition Monitoring
+- Command Alkon Load Assurance (ex-VERIFI) in-drum sensors: slump, temp, water additions, w/c ratio streamed in transit; MoDOT/Iowa State acceptance study
+- 1 gal/yd ≈ 1 inch slump, ~150-200 PSI lost per gallon, 2 gal/yd wipes strength overdesign (NRMCA CIP 26); ASTM C94 ticket-recording rules
+- Converge ConcreteDNA €19.4M raise May 2025, in-pour AI strength prediction; superplasticizer-vs-water actionable spec language
+- Jake Kowalski (construction tech)
+- **Published:** "Your Foundation Was 4,000 PSI at the Plant. It Was 3,200 PSI at Your Curb. The Water Did That." (queued 2027-04-10)
+
+### 27. 🟢 AI Trench & Excavation Safety Monitoring
 - AI vision (DroneDeploy Safety AI, EarthCam, Sitemetric) flagging unshored trenches, missing egress, spoil-pile violations
 - 3 in 4 trench deaths on residential jobsites; 86% competent-person absence; fine-to-rental cost arithmetic
 - Surveillance vs. worker protection; no regulation recognizes software as competent person
