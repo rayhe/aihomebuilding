@@ -9982,13 +9982,64 @@
       "draft_file": "drafts/ai-shear-wall-nail-count-photo-audit-shiner-2026.html",
       "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-05. Original contribution: 66-nails-per-sheet count, 1-in-4-miss capacity math on HUD 742-vs-754 lb/ft example, free 4-ft/9-nail photo check. Zero topic overlap vs 900+ articles; continues AI photo-QA series.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 955,
+      "number": 955,
+      "slug": "ai-dryer-vent-length-lint-fire-code-2026",
+      "headline": "Your Dryer Vent Run Is 36 Feet of Equivalent Duct. Code Allows 35.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-06",
+      "started": "2026-09-23T18:05:00-07:00",
+      "completed": "2026-09-23T18:40:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.8,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 209.5,
+          "short_pct": 13.1,
+          "long_pct": 52.5,
+          "passed": true
+        }
+      },
+      "hero_hash": "ae4fafb8",
+      "hero_real_jpeg": true,
+      "primary_sources": 4,
+      "research_file": "drafts/ai-dryer-vent-length-lint-fire-code-2026-research.md",
+      "draft_file": "drafts/ai-dryer-vent-length-lint-fire-code-2026.html",
+      "publish_note": "Queued, not shipped: #764 published 2026-09-23 PT (one-per-day rule); #765 due 2026-09-24. Queue tail now 2027-04-06. Original contribution: 36.5-ft equivalent-length worked example for second-floor laundry (24 ft + 2 mitered 90s + 1 mitered 45), booster-fan-prohibition vs UL 705 ventilator distinction, three free audit checks (tissue/thermal/borescope). Zero topic overlap vs 900+ articles.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-23T18:10:00-07:00",
+  "last_checked": "2026-09-23T18:40:00-07:00",
   "current": {
-    "phase": "DRAFT",
-    "article_number": 955,
+    "phase": "IDLE",
+    "article_number": null,
     "critique_round": null,
-    "note": "#955 DRAFT: dryer vent equivalent-length/lint-fire (Jake Kowalski); ship_after 2027-04-06"
+    "note": "#764 PUBLISHED+QA 2026-09-23; #765 due 2026-09-24 (ship_after); #955 queued SHIP_READY 2027-04-06"
   }
 }
