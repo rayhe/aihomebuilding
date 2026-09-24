@@ -10417,18 +10417,71 @@
       "critique_file": "drafts/v2h-ev-battery-home-backup-cost-2026-critique.md",
       "publish_note": "Queued, not shipped: Publish #765 shipped 2026-09-24 PT (one-per-day rule); #766 ready 2026-09-25; queue tail was 2027-04-12. Kill-test passed; original contribution = the rough-in arbitrage (pre-wire at construction for hundreds vs $4,800-$11,000 retrofit, up to $30,000 quoted), novel vs 339 stories + 221 queued (zero prior V2H/bidirectional coverage). Real JPEG hero, validated ff d8, 1920x1280. Rhythm variance 119.0 -> 156.2 across revisions.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 963,
+      "number": 963,
+      "slug": "ai-bath-fan-attic-termination-photo-audit-2026",
+      "headline": "Your Bath Fan Dumps 44 Gallons of Water Into Your Attic Every Year. The Duct Ends Three Feet Short of the Roof.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-14",
+      "started": "2026-09-24T16:05:00-07:00",
+      "completed": "2026-09-24T16:45:00-07:00",
+      "critique_scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.1,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 8.9,
+        "data_presentation": 9.0
+      },
+      "critique_average": 9.0,
+      "rounds": 0,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 8.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 204.7,
+          "short_pct": 11.4,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "hero_hash": "9f549258",
+      "hero_real_jpeg": true,
+      "primary_sources": 8,
+      "word_count": 1650,
+      "research_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026-research.md",
+      "draft_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026.html",
+      "critique_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026-critique.md",
+      "publish_note": "Queued, not shipped: Publish #765 shipped 2026-09-24 PT (one-per-day rule); #766 verified ready 2026-09-25; queue tail was 2027-04-13. Kill-test passed; original contribution = termination ledger (rough-in $150-300 vs retrofit $800-1,800 vs remediation $1k-4k+, ~20:1) plus 44 gal/yr upper-bound moisture calc; novel vs 339 stories + 222 queued. Real JPEG hero, validated ff d8, 1920x1280. Rhythm variance 144.2 -> 204.7 across revisions.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T14:35:00-07:00",
+  "last_checked": "2026-09-24T16:50:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
     "note": "#962 queued SHIP_READY 2027-04-13 (queue now 222); #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
   },
-  "phase": "DRAFT",
-  "article_number": 963,
-  "slug": "ai-bath-fan-attic-termination-photo-audit-2026",
+  "phase": "IDLE",
+  "article_number": null,
+  "slug": null,
   "draft_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026.html",
   "research_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026-research.md",
   "hero_file": "images/ai-bath-fan-attic-termination-photo-audit-2026.jpg",
@@ -10436,5 +10489,5 @@
   "hero_real_jpeg": true,
   "draft_hash": "9f549258",
   "critique_round": null,
-  "note": "#963 drafted+hero 2026-09-24; #962 queued SHIP_READY 2027-04-13; #766 verified ready for 2026-09-25 ship; #765 PUBLISHED+QA 2026-09-24"
+  "note": "#963 queued SHIP_READY 2027-04-14 (queue now 223); #962 queued SHIP_READY 2027-04-13; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
 }

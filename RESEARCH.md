@@ -1055,3 +1055,14 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: moisture/expansive clay dominates settlement; LWD measures stiffness not density; verification is not vaccination
 - Journalist: Jake Kowalski (construction tech beat)
 - **Queued SHIP 2027-04-11 as #960:** "The Highway Got GPS-Mapped Compaction. Your House Got a Foreman Squinting at Dirt." (critique avg 8.77, rounds 2; gates: 0 em dashes, 11.1% The-starters, rhythm variance 276.8)
+
+### 33. 🟢 AI Bath Fan Attic Termination Photo Audit (COMPLETED 2026-09-24)
+- IRC M1501.1: mechanical exhaust must discharge to outdoors; attic/soffit/ridge vent/crawl space prohibited; one-sentence ban, decades old
+- Inspector field reports: Colorado inspector estimates 75% of bath fans he sees do not discharge to a roof vent (anecdotal, not a national study); InterNACHI threads full of duct-over-insulation photos with mold
+- Moisture math: 0.5 lbm vapor/shower x 2 showers/day x 365 = 365 lb/yr; /8.34 lb/gal = ~44 gallons per bathroom per year (upper bound); 3-bath house ~130 gal/yr
+- Termination ledger: rough-in duct to exterior $150-$300/fan marginal; post-drywall retrofit $800-$1,800/fan; attic mold remediation $1,000-$4,000 avg, up to $7,000-$10,000+; ~20:1 ratio
+- AI plan-review wave 2026: UpCodes AI Plan Review (June, 11M code sections, 6,000 jurisdictions, 800K professionals); PlanAId (Sept, egress/travel-distance/corridor validation) — both audit drawings, not attics; the defect is a field shortcut no drawing records
+- Scheduling root cause: rough-in crew hangs duct months before roofer cuts penetration; unowned interface, not incompetence
+- Strongest counterargument: arid climates dissipate the moisture for decades; every roof penetration is a future leak; code written for worst climate
+- Journalist: Frank "The Foreman" DeLuca (scheduling/process beat)
+- **Queued SHIP 2027-04-14 as #963:** "Your Bath Fan Dumps 44 Gallons of Water Into Your Attic Every Year. The Duct Ends Three Feet Short of the Roof." (critique avg 9.0, rounds 0; gates: 0 em dashes, 8.6% The-starters, rhythm variance 204.7; real JPEG hero 1920x1280, hash 9f549258)
