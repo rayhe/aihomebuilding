@@ -10583,31 +10583,124 @@
       "research_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026-research.md",
       "hero_file": "images/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.jpg",
       "started": "2026-09-24T22:10:00-07:00"
+    },
+    {
+      "article_number": 966,
+      "number": 966,
+      "slug": "chinese-drywall-silent-hurricane-ai-screening-2026",
+      "headline": "The $1.1 Billion Settlement Is Closed. The Poison Drywall Is Still for Sale.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "critique_score": 8.8,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.9,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 210.8,
+          "short_pct": 10.7,
+          "long_pct": 36.0
+        }
+      },
+      "hero_hash": "1b382bd6",
+      "hero_real_jpeg": true,
+      "primary_sources": 8,
+      "word_count": 1452,
+      "rounds": 1,
+      "research_file": "drafts/chinese-drywall-silent-hurricane-ai-screening-2026-research.md",
+      "draft_file": "drafts/chinese-drywall-silent-hurricane-ai-screening-2026.html",
+      "hero_file": "images/chinese-drywall-silent-hurricane-ai-screening-2026.jpg",
+      "ship_after": "2027-04-17",
+      "started": "2026-09-25T00:05:00-07:00",
+      "publish_note": "Queued, not shipped: one-per-day rule; queue tail was 2027-04-16. Kill-test passed; original contribution is the settlement-per-home math (~$244K/home vs $40-81/sq ft remediation ladder, i.e. the 'made whole' premium runs 1.5-3x raw remediation cost) plus the detection asymmetry ($400 XRF screen vs $80K-$165K liability, with sheet-level detection proven by CPSC since 2009). Marcus Washington labor angle: the boom-era hangers were never studied for exposure; remediation crews wore respirators the hangers never had."
     }
   ],
-  "last_checked": "2026-09-24T22:10:00-07:00",
+  "last_checked": "2026-09-25T00:30:00-07:00",
   "current": {
-    "phase": "IDLE"
+    "phase": "IDLE",
+    "article_number": 966,
+    "slug": "chinese-drywall-silent-hurricane-ai-screening-2026",
+    "draft_file": "drafts/chinese-drywall-silent-hurricane-ai-screening-2026.html",
+    "research_file": "drafts/chinese-drywall-silent-hurricane-ai-screening-2026-research.md",
+    "hero_file": "images/chinese-drywall-silent-hurricane-ai-screening-2026.jpg",
+    "hero_cache_bust": "1b382bd6",
+    "hero_real_jpeg": true,
+    "draft_hash": "12ba8d65",
+    "critique_round": 1,
+    "note": "Critique round 1 passed: all 7 critics >= 8.5 (min 8.7). Gates pass. Queued SHIP_READY after 2027-04-17; 2026-09-25 publish slot governed by one-per-day rule.",
+    "critique_score": 8.8,
+    "critique_scores": {
+      "general_editor": 8.8,
+      "voice_coach": 8.7,
+      "ethics_reviewer": 8.8,
+      "social_shareability": 8.9,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.8,
+      "data_presentation": 8.8
+    },
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 1.4,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "passed": true,
+        "variance": 210.8,
+        "short_pct": 10.7,
+        "long_pct": 36.0
+      }
+    }
   },
   "phase": "IDLE",
-  "article_number": 965,
-  "slug": "ai-gutter-sizing-1978-rainfall-intensity-audit-2026",
-  "draft_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.html",
-  "research_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026-research.md",
-  "hero_file": "images/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.jpg",
-  "hero_cache_bust": "7dd4b0b5",
+  "article_number": 966,
+  "slug": "chinese-drywall-silent-hurricane-ai-screening-2026",
+  "draft_file": "drafts/chinese-drywall-silent-hurricane-ai-screening-2026.html",
+  "research_file": "drafts/chinese-drywall-silent-hurricane-ai-screening-2026-research.md",
+  "hero_file": "images/chinese-drywall-silent-hurricane-ai-screening-2026.jpg",
+  "hero_cache_bust": "1b382bd6",
   "hero_real_jpeg": true,
-  "draft_hash": "9f549258",
+  "draft_hash": "12ba8d65",
   "critique_round": 1,
-  "note": "Critique round 1 passed: all 7 critics >= 8.5 (min 8.7). Gates pass. Queued SHIP_READY after 2027-04-15; 2026-09-24 already has published #765.",
-  "critique_score": 8.9,
+  "note": "Critique round 1 passed: all 7 critics >= 8.5 (min 8.7). Gates pass. Queued SHIP_READY after 2027-04-17; 2026-09-25 publish slot governed by one-per-day rule.",
+  "critique_score": 8.8,
   "critique_scores": {
     "general_editor": 8.8,
-    "voice_coach": 9.0,
-    "ethics_reviewer": 8.7,
-    "social_shareability": 9.2,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.9,
     "legal_accuracy": 9.0,
-    "research_rigor": 8.7,
+    "research_rigor": 8.8,
     "data_presentation": 8.8
   },
   "hard_gates": {
@@ -10617,7 +10710,7 @@
       "passed": true
     },
     "the_starters": {
-      "pct": 9.1,
+      "pct": 1.4,
       "limit": 15.0,
       "passed": true
     },
@@ -10627,9 +10720,9 @@
     },
     "sentence_rhythm": {
       "passed": true,
-      "variance": 213.0,
-      "short_pct": 13.5,
-      "long_pct": 44.9
+      "variance": 210.8,
+      "short_pct": 10.7,
+      "long_pct": 36.0
     }
   }
 }
