@@ -10470,14 +10470,67 @@
       "critique_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026-critique.md",
       "publish_note": "Queued, not shipped: Publish #765 shipped 2026-09-24 PT (one-per-day rule); #766 verified ready 2026-09-25; queue tail was 2027-04-13. Kill-test passed; original contribution = termination ledger (rough-in $150-300 vs retrofit $800-1,800 vs remediation $1k-4k+, ~20:1) plus 44 gal/yr upper-bound moisture calc; novel vs 339 stories + 222 queued. Real JPEG hero, validated ff d8, 1920x1280. Rhythm variance 144.2 -> 204.7 across revisions.",
       "critique_self_assessed": true
+    },
+    {
+      "article_number": 964,
+      "number": 964,
+      "slug": "ai-condensate-drain-photo-audit-attic-flood-math-2026",
+      "headline": "Your Attic AC Makes 20 Gallons of Water a Day. Its Safety Pan Holds Six.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-15",
+      "started": "2026-09-24T18:05:00-07:00",
+      "completed": "2026-09-24T18:45:00-07:00",
+      "critique_scores": {
+        "general_editor": 8.6,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critique_average": 8.86,
+      "rounds": 1,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 335.0,
+          "short_pct": 13.8,
+          "long_pct": 45.7,
+          "passed": true
+        }
+      },
+      "hero_hash": "4355afa7",
+      "hero_real_jpeg": true,
+      "primary_sources": 5,
+      "word_count": 2156,
+      "research_file": "drafts/ai-condensate-drain-photo-audit-attic-flood-math-2026-research.md",
+      "draft_file": "drafts/ai-condensate-drain-photo-audit-attic-flood-math-2026.html",
+      "critique_file": "drafts/ai-condensate-drain-photo-audit-attic-flood-math-2026-critique.md",
+      "publish_note": "Queued, not shipped: Publish #765 shipped 2026-09-24 PT (one-per-day rule); #766 verified ready 2026-09-25; queue tail was 2027-04-14. Kill-test passed; original contribution is the weekend-flood math (5.85-gal code-min pan fills in 7.3 runtime-hrs, ~45-60 gal over a 3-day weekend) plus the $13.52-$37.84 UL 508 switch vs $15,400 claim ledger; novel vs 526 existing slugs (zero prior condensate/pan/float-switch coverage). Real JPEG hero, validated ff d8, 1920x1280. Gates failed round 0 (The-starters 29%, short 25.2%), fixed in revision.",
+      "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T16:50:00-07:00",
+  "last_checked": "2026-09-24T18:50:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#962 queued SHIP_READY 2027-04-13 (queue now 222); #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
+    "note": "#964 queued SHIP_READY 2027-04-15 (queue now 224); #963 queued SHIP_READY 2027-04-14; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
   },
   "phase": "IDLE",
   "article_number": null,
@@ -10489,5 +10542,5 @@
   "hero_real_jpeg": true,
   "draft_hash": "9f549258",
   "critique_round": null,
-  "note": "#963 queued SHIP_READY 2027-04-14 (queue now 223); #962 queued SHIP_READY 2027-04-13; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
+  "note": "#964 queued SHIP_READY 2027-04-15 (queue now 224); #963 queued SHIP_READY 2027-04-14; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
 }
