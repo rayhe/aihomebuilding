@@ -10538,18 +10538,19 @@
       "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T20:15:00-07:00",
+  "last_checked": "2026-09-24T22:10:00-07:00",
   "current": {
-    "phase": "IDLE",
-    "article_number": null,
-    "critique_round": null,
-    "note": "#964 queued SHIP_READY 2027-04-15 (queue now 224); #963 queued SHIP_READY 2027-04-14; #767 draft converted to current markup, hero verified; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
+    "phase": "DRAFT",
+    "article_number": 965,
+    "slug": "ai-gutter-sizing-1978-rainfall-intensity-audit-2026",
+    "journalist": "Frank DeLuca",
+    "started": "2026-09-24T22:10:00-07:00"
   },
-  "phase": "IDLE",
-  "article_number": null,
-  "slug": null,
-  "draft_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026.html",
-  "research_file": "drafts/ai-bath-fan-attic-termination-photo-audit-2026-research.md",
+  "phase": "DRAFT",
+  "article_number": 965,
+  "slug": "ai-gutter-sizing-1978-rainfall-intensity-audit-2026",
+  "draft_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.html",
+  "research_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026-research.md",
   "hero_file": "images/ai-bath-fan-attic-termination-photo-audit-2026.jpg",
   "hero_cache_bust": "9f549258",
   "hero_real_jpeg": true,
