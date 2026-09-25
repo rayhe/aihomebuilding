@@ -10685,23 +10685,73 @@
       "ship_after": "2027-04-18",
       "started": "2026-09-25T04:05:00-07:00",
       "publish_note": "Queued, not shipped: #766 already published 2026-09-25 PT (one-per-day rule); queue tail was 2027-04-17. Kill-test passed; original contribution is the Addicks signal-to-noise math (29.3 mm/yr subsidence vs 1-2 mm/yr InSAR resolution = 15-30x SNR; 25.4mm damage threshold crossed in 0.87 yr) plus the detection asymmetry (free OPERA portal vs $16K average piering). Jake Kowalski tech angle: the satellite knew in year one."
+    },
+    {
+      "article_number": 968,
+      "number": 968,
+      "slug": "ai-stair-geometry-photo-audit-riser-tread-2026",
+      "headline": "Your Staircase Is the Prettiest Thing Your Architect Drew. Stairs Send a Million People to the ER Every Year.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 204.8,
+          "short_pct": 8.7,
+          "long_pct": 42.3
+        }
+      },
+      "hero_hash": "8dee336e",
+      "hero_real_jpeg": true,
+      "primary_sources": 7,
+      "word_count": 2161,
+      "rounds": 2,
+      "research_file": "drafts/ai-stair-geometry-photo-audit-riser-tread-2026-research.md",
+      "draft_file": "drafts/ai-stair-geometry-photo-audit-riser-tread-2026.html",
+      "hero_file": "images/ai-stair-geometry-photo-audit-riser-tread-2026.jpg",
+      "ship_after": "2027-04-19",
+      "started": "2026-09-25T06:30:00-07:00",
+      "publish_note": "Queued, not shipped: #766 already published 2026-09-25 PT (one-per-day rule); queue tail was 2027-04-18. Kill-test passed; original contribution is the photo-audit economics (phone LiDAR 1-2mm vs 9.5mm IRC tolerance = ~5x finer; $3,300 safer-stair cost vs ~$750/yr expected household injury cost = under-five-year payback) plus the audit correction (measure all risers, not just the six people look at, because the mid-flight rogue is the documented trip mechanism)."
     }
   ],
   "last_checked": "2026-09-25T04:30:00-07:00",
   "current": {
-    "phase": "DRAFT",
+    "phase": "SHIP_READY",
     "article_number": 968,
     "slug": "ai-stair-geometry-photo-audit-riser-tread-2026",
-    "headline": "Your Staircase Is the Most Beautiful Thing Your Architect Drew. It Might Also Be Illegal.",
+    "headline": "Your Staircase Is the Prettiest Thing Your Architect Drew. Stairs Send a Million People to the ER Every Year.",
     "journalist": "Elena Vasquez",
     "started": "2026-09-25T06:30:00-07:00",
     "research_file": "drafts/ai-stair-geometry-photo-audit-riser-tread-2026-research.md",
     "draft_file": "drafts/ai-stair-geometry-photo-audit-riser-tread-2026.html",
-    "hero_file": null,
-    "primary_sources": 7,
-    "note": "Research complete: 7 primary sources (IRC R311.7 code text, Blazewick 2018 NEISS study, Templer NSF stair research, Francksen 2020 inconsistent-riser biomechanics, CDC NIOSH measurement study, EHS Today, StairNet CV paper). Kill test passed; original contribution = Templer economics updated to 2026 dollars + 6-step audit protocol. Journalist: Elena Vasquez (design angle, due for rotation)."
+    "hero_file": "images/ai-stair-geometry-photo-audit-riser-tread-2026.jpg",
+    "ship_after": "2027-04-19"
   },
-  "phase": "CRITIQUE",
+  "phase": "IDLE",
   "article_number": 968,
   "slug": "ai-stair-geometry-photo-audit-riser-tread-2026",
   "draft_file": "drafts/satellite-insar-foundation-settlement-homeowner-2026.html",
@@ -10709,17 +10759,17 @@
   "hero_file": "images/satellite-insar-foundation-settlement-homeowner-2026.jpg",
   "hero_cache_bust": "e1545dfd",
   "hero_real_jpeg": true,
-  "draft_hash": "0ef36e67",
-  "critique_round": 1,
-  "note": "Critique round 1 passed: all 7 critics >= 8.5 (min 8.7). Gates pass. Queued SHIP_READY after 2027-04-18; 2026-09-25 publish slot already used by #766 (one-per-day rule).",
-  "critique_score": 8.87,
+  "draft_hash": "b2afa697",
+  "critique_round": 2,
+  "note": "Article #968 SHIP_READY, queued for 2027-04-19 (round 2, all critics >= 8.5, all hard gates pass)",
+  "critique_score": 8.83,
   "critique_scores": {
     "general_editor": 8.8,
-    "voice_coach": 8.7,
-    "ethics_reviewer": 9.0,
-    "social_shareability": 8.8,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.7,
     "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
+    "research_rigor": 8.7,
     "data_presentation": 8.8
   },
   "hard_gates": {
@@ -10729,7 +10779,7 @@
       "passed": true
     },
     "the_starters": {
-      "pct": 4.3,
+      "pct": 1.9,
       "limit": 15.0,
       "passed": true
     },
@@ -10739,9 +10789,9 @@
     },
     "sentence_rhythm": {
       "passed": true,
-      "variance": 203.1,
-      "short_pct": 11.3,
-      "long_pct": 37.1
+      "variance": 204.8,
+      "short_pct": 8.7,
+      "long_pct": 42.3
     }
   }
 }
