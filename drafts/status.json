@@ -10536,25 +10536,100 @@
       "critique_file": "drafts/ai-condensate-drain-photo-audit-attic-flood-math-2026-critique.md",
       "publish_note": "Queued, not shipped: Publish #765 shipped 2026-09-24 PT (one-per-day rule); #766 verified ready 2026-09-25; queue tail was 2027-04-14. Kill-test passed; original contribution is the weekend-flood math (5.85-gal code-min pan fills in 7.3 runtime-hrs, ~45-60 gal over a 3-day weekend) plus the $13.52-$37.84 UL 508 switch vs $15,400 claim ledger; novel vs 526 existing slugs (zero prior condensate/pan/float-switch coverage). Real JPEG hero, validated ff d8, 1920x1280. Gates failed round 0 (The-starters 29%, short 25.2%), fixed in revision.",
       "critique_self_assessed": true
+    },
+    {
+      "number": 965,
+      "article_number": 965,
+      "slug": "ai-gutter-sizing-1978-rainfall-intensity-audit-2026",
+      "headline": "The Rainfall Table Behind Your Gutters Stops at 1978. Your Roof Gets 2026 Rain.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-04-16",
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.2,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 213.0,
+          "short_pct": 13.5,
+          "long_pct": 44.9
+        }
+      },
+      "hero_hash": "7dd4b0b5",
+      "rounds": 1,
+      "draft_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.html",
+      "research_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026-research.md",
+      "hero_file": "images/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.jpg",
+      "started": "2026-09-24T22:10:00-07:00"
     }
   ],
   "last_checked": "2026-09-24T22:10:00-07:00",
   "current": {
-    "phase": "DRAFT",
-    "article_number": 965,
-    "slug": "ai-gutter-sizing-1978-rainfall-intensity-audit-2026",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-24T22:10:00-07:00"
+    "phase": "IDLE"
   },
-  "phase": "DRAFT",
+  "phase": "IDLE",
   "article_number": 965,
   "slug": "ai-gutter-sizing-1978-rainfall-intensity-audit-2026",
   "draft_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.html",
   "research_file": "drafts/ai-gutter-sizing-1978-rainfall-intensity-audit-2026-research.md",
-  "hero_file": "images/ai-bath-fan-attic-termination-photo-audit-2026.jpg",
-  "hero_cache_bust": "9f549258",
+  "hero_file": "images/ai-gutter-sizing-1978-rainfall-intensity-audit-2026.jpg",
+  "hero_cache_bust": "7dd4b0b5",
   "hero_real_jpeg": true,
   "draft_hash": "9f549258",
-  "critique_round": null,
-  "note": "#964 queued SHIP_READY 2027-04-15 (queue now 224); #963 queued SHIP_READY 2027-04-14; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
+  "critique_round": 1,
+  "note": "Critique round 1 passed: all 7 critics >= 8.5 (min 8.7). Gates pass. Queued SHIP_READY after 2027-04-15; 2026-09-24 already has published #765.",
+  "critique_score": 8.9,
+  "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.7,
+    "social_shareability": 9.2,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.7,
+    "data_presentation": 8.8
+  },
+  "hard_gates": {
+    "em_dash": {
+      "count": 0,
+      "limit": 3,
+      "passed": true
+    },
+    "the_starters": {
+      "pct": 9.1,
+      "limit": 15.0,
+      "passed": true
+    },
+    "banned_phrases": {
+      "count": 0,
+      "passed": true
+    },
+    "sentence_rhythm": {
+      "passed": true,
+      "variance": 213.0,
+      "short_pct": 13.5,
+      "long_pct": 44.9
+    }
+  }
 }
