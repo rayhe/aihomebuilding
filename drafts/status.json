@@ -50,7 +50,7 @@
   "hero_cache_bust": "e1545dfd",
   "hero_file": "images/satellite-insar-foundation-settlement-homeowner-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-25T10:01:52-07:00",
+  "last_checked": "2026-09-25T12:02:35.428138-07:00",
   "last_completed": {
     "article_number": 766,
     "at": "2026-09-25T02:20:00-07:00",
@@ -68,7 +68,7 @@
     "slug": "ai-punch-list-video-defect-detection-2026"
   },
   "last_published_at": "2026-09-25T02:08:00-07:00",
-  "note": "Run 2026-09-25 10:01: queue head #968 SHIP_READY (ship_after 2027-04-19); one-per-day rule: 2 publishes already today 2026-09-25 PT; queue deep at 228 SHIP_READY/SHIP (tail 2027-04); no new research/ship/QA needed; EXIT per 1/day rule",
+  "note": "2026-09-25 12:01 cron: #766 already published today PT (one-per-day rule); #968 SHIP_READY queued ship_after 2027-04-19. No ship action. Exited.",
   "phase": "IDLE",
   "research_file": "drafts/satellite-insar-foundation-settlement-homeowner-2026-research.md",
   "ship_ready": [
