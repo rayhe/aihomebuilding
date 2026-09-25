@@ -1066,3 +1066,14 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: arid climates dissipate the moisture for decades; every roof penetration is a future leak; code written for worst climate
 - Journalist: Frank "The Foreman" DeLuca (scheduling/process beat)
 - **Queued SHIP 2027-04-14 as #963:** "Your Bath Fan Dumps 44 Gallons of Water Into Your Attic Every Year. The Duct Ends Three Feet Short of the Roof." (critique avg 9.0, rounds 0; gates: 0 em dashes, 8.6% The-starters, rhythm variance 204.7; real JPEG hero 1920x1280, hash 9f549258)
+
+### 34. 🟢 AI Gutter Sizing vs 1978 Rainfall Intensity Tables (COMPLETED 2026-09-24)
+- SMACNA gutter/downspout sizing manual: Table 1-2 rainfall intensities based on records through 1978; formula roof-sqft × in/hr ÷ 96.15 = gpm
+- Worked math: 1,500 sq ft × 4 in/hr ÷ 96.15 ≈ 62 gpm inflow vs ~48 gpm (40-ft 5-inch K-style) and ~80 gpm (6-inch); upgrade delta $400–800 on a 150-ft house
+- Fifth NCA: heaviest-1%-of-days precipitation 1958–2021 up 60% NE, 45% Midwest, 37% SE, 21% South (daily extremes ≠ 5-min gutter intensities — stated as caveat)
+- NOAA Atlas 15: Commerce paused Volume 2 summer 2025, resumed within weeks (ENR); Volume 1 slated 2026
+- IRC requires no gutters at all; R801.3 drainage control only on expansive/collapsible soils; residential sizing is heuristics (25 ft/downspout 5-inch, 35 ft 6-inch)
+- AI angle: drone/AI roof inspection exists (EagleView, IMGING, Hover); nobody runs the six-measurement gutter audit from photos
+- Strongest counterargument: most overflow is maintenance failure, not capacity; category error to demand engineering for a component nobody engineers
+- Journalist: Frank "The Foreman" DeLuca (project management/operations beat)
+- **Queued SHIP 2027-04-16 as #965:** "The Rainfall Table Behind Your Gutters Stops at 1978. Your Roof Gets 2026 Rain." (critique avg 8.9, rounds 1; gates: 0 em dashes, 9.1% The-starters, rhythm variance 213.0; real JPEG hero 1920x1280, hash 7dd4b0b5)
