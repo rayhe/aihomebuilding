@@ -1141,7 +1141,20 @@
       "primary_sources": 8,
       "research_file": "drafts/sb800-right-to-repair-ai-defect-paper-trail-2026-research.md",
       "rounds": 2,
-      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #766 queued for 2026-09-04 through 2026-09-24"
+      "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #766 queued for 2026-09-04 through 2026-09-24",
+      "draft_file": "drafts/sb800-right-to-repair-ai-defect-paper-trail-2026.html",
+      "hero_file": "images/sb800-right-to-repair-ai-defect-paper-trail-2026.jpg",
+      "markup": "converted to current article-hero/article-container/article-body + bootstrap.min.css/print.css convention 2026-09-24 (was retired story-page/story-body/story.css); body prose byte-identical (12,119 chars)",
+      "hero_verified": {
+        "real_jpeg": true,
+        "path": "images/sb800-right-to-repair-ai-defect-paper-trail-2026.jpg"
+      },
+      "gates_rechecked": {
+        "em_dash": 0,
+        "banned_phrases": 0,
+        "og_tags": 6,
+        "when": "2026-09-24T20:15:00-07:00"
+      }
     },
     {
       "id": 768,
@@ -10525,12 +10538,12 @@
       "critique_self_assessed": true
     }
   ],
-  "last_checked": "2026-09-24T18:50:00-07:00",
+  "last_checked": "2026-09-24T20:15:00-07:00",
   "current": {
     "phase": "IDLE",
     "article_number": null,
     "critique_round": null,
-    "note": "#964 queued SHIP_READY 2027-04-15 (queue now 224); #963 queued SHIP_READY 2027-04-14; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
+    "note": "#964 queued SHIP_READY 2027-04-15 (queue now 224); #963 queued SHIP_READY 2027-04-14; #767 draft converted to current markup, hero verified; #766 verified ready for 2026-09-25 ship (1/day rule); #765 PUBLISHED+QA 2026-09-24"
   },
   "phase": "IDLE",
   "article_number": null,
