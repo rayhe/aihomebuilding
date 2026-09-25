@@ -2,9 +2,18 @@
  "last_completed": {
   "slug": "ai-punch-list-video-defect-detection-2026",
   "phase": "PUBLISHED",
-  "at": "2026-09-25T02:08:00-07:00",
+  "at": "2026-09-25T02:20:00-07:00",
   "article_number": 766,
-  "qa": "pending this run"
+  "qa": {
+   "at": "2026-09-25T02:20:00-07:00",
+   "story": 200,
+   "hero": 200,
+   "og_tags": true,
+   "index_card": true,
+   "sitemap": "valid",
+   "feed": null,
+   "note": "story 308->200 extensionless (site canonical form, same as #765); index.html shows card + 767 articles; sitemap valid with new URL; hero real JPEG 1920x1280"
+  }
  },
  "last_published_at": "2026-09-25T02:08:00-07:00",
  "ship_ready": [
@@ -10627,7 +10636,7 @@
    "publish_note": "Queued, not shipped: one-per-day rule; queue tail was 2027-04-16. Kill-test passed; original contribution is the settlement-per-home math (~$244K/home vs $40-81/sq ft remediation ladder, i.e. the 'made whole' premium runs 1.5-3x raw remediation cost) plus the detection asymmetry ($400 XRF screen vs $80K-$165K liability, with sheet-level detection proven by CPSC since 2009). Marcus Washington labor angle: the boom-era hangers were never studied for exposure; remediation crews wore respirators the hangers never had."
   }
  ],
- "last_checked": "2026-09-25T02:08:00-07:00",
+ "last_checked": "2026-09-25T02:20:00-07:00",
  "current": {
   "phase": "IDLE",
   "article_number": 966,
