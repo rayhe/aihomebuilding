@@ -50,710 +50,27 @@
  "hero_cache_bust": "e1545dfd",
  "hero_file": "images/satellite-insar-foundation-settlement-homeowner-2026.jpg",
  "hero_real_jpeg": true,
- "last_checked": "2026-09-26T04:30:00-07:00",
+ "last_checked": "2026-09-26T06:30:00-07:00",
  "last_completed": {
   "article_number": 767,
-  "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026",
   "at": "2026-09-26T02:10:00-07:00",
   "phase": "PUBLISHED",
   "qa": {
    "at": "2026-09-26T02:15:00-07:00",
-   "story": 200,
    "hero": 200,
-   "og_tags": true,
    "index_card": true,
+   "note": "story 308->200 extensionless (site canonical form); index.html shows card + 768 articles; sitemap valid with new URL; hero real JPEG 1920x1280",
+   "og_tags": true,
    "sitemap": "valid",
-   "note": "story 308->200 extensionless (site canonical form); index.html shows card + 768 articles; sitemap valid with new URL; hero real JPEG 1920x1280"
-  }
+   "story": 200
+  },
+  "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026"
  },
  "last_published_at": "2026-09-26T02:10:00-07:00",
- "note": "2026-09-26 04:01 cron: SHIP blocked (1/day met, #767 at 02:10 PT). Backfilled missing hero images for Sep 28 - Oct 6 queue items (5 generated, all gates pass). Queue: 205 unpublished, tail 2027-04-20.",
+ "note": "2026-09-26 06:01 cron: SHIP blocked (1/day met, 2 Publish commits 2026-09-26 PT incl #767). Queue hygiene: pruned 33 stale ship_ready entries (already in stories/) + 4 slug-less entries. Generated 4 missing heroes (asbestos-vermiculite, geotech-pier-tax, manual-j-oversize, wildfire-smoke-indoor-air), all real JPEG ff d8; draft cache-bust hashes updated. Queue: 192 ship_ready, tail 2027-04-20.",
  "phase": "IDLE",
  "research_file": "drafts/satellite-insar-foundation-settlement-homeowner-2026-research.md",
  "ship_ready": [
-  {
-   "article_number": 742,
-   "critique_score": 8.9,
-   "critique_scores": {
-    "construction_expert": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.1,
-    "social_shareability": 8.7,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 90.3,
-     "mean": 61.7,
-     "median": 60.5,
-     "passed": true,
-     "short_pct": 6.5,
-     "variance": 750.8
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 2.4
-    }
-   },
-   "headline": "HUD Just Offered $10M to Build Homes With Robots. A Colorado Town Already Built Seven.",
-   "hero_hash": "53fe65cd",
-   "journalist": "Jake Kowalski",
-   "number": 742,
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "published_at": "2026-09-01T13:09:25.204266+00:00",
-   "research_file": "drafts/hud-ai-robotics-factory-housing-cleora-3d-community-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-01",
-   "slug": "hud-ai-robotics-factory-housing-cleora-3d-community-2026",
-   "started": "2026-09-01T13:03:43.837869+00:00"
-  },
-  {
-   "article_number": 739,
-   "critique_score": 9.1,
-   "critique_scores": {
-    "construction_expert": 9.0,
-    "ethics_reviewer": 9.1,
-    "general_editor": 9.0,
-    "legal_accuracy": 9.3,
-    "research_rigor": 9.1,
-    "social_shareability": 9.0,
-    "voice_coach": 9.2
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 89.6,
-     "mean": 56.8,
-     "median": 55.5,
-     "passed": true,
-     "short_pct": 4.2,
-     "variance": 642.2
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 6.2
-    }
-   },
-   "headline": "Your Builder Used AI to Design Your Addition. The Insurer Just Excluded It From Coverage.",
-   "hero_hash": "9e6a85e0",
-   "journalist": "Catherine Chen",
-   "number": 739,
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "published_at": "2026-08-31T07:03:07.071991+00:00",
-   "research_file": "drafts/ai-insurance-exclusion-cgl-gap-residential-builder-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-08-31",
-   "slug": "ai-insurance-exclusion-cgl-gap-residential-builder-2026",
-   "started": "2026-08-30T02:01:52-07:00"
-  },
-  {
-   "article_number": 738,
-   "critique_score": 8.69,
-   "critique_scores": {
-    "construction_expert": 8.6,
-    "ethics_reviewer": 8.6,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.5,
-    "social_shareability": 8.8,
-    "voice_coach": 8.6
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 76.2,
-     "mean": 34.7,
-     "median": 34,
-     "passed": true,
-     "short_pct": 4.8,
-     "variance": 1012.6
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 6.0
-    }
-   },
-   "headline": "Your Drywall Sub Spent 48 Hours This Week Counting Walls. The AI Did It From Photos.",
-   "hero_hash": "1fb0ed61",
-   "journalist": "Jake Kowalski",
-   "number": 738,
-   "phase": "PUBLISHED",
-   "primary_sources": 5,
-   "published_at": "2026-08-30T07:02:48.518857+00:00",
-   "research_file": "drafts/ai-drywall-tracking-track3d-performance-contracting-48hour-gap-research.md",
-   "rounds": 1,
-   "ship_after": "2026-08-30",
-   "slug": "ai-drywall-tracking-track3d-performance-contracting-48hour-gap",
-   "started": "2026-08-29T02:01:52-07:00"
-  },
-  {
-   "article_number": 737,
-   "created_at": "2026-08-28T04:08:00-07:00",
-   "critique_score": 8.8,
-   "critique_scores": {
-    "construction_expert": 8.6,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 8.5
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 91.7,
-     "passed": true,
-     "short_pct": 5.6,
-     "variance": 746.9
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 10.8
-    }
-   },
-   "headline": "Your Architect Checked 40 Pages of Code. The AI Checked 11 Million.",
-   "hero_hash": "baf2e39f",
-   "journalist": "Catherine Chen",
-   "number": 737,
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "published_at": "2026-08-29T07:02:50.728871+00:00",
-   "research_file": "drafts/ai-native-qa-qc-upcodes-plan-review-residential-gap-research.md",
-   "rounds": 1,
-   "ship_after": "2026-08-29",
-   "slug": "ai-native-qa-qc-upcodes-plan-review-residential-gap",
-   "started": "2026-08-28T04:01:52-07:00"
-  },
-  {
-   "article_number": 736,
-   "completed": "2026-08-28T02:10:00-07:00",
-   "critique_score": 8.86,
-   "headline": "Seventy-Five Percent of Projects Blow Their Budget by Twenty-Seven Percent. The AI That Predicts Which Ones Has Never Seen a House.",
-   "hero_hash": "a5425d82",
-   "journalist": "Frank DeLuca",
-   "number": 736,
-   "phase": "PUBLISHED",
-   "primary_sources": 8,
-   "published_at": "2026-08-28T02:05:00-07:00",
-   "research_file": "drafts/residential-cost-overrun-ai-prediction-gap-research.md",
-   "ship_after": "2026-08-28",
-   "slug": "residential-cost-overrun-ai-prediction-gap"
-  },
-  {
-   "article_number": 744,
-   "critique_score": 8.87,
-   "critique_scores": {
-    "construction_expert": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.9,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.8,
-    "social_shareability": 8.7,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 58.9,
-     "mean": 27.3,
-     "median": 23,
-     "passed": true,
-     "short_pct": 0.0,
-     "variance": 246.1
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 2.04
-    }
-   },
-   "headline": "Your Palisades Rebuild Was Quoted at $900 a Foot. The Robot Parked on Your Lot Says $625.",
-   "hero_hash": "09872a4d",
-   "journalist": "Jake Kowalski",
-   "number": 744,
-   "phase": "PUBLISHED",
-   "primary_sources": 3,
-   "published_at": "2026-09-02T07:03:46.685696+00:00",
-   "research_file": "drafts/ai-microfactory-wildfire-rebuild-abb-cosmic-palisades-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-02",
-   "slug": "ai-microfactory-wildfire-rebuild-abb-cosmic-palisades-2026",
-   "started": "2026-09-02T01:03:52.294129"
-  },
-  {
-   "article_number": 745,
-   "critique_score": 8.81,
-   "critique_scores": {
-    "data_presentation": 8.7,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 8.8,
-    "research_rigor": 8.8,
-    "social_shareability": 8.7,
-    "voice_coach": 9.0
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 45.0,
-     "passed": true,
-     "short_pct": 13.0,
-     "variance": 313.3
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 12.6
-    }
-   },
-   "headline": "Your Dealer Quoted a 24 kW Generator. Your House Needs 14.",
-   "hero_hash": "71c75709",
-   "journalist": "Frank DeLuca",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "published_at": "2026-09-03T07:02:42.171496+00:00",
-   "research_file": "drafts/ai-generator-sizing-oversize-trap-whole-house-2026-research.md",
-   "rounds": 0,
-   "slug": "ai-generator-sizing-oversize-trap-whole-house-2026",
-   "started": "2026-09-02T02:01:52-07:00"
-  },
-  {
-   "article_number": 746,
-   "critique_score": 8.81,
-   "critique_scores": {
-    "data_presentation": 8.7,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 8.8,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 48.1,
-     "passed": true,
-     "short_pct": 7.8,
-     "variance": 206.9
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 12.7
-    }
-   },
-   "headline": "Your Teardown Is Holding $3,280 in Lumber. The Excavator Will Never Know.",
-   "hero_hash": "7c340f1c",
-   "journalist": "Priya Greenwood",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "published_at": "2026-09-04T13:03:04.821960+00:00",
-   "research_file": "drafts/ai-deconstruction-salvage-inventory-teardown-lumber-2026-research.md",
-   "rounds": 0,
-   "slug": "ai-deconstruction-salvage-inventory-teardown-lumber-2026",
-   "started": "2026-09-02T04:01:52-07:00"
-  },
-  {
-   "article_number": 747,
-   "critique_score": 8.86,
-   "critique_scores": {
-    "data_presentation": 9.0,
-    "ethics_reviewer": 8.7,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.7,
-    "social_shareability": 8.8,
-    "voice_coach": 9.0
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 41.8,
-     "passed": true,
-     "short_pct": 10.1,
-     "variance": 214.6
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 11.8
-    }
-   },
-   "headline": "1.2 Million California Homes Could Slide Off Their Foundations. The Grant Program Fixes 2,400 a Year.",
-   "hero_hash": "c70224c5",
-   "hold_reason": "1/day rule: #745 queued for 2026-09-03, #746 for 2026-09-04",
-   "journalist": "Catherine Chen",
-   "phase": "PUBLISHED",
-   "primary_sources": 9,
-   "published_at": "2026-09-10T00:05:49.701412-07:00",
-   "published_number": 752,
-   "research_file": "drafts/ai-seismic-triage-street-view-brace-bolt-2026-research.md",
-   "rounds": 2,
-   "ship_after": "2026-09-05",
-   "slug": "ai-seismic-triage-street-view-brace-bolt-2026",
-   "started": "2026-09-02T06:05:00-07:00"
-  },
-  {
-   "article_number": 748,
-   "critique_score": 8.83,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 8.8,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 56.2,
-     "passed": true,
-     "short_pct": 2.7,
-     "variance": 257.2
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 5.5
-    }
-   },
-   "headline": "175,000 Construction Veterans Will Retire This Year. 40,000 Apprentices Will Finish Training. A $25M Startup Is Filming the Gap.",
-   "hero_hash": "39a6109f",
-   "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05",
-   "journalist": "Marcus Washington",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "publish_number": 753,
-   "published_at": "2026-09-11T00:03:59.380110+00:00",
-   "research_file": "drafts/navigate-ai-trades-knowledge-capture-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-06",
-   "slug": "navigate-ai-trades-knowledge-capture-2026",
-   "started": "2026-09-02T08:01:52-07:00"
-  },
-  {
-   "article_number": 749,
-   "critique_score": 8.86,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.8,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 8.9
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 54.5,
-     "passed": true,
-     "short_pct": 10.4,
-     "variance": 200.1
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 12.8
-    }
-   },
-   "headline": "Your Contractor Sized Your AC by Square Footage. An iPad Did the Real Math in 15 Minutes.",
-   "hero_hash": "61bd48d1",
-   "hold_reason": "1/day rule: 2 publishes already on 2026-09-02 PT; #745 queued for 2026-09-03, #746 for 2026-09-04, #747 for 2026-09-05, #748 for 2026-09-06",
-   "journalist": "Jake Kowalski",
-   "phase": "PUBLISHED",
-   "primary_sources": 11,
-   "published_at": "2026-09-07T00:05:00-07:00",
-   "research_file": "drafts/ai-manual-j-load-calc-ipad-oversize-trap-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-07",
-   "slug": "ai-manual-j-load-calc-ipad-oversize-trap-2026",
-   "started": "2026-09-02T10:05:00-07:00"
-  },
-  {
-   "article_number": 750,
-   "critique_score": 8.89,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.9,
-    "social_shareability": 8.7,
-    "voice_coach": 9.0
-   },
-   "draft_html": "stories/ai-daylight-simulation-window-design-surrogate-models-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 47.3,
-     "passed": true,
-     "short_pct": 12.2,
-     "variance": 201.5
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 1.3
-    }
-   },
-   "headline": "Your Windows Were Sized by Habit. An AI Trained on 2,000 Simulations Disagreed.",
-   "hero": "images/ai-daylight-simulation-window-design-surrogate-models-2026.jpg",
-   "hero_hash": "69b5e919",
-   "journalist": "Elena Vasquez",
-   "number": 750,
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "published_at": "2026-09-08T04:03:07.127707-07:00",
-   "research_file": "drafts/ai-daylight-simulation-window-design-surrogate-models-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-08",
-   "slug": "ai-daylight-simulation-window-design-surrogate-models-2026",
-   "started": "2026-09-02T12:05:00-07:00"
-  },
-  {
-   "article_number": 751,
-   "critique_score": 8.89,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.8,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 9.0
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 47.7,
-     "passed": true,
-     "short_pct": 13.8,
-     "variance": 204.7
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 5.7
-    }
-   },
-   "headline": "Six Change Orders Added $44,874 to the Job. Arguing About Them Cost the Builder $14,400.",
-   "hero_hash": "c1e56552",
-   "journalist": "Frank DeLuca",
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "published_at": "2026-09-09T00:07:20.709799-07:00",
-   "research_file": "drafts/ai-change-order-fee-erosion-gc-margin-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-09",
-   "slug": "ai-change-order-fee-erosion-gc-margin-2026",
-   "started": "2026-09-02T14:05:00-07:00"
-  },
-  {
-   "article_number": 752,
-   "critique_score": 8.86,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.8,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 8.9
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 53.1,
-     "passed": true,
-     "short_pct": 8.5,
-     "variance": 207.1
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 6.7
-    }
-   },
-   "headline": "Your Framer Speaks Spanish. Your Foreman Speaks English. The $140 Earbud Speaks Both.",
-   "hero_hash": "0f6b0afc",
-   "journalist": "Marcus Washington",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "publish_note": "Publish #755 committed locally 2026-09-13 (git log 'Publish #755: Your Framer Speaks Spanish'). Push to origin failed: egress proxy unreachable, all proxy creds HTTP 000 as of 2026-09-13 ~00:35 PDT. DO NOT republish as new; push the commit and run live QA on network restore, then mark PUBLISHED and update last_published_at.",
-   "publish_number": 755,
-   "published_at": "2026-09-10T07:05:52-07:00",
-   "research_file": "drafts/ai-translation-earbuds-bilingual-crew-rework-2026-research.md",
-   "rounds": 2,
-   "ship_after": "2026-09-10",
-   "slug": "ai-translation-earbuds-bilingual-crew-rework-2026",
-   "started": "2026-09-02T16:05:00-07:00"
-  },
-  {
-   "article_number": 754,
-   "critique_score": 8.87,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.9,
-    "social_shareability": 8.7,
-    "voice_coach": 8.9
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 57.6,
-     "passed": true,
-     "short_pct": 12.1,
-     "variance": 240.2
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 13.2
-    }
-   },
-   "headline": "Your Builder's Risk Insurer Will Cut Your Premium If You Point AI Cameras at the Lumber Pile",
-   "hero_hash": "316f43ee",
-   "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #753 for 2026-09-11",
-   "journalist": "Catherine Chen",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "publish_number": 754,
-   "published_at": "2026-09-12T07:06:52.029889+00:00",
-   "research_file": "drafts/ai-jobsite-theft-cameras-insurance-discount-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-12",
-   "slug": "ai-jobsite-theft-cameras-insurance-discount-2026",
-   "started": "2026-09-02T20:05:00-07:00"
-  },
   {
    "article_number": 850,
    "critique_score": 8.83,
@@ -789,7 +106,9 @@
     }
    },
    "headline": "Your Flip's Attic Is Full of Gray Pebbles. Pulling Them Out Costs $12,000, and an AI Spotted Them From a Photo.",
-   "hero_hash": "61ffc437",
+   "hero_file": "images/ai-asbestos-photo-screening-vermiculite-abatement-2026.jpg",
+   "hero_hash": "bf765584",
+   "hero_real_jpeg": true,
    "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12; renumbered 755->850 on 2026-09-14 (755 was published 2026-09-13 as the Framer/Spanish translation article)",
    "journalist": "Jake Kowalski",
    "phase": "SHIP",
@@ -799,418 +118,6 @@
    "ship_after": "2026-09-13",
    "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
    "started": "2026-09-02T22:05:00-07:00"
-  },
-  {
-   "article_number": 756,
-   "critique_score": 8.87,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.8,
-    "social_shareability": 8.7,
-    "voice_coach": 9.0
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 52.1,
-     "passed": true,
-     "short_pct": 14.1,
-     "variance": 202.7
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 12.3
-    }
-   },
-   "headline": "Your Architect Quoted $2,400 for Triple-Pane Windows. Turning the House Was Free.",
-   "hero_hash": "60394964",
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #755 queued for 2026-09-04 through 2026-09-13",
-   "journalist": "Elena Vasquez",
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "publish_note": "Published 2026-09-14 PT (local commit; push pending network restore)",
-   "published_at": "2026-09-14T07:30:00-07:00",
-   "research_file": "drafts/ai-envelope-optimization-free-orientation-triple-pane-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-14",
-   "slug": "ai-envelope-optimization-free-orientation-triple-pane-2026",
-   "started": "2026-09-03T00:20:00-07:00"
-  },
-  {
-   "article_number": 757,
-   "critique_score": 8.87,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.9,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 8.9
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 43.9,
-     "passed": true,
-     "short_pct": 6.1,
-     "variance": 212.0
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 3.7
-    }
-   },
-   "headline": "Your Sub Billed 15% Ahead of the Work. That Was His Entire Profit, Paid Early.",
-   "hero_hash": "ba952ec1",
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #756 queued for 2026-09-04 through 2026-09-14",
-   "journalist": "Frank DeLuca",
-   "phase": "PUBLISHED",
-   "primary_sources": 10,
-   "publish_note": "Published 2026-09-15 PT (local commit; push pending network restore)",
-   "published_at": "2026-09-15T00:07:52-07:00",
-   "research_file": "drafts/ai-pay-app-overbilling-front-load-detection-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-15",
-   "slug": "ai-pay-app-overbilling-front-load-detection-2026",
-   "started": "2026-09-03T02:01:52-07:00"
-  },
-  {
-   "article_number": 758,
-   "critique_score": 8.84,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.7,
-    "social_shareability": 8.8,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 67.6,
-     "passed": true,
-     "short_pct": 14.7,
-     "variance": 205.0
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 6.8
-    }
-   },
-   "headline": "Your Estimator Spent Two Days Measuring PDFs. The AI Finished Before Lunch, Then a Human Checked Its Math.",
-   "hero_hash": "eea8e5e9",
-   "journalist": "Jake Kowalski",
-   "phase": "PUBLISHED",
-   "primary_sources": 9,
-   "published_at": "2026-09-16T00:04:13.392953-07:00",
-   "research_file": "drafts/ai-takeoff-shootout-residential-estimating-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-16",
-   "slug": "ai-takeoff-shootout-residential-estimating-2026",
-   "started": "2026-09-03T04:01:52-07:00"
-  },
-  {
-   "article_number": 762,
-   "critique_score": 8.87,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 8.7
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 51.1,
-     "passed": true,
-     "short_pct": 11.1,
-     "variance": 202.2
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 0.0
-    }
-   },
-   "headline": "Your Architect Billed You $96,000 for Custom Plans. Federal Law Says Nobody Owns Them.",
-   "hero_hash": "670c5483",
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #761 queued for 2026-09-04 through 2026-09-19",
-   "journalist": "Catherine Chen",
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "publish_number": 762,
-   "published_at": "2026-09-20T04:15:00-07:00",
-   "research_file": "drafts/ai-generated-house-plans-copyright-nobody-owns-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-20",
-   "slug": "ai-generated-house-plans-copyright-nobody-owns-2026",
-   "started": "2026-09-03T12:15:00-07:00"
-  },
-  {
-   "article_number": 763,
-   "critique_score": 8.86,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.8,
-    "social_shareability": 8.8,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 62.5,
-     "passed": true,
-     "short_pct": 11.5,
-     "variance": 220.3
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 2.1
-    }
-   },
-   "headline": "Construction Holds 7% of Jobs and 38% of Heat Deaths. The Federal Rule Stalled, So an Armband Took the Shift.",
-   "hero_hash": "3ea6a108",
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #762 queued for 2026-09-04 through 2026-09-20",
-   "journalist": "Marcus Washington",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "published_at": "2026-09-21T05:10:00-07:00",
-   "research_file": "drafts/ai-heat-stress-wearables-calosha-federal-stall-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-21",
-   "slug": "ai-heat-stress-wearables-calosha-federal-stall-2026",
-   "started": "2026-09-03T14:05:00-07:00"
-  },
-  {
-   "article_number": 765,
-   "critique_score": 8.83,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 8.8,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.8,
-    "social_shareability": 8.7,
-    "voice_coach": 8.9
-   },
-   "draft_file": "stories/ai-construction-draw-agent-lender-approval-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 42.5,
-     "passed": true,
-     "short_pct": 15.0,
-     "variance": 241.3
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 11.2
-    }
-   },
-   "headline": "Your Builder's Draw Got AI-Approved in 3 Minutes. The Check Still Takes 9 Days.",
-   "hero_hash": "951de5a8",
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #764 queued for 2026-09-04 through 2026-09-22",
-   "journalist": "Frank DeLuca",
-   "phase": "PUBLISHED",
-   "primary_sources": 6,
-   "publish_note": "Published 2026-09-24 PT per 1/day rule; converted to new markup (article-hero/article-container/article-body, bootstrap+print css) at ship.",
-   "published_at": "2026-09-24T12:15:00-07:00",
-   "qa": {
-    "at": "2026-09-24T00:40:00-07:00",
-    "feed": true,
-    "hero": 200,
-    "index_card": true,
-    "note": "story 308->200 extensionless (site canonical form); index.html same canonical form; count=766 live",
-    "og_tags": true,
-    "sitemap": "valid",
-    "story": 200
-   },
-   "research_file": "drafts/ai-construction-draw-agent-lender-approval-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-23",
-   "slug": "ai-construction-draw-agent-lender-approval-2026",
-   "started": "2026-09-04T01:05:00+00:00"
-  },
-  {
-   "article_number": 766,
-   "critique_score": 8.89,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.7,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 9.0
-   },
-   "draft_file": "stories/ai-punch-list-video-defect-detection-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 6.7,
-     "passed": true,
-     "short_pct": 61.3,
-     "variance": 138.0
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 9.2
-    }
-   },
-   "headline": "You Walked the House Twice. Your Phone Found 31 Things You Missed.",
-   "hero_file": "images/ai-punch-list-video-defect-detection-2026.jpg",
-   "hero_hash": "b8515960",
-   "hero_verified": {
-    "path": "images/ai-punch-list-video-defect-detection-2026.jpg",
-    "real_jpeg": true,
-    "size": "1920x1280"
-   },
-   "journalist": "Jake Kowalski",
-   "markup": "converted to current article-hero/article-container/article-body + bootstrap.min.css/print.css convention 2026-09-24 (was retired story-page/story-body/story.css); body prose byte-identical",
-   "phase": "PUBLISHED",
-   "primary_sources": 7,
-   "published_at": "2026-09-25T02:08:00-07:00",
-   "research_file": "drafts/ai-punch-list-video-defect-detection-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-09-24",
-   "ship_ready_verified": "2026-09-24T06:10:00-07:00",
-   "slug": "ai-punch-list-video-defect-detection-2026",
-   "started": "2026-09-04T03:05:00+00:00"
-  },
-  {
-   "article_number": 767,
-   "critique_score": 8.89,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 8.9,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 8.9
-   },
-   "draft_file": "drafts/sb800-right-to-repair-ai-defect-paper-trail-2026.html",
-   "gates_rechecked": {
-    "banned_phrases": 0,
-    "em_dash": 0,
-    "og_tags": 6,
-    "when": "2026-09-24T20:15:00-07:00"
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 48.6,
-     "passed": true,
-     "short_pct": 9.5,
-     "variance": 217.7
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 1.2
-    }
-   },
-   "headline": "Your New Home Has Cracks. California Gives Your Builder 262 Days Before You Can Sue.",
-   "hero_file": "images/sb800-right-to-repair-ai-defect-paper-trail-2026.jpg",
-   "hero_hash": "56c2d84b",
-   "hero_verified": {
-    "path": "images/sb800-right-to-repair-ai-defect-paper-trail-2026.jpg",
-    "real_jpeg": true
-   },
-   "hold_reason": "1/day rule: #745 published 2026-09-03; #746 through #766 queued for 2026-09-04 through 2026-09-24",
-   "journalist": "Catherine Chen",
-   "markup": "converted to current article-hero/article-container/article-body + bootstrap.min.css/print.css convention 2026-09-24 (was retired story-page/story-body/story.css); body prose byte-identical (12,119 chars)",
-   "phase": "PUBLISHED",
-   "primary_sources": 8,
-   "research_file": "drafts/sb800-right-to-repair-ai-defect-paper-trail-2026-research.md",
-   "rounds": 2,
-   "ship_after": "2026-09-26",
-   "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026",
-   "started": "2026-09-04T05:05:00+00:00",
-   "published_at": "2026-09-26T02:10:00-07:00",
-   "story_file": "stories/sb800-right-to-repair-ai-defect-paper-trail-2026.html"
   },
   {
    "completed": "2026-09-04",
@@ -1298,7 +205,10 @@
     "the_starters_pct": 13.6
    },
    "headline": "Your Foundation Poured 14 Tons of CO2 Before the Walls Existed. An Algorithm Can Erase a Third of It.",
+   "hero_file": "images/ai-concrete-carbon-mix-optimization-2026.jpg",
    "hero_hash": "f6961564",
+   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
+   "hero_real_jpeg": true,
    "id": 770,
    "journalist": "Priya Greenwood",
    "phase": "ship_ready",
@@ -1306,10 +216,7 @@
    "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
    "rounds": 0,
    "ship_after": "2026-09-28",
-   "slug": "ai-concrete-carbon-mix-optimization-2026",
-   "hero_file": "images/ai-concrete-carbon-mix-optimization-2026.jpg",
-   "hero_real_jpeg": true,
-   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)"
+   "slug": "ai-concrete-carbon-mix-optimization-2026"
   },
   {
    "completed": "2026-09-04",
@@ -1334,7 +241,10 @@
     "the_starters_pct": 11.3
    },
    "headline": "Your Framing Crew Stood Around for Four Hours Waiting on Lumber. The Delivery App Knew It Would Be Late.",
+   "hero_file": "images/ai-delivery-dispatch-late-lumber-idle-crew-2026.jpg",
    "hero_hash": "f7e99fe7",
+   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
+   "hero_real_jpeg": true,
    "id": 771,
    "journalist": "Frank DeLuca",
    "phase": "ship_ready",
@@ -1342,10 +252,7 @@
    "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
    "rounds": 1,
    "ship_after": "2026-09-29",
-   "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026",
-   "hero_file": "images/ai-delivery-dispatch-late-lumber-idle-crew-2026.jpg",
-   "hero_real_jpeg": true,
-   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)"
+   "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026"
   },
   {
    "completed": "2026-09-04",
@@ -1403,7 +310,10 @@
     "the_starters_pct": 3.4
    },
    "headline": "A Third of the Crew Building Your House Has Been There Less Than a Year. The Simulator Grades Them in 20 Minutes.",
+   "hero_file": "images/ai-simulator-rookie-crew-hiring-screening-2026.jpg",
    "hero_hash": "955cbaed",
+   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
+   "hero_real_jpeg": true,
    "id": 773,
    "journalist": "Marcus Washington",
    "phase": "SHIP",
@@ -1411,10 +321,7 @@
    "research_file": "drafts/ai-simulator-rookie-crew-hiring-screening-2026-research.md",
    "rounds": 1,
    "ship_after": "2026-10-01",
-   "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
-   "hero_file": "images/ai-simulator-rookie-crew-hiring-screening-2026.jpg",
-   "hero_real_jpeg": true,
-   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)"
+   "slug": "ai-simulator-rookie-crew-hiring-screening-2026"
   },
   {
    "article_number": 774,
@@ -1590,7 +497,10 @@
     }
    },
    "headline": "Water Got Behind the Stucco in 2021. You Will Find Out in 2026, for $75,000.",
+   "hero_file": "images/thermal-drone-stucco-rot-moisture-intrusion-2026.jpg",
    "hero_hash": "100c91b2",
+   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
+   "hero_real_jpeg": true,
    "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #776 queued for 2026-09-05 through 2026-10-04",
    "id": 777,
    "journalist": "Frank DeLuca",
@@ -1600,10 +510,7 @@
    "rounds": 0,
    "ship_after": "2026-10-05",
    "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026",
-   "started": "2026-09-04T18:03:04.179808-07:00",
-   "hero_file": "images/thermal-drone-stucco-rot-moisture-intrusion-2026.jpg",
-   "hero_real_jpeg": true,
-   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)"
+   "started": "2026-09-04T18:03:04.179808-07:00"
   },
   {
    "article_number": 778,
@@ -1635,7 +542,10 @@
     }
    },
    "headline": "Your City Now Lets AI Read Your Permit Application First. Run It Before the City Does.",
+   "hero_file": "images/ai-city-permit-prescreen-civcheck-homeowners-2026.jpg",
    "hero_hash": "9f4d2b1c",
+   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
+   "hero_real_jpeg": true,
    "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #777 queued for 2026-09-05 through 2026-10-05",
    "id": 778,
    "journalist": "Catherine Chen",
@@ -1645,10 +555,7 @@
    "rounds": 0,
    "ship_after": "2026-10-06",
    "slug": "ai-city-permit-prescreen-civcheck-homeowners-2026",
-   "started": "2026-09-05T05:04:12.296647+00:00",
-   "hero_file": "images/ai-city-permit-prescreen-civcheck-homeowners-2026.jpg",
-   "hero_real_jpeg": true,
-   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)"
+   "started": "2026-09-05T05:04:12.296647+00:00"
   },
   {
    "article_number": 780,
@@ -1878,7 +785,9 @@
     }
    },
    "headline": "Your Geotech Report Had Three Foundation Options. You Only Heard About the Expensive One.",
-   "hero_hash": "e84bd14f",
+   "hero_file": "images/geotech-report-conservative-pier-tax-2026.jpg",
+   "hero_hash": "09fe7220",
+   "hero_real_jpeg": true,
    "hold_reason": "1/day rule: #779 published 2026-09-05; #784 queued for 2026-10-10",
    "journalist": "Frank DeLuca",
    "phase": "SHIP",
@@ -1979,55 +888,6 @@
    "started": "2026-09-05T14:05:00-07:00"
   },
   {
-   "article_number": 786,
-   "critique_score": 9.1,
-   "critique_scores": {
-    "construction_expert": 9.0,
-    "ethics_reviewer": 9.5,
-    "general_editor": 9.0,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 9.0,
-    "voice_coach": 9.0
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 39.5,
-     "mean": 21.3,
-     "passed": true,
-     "short_pct": 14.0,
-     "variance": 203.9
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 0.0
-    }
-   },
-   "headline": "Your New Home Generated 8,000 Pounds of Waste. California Law Says 5,200 of It Was Never Supposed to Reach a Landfill.",
-   "hero_hash": "d86ae381",
-   "journalist": "Priya Greenwood",
-   "number": 786,
-   "phase": "PUBLISHED",
-   "primary_sources": 5,
-   "published_at": "2026-09-06T00:04:00-07:00",
-   "queue_note": "SHIP held: 1/day rule already satisfied by #779 on 2026-09-05. Queued behind ship-ready #778, #780-#784; publish per 1/day cadence.",
-   "research_file": "drafts/ai-construction-waste-diversion-dumpster-audit-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-09-06",
-   "slug": "ai-construction-waste-diversion-dumpster-audit-2026",
-   "started": "2026-09-05T16:04:04.070835-07:00"
-  },
-  {
    "article_number": 787,
    "completed": "2026-09-06T02:30:00-07:00",
    "critique_score": 8.83,
@@ -2063,7 +923,9 @@
     }
    },
    "headline": "Your AC Is 40% Too Big. The Load Calculation That Would Have Caught It Takes 20 Minutes Now.",
-   "hero_hash": "df22cf4f",
+   "hero_file": "images/ai-manual-j-oversized-ac-20-minute-load-calc-2026.jpg",
+   "hero_hash": "828bd011",
+   "hero_real_jpeg": true,
    "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue, publish per 1/day cadence.",
    "journalist": "Jake Kowalski",
    "number": 787,
@@ -2111,7 +973,9 @@
     }
    },
    "headline": "You Closed Every Window. Your House Still Inhaled 23% of the Smoke.",
-   "hero_hash": "05af8c09",
+   "hero_file": "images/ai-wildfire-smoke-indoor-air-purifier-hvac-2026.jpg",
+   "hero_hash": "fc1ef31f",
+   "hero_real_jpeg": true,
    "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-11), publish per 1/day cadence.",
    "journalist": "Priya Greenwood",
    "number": 788,
@@ -2692,54 +1556,6 @@
    "ship_after": "2026-10-24",
    "slug": "ai-sewer-scope-lateral-defect-coding-homebuyer-2026",
    "started": "2026-09-07T06:01:52-07:00"
-  },
-  {
-   "article_number": 800,
-   "completed": "2026-09-07T08:40:00-07:00",
-   "critique_score": 8.89,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.9,
-    "research_rigor": 9.0,
-    "social_shareability": 8.7,
-    "voice_coach": 8.9
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 52.2,
-     "passed": true,
-     "short_pct": 11.6,
-     "variance": 200.7
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 0.0
-    }
-   },
-   "headline": "The Cheapest Bid Is a Scope Gap With a Signature. AI Bid Leveling Catches What Excel Misses.",
-   "hero_hash": "99015136",
-   "hold_reason": "1/day rule: #749 published 2026-09-07; queued behind existing ship_ready queue (last ship_after 2026-10-24), publish per 1/day cadence.",
-   "journalist": "Frank DeLuca",
-   "number": 800,
-   "phase": "SHIP",
-   "primary_sources": 5,
-   "research_file": "drafts/ai-bid-leveling-scope-gap-gc-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-10-25",
-   "slug": "ai-bid-leveling-scope-gap-gc-2026",
-   "started": "2026-09-07T08:05:00-07:00"
   },
   {
    "article_number": 801,
@@ -4165,94 +2981,6 @@
    "started": "2026-09-11T20:05:00-07:00"
   },
   {
-   "article_number": 829,
-   "completed": "2026-09-11T22:18:00-07:00",
-   "critique_note": "All 7 critics >=8.5 after 2 revision rounds (per-critic breakdown not recorded by the 2026-09-11 run; from its SHIP_READY commit message). Rounds: 2.",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 52.2,
-     "passed": true,
-     "short_pct": 10.9,
-     "variance": 202.6
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 6.0
-    }
-   },
-   "headline": "Your Floor Plan Has 265 Square Feet of Hallway. At $162 a Foot, You Paid $42,900 for the Walk to Your Bedroom.",
-   "hero_hash": "af21f50d",
-   "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-25), next open slot 2026-11-26.",
-   "journalist": "Elena Vasquez",
-   "number": 829,
-   "phase": "SHIP_READY",
-   "primary_sources": 12,
-   "research_file": "drafts/ai-floor-plan-circulation-hallway-tax-2026-research.md",
-   "rounds": 2,
-   "ship_after": "2026-11-26",
-   "slug": "ai-floor-plan-circulation-hallway-tax-2026",
-   "started": "2026-09-11T22:15:00-07:00"
-  },
-  {
-   "article_number": 830,
-   "completed": "2026-09-12T02:55:00-07:00",
-   "critique_average": 8.84,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.9,
-    "social_shareability": 8.7,
-    "voice_coach": 8.8
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 35.5,
-     "passed": true,
-     "short_pct": 12.9,
-     "variance": 210.6
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 7.5
-    }
-   },
-   "headline": "NEM 3.0 Pays You 8 Cents at Noon and Bills You 55 Cents at 7 PM. A $13,500 Battery Pockets the Spread.",
-   "hero_hash": "275f9db5",
-   "hero_real_jpeg": "FF D8 magic, 2048x1152, verified on-screen: California dusk home, rooftop solar, wall battery with green status light",
-   "hold_reason": "1/day rule: publish #754 shipped 2026-09-12 PT; queued behind existing ship_ready queue (last ship_after 2026-11-26), next open slot 2026-11-27.",
-   "journalist": "Priya Greenwood",
-   "number": 830,
-   "phase": "SHIP_READY",
-   "primary_sources": 10,
-   "research_file": "drafts/ai-home-battery-tou-arbitrage-nem3-payback-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-11-27",
-   "slug": "ai-home-battery-tou-arbitrage-nem3-payback-2026",
-   "started": "2026-09-12T02:10:00-07:00"
-  },
-  {
    "article_number": 831,
    "completed": "2026-09-12T05:05:00-07:00",
    "critique_average": 8.84,
@@ -4549,299 +3277,6 @@
    "ship_after": "2026-12-03",
    "slug": "builders-firstsource-digs-ai-digital-twin-2026",
    "started": "2026-09-12T14:05:00-07:00"
-  },
-  {
-   "article_number": 837,
-   "completed": "2026-09-12T18:45:00-07:00",
-   "critique_average": 8.86,
-   "critique_scores": {
-    "data_presentation": 9.0,
-    "ethics_reviewer": 8.5,
-    "general_editor": 9.0,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 9.0,
-    "voice_coach": 9.0
-   },
-   "draft_file": "stories/formx-12m-ai-platform-fragmentation-tax-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 41.4,
-     "passed": true,
-     "short_pct": 5.1,
-     "variance": 206.5
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 0.0
-    }
-   },
-   "headline": "A Startup Raised $12.5M to Replace Your Builder's Six Apps. Construction's Graveyard Says Good Luck.",
-   "hero_hash": "942e5200",
-   "hero_real_jpeg": true,
-   "journalist": "Frank DeLuca",
-   "number": 837,
-   "phase": "SHIP_READY",
-   "primary_sources": 5,
-   "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). story.css link added per pipeline requirement (matches newest stories; file not present in local checkout). Body 2167 words, above 1200-word deep-dive target; kept per OSHA-460 precedent \u2014 every section carries load (original fragmentation-tax model, seed-stage odds table, 58-county analysis, six-question diligence list, full limitations).",
-   "research_file": "drafts/formx-12m-ai-platform-fragmentation-tax-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-12-04",
-   "slug": "formx-12m-ai-platform-fragmentation-tax-2026",
-   "started": "2026-09-12T18:10:00-07:00"
-  },
-  {
-   "article_number": 838,
-   "completed": "2026-09-12T22:35:00-07:00",
-   "critique_average": 8.91,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.8,
-    "social_shareability": 9.0,
-    "voice_coach": 9.0
-   },
-   "draft_file": "stories/deck-safety-law-missed-your-deck-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 0.0
-    }
-   },
-   "headline": "California Just Forced Every Apartment Balcony Inspected. Your Deck Wasn't on the List.",
-   "hero_hash": "74026e5a",
-   "hero_real_jpeg": true,
-   "journalist": "Catherine Chen",
-   "number": 838,
-   "phase": "SHIP_READY",
-   "primary_sources": 12,
-   "publish_note": "Queued, not shipped: two articles already published 2026-09-12 PT (one-per-day rule). Body 1207 words. Berkeley toll discrepancy checked: six dead, seven injured per bornstein.law. SB 721 deadline Jan 1 2026 (AB 2579), SB 326 Jan 1 2025 / Civil Code 5551, single-family exemption verified across three sources.",
-   "research_file": "drafts/deck-safety-law-missed-your-deck-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-12-05",
-   "slug": "deck-safety-law-missed-your-deck-2026",
-   "started": "2026-09-12T22:05:00-07:00"
-  },
-  {
-   "article_number": 839,
-   "completed": "2026-09-13T07:38:17.146958+00:00",
-   "critique_average": 9.1,
-   "critique_scores": {
-    "ethics_reviewer": 9.0,
-    "general_editor": 9.0,
-    "legal_accuracy": 9.1,
-    "research_rigor": 9.0,
-    "social_shareability": 9.3,
-    "voice_coach": 9.2
-   },
-   "draft_file": "stories/ai-data-center-land-bidding-homebuilder-lot-squeeze-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 51.8,
-     "passed": true,
-     "short_pct": 3.6,
-     "variance": 216.7
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 4.8
-    }
-   },
-   "headline": "Your Builder Bid $125,000 an Acre. The Data Center Bid $4.4 Million.",
-   "hero_hash": "8f902650",
-   "hero_real_jpeg": true,
-   "journalist": "Frank DeLuca",
-   "number": 839,
-   "phase": "SHIP_READY",
-   "primary_sources": 7,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-13 PT (one-per-day rule). Kill-test passed; land angle is novel vs 10+ data-center labor stories in repo.",
-   "research_file": "drafts/ai-data-center-land-bidding-homebuilder-lot-squeeze-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-12-06",
-   "slug": "ai-data-center-land-bidding-homebuilder-lot-squeeze-2026",
-   "started": "2026-09-13T07:18:12.338863+00:00"
-  },
-  {
-   "article_number": 840,
-   "completed": "2026-09-13T09:26:30.000000+00:00",
-   "critique_average": 8.9,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.2,
-    "research_rigor": 9.0,
-    "social_shareability": 8.6,
-    "voice_coach": 9.0
-   },
-   "draft_file": "stories/buried-oil-tank-epa-exemption-homebuyer-cleanup-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 53.5,
-     "passed": true,
-     "short_pct": 5.6,
-     "variance": 212.3
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 0.0
-    }
-   },
-   "headline": "Your Buried Oil Tank Is Exempt From Federal Law. Your $50,000 Cleanup Isn't.",
-   "hero_hash": "11d4741d",
-   "hero_real_jpeg": true,
-   "journalist": "Catherine Chen",
-   "number": 840,
-   "phase": "SHIP_READY",
-   "primary_sources": 11,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-13 PT (one-per-day rule). Kill-test passed; buried-oil-tank EPA-exemption angle is novel vs 800+ stories in repo.",
-   "research_file": "drafts/buried-oil-tank-epa-exemption-homebuyer-cleanup-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-12-07",
-   "slug": "buried-oil-tank-epa-exemption-homebuyer-cleanup-2026",
-   "started": "2026-09-13T09:01:52.000000+00:00"
-  },
-  {
-   "article_number": 841,
-   "completed": "2026-09-13T04:35:00-07:00",
-   "critique_average": 8.83,
-   "critique_scores": {
-    "data_presentation": 8.7,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 8.6
-   },
-   "draft_file": "stories/heat-pump-rebate-timing-trap-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 55.3,
-     "passed": true,
-     "short_pct": 14.9,
-     "variance": 230.1
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 6.1
-    }
-   },
-   "headline": "Your Heat Pump Qualified for an $8,000 Rebate. You Installed It a Month Too Early.",
-   "hero_hash": "881ce002",
-   "hero_real_jpeg": true,
-   "journalist": "Priya Greenwood",
-   "number": 841,
-   "phase": "SHIP_READY",
-   "primary_sources": 6,
-   "publish_note": "Queued, not shipped: two articles already published 2026-09-13 PT (one-per-day rule). Kill-test passed; HEEHRA order-of-operations/timing-trap angle is novel vs 800+ stories in repo.",
-   "research_file": "drafts/heat-pump-rebate-timing-trap-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-12-14",
-   "slug": "heat-pump-rebate-timing-trap-2026",
-   "started": "2026-09-13T04:05:00-07:00"
-  },
-  {
-   "article_number": 842,
-   "completed": "2026-09-13T06:40:00-07:00",
-   "critique_average": 8.86,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 8.7
-   },
-   "draft_file": "stories/expansion-tank-waterlogged-tap-test-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 52.4,
-     "passed": true,
-     "short_pct": 7.1,
-     "variance": 325.1
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 9.1
-    }
-   },
-   "headline": "Tap Your Water Heater's Expansion Tank. If the Whole Thing Thuds, It's Dead.",
-   "hero_hash": "24a4f0e1",
-   "hero_real_jpeg": true,
-   "journalist": "Jake Kowalski",
-   "number": 842,
-   "phase": "SHIP_READY",
-   "primary_sources": 6,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-13 PT (one-per-day rule). Kill-test passed; expansion-tank waterlogging/tap-test angle is novel vs 840+ stories in repo.",
-   "research_file": "drafts/expansion-tank-waterlogged-tap-test-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-12-15",
-   "slug": "expansion-tank-waterlogged-tap-test-2026",
-   "started": "2026-09-13T06:10:00-07:00"
   },
   {
    "article_number": 843,
@@ -5447,198 +3882,6 @@
    "slug": "ai-daily-log-delay-claim-evidence-super-2026",
    "started": "2026-09-14T10:01:52-07:00",
    "word_count": 1977
-  },
-  {
-   "article_number": 856,
-   "critique_score": 8.9,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 8.7,
-    "general_editor": 8.9,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.1,
-    "social_shareability": 9.0,
-    "voice_coach": 8.8
-   },
-   "draft_file": "drafts/ai-landscape-design-water-budget-mwelo-lawn-fails-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 53.7,
-     "passed": true,
-     "short_pct": 13.4,
-     "variance": 215.5
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 7.1
-    }
-   },
-   "headline": "Your AI Drew 2,000 Square Feet of Lawn in 60 Seconds. Your Water Budget Covers 740.",
-   "hero_hash": "2926eb30",
-   "hero_real_jpeg": true,
-   "journalist": "Priya Greenwood",
-   "phase": "SHIP_READY",
-   "primary_sources": 8,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-27. Kill-test passed; original contribution is the worked MWELO lawn-fraction math for a 2,000 sq ft Bay Area yard (ETo 50.1): MAWA 34,168 gal/yr, full lawn needs 66,260 gal (194% of budget), compliant ceiling ~740 sq ft (37%) with drip on the rest, cross-checked against San Mateo County's sample worksheet (sitewide ETAF 0.549 vs 0.55 max). Full-strength counterargument (concept tool vs permit document) and Limitations section included; 8 inline primary-source links.",
-   "research_file": "drafts/ai-landscape-design-water-budget-mwelo-lawn-fails-2026-research.md",
-   "rounds": 1,
-   "ship_after": "2026-12-28",
-   "started": "2026-09-14T12:01:52-07:00",
-   "word_count": 1645
-  },
-  {
-   "article_number": 857,
-   "critique_score": 8.9,
-   "critique_scores": {
-    "data_presentation": 8.7,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.2,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 8.9
-   },
-   "draft_file": "drafts/45l-credit-died-june-2026-builder-claim-deadline-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 54.4,
-     "passed": true,
-     "short_pct": 5.9,
-     "variance": 222.8
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 3.0
-    }
-   },
-   "headline": "The $5,000 Federal Credit for Efficient New Homes Died 76 Days Ago. Your Builder Can Still Collect It.",
-   "hero_hash": "efca2eee",
-   "hero_real_jpeg": true,
-   "journalist": "Catherine \"Code\" Chen",
-   "phase": "SHIP_READY",
-   "primary_sources": 6,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-28. Kill-test passed; original contribution is the worked certification-cost-vs-credit math (10-home subdivision: $25,000 credit vs ~$11,500 certification = ~$13,500 net, EPA's own negative-cost HVAC checklist figures). Full-strength counterargument (split incentive, compliance burden, California Title 24 windfall) and Limitations section included; 8 inline primary-source links.",
-   "research_file": "drafts/45l-credit-died-june-2026-builder-claim-deadline-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-12-29",
-   "started": "2026-09-14T14:05:00-07:00",
-   "word_count": 1726
-  },
-  {
-   "article_number": 858,
-   "critique_score": 8.9,
-   "critique_scores": {
-    "data_presentation": 8.7,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 9.0
-   },
-   "draft_file": "drafts/uad36-appraisal-modernization-fannie-freddie-november-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 1,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 51.9,
-     "passed": true,
-     "short_pct": 14.8,
-     "variance": 321.2
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 1.7
-    }
-   },
-   "headline": "Your Appraisal Gets Rewritten in 49 Days. AI Gets Better Data. You Get the Bill.",
-   "hero_hash": "e596bfc2",
-   "hero_real_jpeg": true,
-   "journalist": "Catherine \"Code\" Chen",
-   "phase": "SHIP_READY",
-   "primary_sources": 8,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-29. Kill-test passed; original contribution is the worked rate-lock math ($420K loan: $1,050 lock-extension + ~$63/mo = ~$22,680 lifetime if a 2-day UAD 3.6 appraisal delay busts the lock, formula shown). Full-strength counterargument (bias reduction, $4B in waiver savings) and Limitations section included; 8 inline primary-source links. Rhythm gate: variance 321.2, short 14.8%, long 51.9%.",
-   "research_file": "drafts/uad36-appraisal-modernization-fannie-freddie-november-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-12-30",
-   "started": "2026-09-14T16:05:00-07:00",
-   "word_count": 1420
-  },
-  {
-   "article_number": 859,
-   "critique_score": 8.83,
-   "critique_scores": {
-    "data_presentation": 8.9,
-    "ethics_reviewer": 9.1,
-    "general_editor": 8.8,
-    "legal_accuracy": 8.5,
-    "research_rigor": 8.8,
-    "social_shareability": 8.7,
-    "voice_coach": 9.0
-   },
-   "draft_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026.html",
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "sentence_rhythm": {
-     "long_pct": 60.0,
-     "passed": true,
-     "short_pct": 12.3,
-     "variance": 212.9
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 7.1
-    }
-   },
-   "headline": "Your Office Manager Costs $48,000 a Year. The AI That Answers Her Phone Costs $200 a Month.",
-   "hero_hash": "ba77517e",
-   "hero_real_jpeg": true,
-   "journalist": "Marcus \"Steel\" Washington",
-   "phase": "SHIP_READY",
-   "primary_sources": 8,
-   "publish_note": "Queued, not shipped: one article already published 2026-09-14 PT (one-per-day rule); queue tail was 2026-12-30. Kill-test passed; original contribution is the worked missed-call math for a 10-tech shop ($97K/yr revenue lost to voicemail on stated assumptions: 30 calls/wk, 40% missed, $485 avg ticket, 40% close rate, 40-wk season; break-even = 1 converted call/quarter; conservative 20% recovery = 5.4x ROI). Full-strength counterargument (two-tech shops get their first-ever office worker; 92% hybrid satisfaction = keep humans for judgment, machines for intake) and Limitations section included; 8 primary sources with inline links. Gates: 0 em dashes, 'The' starters 7.1%, rhythm variance 212.9.",
-   "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-12-31",
-   "started": "2026-09-14T18:05:00-07:00",
-   "word_count": 2221
   },
   {
    "article_number": 860,
