@@ -50,16 +50,24 @@
   "hero_cache_bust": "e1545dfd",
   "hero_file": "images/satellite-insar-foundation-settlement-homeowner-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-26T02:10:00-07:00",
+  "last_checked": "2026-09-26T02:15:00-07:00",
   "last_completed": {
     "article_number": 767,
     "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026",
     "at": "2026-09-26T02:10:00-07:00",
     "phase": "PUBLISHED",
-    "qa": null
+    "qa": {
+      "at": "2026-09-26T02:15:00-07:00",
+      "story": 200,
+      "hero": 200,
+      "og_tags": true,
+      "index_card": true,
+      "sitemap": "valid",
+      "note": "story 308->200 extensionless (site canonical form); index.html shows card + 768 articles; sitemap valid with new URL; hero real JPEG 1920x1280"
+    }
   },
   "last_published_at": "2026-09-26T02:10:00-07:00",
-  "note": "2026-09-26 02:01 cron: SHIP #767 (sb800 right-to-repair AI defect paper trail, Catherine Chen, critique 8.89); 0 publishes today PT before this run; queue now 205 unpublished, tail 2027-04-20. QA pending: story 200, hero 200, og tags, index card, sitemap.",
+  "note": "2026-09-26 02:01 cron: SHIP #767 complete — QA passed (story 200, hero 200, og tags, index card, sitemap). 1/day met for 2026-09-26 PT. Queue: 205 unpublished, tail 2027-04-20. Next: #768+ by article_number.",
   "phase": "IDLE",
   "research_file": "drafts/satellite-insar-foundation-settlement-homeowner-2026-research.md",
   "ship_ready": [
