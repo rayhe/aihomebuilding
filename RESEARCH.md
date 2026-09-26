@@ -1077,3 +1077,13 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: most overflow is maintenance failure, not capacity; category error to demand engineering for a component nobody engineers
 - Journalist: Frank "The Foreman" DeLuca (project management/operations beat)
 - **Queued SHIP 2027-04-16 as #965:** "The Rainfall Table Behind Your Gutters Stops at 1978. Your Roof Gets 2026 Rain." (critique avg 8.9, rounds 1; gates: 0 em dashes, 9.1% The-starters, rhythm variance 213.0; real JPEG hero 1920x1280, hash 7dd4b0b5)
+
+### 35. 🟢 AI Blower Door ACH50 Cost Translation (COMPLETED 2026-09-25)
+- 2021 IECC: 5.0 ACH50 (CZ 1-2), 3.0 (CZ 3-8); LA amended to 7.0; IN allows visual inspection; 2024 IECC 2.0-2.5
+- Blower door test ~$325 ($350-450 with thermal); AeroBarrier $2,400-$3,400 typical, 4.0-6.5 -> 1.5-2.0 ACH50
+- Original: worked ACH50->therms->dollars (Chicago 2,400 sq ft: 3.0 = ~$175/yr; tightening to 1.5 saves ~$87/yr; AeroBarrier 16-yr energy payback, honest weak-payback finding)
+- Test gaming: taped vs as-used prep; 50 Pa never occurs naturally; LBL divide-by-20 +/-50%; pressure exponent uncertainty
+- AI layer: Lamarr.AI (MIT, $1.8M DOE), Kestrix UK atlas, GSA vendor claims; not yet consumer single-family
+- Strongest counterargument: ASHRAE 62.2 ventilation below 2 ACH50; dollars-per-BTU loses to heat pumps; combustion safety
+- Journalist: Priya Greenwood (sustainability/energy beat)
+- **Queued SHIP 2027-04-20 as #969:** "Your House Passed Its Blower Door Test. It Still Changes All Its Air Every 20 Minutes." (critique avg 8.9, round 1; gates: 0 em dashes, 3.5% The-starters, rhythm variance 227.6; real JPEG hero 1920x1280, hash 2108a628)
