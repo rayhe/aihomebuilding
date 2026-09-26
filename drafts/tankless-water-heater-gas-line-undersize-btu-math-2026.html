@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/stories/tankless-water-heater-gas-line-undersize-btu-math-2026.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.",
+		"description": "A 50-gallon tank heater sips 40,000 BTU an hour. Its tankless replacement gulps 199,000. Jake Kowalski runs the IFGC gas-pipe sizing math that most swap quotes skip, on the $900-to-$1,600 surprise hiding in your walls.",
+		"image": "https://aihomebuilding.com/images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg?v=e6070130",
+		"datePublished": "2026-09-26",
+		"author": {
+			"@type": "Person",
+			"name": "Jake Kowalski"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/stories/tankless-water-heater-gas-line-undersize-btu-math-2026.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.">
+	<meta property="og:description" content="A 50-gallon tank heater sips 40,000 BTU an hour. Its tankless replacement gulps 199,000. The gas-pipe sizing math most swap quotes skip, and the $900-to-$1,600 surprise hiding in your walls.">
+	<meta property="og:url" content="https://aihomebuilding.com/stories/tankless-water-heater-gas-line-undersize-btu-math-2026.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg?v=e6070130">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.">
+	<meta name="twitter:description" content="199,000 BTU through a pipe sized for 40,000. The ten-minute table lookup that belongs on every tankless quote.">
+
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #999999;
+			--border: #333333;
+		}
+		body { background: var(--bg-primary); color: var(--text-primary); font-family: 'Inter', system-ui, sans-serif; }
+		.article-hero {
+			position: relative;
+			width: 100%;
+			max-height: 520px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: auto;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 48px 24px 24px;
+			background: linear-gradient(transparent, rgba(0,0,0,0.82));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			padding: 4px 10px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-size: 42px;
+			line-height: 1.15;
+			margin: 0 0 10px 0;
+			max-width: 900px;
+		}
+		.article-hero .byline { font-size: 15px; opacity: 0.9; }
+		.article-container {
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 24px;
+		}
+		.article-container .back-link { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 14px; }
+		.article-body { margin-top: 24px; font-size: 18px; line-height: 1.75; }
+		.article-body p { margin: 0 0 1.4em 0; }
+		.article-body h2 { font-family: 'Playfair Display', serif; font-size: 28px; margin: 2em 0 0.7em 0; }
+		.article-body a { color: var(--accent); }
+		.article-body .takeaway { background: var(--bg-card); border-left: 4px solid var(--accent); padding: 16px 20px; margin: 1.8em 0; border-radius: 0 8px 8px 0; }
+		.article-body .takeaway strong { display: block; margin-bottom: 6px; }
+		.article-body ol, .article-body ul { margin: 0 0 1.4em 0; padding-left: 1.4em; }
+		.article-body li { margin-bottom: 0.6em; }
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg?v=e6070130" alt="Wall-mounted tankless water heater in a garage with black iron gas pipe, yellow shutoff valve, and copper water lines" loading="eager">
+		<div class="overlay">
+			<span class="badge">Construction Technology</span>
+			<h1>Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.</h1>
+			<div class="byline">By Jake Kowalski &middot; September 26, 2026</div>
+		</div>
+	</div>
+	<div class="article-container">
+		<a class="back-link" href="../index.html">&larr; Back to articles</a>
+		<article class="article-body">
+			<p>The quote said $3,400 for a wall-mounted tankless unit promising endless hot water and lower gas bills, installed by Friday. You shook the plumber's hand on a Tuesday.</p>
+			<p>By Friday the quote had grown a second line: gas line upgrade, $1,350. Nobody mentioned it on Tuesday, and nobody ran the numbers on Tuesday either.</p>
+			<p>Those numbers are simple, and they are brutal. Your old tank heater sipped 40,000 BTU an hour while the tankless box replacing it gulps 199,000: five times the fire through the same skinny pipe in the wall.</p>
+			<h2>Five times the fire, same pipe</h2>
+			<p>Gas pipe gets sized for the load it carries, and yours was sized for the nineties. When the house went up, somebody added up the furnace, the tank heater, the range, and the dryer, measured the longest run back to the meter, and picked a pipe diameter off a table. That table still exists: Table 402.4(2) of the International Fuel Gas Code, which does not care about your renovation plans.</p>
+			<p>Run it for a typical house, where the furnace draws 80,000 BTU, the tank water heater 40,000, the gas range 65,000, and the dryer 35,000, for a total connected load of 220,000 BTU an hour. Convert to the table's units at roughly 1,100 BTU per cubic foot of gas and you get 200 cubic feet per hour.</p>
+			<p>Reading the table: one-inch Schedule 40 black iron, fifty feet from meter to farthest outlet, carries 284 cubic feet per hour. Two hundred is less than 284, so the old system fits with room to spare, and everybody passed inspection in 1994 and went home.</p>
+			<p>Swap the tank for a 199,000 BTU tankless and the arithmetic changes its mind. New total: 379,000 BTU an hour, or 345 cubic feet per hour, while the pipe still carries 284. You are short 61 cubic feet an hour, about 67,000 BTU, roughly eighteen percent undersized, and the burner will try to drink through a straw.</p>
+			<p>Fittings make it worse, because elbows count as pipe. A one-inch 90-degree elbow adds about 2.6 feet of equivalent length, and six elbows turn your fifty-foot run into sixty-six feet of effective length. The code says to round up to the next table row, which is eighty feet: 220 cubic feet per hour. At that point even your old 200 CFH load was running at ninety-one percent of capacity, and the tankless swap fails by a mile.</p>
+			<h2>What starvation actually looks like</h2>
+			<p>An undersized gas line does not explode. It starves. Pressure sags the moment the burner ramps to full fire, and the unit's own installation manual demands at least 4.0 inches of water column at the inlet through the full modulation range, verified with a manometer. Below that you get flame-failure lockouts on cold mornings, the dreaded cold-water sandwich in the shower, and a furnace that hiccups every time the tankless fires at full rate while the range is lit.</p>
+			<p>Installers know this failure mode, but some skip the ten minutes of arithmetic that prevents it, because the arithmetic is not on the quote and the customer cannot check it. The Rheem gas-piping guide walks through the full procedure, branch by branch, and its worked example lands exactly where ours does: a 199,900 BTU tankless needs a one-inch branch for a twenty-foot run, and the trunk has to carry everything at once.</p>
+			<h2>The ten-minute audit</h2>
+			<p>Before you sign anything, add up the nameplate BTU ratings of every gas appliance in the house, including the new tankless. Measure the longest pipe run from the meter to the farthest appliance, then add a few feet per elbow. Look up your diameter on Table 402.4(2), and if the total exceeds the table, you need bigger pipe.</p>
+			<p>Price it the same day: Angi's 2026 data puts gas line work at $15 to $25 a linear foot, with most projects landing between $271 and $936 and the national average at $598. A fifty-foot main upsized from one inch to one-and-a-quarter typically runs $900 to $1,600 installed, plus $100 to $300 for the permit. That number belongs on the quote before the handshake, not after.</p>
+			<p>One more check while you are at it: the dedicated branch. A 199,000 BTU unit on its own thirty-foot branch needs 181 cubic feet an hour, and three-quarter-inch pipe at thirty feet carries 199, which fits, barely, with no headroom for anything else on the branch. One-inch at thirty feet carries 374, so spend the extra forty bucks on the bigger branch and stop thinking about it.</p>
+			<h2>The robots already run this table</h2>
+			<p>This is exactly the kind of deterministic arithmetic that automated plan review was built to swallow. Honolulu now requires residential applicants to run submissions through CivCheck, Clariti's AI plan-review platform, before the city will even accept them. The mandate took effect September 1, 2026, and covers alterations, which is what a water-heater swap is. Toronto's pilot cut time to a permit decision by fifty-five percent for residential work in the first quarter of 2026. Denver signed a five-year, $4.6 million contract with the same platform.</p>
+			<p>To be straight about what those systems do today: they pre-check applications for completeness and scoped code issues, with citations, before a human reviewer sees the file. Nobody I could find advertises per-appliance gas-pipe sizing as a shipped feature. But the gas-load calc is pure table lookup, the most automatable check in the book, and it is the kind of thing these systems will flag the moment a jurisdiction adds mechanical schedules to the scope. Run the math yourself now, because the machine will run it on you later.</p>
+			<h2>The part the brochure leaves out</h2>
+			<p>Now the honest accounting, because the tankless pitch deserves the same skepticism as the gas line it forgot. The Department of Energy's efficiency numbers are real but conditional: 24 to 34 percent better than a storage tank for homes using 41 gallons of hot water a day or less, shrinking to 8 to 14 percent for households near 86 gallons. A gas tankless saves roughly $100 a year on the gas bill, per DOE.</p>
+			<p>Do the payback: a tankless install runs $1,500 to $2,500 more than a tank swap, plus $1,200 for the gas line you just learned about. At $100 a year, payback lands between 27 and 37 years, on a unit with a twenty-year life expectancy. The brochure's twenty-year energy savings do not cover the install premium once the pipe work enters the picture.</p>
+			<p>Three more things the brochure skips: condensing units, the efficient ones, need a condensate drain and a 120-volt outlet, which your old tank location may not have. Hard water murders tankless heat exchangers without annual descaling, a maintenance chore tank owners never think about. And if your electrical panel has the capacity, a heat-pump water heater sidesteps the entire gas question while beating both options on operating cost in most rate territories.</p>
+			<p>None of that means tankless is a bad product; it means it is a system, not an appliance, and systems have prerequisites. Endless hot water is real, and so is the pipe.</p>
+			<div class="takeaway">
+				<strong>Five moves before you sign</strong>
+				<ol>
+					<li>Add up every gas appliance's nameplate BTU, plus 199,000 for the tankless, then divide by 1,100 to get cubic feet per hour.</li>
+					<li>Measure the longest gas run, meter to farthest appliance, add about 2.6 feet per one-inch elbow, and round up to the next row of IFGC Table 402.4(2).</li>
+					<li>If the load exceeds the table, get three quotes for the upsize before you approve the heater; fifteen to twenty-five dollars a foot is the going rate.</li>
+					<li>Make the installer put the sizing calculation on the permit application, and if they will not show the math, find one who will.</li>
+					<li>Check the branch, not just the main: a dedicated one-inch branch to the unit costs little and ends the argument.</li>
+				</ol>
+			</div>
+			<h2>What this article did not prove</h2>
+			<p>The worked numbers belong to the archetype, not your house. Table capacities assume a 0.5-inch water column pressure drop, inlet pressure under 2 psi, and 0.60 specific gravity gas. Propane uses different tables, and corrugated stainless (CSST) has its own. The 1,100 BTU-per-cubic-foot conversion is typical; actual heating value varies by utility and derates with altitude. Costs are national averages from Angi's 9,232 verified projects and HomeAdvisor's 2025 data; your market will differ. I found no survey data on how often installers skip the sizing calculation, so treat that claim as field anecdote, not measured fact. And the AI plan-review framing is a direction, not a product claim: no vendor was found shipping automated gas-pipe sizing today.</p>
+			<p><em>Sources: IFGC Table 402.4(2) / IRC Table G2413.4(1), natural gas Schedule 40 sizing table via ICC CodeNotes (<a href="https://www.iccsafe.org/wp-content/uploads/membership_councils/4531S09_CodeNotes.pdf">iccsafe.org</a>); Rheem gas piping facts, worked sizing example (<a href="https://resource.gemaire.com/is/content/Watscocom/Gemaire/rheem_606392_article_1404816218763_en_cl2.pdf">resource.gemaire.com</a>); IBC 199,000 BTU/hr condensing tankless installation manual, inlet pressure 4.0-14.0 in. w.c. (<a href="https://manualspro.net/284086-ibc-199000-btu-hr-high-efficiency-condensing-tankless-water-heater-instruction-manual">manualspro.net</a>); City of Greenfield, CA gas pipe calculation handout, 1,100 BTU = 1 CFH (<a href="https://ci.greenfield.ca.us/DocumentCenter/View/1756/Gas-Pipe-Calculation-Handout-PDF">ci.greenfield.ca.us</a>); U.S. DOE tankless efficiency and savings figures (<a href="https://lentheplumber.com/blog/summer-savings-tankless-water-heater/">lentheplumber.com</a>, <a href="https://contradia.com/article/699344-tankless-vs-tank-water-heaters-and-which.html">contradia.com</a>); ENERGY STAR savings, family of four (<a href="https://dscwater.com/articles/tankless-water-heater-vs-traditional-2026-southeastern-pennsylvania-homeowners-comparison/">dscwater.com</a>); Angi 2026 gas line cost data (<a href="https://www.angi.com/articles/average-gas-line-repair-and-installation-costs.htm?cid=blogDGDYI1&entry_point_id=33797117">angi.com</a>); HomeAdvisor 2025 gas line installation costs (<a href="https://www.homeadvisor.com/cost/plumbing/install-or-repair-gas-pipes/?entry_point_id=42373194">homeadvisor.com</a>); Toronto CivCheck pilot, 55% faster decisions (<a href="https://www.prnewswire.com/news-releases/city-of-toronto-launches-ai-pre-check-with-clariti-to-speed-up-housing-approvals-302863114.html">prnewswire.com</a>); Honolulu DPP CivCheck mandate (<a href="https://www.govtech.com/artificial-intelligence/honolulu-is-among-cities-bringing-ai-to-planning-permitting">govtech.com</a>); Denver $4.6M CivCheck contract (<a href="https://www.pymnts.com/news/artificial-intelligence/2026/ai-tackles-paperwork-problem-blocking-america-housing-permits/">pymnts.com</a>); equivalent pipe lengths for fittings, 2009 Virginia Residential Code Appendix A (<a href="http://ecodes.biz/ecodes_support/free_resources/Virginia2009/09Residential/PDFs/Appendix%20A_Sizing%20and%20Capacities%20of%20Gas%20Piping.pdf">ecodes.biz</a>).</em></p>
+		</article>
+	</div>
+</body>
+</html>
