@@ -1,5 +1,5 @@
 {
- "article_number": 972,
+ "article_number": 973,
  "critique_round": 2,
  "critique_score": 8.83,
  "critique_scores": {
@@ -12,16 +12,55 @@
   "voice_coach": 9.0
  },
  "current": {
-  "article_number": 972,
-  "slug": "gas-appliance-combustion-air-closet-math-2026",
-  "headline": "Your Furnace Is Suffocating in a 384-Cubic-Foot Closet. The Code Requires 6,000.",
-  "journalist": "Frank DeLuca",
-  "draft_file": "drafts/gas-appliance-combustion-air-closet-math-2026.html",
-  "research_file": "drafts/gas-appliance-combustion-air-closet-math-2026-research.md",
-  "hero_file": "images/gas-appliance-combustion-air-closet-math-2026.jpg",
+  "article_number": 973,
+  "slug": "firefighter-egress-window-r310-rescue-math-2026",
+  "headline": "Your Basement Bedroom Window Is 0.7 Square Feet Short of Code. Measure It Before You List It as a Bedroom.",
+  "journalist": "Marcus Washington",
+  "draft_file": "drafts/firefighter-egress-window-r310-rescue-math-2026.html",
+  "research_file": "drafts/firefighter-egress-window-r310-rescue-math-2026-research.md",
+  "hero_file": "images/firefighter-egress-window-r310-rescue-math-2026.jpg",
+  "hero_hash": "3b648b56",
+  "hero_real_jpeg": true,
   "phase": "SHIP_READY",
-  "ship_after": "2027-04-23",
-  "started": "2026-09-26T12:01:00-07:00"
+  "started": "2026-09-26T14:10:00-07:00",
+  "completed": "2026-09-26T14:10:08-07:00",
+  "rounds": 1,
+  "primary_sources": 8,
+  "word_count": 2701,
+  "critique_average": 8.83,
+  "critique_scores": {
+   "general_editor": 8.7,
+   "voice_coach": 8.8,
+   "ethics_reviewer": 9.0,
+   "social_shareability": 8.6,
+   "legal_accuracy": 9.0,
+   "research_rigor": 8.9,
+   "data_presentation": 8.8
+  },
+  "hard_gates": {
+   "em_dash": {
+    "count": 0,
+    "limit": 3,
+    "passed": true
+   },
+   "the_starters": {
+    "pct": 3.9,
+    "limit": 15.0,
+    "passed": true
+   },
+   "banned_phrases": {
+    "count": 0,
+    "passed": true
+   },
+   "sentence_rhythm": {
+    "variance": 230.3,
+    "short_pct": 26.4,
+    "long_pct": 20.2,
+    "passed": true
+   }
+  },
+  "ship_after": "2027-04-24",
+  "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-23. Kill-test passed; egress-window coverage was zero across 972 prior stories. Original contribution: the simultaneous-minimums trap (24x20=3.33 sq ft fail; 20x41=5.69 fail by 0.8 sq in), double-hung net-clear trap, well+ladder worked archetype, IEBC 505.3 replacement grandfather analysis, R310.6 new-bedroom trigger. Round 0 critique: The-starters gate failed at 18.6%; revised 19 sentences to 3.9%; re-scored clean."
  },
  "draft_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026.html",
  "draft_hash": "b2afa697",
