@@ -1,5 +1,5 @@
 {
- "article_number": 971,
+ "article_number": 972,
  "critique_round": 2,
  "critique_score": 8.83,
  "critique_scores": {
@@ -12,16 +12,16 @@
   "voice_coach": 9.0
  },
  "current": {
-  "article_number": 971,
-  "slug": "tankless-water-heater-gas-line-undersize-btu-math-2026",
-  "headline": "Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.",
-  "journalist": "Jake Kowalski",
-  "draft_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026.html",
-  "research_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026-research.md",
-  "hero_file": "images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg",
+  "article_number": 972,
+  "slug": "gas-appliance-combustion-air-closet-math-2026",
+  "headline": "Your Furnace Is Suffocating in a 384-Cubic-Foot Closet. The Code Requires 6,000.",
+  "journalist": "Frank DeLuca",
+  "draft_file": "drafts/gas-appliance-combustion-air-closet-math-2026.html",
+  "research_file": "drafts/gas-appliance-combustion-air-closet-math-2026-research.md",
+  "hero_file": "images/gas-appliance-combustion-air-closet-math-2026.jpg",
   "phase": "SHIP_READY",
-  "ship_after": "2027-04-22",
-  "started": "2026-09-26T10:20:00-07:00"
+  "ship_after": "2027-04-23",
+  "started": "2026-09-26T12:01:00-07:00"
  },
  "draft_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026.html",
  "draft_hash": "b2afa697",
@@ -50,7 +50,7 @@
  "hero_cache_bust": "e1545dfd",
  "hero_file": "images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg",
  "hero_real_jpeg": true,
- "last_checked": "2026-09-26T10:50:00-07:00",
+ "last_checked": "2026-09-26T12:35:00-07:00",
  "last_completed": {
   "article_number": 767,
   "at": "2026-09-26T02:10:00-07:00",
@@ -67,7 +67,7 @@
   "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026"
  },
  "last_published_at": "2026-09-26T02:10:00-07:00",
- "note": "2026-09-26 10:01 cron: article #971 RESEARCH+DRAFT+CRITIQUE in one run (Jake Kowalski, tankless gas-line BTU math). All 7 critics 8.5+ (avg 8.83), all hard gates pass (rhythm fixed round 1: 26.2%->1.4% short). SHIP blocked (1/day met, #767 published today). Queued SHIP_READY, tail now 2027-04-22. Queue: 194 ship_ready.",
+ "note": "2026-09-26 12:01 cron: article #972 RESEARCH+DRAFT+CRITIQUE in one run (Frank DeLuca, IFGC combustion-air closet math). All 7 critics 8.5+ (avg 8.81), all hard gates pass (rhythm round 1: 20.0%->11.3% short, variance 230->244; trim 2061->2000 words). SHIP blocked (1/day met, #767 published today). Queued SHIP_READY, tail now 2027-04-23. Queue: 195 ship_ready.",
  "phase": "IDLE",
  "research_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026-research.md",
  "ship_ready": [
@@ -9204,6 +9204,57 @@
    },
    "ship_after": "2027-04-22",
    "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-21. Kill-test passed; original contribution is the worked IFGC Table 402.4(2) gas-load math (220k BTU/200 CFH existing vs 379k BTU/345 CFH with tankless on a 1-in 50-ft main rated 284 CFH; elbow equivalent-length compounding drops it to the 80-ft row at 220 CFH) plus the 27-37-year payback accounting. Full-strength counterarguments (DOE conditional efficiency, heat-pump alternative, many homes already adequate) and Limitations section included; 13 inline primary-source links."
+  },
+  {
+   "article_number": 972,
+   "slug": "gas-appliance-combustion-air-closet-math-2026",
+   "headline": "Your Furnace Is Suffocating in a 384-Cubic-Foot Closet. The Code Requires 6,000.",
+   "journalist": "Frank DeLuca",
+   "draft_file": "drafts/gas-appliance-combustion-air-closet-math-2026.html",
+   "research_file": "drafts/gas-appliance-combustion-air-closet-math-2026-research.md",
+   "hero_file": "images/gas-appliance-combustion-air-closet-math-2026.jpg",
+   "hero_hash": "64b6e9f3",
+   "hero_real_jpeg": true,
+   "phase": "SHIP_READY",
+   "started": "2026-09-26T12:01:00-07:00",
+   "completed": "2026-09-26T12:35:00-07:00",
+   "rounds": 0,
+   "primary_sources": 11,
+   "word_count": 2000,
+   "critique_average": 8.81,
+   "critique_scores": {
+    "general_editor": 8.6,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.6,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 8.8,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 244.0,
+     "short_pct": 11.7,
+     "long_pct": 42.6,
+     "passed": true
+    }
+   },
+   "ship_after": "2027-04-23",
+   "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-22. Kill-test passed; original contribution is the worked IFGC 304.5.1/304.5.3.1/304.10 math on the 80k+40k BTU archetype in a 384 ft^3 closet (requires 6,000 ft^3; 120 sq in free per opening; wood louvers 25% -> 480 sq in gross per opening) plus the tight-home <0.40 ACH trap and BPI worst-case test action levels. Full-strength counterarguments (electrification, direct-vent exemption) and Limitations section included; 11 primary sources with inline links."
   }
  ],
  "slug": "tankless-water-heater-gas-line-undersize-btu-math-2026"
