@@ -1,5 +1,5 @@
 {
- "article_number": 969,
+ "article_number": 970,
  "critique_round": 2,
  "critique_score": 8.83,
  "critique_scores": {
@@ -12,16 +12,16 @@
   "voice_coach": 9.0
  },
  "current": {
-  "article_number": 969,
-  "draft_file": "drafts/blower-door-test-ach50-air-leak-cost-2026.html",
-  "headline": "Your House Passed Its Blower Door Test. It Still Changes All Its Air Every 20 Minutes.",
-  "hero_file": "images/blower-door-test-ach50-air-leak-cost-2026.jpg",
-  "journalist": "Priya Greenwood",
+  "article_number": 970,
+  "slug": "ai-attic-ventilation-ratio-nfa-audit-2026",
+  "headline": "Your Ridge Vent Is Decorative. Your Shingle Warranty Knows It.",
+  "journalist": "Catherine Chen",
+  "draft_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026.html",
+  "research_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026-research.md",
+  "hero_file": "images/ai-attic-ventilation-ratio-nfa-audit-2026.jpg",
   "phase": "SHIP_READY",
-  "research_file": "drafts/blower-door-test-ach50-air-leak-cost-2026-research.md",
-  "ship_after": "2027-04-20",
-  "slug": "blower-door-test-ach50-air-leak-cost-2026",
-  "started": "2026-09-25T22:05:00-07:00"
+  "ship_after": "2027-04-21",
+  "started": "2026-09-26T08:05:00-07:00"
  },
  "draft_file": "drafts/satellite-insar-foundation-settlement-homeowner-2026.html",
  "draft_hash": "b2afa697",
@@ -50,7 +50,7 @@
  "hero_cache_bust": "e1545dfd",
  "hero_file": "images/satellite-insar-foundation-settlement-homeowner-2026.jpg",
  "hero_real_jpeg": true,
- "last_checked": "2026-09-26T06:30:00-07:00",
+ "last_checked": "2026-09-26T08:50:00-07:00",
  "last_completed": {
   "article_number": 767,
   "at": "2026-09-26T02:10:00-07:00",
@@ -9100,6 +9100,58 @@
    "slug": "blower-door-test-ach50-air-leak-cost-2026",
    "started": "2026-09-25T22:05:00-07:00",
    "word_count": 1990
+  },
+  {
+   "article_number": 970,
+   "number": 970,
+   "slug": "ai-attic-ventilation-ratio-nfa-audit-2026",
+   "headline": "Your Ridge Vent Is Decorative. Your Shingle Warranty Knows It.",
+   "journalist": "Catherine Chen",
+   "draft_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026.html",
+   "research_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026-research.md",
+   "hero_file": "images/ai-attic-ventilation-ratio-nfa-audit-2026.jpg",
+   "hero_hash": "0126dc63",
+   "hero_real_jpeg": true,
+   "phase": "SHIP_READY",
+   "started": "2026-09-26T08:05:00-07:00",
+   "completed": "2026-09-26T08:45:00-07:00",
+   "rounds": 1,
+   "primary_sources": 10,
+   "word_count": 1993,
+   "critique_average": 8.89,
+   "critique_scores": {
+    "general_editor": 8.9,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 0.0,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 275.5,
+     "short_pct": 7.8,
+     "long_pct": 45.6,
+     "passed": true
+    }
+   },
+   "ship_after": "2027-04-21",
+   "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-20. Kill-test passed; original contribution is the worked NFA audit math (1,800 sq ft ranch: 625 sq in vs 1,728 required = 36% of code minimum; 1,103 sq in shortfall = ~122 lin ft of soffit vent never installed) plus the GAF warranty-denial mechanism. Full-strength counterarguments (Lstiburek ratios critique, FSEC radiant dominance, R806.5 unvented attics, fan payback) and Limitations section included; 10 inline primary-source links."
   }
  ],
  "slug": "ai-stair-geometry-photo-audit-riser-tread-2026"
