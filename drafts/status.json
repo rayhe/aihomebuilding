@@ -1,39 +1,39 @@
 {
-  "article_number": 979,
+  "article_number": 980,
   "critique_round": 0,
-  "critique_score": 8.83,
+  "critique_score": 8.81,
   "critique_scores": {
-    "general_editor": 8.7,
-    "voice_coach": 8.8,
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
     "ethics_reviewer": 9.0,
     "social_shareability": 8.7,
-    "legal_accuracy": 8.9,
-    "research_rigor": 8.9,
-    "data_presentation": 8.8
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.7
   },
   "current": {
-    "article_number": 978,
-    "slug": "ai-generated-home-design-hoa-design-review-rejection-2026",
-    "headline": "Your AI Designed Your House for $20. The Design Review Committee Thinks in Months, Not Minutes.",
-    "journalist": "Elena Vasquez",
-    "draft_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026.html",
-    "research_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-research.md",
-    "critique_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-critique-r0.md",
-    "hero_file": "images/ai-generated-home-design-hoa-design-review-rejection-2026.jpg",
-    "hero_hash": "8f573e2c",
+    "article_number": 979,
+    "slug": "standby-generator-interlock-kit-outage-math-2026",
+    "headline": "The $14,000 Generator Quote Covers 8 Hours of Darkness a Year. Do the Division.",
+    "journalist": "Frank DeLuca",
+    "draft_file": "drafts/standby-generator-interlock-kit-outage-math-2026.html",
+    "research_file": "drafts/standby-generator-interlock-kit-outage-math-2026-research.md",
+    "critique_file": "drafts/standby-generator-interlock-kit-outage-math-2026-critique-r0.md",
+    "hero_file": "images/standby-generator-interlock-kit-outage-math-2026.jpg",
+    "hero_hash": "8d7bb3a0",
     "hero_real_jpeg": true,
     "phase": "SHIP_READY",
-    "started": "2026-09-27T00:40:00-07:00",
-    "completed": "2026-09-27T01:10:00-07:00",
+    "started": "2026-09-27T02:01:52-07:00",
+    "completed": "2026-09-27T02:30:00-07:00",
     "rounds": 0,
     "primary_sources": 7,
-    "word_count": 1061,
-    "critique_average": 8.8,
+    "word_count": 1197,
+    "critique_average": 8.81,
     "critique_scores": {
-      "general_editor": 8.7,
-      "voice_coach": 8.8,
+      "general_editor": 8.8,
+      "voice_coach": 8.7,
       "ethics_reviewer": 9.0,
-      "social_shareability": 8.6,
+      "social_shareability": 8.7,
       "legal_accuracy": 8.8,
       "research_rigor": 9.0,
       "data_presentation": 8.7
@@ -54,16 +54,16 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 98.9,
-        "short_pct": 30.4,
-        "long_pct": 14.5,
+        "variance": 209.5,
+        "short_pct": 10.2,
+        "long_pct": 55.1,
         "passed": true
       }
     },
-    "ship_after": "2027-04-29",
-    "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-28. Kill-test passed; original contribution is the ARC Pre-Flight Audit (walk-the-street style count, feed ARC adjectives as generator constraints, neighbor signatures before submit). 7 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: 14-sentence The-starter gate fix pre-scoring, no revision round needed."
+    "ship_after": "2027-04-30",
+    "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-29. Kill-test passed; original contribution is the outage-hour TCO audit ($240/hr standby vs $32/hr interlock over 10 years at 8 outage-hrs/yr, stated assumptions). 7 primary sources with inline verbatim links; full-strength counterargument (away-from-home, sump, medical, PSPS, CA 2028 portable phaseout); Limitations section. Round 0: two rhythm-revision passes pre-scoring (variance 81.2->209.5), no critic revision round needed."
   },
-  "draft_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026.html",
+  "draft_file": "drafts/standby-generator-interlock-kit-outage-math-2026.html",
   "draft_hash": "e0519a7b",
   "hard_gates": {
     "em_dash": {
@@ -72,7 +72,7 @@
       "passed": true
     },
     "the_starters": {
-      "pct": 5.5,
+      "pct": 0.0,
       "limit": 15.0,
       "passed": true
     },
@@ -81,16 +81,16 @@
       "passed": true
     },
     "sentence_rhythm": {
-      "variance": 279.4,
-      "short_pct": 6.7,
-      "long_pct": 48.9,
+      "variance": 209.5,
+      "short_pct": 10.2,
+      "long_pct": 55.1,
       "passed": true
     }
   },
   "hero_cache_bust": "cfb6a89e",
-  "hero_file": "images/water-pressure-prv-80-psi-expansion-tank-2026.jpg",
+  "hero_file": "images/standby-generator-interlock-kit-outage-math-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-26T22:40:00-07:00",
+  "last_checked": "2026-09-27T02:30:00-07:00",
   "last_completed": {
     "article_number": 768,
     "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
@@ -107,9 +107,9 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-26 20:01 cron: article #976 RESEARCH+DRAFT+CRITIQUE in one run (Frank DeLuca, water-pressure PRV + expansion tank two-part fix). All 7 critics 8.5+ (avg 8.83), all hard gates pass. Queued 2027-04-27; #767 published today PT so no ship action.",
+  "note": "2026-09-27 02:01 cron: article #979 RESEARCH+DRAFT+CRITIQUE in one run (Frank DeLuca, standby generator vs interlock kit outage-hour audit, avg 8.81, gates pass, queued 2027-04-30). Queue now 200 deep; tail 2027-04-30.",
   "phase": "IDLE",
-  "research_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026-research.md",
+  "research_file": "drafts/standby-generator-interlock-kit-outage-math-2026-research.md",
   "ship_ready": [
     {
       "completed": "2026-09-04",
@@ -9504,8 +9504,60 @@
       },
       "ship_after": "2027-04-29",
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-28. Kill-test passed; original contribution is the ARC Pre-Flight Audit (walk-the-street style count, feed ARC adjectives as generator constraints, neighbor signatures before submit). 7 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: 14-sentence The-starter gate fix pre-scoring, no revision round needed."
+    },
+    {
+      "article_number": 979,
+      "slug": "standby-generator-interlock-kit-outage-math-2026",
+      "headline": "The $14,000 Generator Quote Covers 8 Hours of Darkness a Year. Do the Division.",
+      "journalist": "Frank DeLuca",
+      "draft_file": "drafts/standby-generator-interlock-kit-outage-math-2026.html",
+      "research_file": "drafts/standby-generator-interlock-kit-outage-math-2026-research.md",
+      "critique_file": "drafts/standby-generator-interlock-kit-outage-math-2026-critique-r0.md",
+      "hero_file": "images/standby-generator-interlock-kit-outage-math-2026.jpg",
+      "hero_hash": "8d7bb3a0",
+      "hero_real_jpeg": true,
+      "phase": "SHIP_READY",
+      "started": "2026-09-27T02:01:52-07:00",
+      "completed": "2026-09-27T02:30:00-07:00",
+      "rounds": 0,
+      "primary_sources": 7,
+      "word_count": 1197,
+      "critique_average": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 209.5,
+          "short_pct": 10.2,
+          "long_pct": 55.1,
+          "passed": true
+        }
+      },
+      "ship_after": "2027-04-30",
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-29. Kill-test passed; original contribution is the outage-hour TCO audit ($240/hr standby vs $32/hr interlock over 10 years at 8 outage-hrs/yr, stated assumptions). 7 primary sources with inline verbatim links; full-strength counterargument (away-from-home, sump, medical, PSPS, CA 2028 portable phaseout); Limitations section. Round 0: two rhythm-revision passes pre-scoring (variance 81.2->209.5), no critic revision round needed."
     }
   ],
-  "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
-  "hero_hash": "c5942b62"
+  "slug": "standby-generator-interlock-kit-outage-math-2026",
+  "hero_hash": "8d7bb3a0"
 }
