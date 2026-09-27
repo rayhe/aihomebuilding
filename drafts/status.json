@@ -1,5 +1,5 @@
 {
-  "article_number": 976,
+  "article_number": 978,
   "critique_round": 0,
   "critique_score": 8.83,
   "critique_scores": {
@@ -12,30 +12,31 @@
     "data_presentation": 8.8
   },
   "current": {
-    "article_number": 976,
-    "slug": "water-pressure-prv-80-psi-expansion-tank-2026",
-    "headline": "Your Water Pressure Is 110 PSI. The Code Says 80. The Fix Is Two Parts, and the Second One Gets Skipped.",
-    "journalist": "Frank \"The Foreman\" DeLuca",
-    "draft_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026.html",
-    "research_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026-research.md",
-    "hero_file": "images/water-pressure-prv-80-psi-expansion-tank-2026.jpg",
-    "hero_hash": "cfb6a89e",
+    "article_number": 977,
+    "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
+    "headline": "Your $11,000 Mini-Split Bid Is Missing $2,400. Check the Line Set Math.",
+    "journalist": "Jake Kowalski",
+    "draft_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026.html",
+    "research_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-research.md",
+    "critique_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-critique-r0.md",
+    "hero_file": "images/mini-split-bid-audit-line-set-bos-hidden-costs-2026.jpg",
+    "hero_hash": "c5942b62",
     "hero_real_jpeg": true,
     "phase": "SHIP_READY",
-    "started": "2026-09-26T20:02:00-07:00",
-    "completed": "2026-09-26T20:50:00-07:00",
+    "started": "2026-09-26T22:02:00-07:00",
+    "completed": "2026-09-26T22:40:00-07:00",
     "rounds": 0,
-    "primary_sources": 9,
-    "word_count": 2014,
-    "critique_average": 8.83,
+    "primary_sources": 11,
+    "word_count": 1713,
+    "critique_average": 8.79,
     "critique_scores": {
-      "general_editor": 8.7,
-      "voice_coach": 8.8,
+      "general_editor": 8.8,
+      "voice_coach": 8.7,
       "ethics_reviewer": 9.0,
-      "social_shareability": 8.7,
-      "legal_accuracy": 8.9,
-      "research_rigor": 8.9,
-      "data_presentation": 8.8
+      "social_shareability": 8.6,
+      "legal_accuracy": 8.8,
+      "research_rigor": 9.0,
+      "data_presentation": 8.6
     },
     "hard_gates": {
       "em_dash": {
@@ -44,7 +45,7 @@
         "passed": true
       },
       "the_starters": {
-        "pct": 5.5,
+        "pct": 0.0,
         "limit": 15.0,
         "passed": true
       },
@@ -53,14 +54,14 @@
         "passed": true
       },
       "sentence_rhythm": {
-        "variance": 279.4,
-        "short_pct": 6.7,
-        "long_pct": 48.9,
+        "variance": 539.0,
+        "short_pct": 8.3,
+        "long_pct": 44.4,
         "passed": true
       }
     },
-    "ship_after": "2027-04-27",
-    "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; two-part fix math (PRV ~$452 + expansion tank ~$150-300 = ~$600-750 vs $15,400 avg water-damage claim) and P2903.4 closed-system mechanism are the original contributions, novel vs 197 queued + 341 published (zero PRV/pressure coverage). 9 primary sources with inline verbatim links; full-strength counterargument (PRV unnecessary under 80 PSI, 10-15 yr failure mode, gauge imprecision, pressure is not the whole story); Limitations section included. Round 0: sentence-rhythm short_pct gate failed at 21.0%, merged 16 short-sentence clusters to 6.7%; re-verified clean, avg 8.83."
+    "ship_after": "2027-04-28",
+    "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-27. Kill-test passed; original contribution is the worked 4-zone bid audit (190 ft total piping vs Mitsubishi 98 ft chargeless length, 92 ft excess x 0.216 oz/ft = 19.9 oz / ~$78 refrigerant, honest small number) contrasted with the $1,200-$2,800 unquoted BOS column from 2026 cost sources plus Fine Homebuilding measured 33-40% BOS finding. Novel vs corpus (zero ductless/line-set coverage). 11 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: rhythm short_pct gate failed at 23.1% and The-starters at ~21%; merged short clusters, rephrased 18 The-openers; re-verified clean, avg 8.79."
   },
   "draft_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026.html",
   "draft_hash": "e0519a7b",
@@ -89,7 +90,7 @@
   "hero_cache_bust": "cfb6a89e",
   "hero_file": "images/water-pressure-prv-80-psi-expansion-tank-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-26T20:50:00-07:00",
+  "last_checked": "2026-09-26T22:40:00-07:00",
   "last_completed": {
     "article_number": 767,
     "at": "2026-09-26T02:10:00-07:00",
@@ -9447,8 +9448,60 @@
       },
       "ship_after": "2027-04-27",
       "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; two-part fix math (PRV ~$452 + expansion tank ~$150-300 = ~$600-750 vs $15,400 avg water-damage claim) and P2903.4 closed-system mechanism are the original contributions, novel vs 197 queued + 341 published (zero PRV/pressure coverage). 9 primary sources with inline verbatim links; full-strength counterargument (PRV unnecessary under 80 PSI, 10-15 yr failure mode, gauge imprecision, pressure is not the whole story); Limitations section included. Round 0: sentence-rhythm short_pct gate failed at 21.0%, merged 16 short-sentence clusters to 6.7%; re-verified clean, avg 8.83."
+    },
+    {
+      "article_number": 977,
+      "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
+      "headline": "Your $11,000 Mini-Split Bid Is Missing $2,400. Check the Line Set Math.",
+      "journalist": "Jake Kowalski",
+      "draft_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026.html",
+      "research_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-research.md",
+      "critique_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-critique-r0.md",
+      "hero_file": "images/mini-split-bid-audit-line-set-bos-hidden-costs-2026.jpg",
+      "hero_hash": "c5942b62",
+      "hero_real_jpeg": true,
+      "phase": "SHIP_READY",
+      "started": "2026-09-26T22:02:00-07:00",
+      "completed": "2026-09-26T22:40:00-07:00",
+      "rounds": 0,
+      "primary_sources": 11,
+      "word_count": 1713,
+      "critique_average": 8.79,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 539.0,
+          "short_pct": 8.3,
+          "long_pct": 44.4,
+          "passed": true
+        }
+      },
+      "ship_after": "2027-04-28",
+      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-27. Kill-test passed; original contribution is the worked 4-zone bid audit (190 ft total piping vs Mitsubishi 98 ft chargeless length, 92 ft excess x 0.216 oz/ft = 19.9 oz / ~$78 refrigerant, honest small number) contrasted with the $1,200-$2,800 unquoted BOS column from 2026 cost sources plus Fine Homebuilding measured 33-40% BOS finding. Novel vs corpus (zero ductless/line-set coverage). 11 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: rhythm short_pct gate failed at 23.1% and The-starters at ~21%; merged short clusters, rephrased 18 The-openers; re-verified clean, avg 8.79."
     }
   ],
-  "slug": "water-pressure-prv-80-psi-expansion-tank-2026",
-  "hero_hash": "cfb6a89e"
+  "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
+  "hero_hash": "c5942b62"
 }
