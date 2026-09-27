@@ -3,12 +3,7 @@
   "critique_round": 0,
   "critique_score": null,
   "critique_scores": null,
-  "current": {
-    "slug": "ai-egress-window-bedroom-5.7-sqft-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Catherine \"Code\" Chen",
-    "started": "2026-09-27T14:05:00-07:00"
-  },
+  "current": null,
   "draft_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026.html",
   "draft_hash": "cd64208d",
   "hard_gates": {
@@ -36,7 +31,7 @@
   "hero_cache_bust": "a657850a",
   "hero_file": "images/ai-egress-window-bedroom-5.7-sqft-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-27T12:20:00-07:00",
+  "last_checked": "2026-09-27T14:35:00-07:00",
   "last_completed": {
     "article_number": 768,
     "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
@@ -53,8 +48,8 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-27 14:15 cron: article #985 DRAFT complete (Catherine Chen, bedroom egress window 5.7 sq ft + clear-opening math); hard gates pass; hero generated (2048x1152 real JPEG); CRITIQUE r0 next",
-  "phase": "CRITIQUE",
+  "note": "2026-09-27 14:35 cron: article #985 SHIP_READY (avg 8.83, gates pass), queued 2027-05-06 behind #984 (2027-05-05); queue length 206",
+  "phase": "SHIP_READY",
   "research_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026-research.md",
   "ship_ready": [
     {
@@ -9762,6 +9757,56 @@
       "word_count": 1539,
       "ship_after": "2027-05-05",
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-04. Kill-test passed; original contribution is the NEC 220.82/120.82 worked calculation on a fully electrified 2,000 sq ft home: naive breaker sum 260A vs code-calculated 133A (127 phantom amps, 96% overcount), using the 2026 NEC 80% EVSE factor for existing dwellings (FR 8188, LBNL sub-metering). 10 primary sources inline. Gates: 0 em dashes, The-starters 9.5%, 0 banned phrases, rhythm variance 439.4. Round 0: gates repaired pre-scoring (rhythm 155.3->439.4, The-starters 14.6->9.5, hero hash corrected); no critic revision round needed."
+    },
+    {
+      "id": 985,
+      "article_number": 985,
+      "completed": "2026-09-27T14:35:00-07:00",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 417.4,
+          "short_pct": 11.6,
+          "long_pct": 46.5,
+          "passed": true
+        }
+      },
+      "headline": "Your 3-0 x 4-0 Bedroom Window Doesn't Meet Egress Code. Nobody Measured It.",
+      "hero_file": "images/ai-egress-window-bedroom-5.7-sqft-2026.jpg",
+      "hero_hash": "a657850a",
+      "hero_real_jpeg": true,
+      "hold_reason": "1/day rule: #768 published 2026-09-27; #985 queued for 2027-05-06 behind #984 (2027-05-05)",
+      "journalist": "Catherine \"Code\" Chen",
+      "phase": "SHIP",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-06",
+      "slug": "ai-egress-window-bedroom-5.7-sqft-2026",
+      "started": "2026-09-27T14:05:00-07:00"
     }
   ],
   "slug": "ai-egress-window-bedroom-5.7-sqft-2026",
