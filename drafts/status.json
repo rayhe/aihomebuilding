@@ -1,18 +1,18 @@
 {
-  "article_number": 983,
+  "article_number": 984,
   "critique_round": 0,
-  "critique_score": 8.91,
+  "critique_score": 8.86,
   "critique_scores": {
-    "general_editor": 8.8,
-    "voice_coach": 9.0,
-    "ethics_reviewer": 9.2,
-    "social_shareability": 8.7,
+    "general_editor": 8.9,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.6,
     "legal_accuracy": 8.8,
     "research_rigor": 9.0,
     "data_presentation": 8.9
   },
   "current": null,
-  "draft_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026.html",
+  "draft_file": "drafts/ai-200amp-panel-electrification-load-math-2026.html",
   "draft_hash": "009ca067",
   "hard_gates": {
     "em_dash": {
@@ -21,7 +21,7 @@
       "passed": true
     },
     "the_starters": {
-      "pct": 7.8,
+      "pct": 9.5,
       "limit": 15.0,
       "passed": true
     },
@@ -30,16 +30,16 @@
       "passed": true
     },
     "sentence_rhythm": {
-      "variance": 229.5,
-      "short_pct": 12.5,
-      "long_pct": 62.5,
+      "variance": 439.4,
+      "short_pct": 1.6,
+      "long_pct": 43.8,
       "passed": true
     }
   },
-  "hero_cache_bust": "4e47b427",
-  "hero_file": "images/ai-heat-rule-85-degree-gap-mandatory-rest-2026.jpg",
+  "hero_cache_bust": "b36f5a72",
+  "hero_file": "images/ai-200amp-panel-electrification-load-math-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-27T10:45:00-07:00",
+  "last_checked": "2026-09-27T12:20:00-07:00",
   "last_completed": {
     "article_number": 768,
     "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
@@ -56,9 +56,9 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-27 10:45 cron: article #983 RESEARCH+DRAFT+CRITIQUE in one run (Marcus Washington, heat-rule 85-degree gap). Queued SHIP_READY (ship_after 2027-05-04); queue now 204 deep. Gates all pass; avg critic 8.91.",
+  "note": "2026-09-27 12:20 cron: article #984 RESEARCH+DRAFT+CRITIQUE in one run (Priya Greenwood, 200A panel electrification load math, 2026 NEC 80% EVSE factor). Queued SHIP_READY (ship_after 2027-05-05); queue now 205 deep. Gates all pass; avg critic 8.86.",
   "phase": "SHIP_READY",
-  "research_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026-research.md",
+  "research_file": "drafts/ai-200amp-panel-electrification-load-math-2026-research.md",
   "ship_ready": [
     {
       "completed": "2026-09-04",
@@ -9713,8 +9713,60 @@
       "ship_after": "2027-05-04",
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-03. Kill-test passed; original contributions are the 85F-vs-90F policy/data gap cross-reference, the ~250 construction heat-death estimate (CPWR 18 x OSHA 14x underreporting), and the $6,435 avg-claim vs $500 armband cost anchor. 10 primary sources inline. Gates: 0 em dashes, The-starters 7.8%, 0 banned phrases, rhythm variance 229.5. Round 0: gates fixed pre-scoring, no critic revision round needed; post-scoring corrections removed the all-industry temperature-extreme extrapolation and \"rule died\" wording.",
       "word_count": 2759
+    },
+    {
+      "article_number": 984,
+      "slug": "ai-200amp-panel-electrification-load-math-2026",
+      "phase": "SHIP_READY",
+      "journalist": "Priya Greenwood",
+      "headline": "Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.",
+      "started": "2026-09-27T12:20:00-07:00",
+      "completed": "2026-09-27T12:20:00-07:00",
+      "research_file": "drafts/ai-200amp-panel-electrification-load-math-2026-research.md",
+      "draft_file": "drafts/ai-200amp-panel-electrification-load-math-2026.html",
+      "critique_file": "drafts/ai-200amp-panel-electrification-load-math-2026-critique-r0.md",
+      "hero_file": "images/ai-200amp-panel-electrification-load-math-2026.jpg",
+      "hero_hash": "b36f5a72",
+      "hero_real_jpeg": true,
+      "rounds": 0,
+      "primary_sources": 10,
+      "critique_average": 8.86,
+      "critique_scores": {
+        "general_editor": 8.9,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 9.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 439.4,
+          "short_pct": 1.6,
+          "long_pct": 43.8,
+          "passed": true
+        }
+      },
+      "word_count": 1539,
+      "ship_after": "2027-05-05",
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-04. Kill-test passed; original contribution is the NEC 220.82/120.82 worked calculation on a fully electrified 2,000 sq ft home: naive breaker sum 260A vs code-calculated 133A (127 phantom amps, 96% overcount), using the 2026 NEC 80% EVSE factor for existing dwellings (FR 8188, LBNL sub-metering). 10 primary sources inline. Gates: 0 em dashes, The-starters 9.5%, 0 banned phrases, rhythm variance 439.4. Round 0: gates repaired pre-scoring (rhythm 155.3->439.4, The-starters 14.6->9.5, hero hash corrected); no critic revision round needed."
     }
   ],
-  "slug": "ai-heat-rule-85-degree-gap-mandatory-rest-2026",
-  "hero_hash": "4e47b427"
+  "slug": "ai-200amp-panel-electrification-load-math-2026",
+  "hero_hash": "b36f5a72"
 }

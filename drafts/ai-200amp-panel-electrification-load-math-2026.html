@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/stories/ai-200amp-panel-electrification-load-math-2026.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.",
+		"description": "A worked NEC calculation on a fully electrified 2,000-square-foot home lands at 133 amps on a 200-amp panel, against a naive breaker sum of 260. The 2026 NEC’s new 80% EV charger factor, built on Lawrence Berkeley Lab sub-metering, is why. Priya Greenwood does the five-degree math.",
+		"image": "https://aihomebuilding.com/images/ai-200amp-panel-electrification-load-math-2026.jpg?v=b36f5a72",
+		"datePublished": "2026-09-27",
+		"author": {
+			"@type": "Person",
+			"name": "Priya Greenwood"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/stories/ai-200amp-panel-electrification-load-math-2026.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.">
+	<meta property="og:description" content="A worked NEC calculation on a fully electrified 2,000-square-foot home lands at 133 amps on a 200-amp panel, against a naive breaker sum of 260. The 2026 NEC’s new 80% EV charger factor, built on Lawrence Berkeley Lab sub-metering, is why.">
+	<meta property="og:url" content="https://aihomebuilding.com/stories/ai-200amp-panel-electrification-load-math-2026.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-200amp-panel-electrification-load-math-2026.jpg?v=b36f5a72">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.">
+	<meta name="twitter:description" content="A worked NEC calculation on a fully electrified 2,000-square-foot home lands at 133 amps on a 200-amp panel, against a naive breaker sum of 260. The 2026 NEC’s new 80% EV charger factor, built on Lawrence Berkeley Lab sub-metering, is why.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-200amp-panel-electrification-load-math-2026.jpg?v=b36f5a72">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			width: 100%;
+			max-height: 520px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 520px;
+			object-fit: cover;
+			display: block;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.25) 55%, rgba(0,0,0,0.05) 100%);
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			padding: 48px;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+			padding: 6px 14px;
+			border-radius: 4px;
+			margin-bottom: 16px;
+			align-self: flex-start;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			color: #fff;
+			font-size: 42px;
+			line-height: 1.2;
+			margin: 0 0 12px 0;
+			max-width: 860px;
+		}
+		.article-hero .byline {
+			color: rgba(255,255,255,0.85);
+			font-size: 14px;
+		}
+		.article-container {
+			max-width: 760px;
+			margin: 0 auto;
+			padding: 32px 24px 80px 24px;
+		}
+		.back-link {
+			display: inline-block;
+			margin-bottom: 24px;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 14px;
+		}
+		.article-body p {
+			margin: 0 0 1.4em 0;
+			color: var(--text-primary);
+		}
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-size: 28px;
+			margin: 2em 0 0.7em 0;
+			line-height: 1.3;
+		}
+		.article-body a {
+			color: var(--accent);
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border: 1px solid var(--border);
+			border-left: 4px solid var(--accent);
+			border-radius: 8px;
+			padding: 24px 28px;
+			margin: 2em 0;
+		}
+		.pull-stat .number {
+			display: block;
+			font-family: 'Playfair Display', serif;
+			font-size: 44px;
+			font-weight: 800;
+			color: var(--accent);
+			line-height: 1.1;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 8px;
+			color: var(--text-secondary);
+			font-size: 15px;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/ai-200amp-panel-electrification-load-math-2026.jpg?v=b36f5a72" alt="Open residential breaker panel on a garage wall, electrician's gloved hand with a clamp meter at the main breaker, EV charging cable running to a car in the background, warm job-site light" loading="eager">
+		<div class="overlay">
+			<span class="badge">Sustainability &amp; Electrification</span>
+			<h1>Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.</h1>
+			<div class="byline">By Priya Greenwood &middot; September 27, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+<p>Picture the garage. Your electrician has the panel cover off, a headlamp on, and a heat pump quote sitting on your kitchen table along with the EV charger brochure. He adds up the breakers on the back of the invoice: induction cooktop, 50 amps; heat pump water heater, 30; dryer, 30; the charger, 60. He looks up with the expression contractors keep for expensive news.</p>
+
+<p>"You're going to need a 400-amp service; I'll call the utility. Ten grand, maybe more, and don't hold your breath on the timeline."</p>
+
+<p>He is not exactly lying, because those breakers do add to 260, but adding breakers is not how the National Electrical Code adds loads, and the gap between his arithmetic and the Code's is the most expensive misunderstanding in residential electrification.</p>
+
+<h2>The panic is real, and it has numbers</h2>
+
+<p>Start with why the quote lands so easily. A <a href="https://news.bloomberglaw.com/environment-and-energy/millions-of-us-homes-need-electrical-upgrades-for-evs-and-solar">2021 Pecan Street analysis</a> estimated as many as 48 million U.S. homes may need electrical upgrades to handle solar, heat pumps, and EV chargers. The Department of Energy's electrification program, led by Lawrence Berkeley National Laboratory, found that 21% of American homes sit on panels of 100 amps or less, and <a href="https://www.energy.gov/documents/bto-peer-2023-32645-affordable-electrification-nrel-jinpdf">44% have two or fewer open breaker slots</a>. Upgrades cost customers $2,000 to $30,000 and take months of utility coordination. Berkeley Lab's own numbers put the service side alone at $1,000 to $25,000, with 3-to-6-month project delays and transformer lead times stretching past a year.</p>
+
+<p>A <a href="https://www.mdpi.com/1996-1073/19/17/4051">2026 peer-reviewed paper in Energies</a> ran the continental math: 22.8 million household panels would need replacement under full electrification, at $2,000 to $10,000 apiece in hardware and labor, so the fear is not manufactured. Millions of homes genuinely cannot take another big load. Yours might not be one of them, and the difference is a calculation your electrician may never have run.</p>
+
+<h2>How the Code actually adds</h2>
+
+<p>The NEC's optional method for a single-family dwelling, Section 220.82, does not sum breakers. It sums loads, then applies the one insight every homeowner already lives: everything never runs at once. General lighting counts at 3 volt-amps per square foot. Count 1,500 VA each for the two small-appliance circuits and the laundry circuit. Fixed appliances count at nameplate, then the demand factor kicks in, and this is the whole trick: the first 10,000 VA counts at 100%, everything above it counts at 40%, and HVAC adds the largest of six categories. That 40% is the Code's way of admitting your dryer, your range, and your water heater have never once all pulled full power in the same minute, so it stops pretending they will.</p>
+
+<p>For years the EV charger sat outside this logic, counted brutally: the larger of its nameplate or 7,200 watts, often at full value. The <a href="https://wirewoman.com/blog/nec-2026-load-calculations-electricians/">2026 NEC</a> finally gave the charger its own math. Article 220 was renumbered to Article 120, Section 120.57 now uses the charger's actual nameplate instead of the 7,200-watt default, and in an existing dwelling a new EV charger gets an 80% demand factor under Section 120.83. That 80% did not come from a committee's intuition. It came from First Revision 8188, built on Lawrence Berkeley National Laboratory sub-metering of how EV chargers actually behave in real homes. Measured charging sessions went in and a demand factor came out, which is another way of saying the Code caught up to the driveway.</p>
+
+<h2>The calculation nobody runs at the kitchen table</h2>
+
+<p>So run it. Take a 2,000-square-foot house in a mild climate on a 200-amp service, going fully electric: a 3-ton heat pump with no resistance strips, an induction cooktop, a heat pump water heater, an electric dryer, the usual small appliances, and one 48-amp EV charger.</p>
+
+<table>
+<thead><tr><th>Load</th><th>VA</th></tr></thead>
+<tbody>
+<tr><td>General lighting: 2,000 sq ft &times; 3 VA</td><td>6,000</td></tr>
+<tr><td>Small appliance (2) + laundry (1) &times; 1,500 VA</td><td>4,500</td></tr>
+<tr><td>Fixed appliances: induction 9,600 + heat pump water heater 4,800 + dryer 5,000 + dishwasher 1,200 + disposal 600 + microwave 1,500</td><td>22,700</td></tr>
+<tr><td>Subtotal</td><td>33,200</td></tr>
+<tr><td>Demand: first 10,000 @ 100% + 23,200 @ 40%</td><td>19,280</td></tr>
+<tr><td>HVAC: heat pump compressor, no strips, 100%</td><td>3,500</td></tr>
+<tr><td>EV charger: 48A nameplate 11,520 VA @ 80% (2026 NEC, existing dwelling)</td><td>9,216</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>31,996 VA = 133A at 240V</strong></td></tr>
+</tbody>
+</table>
+
+<p>The electrician's breaker sum said 260 amps while the Code says 133: 127 phantom amps, a 96% overcount, and 133 lands well under the 160-amp line where continuous-load derating starts to bite, with 67 amps of headroom to the panel's rating. The breaker handles the fantasy where everything runs at once; the calculation handles the house you actually live in.</p>
+
+<p>This is not a friendly rounding trick, because an independent worked example at <a href="https://evchargeright.com/blog/two-ev-household-charging-power-sharing-nec-625-42">evchargeright.com</a> ran the same optional method on a harder case, a 2,200-square-foot all-electric house with two 48-amp EVs and 5 kW of backup heat strips, and landed at 195 amps without any load management: harder house, two cars, resistance heat, still under 200.</p>
+
+<h2>In the electrician's defense</h2>
+
+<p>Now the part the industry deserves to hear at full strength. Diversity factors are a probability distribution, not a promise. On a 10-degree night in January, the heat strips, the EV, the dryer, and the range can genuinely all call for power inside the same hour, and that correlated evening is exactly the event the 40% factor was never designed to cover. An electrician who has pulled a scorched bus bar out of a dead panel is pricing that hour. He is not running a scam; he is the person who gets the call when the probability lands.</p>
+
+<p>Time matters too, because the 80% EV factor exists only in the 2026 Code while most states still enforce the 2020 or 2023 cycles, where the charger counts far less kindly; until your authority having jurisdiction adopts the 2026 edition, the math in this article may not exist where you live, so ask which cycle they enforce before you argue.</p>
+
+<p>And the smart-panel alternative has its own invoice. A SPAN panel retails around $3,500 against New Jersey installer <a href="https://malfettoneelectric.com/blog/span-vs-leviton-vs-lumin-smart-panel-nj">quotes of $6,500 to $10,000 installed</a>, while a Lumin retrofit alongside a healthy panel runs $3,000 to $5,500. SPAN just took a <a href="https://www.energycentral.com/energy-biz/post/news-span-looks-to-cut-smart-panel-costs-with-75m-eaton-partnership-W4HCY38kn7jMxnp">$75 million investment from Eaton</a>, which should push prices down through Eaton's distribution, and will also put your panel's roadmap inside Eaton's building. A 400-amp service, for all its cost, is an asset the next buyer understands without an app. A smart panel is a subscription to somebody else's product cycle.</p>
+
+<h2>What this analysis does not prove</h2>
+
+<p>The honest accounting. My nameplates are representative estimates, an induction cooktop at 9,600 VA and a heat pump water heater at 4,800, not measurements from one house, and real appliances swing 15% either way. Berkeley Lab sub-metering underlies the 80% EV factor, which I know secondhand through the NEC revision record and a trade explainer; I did not pull the underlying dataset. Installed prices are New Jersey 2026 plus national DOE and Berkeley Lab ranges, and your utility territory will differ. This is a calculation, not a field measurement, and an inspector can require the existing-dwelling method or actual maximum demand instead of the optional one. Cold-climate homes with resistance backup heat land meaningfully above 133 amps. None of that changes the central finding, but it bounds it.</p>
+
+<h2>What to do Monday morning</h2>
+
+<p>If you are electrifying and the quote includes a service upgrade, four moves, in order.</p>
+
+<p>First, get the load calculation in writing, with the code section cited, because breaker addition is not a load calculation; if the electrician cannot produce the 220.82 or 120.82 worksheet, you do not have an engineering answer yet, and ten minutes with the table above gets you one.</p>
+
+<p>Second, ask your inspector which NEC cycle the jurisdiction enforces. The 80% EV factor is 2026-only, and under the 2020 or 2023 cycles the charger counts worse, so arguing 2026 math at a 2020 counter will not go well.</p>
+
+<p>Third, price the ladder before you climb it. A conventional 200-amp upgrade runs $2,800 to $5,500 installed. A Lumin retrofit runs $3,000 to $5,500 and leaves a healthy panel in place, a SPAN runs $6,500 to $10,000, and a full 200-to-400-amp service rebuild can reach $30,000 with months of utility coordination. Pick the rung your calculation justifies, not the one the invoice assumed.</p>
+
+<p>Fourth, remember the cheapest capacity on the market. If your panel is healthy, not a Zinsco, not a Federal Pacific, with room for the breakers, the 40% demand factor the Code already grants you costs nothing and takes ten minutes on a napkin. That is the upgrade most quotes skip straight past. Do the math first, then decide what to buy.</p>
+
+<h2>Sources</h2>
+
+<p>Pecan Street's 2021 panel-upgrade estimate via <a href="https://news.bloomberglaw.com/environment-and-energy/millions-of-us-homes-need-electrical-upgrades-for-evs-and-solar">Bloomberg Law</a>; the DOE "Affordable and Equitable Residential Electrification Under Electrical Panel and Service Constraints" <a href="https://www.energy.gov/cmei/buildings/articles/affordable-and-equitable-residential-electrification-under-electrical-panel">project page</a> (LBNL lead); the NREL/LBNL 2023 BTO Peer Review <a href="https://www.energy.gov/documents/bto-peer-2023-32645-affordable-electrification-nrel-jinpdf">deck</a>; LBNL/BPA NHPC 2023 <a href="https://homes.lbl.gov/sites/default/files/2023-04/BPA_NHPC23-LowPowerElectrification.pdf">slides</a> on upgrade costs and delays; "Less Is the New More" in <a href="https://www.mdpi.com/1996-1073/19/17/4051">MDPI Energies, 2026</a>; NEC 2026 load-calculation changes via <a href="https://wirewoman.com/blog/nec-2026-load-calculations-electricians/">Wirewoman</a> (Sections 120.57, 120.82, 120.83, with the FR 8188 LBNL sub-metering basis); NEC 220.82 optional-method steps via <a href="https://expertce.com/learn-articles/dwelling-service-calculation-optional-method-nec-220-82/">ExpertCE</a>; the worked two-EV optional-method example via <a href="https://evchargeright.com/blog/two-ev-household-charging-power-sharing-nec-625-42">evchargeright.com</a>; the SPAN/Eaton $75M partnership via <a href="https://www.energycentral.com/energy-biz/post/news-span-looks-to-cut-smart-panel-costs-with-75m-eaton-partnership-W4HCY38kn7jMxnp">Canary Media</a>; and 2026 New Jersey installed smart-panel pricing via <a href="https://malfettoneelectric.com/blog/span-vs-leviton-vs-lumin-smart-panel-nj">Malfettone Electric</a>.</p>
+		</article>
+	</div>
+</body>
+</html>
