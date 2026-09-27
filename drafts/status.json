@@ -92,73 +92,17 @@
   "hero_real_jpeg": true,
   "last_checked": "2026-09-26T22:40:00-07:00",
   "last_completed": {
-    "article_number": 767,
-    "at": "2026-09-26T02:10:00-07:00",
+    "article_number": 768,
+    "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
     "phase": "PUBLISHED",
-    "qa": {
-      "at": "2026-09-26T02:15:00-07:00",
-      "hero": 200,
-      "index_card": true,
-      "note": "story 308->200 extensionless (site canonical form); index.html shows card + 768 articles; sitemap valid with new URL; hero real JPEG 1920x1280",
-      "og_tags": true,
-      "sitemap": "valid",
-      "story": 200
-    },
-    "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026"
+    "at": "2026-09-27T00:05:00-07:00",
+    "qa": null
   },
-  "last_published_at": "2026-09-26T02:10:00-07:00",
+  "last_published_at": "2026-09-27T00:05:00-07:00",
   "note": "2026-09-26 20:01 cron: article #976 RESEARCH+DRAFT+CRITIQUE in one run (Frank DeLuca, water-pressure PRV + expansion tank two-part fix). All 7 critics 8.5+ (avg 8.83), all hard gates pass. Queued 2027-04-27; #767 published today PT so no ship action.",
   "phase": "IDLE",
   "research_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026-research.md",
   "ship_ready": [
-    {
-      "article_number": 850,
-      "critique_score": 8.83,
-      "critique_scores": {
-        "data_presentation": 8.7,
-        "ethics_reviewer": 9.0,
-        "general_editor": 8.7,
-        "legal_accuracy": 8.9,
-        "research_rigor": 8.9,
-        "social_shareability": 8.8,
-        "voice_coach": 8.8
-      },
-      "hard_gates": {
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "em_dash": {
-          "count": 1,
-          "limit": 3,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "long_pct": 58.6,
-          "passed": true,
-          "short_pct": 3.4,
-          "variance": 201.3
-        },
-        "the_starters": {
-          "limit": 15.0,
-          "passed": true,
-          "pct": 4.6
-        }
-      },
-      "headline": "Your Flip's Attic Is Full of Gray Pebbles. Pulling Them Out Costs $12,000, and an AI Spotted Them From a Photo.",
-      "hero_file": "images/ai-asbestos-photo-screening-vermiculite-abatement-2026.jpg",
-      "hero_hash": "bf765584",
-      "hero_real_jpeg": true,
-      "hold_reason": "1/day rule: #745 queued for 2026-09-03 through #754 for 2026-09-12; renumbered 755->850 on 2026-09-14 (755 was published 2026-09-13 as the Framer/Spanish translation article)",
-      "journalist": "Jake Kowalski",
-      "phase": "SHIP",
-      "primary_sources": 6,
-      "research_file": "drafts/ai-asbestos-photo-screening-vermiculite-abatement-2026-research.md",
-      "rounds": 0,
-      "ship_after": "2026-09-13",
-      "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
-      "started": "2026-09-02T22:05:00-07:00"
-    },
     {
       "completed": "2026-09-04",
       "critics": {
