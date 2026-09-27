@@ -96,7 +96,15 @@
     "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
     "phase": "PUBLISHED",
     "at": "2026-09-27T00:05:00-07:00",
-    "qa": null
+    "qa": {
+      "at": "2026-09-27T00:28:00-07:00",
+      "story": 200,
+      "hero": 200,
+      "index_card": true,
+      "og_tags": true,
+      "sitemap": "valid",
+      "note": "story 308->200 extensionless (site canonical form); index.html 308->/ root serves index with card + 769 articles; sitemap valid with new URL; hero real JPEG 599243B"
+    }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
   "note": "2026-09-26 20:01 cron: article #976 RESEARCH+DRAFT+CRITIQUE in one run (Frank DeLuca, water-pressure PRV + expansion tank two-part fix). All 7 critics 8.5+ (avg 8.83), all hard gates pass. Queued 2027-04-27; #767 published today PT so no ship action.",
