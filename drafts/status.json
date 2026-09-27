@@ -56,7 +56,7 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-27 06:01 cron: article #981 RESEARCH+DRAFT+CRITIQUE in one run (Catherine Chen, soft-story mandate compliance audit, avg 8.90, gates pass, queued 2027-05-02). Queue now 202 deep; tail 2027-05-02.",
+  "note": "2026-09-27 08:01 cron: article #982 RESEARCH+DRAFT+CRITIQUE in one run (Jake Kowalski, shear-wall nail-pattern photo audit, avg 8.91, gates pass, queued 2027-05-03). Queue now 203 deep; tail 2027-05-03.",
   "phase": "IDLE",
   "research_file": "drafts/engineered-stone-silica-real-time-monitor-countertop-2026-research.md",
   "ship_ready": [
@@ -9609,6 +9609,58 @@
       "ship_after": "2027-05-02",
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-01. Kill-test passed; original contributions are the 90:1 voluntary-vs-mandate ratio, the $4,560 tenant pass-through cap math ($38/mo x 120), and the ~9,600-person holdout headcount. 10 primary sources with inline verbatim links; full-strength counterargument (costs land on marginal owners/tenants); Limitations section. Round 0: gates fixed pre-scoring (The-starters 15.9->10.9%, short sentences 17.4->12.5%), no critic revision round needed.",
       "word_count": 1698
+    },
+    {
+      "article_number": 982,
+      "slug": "ai-shear-wall-nail-pattern-photo-audit-2026",
+      "headline": "Your Shear Wall Is Missing 40 Nails. The Drywall Went Up Yesterday.",
+      "journalist": "Jake Kowalski",
+      "draft_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026.html",
+      "research_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026-research.md",
+      "critique_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026-critique-r0.md",
+      "hero_file": "images/ai-shear-wall-nail-pattern-photo-audit-2026.jpg",
+      "hero_hash": "3cbe4c2c",
+      "hero_real_jpeg": true,
+      "phase": "SHIP_READY",
+      "started": "2026-09-27T08:09:29.181458-07:00",
+      "completed": "2026-09-27T08:09:29.181458-07:00",
+      "rounds": 0,
+      "primary_sources": 8,
+      "critique_average": 8.91,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 214.9,
+          "short_pct": 13.9,
+          "long_pct": 65.3,
+          "passed": true
+        }
+      },
+      "ship_after": "2027-05-03",
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-02. Kill-test passed; original contributions are the 64-nail panel count derived from the IRC nailing schedule and the 8-missing-nails -> ~360 plf capacity-slide estimate. 8 primary sources inline. Gates: 0 em dashes, The-starters 1.9%, 0 banned phrases, rhythm variance 214.9. Round 0: gates fixed pre-scoring, no critic revision round needed.",
+      "word_count": 2726
     }
   ],
   "slug": null,
