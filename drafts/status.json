@@ -1,5 +1,5 @@
 {
-  "article_number": 978,
+  "article_number": 979,
   "critique_round": 0,
   "critique_score": 8.83,
   "critique_scores": {
@@ -14,9 +14,54 @@
   "current": {
     "article_number": 978,
     "slug": "ai-generated-home-design-hoa-design-review-rejection-2026",
-    "phase": "DRAFT",
+    "headline": "Your AI Designed Your House for $20. The Design Review Committee Thinks in Months, Not Minutes.",
     "journalist": "Elena Vasquez",
-    "started": "2026-09-27T00:40:00-07:00"
+    "draft_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026.html",
+    "research_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-research.md",
+    "critique_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-critique-r0.md",
+    "hero_file": "images/ai-generated-home-design-hoa-design-review-rejection-2026.jpg",
+    "hero_hash": "8f573e2c",
+    "hero_real_jpeg": true,
+    "phase": "SHIP_READY",
+    "started": "2026-09-27T00:40:00-07:00",
+    "completed": "2026-09-27T01:10:00-07:00",
+    "rounds": 0,
+    "primary_sources": 7,
+    "word_count": 1061,
+    "critique_average": 8.8,
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.6,
+      "legal_accuracy": 8.8,
+      "research_rigor": 9.0,
+      "data_presentation": 8.7
+    },
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 0.0,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 98.9,
+        "short_pct": 30.4,
+        "long_pct": 14.5,
+        "passed": true
+      }
+    },
+    "ship_after": "2027-04-29",
+    "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-28. Kill-test passed; original contribution is the ARC Pre-Flight Audit (walk-the-street style count, feed ARC adjectives as generator constraints, neighbor signatures before submit). 7 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: 14-sentence The-starter gate fix pre-scoring, no revision round needed."
   },
   "draft_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026.html",
   "draft_hash": "e0519a7b",
@@ -9407,6 +9452,58 @@
       },
       "ship_after": "2027-04-28",
       "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-27. Kill-test passed; original contribution is the worked 4-zone bid audit (190 ft total piping vs Mitsubishi 98 ft chargeless length, 92 ft excess x 0.216 oz/ft = 19.9 oz / ~$78 refrigerant, honest small number) contrasted with the $1,200-$2,800 unquoted BOS column from 2026 cost sources plus Fine Homebuilding measured 33-40% BOS finding. Novel vs corpus (zero ductless/line-set coverage). 11 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: rhythm short_pct gate failed at 23.1% and The-starters at ~21%; merged short clusters, rephrased 18 The-openers; re-verified clean, avg 8.79."
+    },
+    {
+      "article_number": 978,
+      "slug": "ai-generated-home-design-hoa-design-review-rejection-2026",
+      "headline": "Your AI Designed Your House for $20. The Design Review Committee Thinks in Months, Not Minutes.",
+      "journalist": "Elena Vasquez",
+      "draft_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026.html",
+      "research_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-research.md",
+      "critique_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-critique-r0.md",
+      "hero_file": "images/ai-generated-home-design-hoa-design-review-rejection-2026.jpg",
+      "hero_hash": "8f573e2c",
+      "hero_real_jpeg": true,
+      "phase": "SHIP_READY",
+      "started": "2026-09-27T00:40:00-07:00",
+      "completed": "2026-09-27T01:10:00-07:00",
+      "rounds": 0,
+      "primary_sources": 7,
+      "word_count": 1061,
+      "critique_average": 8.8,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 98.9,
+          "short_pct": 30.4,
+          "long_pct": 14.5,
+          "passed": true
+        }
+      },
+      "ship_after": "2027-04-29",
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-28. Kill-test passed; original contribution is the ARC Pre-Flight Audit (walk-the-street style count, feed ARC adjectives as generator constraints, neighbor signatures before submit). 7 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: 14-sentence The-starter gate fix pre-scoring, no revision round needed."
     }
   ],
   "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
