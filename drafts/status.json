@@ -1,39 +1,39 @@
 {
- "article_number": 974,
- "critique_round": 2,
- "critique_score": 8.83,
+ "article_number": 975,
+ "critique_round": 1,
+ "critique_score": 8.79,
  "critique_scores": {
-  "data_presentation": 8.8,
-  "ethics_reviewer": 8.8,
   "general_editor": 8.8,
-  "legal_accuracy": 9.0,
-  "research_rigor": 8.7,
-  "social_shareability": 8.7,
-  "voice_coach": 9.0
+  "voice_coach": 8.7,
+  "ethics_reviewer": 8.6,
+  "social_shareability": 8.8,
+  "legal_accuracy": 8.9,
+  "research_rigor": 8.9,
+  "data_presentation": 8.8
  },
  "current": {
-  "article_number": 974,
-  "slug": "gfci-nec-2023-expansion-nuisance-tripping-2026",
-  "headline": "Your Induction Range Will Trip the Breaker the Code Requires. Massachusetts Says Take It Out.",
-  "journalist": "Catherine Chen",
-  "draft_file": "drafts/gfci-nec-2023-expansion-nuisance-tripping-2026.html",
-  "research_file": "drafts/gfci-nec-2023-expansion-nuisance-tripping-2026-research.md",
-  "hero_file": "images/gfci-nec-2023-expansion-nuisance-tripping-2026.jpg",
-  "hero_hash": "4dfec667",
+  "article_number": 975,
+  "slug": "blower-door-ach50-dollar-per-point-leakage-math-2026",
+  "headline": "Your Home Leaks $60 a Year for Every Point of Air Leakage. Most Older Homes Have Eight.",
+  "journalist": "Priya Greenwood",
+  "draft_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026.html",
+  "research_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026-research.md",
+  "hero_file": "images/blower-door-ach50-dollar-per-point-leakage-math-2026.jpg",
+  "hero_hash": "ae0d609c",
   "hero_real_jpeg": true,
   "phase": "SHIP_READY",
-  "started": "2026-09-26T16:10:00-07:00",
-  "completed": "2026-09-26T16:45:00-07:00",
+  "started": "2026-09-26T18:01:00-07:00",
+  "completed": "2026-09-26T18:15:00-07:00",
   "rounds": 1,
-  "primary_sources": 9,
-  "word_count": 2101,
-  "critique_average": 8.83,
+  "primary_sources": 8,
+  "word_count": 1917,
+  "critique_average": 8.79,
   "critique_scores": {
-   "general_editor": 8.7,
-   "voice_coach": 8.8,
-   "ethics_reviewer": 9.0,
-   "social_shareability": 8.6,
-   "legal_accuracy": 9.0,
+   "general_editor": 8.8,
+   "voice_coach": 8.7,
+   "ethics_reviewer": 8.6,
+   "social_shareability": 8.8,
+   "legal_accuracy": 8.9,
    "research_rigor": 8.9,
    "data_presentation": 8.8
   },
@@ -44,7 +44,7 @@
     "passed": true
    },
    "the_starters": {
-    "pct": 0.0,
+    "pct": 6.6,
     "limit": 15.0,
     "passed": true
    },
@@ -53,43 +53,43 @@
     "passed": true
    },
    "sentence_rhythm": {
-    "variance": 491.2,
-    "short_pct": 12.0,
-    "long_pct": 48.2,
+    "variance": 431.2,
+    "short_pct": 11.9,
+    "long_pct": 40.5,
     "passed": true
    }
   },
-  "ship_after": "2027-04-25",
-  "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-24. Kill-test passed; GFCI expansion coverage was zero across 973 prior stories. Original contribution: patchwork-premium arithmetic ($400-700/home device premium, $250-400M/yr nationally across 19 adopting states, NAHB 2019 $272 base) plus the Sep 1, 2026 210.8(F) HVAC exemption expiry hinge (25 days before publication). 9 primary sources with inline links; full-strength counterargument (83% ESFI electrocution reduction, CPSC 2/3 of 300); Limitations section included. Round 1 critique: The-starters gate failed at 27.7%; revised 19+ sentence openings to 0.0%; re-scored clean, avg 8.83."
+  "ship_after": "2027-04-26",
+  "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; dollars-per-ACH50-point model ($60/pt mild climate, LBNL N=20 + degree-day arithmetic) is the original contribution, novel vs 974 prior stories (zero blower-door/air-sealing coverage). 8 primary sources with inline links; full-strength counterargument (ASHRAE 62.2 ventilation cost, combustion safety, diminishing returns); Limitations section included. Round 1: sentence-rhythm short_pct gate failed at 23.7%, merged 7 short-sentence clusters to 11.9%; re-verified clean, avg 8.79."
  },
- "draft_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026.html",
- "draft_hash": "b2afa697",
+ "draft_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026.html",
+ "draft_hash": "3159fd3a",
  "hard_gates": {
-  "banned_phrases": {
-   "count": 0,
-   "passed": true
-  },
   "em_dash": {
    "count": 0,
    "limit": 3,
    "passed": true
   },
-  "sentence_rhythm": {
-   "long_pct": 42.3,
-   "passed": true,
-   "short_pct": 8.7,
-   "variance": 204.8
-  },
   "the_starters": {
+   "pct": 6.6,
    "limit": 15.0,
-   "passed": true,
-   "pct": 1.9
+   "passed": true
+  },
+  "banned_phrases": {
+   "count": 0,
+   "passed": true
+  },
+  "sentence_rhythm": {
+   "variance": 431.2,
+   "short_pct": 11.9,
+   "long_pct": 40.5,
+   "passed": true
   }
  },
- "hero_cache_bust": "e1545dfd",
- "hero_file": "images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg",
+ "hero_cache_bust": "ae0d609c",
+ "hero_file": "images/blower-door-ach50-dollar-per-point-leakage-math-2026.jpg",
  "hero_real_jpeg": true,
- "last_checked": "2026-09-26T12:35:00-07:00",
+ "last_checked": "2026-09-26T18:15:00-07:00",
  "last_completed": {
   "article_number": 767,
   "at": "2026-09-26T02:10:00-07:00",
@@ -106,9 +106,9 @@
   "slug": "sb800-right-to-repair-ai-defect-paper-trail-2026"
  },
  "last_published_at": "2026-09-26T02:10:00-07:00",
- "note": "2026-09-26 16:01 cron: article #974 RESEARCH+DRAFT+CRITIQUE in one run (Catherine Chen, NEC 2023 GFCI 210.8 expansion vs nuisance tripping). All 7 critics 8.5+ (avg 8.83), all hard gates pass (round 1: The-starters 27.7%%->0.0%%; rhythm variance 491.2; 0 em dashes; 2101 words). SHIP blocked (1/day met, #767 published today). Queued SHIP_READY for 2027-04-25; queue now holds 200+ items.",
+ "note": "2026-09-26 18:01 cron: article #975 RESEARCH+DRAFT+CRITIQUE in one run (Priya Greenwood, blower-door ACH50 dollars-per-point leakage math). All 7 critics 8.5+ (avg 8.79), all hard gates pass (round 1: rhythm short_pct 23.7%%->11.9%%; variance 431.2; 0 em dashes; 1917 words). SHIP blocked (1/day met, #767 published today). Queued SHIP_READY for 2027-04-26; queue now holds 197 items.",
  "phase": "IDLE",
- "research_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026-research.md",
+ "research_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026-research.md",
  "ship_ready": [
   {
    "article_number": 850,
@@ -9345,7 +9345,59 @@
    },
    "ship_after": "2027-04-25",
    "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-24. Kill-test passed; GFCI expansion coverage was zero across 973 prior stories. Original contribution: patchwork-premium arithmetic ($400-700/home device premium, $250-400M/yr nationally across 19 adopting states, NAHB 2019 $272 base) plus the Sep 1, 2026 210.8(F) HVAC exemption expiry hinge (25 days before publication). 9 primary sources with inline links; full-strength counterargument (83% ESFI electrocution reduction, CPSC 2/3 of 300); Limitations section included. Round 1 critique: The-starters gate failed at 27.7%; revised 19+ sentence openings to 0.0%; re-scored clean, avg 8.83."
+  },
+  {
+   "article_number": 975,
+   "slug": "blower-door-ach50-dollar-per-point-leakage-math-2026",
+   "headline": "Your Home Leaks $60 a Year for Every Point of Air Leakage. Most Older Homes Have Eight.",
+   "journalist": "Priya Greenwood",
+   "draft_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026.html",
+   "research_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026-research.md",
+   "hero_file": "images/blower-door-ach50-dollar-per-point-leakage-math-2026.jpg",
+   "hero_hash": "ae0d609c",
+   "hero_real_jpeg": true,
+   "phase": "SHIP_READY",
+   "started": "2026-09-26T18:01:00-07:00",
+   "completed": "2026-09-26T18:15:00-07:00",
+   "rounds": 1,
+   "primary_sources": 8,
+   "word_count": 1917,
+   "critique_average": 8.79,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 8.6,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.9,
+    "research_rigor": 8.9,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 6.6,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 431.2,
+     "short_pct": 11.9,
+     "long_pct": 40.5,
+     "passed": true
+    }
+   },
+   "ship_after": "2027-04-26",
+   "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; dollars-per-ACH50-point model ($60/pt mild climate, LBNL N=20 + degree-day arithmetic) is the original contribution, novel vs 974 prior stories (zero blower-door/air-sealing coverage). 8 primary sources with inline links; full-strength counterargument (ASHRAE 62.2 ventilation cost, combustion safety, diminishing returns); Limitations section included. Round 1: sentence-rhythm short_pct gate failed at 23.7%, merged 7 short-sentence clusters to 11.9%; re-verified clean, avg 8.79."
   }
  ],
- "slug": "gfci-nec-2023-expansion-nuisance-tripping-2026"
+ "slug": "blower-door-ach50-dollar-per-point-leakage-math-2026",
+ "hero_hash": "ae0d609c"
 }
