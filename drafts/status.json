@@ -1,9 +1,14 @@
 {
-  "article_number": 986,
+  "article_number": 988,
   "critique_round": 0,
   "critique_score": null,
   "critique_scores": null,
-  "current": null,
+  "current": {
+    "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
+    "phase": "DRAFT",
+    "journalist": "Frank DeLuca",
+    "started": "2026-09-27T22:05:00-07:00"
+  },
   "draft_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026.html",
   "draft_hash": "cd64208d",
   "hard_gates": {
@@ -48,9 +53,9 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-27 18:02 cron: 1/day met (3 Publish # commits today; #768 published 00:05 PT). #986 RESEARCH->DRAFT->CRITIQUE(8.83, round 0)->SHIP_READY, queued 2027-05-07 behind #985. Frank DeLuca on robotic slab layout (Dusty FieldPrinter). current=null.",
-  "phase": "SHIP_READY",
-  "research_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026-research.md",
+  "note": "2026-09-27 22:05 cron: 1/day met (#768 published 00:05 PT). #988 RESEARCH->DRAFT: Frank DeLuca on AI builder-delay forensics + 3-month slip budget. current=DRAFT.",
+  "phase": "DRAFT",
+  "research_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-research.md",
   "ship_ready": [
     {
       "completed": "2026-09-04",
@@ -9915,6 +9920,6 @@
       "publish_note": "Original contribution: 21x hole-penalty math (U-0.55 x 8 sq ft x 40F = 176 BTU/hr vs R-38 ceiling 8.4 BTU/hr, ratio 20.9) with triple-pane argon sensitivity case, plus failure-mode ledger (curb termination / flashing / condensation / seal failure -> symptom -> fix -> cost) and re-roof timing arbitrage ($1,500-2,500 bundled vs $3,000-5,000 standalone). 17 primary sources inline. Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 514. Round 0, no critic revision (gate repairs pre-scoring)."
     }
   ],
-  "slug": "ai-robotic-slab-layout-print-chalk-line-2026",
+  "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
   "hero_hash": "2a3707a6"
 }
