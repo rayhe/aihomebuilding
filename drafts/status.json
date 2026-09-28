@@ -1,15 +1,44 @@
 {
- "article_number": 989,
+ "article_number": 990,
  "critique_round": 0,
- "critique_score": null,
- "critique_scores": null,
+ "critique_score": 8.87,
+ "critique_scores": {
+  "general_editor": 8.8,
+  "voice_coach": 8.9,
+  "ethics_reviewer": 9.0,
+  "social_shareability": 8.8,
+  "legal_accuracy": 8.8,
+  "research_rigor": 9.0,
+  "data_presentation": 8.8
+ },
  "current": null,
  "draft_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026.html",
- "draft_hash": "cd64208d",
- "hard_gates": null,
- "hero_cache_bust": "a657850a",
+ "draft_hash": null,
+ "hard_gates": {
+  "em_dash": {
+   "count": 1,
+   "limit": 3,
+   "passed": true
+  },
+  "the_starters": {
+   "pct": 6.6,
+   "limit": 15.0,
+   "passed": true
+  },
+  "banned_phrases": {
+   "count": 0,
+   "passed": true
+  },
+  "sentence_rhythm": {
+   "variance": 344.6,
+   "short_pct": 0.0,
+   "long_pct": 52.8,
+   "passed": true
+  }
+ },
+ "hero_cache_bust": "bf357db6",
  "hero_file": "images/ai-overhang-depth-sun-angle-shading-math-2026.jpg",
- "hero_hash": "bc3ecfcd",
+ "hero_hash": "bf357db6",
  "hero_real_jpeg": true,
  "last_checked": "2026-09-28T02:30:00-07:00",
  "last_completed": {
@@ -28,8 +57,8 @@
   "slug": "zone-zero-five-feet-ai-inspection-2026"
  },
  "last_published_at": "2026-09-28T02:06:00-07:00",
- "note": "RESEARCH complete: overhang sun-angle shading math (5 primary sources); DRAFT started",
- "phase": "DRAFT",
+ "note": "Queue #990: south overhang sun-angle shading math \u2014 Elena Vasquez (critique 8.87, round 0); queued 2027-05-11 behind #989",
+ "phase": "SHIP_READY",
  "research_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026-research.md",
  "ship_ready": [
   {
@@ -9968,6 +9997,58 @@
    "slug": "tybot-rebar-tying-robot-residential-threshold-math-2026",
    "started": "2026-09-28T00:05:00-07:00",
    "word_count": 940
+  },
+  {
+   "article_number": 990,
+   "critique_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026-critique-r0.md",
+   "critique_score": 8.87,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "draft_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026.html",
+   "hard_gates": {
+    "em_dash": {
+     "count": 1,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 6.6,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 344.6,
+     "short_pct": 0.0,
+     "long_pct": 52.8,
+     "passed": true
+    }
+   },
+   "headline": "Your 12-Inch Overhang Has Never Fully Shaded Your South Window, Not Once All Year",
+   "hero_file": "images/ai-overhang-depth-sun-angle-shading-math-2026.jpg",
+   "hero_hash": "bf357db6",
+   "hero_real_jpeg": true,
+   "hold_reason": "1/day rule: #769 published 2026-09-28; #990 queued for 2027-05-11 behind #989 (2027-05-10)",
+   "journalist": "Elena Vasquez",
+   "phase": "SHIP_READY",
+   "primary_sources": 5,
+   "publish_note": "Queued, not shipped: one article already published 2026-09-28 PT (#769, one-per-day rule); queue tail was 2027-05-10. Original contribution: five-latitude sun-angle table for a 54-inch south window (full-shade vs full-winter-sun eave depths), the never-fully-shades finding (needs declination 24.97 deg, earth maxes at 23.44), and dated shading seasons (Bay Area 24-in eave: Apr 27-Aug 15). 5 primary sources inline (VT solar overhang manual, AAMA TIR-A16-19, DOE ZERH Rev07, MDPI 2026 shading optimization, Olgyay Design With Climate). Gates: 1 em dash (title boilerplate), The-starters 6.6%, 0 banned phrases, rhythm variance 344.6. Round 0, no content revisions (gate repairs pre-scoring).",
+   "research_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026-research.md",
+   "rounds": 0,
+   "ship_after": "2027-05-11",
+   "slug": "ai-overhang-depth-sun-angle-shading-math-2026",
+   "started": "2026-09-28T04:05:00-07:00",
+   "word_count": 1387
   }
  ],
  "slug": "ai-overhang-depth-sun-angle-shading-math-2026",

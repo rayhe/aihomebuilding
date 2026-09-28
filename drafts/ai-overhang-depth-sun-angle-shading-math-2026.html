@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your 12-Inch Overhang Has Never Fully Shaded Your South Window. Not Once All Year. &mdash; AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/ai-overhang-depth-sun-angle-shading-math-2026">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your 12-Inch Overhang Has Never Fully Shaded Your South Window. Not Once All Year.",
+		"description": "The 12-inch south eave on most American homes was never engineered. Running the sun-angle math for a 54-inch window shows it never fully shades at solar noon, on any date, in any major US metro, and in Seattle it covers just half the glass on the longest day. Elena Vasquez works the geometry and prices the trade-offs.",
+		"image": "https://aihomebuilding.com/images/ai-overhang-depth-sun-angle-shading-math-2026.jpg?v=bf357db6",
+		"datePublished": "2026-09-28",
+		"author": {
+			"@type": "Person",
+			"name": "Elena Vasquez"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/ai-overhang-depth-sun-angle-shading-math-2026"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your 12-Inch Overhang Has Never Fully Shaded Your South Window. Not Once All Year.">
+	<meta property="og:description" content="The 12-inch south eave was never engineered. Sun-angle math for a 54-inch window shows it never fully shades at solar noon in any US metro, and covers just half the glass in Seattle on the longest day.">
+	<meta property="og:url" content="https://aihomebuilding.com/ai-overhang-depth-sun-angle-shading-math-2026">
+	<meta property="og:image" content="https://aihomebuilding.com/images/ai-overhang-depth-sun-angle-shading-math-2026.jpg?v=bf357db6">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Your 12-Inch Overhang Has Never Fully Shaded Your South Window. Not Once All Year.">
+	<meta name="twitter:description" content="The 12-inch south eave was never engineered. Sun-angle math for a 54-inch window shows it never fully shades at solar noon in any US metro, and covers just half the glass in Seattle on the longest day.">
+	<meta name="twitter:image" content="https://aihomebuilding.com/images/ai-overhang-depth-sun-angle-shading-math-2026.jpg?v=bf357db6">
+	<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+	<link rel="apple-touch-icon" href="../favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1563">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #FF6B35;
+			--bg-primary: #FAFAF8;
+			--bg-card: #FFFFFF;
+			--text-primary: #1A1A1A;
+			--text-secondary: #555555;
+			--text-muted: #888888;
+			--border: #E8E8E4;
+		}
+		[data-theme="dark"] {
+			--bg-primary: #111111;
+			--bg-card: #1A1A1A;
+			--text-primary: #F0F0F0;
+			--text-secondary: #BBBBBB;
+			--text-muted: #888888;
+			--border: #2A2A2A;
+		}
+		body {
+			font-family: 'Inter', -apple-system, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			margin: 0;
+			line-height: 1.8;
+			transition: background 0.3s, color 0.3s;
+		}
+		.article-hero {
+			position: relative;
+			height: 55vh;
+			min-height: 350px;
+			overflow: hidden;
+		}
+		.article-hero img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.article-hero .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 3rem 2rem 2rem;
+			background: linear-gradient(transparent, rgba(0,0,0,0.85));
+			color: #fff;
+		}
+		.article-hero .badge {
+			display: inline-block;
+			background: var(--accent);
+			color: #fff;
+			padding: 0.25rem 0.75rem;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.75rem;
+		}
+		.article-hero h1 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 800;
+			font-size: clamp(1.6rem, 4vw, 2.5rem);
+			margin: 0 0 0.5rem;
+			line-height: 1.2;
+		}
+		.article-hero .byline {
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+		.article-container {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem 4rem;
+		}
+		.back-link {
+			display: inline-block;
+			color: var(--accent);
+			text-decoration: none;
+			font-weight: 500;
+			margin-bottom: 2rem;
+			font-size: 0.95rem;
+		}
+		.back-link:hover { text-decoration: underline; }
+		.article-body h2 {
+			font-family: 'Playfair Display', serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin: 2.5rem 0 1rem;
+			line-height: 1.3;
+		}
+		.article-body p {
+			margin: 0 0 1.2rem;
+			color: var(--text-primary);
+		}
+		.article-body a {
+			color: var(--accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+		.pull-stat {
+			background: var(--bg-card);
+			border-left: 4px solid var(--accent);
+			padding: 1.5rem;
+			margin: 2rem 0;
+			border-radius: 0 8px 8px 0;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.pull-stat .number {
+			display: block;
+			font-size: 2rem;
+			font-weight: 800;
+			color: var(--accent);
+			font-family: 'Playfair Display', serif;
+		}
+		.pull-stat .label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.95rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+		}
+		.data-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0 2rem;
+			font-size: 0.88rem;
+			line-height: 1.5;
+		}
+		.data-table th, .data-table td {
+			border: 1px solid var(--border);
+			padding: 0.5rem 0.6rem;
+			text-align: right;
+		}
+		.data-table th {
+			background: var(--bg-card);
+			text-align: right;
+			font-weight: 600;
+		}
+		.data-table td:first-child, .data-table th:first-child {
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="article-hero">
+		<img src="../images/ai-overhang-depth-sun-angle-shading-math-2026.jpg?v=bf357db6" alt="Deep cedar roof eave casting a crisp shadow line across a large modern window, warm afternoon light" loading="eager">
+		<div class="overlay">
+			<span class="badge">Architecture &amp; Design</span>
+			<h1>Your 12-Inch Overhang Has Never Fully Shaded Your South Window, Not Once All Year</h1>
+			<div class="byline">By Elena Vasquez &middot; September 28, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+
+			<p>On the longest afternoon of the year, stand behind a wall of south-facing glass in Seattle and watch the shadow line. Above the window, the eave throws its band of shade down the glass, and at noon, the hour when the shade is supposed to be at its deepest, the line stops about halfway.</p>
+
+			<p>Twelve inches deep is the eave, and it is twelve inches deep because eaves are twelve inches deep: roughly the width of a fascia board, the length of a lookout block, a dimension that fits a 2x6 rafter on edge with room for the soffit to breathe. Nobody calculated it, and I know this because when I calculated it, the answer was not twelve.</p>
+
+			<h2>One Line of Trigonometry</h2>
+
+			<p>Take a horizontal overhang of depth D, its underside level with the head of a window of height H, facing due south. At solar noon the sun's altitude is known from the latitude and the date, and the shadow the overhang throws down the glass is D times the tangent of that altitude. Full shade means the shadow covers the whole window. That is the entire theory, and it fits on an index card.</p>
+
+			<p>Run it for a standard 54-inch window, the kind of 3-0 by 4-6 picture glass that fills the south walls of a thousand spec homes, across five American cities. What falls out is a table nobody's spec sheet will show you.</p>
+
+			<table class="data-table">
+				<tr><th>City</th><th>Eave for full summer-noon shade</th><th>Eave for full winter-noon sun</th><th>12-in eave: summer-noon coverage</th><th>24-in eave: winter-noon penalty</th></tr>
+				<tr><td>Seattle (47.6&deg;)</td><td>24.2 in</td><td>157.2 in</td><td>50%</td><td>15% of glass shaded</td></tr>
+				<tr><td>Chicago (41.7&deg;)</td><td>17.8 in</td><td>116.5 in</td><td>67%</td><td>21% of glass shaded</td></tr>
+				<tr><td>Bay Area (37.5&deg;)</td><td>13.5 in</td><td>97.2 in</td><td>89%</td><td>25% of glass shaded</td></tr>
+				<tr><td>Phoenix (33.4&deg;)</td><td>9.5 in</td><td>82.6 in</td><td>100%</td><td>29% of glass shaded</td></tr>
+				<tr><td>Miami (25.8&deg;)</td><td>2.2 in</td><td>62.6 in</td><td>100%</td><td>38% of glass shaded</td></tr>
+			</table>
+
+			<p>Read the third column twice, because this is where the fixed overhang quietly gives up: to admit the full winter sun at noon, the eave in the Bay Area would need to be 97 inches deep, while the eave that fully blocks the summer sun needs to be 13.5. No fixed piece of lumber does both jobs. Every overhang is a compromise, and the honest design question is which season you are designing against.</p>
+
+			<div class="pull-stat">
+				<span class="number">Never</span>
+				<span class="label">Times a 12-inch overhang fully shades a 54-inch south window at solar noon. Not on any date of the year, in any of these five cities. In the Bay Area the geometry would require a solar declination of 24.97&deg;; the earth maxes out at 23.44&deg;.</span>
+			</div>
+
+			<p>Seattle is the embarrassment case: the conventional twelve inches cover exactly half the glass at noon on the longest day, while Chicago manages only two-thirds. Born where the summer sun rides high, the convention was airlifted north unchanged, like a palm tree in a parking lot in Portland.</p>
+
+			<p>Miami flips the problem, because the solstice sun there stands 87.6 degrees above the horizon, nearly straight up, so 2.2 inches of eave would do the whole job. A 24-inch overhang, the depth Seattle actually needs, would steal 38 percent of Miami's December noon sun. In a cooling-dominated climate that low winter sun is free light, and the fixed eave takes a cut of it all season long.</p>
+
+			<h2>The Shading Season Has Dates</h2>
+
+			<p>There is a subtler finding in the arithmetic. A 24-inch eave in the Bay Area fully shades the window at noon only when the solar declination sits above 13.5 degrees, which runs from April 27 to August 15. That is the true shading season, and it is knowable per latitude from the same one-line formula. The widely circulated shading tables from <a href="https://vept.energy.vt.edu/content/dam/vept_energy_vt_edu/Solar%20Overhang%20Dimensions.pdf" target="_blank">Virginia Tech's solar overhang manual</a>, which size their geometry per weather station and target full noon shade roughly May 12 through August 2 with full winter admission from mid-November to late January, are doing exactly this calculation at scale. Their standard geometry pair, 108 degrees minus latitude and 71 degrees minus latitude, is the formal version of the index card.</p>
+
+			<p>Industry has the real equation on the books. The American Architectural Manufacturers Association's technical report <a href="https://www.buildingenclosureonline.com/articles/88439-integrating-shading-devices-with-the-building-envelope" target="_blank">TIR-A16-19</a> gives the sizing formula for exterior shading devices, altitude and azimuth included, and states plainly that no single configuration suits all US locations. Peer-reviewed work keeps arriving at the same place: a 2026 <a href="https://www.mdpi.com/2075-5309/16/10/1887" target="_blank">optimization study in Buildings</a> found the ideal fixed horizontal shade over a 2.4-meter window runs about 1.85 meters deep, a depth-to-height ratio near 0.77, which is three and a half times the 0.22 ratio of the American twelve-incher. Victor Olgyay worked the full trigonometry for this in <a href="https://civilengineerkey.com/solar-control-and-shading/" target="_blank"><em>Design With Climate</em></a> in 1963. None of this knowledge is new; it is just not on the job site.</p>
+
+			<h2>What the Formula Leaves Out</h2>
+
+			<p>Real roofs are ruder than the index card: the overhang almost never starts at the window head, because headers, frieze boards, and sloped rakes lift the eave a foot or two above the glass, and every inch of that gap shrinks the shadow, which makes these numbers the optimistic case, and what you built is worse.</p>
+
+			<p>Solar noon is also a single moment, and morning and afternoon sun arrives at an azimuth, slipping past the ends of the overhang entirely, which is why the AAMA equation carries its cosine-of-azimuth term and why Olgyay drew trees as side fins to complete the eave to infinity. A deeper overhang does nothing for 4 p.m. in August. And east and west windows get nothing from any of this math, a fact worth stating because a surprising number of "passive solar" spec sheets apply the south-facing overhang as though orientation were a detail.</p>
+
+			<p>Then there is the glass, which does half the job now and complicates the other half. Modern practice pairs high-solar-gain glass on the south with low-solar-gain glass on east and west, exactly as the old federal guidance and the <a href="https://www.energy.gov/sites/default/files/2019/04/f62/DOE%20ZERH%20Specs%20Rev07.pdf" target="_blank">DOE Zero Energy Ready Home requirements</a> describe, with the passive-solar exemption for south glazing coupled to real thermal mass. But the market has a failure hiding inside it: low-U windows overwhelmingly ship with low-solar-gain coatings, the exact wrong glass for a south wall that is supposed to harvest winter sun, and the high-solar-gain variant is genuinely hard to buy. A perfect overhang over the wrong glass is a precision instrument aimed at the wrong target.</p>
+
+			<p>Climate change stretches the cooling season at both ends, so a geometry tuned to the old shade dates under-shades late August and September, the months when the house is already hottest. And depth has a structural price: twenty-four to thirty inches of eave needs ladder framing and wind-uplift detailing, and in hurricane country the deeper eave is a sail. The AAMA publishes a separate impact standard for exactly this reason, so deeper is not free.</p>
+
+			<h2>What I Did Not Prove</h2>
+
+			<p>This analysis assumes a true-south facade and clear skies. It treats solar noon only, ignores the azimuth sweep that dominates morning and afternoon gains, and says nothing about the glass coating, which multiplies every number here. Sun dates come from the standard declination formula; the actual overheated period is a climate question, not an astronomy one, and in fog-belt cities the geometry matters less than the cloud deck. This table is about shading geometry, so treat it as one input to a design, not the design.</p>
+
+			<h2>What to Do With This</h2>
+
+			<p>If you are building new with serious south glass, run D equals H divided by the tangent of your summer-solstice noon altitude before the trusses are ordered, a ten-minute calculation with a real payoff. North of the 41st parallel, twelve inches is demonstrably inadequate; eighteen to twenty-four is the honest range, with the winter-sun penalty from the table as the trade you are signing.</p>
+
+			<p>If you are buying a spec home, ask the builder what sun angle the eave was designed for. A blank look is your answer, and it tells you the eave was designed for the lumberyard. Deeper eaves at framing cost little next to thirty years of cooling load.</p>
+
+			<p>If the house is already built, a fixed aluminum awning sized by the same formula, or an exterior roller shade per the AAMA guidance, buys the same physics without touching the roof. Whether the shade is structural means nothing to the sun; only the angle counts.</p>
+
+		</article>
+	</div>
+
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+			document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+		});
+	</script>
+</body>
+</html>
