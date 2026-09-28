@@ -3,14 +3,7 @@
   "critique_round": 0,
   "critique_score": null,
   "critique_scores": null,
-  "current": {
-    "slug": "ai-skylight-leak-forensics-daylight-math-2026",
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "started": "2026-09-27T20:05:00-07:00",
-    "article_number": 987,
-    "research_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-research.md"
-  },
+  "current": null,
   "draft_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026.html",
   "draft_hash": "cd64208d",
   "hard_gates": {
@@ -38,7 +31,7 @@
   "hero_cache_bust": "a657850a",
   "hero_file": "images/ai-egress-window-bedroom-5.7-sqft-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-27T18:01:52-07:00",
+  "last_checked": "2026-09-27T20:50:00-07:00",
   "last_completed": {
     "article_number": 768,
     "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
@@ -9866,6 +9859,60 @@
       "ship_after": "2027-05-07",
       "hold_reason": "1/day rule: #768 published 2026-09-27; #986 queued for 2027-05-07 behind #985 (2027-05-06)",
       "publish_note": "Original contribution: anchor-bolt tolerance-stack math (IRC R403.1.6 1/2-in bolts 6 ft o.c. + ACI 117 +/-1/4 in vs robotic 1/16-in print) plus the DeLuca playbook (multi-trade layout decision rule, custom-builder total-station fallback). 8 primary sources inline (Dusty, CNBC/WhatJobs, Startuply.vc, Springer 2025 pilot, CII/Love&Li/Josephson rework research, FrameTec, NAHB/Dietz, Briefs.co Kamat/Murphy, ICC, ACI). Gates: 0 em dashes, The-starters 0%, 0 banned phrases, rhythm variance 943.9. Round 0, no critic revision (14 The-starter rewrites pre-scoring)."
+    },
+    {
+      "id": 987,
+      "article_number": 987,
+      "slug": "ai-skylight-leak-forensics-daylight-math-2026",
+      "headline": "Your Skylight Loses 21 Times More Heat Than the Ceiling It Replaced. Make the Daylight Earn It.",
+      "journalist": "Elena Vasquez",
+      "started": "2026-09-27T20:05:00-07:00",
+      "completed": "2026-09-27T20:45:00-07:00",
+      "rounds": 0,
+      "phase": "SHIP",
+      "critique_score": 9.11,
+      "critique_scores": {
+        "general_editor": 9.2,
+        "voice_coach": 9.3,
+        "ethics_reviewer": 9.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 514.0,
+          "short_pct": 8.4,
+          "long_pct": 42.1,
+          "passed": true
+        }
+      },
+      "hero_file": "images/ai-skylight-leak-forensics-daylight-math-2026.jpg",
+      "hero_hash": "7e4ef513",
+      "hero_real_jpeg": true,
+      "research_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-research.md",
+      "draft_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026.html",
+      "critique_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-critique-r0.md",
+      "primary_sources": 17,
+      "word_count": 2366,
+      "ship_after": "2027-05-08",
+      "hold_reason": "1/day rule: #768 published 2026-09-27; #987 queued for 2027-05-08 behind #986 (2027-05-07)",
+      "publish_note": "Original contribution: 21x hole-penalty math (U-0.55 x 8 sq ft x 40F = 176 BTU/hr vs R-38 ceiling 8.4 BTU/hr, ratio 20.9) with triple-pane argon sensitivity case, plus failure-mode ledger (curb termination / flashing / condensation / seal failure -> symptom -> fix -> cost) and re-roof timing arbitrage ($1,500-2,500 bundled vs $3,000-5,000 standalone). 17 primary sources inline. Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 514. Round 0, no critic revision (gate repairs pre-scoring)."
     }
   ],
   "slug": "ai-robotic-slab-layout-print-chalk-line-2026",
