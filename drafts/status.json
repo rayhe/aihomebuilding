@@ -3,92 +3,58 @@
   "critique_round": 0,
   "critique_score": 8.86,
   "critique_scores": {
-    "general_editor": 8.8,
-    "voice_coach": 8.9,
+    "data_presentation": 8.8,
     "ethics_reviewer": 9.0,
-    "social_shareability": 8.7,
+    "general_editor": 8.8,
     "legal_accuracy": 8.9,
     "research_rigor": 9.0,
-    "data_presentation": 8.8
+    "social_shareability": 8.7,
+    "voice_coach": 8.9
   },
   "current": null,
   "draft_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026.html",
   "draft_hash": "cd64208d",
   "hard_gates": {
+    "banned_phrases": {
+      "count": 0,
+      "passed": true
+    },
     "em_dash": {
       "count": 0,
       "limit": 3,
       "passed": true
     },
-    "the_starters": {
-      "pct": 0.0,
-      "limit": 15.0,
-      "passed": true
-    },
-    "banned_phrases": {
-      "count": 0,
-      "passed": true
-    },
     "sentence_rhythm": {
-      "variance": 246.3,
-      "short_pct": 13.5,
       "long_pct": 50.6,
-      "passed": true
+      "passed": true,
+      "short_pct": 13.5,
+      "variance": 246.3
+    },
+    "the_starters": {
+      "limit": 15.0,
+      "passed": true,
+      "pct": 0.0
     }
   },
   "hero_cache_bust": "a657850a",
   "hero_file": "images/ai-builder-delay-forensics-schedule-risk-cost-2026.jpg",
+  "hero_hash": "bc3ecfcd",
   "hero_real_jpeg": true,
   "last_checked": "2026-09-27T20:50:00-07:00",
   "last_completed": {
-    "article_number": 768,
-    "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
+    "article_number": 769,
+    "at": "2026-09-28T02:06:00-07:00",
     "phase": "PUBLISHED",
-    "at": "2026-09-27T00:05:00-07:00",
     "qa": {
-      "at": "2026-09-27T00:28:00-07:00",
-      "story": 200,
-      "hero": 200,
-      "index_card": true,
-      "og_tags": true,
-      "sitemap": "valid",
-      "note": "story 308->200 extensionless (site canonical form); index.html 308->/ root serves index with card + 769 articles; sitemap valid with new URL; hero real JPEG 599243B"
-    }
+      "note": "pending live deploy verification"
+    },
+    "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-28 00:05 cron: 1/day met (#768 published 2026-09-27). #989 RESEARCH->DRAFT->CRITIQUE(8.87, round 0)->SHIP_READY, queued 2027-05-10 behind #988. Jake Kowalski on TyBOT rebar-tying robot + 16-slab residential threshold math. current=null.",
+  "last_published_at": "2026-09-28T02:06:00-07:00",
+  "note": "2026-09-28 02:06 cron: 1/day not met (0 Publish commits since 2026-09-28 00:00 PT) -> published queue FRONT as #769 (FIFO): zone-zero-five-feet-ai-inspection-2026, SHIP_READY since 2026-09-04, ship_after 2026-09-26 overdue, Elena Vasquez, avg 9.01, gates re-verified (0 em dashes, The 2.0%, 0 banned). Canonical fixed /articles/->/stories/, byline set to publish date. No new RESEARCH this run: ship_ready backlog at 209; adding #990 would grow the write-only queue. current=null.",
   "phase": "SHIP_READY",
   "research_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-research.md",
   "ship_ready": [
-    {
-      "completed": "2026-09-04",
-      "critics": {
-        "data_presentation": 9.0,
-        "ethics": 9.2,
-        "general": 9.0,
-        "legal": 9.5,
-        "rigor": 9.3,
-        "social": 8.8,
-        "voice": 8.7
-      },
-      "hard_gates": {
-        "banned_phrases": 0,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 45.5,
-          "passed": true,
-          "short_pct": 10.1,
-          "variance": 218.1
-        },
-        "the_starters_pct": 0.0
-      },
-      "headline": "The Five Feet Around Your House Are Now Fire Code. 2.1 Million California Homes Have Three Years to Redesign Them.",
-      "id": 768,
-      "journalist": "Elena Vasquez",
-      "phase": "ship_ready",
-      "ship_after": "2026-09-26",
-      "slug": "zone-zero-five-feet-ai-inspection-2026"
-    },
     {
       "completed": "2026-09-04",
       "critics": {
@@ -299,7 +265,7 @@
           "pct": 10.4
         }
       },
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
+      "headline": "Your Framer\u2019s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
       "hero_hash": "7118cf97",
       "hold_reason": "1/day rule: #746 published 2026-09-04; #747 through #773 queued for 2026-09-05 through 2026-10-01",
       "id": 774,
@@ -1203,7 +1169,7 @@
           "pct": 1.1
         }
       },
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "hero_hash": "7410ac40",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-17), publish per 1/day cadence.",
       "journalist": "Elena Vasquez",
@@ -4718,7 +4684,7 @@
       "journalist": "Catherine Chen",
       "phase": "SHIP_READY",
       "primary_sources": 6,
-      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey → $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200–$2,000 survey + $0 FEMA fee + ~60 days → kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance ≥200. Real JPEG hero verified (ffd8 magic).",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey \u2192 $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200\u2013$2,000 survey + $0 FEMA fee + ~60 days \u2192 kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance \u2265200. Real JPEG hero verified (ffd8 magic).",
       "research_file": "drafts/ai-flood-model-vs-fema-map-homebuyer-insurance-2026-research.md",
       "rounds": 0,
       "ship_after": "2027-01-18",
@@ -5342,7 +5308,7 @@
       "hero_hash": "3abdb903",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04",
       "journalist": "Catherine Chen",
-      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes — 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
+      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes \u2014 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/ai-construction-noise-ordinance-decibel-sensors-2026-research.md",
@@ -6075,7 +6041,7 @@
           "pct": 13.2
         }
       },
-      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54°F Hotter Than the White House Next Door.",
+      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54\u00b0F Hotter Than the White House Next Door.",
       "hero_hash": "38993f7e",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #909 queued for 2026-09-20 through 2027-02-19; #910 queued for 2027-02-20",
       "journalist": "Elena Vasquez",
@@ -6507,7 +6473,7 @@
           "pct": 13.9
         }
       },
-      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back — Within 24 Hours.",
+      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back \u2014 Within 24 Hours.",
       "hero_hash": "a0d51b1e",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #918 queued for 2026-09-21 through 2027-02-28; #919 queued for 2027-03-01",
       "journalist": "Catherine Chen",
@@ -6889,7 +6855,7 @@
           "pct": 10.6
         }
       },
-      "headline": "Your Insulation Was Tested at 75°F. Your Attic Hits 140°F.",
+      "headline": "Your Insulation Was Tested at 75\u00b0F. Your Attic Hits 140\u00b0F.",
       "hero_hash": "219256f1",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-08), next open slot 2027-03-09.",
       "journalist": "Priya Greenwood",
@@ -9044,762 +9010,761 @@
     },
     {
       "article_number": 970,
-      "number": 970,
-      "slug": "ai-attic-ventilation-ratio-nfa-audit-2026",
-      "headline": "Your Ridge Vent Is Decorative. Your Shingle Warranty Knows It.",
-      "journalist": "Catherine Chen",
+      "completed": "2026-09-26T08:45:00-07:00",
+      "critique_average": 8.89,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.9,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
       "draft_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026.html",
-      "research_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026-research.md",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 45.6,
+          "passed": true,
+          "short_pct": 7.8,
+          "variance": 275.5
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
+        }
+      },
+      "headline": "Your Ridge Vent Is Decorative. Your Shingle Warranty Knows It.",
       "hero_file": "images/ai-attic-ventilation-ratio-nfa-audit-2026.jpg",
       "hero_hash": "0126dc63",
       "hero_real_jpeg": true,
+      "journalist": "Catherine Chen",
+      "number": 970,
       "phase": "SHIP_READY",
-      "started": "2026-09-26T08:05:00-07:00",
-      "completed": "2026-09-26T08:45:00-07:00",
-      "rounds": 1,
       "primary_sources": 10,
-      "word_count": 1993,
-      "critique_average": 8.89,
-      "critique_scores": {
-        "general_editor": 8.9,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 275.5,
-          "short_pct": 7.8,
-          "long_pct": 45.6,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-20. Kill-test passed; original contribution is the worked NFA audit math (1,800 sq ft ranch: 625 sq in vs 1,728 required = 36% of code minimum; 1,103 sq in shortfall = ~122 lin ft of soffit vent never installed) plus the GAF warranty-denial mechanism. Full-strength counterarguments (Lstiburek ratios critique, FSEC radiant dominance, R806.5 unvented attics, fan payback) and Limitations section included; 10 inline primary-source links.",
+      "research_file": "drafts/ai-attic-ventilation-ratio-nfa-audit-2026-research.md",
+      "rounds": 1,
       "ship_after": "2027-04-21",
-      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-20. Kill-test passed; original contribution is the worked NFA audit math (1,800 sq ft ranch: 625 sq in vs 1,728 required = 36% of code minimum; 1,103 sq in shortfall = ~122 lin ft of soffit vent never installed) plus the GAF warranty-denial mechanism. Full-strength counterarguments (Lstiburek ratios critique, FSEC radiant dominance, R806.5 unvented attics, fan payback) and Limitations section included; 10 inline primary-source links."
+      "slug": "ai-attic-ventilation-ratio-nfa-audit-2026",
+      "started": "2026-09-26T08:05:00-07:00",
+      "word_count": 1993
     },
     {
       "article_number": 971,
-      "number": 971,
-      "slug": "tankless-water-heater-gas-line-undersize-btu-math-2026",
-      "headline": "Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.",
-      "journalist": "Jake Kowalski",
+      "completed": "2026-09-26T10:50:00-07:00",
+      "critique_average": 8.83,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
       "draft_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026.html",
-      "research_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026-research.md",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 53.6,
+          "passed": true,
+          "short_pct": 1.4,
+          "variance": 263.9
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 14.1
+        }
+      },
+      "headline": "Your Tankless Water Heater Burns 5x the Gas. Nobody Checked Your Pipes.",
       "hero_file": "images/tankless-water-heater-gas-line-undersize-btu-math-2026.jpg",
       "hero_hash": "e6070130",
       "hero_real_jpeg": true,
+      "journalist": "Jake Kowalski",
+      "number": 971,
       "phase": "SHIP_READY",
-      "started": "2026-09-26T10:20:00-07:00",
-      "completed": "2026-09-26T10:50:00-07:00",
-      "rounds": 1,
       "primary_sources": 10,
-      "word_count": 1563,
-      "critique_average": 8.83,
-      "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
-        "legal_accuracy": 8.9,
-        "research_rigor": 9.0,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 14.1,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 263.9,
-          "short_pct": 1.4,
-          "long_pct": 53.6,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-21. Kill-test passed; original contribution is the worked IFGC Table 402.4(2) gas-load math (220k BTU/200 CFH existing vs 379k BTU/345 CFH with tankless on a 1-in 50-ft main rated 284 CFH; elbow equivalent-length compounding drops it to the 80-ft row at 220 CFH) plus the 27-37-year payback accounting. Full-strength counterarguments (DOE conditional efficiency, heat-pump alternative, many homes already adequate) and Limitations section included; 13 inline primary-source links.",
+      "research_file": "drafts/tankless-water-heater-gas-line-undersize-btu-math-2026-research.md",
+      "rounds": 1,
       "ship_after": "2027-04-22",
-      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-21. Kill-test passed; original contribution is the worked IFGC Table 402.4(2) gas-load math (220k BTU/200 CFH existing vs 379k BTU/345 CFH with tankless on a 1-in 50-ft main rated 284 CFH; elbow equivalent-length compounding drops it to the 80-ft row at 220 CFH) plus the 27-37-year payback accounting. Full-strength counterarguments (DOE conditional efficiency, heat-pump alternative, many homes already adequate) and Limitations section included; 13 inline primary-source links."
+      "slug": "tankless-water-heater-gas-line-undersize-btu-math-2026",
+      "started": "2026-09-26T10:20:00-07:00",
+      "word_count": 1563
     },
     {
       "article_number": 972,
-      "slug": "gas-appliance-combustion-air-closet-math-2026",
-      "headline": "Your Furnace Is Suffocating in a 384-Cubic-Foot Closet. The Code Requires 6,000.",
-      "journalist": "Frank DeLuca",
+      "completed": "2026-09-26T12:35:00-07:00",
+      "critique_average": 8.81,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
       "draft_file": "drafts/gas-appliance-combustion-air-closet-math-2026.html",
-      "research_file": "drafts/gas-appliance-combustion-air-closet-math-2026-research.md",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 42.6,
+          "passed": true,
+          "short_pct": 11.7,
+          "variance": 244.0
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 8.8
+        }
+      },
+      "headline": "Your Furnace Is Suffocating in a 384-Cubic-Foot Closet. The Code Requires 6,000.",
       "hero_file": "images/gas-appliance-combustion-air-closet-math-2026.jpg",
       "hero_hash": "64b6e9f3",
       "hero_real_jpeg": true,
+      "journalist": "Frank DeLuca",
       "phase": "SHIP_READY",
-      "started": "2026-09-26T12:01:00-07:00",
-      "completed": "2026-09-26T12:35:00-07:00",
-      "rounds": 0,
       "primary_sources": 11,
-      "word_count": 2000,
-      "critique_average": 8.81,
-      "critique_scores": {
-        "general_editor": 8.6,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 8.8,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 244.0,
-          "short_pct": 11.7,
-          "long_pct": 42.6,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-22. Kill-test passed; original contribution is the worked IFGC 304.5.1/304.5.3.1/304.10 math on the 80k+40k BTU archetype in a 384 ft^3 closet (requires 6,000 ft^3; 120 sq in free per opening; wood louvers 25% -> 480 sq in gross per opening) plus the tight-home <0.40 ACH trap and BPI worst-case test action levels. Full-strength counterarguments (electrification, direct-vent exemption) and Limitations section included; 11 primary sources with inline links.",
+      "research_file": "drafts/gas-appliance-combustion-air-closet-math-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-04-23",
-      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-22. Kill-test passed; original contribution is the worked IFGC 304.5.1/304.5.3.1/304.10 math on the 80k+40k BTU archetype in a 384 ft^3 closet (requires 6,000 ft^3; 120 sq in free per opening; wood louvers 25% -> 480 sq in gross per opening) plus the tight-home <0.40 ACH trap and BPI worst-case test action levels. Full-strength counterarguments (electrification, direct-vent exemption) and Limitations section included; 11 primary sources with inline links."
+      "slug": "gas-appliance-combustion-air-closet-math-2026",
+      "started": "2026-09-26T12:01:00-07:00",
+      "word_count": 2000
     },
     {
       "article_number": 974,
-      "slug": "gfci-nec-2023-expansion-nuisance-tripping-2026",
-      "headline": "Your Induction Range Will Trip the Breaker the Code Requires. Massachusetts Says Take It Out.",
-      "journalist": "Catherine Chen",
+      "completed": "2026-09-26T16:45:00-07:00",
+      "critique_average": 8.83,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
       "draft_file": "drafts/gfci-nec-2023-expansion-nuisance-tripping-2026.html",
-      "research_file": "drafts/gfci-nec-2023-expansion-nuisance-tripping-2026-research.md",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 48.2,
+          "passed": true,
+          "short_pct": 12.0,
+          "variance": 491.2
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
+        }
+      },
+      "headline": "Your Induction Range Will Trip the Breaker the Code Requires. Massachusetts Says Take It Out.",
       "hero_file": "images/gfci-nec-2023-expansion-nuisance-tripping-2026.jpg",
       "hero_hash": "4dfec667",
       "hero_real_jpeg": true,
+      "journalist": "Catherine Chen",
       "phase": "SHIP_READY",
-      "started": "2026-09-26T16:10:00-07:00",
-      "completed": "2026-09-26T16:45:00-07:00",
-      "rounds": 1,
       "primary_sources": 9,
-      "word_count": 2101,
-      "critique_average": 8.83,
-      "critique_scores": {
-        "general_editor": 8.7,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.9,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 491.2,
-          "short_pct": 12.0,
-          "long_pct": 48.2,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-24. Kill-test passed; GFCI expansion coverage was zero across 973 prior stories. Original contribution: patchwork-premium arithmetic ($400-700/home device premium, $250-400M/yr nationally across 19 adopting states, NAHB 2019 $272 base) plus the Sep 1, 2026 210.8(F) HVAC exemption expiry hinge (25 days before publication). 9 primary sources with inline links; full-strength counterargument (83% ESFI electrocution reduction, CPSC 2/3 of 300); Limitations section included. Round 1 critique: The-starters gate failed at 27.7%; revised 19+ sentence openings to 0.0%; re-scored clean, avg 8.83.",
+      "research_file": "drafts/gfci-nec-2023-expansion-nuisance-tripping-2026-research.md",
+      "rounds": 1,
       "ship_after": "2027-04-25",
-      "publish_note": "Queued, not shipped: #767 already published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-24. Kill-test passed; GFCI expansion coverage was zero across 973 prior stories. Original contribution: patchwork-premium arithmetic ($400-700/home device premium, $250-400M/yr nationally across 19 adopting states, NAHB 2019 $272 base) plus the Sep 1, 2026 210.8(F) HVAC exemption expiry hinge (25 days before publication). 9 primary sources with inline links; full-strength counterargument (83% ESFI electrocution reduction, CPSC 2/3 of 300); Limitations section included. Round 1 critique: The-starters gate failed at 27.7%; revised 19+ sentence openings to 0.0%; re-scored clean, avg 8.83."
+      "slug": "gfci-nec-2023-expansion-nuisance-tripping-2026",
+      "started": "2026-09-26T16:10:00-07:00",
+      "word_count": 2101
     },
     {
       "article_number": 975,
-      "slug": "blower-door-ach50-dollar-per-point-leakage-math-2026",
-      "headline": "Your Home Leaks $60 a Year for Every Point of Air Leakage. Most Older Homes Have Eight.",
-      "journalist": "Priya Greenwood",
+      "completed": "2026-09-26T18:15:00-07:00",
+      "critique_average": 8.79,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 8.6,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "social_shareability": 8.8,
+        "voice_coach": 8.7
+      },
       "draft_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026.html",
-      "research_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026-research.md",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 40.5,
+          "passed": true,
+          "short_pct": 11.9,
+          "variance": 431.2
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 6.6
+        }
+      },
+      "headline": "Your Home Leaks $60 a Year for Every Point of Air Leakage. Most Older Homes Have Eight.",
       "hero_file": "images/blower-door-ach50-dollar-per-point-leakage-math-2026.jpg",
       "hero_hash": "ae0d609c",
       "hero_real_jpeg": true,
+      "journalist": "Priya Greenwood",
       "phase": "SHIP_READY",
-      "started": "2026-09-26T18:01:00-07:00",
-      "completed": "2026-09-26T18:15:00-07:00",
-      "rounds": 1,
       "primary_sources": 8,
-      "word_count": 1917,
-      "critique_average": 8.79,
-      "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 8.6,
-        "social_shareability": 8.8,
-        "legal_accuracy": 8.9,
-        "research_rigor": 8.9,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 6.6,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 431.2,
-          "short_pct": 11.9,
-          "long_pct": 40.5,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; dollars-per-ACH50-point model ($60/pt mild climate, LBNL N=20 + degree-day arithmetic) is the original contribution, novel vs 974 prior stories (zero blower-door/air-sealing coverage). 8 primary sources with inline links; full-strength counterargument (ASHRAE 62.2 ventilation cost, combustion safety, diminishing returns); Limitations section included. Round 1: sentence-rhythm short_pct gate failed at 23.7%, merged 7 short-sentence clusters to 11.9%; re-verified clean, avg 8.79.",
+      "research_file": "drafts/blower-door-ach50-dollar-per-point-leakage-math-2026-research.md",
+      "rounds": 1,
       "ship_after": "2027-04-26",
-      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; dollars-per-ACH50-point model ($60/pt mild climate, LBNL N=20 + degree-day arithmetic) is the original contribution, novel vs 974 prior stories (zero blower-door/air-sealing coverage). 8 primary sources with inline links; full-strength counterargument (ASHRAE 62.2 ventilation cost, combustion safety, diminishing returns); Limitations section included. Round 1: sentence-rhythm short_pct gate failed at 23.7%, merged 7 short-sentence clusters to 11.9%; re-verified clean, avg 8.79."
+      "slug": "blower-door-ach50-dollar-per-point-leakage-math-2026",
+      "started": "2026-09-26T18:01:00-07:00",
+      "word_count": 1917
     },
     {
       "article_number": 976,
-      "slug": "water-pressure-prv-80-psi-expansion-tank-2026",
-      "headline": "Your Water Pressure Is 110 PSI. The Code Says 80. The Fix Is Two Parts, and the Second One Gets Skipped.",
-      "journalist": "Frank \"The Foreman\" DeLuca",
+      "completed": "2026-09-26T20:50:00-07:00",
+      "critique_average": 8.83,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.9,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
       "draft_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026.html",
-      "research_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026-research.md",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 48.9,
+          "passed": true,
+          "short_pct": 6.7,
+          "variance": 279.4
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 5.5
+        }
+      },
+      "headline": "Your Water Pressure Is 110 PSI. The Code Says 80. The Fix Is Two Parts, and the Second One Gets Skipped.",
       "hero_file": "images/water-pressure-prv-80-psi-expansion-tank-2026.jpg",
       "hero_hash": "cfb6a89e",
       "hero_real_jpeg": true,
+      "journalist": "Frank \"The Foreman\" DeLuca",
       "phase": "SHIP_READY",
-      "started": "2026-09-26T20:02:00-07:00",
-      "completed": "2026-09-26T20:50:00-07:00",
-      "rounds": 0,
       "primary_sources": 9,
-      "word_count": 2014,
-      "critique_average": 8.83,
-      "critique_scores": {
-        "general_editor": 8.7,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 8.9,
-        "research_rigor": 8.9,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 5.5,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 279.4,
-          "short_pct": 6.7,
-          "long_pct": 48.9,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; two-part fix math (PRV ~$452 + expansion tank ~$150-300 = ~$600-750 vs $15,400 avg water-damage claim) and P2903.4 closed-system mechanism are the original contributions, novel vs 197 queued + 341 published (zero PRV/pressure coverage). 9 primary sources with inline verbatim links; full-strength counterargument (PRV unnecessary under 80 PSI, 10-15 yr failure mode, gauge imprecision, pressure is not the whole story); Limitations section included. Round 0: sentence-rhythm short_pct gate failed at 21.0%, merged 16 short-sentence clusters to 6.7%; re-verified clean, avg 8.83.",
+      "research_file": "drafts/water-pressure-prv-80-psi-expansion-tank-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-04-27",
-      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule). Kill-test passed; two-part fix math (PRV ~$452 + expansion tank ~$150-300 = ~$600-750 vs $15,400 avg water-damage claim) and P2903.4 closed-system mechanism are the original contributions, novel vs 197 queued + 341 published (zero PRV/pressure coverage). 9 primary sources with inline verbatim links; full-strength counterargument (PRV unnecessary under 80 PSI, 10-15 yr failure mode, gauge imprecision, pressure is not the whole story); Limitations section included. Round 0: sentence-rhythm short_pct gate failed at 21.0%, merged 16 short-sentence clusters to 6.7%; re-verified clean, avg 8.83."
+      "slug": "water-pressure-prv-80-psi-expansion-tank-2026",
+      "started": "2026-09-26T20:02:00-07:00",
+      "word_count": 2014
     },
     {
       "article_number": 977,
-      "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
-      "headline": "Your $11,000 Mini-Split Bid Is Missing $2,400. Check the Line Set Math.",
-      "journalist": "Jake Kowalski",
-      "draft_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026.html",
-      "research_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-research.md",
+      "completed": "2026-09-26T22:40:00-07:00",
+      "critique_average": 8.79,
       "critique_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-critique-r0.md",
+      "critique_scores": {
+        "data_presentation": 8.6,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
+      "draft_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026.html",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 44.4,
+          "passed": true,
+          "short_pct": 8.3,
+          "variance": 539.0
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
+        }
+      },
+      "headline": "Your $11,000 Mini-Split Bid Is Missing $2,400. Check the Line Set Math.",
       "hero_file": "images/mini-split-bid-audit-line-set-bos-hidden-costs-2026.jpg",
       "hero_hash": "c5942b62",
       "hero_real_jpeg": true,
+      "journalist": "Jake Kowalski",
       "phase": "SHIP_READY",
-      "started": "2026-09-26T22:02:00-07:00",
-      "completed": "2026-09-26T22:40:00-07:00",
-      "rounds": 0,
       "primary_sources": 11,
-      "word_count": 1713,
-      "critique_average": 8.79,
-      "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
-        "legal_accuracy": 8.8,
-        "research_rigor": 9.0,
-        "data_presentation": 8.6
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 539.0,
-          "short_pct": 8.3,
-          "long_pct": 44.4,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-27. Kill-test passed; original contribution is the worked 4-zone bid audit (190 ft total piping vs Mitsubishi 98 ft chargeless length, 92 ft excess x 0.216 oz/ft = 19.9 oz / ~$78 refrigerant, honest small number) contrasted with the $1,200-$2,800 unquoted BOS column from 2026 cost sources plus Fine Homebuilding measured 33-40% BOS finding. Novel vs corpus (zero ductless/line-set coverage). 11 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: rhythm short_pct gate failed at 23.1% and The-starters at ~21%; merged short clusters, rephrased 18 The-openers; re-verified clean, avg 8.79.",
+      "research_file": "drafts/mini-split-bid-audit-line-set-bos-hidden-costs-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-04-28",
-      "publish_note": "Queued, not shipped: #767 published 2026-09-26 PT (one-per-day rule); queue tail was 2027-04-27. Kill-test passed; original contribution is the worked 4-zone bid audit (190 ft total piping vs Mitsubishi 98 ft chargeless length, 92 ft excess x 0.216 oz/ft = 19.9 oz / ~$78 refrigerant, honest small number) contrasted with the $1,200-$2,800 unquoted BOS column from 2026 cost sources plus Fine Homebuilding measured 33-40% BOS finding. Novel vs corpus (zero ductless/line-set coverage). 11 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: rhythm short_pct gate failed at 23.1% and The-starters at ~21%; merged short clusters, rephrased 18 The-openers; re-verified clean, avg 8.79."
+      "slug": "mini-split-bid-audit-line-set-bos-hidden-costs-2026",
+      "started": "2026-09-26T22:02:00-07:00",
+      "word_count": 1713
     },
     {
       "article_number": 978,
-      "slug": "ai-generated-home-design-hoa-design-review-rejection-2026",
-      "headline": "Your AI Designed Your House for $20. The Design Review Committee Thinks in Months, Not Minutes.",
-      "journalist": "Elena Vasquez",
-      "draft_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026.html",
-      "research_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-research.md",
+      "completed": "2026-09-27T01:10:00-07:00",
+      "critique_average": 8.8,
       "critique_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-critique-r0.md",
+      "critique_scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
+      "draft_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026.html",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 14.5,
+          "passed": true,
+          "short_pct": 30.4,
+          "variance": 98.9
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
+        }
+      },
+      "headline": "Your AI Designed Your House for $20. The Design Review Committee Thinks in Months, Not Minutes.",
       "hero_file": "images/ai-generated-home-design-hoa-design-review-rejection-2026.jpg",
       "hero_hash": "8f573e2c",
       "hero_real_jpeg": true,
+      "journalist": "Elena Vasquez",
       "phase": "SHIP_READY",
-      "started": "2026-09-27T00:40:00-07:00",
-      "completed": "2026-09-27T01:10:00-07:00",
-      "rounds": 0,
       "primary_sources": 7,
-      "word_count": 1061,
-      "critique_average": 8.8,
-      "critique_scores": {
-        "general_editor": 8.7,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
-        "legal_accuracy": 8.8,
-        "research_rigor": 9.0,
-        "data_presentation": 8.7
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 98.9,
-          "short_pct": 30.4,
-          "long_pct": 14.5,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-28. Kill-test passed; original contribution is the ARC Pre-Flight Audit (walk-the-street style count, feed ARC adjectives as generator constraints, neighbor signatures before submit). 7 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: 14-sentence The-starter gate fix pre-scoring, no revision round needed.",
+      "research_file": "drafts/ai-generated-home-design-hoa-design-review-rejection-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-04-29",
-      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-28. Kill-test passed; original contribution is the ARC Pre-Flight Audit (walk-the-street style count, feed ARC adjectives as generator constraints, neighbor signatures before submit). 7 primary sources with inline verbatim links; full-strength counterargument; Limitations section. Round 0: 14-sentence The-starter gate fix pre-scoring, no revision round needed."
+      "slug": "ai-generated-home-design-hoa-design-review-rejection-2026",
+      "started": "2026-09-27T00:40:00-07:00",
+      "word_count": 1061
     },
     {
       "article_number": 979,
-      "slug": "standby-generator-interlock-kit-outage-math-2026",
-      "headline": "The $14,000 Generator Quote Covers 8 Hours of Darkness a Year. Do the Division.",
-      "journalist": "Frank DeLuca",
-      "draft_file": "drafts/standby-generator-interlock-kit-outage-math-2026.html",
-      "research_file": "drafts/standby-generator-interlock-kit-outage-math-2026-research.md",
+      "completed": "2026-09-27T02:30:00-07:00",
+      "critique_average": 8.81,
       "critique_file": "drafts/standby-generator-interlock-kit-outage-math-2026-critique-r0.md",
+      "critique_scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.7,
+        "voice_coach": 8.7
+      },
+      "draft_file": "drafts/standby-generator-interlock-kit-outage-math-2026.html",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 55.1,
+          "passed": true,
+          "short_pct": 10.2,
+          "variance": 209.5
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
+        }
+      },
+      "headline": "The $14,000 Generator Quote Covers 8 Hours of Darkness a Year. Do the Division.",
       "hero_file": "images/standby-generator-interlock-kit-outage-math-2026.jpg",
       "hero_hash": "8d7bb3a0",
       "hero_real_jpeg": true,
+      "journalist": "Frank DeLuca",
       "phase": "SHIP_READY",
-      "started": "2026-09-27T02:01:52-07:00",
-      "completed": "2026-09-27T02:30:00-07:00",
-      "rounds": 0,
       "primary_sources": 7,
-      "word_count": 1197,
-      "critique_average": 8.81,
-      "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 8.8,
-        "research_rigor": 9.0,
-        "data_presentation": 8.7
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 209.5,
-          "short_pct": 10.2,
-          "long_pct": 55.1,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-29. Kill-test passed; original contribution is the outage-hour TCO audit ($240/hr standby vs $32/hr interlock over 10 years at 8 outage-hrs/yr, stated assumptions). 7 primary sources with inline verbatim links; full-strength counterargument (away-from-home, sump, medical, PSPS, CA 2028 portable phaseout); Limitations section. Round 0: two rhythm-revision passes pre-scoring (variance 81.2->209.5), no critic revision round needed.",
+      "research_file": "drafts/standby-generator-interlock-kit-outage-math-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-04-30",
-      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-29. Kill-test passed; original contribution is the outage-hour TCO audit ($240/hr standby vs $32/hr interlock over 10 years at 8 outage-hrs/yr, stated assumptions). 7 primary sources with inline verbatim links; full-strength counterargument (away-from-home, sump, medical, PSPS, CA 2028 portable phaseout); Limitations section. Round 0: two rhythm-revision passes pre-scoring (variance 81.2->209.5), no critic revision round needed."
+      "slug": "standby-generator-interlock-kit-outage-math-2026",
+      "started": "2026-09-27T02:01:52-07:00",
+      "word_count": 1197
     },
     {
       "article_number": 980,
-      "slug": "engineered-stone-silica-real-time-monitor-countertop-2026",
-      "headline": "Dry-Cutting a Quartz Countertop Puts 892 Times the Legal Silica Limit in the Air. California Counted 592 Sick Workers.",
-      "journalist": "Marcus Washington",
-      "draft_file": "drafts/engineered-stone-silica-real-time-monitor-countertop-2026.html",
-      "research_file": "drafts/engineered-stone-silica-real-time-monitor-countertop-2026-research.md",
+      "completed": "2026-09-27T04:12:00-07:00",
+      "critique_average": 8.9,
       "critique_file": "drafts/engineered-stone-silica-real-time-monitor-countertop-2026-critique-r0.md",
+      "critique_scores": {
+        "data_presentation": 9.1,
+        "ethics_reviewer": 9.2,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.9,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "draft_file": "drafts/engineered-stone-silica-real-time-monitor-countertop-2026.html",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 47.6,
+          "passed": true,
+          "short_pct": 8.5,
+          "variance": 207.7
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 5.1
+        }
+      },
+      "headline": "Dry-Cutting a Quartz Countertop Puts 892 Times the Legal Silica Limit in the Air. California Counted 592 Sick Workers.",
       "hero_file": "images/engineered-stone-silica-real-time-monitor-countertop-2026.jpg",
       "hero_hash": "34871e05",
       "hero_real_jpeg": true,
+      "journalist": "Marcus Washington",
       "phase": "SHIP_READY",
-      "started": "2026-09-27T03:00:00-07:00",
-      "completed": "2026-09-27T04:12:00-07:00",
-      "rounds": 0,
       "primary_sources": 14,
-      "word_count": 1818,
-      "critique_average": 8.9,
-      "critique_scores": {
-        "general_editor": 8.7,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.2,
-        "social_shareability": 8.8,
-        "legal_accuracy": 8.6,
-        "research_rigor": 8.9,
-        "data_presentation": 9.1
-      },
-      "hard_gates": {
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "the_starters": {
-          "pct": 5.1,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "variance": 207.7,
-          "short_pct": 8.5,
-          "long_pct": 47.6,
-          "passed": true
-        }
-      },
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-30. Kill-test passed; original contribution is the exposure-math + fabricator audit (892x dry-cutting intensity vs OSHA PEL, 37-97x wet-blade-only, ~$2,100/citation average proposed penalty). 14 primary sources with inline verbatim links; full-strength counterargument (ban/compliance costs hit the same immigrant-owned shops, garage-operation displacement); Limitations section. Round 0: three rhythm-revision passes pre-scoring (variance 127.2->207.7), one grammar fragment fixed, no critic revision round needed.",
+      "research_file": "drafts/engineered-stone-silica-real-time-monitor-countertop-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-05-01",
-      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-04-30. Kill-test passed; original contribution is the exposure-math + fabricator audit (892x dry-cutting intensity vs OSHA PEL, 37-97x wet-blade-only, ~$2,100/citation average proposed penalty). 14 primary sources with inline verbatim links; full-strength counterargument (ban/compliance costs hit the same immigrant-owned shops, garage-operation displacement); Limitations section. Round 0: three rhythm-revision passes pre-scoring (variance 127.2->207.7), one grammar fragment fixed, no critic revision round needed."
+      "slug": "engineered-stone-silica-real-time-monitor-countertop-2026",
+      "started": "2026-09-27T03:00:00-07:00",
+      "word_count": 1818
     },
     {
       "article_number": 981,
-      "slug": "soft-story-mandate-92-percent-compliance-math-2026",
-      "headline": "San Francisco Ordered 4,900 Apartment Buildings Earthquake-Proofed in 2013. 92 Percent Complied. The Other 8 Percent Still House 9,600 People.",
-      "journalist": "Catherine \"Code\" Chen",
-      "draft_file": "drafts/soft-story-mandate-92-percent-compliance-math-2026.html",
-      "research_file": "drafts/soft-story-mandate-92-percent-compliance-math-2026-research.md",
-      "critique_file": "drafts/soft-story-mandate-92-percent-compliance-math-2026-critique-r0.md",
-      "hero_file": "images/soft-story-mandate-92-percent-compliance-math-2026.jpg",
-      "hero_hash": "1248660d",
-      "hero_real_jpeg": true,
-      "phase": "SHIP_READY",
-      "started": "2026-09-27T06:04:16.515671-07:00",
       "completed": "2026-09-27T06:07:22.878881-07:00",
-      "rounds": 0,
-      "primary_sources": 10,
       "critique_average": 8.9,
+      "critique_file": "drafts/soft-story-mandate-92-percent-compliance-math-2026-critique-r0.md",
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
+        "data_presentation": 8.9,
         "ethics_reviewer": 9.2,
-        "social_shareability": 8.8,
+        "general_editor": 8.8,
         "legal_accuracy": 8.8,
         "research_rigor": 9.0,
-        "data_presentation": 8.9
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
       },
+      "draft_file": "drafts/soft-story-mandate-92-percent-compliance-math-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 10.9,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 278.4,
-          "short_pct": 12.5,
           "long_pct": 39.3,
-          "passed": true
+          "passed": true,
+          "short_pct": 12.5,
+          "variance": 278.4
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 10.9
         }
       },
-      "ship_after": "2027-05-02",
+      "headline": "San Francisco Ordered 4,900 Apartment Buildings Earthquake-Proofed in 2013. 92 Percent Complied. The Other 8 Percent Still House 9,600 People.",
+      "hero_file": "images/soft-story-mandate-92-percent-compliance-math-2026.jpg",
+      "hero_hash": "1248660d",
+      "hero_real_jpeg": true,
+      "journalist": "Catherine \"Code\" Chen",
+      "phase": "SHIP_READY",
+      "primary_sources": 10,
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-01. Kill-test passed; original contributions are the 90:1 voluntary-vs-mandate ratio, the $4,560 tenant pass-through cap math ($38/mo x 120), and the ~9,600-person holdout headcount. 10 primary sources with inline verbatim links; full-strength counterargument (costs land on marginal owners/tenants); Limitations section. Round 0: gates fixed pre-scoring (The-starters 15.9->10.9%, short sentences 17.4->12.5%), no critic revision round needed.",
+      "research_file": "drafts/soft-story-mandate-92-percent-compliance-math-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-02",
+      "slug": "soft-story-mandate-92-percent-compliance-math-2026",
+      "started": "2026-09-27T06:04:16.515671-07:00",
       "word_count": 1698
     },
     {
       "article_number": 982,
-      "slug": "ai-shear-wall-nail-pattern-photo-audit-2026",
-      "headline": "Your Shear Wall Is Missing 40 Nails. The Drywall Went Up Yesterday.",
-      "journalist": "Jake Kowalski",
-      "draft_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026.html",
-      "research_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026-research.md",
-      "critique_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026-critique-r0.md",
-      "hero_file": "images/ai-shear-wall-nail-pattern-photo-audit-2026.jpg",
-      "hero_hash": "3cbe4c2c",
-      "hero_real_jpeg": true,
-      "phase": "SHIP_READY",
-      "started": "2026-09-27T08:09:29.181458-07:00",
       "completed": "2026-09-27T08:09:29.181458-07:00",
-      "rounds": 0,
-      "primary_sources": 8,
       "critique_average": 8.91,
+      "critique_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026-critique-r0.md",
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
+        "data_presentation": 8.9,
         "ethics_reviewer": 9.2,
-        "social_shareability": 8.7,
+        "general_editor": 8.8,
         "legal_accuracy": 8.8,
         "research_rigor": 9.0,
-        "data_presentation": 8.9
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
       },
+      "draft_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 1.9,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 214.9,
-          "short_pct": 13.9,
           "long_pct": 65.3,
-          "passed": true
+          "passed": true,
+          "short_pct": 13.9,
+          "variance": 214.9
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 1.9
         }
       },
-      "ship_after": "2027-05-03",
+      "headline": "Your Shear Wall Is Missing 40 Nails. The Drywall Went Up Yesterday.",
+      "hero_file": "images/ai-shear-wall-nail-pattern-photo-audit-2026.jpg",
+      "hero_hash": "3cbe4c2c",
+      "hero_real_jpeg": true,
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-02. Kill-test passed; original contributions are the 64-nail panel count derived from the IRC nailing schedule and the 8-missing-nails -> ~360 plf capacity-slide estimate. 8 primary sources inline. Gates: 0 em dashes, The-starters 1.9%, 0 banned phrases, rhythm variance 214.9. Round 0: gates fixed pre-scoring, no critic revision round needed.",
+      "research_file": "drafts/ai-shear-wall-nail-pattern-photo-audit-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-03",
+      "slug": "ai-shear-wall-nail-pattern-photo-audit-2026",
+      "started": "2026-09-27T08:09:29.181458-07:00",
       "word_count": 2726
     },
     {
       "article_number": 983,
-      "slug": "ai-heat-rule-85-degree-gap-mandatory-rest-2026",
-      "headline": "Your Crew Gets Hurt at 85. The Stalled Rule Set the Alarm at 90.",
-      "journalist": "Marcus Washington",
-      "draft_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026.html",
-      "research_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026-research.md",
-      "critique_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026-critique-r0.md",
-      "hero_file": "images/ai-heat-rule-85-degree-gap-mandatory-rest-2026.jpg",
-      "hero_hash": "4e47b427",
-      "hero_real_jpeg": true,
-      "phase": "SHIP_READY",
-      "started": "2026-09-27T10:45:00-07:00",
       "completed": "2026-09-27T10:45:00-07:00",
-      "rounds": 0,
-      "primary_sources": 10,
       "critique_average": 8.91,
+      "critique_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026-critique-r0.md",
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
+        "data_presentation": 8.9,
         "ethics_reviewer": 9.2,
-        "social_shareability": 8.7,
+        "general_editor": 8.8,
         "legal_accuracy": 8.8,
         "research_rigor": 9.0,
-        "data_presentation": 8.9
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
       },
+      "draft_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 7.8,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 229.5,
-          "short_pct": 12.5,
           "long_pct": 62.5,
-          "passed": true
+          "passed": true,
+          "short_pct": 12.5,
+          "variance": 229.5
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 7.8
         }
       },
-      "ship_after": "2027-05-04",
+      "headline": "Your Crew Gets Hurt at 85. The Stalled Rule Set the Alarm at 90.",
+      "hero_file": "images/ai-heat-rule-85-degree-gap-mandatory-rest-2026.jpg",
+      "hero_hash": "4e47b427",
+      "hero_real_jpeg": true,
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "primary_sources": 10,
       "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-03. Kill-test passed; original contributions are the 85F-vs-90F policy/data gap cross-reference, the ~250 construction heat-death estimate (CPWR 18 x OSHA 14x underreporting), and the $6,435 avg-claim vs $500 armband cost anchor. 10 primary sources inline. Gates: 0 em dashes, The-starters 7.8%, 0 banned phrases, rhythm variance 229.5. Round 0: gates fixed pre-scoring, no critic revision round needed; post-scoring corrections removed the all-industry temperature-extreme extrapolation and \"rule died\" wording.",
+      "research_file": "drafts/ai-heat-rule-85-degree-gap-mandatory-rest-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-04",
+      "slug": "ai-heat-rule-85-degree-gap-mandatory-rest-2026",
+      "started": "2026-09-27T10:45:00-07:00",
       "word_count": 2759
     },
     {
       "article_number": 984,
-      "slug": "ai-200amp-panel-electrification-load-math-2026",
-      "phase": "SHIP_READY",
-      "journalist": "Priya Greenwood",
-      "headline": "Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.",
-      "started": "2026-09-27T12:20:00-07:00",
       "completed": "2026-09-27T12:20:00-07:00",
-      "research_file": "drafts/ai-200amp-panel-electrification-load-math-2026-research.md",
-      "draft_file": "drafts/ai-200amp-panel-electrification-load-math-2026.html",
-      "critique_file": "drafts/ai-200amp-panel-electrification-load-math-2026-critique-r0.md",
-      "hero_file": "images/ai-200amp-panel-electrification-load-math-2026.jpg",
-      "hero_hash": "b36f5a72",
-      "hero_real_jpeg": true,
-      "rounds": 0,
-      "primary_sources": 10,
       "critique_average": 8.86,
+      "critique_file": "drafts/ai-200amp-panel-electrification-load-math-2026-critique-r0.md",
       "critique_scores": {
-        "general_editor": 8.9,
-        "voice_coach": 8.8,
+        "data_presentation": 8.9,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
+        "general_editor": 8.9,
         "legal_accuracy": 8.8,
         "research_rigor": 9.0,
-        "data_presentation": 8.9
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
       },
+      "draft_file": "drafts/ai-200amp-panel-electrification-load-math-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 9.5,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 439.4,
-          "short_pct": 1.6,
           "long_pct": 43.8,
-          "passed": true
+          "passed": true,
+          "short_pct": 1.6,
+          "variance": 439.4
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 9.5
         }
       },
-      "word_count": 1539,
+      "headline": "Your Electrician Sees 260 Amps of Breakers. The 2026 Code Sees 133.",
+      "hero_file": "images/ai-200amp-panel-electrification-load-math-2026.jpg",
+      "hero_hash": "b36f5a72",
+      "hero_real_jpeg": true,
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "primary_sources": 10,
+      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-04. Kill-test passed; original contribution is the NEC 220.82/120.82 worked calculation on a fully electrified 2,000 sq ft home: naive breaker sum 260A vs code-calculated 133A (127 phantom amps, 96% overcount), using the 2026 NEC 80% EVSE factor for existing dwellings (FR 8188, LBNL sub-metering). 10 primary sources inline. Gates: 0 em dashes, The-starters 9.5%, 0 banned phrases, rhythm variance 439.4. Round 0: gates repaired pre-scoring (rhythm 155.3->439.4, The-starters 14.6->9.5, hero hash corrected); no critic revision round needed.",
+      "research_file": "drafts/ai-200amp-panel-electrification-load-math-2026-research.md",
+      "rounds": 0,
       "ship_after": "2027-05-05",
-      "publish_note": "Queued, not shipped: #768 published 2026-09-27 PT (one-per-day rule); queue tail was 2027-05-04. Kill-test passed; original contribution is the NEC 220.82/120.82 worked calculation on a fully electrified 2,000 sq ft home: naive breaker sum 260A vs code-calculated 133A (127 phantom amps, 96% overcount), using the 2026 NEC 80% EVSE factor for existing dwellings (FR 8188, LBNL sub-metering). 10 primary sources inline. Gates: 0 em dashes, The-starters 9.5%, 0 banned phrases, rhythm variance 439.4. Round 0: gates repaired pre-scoring (rhythm 155.3->439.4, The-starters 14.6->9.5, hero hash corrected); no critic revision round needed."
+      "slug": "ai-200amp-panel-electrification-load-math-2026",
+      "started": "2026-09-27T12:20:00-07:00",
+      "word_count": 1539
     },
     {
-      "id": 985,
       "article_number": 985,
       "completed": "2026-09-27T14:35:00-07:00",
       "critique_score": 8.83,
       "critique_scores": {
-        "general_editor": 8.7,
-        "voice_coach": 8.8,
+        "data_presentation": 8.9,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.8,
+        "general_editor": 8.7,
         "legal_accuracy": 8.8,
         "research_rigor": 8.8,
-        "data_presentation": 8.9
+        "social_shareability": 8.8,
+        "voice_coach": 8.8
       },
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 5.3,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 417.4,
-          "short_pct": 11.6,
           "long_pct": 46.5,
-          "passed": true
+          "passed": true,
+          "short_pct": 11.6,
+          "variance": 417.4
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 5.3
         }
       },
       "headline": "Your 3-0 x 4-0 Bedroom Window Doesn't Meet Egress Code. Nobody Measured It.",
@@ -9807,6 +9772,7 @@
       "hero_hash": "a657850a",
       "hero_real_jpeg": true,
       "hold_reason": "1/day rule: #768 published 2026-09-27; #985 queued for 2027-05-06 behind #984 (2027-05-05)",
+      "id": 985,
       "journalist": "Catherine \"Code\" Chen",
       "phase": "SHIP",
       "primary_sources": 7,
@@ -9817,216 +9783,215 @@
       "started": "2026-09-27T14:05:00-07:00"
     },
     {
-      "id": 986,
       "article_number": 986,
-      "slug": "ai-robotic-slab-layout-print-chalk-line-2026",
-      "headline": "Your Layout Crew Snapped Chalk for Two Days. The Robot Finished Before Lunch.",
-      "journalist": "Frank DeLuca",
-      "started": "2026-09-27T18:05:00-07:00",
-      "rounds": 0,
-      "phase": "SHIP",
+      "critique_file": "drafts/ai-robotic-slab-layout-print-chalk-line-2026-critique-r0.md",
       "critique_score": 8.83,
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.8,
+        "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
+        "general_editor": 8.8,
         "legal_accuracy": 8.8,
         "research_rigor": 8.9,
-        "data_presentation": 8.8
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
       },
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 943.9,
-          "short_pct": 33.3,
           "long_pct": 31.2,
-          "passed": true
+          "passed": true,
+          "short_pct": 33.3,
+          "variance": 943.9
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
         }
       },
+      "headline": "Your Layout Crew Snapped Chalk for Two Days. The Robot Finished Before Lunch.",
       "hero_file": "images/ai-robotic-slab-layout-print-chalk-line-2026.jpg",
       "hero_hash": "2a3707a6",
       "hero_real_jpeg": true,
-      "research_file": "drafts/ai-robotic-slab-layout-print-chalk-line-2026-research.md",
-      "critique_file": "drafts/ai-robotic-slab-layout-print-chalk-line-2026-critique-r0.md",
-      "primary_sources": 8,
-      "word_count": 1708,
-      "ship_after": "2027-05-07",
       "hold_reason": "1/day rule: #768 published 2026-09-27; #986 queued for 2027-05-07 behind #985 (2027-05-06)",
-      "publish_note": "Original contribution: anchor-bolt tolerance-stack math (IRC R403.1.6 1/2-in bolts 6 ft o.c. + ACI 117 +/-1/4 in vs robotic 1/16-in print) plus the DeLuca playbook (multi-trade layout decision rule, custom-builder total-station fallback). 8 primary sources inline (Dusty, CNBC/WhatJobs, Startuply.vc, Springer 2025 pilot, CII/Love&Li/Josephson rework research, FrameTec, NAHB/Dietz, Briefs.co Kamat/Murphy, ICC, ACI). Gates: 0 em dashes, The-starters 0%, 0 banned phrases, rhythm variance 943.9. Round 0, no critic revision (14 The-starter rewrites pre-scoring)."
+      "id": 986,
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "primary_sources": 8,
+      "publish_note": "Original contribution: anchor-bolt tolerance-stack math (IRC R403.1.6 1/2-in bolts 6 ft o.c. + ACI 117 +/-1/4 in vs robotic 1/16-in print) plus the DeLuca playbook (multi-trade layout decision rule, custom-builder total-station fallback). 8 primary sources inline (Dusty, CNBC/WhatJobs, Startuply.vc, Springer 2025 pilot, CII/Love&Li/Josephson rework research, FrameTec, NAHB/Dietz, Briefs.co Kamat/Murphy, ICC, ACI). Gates: 0 em dashes, The-starters 0%, 0 banned phrases, rhythm variance 943.9. Round 0, no critic revision (14 The-starter rewrites pre-scoring).",
+      "research_file": "drafts/ai-robotic-slab-layout-print-chalk-line-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-07",
+      "slug": "ai-robotic-slab-layout-print-chalk-line-2026",
+      "started": "2026-09-27T18:05:00-07:00",
+      "word_count": 1708
     },
     {
-      "id": 987,
       "article_number": 987,
-      "slug": "ai-skylight-leak-forensics-daylight-math-2026",
-      "headline": "Your Skylight Loses 21 Times More Heat Than the Ceiling It Replaced. Make the Daylight Earn It.",
-      "journalist": "Elena Vasquez",
-      "started": "2026-09-27T20:05:00-07:00",
       "completed": "2026-09-27T20:45:00-07:00",
-      "rounds": 0,
-      "phase": "SHIP",
+      "critique_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-critique-r0.md",
       "critique_score": 9.11,
       "critique_scores": {
-        "general_editor": 9.2,
-        "voice_coach": 9.3,
+        "data_presentation": 9.0,
         "ethics_reviewer": 9.5,
-        "social_shareability": 9.0,
+        "general_editor": 9.2,
         "legal_accuracy": 9.0,
         "research_rigor": 8.8,
-        "data_presentation": 9.0
+        "social_shareability": 9.0,
+        "voice_coach": 9.3
       },
+      "draft_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 1.1,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 514.0,
-          "short_pct": 8.4,
           "long_pct": 42.1,
-          "passed": true
+          "passed": true,
+          "short_pct": 8.4,
+          "variance": 514.0
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 1.1
         }
       },
+      "headline": "Your Skylight Loses 21 Times More Heat Than the Ceiling It Replaced. Make the Daylight Earn It.",
       "hero_file": "images/ai-skylight-leak-forensics-daylight-math-2026.jpg",
       "hero_hash": "7e4ef513",
       "hero_real_jpeg": true,
-      "research_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-research.md",
-      "draft_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026.html",
-      "critique_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-critique-r0.md",
-      "primary_sources": 17,
-      "word_count": 2366,
-      "ship_after": "2027-05-08",
       "hold_reason": "1/day rule: #768 published 2026-09-27; #987 queued for 2027-05-08 behind #986 (2027-05-07)",
-      "publish_note": "Original contribution: 21x hole-penalty math (U-0.55 x 8 sq ft x 40F = 176 BTU/hr vs R-38 ceiling 8.4 BTU/hr, ratio 20.9) with triple-pane argon sensitivity case, plus failure-mode ledger (curb termination / flashing / condensation / seal failure -> symptom -> fix -> cost) and re-roof timing arbitrage ($1,500-2,500 bundled vs $3,000-5,000 standalone). 17 primary sources inline. Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 514. Round 0, no critic revision (gate repairs pre-scoring)."
+      "id": 987,
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP",
+      "primary_sources": 17,
+      "publish_note": "Original contribution: 21x hole-penalty math (U-0.55 x 8 sq ft x 40F = 176 BTU/hr vs R-38 ceiling 8.4 BTU/hr, ratio 20.9) with triple-pane argon sensitivity case, plus failure-mode ledger (curb termination / flashing / condensation / seal failure -> symptom -> fix -> cost) and re-roof timing arbitrage ($1,500-2,500 bundled vs $3,000-5,000 standalone). 17 primary sources inline. Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 514. Round 0, no critic revision (gate repairs pre-scoring).",
+      "research_file": "drafts/ai-skylight-leak-forensics-daylight-math-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-08",
+      "slug": "ai-skylight-leak-forensics-daylight-math-2026",
+      "started": "2026-09-27T20:05:00-07:00",
+      "word_count": 2366
     },
     {
       "article_number": 988,
-      "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
-      "headline": "Your Builder Promised 8 Months. The Data Says Plan for 13. The Slip Alone Costs $20,000.",
-      "journalist": "Frank DeLuca",
-      "phase": "SHIP_READY",
-      "rounds": 0,
+      "critique_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-critique-r0.md",
       "critique_score": 8.86,
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.9,
+        "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
+        "general_editor": 8.8,
         "legal_accuracy": 8.9,
         "research_rigor": 9.0,
-        "data_presentation": 8.8
+        "social_shareability": 8.7,
+        "voice_coach": 8.9
       },
+      "draft_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 246.3,
-          "short_pct": 13.5,
           "long_pct": 50.6,
-          "passed": true
+          "passed": true,
+          "short_pct": 13.5,
+          "variance": 246.3
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
         }
       },
+      "headline": "Your Builder Promised 8 Months. The Data Says Plan for 13. The Slip Alone Costs $20,000.",
       "hero_file": "images/ai-builder-delay-forensics-schedule-risk-cost-2026.jpg",
       "hero_hash": "bc3ecfcd",
       "hero_real_jpeg": true,
-      "research_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-research.md",
-      "draft_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026.html",
-      "critique_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-critique-r0.md",
-      "primary_sources": 7,
-      "word_count": 2050,
-      "ship_after": "2027-05-09",
-      "started": "2026-09-27T22:05:00-07:00",
       "hold_reason": "1/day rule: #768 published 2026-09-27; #988 queued for 2027-05-09 behind #987 (2027-05-08)",
-      "publish_note": "Original contribution: 3-month slip budget on $750K custom build ($9,600 rent + $8,075 construction-loan interest + $1,500 lock extension + $1,050 storage = $20,225; ~$24,700 worst-case lock fee; ~$33K for 5-month slip) plus Census SOCDS context (contractor-built custom avg ~12 months 2024; 8.8 months overall 2025; Pacific 10.3) and nPlan (750K-schedule dataset, Crossrail retrospective) / ALICE (generative scheduling, 17% vendor claim) schedule-forensics explainer. 7 primary sources inline. Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 246.3. Round 0, no content revisions (gate repairs pre-scoring)."
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "publish_note": "Original contribution: 3-month slip budget on $750K custom build ($9,600 rent + $8,075 construction-loan interest + $1,500 lock extension + $1,050 storage = $20,225; ~$24,700 worst-case lock fee; ~$33K for 5-month slip) plus Census SOCDS context (contractor-built custom avg ~12 months 2024; 8.8 months overall 2025; Pacific 10.3) and nPlan (750K-schedule dataset, Crossrail retrospective) / ALICE (generative scheduling, 17% vendor claim) schedule-forensics explainer. 7 primary sources inline. Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 246.3. Round 0, no content revisions (gate repairs pre-scoring).",
+      "research_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-09",
+      "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
+      "started": "2026-09-27T22:05:00-07:00",
+      "word_count": 2050
     },
     {
       "article_number": 989,
-      "slug": "tybot-rebar-tying-robot-residential-threshold-math-2026",
-      "headline": "TyBOT Ties 1,100 Rebar Joints an Hour. Your Foundation Is Sixteen Slabs Too Small.",
-      "journalist": "Jake Kowalski",
-      "phase": "SHIP_READY",
-      "research_file": "drafts/tybot-rebar-tying-robot-residential-threshold-math-2026-research.md",
-      "draft_file": "drafts/tybot-rebar-tying-robot-residential-threshold-math-2026.html",
       "critique_file": "drafts/tybot-rebar-tying-robot-residential-threshold-math-2026-critique-r0.md",
       "critique_score": 8.87,
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
+        "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.8,
+        "general_editor": 8.8,
         "legal_accuracy": 8.9,
         "research_rigor": 8.8,
-        "data_presentation": 8.8
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
       },
+      "draft_file": "drafts/tybot-rebar-tying-robot-residential-threshold-math-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 0.0,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 276.3,
-          "short_pct": 5.0,
           "long_pct": 45.0,
-          "passed": true
+          "passed": true,
+          "short_pct": 5.0,
+          "variance": 276.3
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.0
         }
       },
+      "headline": "TyBOT Ties 1,100 Rebar Joints an Hour. Your Foundation Is Sixteen Slabs Too Small.",
       "hero_file": "images/tybot-rebar-tying-robot-residential-threshold-math-2026.jpg",
       "hero_hash": "8b59c450",
       "hero_real_jpeg": true,
+      "hold_reason": "1/day rule: #768 published 2026-09-27; #989 queued for 2027-05-10 behind #988 (2027-05-09)",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
       "primary_sources": 6,
-      "word_count": 940,
+      "publish_note": "Queued, not shipped: one article already published 2026-09-27 PT (#768, one-per-day rule); queue tail was 2027-05-09. Original contribution: 16-foundation threshold math from ACR's own 20,000 sq ft rule of thumb (1,271 intersections -> 636 ties at 50% pattern on a 30x40 ft #4 @ 12-in. slab; ~35 min robot vs 2.5-4.2 human hrs; $75-$126 wage cost). 6 primary sources inline. Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 276.3. Round 0, no content revisions (gate repairs pre-scoring).",
+      "research_file": "drafts/tybot-rebar-tying-robot-residential-threshold-math-2026-research.md",
       "rounds": 0,
       "ship_after": "2027-05-10",
+      "slug": "tybot-rebar-tying-robot-residential-threshold-math-2026",
       "started": "2026-09-28T00:05:00-07:00",
-      "hold_reason": "1/day rule: #768 published 2026-09-27; #989 queued for 2027-05-10 behind #988 (2027-05-09)",
-      "publish_note": "Queued, not shipped: one article already published 2026-09-27 PT (#768, one-per-day rule); queue tail was 2027-05-09. Original contribution: 16-foundation threshold math from ACR's own 20,000 sq ft rule of thumb (1,271 intersections -> 636 ties at 50% pattern on a 30x40 ft #4 @ 12-in. slab; ~35 min robot vs 2.5-4.2 human hrs; $75-$126 wage cost). 6 primary sources inline. Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 276.3. Round 0, no content revisions (gate repairs pre-scoring)."
+      "word_count": 940
     }
   ],
-  "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
-  "hero_hash": "bc3ecfcd"
+  "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026"
 }
