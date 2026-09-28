@@ -1,15 +1,18 @@
 {
   "article_number": 988,
   "critique_round": 0,
-  "critique_score": null,
-  "critique_scores": null,
-  "current": {
-    "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-09-27T22:05:00-07:00"
+  "critique_score": 8.86,
+  "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
   },
-  "draft_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026.html",
+  "current": null,
+  "draft_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026.html",
   "draft_hash": "cd64208d",
   "hard_gates": {
     "em_dash": {
@@ -18,7 +21,7 @@
       "passed": true
     },
     "the_starters": {
-      "pct": 5.3,
+      "pct": 0.0,
       "limit": 15.0,
       "passed": true
     },
@@ -27,14 +30,14 @@
       "passed": true
     },
     "sentence_rhythm": {
-      "variance": 369.9,
-      "short_pct": 11.8,
-      "long_pct": 48.2,
+      "variance": 246.3,
+      "short_pct": 13.5,
+      "long_pct": 50.6,
       "passed": true
     }
   },
   "hero_cache_bust": "a657850a",
-  "hero_file": "images/ai-egress-window-bedroom-5.7-sqft-2026.jpg",
+  "hero_file": "images/ai-builder-delay-forensics-schedule-risk-cost-2026.jpg",
   "hero_real_jpeg": true,
   "last_checked": "2026-09-27T20:50:00-07:00",
   "last_completed": {
@@ -53,8 +56,8 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-27 22:05 cron: 1/day met (#768 published 00:05 PT). #988 RESEARCH->DRAFT: Frank DeLuca on AI builder-delay forensics + 3-month slip budget. current=DRAFT.",
-  "phase": "DRAFT",
+  "note": "2026-09-27 22:05 cron: 1/day met (#768 published 00:05 PT). #988 RESEARCH->DRAFT->CRITIQUE(8.86, round 0)->SHIP_READY, queued 2027-05-09 behind #987. Frank DeLuca on AI builder-delay forensics + $20K 3-month slip budget. current=null.",
+  "phase": "SHIP_READY",
   "research_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-research.md",
   "ship_ready": [
     {
@@ -9918,8 +9921,60 @@
       "ship_after": "2027-05-08",
       "hold_reason": "1/day rule: #768 published 2026-09-27; #987 queued for 2027-05-08 behind #986 (2027-05-07)",
       "publish_note": "Original contribution: 21x hole-penalty math (U-0.55 x 8 sq ft x 40F = 176 BTU/hr vs R-38 ceiling 8.4 BTU/hr, ratio 20.9) with triple-pane argon sensitivity case, plus failure-mode ledger (curb termination / flashing / condensation / seal failure -> symptom -> fix -> cost) and re-roof timing arbitrage ($1,500-2,500 bundled vs $3,000-5,000 standalone). 17 primary sources inline. Gates: 0 em dashes, The-starters 1.1%, 0 banned phrases, rhythm variance 514. Round 0, no critic revision (gate repairs pre-scoring)."
+    },
+    {
+      "article_number": 988,
+      "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
+      "headline": "Your Builder Promised 8 Months. The Data Says Plan for 13. The Slip Alone Costs $20,000.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "rounds": 0,
+      "critique_score": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 246.3,
+          "short_pct": 13.5,
+          "long_pct": 50.6,
+          "passed": true
+        }
+      },
+      "hero_file": "images/ai-builder-delay-forensics-schedule-risk-cost-2026.jpg",
+      "hero_hash": "bc3ecfcd",
+      "hero_real_jpeg": true,
+      "research_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-research.md",
+      "draft_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026.html",
+      "critique_file": "drafts/ai-builder-delay-forensics-schedule-risk-cost-2026-critique-r0.md",
+      "primary_sources": 7,
+      "word_count": 2050,
+      "ship_after": "2027-05-09",
+      "started": "2026-09-27T22:05:00-07:00",
+      "hold_reason": "1/day rule: #768 published 2026-09-27; #988 queued for 2027-05-09 behind #987 (2027-05-08)",
+      "publish_note": "Original contribution: 3-month slip budget on $750K custom build ($9,600 rent + $8,075 construction-loan interest + $1,500 lock extension + $1,050 storage = $20,225; ~$24,700 worst-case lock fee; ~$33K for 5-month slip) plus Census SOCDS context (contractor-built custom avg ~12 months 2024; 8.8 months overall 2025; Pacific 10.3) and nPlan (750K-schedule dataset, Crossrail retrospective) / ALICE (generative scheduling, 17% vendor claim) schedule-forensics explainer. 7 primary sources inline. Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 246.3. Round 0, no content revisions (gate repairs pre-scoring)."
     }
   ],
   "slug": "ai-builder-delay-forensics-schedule-risk-cost-2026",
-  "hero_hash": "2a3707a6"
+  "hero_hash": "bc3ecfcd"
 }
