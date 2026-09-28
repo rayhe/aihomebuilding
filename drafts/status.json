@@ -40,13 +40,19 @@
   "hero_file": "images/ai-builder-delay-forensics-schedule-risk-cost-2026.jpg",
   "hero_hash": "bc3ecfcd",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-27T20:50:00-07:00",
+  "last_checked": "2026-09-28T02:30:00-07:00",
   "last_completed": {
     "article_number": 769,
     "at": "2026-09-28T02:06:00-07:00",
     "phase": "PUBLISHED",
     "qa": {
-      "note": "pending live deploy verification"
+      "at": "2026-09-28T02:30:00-07:00",
+      "hero": 200,
+      "index_card": true,
+      "note": "story 200 on extensionless-canonical redirect chain; hero real JPEG 200; index card + 770-article count live; sitemap valid with new URL. QA fixes: og:url and JSON-LD @id /articles/ -> /stories/ (canonical form).",
+      "og_tags": true,
+      "sitemap": "valid",
+      "story": 200
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
