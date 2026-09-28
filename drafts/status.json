@@ -1,5 +1,5 @@
 {
-  "article_number": 985,
+  "article_number": 986,
   "critique_round": 0,
   "critique_score": null,
   "critique_scores": null,
@@ -31,7 +31,7 @@
   "hero_cache_bust": "a657850a",
   "hero_file": "images/ai-egress-window-bedroom-5.7-sqft-2026.jpg",
   "hero_real_jpeg": true,
-  "last_checked": "2026-09-27T16:02:00-07:00",
+  "last_checked": "2026-09-27T18:01:52-07:00",
   "last_completed": {
     "article_number": 768,
     "slug": "ai-asbestos-photo-screening-vermiculite-abatement-2026",
@@ -48,7 +48,7 @@
     }
   },
   "last_published_at": "2026-09-27T00:05:00-07:00",
-  "note": "2026-09-27 16:02 cron: 1/day met (Publish #768 at 00:05 PT, QA passed 00:28). #985 SHIP_READY stays queued for 2027-05-06 behind #984 (2027-05-05). Live re-check: story 200, sitemap has URL. No publish action (exit per 1/day rule).",
+  "note": "2026-09-27 18:02 cron: 1/day met (3 Publish # commits today; #768 published 00:05 PT). #986 RESEARCH->DRAFT->CRITIQUE(8.83, round 0)->SHIP_READY, queued 2027-05-07 behind #985. Frank DeLuca on robotic slab layout (Dusty FieldPrinter). current=null.",
   "phase": "SHIP_READY",
   "research_file": "drafts/ai-egress-window-bedroom-5.7-sqft-2026-research.md",
   "ship_ready": [
@@ -9807,8 +9807,60 @@
       "ship_after": "2027-05-06",
       "slug": "ai-egress-window-bedroom-5.7-sqft-2026",
       "started": "2026-09-27T14:05:00-07:00"
+    },
+    {
+      "id": 986,
+      "article_number": 986,
+      "slug": "ai-robotic-slab-layout-print-chalk-line-2026",
+      "headline": "Your Layout Crew Snapped Chalk for Two Days. The Robot Finished Before Lunch.",
+      "journalist": "Frank DeLuca",
+      "started": "2026-09-27T18:05:00-07:00",
+      "rounds": 0,
+      "phase": "SHIP",
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 943.9,
+          "short_pct": 33.3,
+          "long_pct": 31.2,
+          "passed": true
+        }
+      },
+      "hero_file": "images/ai-robotic-slab-layout-print-chalk-line-2026.jpg",
+      "hero_hash": "2a3707a6",
+      "hero_real_jpeg": true,
+      "research_file": "drafts/ai-robotic-slab-layout-print-chalk-line-2026-research.md",
+      "critique_file": "drafts/ai-robotic-slab-layout-print-chalk-line-2026-critique-r0.md",
+      "primary_sources": 8,
+      "word_count": 1708,
+      "ship_after": "2027-05-07",
+      "hold_reason": "1/day rule: #768 published 2026-09-27; #986 queued for 2027-05-07 behind #985 (2027-05-06)",
+      "publish_note": "Original contribution: anchor-bolt tolerance-stack math (IRC R403.1.6 1/2-in bolts 6 ft o.c. + ACI 117 +/-1/4 in vs robotic 1/16-in print) plus the DeLuca playbook (multi-trade layout decision rule, custom-builder total-station fallback). 8 primary sources inline (Dusty, CNBC/WhatJobs, Startuply.vc, Springer 2025 pilot, CII/Love&Li/Josephson rework research, FrameTec, NAHB/Dietz, Briefs.co Kamat/Murphy, ICC, ACI). Gates: 0 em dashes, The-starters 0%, 0 banned phrases, rhythm variance 943.9. Round 0, no critic revision (14 The-starter rewrites pre-scoring)."
     }
   ],
-  "slug": "ai-egress-window-bedroom-5.7-sqft-2026",
-  "hero_hash": "b36f5a72"
+  "slug": "ai-robotic-slab-layout-print-chalk-line-2026",
+  "hero_hash": "2a3707a6"
 }
