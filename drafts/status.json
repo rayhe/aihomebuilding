@@ -14,7 +14,7 @@
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_checked": "2026-09-29T02:01:52-07:00",
+  "last_checked": "2026-09-29T04:02:00-07:00",
   "last_published_at": "2026-09-28T02:06:00-07:00",
   "ship_ready": [
     {
@@ -10160,5 +10160,5 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-09-29 02:02 PDT: HOLD continues - 0 publishes today PT (1/day allows one), but no publish action. 3 queue heads now past-due (solar-shade ship_after 2026-09-27, concrete-carbon 2026-09-28, delivery-dispatch 2026-09-29; voice-agents due 2026-09-30 tomorrow) yet ship_ready queue still carries forward-reserved ids from Sep 4 colliding with live publish counter (duplicate #787 in queue; two 'Publish #769' commits in git log). Renumber-vs-drain still awaiting Ray's call. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94, hard gates pass) stays SHIP_READY, ship_after 2027-05-13. Live QA OK: index 200 (770 articles), latest story Sep 28 resolves with hero; sitemap checked this run. Solar-shade head still missing hero (hero_file null) - hero generation deferred until Ray resolves queue."
+  "note": "Run 2026-09-29 04:02 PDT: HOLD continues - 0 publishes today PT (1/day allows one), no publish action. Queue-id facts re-verified this run: exactly ONE true 'Publish #769' commit exists (727630b); prior runs' 'two commits' phrasing was loose (6 hits = 1 publish + 5 referencing notes). Duplicate reserved id 787 in ship_ready queue; reserved ids 753/754/755 sit at/below live counter (stale). Past-due heads concrete-carbon (ship_after 2026-09-28) + delivery-dispatch (ship_after 2026-09-29) verified publish-ready (real JPEG 1920x1280 heroes); solar-shade head still hero-less. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94, hard gates pass) stays SHIP_READY, ship_after 2027-05-13. Live QA OK: homepage 200 'Filter: 770 articles', latest card = #769 Zone 0 (Sep 28); story page full content + hero renders. Renumber-vs-drain still awaiting Ray's call."
 }
