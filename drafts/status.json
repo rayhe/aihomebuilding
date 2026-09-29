@@ -1,27 +1,27 @@
 {
- "article_number": 990,
+ "article_number": 991,
  "critique_round": 0,
- "critique_score": 8.87,
+ "critique_score": 8.83,
  "critique_scores": {
-  "general_editor": 8.8,
-  "voice_coach": 8.9,
+  "data_presentation": 8.8,
   "ethics_reviewer": 9.0,
-  "social_shareability": 8.8,
+  "general_editor": 8.8,
   "legal_accuracy": 8.8,
-  "research_rigor": 9.0,
-  "data_presentation": 8.8
+  "research_rigor": 8.8,
+  "social_shareability": 8.7,
+  "voice_coach": 8.9
  },
  "current": null,
- "draft_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026.html",
+ "draft_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026.html",
  "draft_hash": null,
  "hard_gates": {
   "em_dash": {
-   "count": 1,
+   "count": 0,
    "limit": 3,
    "passed": true
   },
   "the_starters": {
-   "pct": 6.6,
+   "pct": 10.3,
    "limit": 15.0,
    "passed": true
   },
@@ -30,15 +30,15 @@
    "passed": true
   },
   "sentence_rhythm": {
-   "variance": 344.6,
-   "short_pct": 0.0,
-   "long_pct": 52.8,
+   "variance": 254.1,
+   "short_pct": 14.9,
+   "long_pct": 37.8,
    "passed": true
   }
  },
- "hero_cache_bust": "bf357db6",
- "hero_file": "images/ai-overhang-depth-sun-angle-shading-math-2026.jpg",
- "hero_hash": "bf357db6",
+ "hero_cache_bust": "153994b1",
+ "hero_file": "images/ai-property-line-encroachment-drone-survey-adverse-possession-2026.jpg",
+ "hero_hash": "153994b1",
  "hero_real_jpeg": true,
  "last_checked": "2026-09-28T02:30:00-07:00",
  "last_completed": {
@@ -57,9 +57,9 @@
   "slug": "zone-zero-five-feet-ai-inspection-2026"
  },
  "last_published_at": "2026-09-28T02:06:00-07:00",
- "note": "Queue #990: south overhang sun-angle shading math \u2014 Elena Vasquez (critique 8.87, round 0); queued 2027-05-11 behind #989",
+ "note": "Queue #991: property-line encroachment + drone surveys + adverse possession \u2014 Catherine Chen (critique 8.83, round 0); queued 2027-05-12 behind #990",
  "phase": "SHIP_READY",
- "research_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026-research.md",
+ "research_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026-research.md",
  "ship_ready": [
   {
    "completed": "2026-09-04",
@@ -10049,9 +10049,60 @@
    "slug": "ai-overhang-depth-sun-angle-shading-math-2026",
    "started": "2026-09-28T04:05:00-07:00",
    "word_count": 1387
+  },
+  {
+   "article_number": 991,
+   "critique_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026-critique-r0.md",
+   "critique_score": 8.83,
+   "critique_scores": {
+    "data_presentation": 8.8,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.8,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.8,
+    "social_shareability": 8.7,
+    "voice_coach": 8.9
+   },
+   "draft_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026.html",
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 10.3,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 254.1,
+     "short_pct": 14.9,
+     "long_pct": 37.8,
+     "passed": true
+    }
+   },
+   "headline": "Your Neighbor's Fence Is 14 Inches Over the Line. The Drone Proved It in an Afternoon. The Law Gives It Five Years.",
+   "hero_file": "images/ai-property-line-encroachment-drone-survey-adverse-possession-2026.jpg",
+   "hero_hash": "153994b1",
+   "hero_real_jpeg": true,
+   "journalist": "Catherine Chen",
+   "phase": "SHIP_READY",
+   "primary_sources": 7,
+   "publish_note": "Queued, not shipped: one article already published 2026-09-28 PT (#769, one-per-day rule); queue tail was 2027-05-11. Original contribution is the 21-to-1 survey-vs-dispute asymmetry math ($543 vs ~$11,500 median), the CA tax-payment paradox, and the 5-state adverse possession table. 7 primary sources inline. Gates: 0 em dashes, The-starters 10.3%, 0 banned phrases, rhythm variance 254.1. Round 0, no content revisions (gate repairs pre-scoring).",
+   "research_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026-research.md",
+   "rounds": 0,
+   "ship_after": "2027-05-12",
+   "slug": "ai-property-line-encroachment-drone-survey-adverse-possession-2026",
+   "started": "2026-09-28T16:01:52-07:00",
+   "word_count": 1349
   }
  ],
- "slug": "ai-overhang-depth-sun-angle-shading-math-2026",
- "journalist": "Elena Vasquez",
- "started": "2026-09-28T04:05:00-07:00"
+ "slug": "ai-property-line-encroachment-drone-survey-adverse-possession-2026",
+ "journalist": "Catherine Chen",
+ "started": "2026-09-28T16:01:52-07:00"
 }
