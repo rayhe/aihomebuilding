@@ -10056,29 +10056,109 @@
    "slug": "ai-property-line-encroachment-drone-survey-adverse-possession-2026",
    "started": "2026-09-28T16:01:52-07:00",
    "word_count": 1349
+  },
+  {
+   "article_number": 992,
+   "critique_file": "drafts/ai-3d-printed-home-carbon-myth-2026-critique-r0.md",
+   "critique_score": 8.94,
+   "critique_scores": {
+    "data_presentation": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 8.8,
+    "voice_coach": 9.0
+   },
+   "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 4.5,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 201.9,
+     "short_pct": 9.1,
+     "long_pct": 54.5,
+     "passed": true
+    }
+   },
+   "headline": "Your 3D-Printed 'Green' Home Has the Same Embodied Carbon as a Stick-Frame. The Printer Burned 2,000 kWh to Get There.",
+   "hero_file": "images/ai-3d-printed-home-carbon-myth-2026.jpg",
+   "hero_hash": "f5727005",
+   "hero_real_jpeg": true,
+   "journalist": "Priya Greenwood",
+   "phase": "SHIP_READY",
+   "primary_sources": 7,
+   "publish_note": "Queued, not shipped: one article already published 2026-09-28 PT (#769, one-per-day rule); queue tail was 2027-05-12. Original contribution is the A5-vs-materials audit (0.6 t wall savings vs ~1.2 t printer+batching+diesel construction emissions, same MIT Austin study), the 70x heating-vs-wall lifetime ratio (41.8 t vs 0.6 t, scopes flagged), and the CALGreen housing-exemption critique. 7 primary sources inline (MIT 3DCP whitepaper, Springer 3DPC chapter, Yang et al. 2026 JoBE, Timber Development UK, WBCSD/CLF, AIA California, MDPI Adohi Hall). Gates: 0 em dashes, The-starters ~4.5%, 0 banned phrases, rhythm variance 201.9. One revision round (r1): single-family permit figure precision fix.",
+   "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
+   "rounds": 1,
+   "ship_after": "2027-05-13",
+   "slug": "ai-3d-printed-home-carbon-myth-2026",
+   "started": "2026-09-28T18:04:00-07:00",
+   "word_count": 1628
   }
  ],
  "article_number": 992,
  "slug": "ai-3d-printed-home-carbon-myth-2026",
  "journalist": "Priya Greenwood",
  "started": "2026-09-28T18:04:00-07:00",
- "phase": "CRITIQUE",
+ "phase": "SHIP_READY",
  "current": {
   "slug": "ai-3d-printed-home-carbon-myth-2026",
-  "phase": "CRITIQUE",
+  "phase": "SHIP_READY",
   "journalist": "Priya Greenwood",
   "started": "2026-09-28T18:04:00-07:00"
  },
  "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
  "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
- "critique_round": 0,
- "critique_score": null,
- "critique_scores": null,
- "hard_gates": null,
+ "critique_round": 1,
+ "critique_score": 8.94,
+ "critique_scores": {
+  "data_presentation": 9.0,
+  "ethics_reviewer": 9.0,
+  "general_editor": 8.8,
+  "legal_accuracy": 9.0,
+  "research_rigor": 9.0,
+  "social_shareability": 8.8,
+  "voice_coach": 9.0
+ },
+ "hard_gates": {
+  "em_dash": {
+   "count": 0,
+   "limit": 3,
+   "passed": true
+  },
+  "the_starters": {
+   "pct": 4.5,
+   "limit": 15.0,
+   "passed": true
+  },
+  "banned_phrases": {
+   "count": 0,
+   "passed": true
+  },
+  "sentence_rhythm": {
+   "variance": 201.9,
+   "short_pct": 9.1,
+   "long_pct": 54.5,
+   "passed": true
+  }
+ },
  "hero_file": "images/ai-3d-printed-home-carbon-myth-2026.jpg",
- "hero_hash": null,
- "hero_real_jpeg": null,
+ "hero_hash": "f5727005",
+ "hero_real_jpeg": true,
  "hero_cache_bust": null,
  "draft_hash": "1235cd61",
- "note": "Article #992 draft complete (Priya Greenwood): all hard gates pass (0 em dashes, The-starters 7.5%, rhythm variance 201.9); entering critique round 0"
+ "note": "Queue #992: 3D-printed-home embodied carbon myth \u2014 Priya Greenwood (critique 8.94, round 1); queued 2027-05-13 behind #991"
 }
