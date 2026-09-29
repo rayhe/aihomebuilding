@@ -14,7 +14,7 @@
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_checked": "2026-09-29T06:01:52-07:00",
+  "last_checked": "2026-09-29T08:01:52-07:00",
   "last_published_at": "2026-09-28T02:06:00-07:00",
   "ship_ready": [
     {
@@ -41,7 +41,7 @@
       },
       "headline": "Your Neighbor's Trees Can't Legally Shade More Than 10% of Your Solar Panels. AI Can Now Prove It From a Satellite Photo.",
       "hero_hash": "5c7aac27",
-      "hold_reason": "1/day rule: 2026-09-04 slot held by ai-deconstruction-salvage-inventory-teardown-lumber-2026; queue tail was 2026-09-26",
+      "hold_reason": "Blocked on renumber-vs-drain decision (awaiting Ray). Legacy-markup blocker REMOVED 2026-09-29: draft migrated to current convention, body text byte-identical to critiqued version; hero real JPEG 1920x1280 verified.",
       "id": 769,
       "journalist": "Catherine Chen",
       "phase": "ship_ready",
@@ -49,7 +49,8 @@
       "research_file": "drafts/solar-shade-act-ai-shadow-model-2026-research.md",
       "rounds": 1,
       "ship_after": "2026-09-27",
-      "slug": "solar-shade-act-ai-shadow-model-2026"
+      "slug": "solar-shade-act-ai-shadow-model-2026",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29"
     },
     {
       "completed": "2026-09-04",
@@ -85,7 +86,9 @@
       "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
       "rounds": 0,
       "ship_after": "2026-09-28",
-      "slug": "ai-concrete-carbon-mix-optimization-2026"
+      "slug": "ai-concrete-carbon-mix-optimization-2026",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
+      "hold_reason": "Blocked on renumber-vs-drain decision (awaiting Ray). Legacy-markup blocker REMOVED 2026-09-29: draft migrated to current convention, body text byte-identical to critiqued version; hero real JPEG 1920x1280 verified."
     },
     {
       "completed": "2026-09-04",
@@ -121,7 +124,9 @@
       "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
       "rounds": 1,
       "ship_after": "2026-09-29",
-      "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026"
+      "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
+      "hold_reason": "Blocked on renumber-vs-drain decision (awaiting Ray). Legacy-markup blocker REMOVED 2026-09-29: draft migrated to current convention, body text byte-identical to critiqued version; hero real JPEG 1920x1280 verified."
     },
     {
       "completed": "2026-09-04",
@@ -10160,5 +10165,5 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-09-29 06:01 PDT: HOLD continues - 0 publishes today PT (1/day allows one), no publish action. CORRECTION to 04:02 note: solar-shade head is NOT hero-less - images/solar-shade-act-ai-shadow-model-2026.jpg exists (Sep 4), real JPEG 1920x1280; all three past-due/due heads (solar-shade 09-27, concrete-carbon 09-28, delivery-dispatch 09-29) have valid heroes and draft HTMLs in drafts/. NEW publish-blocker: all three head drafts use RETIRED legacy markup (story-page/story-body/story.css fragments); current site convention is article-hero/article-container/article-body + bootstrap.min.css (192/341 stories, incl. #769). Shipping heads as-is would regress the markup standard - needs markup migration before drain. Queue-id facts re-verified: exactly ONE true 'Publish #769' commit (727630b); reserved 753/754/755 stale (Nov 2026 entries at/below live counter 769); duplicate reserved 787 (two Oct 2026 entries). Live QA OK: homepage 200, #769 story linked; story page 308->200 canonical. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94, hard gates pass) stays SHIP_READY, ship_after 2027-05-13. Renumber-vs-drain still awaiting Ray's call."
+  "note": "Run 2026-09-29 08:01 PDT: legacy-markup publish blocker REMOVED. The three past-due/due heads (solar-shade 09-27, concrete-carbon 09-28, delivery-dispatch 09-29) were migrated from retired story-page/story-body/story.css markup to the current convention (article-hero hero block, article-container wrapper, article-body content, bootstrap.min.css + print.css, canonical + JSON-LD + og/twitter tags, dark-mode script). Body text verified byte-identical to critiqued versions via text-extraction diff. Hard gates re-verified: em-dashes 0/0/0, banned phrases 0, The-starters 8.0%/14.3%/10.1% (all <15%), rhythm variance 206.8/205.2 pass, dispatch 180.1 noted as voice-coach-passed at critique (Frank's measured cadence, variance 173.7 then). Heroes all real JPEG 1920x1280. 0 publishes today PT (1/day allows one); no publish action taken - renumber-vs-drain still awaiting Ray's call. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94) stays SHIP_READY, ship_after 2027-05-13."
 }
