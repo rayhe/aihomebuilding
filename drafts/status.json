@@ -1,46 +1,4 @@
 {
- "article_number": 991,
- "critique_round": 0,
- "critique_score": 8.83,
- "critique_scores": {
-  "data_presentation": 8.8,
-  "ethics_reviewer": 9.0,
-  "general_editor": 8.8,
-  "legal_accuracy": 8.8,
-  "research_rigor": 8.8,
-  "social_shareability": 8.7,
-  "voice_coach": 8.9
- },
- "current": null,
- "draft_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026.html",
- "draft_hash": null,
- "hard_gates": {
-  "em_dash": {
-   "count": 0,
-   "limit": 3,
-   "passed": true
-  },
-  "the_starters": {
-   "pct": 10.3,
-   "limit": 15.0,
-   "passed": true
-  },
-  "banned_phrases": {
-   "count": 0,
-   "passed": true
-  },
-  "sentence_rhythm": {
-   "variance": 254.1,
-   "short_pct": 14.9,
-   "long_pct": 37.8,
-   "passed": true
-  }
- },
- "hero_cache_bust": "153994b1",
- "hero_file": "images/ai-property-line-encroachment-drone-survey-adverse-possession-2026.jpg",
- "hero_hash": "153994b1",
- "hero_real_jpeg": true,
- "last_checked": "2026-09-28T02:30:00-07:00",
  "last_completed": {
   "article_number": 769,
   "at": "2026-09-28T02:06:00-07:00",
@@ -56,10 +14,8 @@
   },
   "slug": "zone-zero-five-feet-ai-inspection-2026"
  },
+ "last_checked": "2026-09-28T02:30:00-07:00",
  "last_published_at": "2026-09-28T02:06:00-07:00",
- "note": "Queue #991: property-line encroachment + drone surveys + adverse possession \u2014 Catherine Chen (critique 8.83, round 0); queued 2027-05-12 behind #990",
- "phase": "SHIP_READY",
- "research_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026-research.md",
  "ship_ready": [
   {
    "completed": "2026-09-04",
@@ -10102,7 +10058,27 @@
    "word_count": 1349
   }
  ],
- "slug": "ai-property-line-encroachment-drone-survey-adverse-possession-2026",
- "journalist": "Catherine Chen",
- "started": "2026-09-28T16:01:52-07:00"
+ "article_number": 992,
+ "slug": "ai-3d-printed-home-carbon-myth-2026",
+ "journalist": "Priya Greenwood",
+ "started": "2026-09-28T18:04:00-07:00",
+ "phase": "DRAFT",
+ "current": {
+  "slug": "ai-3d-printed-home-carbon-myth-2026",
+  "phase": "DRAFT",
+  "journalist": "Priya Greenwood",
+  "started": "2026-09-28T18:04:00-07:00"
+ },
+ "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
+ "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
+ "critique_round": 0,
+ "critique_score": null,
+ "critique_scores": null,
+ "hard_gates": null,
+ "hero_file": "images/ai-3d-printed-home-carbon-myth-2026.jpg",
+ "hero_hash": null,
+ "hero_real_jpeg": null,
+ "hero_cache_bust": null,
+ "draft_hash": null,
+ "note": "Article #992: 3D-printed-home embodied carbon myth \u2014 Priya Greenwood; MIT Austin 93.8 vs 94.4 t audit, 70x heating-vs-wall rule, CALGreen housing exemption; research complete, drafting next"
 }
