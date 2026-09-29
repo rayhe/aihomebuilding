@@ -14,7 +14,7 @@
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_checked": "2026-09-29T10:01:52-07:00",
+  "last_checked": "2026-09-29T12:01:52-07:00",
   "last_published_at": "2026-09-28T02:06:00-07:00",
   "ship_ready": [
     {
@@ -10165,5 +10165,5 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-09-29 10:01 PDT: 0 publishes today PT (1/day allows one); no publish action taken - renumber-vs-drain still awaiting Ray's call. Queue heads (ids 769/770/771, ship_after 09-27/09-28/09-29) stay blocked on that decision. Live QA OK: index 200 with 770-article count, latest story extensionless canonical 200 (zone-zero-five-feet-ai-inspection-2026, index card present), sitemap 200 URLs valid. Data-quality flag: article_number 787 claimed twice in queue (ai-manual-j-oversized-ac-20-minute-load-calc-2026 ship_after 10-11; virtual-draw-inspection-borrower-phone-lender-2026 ship_after 10-20) - left for the eventual renumber, not hand-corrected. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94) stays SHIP_READY, ship_after 2027-05-13. Queue depth 212."
+  "note": "Run 2026-09-29 12:01 PDT: 0 publishes today PT (1/day allows one); no publish action taken - renumber-vs-drain still awaiting Ray's call. Queue heads (ids None/None/None ship_after 09-27/09-28/09-29, article_number not yet assigned on heads) stay blocked on that decision. Live QA OK: index 200 on canonical redirect (latest story card present), latest story extensionless canonical 200, sitemap 200. Data-quality flag: article_number 787 claimed twice in queue (ai-manual-j-oversized-ac-20-minute-load-calc-2026 ship_after 10-11; virtual-draw-inspection-borrower-phone-lender-2026 ship_after 10-20) - left for the eventual renumber, not hand-corrected. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94) stays SHIP_READY, ship_after 2027-05-13. Queue depth 212."
 }
