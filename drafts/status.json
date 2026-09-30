@@ -14,7 +14,7 @@
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_checked": "2026-09-30T04:02:28.216748-07:00",
+  "last_checked": "2026-09-30T08:02:53.215162-07:00",
   "last_published_at": "2026-09-28T02:06:00-07:00",
   "ship_ready": [
     {
@@ -10166,5 +10166,5 @@
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
   "note": "Run 2026-09-29 20:01 PDT: 0 publishes today PT (1/day allows one); no publish action taken - renumber-vs-drain still awaiting Ray's call. Queue heads (ship_after 09-27..09-29, 5 due incl. heads) stay blocked on that decision. Draft gates re-verified on #992 draft (ai-3d-printed-home-carbon-myth-2026): files present, 0 em dashes, 0 banned phrases, The-starters ~14.9% (<15%), hero real JPEG 1920x1280. Data-quality flags unchanged: 787 double-claimed; 769 double-claimed - left for eventual renumber. #992 (Priya Greenwood, 8.94) stays SHIP_READY, ship_after 2027-05-13. Queue depth 212.",
-  "last_note": "Run 2026-09-30 06:01 PDT: no publish (renumber-vs-drain still awaiting Spencer's call). 0 publishes today PT; 1/day would allow one, but queue resequencing now starts at ship_after 2026-10-01 (no heads due 09-30; 84 SHIP rows, next head 10-01). Draft gates re-verified on #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94): files present, 1 em dash (<3), 0 banned phrases, The-starters 11/74=14.9% (<15%), hero real JPEG 1920x1280. #992 stays SHIP_READY, ship_after 2027-05-13. Queue depth 212."
+  "last_note": "Run 2026-09-30 08:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call). 0 publishes today PT; 1/day would allow one, but the 4 queue heads (ship_after 09-27..09-30) stay blocked on that decision (3 carry explicit hold_reason; the 09-30 head is next in the same queue). Correction to 06:01 run note: heads ARE due <=09-30, resequencing to start 10-01 was not reflected in ship_ready. Draft gates re-verified on #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood, 8.94): files present, 0 em dashes, 0 banned phrases, The-starters 11/74=14.9% (<15%), hero real JPEG 1920x1280. #992 stays SHIP_READY, ship_after 2027-05-13. Queue depth 212. Data-quality flags unchanged: 787 double-claimed; 769 double-claimed - left for eventual renumber."
 }
