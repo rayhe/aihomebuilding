@@ -14,7 +14,7 @@
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_checked": "2026-10-01T06:01:52-07:00",
+  "last_checked": "2026-10-01T08:03:49.698893-07:00",
   "last_published_at": "2026-09-28T02:06:00-07:00",
   "ship_ready": [
     {
@@ -195,7 +195,8 @@
       "research_file": "drafts/ai-simulator-rookie-crew-hiring-screening-2026-research.md",
       "rounds": 1,
       "ship_after": "2026-10-01",
-      "slug": "ai-simulator-rookie-crew-hiring-screening-2026"
+      "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
+      "note": " | 2026-10-01 08:01 PDT: migrated legacy story-page/story.css markup to current article-hero/article-container/article-body + bootstrap convention (canonical/og JSON-LD /stories/<slug>.html form, hero cache-bust v=955cbaed preserved). Gates re-verified post-migration: 0 em dashes, 0 banned phrases, The-starters 3.4%, hero real JPEG. Legacy-markup blocker REMOVED for this head; still blocked on renumber-vs-drain decision."
     },
     {
       "article_number": 774,
@@ -10165,6 +10166,6 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-10-01 06:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call; no new decision in memory since the 2026-10-01 04:01 run). 0 publishes today PT; 1/day would allow one, but the 5 unnumbered queue heads (ship_after 09-27..10-01, incl. today-due ai-simulator-rookie-crew-hiring-screening-2026) stay blocked on that decision (plus head drafts need legacy->article-hero markup migration before any drain publish). #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13. Draft gates re-verified on #992: file unchanged since 04:01 verification, 0 em dashes (<=3), 0 banned phrases, The-starters 11 (14.9% per 04:01 sentence-split; crude recount 11/73=15.1% on unchanged file = splitting artifact), hero real JPEG 1920x1280, current article-hero markup (no legacy story-page). Queue depth 212. Data-quality flags unchanged: 787 double-claimed (only dup remaining in queue); 769 single-claimed in queue.",
-  "last_note": "Run 2026-10-01 06:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call; no new decision in memory since the 2026-10-01 04:01 run). 0 publishes today PT; 1/day would allow one, but the 5 unnumbered queue heads (ship_after 09-27..10-01, incl. today-due ai-simulator-rookie-crew-hiring-screening-2026) stay blocked on that decision (plus head drafts need legacy->article-hero markup migration before any drain publish). #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13. Draft gates re-verified on #992: file unchanged since 04:01 verification, 0 em dashes (<=3), 0 banned phrases, The-starters 11 (14.9% per 04:01 sentence-split; crude recount 11/73=15.1% on unchanged file = splitting artifact), hero real JPEG 1920x1280, current article-hero markup (no legacy story-page). Queue depth 212. Data-quality flags unchanged: 787 double-claimed (only dup remaining in queue); 769 single-claimed in queue."
+  "note": "Run 2026-10-01 08:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call; memory shows no new decision since 2026-09-30). 0 publishes today PT; 1/day would allow one, but the 6 unnumbered queue heads (ship_after 09-27..10-01, incl. today-due ai-simulator-rookie-crew-hiring-screening-2026) stay blocked on that decision. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13: worktree clean vs HEAD, gates re-verified (0 em dashes, 0 banned, current markup, hero real JPEG 1920x1280). Migrated the today-due SHIP head ai-simulator-rookie-crew-hiring-screening-2026 from retired legacy markup to the current article-hero convention; post-migration gates pass (0 em dashes, 0 banned, The-starters 3.4%). Queue depth 212. Data-quality flags unchanged.",
+  "last_note": "Run 2026-10-01 08:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call; memory shows no new decision since 2026-09-30). 0 publishes today PT; 1/day would allow one, but the 6 unnumbered queue heads (ship_after 09-27..10-01, incl. today-due ai-simulator-rookie-crew-hiring-screening-2026) stay blocked on that decision. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13: worktree clean vs HEAD, gates re-verified (0 em dashes, 0 banned, current markup, hero real JPEG 1920x1280). Migrated the today-due SHIP head ai-simulator-rookie-crew-hiring-screening-2026 from retired legacy markup to the current article-hero convention; post-migration gates pass (0 em dashes, 0 banned, The-starters 3.4%). Queue depth 212. Data-quality flags unchanged."
 }
