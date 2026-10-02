@@ -14,7 +14,7 @@
     },
     "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_checked": "2026-10-02T06:05:57.762950-07:00",
+  "last_checked": "2026-10-02T08:07:00-07:00",
   "last_published_at": "2026-10-02T00:21:00-07:00",
   "ship_ready": [
     {
@@ -260,7 +260,8 @@
       "rounds": 0,
       "ship_after": "2026-10-04",
       "slug": "cool-roof-crrc-directory-climate-payback-2026",
-      "started": "2026-09-04T16:01:52-07:00"
+      "started": "2026-09-04T16:01:52-07:00",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-10-02"
     },
     {
       "article_number": 777,
@@ -10095,5 +10096,5 @@
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
   "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
-  "last_note": "Run 2026-10-02 06:05 PDT: 1/day already met (#774 published 00:04 + QA PASS). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca 'Your House Just Got a CarFax'. #775 pre-migrated to new markup (transplanted #774 inline style block, story-page/story-body->article-container/article-body, removed story.css; gates: 0 em dashes, 0 banned, The-starters 6.4%, hero real JPEG 1920x1280). Legacy markup scan: ~119 queued drafts still carry story.css/story-page/story-body; established repair = migrate at SHIP time (as #774's publish did). Phase hygiene: 5 lowercase ship_ready (#771/772/773/779/786) -> SHIP_READY; #950 phase None -> SHIP. Watch: #771/#772/#773/#779/#786 are research-only (renumbered Oct 1) and need DRAFT+CRITIQUE before their ship_after dates (2026-10-25/11-26/11-27/12-04/12-05). Queue 210, numbers unique."
+  "last_note": "Run 2026-10-02 08:07 PDT: 1/day already met (#774 published 00:04 + QA PASS). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca (pre-migrated 06:05 run, new markup verified). Pre-migrated #776 (cool-roof CRRC directory, ships 2026-10-04) to new markup: transplanted #775 inline style block, dropped story.css, story-page->article-container, story-body->article-body; gates 0 em dashes, 0 banned, The-starters 7.7%, hero real JPEG 1920x1280. Corrected 06:05-run misdiagnosis: #771/#772/#773/#779/#786 are NOT research-only; all have full drafts (16-19KB), heroes, critique scores. #779/#786 markup=None (legacy) - established repair at SHIP time. #785 anomaly resolved earlier today (ship_after 2027-05-14 assigned). Queue 210, numbers unique."
 }
