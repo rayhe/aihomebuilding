@@ -14,7 +14,7 @@
     },
     "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_checked": "2026-10-02T04:02:44.184683-07:00",
+  "last_checked": "2026-10-02T06:05:57.762950-07:00",
   "last_published_at": "2026-10-02T00:21:00-07:00",
   "ship_ready": [
     {
@@ -44,7 +44,7 @@
       "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "id": 769,
       "journalist": "Catherine Chen",
-      "phase": "ship_ready",
+      "phase": "SHIP_READY",
       "primary_sources": 6,
       "research_file": "drafts/solar-shade-act-ai-shadow-model-2026-research.md",
       "rounds": 1,
@@ -82,7 +82,7 @@
       "hero_real_jpeg": true,
       "id": 770,
       "journalist": "Priya Greenwood",
-      "phase": "ship_ready",
+      "phase": "SHIP_READY",
       "primary_sources": 9,
       "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
       "rounds": 0,
@@ -121,7 +121,7 @@
       "hero_real_jpeg": true,
       "id": 771,
       "journalist": "Frank DeLuca",
-      "phase": "ship_ready",
+      "phase": "SHIP_READY",
       "primary_sources": 6,
       "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
       "rounds": 1,
@@ -157,7 +157,7 @@
       "hero_hash": "df4742f3",
       "id": 772,
       "journalist": "Marcus Washington",
-      "phase": "ship_ready",
+      "phase": "SHIP_READY",
       "primary_sources": 7,
       "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
       "rounds": 0,
@@ -638,7 +638,7 @@
       "started": "2026-09-05T12:01:52-07:00",
       "article_number": 786,
       "ship_after": "2026-12-05",
-      "phase": "ship_ready"
+      "phase": "SHIP_READY"
     },
     {
       "article_number": 785,
@@ -1065,7 +1065,7 @@
           "pct": 1.1
         }
       },
-      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "hero_hash": "7410ac40",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-17), publish per 1/day cadence.",
       "journalist": "Elena Vasquez",
@@ -4579,7 +4579,7 @@
       "journalist": "Catherine Chen",
       "phase": "SHIP_READY",
       "primary_sources": 6,
-      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey \u2192 $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200\u2013$2,000 survey + $0 FEMA fee + ~60 days \u2192 kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance \u2265200. Real JPEG hero verified (ffd8 magic).",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey → $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200–$2,000 survey + $0 FEMA fee + ~60 days → kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance ≥200. Real JPEG hero verified (ffd8 magic).",
       "research_file": "drafts/ai-flood-model-vs-fema-map-homebuyer-insurance-2026-research.md",
       "rounds": 0,
       "ship_after": "2027-01-18",
@@ -5203,7 +5203,7 @@
       "hero_hash": "3abdb903",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04",
       "journalist": "Catherine Chen",
-      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes \u2014 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
+      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes — 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/ai-construction-noise-ordinance-decibel-sensors-2026-research.md",
@@ -5936,7 +5936,7 @@
           "pct": 13.2
         }
       },
-      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54\u00b0F Hotter Than the White House Next Door.",
+      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54°F Hotter Than the White House Next Door.",
       "hero_hash": "38993f7e",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #909 queued for 2026-09-20 through 2027-02-19; #910 queued for 2027-02-20",
       "journalist": "Elena Vasquez",
@@ -6368,7 +6368,7 @@
           "pct": 13.9
         }
       },
-      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back \u2014 Within 24 Hours.",
+      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back — Within 24 Hours.",
       "hero_hash": "a0d51b1e",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #918 queued for 2026-09-21 through 2027-02-28; #919 queued for 2027-03-01",
       "journalist": "Catherine Chen",
@@ -6750,7 +6750,7 @@
           "pct": 10.6
         }
       },
-      "headline": "Your Insulation Was Tested at 75\u00b0F. Your Attic Hits 140\u00b0F.",
+      "headline": "Your Insulation Was Tested at 75°F. Your Attic Hits 140°F.",
       "hero_hash": "219256f1",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-08), next open slot 2027-03-09.",
       "journalist": "Priya Greenwood",
@@ -7929,7 +7929,8 @@
       "journalist": "Catherine Chen",
       "primary_sources": 8,
       "ship_after": "2027-04-01",
-      "slug": "ai-hurricane-strap-photo-audit-wind-mitigation-2026"
+      "slug": "ai-hurricane-strap-photo-audit-wind-mitigation-2026",
+      "phase": "SHIP"
     },
     {
       "article_number": 951,
@@ -10094,5 +10095,5 @@
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
   "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
-  "last_note": "Run 2026-10-02 04:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13. #785 floating-since-Sep-5 anomaly resolved: assigned ship_after 2027-05-14 (next free day after latest 2027-05-13), phase=SHIP_READY, file keys restored. Queue 210, numbers unique."
+  "last_note": "Run 2026-10-02 06:05 PDT: 1/day already met (#774 published 00:04 + QA PASS). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca 'Your House Just Got a CarFax'. #775 pre-migrated to new markup (transplanted #774 inline style block, story-page/story-body->article-container/article-body, removed story.css; gates: 0 em dashes, 0 banned, The-starters 6.4%, hero real JPEG 1920x1280). Legacy markup scan: ~119 queued drafts still carry story.css/story-page/story-body; established repair = migrate at SHIP time (as #774's publish did). Phase hygiene: 5 lowercase ship_ready (#771/772/773/779/786) -> SHIP_READY; #950 phase None -> SHIP. Watch: #771/#772/#773/#779/#786 are research-only (renumbered Oct 1) and need DRAFT+CRITIQUE before their ship_after dates (2026-10-25/11-26/11-27/12-04/12-05). Queue 210, numbers unique."
 }
