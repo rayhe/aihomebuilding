@@ -14,7 +14,7 @@
     },
     "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_checked": "2026-10-02T10:04:28.608186-07:00",
+  "last_checked": "2026-10-02T12:02:16.778981-07:00",
   "last_published_at": "2026-10-02T00:21:00-07:00",
   "ship_ready": [
     {
@@ -10096,5 +10096,5 @@
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
   "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
-  "last_note": "Run 2026-10-02 10:02 PDT: 1/day already met (#774 published 00:04 + QA PASS 00:10; only 1 true publish today, second grep hit is the QA commit). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca (pre-migrated, new markup verified). Pre-migrated #777 (stucco thermal drone, ships 10-05) and #778 (CivCheck permit prescreen, ships 10-06) to new markup: transplanted #775 inline style block for story.css, story-page->article-container, story-body->article-body; gates #777: 0 em dashes, 0 banned, The-starters 5.4%, hero real JPEG 1920x1280; #778: 0 em dashes, 0 banned, The-starters 12.7%, hero real JPEG 1920x1280. #780/#781 already new markup. #782/#783/#784 legacy variants (older story-header/hero templates, not article-hero) left for SHIP-time repair per #779/#786 precedent. ANOMALY: #782 and #783 both carry ship_after 2026-10-09 (only duplicate date in queue); 1/day rule self-heals by article-number order, no cascade re-slot needed. Queue 210, numbers unique."
+  "last_note": "Run 2026-10-02 12:02 PDT: 1/day already met (#774 published 00:04 + QA PASS 00:10; second grep hit is the QA commit, only 1 true publish). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca (pre-migrated, new markup verified per 10:02 run). #992 (Priya Greenwood, ai-3d-printed-home-carbon-myth) remains SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. No phase work this run."
 }
