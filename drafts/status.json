@@ -14,7 +14,7 @@
     },
     "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_checked": "2026-10-02T02:02:43.213848-07:00",
+  "last_checked": "2026-10-02T04:02:44.184683-07:00",
   "last_published_at": "2026-10-02T00:21:00-07:00",
   "ship_ready": [
     {
@@ -677,13 +677,18 @@
       },
       "headline": "Your Roofers Measured 24, 26, and 28 Squares. The Satellite Photo Cost $18.",
       "hero_hash": "df7e913d",
-      "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind existing ship_ready queue",
+      "hold_reason": "1/day rule: floating since 2026-09-05 (no ship_after); assigned next free slot 2027-05-14 on 2026-10-02",
       "journalist": "Marcus Washington",
       "primary_sources": 6,
       "research_file": "drafts/ai-roof-measurement-bid-referee-2026-research.md",
       "rounds": 2,
       "slug": "ai-roof-measurement-bid-referee-2026",
-      "started": "2026-09-05T14:05:00-07:00"
+      "started": "2026-09-05T14:05:00-07:00",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-05-14",
+      "draft_file": "drafts/ai-roof-measurement-bid-referee-2026.html",
+      "hero_file": "images/ai-roof-measurement-bid-referee-2026.jpg",
+      "note": " [2026-10-02: ship_after assigned 2027-05-14; phase set SHIP_READY; draft_file/hero_file keys restored]"
     },
     {
       "article_number": 787,
@@ -10089,5 +10094,5 @@
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
   "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
-  "last_note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision."
+  "last_note": "Run 2026-10-02 04:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13. #785 floating-since-Sep-5 anomaly resolved: assigned ship_after 2027-05-14 (next free day after latest 2027-05-13), phase=SHIP_READY, file keys restored. Queue 210, numbers unique."
 }
