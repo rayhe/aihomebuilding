@@ -1,21 +1,13 @@
 {
   "last_completed": {
-    "article_number": 770,
-    "at": "2026-10-01T22:05:42-07:00",
+    "article_number": 774,
+    "at": "2026-10-02T00:21:00-07:00",
     "phase": "PUBLISHED",
-    "qa": {
-      "at": "2026-10-01T22:10:28-07:00",
-      "story": 200,
-      "hero": 200,
-      "og_tags": true,
-      "index_card": true,
-      "sitemap": "valid",
-      "note": "story 200 on extensionless-canonical redirect chain; hero real JPEG 200; index card + 771-article count live; sitemap valid with new URL."
-    },
-    "slug": "ai-simulator-rookie-crew-hiring-screening-2026"
+    "qa": null,
+    "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_checked": "2026-10-01T22:10:28-07:00",
-  "last_published_at": "2026-10-01T22:05:42-07:00",
+  "last_checked": "2026-10-02T00:21:00-07:00",
+  "last_published_at": "2026-10-02T00:21:00-07:00",
   "ship_ready": [
     {
       "completed": "2026-09-04",
@@ -165,54 +157,6 @@
       "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026",
       "article_number": 779,
       "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head)."
-    },
-    {
-      "article_number": 774,
-      "completed": "2026-09-04T12:45:00-07:00",
-      "critique_score": 8.9,
-      "critique_scores": {
-        "data_presentation": 8.9,
-        "ethics_reviewer": 9.0,
-        "general_editor": 8.8,
-        "legal_accuracy": 8.9,
-        "research_rigor": 9.0,
-        "social_shareability": 8.8,
-        "voice_coach": 8.9
-      },
-      "hard_gates": {
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
-        "em_dash": {
-          "count": 0,
-          "limit": 3,
-          "passed": true
-        },
-        "sentence_rhythm": {
-          "long_pct": 60.3,
-          "passed": true,
-          "short_pct": 11.1,
-          "variance": 203.9
-        },
-        "the_starters": {
-          "limit": 15.0,
-          "passed": true,
-          "pct": 10.4
-        }
-      },
-      "headline": "Your Framer’s Herniated Disc Costs $143,000. The Suit That Prevents Them Costs $1,200.",
-      "hero_hash": "7118cf97",
-      "hold_reason": "1/day rule: #746 published 2026-09-04; #747 through #773 queued for 2026-09-05 through 2026-10-01",
-      "id": 774,
-      "journalist": "Jake Kowalski",
-      "phase": "SHIP",
-      "primary_sources": 7,
-      "research_file": "drafts/ai-exoskeleton-framing-crew-back-injury-2026-research.md",
-      "rounds": 0,
-      "ship_after": "2026-10-02",
-      "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
-      "started": "2026-09-04T12:20:00-07:00"
     },
     {
       "article_number": 775,
@@ -10085,9 +10029,9 @@
       "word_count": 1628
     }
   ],
-  "article_number": 992,
-  "slug": "ai-3d-printed-home-carbon-myth-2026",
-  "journalist": "Priya Greenwood",
+  "article_number": 774,
+  "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
+  "journalist": "Jake Kowalski",
   "started": "2026-09-28T18:04:00-07:00",
   "phase": "SHIP_READY",
   "current": {
@@ -10136,6 +10080,6 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-10-01 22:01 PDT: QA PASS for #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) - story 200 on canonical redirect, hero real JPEG 200, og tags, index card + 771 count live, sitemap valid. 1/day met. #992 stays SHIP_READY (ship_after 2027-05-13). Queue 211, all numbered unique.",
-  "last_note": "Run 2026-10-01 22:01 PDT: QA PASS for #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) - story 200 on canonical redirect, hero real JPEG 200, og tags, index card + 771 count live, sitemap valid. 1/day met. #992 stays SHIP_READY (ship_after 2027-05-13). Queue 211, all numbered unique."
+  "note": "Run 2026-10-02 00:2x PDT: PUBLISHED #774 (ai-exoskeleton-framing-crew-back-injury-2026, Jake Kowalski) - migrated legacy story-page/story.css markup to current article-hero/article-container/article-body + bootstrap convention; gates re-verified post-migration: 0 em dashes, 0 banned phrases, The-starters 10.7%%, hero real JPEG 1920x1280. 1/day met for 2026-10-02 PT. Queue: 210 remaining, all numbered, no duplicates.",
+  "last_note": "Run 2026-10-02 00:2x PDT: PUBLISHED #774 (ai-exoskeleton-framing-crew-back-injury-2026, Jake Kowalski) - migrated legacy story-page/story.css markup to current article-hero/article-container/article-body + bootstrap convention; gates re-verified post-migration: 0 em dashes, 0 banned phrases, The-starters 10.7%%, hero real JPEG 1920x1280. 1/day met for 2026-10-02 PT. Queue: 210 remaining, all numbered, no duplicates."
 }
