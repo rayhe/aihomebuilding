@@ -14,8 +14,8 @@
     },
     "slug": "zone-zero-five-feet-ai-inspection-2026"
   },
-  "last_checked": "2026-10-01T20:01:52-07:00",
-  "last_published_at": "2026-09-28T02:06:00-07:00",
+  "last_checked": "2026-10-01T22:05:42-07:00",
+  "last_published_at": "2026-10-01T22:05:42-07:00",
   "ship_ready": [
     {
       "completed": "2026-09-04",
@@ -164,45 +164,6 @@
       "ship_after": "2026-12-04",
       "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026",
       "article_number": 779,
-      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head)."
-    },
-    {
-      "completed": null,
-      "critics": {
-        "data_presentation": 8.9,
-        "ethics_reviewer": 9.0,
-        "general_editor": 8.8,
-        "legal_accuracy": 8.8,
-        "research_rigor": 9.0,
-        "social_shareability": 8.9,
-        "voice_coach": 8.7
-      },
-      "hard_gates": {
-        "banned_phrases": 0,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 50.6,
-          "passed": true,
-          "short_pct": 10.3,
-          "variance": 207.4
-        },
-        "the_starters_pct": 3.4
-      },
-      "headline": "A Third of the Crew Building Your House Has Been There Less Than a Year. The Simulator Grades Them in 20 Minutes.",
-      "hero_file": "images/ai-simulator-rookie-crew-hiring-screening-2026.jpg",
-      "hero_hash": "955cbaed",
-      "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
-      "hero_real_jpeg": true,
-      "id": 773,
-      "journalist": "Marcus Washington",
-      "phase": "SHIP",
-      "primary_sources": 7,
-      "research_file": "drafts/ai-simulator-rookie-crew-hiring-screening-2026-research.md",
-      "rounds": 1,
-      "ship_after": "2026-10-01",
-      "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
-      "note": " | 2026-10-01 08:01 PDT: migrated legacy story-page/story.css markup to current article-hero/article-container/article-body + bootstrap convention (canonical/og JSON-LD /stories/<slug>.html form, hero cache-bust v=955cbaed preserved). Gates re-verified post-migration: 0 em dashes, 0 banned phrases, The-starters 3.4%, hero real JPEG. Legacy-markup blocker REMOVED for this head; still blocked on renumber-vs-drain decision.",
-      "article_number": 770,
       "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head)."
     },
     {
@@ -10124,8 +10085,8 @@
       "word_count": 1628
     }
   ],
-  "article_number": 992,
-  "slug": "ai-3d-printed-home-carbon-myth-2026",
+  "article_number": 770,
+  "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
   "journalist": "Priya Greenwood",
   "started": "2026-09-28T18:04:00-07:00",
   "phase": "SHIP_READY",
@@ -10175,6 +10136,6 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-10-01 16:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call; renumber proposal prepared 12:07 PDT at hidden_files/renumber-proposal-2026-10-01.md, no response recorded). 0 publishes today PT; 1/day would allow one, but the 5 due unnumbered queue heads (ship_after 09-27..10-01, incl. today-due ai-simulator-rookie-crew-hiring-screening-2026) stay blocked on that decision. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13: worktree clean vs HEAD, gates re-verified (0 em dashes, 0 banned, The-starters 11/158=7.0%, current article-hero markup, no legacy story-page classes, hero real JPEG ff-d8). Queue depth 212; 15 unnumbered heads; 7 due (5 unnumbered-due + 2 undated). Data-quality flags unchanged: 787 still double-claimed (only dup in queue).",
-  "last_note": "Run 2026-10-01 20:01 PDT: no publish (renumber-vs-drain still awaiting Ray's call; renumber proposal prepared 12:07 PDT at hidden_files/renumber-proposal-2026-10-01.md, no response recorded). 0 publishes today PT; 1/day would allow one, but the 6 unnumbered queue heads (ship_after 09-27..10-01, incl. today-due ai-simulator-rookie-crew-hiring-screening-2026) stay blocked on that decision. #992 (ai-3d-printed-home-carbon-myth-2026, Priya Greenwood) stays SHIP_READY, ship_after 2027-05-13: gates re-verified (0 em dashes, 0 banned, The-starters 11/74=14.9%, no legacy markup). Queue depth 212. Data-quality flags unchanged: 787 still double-claimed (only dup in queue)."
+  "note": "Run 2026-10-01 22:01 PDT: PUBLISHED #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) per Ray's renumber approval. Renumber commit 578a906 + 9 number-key normalizations (805-811, 922, 923) committed; queue now 211, all numbered unique. 1/day met for 2026-10-01 PT.",
+  "last_note": "Run 2026-10-01 22:01 PDT: PUBLISHED #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) per Ray's renumber approval. Renumber commit 578a906 + 9 number-key normalizations (805-811, 922, 923) committed; queue now 211, all numbered unique. 1/day met for 2026-10-01 PT."
 }
