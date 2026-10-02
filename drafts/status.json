@@ -41,16 +41,17 @@
       },
       "headline": "Your Neighbor's Trees Can't Legally Shade More Than 10% of Your Solar Panels. AI Can Now Prove It From a Satellite Photo.",
       "hero_hash": "5c7aac27",
-      "hold_reason": "Blocked on renumber-vs-drain decision (awaiting Ray). Legacy-markup blocker REMOVED 2026-09-29: draft migrated to current convention, body text byte-identical to critiqued version; hero real JPEG 1920x1280 verified.",
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "id": 769,
       "journalist": "Catherine Chen",
       "phase": "ship_ready",
       "primary_sources": 6,
       "research_file": "drafts/solar-shade-act-ai-shadow-model-2026-research.md",
       "rounds": 1,
-      "ship_after": "2026-09-27",
+      "ship_after": "2026-10-25",
       "slug": "solar-shade-act-ai-shadow-model-2026",
-      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29"
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
+      "article_number": 771
     },
     {
       "completed": "2026-09-04",
@@ -85,10 +86,11 @@
       "primary_sources": 9,
       "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
       "rounds": 0,
-      "ship_after": "2026-09-28",
+      "ship_after": "2026-11-26",
       "slug": "ai-concrete-carbon-mix-optimization-2026",
       "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
-      "hold_reason": "Blocked on renumber-vs-drain decision (awaiting Ray). Legacy-markup blocker REMOVED 2026-09-29: draft migrated to current convention, body text byte-identical to critiqued version; hero real JPEG 1920x1280 verified."
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
+      "article_number": 772
     },
     {
       "completed": "2026-09-04",
@@ -123,10 +125,11 @@
       "primary_sources": 6,
       "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
       "rounds": 1,
-      "ship_after": "2026-09-29",
+      "ship_after": "2026-11-27",
       "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026",
       "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
-      "hold_reason": "Blocked on renumber-vs-drain decision (awaiting Ray). Legacy-markup blocker REMOVED 2026-09-29: draft migrated to current convention, body text byte-identical to critiqued version; hero real JPEG 1920x1280 verified."
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
+      "article_number": 773
     },
     {
       "completed": "2026-09-04",
@@ -158,8 +161,10 @@
       "primary_sources": 7,
       "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
       "rounds": 0,
-      "ship_after": "2026-09-30",
-      "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026"
+      "ship_after": "2026-12-04",
+      "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026",
+      "article_number": 779,
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head)."
     },
     {
       "completed": null,
@@ -196,7 +201,9 @@
       "rounds": 1,
       "ship_after": "2026-10-01",
       "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
-      "note": " | 2026-10-01 08:01 PDT: migrated legacy story-page/story.css markup to current article-hero/article-container/article-body + bootstrap convention (canonical/og JSON-LD /stories/<slug>.html form, hero cache-bust v=955cbaed preserved). Gates re-verified post-migration: 0 em dashes, 0 banned phrases, The-starters 3.4%, hero real JPEG. Legacy-markup blocker REMOVED for this head; still blocked on renumber-vs-drain decision."
+      "note": " | 2026-10-01 08:01 PDT: migrated legacy story-page/story.css markup to current article-hero/article-container/article-body + bootstrap convention (canonical/og JSON-LD /stories/<slug>.html form, hero cache-bust v=955cbaed preserved). Gates re-verified post-migration: 0 em dashes, 0 banned phrases, The-starters 3.4%, hero real JPEG. Legacy-markup blocker REMOVED for this head; still blocked on renumber-vs-drain decision.",
+      "article_number": 770,
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head)."
     },
     {
       "article_number": 774,
@@ -709,13 +716,16 @@
       },
       "headline": "Your West-Facing Glass Adds $250 a Year to Your Cooling Bill. The Simulation Takes an Hour.",
       "hero_hash": "3129fbb4",
-      "hold_reason": "1/day rule: #779 published 2026-09-05; queued behind #784 (ship_after 2026-10-10)",
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "journalist": "Elena Vasquez",
       "primary_sources": 7,
       "research_file": "drafts/ai-window-placement-shading-design-cooling-2026-research.md",
       "rounds": 0,
       "slug": "ai-window-placement-shading-design-cooling-2026",
-      "started": "2026-09-05T12:01:52-07:00"
+      "started": "2026-09-05T12:01:52-07:00",
+      "article_number": 786,
+      "ship_after": "2026-12-05",
+      "phase": "ship_ready"
     },
     {
       "article_number": 785,
@@ -1199,7 +1209,7 @@
       "started": "2026-09-06T18:01:00-07:00"
     },
     {
-      "article_number": 787,
+      "article_number": 800,
       "completed": "2026-09-06T20:45:00-07:00",
       "critique_score": 8.9,
       "critique_scores": {
@@ -1235,9 +1245,8 @@
       },
       "headline": "Your Lender Isn't Sending a Draw Inspector Anymore. They're Texting You a Link.",
       "hero_hash": "cfc38a0b",
-      "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-19), publish per 1/day cadence.",
+      "hold_reason": "Renumbered 787 -> 800 2026-10-01 per Ray approval (787 duplicate resolved).",
       "journalist": "Frank DeLuca",
-      "number": 787,
       "phase": "SHIP",
       "primary_sources": 5,
       "research_file": "drafts/virtual-draw-inspection-borrower-phone-lender-2026-research.md",
@@ -1656,7 +1665,7 @@
       "hero_hash": "bb7d833a",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-29), next open slot 2026-10-30.",
       "journalist": "Marcus Washington",
-      "number": 805,
+      "article_number": 805,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-safety-cameras-watch-workers-falls-2026-research.md",
@@ -1703,7 +1712,7 @@
       "hero_hash": "4e34893d",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-30), next open slot 2026-10-31.",
       "journalist": "Jake Kowalski",
-      "number": 806,
+      "article_number": 806,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-punch-list-360-camera-defect-detection-2026-research.md",
@@ -1750,7 +1759,7 @@
       "hero_hash": "441a5209",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-31), next open slot 2026-11-01.",
       "journalist": "Catherine Chen",
-      "number": 807,
+      "article_number": 807,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-roof-imagery-claim-denial-2026-research.md",
@@ -1797,7 +1806,7 @@
       "hero_hash": "36b7b51c",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-01), next open slot 2026-11-02.",
       "journalist": "Elena Vasquez",
-      "number": 808,
+      "article_number": 808,
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/ai-asbuilt-phone-lidar-remodel-2026-research.md",
@@ -1846,7 +1855,7 @@
       "hero_hash": "6ced9848",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03.",
       "journalist": "Jake Kowalski",
-      "number": 809,
+      "article_number": 809,
       "phase": "SHIP",
       "primary_sources": 14,
       "research_file": "drafts/concrete-maturity-sensors-residential-foundations-2026-research.md",
@@ -1893,7 +1902,7 @@
       "hero_hash": "592f7b57",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-03), next open slot 2026-11-04.",
       "journalist": "Frank DeLuca",
-      "number": 810,
+      "article_number": 810,
       "phase": "SHIP",
       "primary_sources": 7,
       "research_file": "drafts/invoice-diversion-fraud-bec-homebuilders-2026-research.md",
@@ -1940,7 +1949,7 @@
       "hero_hash": "42a8d290",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-04), next open slot 2026-11-05.",
       "journalist": "Frank DeLuca",
-      "number": 811,
+      "article_number": 811,
       "phase": "SHIP",
       "primary_sources": 8,
       "research_file": "drafts/ai-lumber-price-forecast-framing-package-timing-2026-research.md",
@@ -6588,7 +6597,7 @@
       "hero_hash": "2443c785",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #921 queued for 2026-09-21 through 2027-03-03; #922 queued for 2027-03-04",
       "journalist": "Jake Kowalski",
-      "number": 922,
+      "article_number": 922,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-aluminum-wiring-remediation-cost-decision-2026-research.md",
@@ -6635,7 +6644,7 @@
       "hero_hash": "8e494d16",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #922 queued for 2026-09-21 through 2027-03-04; #923 queued for 2027-03-05",
       "journalist": "Frank DeLuca",
-      "number": 923,
+      "article_number": 923,
       "phase": "SHIP",
       "primary_sources": 8,
       "research_file": "drafts/ai-sinkhole-susceptibility-map-florida-homebuyer-2026-research.md",
