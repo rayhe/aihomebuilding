@@ -1,20 +1,20 @@
 {
   "last_completed": {
-    "article_number": 769,
-    "at": "2026-09-28T02:06:00-07:00",
+    "article_number": 770,
+    "at": "2026-10-01T22:05:42-07:00",
     "phase": "PUBLISHED",
     "qa": {
-      "at": "2026-09-28T02:30:00-07:00",
+      "at": "2026-10-01T22:10:28-07:00",
+      "story": 200,
       "hero": 200,
-      "index_card": true,
-      "note": "story 200 on extensionless-canonical redirect chain; hero real JPEG 200; index card + 770-article count live; sitemap valid with new URL. QA fixes: og:url and JSON-LD @id /articles/ -> /stories/ (canonical form).",
       "og_tags": true,
+      "index_card": true,
       "sitemap": "valid",
-      "story": 200
+      "note": "story 200 on extensionless-canonical redirect chain; hero real JPEG 200; index card + 771-article count live; sitemap valid with new URL."
     },
-    "slug": "zone-zero-five-feet-ai-inspection-2026"
+    "slug": "ai-simulator-rookie-crew-hiring-screening-2026"
   },
-  "last_checked": "2026-10-01T22:05:42-07:00",
+  "last_checked": "2026-10-01T22:10:28-07:00",
   "last_published_at": "2026-10-01T22:05:42-07:00",
   "ship_ready": [
     {
@@ -10085,8 +10085,8 @@
       "word_count": 1628
     }
   ],
-  "article_number": 770,
-  "slug": "ai-simulator-rookie-crew-hiring-screening-2026",
+  "article_number": 992,
+  "slug": "ai-3d-printed-home-carbon-myth-2026",
   "journalist": "Priya Greenwood",
   "started": "2026-09-28T18:04:00-07:00",
   "phase": "SHIP_READY",
@@ -10136,6 +10136,6 @@
   "hero_real_jpeg": true,
   "hero_cache_bust": null,
   "draft_hash": "1235cd61",
-  "note": "Run 2026-10-01 22:01 PDT: PUBLISHED #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) per Ray's renumber approval. Renumber commit 578a906 + 9 number-key normalizations (805-811, 922, 923) committed; queue now 211, all numbered unique. 1/day met for 2026-10-01 PT.",
-  "last_note": "Run 2026-10-01 22:01 PDT: PUBLISHED #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) per Ray's renumber approval. Renumber commit 578a906 + 9 number-key normalizations (805-811, 922, 923) committed; queue now 211, all numbered unique. 1/day met for 2026-10-01 PT."
+  "note": "Run 2026-10-01 22:01 PDT: QA PASS for #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) - story 200 on canonical redirect, hero real JPEG 200, og tags, index card + 771 count live, sitemap valid. 1/day met. #992 stays SHIP_READY (ship_after 2027-05-13). Queue 211, all numbered unique.",
+  "last_note": "Run 2026-10-01 22:01 PDT: QA PASS for #770 (ai-simulator-rookie-crew-hiring-screening-2026, Marcus Washington) - story 200 on canonical redirect, hero real JPEG 200, og tags, index card + 771 count live, sitemap valid. 1/day met. #992 stays SHIP_READY (ship_after 2027-05-13). Queue 211, all numbered unique."
 }
