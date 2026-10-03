@@ -46,7 +46,7 @@
   "hero_hash": "f5727005",
   "hero_real_jpeg": true,
   "journalist": "Jake Kowalski",
-  "last_checked": "2026-10-02T20:02:00-07:00",
+  "last_checked": "2026-10-02T22:01:52-07:00",
   "last_completed": {
     "article_number": 774,
     "at": "2026-10-02T00:21:00-07:00",
@@ -62,7 +62,7 @@
     },
     "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_note": "Run 2026-10-02 20:01 PDT: 1/day already met (#774 published 00:04, QA PASS 00:21; grep count=2 includes the QA commit). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca (ai-digital-twin-home-warranty-carfax-digs-2026). Current #992 (Priya Greenwood, ai-3d-printed-home-carbon-myth-2026) stays SHIP_READY, ship_after 2027-05-13. Queue 210. #785 anomaly (no ship_after, phase missing) still awaiting Ray decision.",
+  "last_note": "Run 2026-10-02 22:01 PDT: 1/day already met (#774 published 00:04, QA PASS 00:21). Nothing due today; #775 Frank DeLuca (ai-digital-twin-home-warranty-carfax-digs-2026, Your House Just Got a CarFax...) ships 2026-10-03 \u2014 draft + hero-ready, new-markup migration committed 06:05 today. Queue 210. #785 anomaly still awaiting Ray decision.",
   "last_published_at": "2026-10-02T00:21:00-07:00",
   "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
   "phase": "SHIP_READY",
