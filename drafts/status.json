@@ -1,23 +1,75 @@
 {
+  "article_number": 774,
+  "critique_round": 1,
+  "critique_score": 8.94,
+  "critique_scores": {
+    "data_presentation": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 8.8,
+    "voice_coach": 9.0
+  },
+  "current": {
+    "journalist": "Priya Greenwood",
+    "phase": "SHIP_READY",
+    "slug": "ai-3d-printed-home-carbon-myth-2026",
+    "started": "2026-09-28T18:04:00-07:00"
+  },
+  "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
+  "draft_hash": "1235cd61",
+  "hard_gates": {
+    "banned_phrases": {
+      "count": 0,
+      "passed": true
+    },
+    "em_dash": {
+      "count": 0,
+      "limit": 3,
+      "passed": true
+    },
+    "sentence_rhythm": {
+      "long_pct": 54.5,
+      "passed": true,
+      "short_pct": 9.1,
+      "variance": 201.9
+    },
+    "the_starters": {
+      "limit": 15.0,
+      "passed": true,
+      "pct": 4.5
+    }
+  },
+  "hero_cache_bust": null,
+  "hero_file": "images/ai-3d-printed-home-carbon-myth-2026.jpg",
+  "hero_hash": "f5727005",
+  "hero_real_jpeg": true,
+  "journalist": "Jake Kowalski",
+  "last_checked": "2026-10-02T20:02:00-07:00",
   "last_completed": {
     "article_number": 774,
     "at": "2026-10-02T00:21:00-07:00",
     "phase": "PUBLISHED",
     "qa": {
       "at": "2026-10-02T00:10:00-07:00",
-      "story": 200,
       "hero": 200,
-      "og_tags": true,
       "index_card": true,
+      "note": "story 200 on extensionless-canonical redirect chain; hero real JPEG 200; index card + 772-article count live; sitemap valid with new URL.",
+      "og_tags": true,
       "sitemap": "valid",
-      "note": "story 200 on extensionless-canonical redirect chain; hero real JPEG 200; index card + 772-article count live; sitemap valid with new URL."
+      "story": 200
     },
     "slug": "ai-exoskeleton-framing-crew-back-injury-2026"
   },
-  "last_checked": "2026-10-02T18:02:23-07:00",
+  "last_note": "Run 2026-10-02 20:01 PDT: 1/day already met (#774 published 00:04, QA PASS 00:21; grep count=2 includes the QA commit). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca (ai-digital-twin-home-warranty-carfax-digs-2026). Current #992 (Priya Greenwood, ai-3d-printed-home-carbon-myth-2026) stays SHIP_READY, ship_after 2027-05-13. Queue 210. #785 anomaly (no ship_after, phase missing) still awaiting Ray decision.",
   "last_published_at": "2026-10-02T00:21:00-07:00",
+  "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
+  "phase": "SHIP_READY",
+  "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
   "ship_ready": [
     {
+      "article_number": 771,
       "completed": "2026-09-04",
       "critics": {
         "data_presentation": 8.9,
@@ -44,16 +96,16 @@
       "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "id": 769,
       "journalist": "Catherine Chen",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
       "phase": "SHIP_READY",
       "primary_sources": 6,
       "research_file": "drafts/solar-shade-act-ai-shadow-model-2026-research.md",
       "rounds": 1,
       "ship_after": "2026-10-25",
-      "slug": "solar-shade-act-ai-shadow-model-2026",
-      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
-      "article_number": 771
+      "slug": "solar-shade-act-ai-shadow-model-2026"
     },
     {
+      "article_number": 772,
       "completed": "2026-09-04",
       "critics": {
         "data_presentation": 8.7,
@@ -80,19 +132,19 @@
       "hero_hash": "f6961564",
       "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
       "hero_real_jpeg": true,
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "id": 770,
       "journalist": "Priya Greenwood",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
       "phase": "SHIP_READY",
       "primary_sources": 9,
       "research_file": "drafts/ai-concrete-carbon-mix-optimization-2026-research.md",
       "rounds": 0,
       "ship_after": "2026-11-26",
-      "slug": "ai-concrete-carbon-mix-optimization-2026",
-      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
-      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
-      "article_number": 772
+      "slug": "ai-concrete-carbon-mix-optimization-2026"
     },
     {
+      "article_number": 773,
       "completed": "2026-09-04",
       "critics": {
         "data_presentation": 8.8,
@@ -119,19 +171,19 @@
       "hero_hash": "f7e99fe7",
       "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
       "hero_real_jpeg": true,
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "id": 771,
       "journalist": "Frank DeLuca",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
       "phase": "SHIP_READY",
       "primary_sources": 6,
       "research_file": "drafts/ai-delivery-dispatch-late-lumber-idle-crew-2026-research.md",
       "rounds": 1,
       "ship_after": "2026-11-27",
-      "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026",
-      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
-      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
-      "article_number": 773
+      "slug": "ai-delivery-dispatch-late-lumber-idle-crew-2026"
     },
     {
+      "article_number": 779,
       "completed": "2026-09-04",
       "critics": {
         "data_presentation": 8.7,
@@ -155,6 +207,7 @@
       },
       "headline": "Your Office Manager Costs $48,000 a Year. The AI That Answers Her Phone Costs $200 a Month.",
       "hero_hash": "df4742f3",
+      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "id": 772,
       "journalist": "Marcus Washington",
       "phase": "SHIP_READY",
@@ -162,9 +215,7 @@
       "research_file": "drafts/ai-voice-agents-receptionists-missed-calls-contractor-2026-research.md",
       "rounds": 0,
       "ship_after": "2026-12-04",
-      "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026",
-      "article_number": 779,
-      "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head)."
+      "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026"
     },
     {
       "article_number": 775,
@@ -254,14 +305,14 @@
       "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #775 queued for 2026-09-05 through 2026-10-03",
       "id": 776,
       "journalist": "Priya Greenwood",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-10-02",
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/cool-roof-crrc-directory-climate-payback-2026-research.md",
       "rounds": 0,
       "ship_after": "2026-10-04",
       "slug": "cool-roof-crrc-directory-climate-payback-2026",
-      "started": "2026-09-04T16:01:52-07:00",
-      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-10-02"
+      "started": "2026-09-04T16:01:52-07:00"
     },
     {
       "article_number": 777,
@@ -595,6 +646,7 @@
       "started": "2026-09-05T10:10:00-07:00"
     },
     {
+      "article_number": 786,
       "completed": "2026-09-05T12:45:00-07:00",
       "critique_score": 8.84,
       "critique_scores": {
@@ -632,14 +684,13 @@
       "hero_hash": "3129fbb4",
       "hold_reason": "Renumbered 2026-10-01 per Ray approval (was past-due unnumbered head).",
       "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
       "primary_sources": 7,
       "research_file": "drafts/ai-window-placement-shading-design-cooling-2026-research.md",
       "rounds": 0,
-      "slug": "ai-window-placement-shading-design-cooling-2026",
-      "started": "2026-09-05T12:01:52-07:00",
-      "article_number": 786,
       "ship_after": "2026-12-05",
-      "phase": "SHIP_READY"
+      "slug": "ai-window-placement-shading-design-cooling-2026",
+      "started": "2026-09-05T12:01:52-07:00"
     },
     {
       "article_number": 785,
@@ -654,6 +705,7 @@
         "social_shareability": 8.8,
         "voice_coach": 8.7
       },
+      "draft_file": "drafts/ai-roof-measurement-bid-referee-2026.html",
       "hard_gates": {
         "banned_phrases": {
           "count": 0,
@@ -677,19 +729,18 @@
         }
       },
       "headline": "Your Roofers Measured 24, 26, and 28 Squares. The Satellite Photo Cost $18.",
+      "hero_file": "images/ai-roof-measurement-bid-referee-2026.jpg",
       "hero_hash": "df7e913d",
       "hold_reason": "1/day rule: floating since 2026-09-05 (no ship_after); assigned next free slot 2027-05-14 on 2026-10-02",
       "journalist": "Marcus Washington",
+      "note": " [2026-10-02: ship_after assigned 2027-05-14; phase set SHIP_READY; draft_file/hero_file keys restored]",
+      "phase": "SHIP_READY",
       "primary_sources": 6,
       "research_file": "drafts/ai-roof-measurement-bid-referee-2026-research.md",
       "rounds": 2,
-      "slug": "ai-roof-measurement-bid-referee-2026",
-      "started": "2026-09-05T14:05:00-07:00",
-      "phase": "SHIP_READY",
       "ship_after": "2027-05-14",
-      "draft_file": "drafts/ai-roof-measurement-bid-referee-2026.html",
-      "hero_file": "images/ai-roof-measurement-bid-referee-2026.jpg",
-      "note": " [2026-10-02: ship_after assigned 2027-05-14; phase set SHIP_READY; draft_file/hero_file keys restored]"
+      "slug": "ai-roof-measurement-bid-referee-2026",
+      "started": "2026-09-05T14:05:00-07:00"
     },
     {
       "article_number": 787,
@@ -1547,6 +1598,7 @@
       "started": "2026-09-07T16:01:52-07:00"
     },
     {
+      "article_number": 805,
       "completed": "2026-09-07T18:35:00-07:00",
       "critique_score": 8.89,
       "critique_scores": {
@@ -1584,7 +1636,6 @@
       "hero_hash": "bb7d833a",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-29), next open slot 2026-10-30.",
       "journalist": "Marcus Washington",
-      "article_number": 805,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-safety-cameras-watch-workers-falls-2026-research.md",
@@ -1594,6 +1645,7 @@
       "started": "2026-09-07T18:01:52-07:00"
     },
     {
+      "article_number": 806,
       "completed": "2026-09-07T20:45:00-07:00",
       "critique_score": 8.86,
       "critique_scores": {
@@ -1631,7 +1683,6 @@
       "hero_hash": "4e34893d",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-30), next open slot 2026-10-31.",
       "journalist": "Jake Kowalski",
-      "article_number": 806,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-punch-list-360-camera-defect-detection-2026-research.md",
@@ -1641,6 +1692,7 @@
       "started": "2026-09-07T20:15:00-07:00"
     },
     {
+      "article_number": 807,
       "completed": "2026-09-07T22:40:00-07:00",
       "critique_score": 8.9,
       "critique_scores": {
@@ -1678,7 +1730,6 @@
       "hero_hash": "441a5209",
       "hold_reason": "1/day rule: 4 publishes already on 2026-09-07 (PT-day check); queued behind existing ship_ready queue (last ship_after 2026-10-31), next open slot 2026-11-01.",
       "journalist": "Catherine Chen",
-      "article_number": 807,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-roof-imagery-claim-denial-2026-research.md",
@@ -1688,6 +1739,7 @@
       "started": "2026-09-07T22:05:00-07:00"
     },
     {
+      "article_number": 808,
       "completed": "2026-09-08T00:45:00-07:00",
       "critique_score": 8.84,
       "critique_scores": {
@@ -1725,7 +1777,6 @@
       "hero_hash": "36b7b51c",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-01), next open slot 2026-11-02.",
       "journalist": "Elena Vasquez",
-      "article_number": 808,
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/ai-asbuilt-phone-lidar-remodel-2026-research.md",
@@ -1735,6 +1786,7 @@
       "started": "2026-09-08T00:15:00-07:00"
     },
     {
+      "article_number": 809,
       "completed": "2026-09-08T09:12:40.647212+00:00",
       "critique_score": 9.0,
       "critique_scores": {
@@ -1774,7 +1826,6 @@
       "hero_hash": "6ced9848",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-02), next open slot 2026-11-03.",
       "journalist": "Jake Kowalski",
-      "article_number": 809,
       "phase": "SHIP",
       "primary_sources": 14,
       "research_file": "drafts/concrete-maturity-sensors-residential-foundations-2026-research.md",
@@ -1784,6 +1835,7 @@
       "started": "2026-09-08T09:03:32.646134+00:00"
     },
     {
+      "article_number": 810,
       "completed": "2026-09-10T02:11:31.959979-07:00",
       "critique_score": 8.9,
       "critique_scores": {
@@ -1821,7 +1873,6 @@
       "hero_hash": "592f7b57",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-03), next open slot 2026-11-04.",
       "journalist": "Frank DeLuca",
-      "article_number": 810,
       "phase": "SHIP",
       "primary_sources": 7,
       "research_file": "drafts/invoice-diversion-fraud-bec-homebuilders-2026-research.md",
@@ -1831,6 +1882,7 @@
       "started": "2026-09-10T02:05:18.234532-07:00"
     },
     {
+      "article_number": 811,
       "completed": "2026-09-10T04:09:07.411948-07:00",
       "critique_score": 8.79,
       "critique_scores": {
@@ -1868,7 +1920,6 @@
       "hero_hash": "42a8d290",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2026-11-04), next open slot 2026-11-05.",
       "journalist": "Frank DeLuca",
-      "article_number": 811,
       "phase": "SHIP",
       "primary_sources": 8,
       "research_file": "drafts/ai-lumber-price-forecast-framing-package-timing-2026-research.md",
@@ -6479,6 +6530,7 @@
       "started": "2026-09-20T12:06:00-07:00"
     },
     {
+      "article_number": 922,
       "completed": "2026-09-20T15:05:00-07:00",
       "critique_score": 8.83,
       "critique_scores": {
@@ -6516,7 +6568,6 @@
       "hero_hash": "2443c785",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #921 queued for 2026-09-21 through 2027-03-03; #922 queued for 2027-03-04",
       "journalist": "Jake Kowalski",
-      "article_number": 922,
       "phase": "SHIP",
       "primary_sources": 6,
       "research_file": "drafts/ai-aluminum-wiring-remediation-cost-decision-2026-research.md",
@@ -6526,6 +6577,7 @@
       "started": "2026-09-20T14:20:00-07:00"
     },
     {
+      "article_number": 923,
       "completed": "2026-09-20T22:45:00-07:00",
       "critique_score": 8.89,
       "critique_scores": {
@@ -6563,7 +6615,6 @@
       "hero_hash": "8e494d16",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #922 queued for 2026-09-21 through 2027-03-04; #923 queued for 2027-03-05",
       "journalist": "Frank DeLuca",
-      "article_number": 923,
       "phase": "SHIP",
       "primary_sources": 8,
       "research_file": "drafts/ai-sinkhole-susceptibility-map-florida-homebuyer-2026-research.md",
@@ -7928,10 +7979,10 @@
       "headline": "Your Roof Is Held Down by $20 Worth of Steel. The Insurance Company Trusts One Photo of It.",
       "hero": "images/ai-hurricane-strap-photo-audit-wind-mitigation-2026.jpg?v=a6f81d05",
       "journalist": "Catherine Chen",
+      "phase": "SHIP",
       "primary_sources": 8,
       "ship_after": "2027-04-01",
-      "slug": "ai-hurricane-strap-photo-audit-wind-mitigation-2026",
-      "phase": "SHIP"
+      "slug": "ai-hurricane-strap-photo-audit-wind-mitigation-2026"
     },
     {
       "article_number": 951,
@@ -9894,35 +9945,35 @@
       "critique_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026-critique-r0.md",
       "critique_score": 8.87,
       "critique_scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.9,
+        "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.8,
+        "general_editor": 8.8,
         "legal_accuracy": 8.8,
         "research_rigor": 9.0,
-        "data_presentation": 8.8
+        "social_shareability": 8.8,
+        "voice_coach": 8.9
       },
       "draft_file": "drafts/ai-overhang-depth-sun-angle-shading-math-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 1,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 6.6,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 344.6,
-          "short_pct": 0.0,
           "long_pct": 52.8,
-          "passed": true
+          "passed": true,
+          "short_pct": 0.0,
+          "variance": 344.6
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 6.6
         }
       },
       "headline": "Your 12-Inch Overhang Has Never Fully Shaded Your South Window, Not Once All Year",
@@ -9956,25 +10007,25 @@
       },
       "draft_file": "drafts/ai-property-line-encroachment-drone-survey-adverse-possession-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 10.3,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 254.1,
-          "short_pct": 14.9,
           "long_pct": 37.8,
-          "passed": true
+          "passed": true,
+          "short_pct": 14.9,
+          "variance": 254.1
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 10.3
         }
       },
       "headline": "Your Neighbor's Fence Is 14 Inches Over the Line. The Drone Proved It in an Afternoon. The Law Gives It Five Years.",
@@ -10007,25 +10058,25 @@
       },
       "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
       "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
         "em_dash": {
           "count": 0,
           "limit": 3,
           "passed": true
         },
-        "the_starters": {
-          "pct": 4.5,
-          "limit": 15.0,
-          "passed": true
-        },
-        "banned_phrases": {
-          "count": 0,
-          "passed": true
-        },
         "sentence_rhythm": {
-          "variance": 201.9,
-          "short_pct": 9.1,
           "long_pct": 54.5,
-          "passed": true
+          "passed": true,
+          "short_pct": 9.1,
+          "variance": 201.9
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 4.5
         }
       },
       "headline": "Your 3D-Printed 'Green' Home Has the Same Embodied Carbon as a Stick-Frame. The Printer Burned 2,000 kWh to Get There.",
@@ -10044,57 +10095,6 @@
       "word_count": 1628
     }
   ],
-  "article_number": 774,
   "slug": "ai-exoskeleton-framing-crew-back-injury-2026",
-  "journalist": "Jake Kowalski",
-  "started": "2026-09-28T18:04:00-07:00",
-  "phase": "SHIP_READY",
-  "current": {
-    "slug": "ai-3d-printed-home-carbon-myth-2026",
-    "phase": "SHIP_READY",
-    "journalist": "Priya Greenwood",
-    "started": "2026-09-28T18:04:00-07:00"
-  },
-  "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
-  "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
-  "critique_round": 1,
-  "critique_score": 8.94,
-  "critique_scores": {
-    "data_presentation": 9.0,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.8,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 9.0
-  },
-  "hard_gates": {
-    "em_dash": {
-      "count": 0,
-      "limit": 3,
-      "passed": true
-    },
-    "the_starters": {
-      "pct": 4.5,
-      "limit": 15.0,
-      "passed": true
-    },
-    "banned_phrases": {
-      "count": 0,
-      "passed": true
-    },
-    "sentence_rhythm": {
-      "variance": 201.9,
-      "short_pct": 9.1,
-      "long_pct": 54.5,
-      "passed": true
-    }
-  },
-  "hero_file": "images/ai-3d-printed-home-carbon-myth-2026.jpg",
-  "hero_hash": "f5727005",
-  "hero_real_jpeg": true,
-  "hero_cache_bust": null,
-  "draft_hash": "1235cd61",
-  "note": "Run 2026-10-02 02:01 PDT: 1/day already met (Publish #774, QA PASS 00:10). Nothing due: next ship_after 2026-10-03 (#775 Frank DeLuca). #992 (Priya Greenwood, 3d-printed-home-carbon-myth) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique. ANOMALY flagged: #785 ai-roof-measurement-bid-referee-2026 (critique 8.84, gates pass, completed 2026-09-05) has ship_after=None and phase missing - floating since Sep 5; left untouched, needs ship-date assignment decision.",
-  "last_note": "Run 2026-10-02 18:01 PDT: 1/day already met (#774 published 00:04 + QA PASS; second grep hit is the QA commit, only 1 true publish). Nothing due today; next ship 2026-10-03 #775 Frank DeLuca (ai-digital-twin-home-warranty-carfax-digs-2026). Current #992 (Priya Greenwood, ai-3d-printed-home-carbon-myth-2026) stays SHIP_READY, ship_after 2027-05-13. Queue 210, numbers unique, SHIP dates in order. No phase work this run."
+  "started": "2026-09-28T18:04:00-07:00"
 }
