@@ -46,24 +46,24 @@
   "hero_hash": "f5727005",
   "hero_real_jpeg": true,
   "journalist": "Frank DeLuca",
-  "last_checked": "2026-10-03T04:02:00-07:00",
+  "last_checked": "2026-10-03T06:02:00-07:00",
   "last_completed": {
     "article_number": 775,
     "at": "2026-10-03T00:09:00-07:00",
     "phase": "PUBLISHED",
     "qa": {
       "at": "2026-10-03T00:09:00-07:00",
-      "status": "pass",
-      "story": 200,
       "hero": 200,
-      "og_tags": true,
       "index_card": true,
+      "note": "story 200 on extensionless-canonical redirect chain (.html 308 -> extensionless 200); hero real JPEG 1920x1280 200; og tags present (og:url fixed to stories/ post-publish); index card + 773-article count live; sitemap valid with new URL.",
+      "og_tags": true,
       "sitemap": "valid",
-      "note": "story 200 on extensionless-canonical redirect chain (.html 308 -> extensionless 200); hero real JPEG 1920x1280 200; og tags present (og:url fixed to stories/ post-publish); index card + 773-article count live; sitemap valid with new URL."
+      "status": "pass",
+      "story": 200
     },
     "slug": "ai-digital-twin-home-warranty-carfax-digs-2026"
   },
-  "last_note": "Run 2026-10-03 04:01 PDT: 1/day already met (#775 published 00:06, QA PASS 00:09). Current: ai-3d-printed-home-carbon-myth-2026 (Priya Greenwood, #992, SHIP_READY, ship_after 2027-05-13). Draft/research/hero all present; hero verified real JPEG 1920x1280. Queue 209. Next publish due 2026-10-04. No action taken.",
+  "last_note": "Run 2026-10-03 06:01 PDT: 1/day already met (#775 published 00:06, live re-verified 200 on extensionless canonical). Queue 209, all ship_after set, no dupes, none past-due. Next ship 2026-10-04: #776 (cool-roof-crrc-directory-climate-payback-2026, Priya Greenwood) \u2014 draft + real JPEG hero 1920x1280 present, pre-migrated. No action taken.",
   "last_published_at": "2026-10-03T00:06:00-07:00",
   "note": "Run 2026-10-03 00:09 PDT: QA PASS for #775 (ai-digital-twin-home-warranty-carfax-digs-2026, Frank DeLuca) - story 200 on canonical redirect chain; hero 200; og tags; index card + 773-article count live; sitemap valid. Queue 209 remaining (#776 Priya Greenwood ships 2026-10-04). #785 anomaly (ship_after=None) still awaiting Ray decision.",
   "phase": "SHIP_READY",
