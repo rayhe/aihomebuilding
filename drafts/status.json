@@ -46,26 +46,26 @@
   "hero_hash": "f5727005",
   "hero_real_jpeg": true,
   "journalist": "Frank DeLuca",
-  "last_checked": "2026-10-03T00:06:00-07:00",
+  "last_checked": "2026-10-03T00:09:00-07:00",
   "last_completed": {
     "article_number": 775,
-    "at": "2026-10-03T00:06:00-07:00",
+    "at": "2026-10-03T00:09:00-07:00",
     "phase": "PUBLISHED",
     "qa": {
-      "at": null,
-      "status": "pending",
-      "story": null,
-      "hero": null,
-      "og_tags": null,
-      "index_card": null,
-      "sitemap": null,
-      "note": null
+      "at": "2026-10-03T00:09:00-07:00",
+      "status": "pass",
+      "story": 200,
+      "hero": 200,
+      "og_tags": true,
+      "index_card": true,
+      "sitemap": "valid",
+      "note": "story 200 on extensionless-canonical redirect chain (.html 308 -> extensionless 200); hero real JPEG 1920x1280 200; og tags present (og:url fixed to stories/ post-publish); index card + 773-article count live; sitemap valid with new URL."
     },
     "slug": "ai-digital-twin-home-warranty-carfax-digs-2026"
   },
   "last_note": "Run 2026-10-02 22:01 PDT: 1/day already met (#774 published 00:04, QA PASS 00:21). Nothing due today; #775 Frank DeLuca (ai-digital-twin-home-warranty-carfax-digs-2026, Your House Just Got a CarFax...) ships 2026-10-03 — draft + hero-ready, new-markup migration committed 06:05 today. Queue 210. #785 anomaly still awaiting Ray decision.",
   "last_published_at": "2026-10-03T00:06:00-07:00",
-  "note": "Run 2026-10-03 00:06 PDT: PUBLISHED #775 (ai-digital-twin-home-warranty-carfax-digs-2026, Frank DeLuca) - canonical fixed to stories/, index card + 773-article count live, sitemap entry added. Queue 209 remaining. 1/day met for 2026-10-03 PT.",
+  "note": "Run 2026-10-03 00:09 PDT: QA PASS for #775 (ai-digital-twin-home-warranty-carfax-digs-2026, Frank DeLuca) - story 200 on canonical redirect chain; hero 200; og tags; index card + 773-article count live; sitemap valid. Queue 209 remaining (#776 Priya Greenwood ships 2026-10-04). #785 anomaly (ship_after=None) still awaiting Ray decision.",
   "phase": "SHIP_READY",
   "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
   "ship_ready": [
