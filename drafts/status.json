@@ -1,5 +1,5 @@
 {
-  "article_number": 998,
+  "article_number": 999,
   "critique_round": 0,
   "critique_score": 8.93,
   "critique_scores": {
@@ -11,7 +11,12 @@
     "social_shareability": 8.8,
     "voice_coach": 9.0
   },
-  "current": null,
+  "current": {
+    "slug": "ai-rfi-tax-custom-home-question-cost-2026",
+    "phase": "DRAFT",
+    "journalist": "Frank \"The Foreman\" DeLuca",
+    "started": "2026-10-04T14:15:00-07:00"
+  },
   "draft_file": "drafts/ai-solar-panel-end-of-life-recycling-2026.html",
   "draft_hash": "1235cd61",
   "hard_gates": {
@@ -40,8 +45,8 @@
   "hero_file": "images/ai-solar-panel-end-of-life-recycling-2026.jpg",
   "hero_hash": "f8617ec4",
   "hero_real_jpeg": true,
-  "journalist": "Priya Greenwood",
-  "last_checked": "2026-10-04T09:00:00-07:00",
+  "journalist": "Frank \"The Foreman\" DeLuca",
+  "last_checked": "2026-10-04T14:15:00-07:00",
   "last_completed": {
     "article_number": 998,
     "at": "2026-10-04T12:15:00-07:00",
@@ -51,7 +56,7 @@
   "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-18.",
   "last_published_at": "2026-10-04T00:06:00-07:00",
   "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-18.",
-  "phase": null,
+  "phase": "DRAFT",
   "research_file": "drafts/ai-solar-panel-end-of-life-recycling-2026-research.md",
   "ship_ready": [
     {
@@ -10302,6 +10307,6 @@
       "hero_real_jpeg": true
     }
   ],
-  "slug": null,
-  "started": "2026-10-04T12:01:00-07:00"
+  "slug": "ai-rfi-tax-custom-home-question-cost-2026",
+  "started": "2026-10-04T14:15:00-07:00"
 }
