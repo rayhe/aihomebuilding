@@ -11,13 +11,7 @@
     "social_shareability": 8.8,
     "voice_coach": 9.0
   },
-  "current": {
-    "slug": "ai-rfi-tax-custom-home-question-cost-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Frank \"The Foreman\" DeLuca",
-    "started": "2026-10-04T14:15:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "draft_file": "drafts/ai-solar-panel-end-of-life-recycling-2026.html",
   "draft_hash": "1235cd61",
   "hard_gates": {
@@ -47,17 +41,17 @@
   "hero_hash": "f8617ec4",
   "hero_real_jpeg": true,
   "journalist": "Frank \"The Foreman\" DeLuca",
-  "last_checked": "2026-10-04T14:15:00-07:00",
+  "last_checked": "2026-10-04T14:45:00-07:00",
   "last_completed": {
-    "article_number": 998,
-    "at": "2026-10-04T12:15:00-07:00",
+    "article_number": 999,
+    "at": "2026-10-04T14:45:00-07:00",
     "phase": "SHIP_READY",
-    "slug": "ai-solar-panel-end-of-life-recycling-2026"
+    "slug": "ai-rfi-tax-custom-home-question-cost-2026"
   },
-  "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-18.",
+  "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-19.",
   "last_published_at": "2026-10-04T00:06:00-07:00",
   "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-18.",
-  "phase": "CRITIQUE",
+  "phase": null,
   "research_file": "drafts/ai-solar-panel-end-of-life-recycling-2026-research.md",
   "ship_ready": [
     {
@@ -10306,8 +10300,65 @@
       "draft_file": "drafts/ai-solar-panel-end-of-life-recycling-2026.html",
       "hero_file": "images/ai-solar-panel-end-of-life-recycling-2026.jpg",
       "hero_real_jpeg": true
+    },
+    {
+      "article_number": 999,
+      "completed": "2026-10-04T14:45:00-07:00",
+      "critics": "7-critic panel",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "hero": "JPEG 1920x1280",
+        "sentence_rhythm": {
+          "long_pct": 58.6,
+          "passed": true,
+          "short_pct": 11.2,
+          "variance": 243.2
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 5.9
+        }
+      },
+      "headline": "Your Builder's 'Quick Question' Costs $1,080. The Answer Was Already in the Plans.",
+      "hero_hash": "5bff797f",
+      "hold_reason": "1/day rule: #776 published 2026-10-04; #999 queued for 2027-05-20",
+      "id": "ai-rfi-tax-custom-home-question-cost-2026",
+      "journalist": "Frank \"The Foreman\" DeLuca",
+      "markup": "article-hero/article-container/article-body",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-rfi-tax-custom-home-question-cost-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-20",
+      "slug": "ai-rfi-tax-custom-home-question-cost-2026",
+      "started": "2026-10-04T14:15:00-07:00",
+      "word_count": 2799,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-19. Original contribution: Navigant 9.9-RFIs-per-$1M scaled to custom-home math (~$7,000 formal tax on $650K home) + informal-question multiplier (50 questions x 36 min x $75/hr = ~$2,250) + critical-path serial-drag arithmetic (40 days vs 155-day build) + residential pricing gap for AI doc tools. AI angle: Trunk Tools TrunkRFI (Cortex, Jun 2026), SmartPM/Forma schedule-linked RFI agent, Gilbane 200-project rollout (72% submittals non-compliant); skepticism on 87% vendor accuracy, no public pricing, thin residential docs. Counterargument: RFIs are the paper trail; bad drawings are the disease; AI liability unallocated (ties #739 AI exclusion piece). Gates: 0 em dashes, The-starters 5.9%, 0 banned phrases, rhythm variance 243.2. Round 0; 2 rhythm-fix passes + 1 duplication fix during drafting.",
+      "critique_file": "drafts/ai-rfi-tax-custom-home-question-cost-2026-critique-r0.md",
+      "draft_file": "drafts/ai-rfi-tax-custom-home-question-cost-2026.html",
+      "hero_file": "images/ai-rfi-tax-custom-home-question-cost-2026.jpg",
+      "hero_real_jpeg": true
     }
   ],
-  "slug": "ai-rfi-tax-custom-home-question-cost-2026",
+  "slug": null,
   "started": "2026-10-04T14:15:00-07:00"
 }
