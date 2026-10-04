@@ -11,14 +11,7 @@
     "social_shareability": 8.8,
     "voice_coach": 9.0
   },
-  "current": {
-    "slug": "ai-heat-wearable-crew-safety-cost-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus \"Steel\" Washington",
-    "started": "2026-10-04T08:15:00-07:00",
-    "article_number": 996,
-    "research_file": "drafts/ai-heat-wearable-crew-safety-cost-2026-research.md"
-  },
+  "current": null,
   "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
   "draft_hash": "1235cd61",
   "hard_gates": {
@@ -48,17 +41,17 @@
   "hero_hash": "f5727005",
   "hero_real_jpeg": true,
   "journalist": "Marcus \"Steel\" Washington",
-  "last_checked": "2026-10-04T06:35:00-07:00",
+  "last_checked": "2026-10-04T09:00:00-07:00",
   "last_completed": {
-    "article_number": 995,
-    "at": "2026-10-04T06:35:00-07:00",
+    "article_number": 996,
+    "at": "2026-10-04T09:00:00-07:00",
     "phase": "SHIP_READY",
-    "slug": "ai-fortified-roof-grant-payback-documentation-2026"
+    "slug": "ai-heat-wearable-crew-safety-cost-2026"
   },
-  "last_note": "1/day met: Publish #775 shipped 2026-10-03 PT. Current draft SHIP_READY (ai-3d-printed-home-carbon-myth-2026, #992 queued, ship_after 2027-05-13); no action due. Queue depth 209.",
+  "last_note": "Run 2026-10-04 09:00 PDT: #996 (ai-heat-wearable-crew-safety-cost-2026, Marcus Washington) researched, drafted, critiqued 8.86 avg, all gates pass; queued SHIP_READY ship_after 2027-05-17 (#776 already published today, one-per-day rule). Queue depth 212.",
   "last_published_at": "2026-10-04T00:06:00-07:00",
-  "note": "Run 2026-10-04 06:35 PDT: #995 (ai-fortified-roof-grant-payback-documentation-2026, Catherine Chen) researched, drafted, critiqued 8.76 avg, all gates pass; queued SHIP_READY ship_after 2027-05-16 (#776 already published today, one-per-day rule).",
-  "phase": "RESEARCH",
+  "note": "Run 2026-10-04 09:00 PDT: #996 (ai-heat-wearable-crew-safety-cost-2026, Marcus Washington) researched, drafted, critiqued 8.86 avg, all gates pass; queued SHIP_READY ship_after 2027-05-17 (#776 already published today, one-per-day rule).",
+  "phase": null,
   "research_file": "drafts/ai-heat-wearable-crew-safety-cost-2026-research.md",
   "ship_ready": [
     {
@@ -10142,8 +10135,58 @@
       "slug": "ai-fortified-roof-grant-payback-documentation-2026",
       "started": "2026-10-04T06:05:00-07:00",
       "word_count": 2567
+    },
+    {
+      "article_number": 996,
+      "critique_file": "drafts/ai-heat-wearable-crew-safety-cost-2026-critique-r0.md",
+      "critique_score": 8.86,
+      "critique_scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.7,
+        "voice_coach": 8.9
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 48.8,
+          "passed": true,
+          "short_pct": 12.8,
+          "variance": 211.6
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 2.3
+        }
+      },
+      "headline": "One Heat Stroke Costs $53,589. The Armband That Catches It Costs $500.",
+      "hero_file": "images/ai-heat-wearable-crew-safety-cost-2026.jpg",
+      "hero_hash": "b7a828ef",
+      "hero_real_jpeg": true,
+      "journalist": "Marcus \"Steel\" Washington",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-16. Original contribution: the crew-cost model (15-worker crew x $500 = $7,500; one prevented incident at $53,589 avg = 107 device-years, ~7 crew-years) plus the tenure multiplier (25.5% of heat claims strike in the first 60 days, the acclimatization window). 7 primary sources inline (CPWR Aug 2025, OSHA NEP CPL 03-00-024 Apr 2026 + enforcement data, WCRI flash report + Oct 2026 tenure report, Inc./SlateSafety, OH&S, GWU/Milken + OSHA estimates). Gates: 0 em dashes, The-starters 2.3%, 0 banned phrases, rhythm variance 211.6. Round 0; 1 gate-fix pass during drafting (The 31.0->2.3).",
+      "research_file": "drafts/ai-heat-wearable-crew-safety-cost-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-17",
+      "slug": "ai-heat-wearable-crew-safety-cost-2026",
+      "started": "2026-10-04T08:15:00-07:00",
+      "word_count": 1869
     }
   ],
-  "slug": "ai-heat-wearable-crew-safety-cost-2026",
+  "slug": null,
   "started": "2026-10-04T08:15:00-07:00"
 }
