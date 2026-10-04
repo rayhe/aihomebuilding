@@ -11,12 +11,7 @@
     "social_shareability": 8.8,
     "voice_coach": 9.0
   },
-  "current": {
-    "journalist": "Priya Greenwood",
-    "phase": "SHIP_READY",
-    "slug": "ai-3d-printed-home-carbon-myth-2026",
-    "started": "2026-09-28T18:04:00-07:00"
-  },
+  "current": null,
   "draft_file": "drafts/ai-3d-printed-home-carbon-myth-2026.html",
   "draft_hash": "1235cd61",
   "hard_gates": {
@@ -49,15 +44,25 @@
   "last_checked": "2026-10-03T22:02:18-07:00",
   "last_completed": {
     "article_number": 776,
-    "at": "2026-10-04T00:06:00-07:00",
+    "at": "2026-10-04T00:14:00-07:00",
     "phase": "PUBLISHED",
-    "qa": "pending",
+    "qa": {
+      "at": "2026-10-04T00:14:00-07:00",
+      "hero": 200,
+      "hero_real_jpeg": true,
+      "index_card": true,
+      "note": "story 200 on extensionless-canonical redirect chain; QA fix commit 50820c7 corrected og:url+canonical+JSON-LD @id from articles/ to stories/ (first deploy served stale paths); re-verified live post-fix.",
+      "og_tags": true,
+      "sitemap": "valid",
+      "status": "pass",
+      "story": 200
+    },
     "slug": "cool-roof-crrc-directory-climate-payback-2026"
   },
   "last_note": "1/day met: Publish #775 shipped 2026-10-03 PT. Current draft SHIP_READY (ai-3d-printed-home-carbon-myth-2026, #992 queued, ship_after 2027-05-13); no action due. Queue depth 209.",
   "last_published_at": "2026-10-04T00:06:00-07:00",
   "note": "Run 2026-10-03 00:09 PDT: QA PASS for #775 (ai-digital-twin-home-warranty-carfax-digs-2026, Frank DeLuca) - story 200 on canonical redirect chain; hero 200; og tags; index card + 773-article count live; sitemap valid. Queue 209 remaining (#776 Priya Greenwood ships 2026-10-04). #785 anomaly (ship_after=None) still awaiting Ray decision.",
-  "phase": "QA",
+  "phase": null,
   "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
   "ship_ready": [
     {
