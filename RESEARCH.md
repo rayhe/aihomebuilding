@@ -46,6 +46,13 @@ Active and planned research topics. Each thread has a status, key sources, and a
 
 ## Construction Technology
 
+### 4b. 🟢 Smart Water Shutoff Valves: Pressure-Signature Leak Detection
+- Phyn Plus (240 pressure samples/sec, $699.99), Phyn Plus 2nd Gen ($579.99), Moen Flo (MicroLeak daily tests, $675.99-$1,039.99), Guardian by Elexa ($399 clamp-on)
+- Triple-I: water damage 1-in-67/yr, $15,400 avg, 22.6% of HO claims; highest denial rate ~10% (sudden vs gradual)
+- Original: expected-loss math ($230/yr/home), 43% break-even threshold, denial-log-as-evidence thesis
+- EPA WaterSense: 10,000 gal/yr average household leak waste
+- **Queued SHIP 2027-05-14 as #993:** "Your Pipes Scream 240 Times a Second Before They Burst. A $700 Valve Is the Only Thing Listening." (critique avg 8.99, round 0; gates: 0 em dashes, 1.2% The-starters, rhythm variance 201.7; real JPEG hero 1920x1280, hash bdee8b48)
+
 ### 5. 🟢 Robotic Bricklaying: Hadrian X Deep Dive
 - FBR (Fastbrick Robotics) — Australia
 - 360 blocks/hour, 30m telescopic boom with DST
