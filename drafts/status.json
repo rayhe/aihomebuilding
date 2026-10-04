@@ -46,7 +46,7 @@
   "hero_hash": "f5727005",
   "hero_real_jpeg": true,
   "journalist": "Frank DeLuca",
-  "last_checked": "2026-10-03T18:03:00-07:00",
+  "last_checked": "2026-10-03T20:01:52-07:00",
   "last_completed": {
     "article_number": 775,
     "at": "2026-10-03T00:09:00-07:00",
@@ -63,7 +63,7 @@
     },
     "slug": "ai-digital-twin-home-warranty-carfax-digs-2026"
   },
-  "last_note": "Cron check 2026-10-03 18:03 PDT: #775 published + QA-passed 00:09 PT (1/day gate consumed); 209 ship_ready queued (127 SHIP_READY + 82 SHIP), none due (next #776 ship_after 2026-10-04), none overdue. Current #992 draft/research/hero verified on disk (real JPEG 1920x1280); 5 old-schema entries carry hero_hash only but hero files exist as JPEG at conventional path. No action; pipeline idle per rule.",
+  "last_note": "article-aihome 20:01: 1/day met (Publish #775 + QA pass), #992 queued (ship_after 2027-05-13); next publish #776 cool-roof-crrc-directory-climate-payback-2026 ship_after 2026-10-04; live re-check OK (story 308->200, hero 200, index 200, sitemap 1 hit).",
   "last_published_at": "2026-10-03T00:06:00-07:00",
   "note": "Run 2026-10-03 00:09 PDT: QA PASS for #775 (ai-digital-twin-home-warranty-carfax-digs-2026, Frank DeLuca) - story 200 on canonical redirect chain; hero 200; og tags; index card + 773-article count live; sitemap valid. Queue 209 remaining (#776 Priya Greenwood ships 2026-10-04). #785 anomaly (ship_after=None) still awaiting Ray decision.",
   "phase": "SHIP_READY",
