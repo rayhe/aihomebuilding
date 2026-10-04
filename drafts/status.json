@@ -41,16 +41,16 @@
  "hero_hash": "f5727005",
  "hero_real_jpeg": true,
  "journalist": "Frank DeLuca",
- "last_checked": "2026-10-03T22:02:18-07:00",
+ "last_checked": "2026-10-04T06:35:00-07:00",
  "last_completed": {
-  "article_number": 994,
-  "at": "2026-10-04T04:25:00-07:00",
+  "article_number": 995,
+  "at": "2026-10-04T06:35:00-07:00",
   "phase": "SHIP_READY",
-  "slug": "ai-811-private-utility-locate-gap-utility-strike-2026"
+  "slug": "ai-fortified-roof-grant-payback-documentation-2026"
  },
  "last_note": "1/day met: Publish #775 shipped 2026-10-03 PT. Current draft SHIP_READY (ai-3d-printed-home-carbon-myth-2026, #992 queued, ship_after 2027-05-13); no action due. Queue depth 209.",
  "last_published_at": "2026-10-04T00:06:00-07:00",
- "note": "Run 2026-10-04 04:25 PDT: #994 (ai-811-private-utility-locate-gap-utility-strike-2026, Frank DeLuca) RESEARCH->DRAFT->CRITIQUE->SHIP_READY, critique 8.80 avg, round 0. Queue 210 (tail 2027-05-15). #776 published earlier today (1/day rule holds).",
+ "note": "Run 2026-10-04 06:35 PDT: #995 (ai-fortified-roof-grant-payback-documentation-2026, Catherine Chen) researched, drafted, critiqued 8.76 avg, all gates pass; queued SHIP_READY ship_after 2027-05-16 (#776 already published today, one-per-day rule).",
  "phase": null,
  "research_file": "drafts/ai-3d-printed-home-carbon-myth-2026-research.md",
  "ship_ready": [
@@ -10084,6 +10084,57 @@
    "slug": "ai-811-private-utility-locate-gap-utility-strike-2026",
    "started": "2026-10-04T04:05:00-07:00",
    "word_count": 1472
+  },
+  {
+   "article_number": 995,
+   "critique_file": "drafts/ai-fortified-roof-grant-payback-documentation-2026-critique-r0.md",
+   "critique_score": 8.76,
+   "critique_scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.8,
+    "data_presentation": 8.6
+   },
+   "draft_file": "drafts/ai-fortified-roof-grant-payback-documentation-2026.html",
+   "hard_gates": {
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "long_pct": 45.5,
+     "passed": true,
+     "short_pct": 14.3,
+     "variance": 218.2
+    },
+    "the_starters": {
+     "limit": 15.0,
+     "passed": true,
+     "pct": 0.0
+    }
+   },
+   "headline": "Alabama Will Give You $10,000 for Your Roof on Tuesday. The Paperwork Decides Whether You Keep It.",
+   "hero_file": "images/ai-fortified-roof-grant-payback-documentation-2026.jpg",
+   "hero_hash": "0a41c2fc",
+   "hero_real_jpeg": true,
+   "journalist": "Catherine Chen",
+   "phase": "SHIP_READY",
+   "primary_sources": 7,
+   "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-15. Original contribution is the Fortified payback model (grant erases the 6-16% Ghosh marginal on an $18k re-roof; 22% LA auditor premium cut = ~$1,056/yr on $4,800 premium, ~$5,280 over the 5-yr designation; +7% ACIIR resale = $24,500 on $350k home) plus the documentation-regime analysis (IBHS 2025 checklist: 8 nail-spacing photos, geolocation stamps, FOCUS portal audit; homeowner-hired $300-500 evaluator; 90-day clock) and the Tuesday-morning grant-window playbook (AL SAH Q4: Mobile Oct 6, Baldwin Oct 8, 2026). 7 primary sources inline (LA Legislative Auditor, LA First News $100M, WA OIC/Ghosh, IBHS checklist, LSU AgCenter, ACIIR resale, AL SAH mechanics). Gates: 0 em dashes, The-starters 0.0%, 0 banned phrases, rhythm variance 218.2. Round 0; 3 gate-fix passes during drafting (The 21.3->0.0, variance 138.5->218.2).",
+   "research_file": "drafts/ai-fortified-roof-grant-payback-documentation-2026-research.md",
+   "rounds": 0,
+   "ship_after": "2027-05-16",
+   "slug": "ai-fortified-roof-grant-payback-documentation-2026",
+   "started": "2026-10-04T06:05:00-07:00",
+   "word_count": 2567
   }
  ],
  "slug": "ai-digital-twin-home-warranty-carfax-digs-2026",
