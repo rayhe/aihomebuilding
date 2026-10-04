@@ -1,5 +1,5 @@
 {
-  "article_number": 996,
+  "article_number": 997,
   "critique_round": 1,
   "critique_score": 8.94,
   "critique_scores": {
@@ -43,14 +43,14 @@
   "journalist": "Marcus \"Steel\" Washington",
   "last_checked": "2026-10-04T09:00:00-07:00",
   "last_completed": {
-    "article_number": 996,
-    "at": "2026-10-04T09:00:00-07:00",
+    "article_number": 997,
+    "at": "2026-10-04T10:30:00-07:00",
     "phase": "SHIP_READY",
-    "slug": "ai-heat-wearable-crew-safety-cost-2026"
+    "slug": "ai-lidar-grade-drainage-soil-infiltration-2026"
   },
-  "last_note": "Run 2026-10-04 09:00 PDT: #996 (ai-heat-wearable-crew-safety-cost-2026, Marcus Washington) researched, drafted, critiqued 8.86 avg, all gates pass; queued SHIP_READY ship_after 2027-05-17 (#776 already published today, one-per-day rule). Queue depth 212.",
+  "last_note": "Run 2026-10-04 10:30 PDT: #997 (ai-lidar-grade-drainage-soil-infiltration-2026, Elena Vasquez) researched, drafted, critiqued 8.90 avg, all gates pass; queued SHIP_READY ship_after 2027-05-18 (#776 already published today, one-per-day rule). Queue depth 213.",
   "last_published_at": "2026-10-04T00:06:00-07:00",
-  "note": "Run 2026-10-04 09:00 PDT: #996 (ai-heat-wearable-crew-safety-cost-2026, Marcus Washington) researched, drafted, critiqued 8.86 avg, all gates pass; queued SHIP_READY ship_after 2027-05-17 (#776 already published today, one-per-day rule).",
+  "note": "Run 2026-10-04 10:30 PDT: #997 (ai-lidar-grade-drainage-soil-infiltration-2026, Elena Vasquez) researched, drafted, critiqued 8.90 avg, all gates pass; queued SHIP_READY ship_after 2027-05-18 (#776 already published today, one-per-day rule). Queue depth 213.",
   "phase": null,
   "research_file": "drafts/ai-heat-wearable-crew-safety-cost-2026-research.md",
   "ship_ready": [
@@ -10185,6 +10185,64 @@
       "slug": "ai-heat-wearable-crew-safety-cost-2026",
       "started": "2026-10-04T08:15:00-07:00",
       "word_count": 1869
+    },
+    {
+      "article_number": 997,
+      "completed": "2026-10-04T10:30:00-07:00",
+      "critics": "7-critic panel",
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "hero": "JPEG 1920x1280",
+        "sentence_rhythm": {
+          "long_pct": 64.0,
+          "passed": true,
+          "short_pct": 9.3,
+          "variance": 207.5
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 3.7
+        }
+      },
+      "headline": "The Code Demands 6 Inches of Fall in 10 Feet. Clay Swallows 0.1 Inches an Hour.",
+      "hero_hash": "674a3ec0",
+      "hold_reason": "1/day rule: #776 published 2026-10-04; #997 queued for 2027-05-18",
+      "id": "ai-lidar-grade-drainage-soil-infiltration-2026",
+      "journalist": "Elena Vasquez",
+      "markup": "article-hero/article-container/article-body",
+      "phase": "SHIP_READY",
+      "primary_sources": 9,
+      "research_file": "drafts/ai-lidar-grade-drainage-soil-infiltration-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-05-18",
+      "slug": "ai-lidar-grade-drainage-soil-infiltration-2026",
+      "started": "2026-10-04T10:05:00-07:00",
+      "word_count": 2000,
+      "critique_score": 8.9,
+      "critique_scores": {
+        "construction_expert": 8.8,
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.8,
+        "voice_coach": 8.9
+      },
+      "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-17. Original contribution: soil-deficit calculation (NRCS infiltration x storm volume x rational method: clay ~20 gpm vs sand ~2-3 gpm, same code-compliant grade) + settlement audit (5% backfill settlement erases 4+ in of the 6-in code fall). 9 primary sources inline. Gates: 0 em dashes, The-starters 3.7%, 0 banned phrases, rhythm variance 207.5. Round 0; 3 gate-fix passes during drafting (rhythm 129.9->207.5, The 21.3->3.7).",
+      "critique_file": "drafts/ai-lidar-grade-drainage-soil-infiltration-2026-critique-r0.md",
+      "draft_file": "drafts/ai-lidar-grade-drainage-soil-infiltration-2026.html",
+      "hero_file": "images/ai-lidar-grade-drainage-soil-infiltration-2026.jpg",
+      "hero_real_jpeg": true
     }
   ],
   "slug": null,
