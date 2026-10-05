@@ -11,15 +11,7 @@
     "social_shareability": 8.8,
     "voice_coach": 9.1
   },
-  "current": {
-    "slug": "ai-remodel-roi-cost-vs-value-estimator-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-10-05T12:20:00-07:00",
-    "headline": "A $4,672 Garage Door Returns $12,526. A $161,511 Kitchen Returns $57,380. Your AI Estimator's Error Bar Decides the Rest.",
-    "research_file": "drafts/ai-remodel-roi-cost-vs-value-estimator-2026-research.md",
-    "primary_sources": 7
-  },
+  "current": null,
   "draft_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026.html",
   "draft_hash": null,
   "hard_gates": {
@@ -52,7 +44,7 @@
   "hero_real_jpeg": true,
   "journalist": "Elena Vasquez",
   "last_checked": "2026-10-05T02:20:00-07:00",
-  "last_completed": "2026-10-05T10:45:00-07:00",
+  "last_completed": "2026-10-05T12:45:00-07:00",
   "last_note": "Queued, not shipped: 2 publishes already 2026-10-05 PT (one-per-day rule); queue tail now 2027-05-30.",
   "last_published_at": "2026-10-05T02:15:00-07:00",
   "note": "Round 0 pass (8.87). Original contribution: present-value math on hidden levy ($55,059 flat / $68,462 w/ 2% escalation / $68,824 at $5K) + independent DTI cross-check ($52,684 borrowing power confirms $50-60K qual-hit claims) + bond-principal-priced-at-zero framing (firsttuesday). AI angle: Inman Gemini disclosure workflow (2025), TrueRoll assessor AI (Apr 2026), UPDF AI review (Sep 2026); skepticism: handwriting blind spots, NHD completeness disclaimers, mid-escrow timing. Cross-state: TX MUDs + FL CDDs same playbook. Counterargument: real infrastructure, near-payoff bargains, early payoff, TX deductibility.",
@@ -10834,6 +10826,59 @@
       "started": "2026-10-05T10:15:00-07:00",
       "rounds": 0,
       "note": "Round 0 pass (8.86). Original contribution: dual-filter task-selection analysis \u2014 humanoid payload envelope (15 lb rated arms vs ~4 lb batts; drywall 51-57 lb / plywood ~70 lb fail) x labor economics (BLS $49,120 median, NIOSH fiberglass hazard, unstructured material defeated legacy robots) converge on insulation as the first humanoid housing task. Counterargument: unproven dexterity on deformable batts, 30-90 min batteries vs 8-hr shifts, Katerra/Veev graveyard, announcement-vs-deployment. 9 sources inline. Rhythm 214.2/13.3/56.7 after two revision passes."
+    },
+    {
+      "article_number": 1010,
+      "completed": "2026-10-05T12:45:00-07:00",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "data_presentation": 9.2,
+        "ethics_reviewer": 8.7,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.6,
+        "research_rigor": 9.0,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 17.9,
+          "passed": true,
+          "short_pct": 20.5,
+          "variance": 88.8
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 0.9
+        }
+      },
+      "headline": "A $4,672 Garage Door Returns $12,526. A $161,511 Kitchen Returns $57,380. Your AI Estimator's Error Bar Decides the Rest.",
+      "hero_hash": "e8ecffbf",
+      "hero_file": "images/ai-remodel-roi-cost-vs-value-estimator-2026.jpg",
+      "hold_reason": "1/day already met (2 publishes 2026-10-05 PT); queued SHIP_READY per standing convention",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-remodel-roi-cost-vs-value-estimator-2026-research.md",
+      "draft_file": "drafts/ai-remodel-roi-cost-vs-value-estimator-2026.html",
+      "critique_file": "drafts/ai-remodel-roi-cost-vs-value-estimator-2026-critique-r0.md",
+      "word_count": 1927,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "ship_after": "2027-05-31",
+      "slug": "ai-remodel-roi-cost-vs-value-estimator-2026",
+      "started": "2026-10-05T12:20:00-07:00",
+      "rounds": 0,
+      "note": "Round 0 pass (8.87). Original contribution: estimator error-band analysis -- Kukun's stated 80% accuracy implies a +/-20% band wider than the $3,683 margin on the only profitable interior project (minor kitchen: 94% at +20%, 141% at -20%); garage door (224% at +20%) and upscale kitchen (44% at -20%) conclusions survive the band. Counterargument: NAR Joy Scores, only 18% remodel to sell. 7 sources inline. The-starters fixed 16.5%->0.9% pre-critique."
     }
   ],
   "slug": "ai-ansi-z765-gla-measurement-floor-plan-scan-2026",
