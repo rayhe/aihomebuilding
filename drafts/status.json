@@ -45,13 +45,13 @@
  "journalist": "Priya Greenwood",
  "last_checked": "2026-10-05T00:13:41.011009-07:00",
  "last_completed": {
-  "article_number": 1004,
-  "at": "2026-10-05T00:13:41.011009-07:00",
-  "phase": "SHIP_READY",
-  "slug": "ai-green-home-appraisal-gap-uad36-2026"
+  "article_number": 777,
+  "at": "2026-10-05T02:15:00-07:00",
+  "phase": "PUBLISHED",
+  "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026"
  },
- "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-25.",
- "last_published_at": "2026-10-04T00:06:00-07:00",
+ "last_note": "Publish #777 (thermal-drone-stucco-rot-moisture-intrusion-2026) 2026-10-05 PT; 1/day met. Next due: check ship_ready for 2026-10-06.",
+ "last_published_at": "2026-10-05T02:15:00-07:00",
  "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-25.",
  "phase": "SHIP_READY",
  "research_file": "drafts/ai-green-home-appraisal-gap-uad36-2026-research.md",
@@ -204,51 +204,6 @@
    "rounds": 0,
    "ship_after": "2026-12-04",
    "slug": "ai-voice-agents-receptionists-missed-calls-contractor-2026"
-  },
-  {
-   "article_number": 777,
-   "completed": "2026-09-04T20:07:00-07:00",
-   "critique_score": 8.7,
-   "critique_scores": {
-    "data_presentation": 8.8,
-    "ethics_reviewer": 9.0,
-    "general_editor": 8.6,
-    "legal_accuracy": 8.7,
-    "research_rigor": 8.6,
-    "social_shareability": 8.5,
-    "voice_coach": 8.7
-   },
-   "hard_gates": {
-    "banned_phrases": {
-     "count": 0,
-     "passed": true
-    },
-    "em_dash": {
-     "count": 0,
-     "limit": 3,
-     "passed": true
-    },
-    "the_starters": {
-     "limit": 15.0,
-     "passed": true,
-     "pct": 5.6
-    }
-   },
-   "headline": "Water Got Behind the Stucco in 2021. You Will Find Out in 2026, for $75,000.",
-   "hero_file": "images/thermal-drone-stucco-rot-moisture-intrusion-2026.jpg",
-   "hero_hash": "100c91b2",
-   "hero_note": "hero generated 2026-09-26 (1920x1280 real JPEG, gates re-verified: em_dash<=1, the_starters<15%, no banned phrases)",
-   "hero_real_jpeg": true,
-   "hold_reason": "1/day rule: #745, #746 published 2026-09-04; #747 through #776 queued for 2026-09-05 through 2026-10-04",
-   "id": 777,
-   "journalist": "Frank DeLuca",
-   "phase": "SHIP",
-   "primary_sources": 6,
-   "research_file": "drafts/thermal-drone-stucco-rot-moisture-intrusion-2026-research.md",
-   "rounds": 0,
-   "ship_after": "2026-10-05",
-   "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026",
-   "started": "2026-09-04T18:03:04.179808-07:00"
   },
   {
    "article_number": 778,
