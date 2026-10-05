@@ -1,7 +1,7 @@
 {
-  "article_number": 1008,
+  "article_number": 1011,
   "critique_round": 0,
-  "critique_score": 8.96,
+  "critique_score": 8.87,
   "critique_scores": {
     "data_presentation": 9.0,
     "ethics_reviewer": 9.0,
@@ -12,7 +12,7 @@
     "voice_coach": 9.1
   },
   "current": null,
-  "draft_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026.html",
+  "draft_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026.html",
   "draft_hash": null,
   "hard_gates": {
     "banned_phrases": {
@@ -39,17 +39,17 @@
     "hero_real_jpeg": true
   },
   "hero_cache_bust": null,
-  "hero_file": "images/ai-change-order-pricing-margin-markup-custom-home-2026.jpg",
-  "hero_hash": "32c7a000",
+  "hero_file": "images/cold-climate-heat-pump-defrost-energy-penalty-2026.jpg",
+  "hero_hash": "1d6c46f9",
   "hero_real_jpeg": true,
-  "journalist": "Elena Vasquez",
+  "journalist": "Priya Greenwood",
   "last_checked": "2026-10-05T02:20:00-07:00",
-  "last_completed": "2026-10-05T12:45:00-07:00",
-  "last_note": "Queued, not shipped: 2 publishes already 2026-10-05 PT (one-per-day rule); queue tail now 2027-05-30.",
+  "last_completed": "2026-10-05T14:30:00-07:00",
+  "last_note": "Queued, not shipped: 2 publishes already 2026-10-05 PT (one-per-day rule); queue tail now 2027-06-01.",
   "last_published_at": "2026-10-05T02:15:00-07:00",
-  "note": "Round 0 pass (8.87). Original contribution: present-value math on hidden levy ($55,059 flat / $68,462 w/ 2% escalation / $68,824 at $5K) + independent DTI cross-check ($52,684 borrowing power confirms $50-60K qual-hit claims) + bond-principal-priced-at-zero framing (firsttuesday). AI angle: Inman Gemini disclosure workflow (2025), TrueRoll assessor AI (Apr 2026), UPDF AI review (Sep 2026); skepticism: handwriting blind spots, NHD completeness disclaimers, mid-escrow timing. Cross-state: TX MUDs + FL CDDs same playbook. Counterargument: real infrastructure, near-payoff bargains, early payoff, TX deductibility.",
+  "note": "Round 0 pass (8.87). Original contribution: defrost-tax dollar model -- 700 kWh/yr (~10% of heating electricity) = $127/yr national avg, $220 MA, $87 LA; ~70% recoverable with smart controls ($89/$154/$61); pan-heater-only waste $52/yr. Counterargument: 90% isn't defrost (envelope/sizing/backup-heat dominate); RL controllers lab-only; under-defrosting can crack a coil. 7 sources inline. Rhythm fixed 111.4->210.1 pre-critique (fusions + punches).",
   "phase": "SHIP_READY",
-  "research_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026-research.md",
+  "research_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026-research.md",
   "ship_ready": [
     {
       "article_number": 771,
@@ -10879,16 +10879,69 @@
       "started": "2026-10-05T12:20:00-07:00",
       "rounds": 0,
       "note": "Round 0 pass (8.87). Original contribution: estimator error-band analysis -- Kukun's stated 80% accuracy implies a +/-20% band wider than the $3,683 margin on the only profitable interior project (minor kitchen: 94% at +20%, 141% at -20%); garage door (224% at +20%) and upscale kitchen (44% at -20%) conclusions survive the band. Counterargument: NAR Joy Scores, only 18% remodel to sell. 7 sources inline. The-starters fixed 16.5%->0.9% pre-critique."
+    },
+    {
+      "article_number": 1011,
+      "completed": "2026-10-05T14:30:00-07:00",
+      "critique_score": 8.87,
+      "critique_scores": {
+        "data_presentation": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.7,
+        "voice_coach": 8.9
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "long_pct": 51.0,
+          "passed": true,
+          "short_pct": 10.0,
+          "variance": 210.1
+        },
+        "the_starters": {
+          "limit": 15.0,
+          "passed": true,
+          "pct": 9.8
+        }
+      },
+      "headline": "Your Heat Pump Burns $127 Every Winter Melting Ice Off Itself. Smarter Software Wants It Back.",
+      "hero_hash": "1d6c46f9",
+      "hero_file": "images/cold-climate-heat-pump-defrost-energy-penalty-2026.jpg",
+      "hold_reason": "1/day already met (2 publishes 2026-10-05 PT); queued SHIP_READY per standing convention",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026-research.md",
+      "draft_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026.html",
+      "critique_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026-critique-r0.md",
+      "word_count": 2329,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "ship_after": "2027-06-01",
+      "slug": "cold-climate-heat-pump-defrost-energy-penalty-2026",
+      "started": "2026-10-05T14:05:00-07:00",
+      "rounds": 0,
+      "note": "Round 0 pass (8.87). Original contribution: defrost-tax dollar model -- 700 kWh/yr (~10% of heating electricity) = $127/yr national avg, $220 MA, $87 LA; ~70% recoverable with smart controls ($89/$154/$61); pan-heater-only waste $52/yr. Counterargument: 90% isn't defrost (envelope/sizing/backup-heat dominate); RL controllers lab-only; under-defrosting can crack a coil. 7 sources inline. Rhythm fixed 111.4->210.1 pre-critique (fusions + punches)."
     }
   ],
-  "slug": "ai-ansi-z765-gla-measurement-floor-plan-scan-2026",
-  "started": "2026-10-05T04:05:00-07:00",
-  "critique_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026-critique-r0.md",
-  "primary_sources": 9,
-  "word_count": 2054,
-  "markup": "article-hero/article-container/article-body",
+  "slug": "cold-climate-heat-pump-defrost-energy-penalty-2026",
+  "started": "2026-10-05T14:05:00-07:00",
+  "critique_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026-critique-r0.md",
+  "primary_sources": 7,
+  "word_count": 2329,
+  "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
   "ship_ready_note": "see ship_ready list",
   "rounds": 0,
-  "headline": "Your Basement Doesn't Count. Fannie Mae's Ruler Just Erased 800 Square Feet.",
-  "ship_after": "2027-05-28"
+  "headline": "Your Heat Pump Burns $127 Every Winter Melting Ice Off Itself. Smarter Software Wants It Back.",
+  "ship_after": "2027-06-01"
 }
