@@ -1,18 +1,18 @@
 {
- "article_number": 1005,
+ "article_number": 1006,
  "critique_round": 0,
- "critique_score": 8.87,
+ "critique_score": 8.96,
  "critique_scores": {
-  "data_presentation": 8.8,
+  "data_presentation": 9.0,
   "ethics_reviewer": 9.0,
-  "general_editor": 8.8,
-  "legal_accuracy": 8.9,
+  "general_editor": 9.0,
+  "legal_accuracy": 8.8,
   "research_rigor": 9.0,
-  "social_shareability": 8.7,
-  "voice_coach": 8.9
+  "social_shareability": 8.8,
+  "voice_coach": 9.1
  },
  "current": null,
- "draft_file": "drafts/mello-roos-hidden-special-tax-ai-disclosure-screen-2026.html",
+ "draft_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026.html",
  "draft_hash": null,
  "hard_gates": {
   "banned_phrases": {
@@ -39,22 +39,22 @@
   "hero_real_jpeg": true
  },
  "hero_cache_bust": null,
- "hero_file": "images/mello-roos-hidden-special-tax-ai-disclosure-screen-2026.jpg",
- "hero_hash": "6937330a",
+ "hero_file": "images/ai-change-order-pricing-margin-markup-custom-home-2026.jpg",
+ "hero_hash": "32c7a000",
  "hero_real_jpeg": true,
- "journalist": "Catherine Chen",
+ "journalist": "Frank \"The Foreman\" DeLuca",
  "last_checked": "2026-10-05T02:20:00-07:00",
  "last_completed": {
-  "article_number": 1005,
-  "at": "2026-10-05T03:05:00-07:00",
+  "article_number": 1006,
+  "at": "2026-10-05T04:12:42-07:00",
   "phase": "SHIP_READY",
-  "slug": "mello-roos-hidden-special-tax-ai-disclosure-screen-2026"
+  "slug": "ai-change-order-pricing-margin-markup-custom-home-2026"
  },
  "last_note": "Queued, not shipped: #777 already published 2026-10-05 PT (one-per-day rule); queue tail now 2027-05-26.",
  "last_published_at": "2026-10-05T02:15:00-07:00",
  "note": "Round 0 pass (8.87). Original contribution: present-value math on hidden levy ($55,059 flat / $68,462 w/ 2% escalation / $68,824 at $5K) + independent DTI cross-check ($52,684 borrowing power confirms $50-60K qual-hit claims) + bond-principal-priced-at-zero framing (firsttuesday). AI angle: Inman Gemini disclosure workflow (2025), TrueRoll assessor AI (Apr 2026), UPDF AI review (Sep 2026); skepticism: handwriting blind spots, NHD completeness disclaimers, mid-escrow timing. Cross-state: TX MUDs + FL CDDs same playbook. Counterargument: real infrastructure, near-payoff bargains, early payoff, TX deductibility.",
  "phase": "SHIP_READY",
- "research_file": "drafts/mello-roos-hidden-special-tax-ai-disclosure-screen-2026-research.md",
+ "research_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026-research.md",
  "ship_ready": [
   {
    "article_number": 771,
@@ -10662,13 +10662,71 @@
    "rounds": 0,
    "publish_note": "Queued, not shipped: #777 already published 2026-10-05 PT (one-per-day rule); queue tail now 2027-05-26.",
    "note": "Round 0 pass (8.87). Original contribution: present-value math on hidden levy ($55,059 flat / $68,462 w/ 2% escalation / $68,824 at $5K) + independent DTI cross-check ($52,684 borrowing power confirms $50-60K qual-hit claims) + bond-principal-priced-at-zero framing (firsttuesday). AI angle: Inman Gemini disclosure workflow (2025), TrueRoll assessor AI (Apr 2026), UPDF AI review (Sep 2026); skepticism: handwriting blind spots, NHD completeness disclaimers, mid-escrow timing. Cross-state: TX MUDs + FL CDDs same playbook. Counterargument: real infrastructure, near-payoff bargains, early payoff, TX deductibility."
+  },
+  {
+   "article_number": 1006,
+   "completed": "2026-10-05T04:12:42-07:00",
+   "critique_score": 8.96,
+   "critique_scores": {
+    "data_presentation": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "social_shareability": 8.8,
+    "voice_coach": 9.1
+   },
+   "hard_gates": {
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 203.7,
+     "short_pct": 11.1,
+     "long_pct": 55.6,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 8.9,
+     "limit": 15.0,
+     "passed": true
+    },
+    "hero": "JPEG 1920x1280",
+    "hero_real_jpeg": true
+   },
+   "hero_hash": "32c7a000",
+   "hero_file": "images/ai-change-order-pricing-margin-markup-custom-home-2026.jpg",
+   "hero_real_jpeg": true,
+   "headline": "Your Builder Bid at 10% Margin. Your Change Orders Billed at 25%.",
+   "hold_reason": "1/day rule: 2 publishes already logged 2026-10-05 PT; #1006 queued for 2027-05-27",
+   "journalist": "Frank \"The Foreman\" DeLuca",
+   "phase": "SHIP_READY",
+   "primary_sources": 9,
+   "research_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026-research.md",
+   "draft_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026.html",
+   "critique_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026-critique-r0.md",
+   "word_count": 2054,
+   "markup": "article-hero/article-container/article-body",
+   "ship_after": "2027-05-27",
+   "slug": "ai-change-order-pricing-margin-markup-custom-home-2026",
+   "started": "2026-10-05T04:05:00-07:00",
+   "rounds": 0,
+   "publish_note": "Queued, not shipped: 2 publishes already logged 2026-10-05 PT (one-per-day rule); queue tail now 2027-05-27.",
+   "note": "Round 0 pass (8.96). Original contribution: two-margin model (12% of revenue carries 23% of gross profit; 20% carries 33%) with labeled assumptions + allowance-gap compounding ($48K on $120K allowances at 40% underfunding = 6.4% of $750K contract) + labor-burden margin-hiding (29% actual vs 5.4/6.2% stated markups). AI angle: KonstructIQ AI estimating + change-order repricing, Buildertrend/CoConstruct approval workflows, AI takeoffs; skepticism: Fuellenbach process point, RSMeans lag, no accuracy dataset, 'price it later' is behavioral. Counterargument: owner-driven changes rank #2 (ETASR RII 0.755), genuine remobilization costs, thin competitive base bids."
   }
  ],
- "slug": "mello-roos-hidden-special-tax-ai-disclosure-screen-2026",
- "started": "2026-10-05T02:25:00-07:00",
- "critique_file": "drafts/mello-roos-hidden-special-tax-ai-disclosure-screen-2026-critique-r0.md",
- "primary_sources": 13,
- "word_count": 2455,
+ "slug": "ai-change-order-pricing-margin-markup-custom-home-2026",
+ "started": "2026-10-05T04:05:00-07:00",
+ "critique_file": "drafts/ai-change-order-pricing-margin-markup-custom-home-2026-critique-r0.md",
+ "primary_sources": 9,
+ "word_count": 2054,
  "markup": "article-hero/article-container/article-body",
- "ship_ready_note": "see ship_ready list"
+ "ship_ready_note": "see ship_ready list",
+ "rounds": 0
 }
