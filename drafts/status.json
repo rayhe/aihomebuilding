@@ -1,18 +1,18 @@
 {
-  "article_number": 1001,
+  "article_number": 1002,
   "critique_round": 0,
-  "critique_score": 8.83,
+  "critique_score": 8.89,
   "critique_scores": {
-    "data_presentation": 8.8,
+    "data_presentation": 8.9,
     "ethics_reviewer": 9.0,
-    "general_editor": 8.7,
+    "general_editor": 8.8,
     "legal_accuracy": 8.8,
     "research_rigor": 9.0,
     "social_shareability": 8.7,
-    "voice_coach": 8.8
+    "voice_coach": 9.0
   },
   "current": null,
-  "draft_file": "drafts/ai-manual-j-oversized-ac-rule-of-thumb-2026.html",
+  "draft_file": "drafts/ai-workers-comp-experience-mod-claim-cost-2026.html",
   "draft_hash": "5660ac98",
   "hard_gates": {
     "banned_phrases": {
@@ -25,13 +25,13 @@
       "passed": true
     },
     "sentence_rhythm": {
-      "variance": 214.0,
-      "short_pct": 14.8,
-      "long_pct": 50.0,
+      "variance": 203.4,
+      "short_pct": 14.1,
+      "long_pct": 51.6,
       "passed": true
     },
     "the_starters": {
-      "pct": 0.0,
+      "pct": 4.8,
       "limit": 15.0,
       "passed": true
     },
@@ -39,22 +39,22 @@
     "hero_real_jpeg": true
   },
   "hero_cache_bust": null,
-  "hero_file": "images/ai-manual-j-oversized-ac-rule-of-thumb-2026.jpg",
-  "hero_hash": "95798c4b",
+  "hero_file": "images/ai-workers-comp-experience-mod-claim-cost-2026.jpg",
+  "hero_hash": "93a351dd",
   "hero_real_jpeg": true,
-  "journalist": "Jake Kowalski",
-  "last_checked": "2026-10-04T18:15:47-07:00",
+  "journalist": "Marcus Washington",
+  "last_checked": "2026-10-04T20:11:03.591813-07:00",
   "last_completed": {
-    "article_number": 1001,
-    "at": "2026-10-04T18:15:47-07:00",
+    "article_number": 1002,
+    "at": "2026-10-04T20:11:03.591813-07:00",
     "phase": "SHIP_READY",
-    "slug": "ai-manual-j-oversized-ac-rule-of-thumb-2026"
+    "slug": "ai-workers-comp-experience-mod-claim-cost-2026"
   },
-  "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-18.",
+  "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail was 2027-05-22.",
   "last_published_at": "2026-10-04T00:06:00-07:00",
-  "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-22.",
+  "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-23.",
   "phase": null,
-  "research_file": "drafts/ai-manual-j-oversized-ac-rule-of-thumb-2026-research.md",
+  "research_file": "drafts/ai-workers-comp-experience-mod-claim-cost-2026-research.md",
   "ship_ready": [
     {
       "article_number": 771,
@@ -1008,7 +1008,7 @@
           "pct": 1.1
         }
       },
-      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "hero_hash": "7410ac40",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-17), publish per 1/day cadence.",
       "journalist": "Elena Vasquez",
@@ -4522,7 +4522,7 @@
       "journalist": "Catherine Chen",
       "phase": "SHIP_READY",
       "primary_sources": 6,
-      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey → $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200–$2,000 survey + $0 FEMA fee + ~60 days → kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance ≥200. Real JPEG hero verified (ffd8 magic).",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey \u2192 $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200\u2013$2,000 survey + $0 FEMA fee + ~60 days \u2192 kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance \u2265200. Real JPEG hero verified (ffd8 magic).",
       "research_file": "drafts/ai-flood-model-vs-fema-map-homebuyer-insurance-2026-research.md",
       "rounds": 0,
       "ship_after": "2027-01-18",
@@ -5146,7 +5146,7 @@
       "hero_hash": "3abdb903",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04",
       "journalist": "Catherine Chen",
-      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes — 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
+      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes \u2014 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/ai-construction-noise-ordinance-decibel-sensors-2026-research.md",
@@ -5879,7 +5879,7 @@
           "pct": 13.2
         }
       },
-      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54°F Hotter Than the White House Next Door.",
+      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54\u00b0F Hotter Than the White House Next Door.",
       "hero_hash": "38993f7e",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #909 queued for 2026-09-20 through 2027-02-19; #910 queued for 2027-02-20",
       "journalist": "Elena Vasquez",
@@ -6311,7 +6311,7 @@
           "pct": 13.9
         }
       },
-      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back — Within 24 Hours.",
+      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back \u2014 Within 24 Hours.",
       "hero_hash": "a0d51b1e",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #918 queued for 2026-09-21 through 2027-02-28; #919 queued for 2027-03-01",
       "journalist": "Catherine Chen",
@@ -6693,7 +6693,7 @@
           "pct": 10.6
         }
       },
-      "headline": "Your Insulation Was Tested at 75°F. Your Attic Hits 140°F.",
+      "headline": "Your Insulation Was Tested at 75\u00b0F. Your Attic Hits 140\u00b0F.",
       "hero_hash": "219256f1",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-08), next open slot 2027-03-09.",
       "journalist": "Priya Greenwood",
@@ -10479,8 +10479,68 @@
       "hold_reason": "1/day rule: #776 published 2026-10-04; #1001 queued for 2027-05-22",
       "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-22.",
       "note": "Round 0 pass (8.83). Original contribution: oversize-tax math (~$2,200 upfront from cost-table midpoints) + NYSERDA 160%-vs-150% severity cross-check + Manual J/S code-since-2009 enforcement gap. Counterargument: callbacks, heat waves, additions, inverter ramp-down (answered on airflow)."
+    },
+    {
+      "article_number": 1002,
+      "id": "ai-workers-comp-experience-mod-claim-cost-2026",
+      "slug": "ai-workers-comp-experience-mod-claim-cost-2026",
+      "headline": "Your Framer Costs $35 an Hour. His Insurance Costs $22. One Fall Bills You for Three Years.",
+      "journalist": "Marcus Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-05-23",
+      "started": "2026-10-04T20:01:52-07:00",
+      "completed": "2026-10-04T20:11:03.591813-07:00",
+      "rounds": 0,
+      "critics": "7-critic panel",
+      "critique_score": 8.89,
+      "critique_scores": {
+        "data_presentation": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
+      },
+      "hard_gates": {
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.4,
+          "short_pct": 14.1,
+          "long_pct": 51.6,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "hero": "JPEG 1920x1280",
+        "hero_real_jpeg": true
+      },
+      "hero_hash": "93a351dd",
+      "hero_file": "images/ai-workers-comp-experience-mod-claim-cost-2026.jpg",
+      "hero_cache_bust": null,
+      "hero_real_jpeg": true,
+      "research_file": "drafts/ai-workers-comp-experience-mod-claim-cost-2026-research.md",
+      "draft_file": "drafts/ai-workers-comp-experience-mod-claim-cost-2026.html",
+      "critique_file": "drafts/ai-workers-comp-experience-mod-claim-cost-2026-critique-r0.md",
+      "primary_sources": 12,
+      "word_count": 1439,
+      "markup": "article-hero/article-container/article-body",
+      "hold_reason": "1/day rule: #776 published 2026-10-04; #1002 queued for 2027-05-23",
+      "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-23.",
+      "note": "Round 0 pass (8.89). Original contribution: experience-mod penalty arithmetic ($95,148 three-year penalty at 1.25 mod on CEIWC worksheet example; $22.11/hr WC cost for $35/hr carpenter at 1.00 mod, $27.64 at 1.25) + NCCI $16,500 split-point frequency-punishment math + prevention ROI vs ~$500/mo AI vision monitoring. Counterargument: worker-surveillance privacy (union-hall data-bargaining framing). Imagine skill absent from catalog; hero generated via media pipeline."
     }
   ],
   "slug": null,
-  "started": "2026-10-04T18:01:52-07:00"
+  "started": "2026-10-04T20:01:52-07:00"
 }

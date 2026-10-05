@@ -1,0 +1,37 @@
+# Research: One Ladder Fall, Three Years of Premiums — the Experience-Mod Tax Hidden in Your Bid
+**Slug:** `ai-workers-comp-experience-mod-claim-cost-2026` | **Article #1002** | **Journalist:** Marcus "Steel" Washington (Workforce & Labor) | **Date:** 2026-10-04
+
+## Kill test
+Does this help someone building or buying a home? Yes, twice over. (1) It decodes why two framing bids can differ by 20 percent: the cheap one may carry a clean 0.85 experience mod, or may carry no workers' comp at all. (2) It gives the homeowner a three-item vetting checklist (license, COI with workers' comp, experience-mod worksheet) that is also their liability shield, because an uninsured contractor's injured worker can come after the homeowner (Rosas v. Dishong, 1998), while an insured, licensed contractor's injuries generally cannot reach the owner (Privette doctrine; Gonzalez v. Mathis, 2021).
+
+## Angle / thesis
+The most expensive line item in a residential bid is the one nobody reads: the workers' comp premium, multiplied by the contractor's experience modification factor. One average construction injury claim sits on a contractor's mod for three full years, costing five to six figures in pure penalty premium, and every dollar of it lands in the next homeowner's bid. Meanwhile AI computer-vision safety monitoring costs a few hundred dollars a month per camera and prevents the exact falls and struck-bys that drive the mod. The math for prevention is not close, yet almost no homeowner knows to ask about either number.
+
+## Sources (primary where possible)
+1. **CEIWC, "ABCs of Experience Rating" (NCCI experience-rating worksheet walkthrough, PDF)** — Exhibit F worked example: single roofing company, $200,000 roofer payroll at $63.17 per $100 payroll = $126,340; plus $525 clerical = $126,865 total premium; mod 1.25 -> $158,581 modified premium. https://www.ceiwc.com/PDFs/ABCs-of-Experience-Rating-NCCI.pdf
+2. **Best Supply, "High EMR and What to Do About It" (Sept 2026)** — cites NCCI: 2026 split point $16,500 (losses below count as "primary," full weight); average construction workers' comp claim $40,000-$70,000; Carolina Risk Partners: GCs/owners enforce prequalification EMR ceilings; USR (unit statistical report) audit errors common (misclassified codes, wrong policy year) per Gordon Coyle, The Coyle Group. https://www.bestsupply.com/best-supply-blog/high-emr-and-what-to-do-about-it-best-supply
+3. **HC&C Insurance, "What Is an Experience Modification Factor (E-Mod)?" (Sept 2026)** — mod table: $50,000 standard premium at 1.40 = $70,000; at 0.85 = $42,500; $27,500/year spread; at 1.75 some GCs will not hire the sub. https://www.hcandcinsurance.com/blog/what-is-an-experience-modification-factor-e-mod
+4. **Marsh McLennan Agency, "The connection between NCCI split points and increasing EMRs"** — split point rises with medical inflation; Illinois per-claim accident limit cut $485,500 (2023) -> $206,000 (2024); EMRs rising despite flat losses. https://marshmmamidwest.com/blog-post/the-connection-between-ncci-split-points-and-increasing-emrs/
+5. **Insurance Journal (May 1, 2026)** — WCIRB filed Sept 1, 2026 advisory pure premium rates proposing +10.4% above Sept 2025, driven by cumulative trauma claim frequency + higher medical/allocated loss adjustment expense. https://www.insurancejournal.com/news/west/2026/05/01/868001.htm
+6. **pagecrawl.io workers' comp rate-monitoring guide (Sept 2026)** — Insurance Commissioner approved Sept 1, 2026 advisory pure premium rates averaging $1.65 per $100 payroll, 6.6% above prior year; NH cut 6.1% (14th consecutive). https://pagecrawl.io/blog/workers-compensation-rate-class-code-monitoring
+7. **Risk Strategies, "How to Calculate Your Workers' Compensation Premium"** — every loss impacts the mod for a full three years; mod follows the business across carriers. https://www.risk-strategies.com/blog/3-factors-used-to-calculate-workers-compensation-premiums
+8. **Inman / attorney Julian Pardo de Zela (Ropers Majeski)** — unlicensed contractor injury: worker not limited to workers' comp, may sue the "employer" (homeowner) directly; homeowner liable even if unaware contractor was unlicensed (Rosas v. Dishong (1998) 67 Cal. App. 4th 815). https://www.inman.com/2015/03/11/unlicensed-contractors-are-a-hidden-risk-for-california-homeowners/
+9. **firsttuesday Journal / Claims Journal — Gonzalez v. Mathis (2021) 12 C5th 29** — CA Supreme Court: property owner not liable for contractor's injuries absent retained control (Privette doctrine). https://journal.firsttuesday.us/may-a-contractor-hold-a-property-owner-liable-for-injuries-caused-from-a-known-hazard-while-on-the-job/81098/
+10. **CSLB Sample Home Improvement Contract** — mechanics lien warning; workers' comp notice attached to contract; preliminary notice mechanics. https://www.cslb.ca.gov/Resources/GuidesAndPublications/2025/SAMPLE HOME IMPROVEMENT CONTRACT.pdf
+11. **GitHub awesome-jobsite-safety-platform comparison** — Intenseye ~$500/camera feed/month (24/7 AI computer vision, 50+ EHS/PPE violation types); Smartvid.io (Vinnie, acquired by Oracle) ~$600/project/month analyzing jobsite imagery for PPE violations and slip/fall hazards. Secondary/aggregator source: label as comparison-list figures, not vendor quotes. https://github.com/ishandutta2007/awesome-jobsite-safety-platform
+12. **NetPEO (Sept 2026)** — wearable sensors, drone scans, AI camera systems as real-time unsafe-behavior flags; EMR mechanics summary. https://www.netpeo.com/blog/how-to-reduce-workers-comp-costs-for-construction/
+
+## Original contribution (the math nobody ran)
+Worked arithmetic from the CEIWC Exhibit F example (roofing-class rate $63.17/$100, labeled as roofing, not framing):
+- Mod 1.25 vs 1.00 on $126,865 base = **+$31,716/year**; over the 3 years a claim rides the mod = **$95,148** in pure penalty premium.
+- Mod 1.40 vs 1.00 = +$50,746/year = $152,238 over 3 years.
+- Per-hour translation: at $63.17/$100, a $35/hr carpenter carries $22.11/hr of workers' comp at mod 1.00; $27.64 at 1.25; $17.69 at 0.80; $30.95 at 1.40. Annual (2080h): $45,988 at 1.00 vs $57,485 at 1.25 -> $11,497/yr penalty per carpenter.
+- Split-point arithmetic: on a $55,000 claim (midpoint of sourced $40-70k average), $16,500 counts as primary loss at full weight, $38,500 as excess at partial weight. Small claims punch above their weight for small contractors.
+- Prevention ROI: Intenseye-class AI vision ~$500/camera/month = $6,000/year. One prevented $55,000 claim avoids a plausible $95k-$152k three-year mod penalty. Payback is measured in weeks of avoided penalty, not years.
+- Framing-class caveat: the per-hour numbers use the roofing rate from the sourced worksheet; framing class codes run lower than roofing but far above the $1.65 all-industry CA average. The shape of the penalty is the point.
+
+## Limitations
+- The 1.25/1.40 mod scenarios are illustrative: NCCI's actual formula uses expected loss rates, D-ratios, ballast, and weighting values that vary by state and class; I did not run the full worksheet, I applied the mod to the sourced base premium.
+- AI safety-camera prices are comparison-list figures, not vendor quotes; enterprise pricing varies.
+- CA-specific legal notes (Rosas, Gonzalez/Privette, CSLB) do not generalize to all states.
+- The WCIRB +10.4% was the bureau's May 2026 proposal; the approved average was $1.65/$100 (6.6% above prior year) per the bureau's own description.
