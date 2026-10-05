@@ -3,22 +3,16 @@
  "critique_round": 0,
  "critique_score": 8.87,
  "critique_scores": {
-  "data_presentation": 8.9,
+  "data_presentation": 8.8,
   "ethics_reviewer": 9.0,
-  "general_editor": 8.8,
+  "general_editor": 8.7,
   "legal_accuracy": 8.9,
   "research_rigor": 9.0,
-  "social_shareability": 8.7,
-  "voice_coach": 8.8
+  "social_shareability": 8.8,
+  "voice_coach": 8.9
  },
- "current": {
-  "slug": "ai-green-home-appraisal-gap-uad36-2026",
-  "phase": "DRAFT",
-  "journalist": "Priya Greenwood",
-  "started": "2026-10-05T00:15:00-07:00",
-  "article_number": 1004
- },
- "draft_file": "drafts/dusty-fieldprinter-layout-robot-break-even-math-2026.html",
+ "current": null,
+ "draft_file": "drafts/ai-green-home-appraisal-gap-uad36-2026.html",
  "draft_hash": null,
  "hard_gates": {
   "banned_phrases": {
@@ -31,13 +25,13 @@
    "passed": true
   },
   "sentence_rhythm": {
-   "variance": 206.4,
-   "short_pct": 8.6,
-   "long_pct": 55.7,
+   "variance": 232.2,
+   "short_pct": 10.1,
+   "long_pct": 59.5,
    "passed": true
   },
   "the_starters": {
-   "pct": 10.1,
+   "pct": 1.2,
    "limit": 15.0,
    "passed": true
   },
@@ -45,21 +39,21 @@
   "hero_real_jpeg": true
  },
  "hero_cache_bust": null,
- "hero_file": "images/dusty-fieldprinter-layout-robot-break-even-math-2026.jpg",
- "hero_hash": "7d62f857",
+ "hero_file": "images/ai-green-home-appraisal-gap-uad36-2026.jpg",
+ "hero_hash": "89ac2ac1",
  "hero_real_jpeg": true,
  "journalist": "Priya Greenwood",
- "last_checked": "2026-10-04T22:10:25.017562-07:00",
+ "last_checked": "2026-10-05T00:13:41.011009-07:00",
  "last_completed": {
-  "article_number": 1003,
-  "at": "2026-10-04T22:10:25.017562-07:00",
+  "article_number": 1004,
+  "at": "2026-10-05T00:13:41.011009-07:00",
   "phase": "SHIP_READY",
-  "slug": "dusty-fieldprinter-layout-robot-break-even-math-2026"
+  "slug": "ai-green-home-appraisal-gap-uad36-2026"
  },
- "last_note": "Article #1004 research complete (Priya Greenwood): green appraisal gap + UAD 3.6 (mandatory Nov 2, 2026) + owned-vs-leased solar ownership paradox; 7 primary sources verified. Draft in progress.",
+ "last_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-25.",
  "last_published_at": "2026-10-04T00:06:00-07:00",
- "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-24.",
- "phase": "DRAFT",
+ "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-25.",
+ "phase": "SHIP_READY",
  "research_file": "drafts/ai-green-home-appraisal-gap-uad36-2026-research.md",
  "ship_ready": [
   {
@@ -10596,6 +10590,66 @@
    "ship_after": "2027-05-24",
    "slug": "dusty-fieldprinter-layout-robot-break-even-math-2026",
    "started": "2026-10-04T22:01:52-07:00"
+  },
+  {
+   "article_number": 1004,
+   "id": "ai-green-home-appraisal-gap-uad36-2026",
+   "slug": "ai-green-home-appraisal-gap-uad36-2026",
+   "headline": "Your Solar Panels Add $10,000 in Market Value. If You Leased Them, the Appraisal Says $0.",
+   "journalist": "Priya Greenwood",
+   "phase": "SHIP_READY",
+   "ship_after": "2027-05-25",
+   "started": "2026-10-05T00:15:00-07:00",
+   "completed": "2026-10-05T00:13:41.011009-07:00",
+   "rounds": 0,
+   "critics": "7-critic panel",
+   "critique_score": 8.87,
+   "critique_scores": {
+    "data_presentation": 8.8,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.7,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "social_shareability": 8.8,
+    "voice_coach": 8.9
+   },
+   "hard_gates": {
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 232.2,
+     "short_pct": 10.1,
+     "long_pct": 59.5,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 1.2,
+     "limit": 15.0,
+     "passed": true
+    },
+    "hero": "JPEG 1920x1280",
+    "hero_real_jpeg": true
+   },
+   "hero_hash": "89ac2ac1",
+   "hero_file": "images/ai-green-home-appraisal-gap-uad36-2026.jpg",
+   "hero_cache_bust": null,
+   "hero_real_jpeg": true,
+   "research_file": "drafts/ai-green-home-appraisal-gap-uad36-2026-research.md",
+   "draft_file": "drafts/ai-green-home-appraisal-gap-uad36-2026.html",
+   "critique_file": "drafts/ai-green-home-appraisal-gap-uad36-2026-critique-r0.md",
+   "primary_sources": 7,
+   "word_count": 2022,
+   "markup": "article-hero/article-container/article-body",
+   "hold_reason": "1/day rule: #776 published 2026-10-04; #1004 queued for 2027-05-25",
+   "publish_note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-25.",
+   "note": "Round 0 pass (8.87). Original contribution: AVM noise-floor math ($16,153 error band > $10,000 solar premium) + owned-vs-leased solar ownership paradox (~$10K gap on loan paperwork) + 30-year training-data lag vs 2026 UAD 3.6 reporting fix + premium-lives-in-listing-mentions reframing (257/SECC). Counterargument: market-value mirroring, leased exclusion as risk management, reporting-not-math (answered). Verified: UAD 3.6 mandatory Nov 2 2026, GREEN Act H.R.2413/S.1178 Introduced-only, AVM rule effective Oct 1 2025."
   }
  ],
  "slug": "ai-green-home-appraisal-gap-uad36-2026",
