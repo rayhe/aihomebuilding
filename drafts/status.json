@@ -43,14 +43,24 @@
  "hero_hash": "89ac2ac1",
  "hero_real_jpeg": true,
  "journalist": "Priya Greenwood",
- "last_checked": "2026-10-05T00:13:41.011009-07:00",
+ "last_checked": "2026-10-05T02:20:00-07:00",
  "last_completed": {
   "article_number": 777,
   "at": "2026-10-05T02:15:00-07:00",
   "phase": "PUBLISHED",
-  "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026"
+  "slug": "thermal-drone-stucco-rot-moisture-intrusion-2026",
+  "qa": {
+   "at": "2026-10-05T02:20:00-07:00",
+   "status": "pass",
+   "story": 200,
+   "hero": 200,
+   "og_tags": true,
+   "index_card": true,
+   "sitemap": true,
+   "note": "QA pass for Publish #777"
+  }
  },
- "last_note": "Publish #777 (thermal-drone-stucco-rot-moisture-intrusion-2026) 2026-10-05 PT; 1/day met. Next due: check ship_ready for 2026-10-06.",
+ "last_note": "QA pass for Publish #777 \u2014 live verified (story 200, hero 200, og tags, index card, sitemap)",
  "last_published_at": "2026-10-05T02:15:00-07:00",
  "note": "Queued, not shipped: #776 already published 2026-10-04 PT (one-per-day rule); queue tail now 2027-05-25.",
  "phase": "SHIP_READY",
