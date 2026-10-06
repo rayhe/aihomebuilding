@@ -11,7 +11,12 @@
     "research_rigor": 8.8,
     "data_presentation": 8.9
   },
-  "current": null,
+  "current": {
+    "slug": "ai-nfpa-13d-sprinkler-design-residential-2026",
+    "phase": "DRAFT",
+    "journalist": "Catherine \"Code\" Chen",
+    "started": "2026-10-05T20:05:00-07:00"
+  },
   "draft_file": "drafts/ai-foreman-retirement-knowledge-drain-2026.html",
   "draft_hash": null,
   "hard_gates": {
@@ -40,14 +45,14 @@
   "hero_file": "images/ai-foreman-retirement-knowledge-drain-2026.jpg",
   "hero_hash": "61807ff7",
   "hero_real_jpeg": true,
-  "journalist": "Marcus Washington",
+  "journalist": "Catherine \"Code\" Chen",
   "last_checked": "2026-10-05T02:20:00-07:00",
   "last_completed": "2026-10-05T18:45:00-07:00",
   "last_note": "Queued SHIP_READY #1013 (round 0 pass, 8.84); 1/day already met (2 publishes 2026-10-05 PT); queue tail now 2027-06-03.",
   "last_published_at": "2026-10-05T02:15:00-07:00",
   "note": "Round 0 pass (8.87). Original contribution: defrost-tax dollar model -- 700 kWh/yr (~10% of heating electricity) = $127/yr national avg, $220 MA, $87 LA; ~70% recoverable with smart controls ($89/$154/$61); pan-heater-only waste $52/yr. Counterargument: 90% isn't defrost (envelope/sizing/backup-heat dominate); RL controllers lab-only; under-defrosting can crack a coil. 7 sources inline. Rhythm fixed 111.4->210.1 pre-critique (fusions + punches).",
-  "phase": "SHIP_READY",
-  "research_file": "drafts/ai-foreman-retirement-knowledge-drain-2026-research.md",
+  "phase": "DRAFT",
+  "research_file": "drafts/ai-nfpa-13d-sprinkler-design-residential-2026-research.md",
   "ship_ready": [
     {
       "article_number": 771,
@@ -11030,15 +11035,15 @@
       "note": "Round 0 pass. Original contribution: BLS CPS 2025 trade-by-trade 55+ shares computed by author (supervisors 27.8%, median 46.4); capture-vs-replace cost model ($1K/yr vs $15K+ replace, assumptions shown). Counterargument: two-sided adoption trap, Polanyi's paradox, rational hoarding, self-inflicted 2008 pipeline collapse."
     }
   ],
-  "slug": "ai-foreman-retirement-knowledge-drain-2026",
-  "started": "2026-10-05T18:10:00-07:00",
+  "slug": "ai-nfpa-13d-sprinkler-design-residential-2026",
+  "started": "2026-10-05T20:05:00-07:00",
   "critique_file": "drafts/ai-foreman-retirement-knowledge-drain-2026-critique-r0.md",
   "primary_sources": 7,
   "word_count": 2669,
   "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
   "ship_ready_note": "see ship_ready list",
   "rounds": 0,
-  "headline": "28% of Construction Foremen Are 55 or Older. Nobody Wrote Down What They Know.",
-  "ship_after": "2027-06-03",
-  "number": 1013
+  "headline": "California Made Sprinklers Mandatory in 2011. AI Just Made the Design Cost Disappear.",
+  "ship_after": "2027-06-04",
+  "number": 1014
 }
