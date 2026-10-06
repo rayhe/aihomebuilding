@@ -1,17 +1,7 @@
 {
-  "current": {
-    "slug": "ai-stucco-lath-photo-qa-weep-screed-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "number": 1023,
-    "started": "2026-10-06T14:10:00-07:00",
-    "ship_after": "2027-06-13",
-    "research_file": "drafts/ai-stucco-lath-photo-qa-weep-screed-2026-research.md",
-    "primary_sources": 5,
-    "hold_reason": "1/day rule: 2 publishes already logged 2026-10-06 (PT-day check); #1022 queued for 2027-06-12; next open slot 2027-06-13."
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-06T12:30:00-07:00",
+  "last_completed": "2026-10-06T14:45:00-07:00",
   "last_published_at": "2026-10-06T02:50:00-07:00",
   "ship_ready": [
     {
@@ -11437,6 +11427,61 @@
       "primary_sources": 5,
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "note": "Round 0 passed all gates (The-starters fixed 20.5%->3.4% pre-score; headline Her->Your Roof). Original contribution: orientation-beats-size daylight framing for dormers (sDA/ASE), egress-first sequencing, shed-vs-gable-vs-eyebrow cost/beauty tension; honest limit: no dormer-specific production optimizer exists, applied physics not a dormer experiment."
+    },
+    {
+      "article_number": 1023,
+      "number": 1023,
+      "slug": "ai-stucco-lath-photo-qa-weep-screed-2026",
+      "headline": "A $1,500 Inspection or a $12,000 Rot Repair: The AI Wants Your Lath Photos First",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "started": "2026-10-06T14:10:00-07:00",
+      "completed": "2026-10-06T14:45:00-07:00",
+      "ship_after": "2027-06-13",
+      "hold_reason": "1/day rule: 2 publishes already logged 2026-10-06 (PT-day check); #1022 queued for 2027-06-12; next open slot 2027-06-13.",
+      "rounds": 0,
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 1.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 358.0,
+          "short_pct": 11.1,
+          "long_pct": 46.0,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-stucco-lath-photo-qa-weep-screed-2026-research.md",
+      "draft_file": "drafts/ai-stucco-lath-photo-qa-weep-screed-2026.html",
+      "critique_file": "drafts/ai-stucco-lath-photo-qa-weep-screed-2026-critique-r0.md",
+      "hero_file": "images/ai-stucco-lath-photo-qa-weep-screed-2026.jpg",
+      "hero_hash": "fad31cbf",
+      "hero_real_jpeg": true,
+      "word_count": 1518,
+      "primary_sources": 5,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "note": "Round 0 passed all gates (rhythm rewritten pre-score 96.9->358.0 variance). Original contribution: ASTM C1063 lath-checkpoint x AI-photo-verifiability matrix (3 verifiable, 2 not); honest limit: excerpt-based code language, no failure-apportionment study exists. Headline uses top-of-range figures with full ranges in body."
     }
   ]
 }
