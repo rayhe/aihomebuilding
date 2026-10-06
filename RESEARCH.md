@@ -1106,3 +1106,16 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: ASHRAE 62.2 ventilation below 2 ACH50; dollars-per-BTU loses to heat pumps; combustion safety
 - Journalist: Priya Greenwood (sustainability/energy beat)
 - **Queued SHIP 2027-04-20 as #969:** "Your House Passed Its Blower Door Test. It Still Changes All Its Air Every 20 Minutes." (critique avg 8.9, round 1; gates: 0 em dashes, 3.5% The-starters, rhythm variance 227.6; real JPEG hero 1920x1280, hash 2108a628)
+
+### 94. 🟢 AI Building Form Factor & the Residential Shape Tax (COMPLETED 2026-10-05)
+- Passivhaus Trust UK: heat-loss form factor A/TFA ≤ 3 benchmark for small buildings; A/V drives heating demand independent of U-values
+- MDPI Energies 2024 review: form factor key determinant of heating/cooling loads; rectangular lowest, H-shaped highest lifecycle EUI (Shadram et al.); up to 17% EUI spread across shapes in cold-climate study
+- MDPI Buildings 2025: fragmented forms (L-, T-, U-, E-shaped) generate higher lifelong heat losses than compact shapes
+- passivehouseplus.ie "Good form": envelope-to-volume ratio biggest single impact on energy performance; cube as practical ideal
+- Autodesk Forma (2020 Spacemaker acquisition): trained predictive models return sun/wind/noise/operational-energy in seconds at massing stage; Rapid Operational Energy Analysis; embodied carbon (EHDD model)
+- TestFit: free massing tool; parametric solving not AI; 2-3x more design iterations
+- EIA residential gas: Feb 2025 $12.94/Mcf (~$1.25/therm); Apr 2026 $18.17/Mcf (~$1.75/therm)
+- Original: shape-tax ledger — 2,400 sq ft box vs L (40x40 minus 20x20 notch): +1,826 sq ft wall (+73%), ~202 therms/yr ≈ $300/yr Chicago (U 0.077, 6,000 HDD, $1.50/therm), $5,200 30-yr PV, form factor 2.80 vs 2.04; invisible-market argument (priced per conditioned sq ft)
+- Strongest counterargument: daylight/ventilation/narrow lots, $40K resale premium, warm-climate asterisk (Depecker/Albatici), ADU/small-home geometry penalty as equity wrinkle
+- Journalist: Elena Vasquez (architecture & design beat)
+- **Queued SHIP 2027-06-05 as #1015:** "Your Floor Plan's L-Shape Costs $300 a Year in Heat. The Box Version Was Free." (critique avg 8.79, round 0; gates: 1 em dash, 10.7% The-starters, rhythm variance 220.9; real JPEG hero 1920x1280, hash 7ac7efef)
