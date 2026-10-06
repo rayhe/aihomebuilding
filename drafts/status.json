@@ -1,55 +1,53 @@
 {
-  "article_number": 1012,
+  "article_number": 1013,
   "critique_round": 0,
-  "critique_score": 8.79,
+  "critique_score": 8.84,
   "critique_scores": {
-    "data_presentation": 9.0,
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
     "ethics_reviewer": 9.0,
-    "general_editor": 9.0,
+    "social_shareability": 8.7,
     "legal_accuracy": 8.8,
-    "research_rigor": 9.0,
-    "social_shareability": 8.8,
-    "voice_coach": 9.1
+    "research_rigor": 8.8,
+    "data_presentation": 8.9
   },
   "current": null,
-  "draft_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026.html",
+  "draft_file": "drafts/ai-foreman-retirement-knowledge-drain-2026.html",
   "draft_hash": null,
   "hard_gates": {
+    "em_dash": {
+      "count": 1,
+      "limit": 3,
+      "passed": true
+    },
+    "the_starters": {
+      "pct": 2.9,
+      "limit": 15.0,
+      "passed": true
+    },
     "banned_phrases": {
       "count": 0,
       "passed": true
     },
-    "em_dash": {
-      "count": 0,
-      "limit": 3,
-      "passed": true
-    },
     "sentence_rhythm": {
-      "variance": 228.9,
-      "short_pct": 9.6,
-      "long_pct": 61.7,
+      "variance": 779.0,
+      "short_pct": 2.9,
+      "long_pct": 46.7,
       "passed": true
-    },
-    "the_starters": {
-      "pct": 6.7,
-      "limit": 15.0,
-      "passed": true
-    },
-    "hero": "JPEG 1920x1280",
-    "hero_real_jpeg": true
+    }
   },
   "hero_cache_bust": null,
-  "hero_file": "images/cold-climate-heat-pump-defrost-energy-penalty-2026.jpg",
-  "hero_hash": "1d6c46f9",
+  "hero_file": "images/ai-foreman-retirement-knowledge-drain-2026.jpg",
+  "hero_hash": "61807ff7",
   "hero_real_jpeg": true,
-  "journalist": "Jake Kowalski",
+  "journalist": "Marcus Washington",
   "last_checked": "2026-10-05T02:20:00-07:00",
-  "last_completed": "2026-10-05T17:10:00-07:00",
-  "last_note": "Queued, not shipped: 2 publishes already 2026-10-05 PT (one-per-day rule); queue tail now 2027-06-01.",
+  "last_completed": "2026-10-05T18:45:00-07:00",
+  "last_note": "Queued SHIP_READY #1013 (round 0 pass, 8.84); 1/day already met (2 publishes 2026-10-05 PT); queue tail now 2027-06-03.",
   "last_published_at": "2026-10-05T02:15:00-07:00",
   "note": "Round 0 pass (8.87). Original contribution: defrost-tax dollar model -- 700 kWh/yr (~10% of heating electricity) = $127/yr national avg, $220 MA, $87 LA; ~70% recoverable with smart controls ($89/$154/$61); pan-heater-only waste $52/yr. Counterargument: 90% isn't defrost (envelope/sizing/backup-heat dominate); RL controllers lab-only; under-defrosting can crack a coil. 7 sources inline. Rhythm fixed 111.4->210.1 pre-critique (fusions + punches).",
   "phase": "SHIP_READY",
-  "research_file": "drafts/ai-lightning-surge-protection-roi-2026-research.md",
+  "research_file": "drafts/ai-foreman-retirement-knowledge-drain-2026-research.md",
   "ship_ready": [
     {
       "article_number": 771,
@@ -10978,17 +10976,69 @@
       "started": "2026-10-05T16:20:00-07:00",
       "hold_reason": "1/day already met (2 publishes 2026-10-05 PT); queued SHIP_READY per standing convention",
       "note": "Round 0 fail on rigor (unsourced $40K electronics figure; 'nearly tripled' overstated 2.47x). Fixed round 1: softened to 'tens of thousands', 'more than doubled'. Original contribution: SPD break-even model ($450 installed vs $26,616 avg claim; 59x coverage; deductible-centered ROI). Counterargument: SPDs can't stop direct strikes; insurance covers lightning; MOV degradation; ML nowcasting not a consumer product."
+    },
+    {
+      "number": 1013,
+      "slug": "ai-foreman-retirement-knowledge-drain-2026",
+      "phase": "SHIP_READY",
+      "journalist": "Marcus Washington",
+      "headline": "28% of Construction Foremen Are 55 or Older. Nobody Wrote Down What They Know.",
+      "research_file": "drafts/ai-foreman-retirement-knowledge-drain-2026-research.md",
+      "draft_file": "drafts/ai-foreman-retirement-knowledge-drain-2026.html",
+      "critique_file": "drafts/ai-foreman-retirement-knowledge-drain-2026-critique-r0.md",
+      "hero_file": "images/ai-foreman-retirement-knowledge-drain-2026.jpg",
+      "hero_hash": "61807ff7",
+      "primary_sources": 7,
+      "word_count": 2669,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "rounds": 0,
+      "critique_score": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.9,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 779.0,
+          "short_pct": 2.9,
+          "long_pct": 46.7,
+          "passed": true
+        }
+      },
+      "ship_after": "2027-06-03",
+      "started": "2026-10-05T18:10:00-07:00",
+      "hold_reason": "1/day rule: 2 publishes already 2026-10-05 PT; #1013 queued for 2027-06-03",
+      "note": "Round 0 pass. Original contribution: BLS CPS 2025 trade-by-trade 55+ shares computed by author (supervisors 27.8%, median 46.4); capture-vs-replace cost model ($1K/yr vs $15K+ replace, assumptions shown). Counterargument: two-sided adoption trap, Polanyi's paradox, rational hoarding, self-inflicted 2008 pipeline collapse."
     }
   ],
-  "slug": "ai-lightning-surge-protection-roi-2026",
-  "started": "2026-10-05T16:20:00-07:00",
-  "critique_file": "drafts/cold-climate-heat-pump-defrost-energy-penalty-2026-critique-r0.md",
+  "slug": "ai-foreman-retirement-knowledge-drain-2026",
+  "started": "2026-10-05T18:10:00-07:00",
+  "critique_file": "drafts/ai-foreman-retirement-knowledge-drain-2026-critique-r0.md",
   "primary_sources": 7,
-  "word_count": 2329,
+  "word_count": 2669,
   "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
   "ship_ready_note": "see ship_ready list",
-  "rounds": 1,
-  "headline": "Lightning Claims Just Averaged $26,616. The $400 Fix Is Already Code.",
-  "ship_after": "2027-06-02",
-  "number": 1012
+  "rounds": 0,
+  "headline": "28% of Construction Foremen Are 55 or Older. Nobody Wrote Down What They Know.",
+  "ship_after": "2027-06-03",
+  "number": 1013
 }
