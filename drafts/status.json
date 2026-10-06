@@ -1,17 +1,7 @@
 {
-  "current": {
-    "slug": "ai-propane-vaporization-cold-weather-btu-gap-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-10-06T04:06:07.671337-07:00",
-    "number": 1018,
-    "article_number": 1018,
-    "ship_after": "2027-06-08",
-    "research_file": "drafts/ai-propane-vaporization-cold-weather-btu-gap-2026-research.md",
-    "primary_sources": 6
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-06T03:05:00-07:00",
+  "last_completed": "2026-10-06T04:12:03.608305-07:00",
   "last_published_at": "2026-10-06T02:50:00-07:00",
   "ship_ready": [
     {
@@ -11168,6 +11158,61 @@
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "hold_reason": "1/day rule: #1016 queued for 2027-06-06; #1017 queued for 2027-06-07",
       "note": "Round 0 pass. Original contribution: payback-by-tier model (20,000 gal/yr = 26.7 CCF; Grand Junction 0-140/yr -> 17yr payback vs San Diego 15-320/yr -> 6-9yr payback) + rough-in optionality play (00-500 dual plumbing at framing vs 4-16 plumber hrs/bathroom retrofit). Counterargument: multifamily-scale evidence, maintenance tax, code patchwork, embodied carbon vs water saved."
+    },
+    {
+      "number": 1018,
+      "article_number": 1018,
+      "slug": "ai-propane-vaporization-cold-weather-btu-gap-2026",
+      "headline": "Your Propane Gauge Reads 20%. At Zero Degrees, Your Furnace Is Already Starving.",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP",
+      "started": "2026-10-06T04:06:07.671337-07:00",
+      "completed": "2026-10-06T04:12:03.608305-07:00",
+      "ship_after": "2027-06-08",
+      "rounds": 0,
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.1,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 225.0,
+          "short_pct": 13.4,
+          "long_pct": 37.1,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-propane-vaporization-cold-weather-btu-gap-2026-research.md",
+      "draft_file": "drafts/ai-propane-vaporization-cold-weather-btu-gap-2026.html",
+      "critique_file": "drafts/ai-propane-vaporization-cold-weather-btu-gap-2026-critique-r0.md",
+      "hero_file": "images/ai-propane-vaporization-cold-weather-btu-gap-2026.jpg",
+      "hero_hash": "8b7a188e",
+      "hero_real_jpeg": true,
+      "word_count": 1903,
+      "primary_sources": 6,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "hold_reason": "1/day rule: #778 published 2026-10-06 (PT-day check); #1017 queued for 2027-06-07; #1018 queued for 2027-06-08",
+      "note": "Round 0 pass. Original contribution: vaporization crossover table (500-gal tank, fill x temp vs 205K connected / 140K evening load) + '160-gallon effective tank' reframing + starvation-warning product gap (sensor fill % x forecast low x vaporization curve; no vendor ships it). Counterarguments: tail-risk framing, nominal tables, underground-tank physics, sensors-don't-fix-physics, leased-tank friction."
     }
   ]
 }
