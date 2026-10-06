@@ -1,21 +1,7 @@
 {
-  "current": {
-    "slug": "ai-wildfire-risk-score-insurance-discount-gap-2026",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Catherine \"Code\" Chen",
-    "started": "2026-10-06T16:10:00-07:00",
-    "number": 1024,
-    "ship_after": "2027-06-14",
-    "research_file": "drafts/ai-wildfire-risk-score-insurance-discount-gap-2026-research.md",
-    "draft_file": "drafts/ai-wildfire-risk-score-insurance-discount-gap-2026.html",
-    "hero_file": "images/ai-wildfire-risk-score-insurance-discount-gap-2026.jpg",
-    "hero_hash": "c26e7b36",
-    "hero_real_jpeg": true,
-    "primary_sources": 8
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-06T14:45:00-07:00",
+  "last_completed": "2026-10-06T16:45:00-07:00",
   "last_published_at": "2026-10-06T02:50:00-07:00",
   "ship_ready": [
     {
@@ -11496,6 +11482,61 @@
       "primary_sources": 5,
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "note": "Round 0 passed all gates (rhythm rewritten pre-score 96.9->358.0 variance). Original contribution: ASTM C1063 lath-checkpoint x AI-photo-verifiability matrix (3 verifiable, 2 not); honest limit: excerpt-based code language, no failure-apportionment study exists. Headline uses top-of-range figures with full ranges in body."
+    },
+    {
+      "article_number": 1024,
+      "completed": "2026-10-06T16:45:00-07:00",
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 14.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 208.9,
+          "short_pct": 13.9,
+          "long_pct": 55.7,
+          "passed": true
+        }
+      },
+      "headline": "Your Insurer's AI Watched Your Yard From Space. It Raised Your Risk 71%.",
+      "hero_hash": "c26e7b36",
+      "hold_reason": "1/day rule: 2 publishes already logged 2026-10-06 (PT-day check); #1023 queued for 2027-06-13; next open slot 2027-06-14.",
+      "journalist": "Catherine \"Code\" Chen",
+      "number": 1024,
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-wildfire-risk-score-insurance-discount-gap-2026-research.md",
+      "draft_file": "drafts/ai-wildfire-risk-score-insurance-discount-gap-2026.html",
+      "critique_file": "drafts/ai-wildfire-risk-score-insurance-discount-gap-2026-critique-r0.md",
+      "hero_file": "images/ai-wildfire-risk-score-insurance-discount-gap-2026.jpg",
+      "hero_real_jpeg": true,
+      "word_count": 2680,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "rounds": 0,
+      "ship_after": "2027-06-14",
+      "slug": "ai-wildfire-risk-score-insurance-discount-gap-2026",
+      "started": "2026-10-06T16:10:00-07:00",
+      "note": "Round 0 passed all gates (rhythm rewritten pre-score 131.2->208.9 variance; the-starters trimmed to 14.3%). Original contributions: 71% compounded probability increase (1.51^1.3) for the 52% of CA homes whose Z-FIRE scores worsened 2022-2025; 37-66yr payback of the $2,780 IBHS ember-zone retrofit at Farmers' $42-$75/yr CDI-mandated discounts; new-build-vs-retrofit incentive cross-check. Honest limits: vendor-published Z-FIRE figures, 2018 IBHS cost data, multiplicative-risk assumption disclosed. Headline uses low-end discount figure with full range in body."
     }
   ]
 }
