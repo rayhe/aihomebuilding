@@ -248,6 +248,18 @@ When you discover a new topic worth covering, add it here with:
 
 ## Recently Added
 
+### 68. 🟢 AI-Native Fire Sprinkler Design (NFPA 13D) for New Homes
+- FireDesign.ai U.S. patent (July 2026): CAD floor plan → validated sprinkler design + hydraulic analysis in minutes; hybrid AI + deterministic engineering logic
+- Pre-AI baseline: SprinkCAD/SprinkCALC hydraulic calcs in Revit, AutoSPRINK 3D design; NICET designers remain the bottleneck
+- Liability thesis: no state licensing framework covers AI-generated life-safety calcs; stamp still human; ISO/Verisk CG 40 47/48 AI exclusions (Jan 2026)
+- FPRF: $1.61/sq ft avg (range $0.38–$3.66); NFPA: 81% lower death rate, 95% of fires controlled by 1–2 heads; Scottsdale/PG County 15-yr studies: zero deaths sprinklered
+- Original: expected-loss payback model (~$105/yr loss diff; PV $1,815 + insurance PV $3,458 vs $3,220 installed); IRC trade-ups (street widths, hydrant spacing, density)
+- Counterargument: NAHB affordability, mandate-without-retrofit, 1998 Omega recall (8.4M heads), dry-pipe 2×, 13D coverage omissions
+- Journalist: Catherine "Code" Chen (policy & regulation beat)
+- **Published:** "California Made Home Sprinklers Mandatory in 2011. The AI That Designs Them Just Got a Patent." (queued 2027-06-04 as #1014)
+
+
+
 ### 31. 🟢 In-Drum Concrete Intelligence — Slump & Water-Addition Monitoring
 - Command Alkon Load Assurance (ex-VERIFI) in-drum sensors: slump, temp, water additions, w/c ratio streamed in transit; MoDOT/Iowa State acceptance study
 - 1 gal/yd ≈ 1 inch slump, ~150-200 PSI lost per gallon, 2 gal/yd wipes strength overdesign (NRMCA CIP 26); ASTM C94 ticket-recording rules
