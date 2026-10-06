@@ -1,7 +1,7 @@
 {
   "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-05T20:35:00-07:00",
+  "last_completed": "2026-10-05T22:45:00-07:00",
   "last_published_at": "2026-10-05T02:15:00-07:00",
   "ship_ready": [
     {
@@ -11038,6 +11038,61 @@
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "hold_reason": "1/day rule: #1013 queued for 2027-06-03; #1014 queued for 2027-06-04",
       "note": "Round 0 pass. Original contribution: expected-loss payback model ($105/yr expected loss diff; PV $1,815 + insurance PV $3,458 vs $3,220 installed, $2,150 net of incentives). Counterargument: NAHB affordability, mandate-without-retrofit, Omega recall, dry-pipe 2x, 13D coverage omissions. Liability thesis: stamp still human, ISO AI exclusions."
+    },
+    {
+      "number": 1015,
+      "article_number": 1015,
+      "slug": "ai-building-form-factor-shape-tax-2026",
+      "headline": "Your Floor Plan's L-Shape Costs $300 a Year in Heat. The Box Version Was Free.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP",
+      "started": "2026-10-05T22:05:00-07:00",
+      "completed": "2026-10-05T22:45:00-07:00",
+      "ship_after": "2027-06-05",
+      "rounds": 0,
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 10.7,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 220.9,
+          "short_pct": 10.7,
+          "long_pct": 57.1,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-building-form-factor-shape-tax-2026-research.md",
+      "draft_file": "drafts/ai-building-form-factor-shape-tax-2026.html",
+      "critique_file": "drafts/ai-building-form-factor-shape-tax-2026-critique-r0.md",
+      "hero_file": "images/ai-building-form-factor-shape-tax-2026.jpg",
+      "hero_hash": "7ac7efef",
+      "hero_real_jpeg": true,
+      "word_count": 2492,
+      "primary_sources": 7,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "hold_reason": "1/day rule: #1014 queued for 2027-06-04; #1015 queued for 2027-06-05",
+      "note": "Round 0 pass. Original contribution: shape-tax ledger (1,826 sq ft extra wall +73%, ~$300/yr Chicago heating, $5,200 30-yr PV, form factor 2.80 vs 2.04) + invisible-market argument (priced per conditioned sq ft). Counterargument: daylight/ventilation/narrow lots, $40K resale premium, Sun Belt asterisk, ADU equity wrinkle. AI thesis: Forma runs the calc in seconds at massing stage; single-family never runs it."
     }
   ]
 }
