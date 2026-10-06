@@ -1,7 +1,7 @@
 {
   "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-05T22:45:00-07:00",
+  "last_completed": "2026-10-06T01:30:00-07:00",
   "last_published_at": "2026-10-05T02:15:00-07:00",
   "ship_ready": [
     {
@@ -11093,6 +11093,61 @@
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "hold_reason": "1/day rule: #1014 queued for 2027-06-04; #1015 queued for 2027-06-05",
       "note": "Round 0 pass. Original contribution: shape-tax ledger (1,826 sq ft extra wall +73%, ~$300/yr Chicago heating, $5,200 30-yr PV, form factor 2.80 vs 2.04) + invisible-market argument (priced per conditioned sq ft). Counterargument: daylight/ventilation/narrow lots, $40K resale premium, Sun Belt asterisk, ADU equity wrinkle. AI thesis: Forma runs the calc in seconds at massing stage; single-family never runs it."
+    },
+    {
+      "number": 1016,
+      "article_number": 1016,
+      "slug": "ai-bird-safe-glazing-compliance-ledger-2026",
+      "headline": "46% of Bird-Window Deaths Happen at Houses. The Fix Costs $24 and Fits in an Envelope.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP",
+      "started": "2026-10-06T00:05:00-07:00",
+      "completed": "2026-10-06T01:30:00-07:00",
+      "ship_after": "2027-06-06",
+      "rounds": 0,
+      "critique_score": 8.77,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 1,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 162.5,
+          "short_pct": 29.7,
+          "long_pct": 32.3,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-bird-safe-glazing-compliance-ledger-2026-research.md",
+      "draft_file": "drafts/ai-bird-safe-glazing-compliance-ledger-2026.html",
+      "critique_file": "drafts/ai-bird-safe-glazing-compliance-ledger-2026-critique-r0.md",
+      "hero_file": "images/ai-bird-safe-glazing-compliance-ledger-2026.jpg",
+      "hero_hash": "1c817e08",
+      "hero_real_jpeg": true,
+      "word_count": 2876,
+      "primary_sources": 10,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "hold_reason": "1/day rule: #1015 queued for 2027-06-05; #1016 queued for 2027-06-06",
+      "note": "Round 0 pass. Original contribution: bird-safe compliance ledger ($1,500-3,500 spec-stage glazing premium vs plan-check change order vs <$60 DIY for the two deadliest windows; NYC Int 1073 2030 multifamily retrofit cliff) + pattern-timing argument (2x4 rule is 2009 science, 2011/2021 code; algorithmic pattern design + ML deterrence emerging, no facade risk score in design tools yet). Counterargument: thin enforcement, Int 1073 not law, cats kill 2.4B/yr, AI prototype-stage, 60% of treated birds die anyway."
     }
   ]
 }

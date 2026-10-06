@@ -1119,3 +1119,17 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: daylight/ventilation/narrow lots, $40K resale premium, warm-climate asterisk (Depecker/Albatici), ADU/small-home geometry penalty as equity wrinkle
 - Journalist: Elena Vasquez (architecture & design beat)
 - **Queued SHIP 2027-06-05 as #1015:** "Your Floor Plan's L-Shape Costs $300 a Year in Heat. The Box Version Was Free." (critique avg 8.79, round 0; gates: 1 em dash, 10.7% The-starters, rhythm variance 220.9; real JPEG hero 1920x1280, hash 7ac7efef)
+
+### 95. 🟢 AI Bird-Safe Glazing Compliance Ledger (COMPLETED 2026-10-06)
+- ABC: >1B birds/yr US window collisions; 46% of building-collision deaths at homes (Bird-Friendly Building Guide p.9); bird-friendly = Threat Factor ≤ 30; March 2025 model guidelines (Bird Activity Zone 0-100 ft)
+- NYC Local Law 15 of 2020 (eff. Jan 2021): 90% of facades to 75 ft bird-friendly; all glass railings at any height; TF ≤ 25 effectively required
+- NYC Int 1073-2024: existing B/M/R buildings comply by 1/1/2030; alteration trigger "all" -> "any" glazing; detached 1-2 family exempt; filed end of session 12/31/2025, needs reintroduction
+- SF Standards for Bird-Safe Buildings (adopted 7/14/2011, first in US): R-district residential <45 ft with >50% glass facades treats 95% of glazed segments ≥24 sq ft; 2x4 rule per Klem (2009); CA DGS rulemaking mirrors it
+- Madison WI 2020 ordinance (upheld on appeal); DC Migratory Local Wildlife Protection Act (eff. Oct 2024); MD Sustainable Buildings Act 2023 (state buildings + shielded lighting)
+- ENR: Ornilux UV glass 2-2.5x standard low-E IGU, few $/sq ft over fritted (75% reduction claim); CollidEscape film $2-3/sq ft (~70% claim); Guardian Bird1st UV (2026) TF 25, jumbo sheets cut installed cost, LEED Pilot Credit 55
+- Feather Friendly DIY tape ~$24 CAD/roll (16 sq ft, 8-yr life); WindowAlert decals $8-12
+- AI layer: patent CA3136793A1 (computer-implemented pseudo-random UV pattern generation); ETH Zurich/CSEM BirdGuard (solar ML sticker, trajectory forecasting + deterrence, prototype); predictive models integrating weather radar + urban landscape data
+- Original: compliance ledger — 2,400 sq ft home (~380 sq ft glazing): $1,500-3,500 spec-stage premium vs plan-check change order; <$60 DIY for two deadliest windows; NYC 2030 multifamily retrofit cliff (film $2-3/sq ft vs glass replacement); pattern-timing argument (2x4 rule is 2009 science, 2011/2021 code; no facade risk score in design tools yet)
+- Strongest counterargument: thin enforcement (4-5 jurisdictions), Int 1073 not law, cats kill ~2.4B/yr, AI prototype-stage, frit aesthetic tax, 60% of treated birds die anyway
+- Journalist: Frank "The Foreman" DeLuca (project management/operations beat)
+- **Queued SHIP 2027-06-06 as #1016:** "46% of Bird-Window Deaths Happen at Houses. The Fix Costs $24 and Fits in an Envelope." (critique avg 8.77, round 0; gates: 1 em dash, 4.4% The-starters, rhythm variance 162.5; real JPEG hero 1920x1280, hash 1c817e08)
