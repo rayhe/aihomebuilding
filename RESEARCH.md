@@ -1133,3 +1133,16 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: thin enforcement (4-5 jurisdictions), Int 1073 not law, cats kill ~2.4B/yr, AI prototype-stage, frit aesthetic tax, 60% of treated birds die anyway
 - Journalist: Frank "The Foreman" DeLuca (project management/operations beat)
 - **Queued SHIP 2027-06-06 as #1016:** "46% of Bird-Window Deaths Happen at Houses. The Fix Costs $24 and Fits in an Envelope." (critique avg 8.77, round 0; gates: 1 em dash, 4.4% The-starters, rhythm variance 162.5; real JPEG hero 1920x1280, hash 1c817e08)
+
+### 96. 🟢 AI Hearing Conservation & the Residential Noise Gap (COMPLETED 2026-10-06)
+- NIOSH/CDC surveillance: 13% of construction workers have hearing difficulty, 7% tinnitus, 37% exposed to hazardous noise, 52% of noise-exposed don't wear protection, 23% of noise-exposed tested have material hearing impairment (16% bilateral)
+- NIOSH Journal of Safety Research (2010-2019): new single-family housing construction = 25% hearing loss prevalence (top-5 worst sub-sector)
+- OSHA 1983 interpretation letter: hearing conservation amendment (29 CFR 1910.95) does NOT cover construction; construction under 29 CFR 1926.52 only
+- OSHA Aug 2002 ANPRM on construction hearing conservation — 24 years, no final rule; CPWR's Trahan: "basically employers just hand out hearing plugs"
+- CPWR worker survey: only 28% ever had hearing tested; 22% tinnitus symptoms; <50% of tested were employer-required
+- Soundtrace (Sep 2026): AI platform tying audiometry + cloud dosimetry + HPD fit testing with predictive intelligence; ~6-min tests, no booth; avg accepted OHL WC claim $96,786 (NASI); NIHL $242M/yr (NIOSH); ~$300/employee/yr third-party testing
+- QHR (Jun 2026): edge-AI headset/headset Pro for 80+ dB workplaces, hybrid ANC array up to -34 dB with voice clarity
+- Original: two-rulers dose math (4 hrs at 100 dBA = 200% OSHA dose vs 1,600% NIOSH dose; 8-hr shift at OSHA PEL = 3.2x NIOSH dose) + 16x program-vs-claim economics ($6,000/yr vs $96,786 claim) + latent-record defense argument
+- Strongest counterargument: audiometry doesn't fix the 52% non-wear problem; mobile workforce breaks longitudinal data; surveillance/privacy of worker dosimetry; vendor claims unverified; technology can't fix a stalled rulemaking
+- Journalist: Marcus "Steel" Washington (workforce & labor beat)
+- **Queued SHIP 2027-06-10 as #1020:** "25% of the Crew Framing Your House Is Losing Its Hearing. An Algorithm Heard It First." (critique avg 8.80, round 0; gates: 0 em dashes, 3.0% The-starters, rhythm variance 255.8; real JPEG hero 1920x1280, hash cd8d734e)
