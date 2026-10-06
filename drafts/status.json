@@ -1,7 +1,7 @@
 {
   "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-06T04:12:03.608305-07:00",
+  "last_completed": "2026-10-06T06:22:35.931370-07:00",
   "last_published_at": "2026-10-06T02:50:00-07:00",
   "ship_ready": [
     {
@@ -11213,6 +11213,61 @@
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "hold_reason": "1/day rule: #778 published 2026-10-06 (PT-day check); #1017 queued for 2027-06-07; #1018 queued for 2027-06-08",
       "note": "Round 0 pass. Original contribution: vaporization crossover table (500-gal tank, fill x temp vs 205K connected / 140K evening load) + '160-gallon effective tank' reframing + starvation-warning product gap (sensor fill % x forecast low x vaporization curve; no vendor ships it). Counterarguments: tail-risk framing, nominal tables, underground-tank physics, sensors-don't-fix-physics, leased-tank friction."
+    },
+    {
+      "article_number": 1019,
+      "number": 1019,
+      "phase": "SHIP",
+      "slug": "ai-job-cost-feedback-estimate-calibration-2026",
+      "headline": "Your Last 10 Jobs Lost Money the Same Way. Your Next Bid Has Amnesia.",
+      "journalist": "Frank DeLuca",
+      "ship_after": "2027-06-09",
+      "started": "2026-10-06T06:14:14.643600-07:00",
+      "completed": "2026-10-06T06:22:35.931370-07:00",
+      "rounds": 0,
+      "critique_score": 8.83,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 12.8,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 228.3,
+          "short_pct": 8.1,
+          "long_pct": 52.5,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-job-cost-feedback-estimate-calibration-2026-research.md",
+      "draft_file": "drafts/ai-job-cost-feedback-estimate-calibration-2026.html",
+      "critique_file": "drafts/ai-job-cost-feedback-estimate-calibration-2026-critique-r0.md",
+      "hero_file": "images/ai-job-cost-feedback-estimate-calibration-2026.jpg",
+      "hero_hash": "08215005",
+      "hero_real_jpeg": true,
+      "word_count": 2714,
+      "primary_sources": 6,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "hold_reason": "1/day rule: #778 published 2026-10-06 (PT-day check); #1018 queued for 2027-06-08; #1019 queued for 2027-06-09",
+      "note": "Round 0 pass. Original contribution: estimate-calibration math (15% systematic bias in one cost code = $33,600/yr leakage; three codes = $81,120/yr on 8x$400K jobs; 5-6 jobs to detection; 7-yr software payback) + committed-cost three-way model framing + homeowner interview question. Counterarguments: garbage-in-garbage-out (FMI), small-sample half-life, estimator tacit knowledge, vendor ML-accuracy claims."
     }
   ]
 }
