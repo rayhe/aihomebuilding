@@ -1,5 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-stucco-lath-photo-qa-weep-screed-2026",
+    "phase": "DRAFT",
+    "journalist": "Jake Kowalski",
+    "number": 1023,
+    "started": "2026-10-06T14:10:00-07:00",
+    "ship_after": "2027-06-13",
+    "research_file": "drafts/ai-stucco-lath-photo-qa-weep-screed-2026-research.md",
+    "primary_sources": 5,
+    "hold_reason": "1/day rule: 2 publishes already logged 2026-10-06 (PT-day check); #1022 queued for 2027-06-12; next open slot 2027-06-13."
+  },
   "hero_cache_bust": null,
   "last_completed": "2026-10-06T12:30:00-07:00",
   "last_published_at": "2026-10-06T02:50:00-07:00",
@@ -866,7 +876,7 @@
           "pct": 1.1
         }
       },
-      "headline": "An AI Scanned Your Mother\u2019s House for Fall Risks. Its Fix Looked Like a Hospital.",
+      "headline": "An AI Scanned Your Mother’s House for Fall Risks. Its Fix Looked Like a Hospital.",
       "hero_hash": "7410ac40",
       "hold_reason": "1/day rule: #786 published 2026-09-06; queued behind existing ship_ready queue (last ship_after 2026-10-17), publish per 1/day cadence.",
       "journalist": "Elena Vasquez",
@@ -4380,7 +4390,7 @@
       "journalist": "Catherine Chen",
       "phase": "SHIP_READY",
       "primary_sources": 6,
-      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey \u2192 $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200\u2013$2,000 survey + $0 FEMA fee + ~60 days \u2192 kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance \u2265200. Real JPEG hero verified (ffd8 magic).",
+      "publish_note": "Queued, not shipped: one article already published 2026-09-16 PT (#758, one-per-day rule); queue tail was 2027-01-17. Original contribution: 5.9M-property FEMA/First-Street disagreement-gap math plus EC ROI model ($500 survey → $1,000/yr savings; 60x nominal over 30yr mortgage; $15,400 PV at 5%) and LOMA economics ($200–$2,000 survey + $0 FEMA fee + ~60 days → kills mandatory $2,303/yr NFIP premium). 6 primary sources inline (FEMA RR 2.0 profiles, CRS R45999, NFIP manual Oct 2025, wrightway EC pricing, floodinsuranceguru ROI table, NAR Flood Factor FAQ, legalclarity LOMA). Gates: 1 em dash (title boilerplate), The-starters 6.7%, 0 banned phrases, rhythm variance 201.1. Round 0, no content revisions; 3 rhythm-only passes to clear variance ≥200. Real JPEG hero verified (ffd8 magic).",
       "research_file": "drafts/ai-flood-model-vs-fema-map-homebuyer-insurance-2026-research.md",
       "rounds": 0,
       "ship_after": "2027-01-18",
@@ -5004,7 +5014,7 @@
       "hero_hash": "3abdb903",
       "hold_reason": "1/day rule: #760 published 2026-09-18; #761 through #894 queued for 2026-09-19 through 2027-02-04",
       "journalist": "Catherine Chen",
-      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes \u2014 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
+      "note": "Round 0 pass after rhythm fix (variance 143.7->228.5, short_pct 17.6->4.4). Original contribution: inverse-square setback math for real codes — 90 dBA concrete saw needs 1,600 ft setback to meet Menlo Park's 60 dBA property-line limit after 6pm, 89 ft to meet the 85 dBA daytime allowance, two saws = 126 ft; Portland $5k/violation vs $2.5k Type II meter ROI. Sources: Menlo Park Ch. 8.06, Portland 18.10.060 ($5k/violation + stop-work), NYC DEP Ch. 28 (2007) equipment table, LA CEQA thresholds, Lower Merion Ord. 4323, NYU SONYC x NYC DEP ML classification, Bouygues Com'in (30 projects/5 countries), Sensorbee, Rion NL-06env pricing.",
       "phase": "SHIP",
       "primary_sources": 9,
       "research_file": "drafts/ai-construction-noise-ordinance-decibel-sensors-2026-research.md",
@@ -5737,7 +5747,7 @@
           "pct": 13.2
         }
       },
-      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54\u00b0F Hotter Than the White House Next Door.",
+      "headline": "Your AI Designer Rendered a Black House. Its Walls Run 54°F Hotter Than the White House Next Door.",
       "hero_hash": "38993f7e",
       "hold_reason": "1/day rule: #761 published 2026-09-19; #762 through #909 queued for 2026-09-20 through 2027-02-19; #910 queued for 2027-02-20",
       "journalist": "Elena Vasquez",
@@ -6169,7 +6179,7 @@
           "pct": 13.9
         }
       },
-      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back \u2014 Within 24 Hours.",
+      "headline": "The 14-Day Inspection Schedule Is a Trap. Every Rainstorm Adds One Back — Within 24 Hours.",
       "hero_hash": "a0d51b1e",
       "hold_reason": "1/day rule: #762 published 2026-09-20 (PT-day check); #763 through #918 queued for 2026-09-21 through 2027-02-28; #919 queued for 2027-03-01",
       "journalist": "Catherine Chen",
@@ -6551,7 +6561,7 @@
           "pct": 10.6
         }
       },
-      "headline": "Your Insulation Was Tested at 75\u00b0F. Your Attic Hits 140\u00b0F.",
+      "headline": "Your Insulation Was Tested at 75°F. Your Attic Hits 140°F.",
       "hero_hash": "219256f1",
       "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-03-08), next open slot 2027-03-09.",
       "journalist": "Priya Greenwood",
@@ -10733,7 +10743,7 @@
       "slug": "ai-humanoid-insulation-installer-space-factory-2026",
       "started": "2026-10-05T10:15:00-07:00",
       "rounds": 0,
-      "note": "Round 0 pass (8.86). Original contribution: dual-filter task-selection analysis \u2014 humanoid payload envelope (15 lb rated arms vs ~4 lb batts; drywall 51-57 lb / plywood ~70 lb fail) x labor economics (BLS $49,120 median, NIOSH fiberglass hazard, unstructured material defeated legacy robots) converge on insulation as the first humanoid housing task. Counterargument: unproven dexterity on deformable batts, 30-90 min batteries vs 8-hr shifts, Katerra/Veev graveyard, announcement-vs-deployment. 9 sources inline. Rhythm 214.2/13.3/56.7 after two revision passes."
+      "note": "Round 0 pass (8.86). Original contribution: dual-filter task-selection analysis — humanoid payload envelope (15 lb rated arms vs ~4 lb batts; drywall 51-57 lb / plywood ~70 lb fail) x labor economics (BLS $49,120 median, NIOSH fiberglass hazard, unstructured material defeated legacy robots) converge on insulation as the first humanoid housing task. Counterargument: unproven dexterity on deformable batts, 30-90 min batteries vs 8-hr shifts, Katerra/Veev graveyard, announcement-vs-deployment. 9 sources inline. Rhythm 214.2/13.3/56.7 after two revision passes."
     },
     {
       "article_number": 1010,
@@ -11377,7 +11387,7 @@
       "started": "2026-10-06T10:05:00-07:00",
       "ship_after": "2027-06-11",
       "hold_reason": "1/day rule: #778 published 2026-10-06 (PT-day check); #1020 queued for 2027-06-10; #1021 queued for 2027-06-11",
-      "note": "Round 0 failed hard gates (The-starters 23.6%, rhythm variance 85.9); round 1 revision passed all gates. Original contribution: worked Prop 19 math at the live $1,044,586 cap (BOE example still uses $1M) \u2014 $280k base/$1.8M FMV inheritance: $8,914/yr done right vs $21,240/yr missed ($12,326/yr deadline) vs $3,304/yr old law; 55+ buy-up math ($900k sale/$300k base \u2192 $1.15M new build = $550k assessed, ~$7,080/yr saved). Counterarguments: loophole closure was defensible, portability more generous than Prop 60/90, late claims apply going forward."
+      "note": "Round 0 failed hard gates (The-starters 23.6%, rhythm variance 85.9); round 1 revision passed all gates. Original contribution: worked Prop 19 math at the live $1,044,586 cap (BOE example still uses $1M) — $280k base/$1.8M FMV inheritance: $8,914/yr done right vs $21,240/yr missed ($12,326/yr deadline) vs $3,304/yr old law; 55+ buy-up math ($900k sale/$300k base → $1.15M new build = $550k assessed, ~$7,080/yr saved). Counterarguments: loophole closure was defensible, portability more generous than Prop 60/90, late claims apply going forward."
     },
     {
       "article_number": 1022,
