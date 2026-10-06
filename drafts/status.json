@@ -1,7 +1,7 @@
 {
   "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-06T08:25:00-07:00",
+  "last_completed": "2026-10-06T12:30:00-07:00",
   "last_published_at": "2026-10-06T02:50:00-07:00",
   "ship_ready": [
     {
@@ -11378,6 +11378,55 @@
       "ship_after": "2027-06-11",
       "hold_reason": "1/day rule: #778 published 2026-10-06 (PT-day check); #1020 queued for 2027-06-10; #1021 queued for 2027-06-11",
       "note": "Round 0 failed hard gates (The-starters 23.6%, rhythm variance 85.9); round 1 revision passed all gates. Original contribution: worked Prop 19 math at the live $1,044,586 cap (BOE example still uses $1M) \u2014 $280k base/$1.8M FMV inheritance: $8,914/yr done right vs $21,240/yr missed ($12,326/yr deadline) vs $3,304/yr old law; 55+ buy-up math ($900k sale/$300k base \u2192 $1.15M new build = $550k assessed, ~$7,080/yr saved). Counterarguments: loophole closure was defensible, portability more generous than Prop 60/90, late claims apply going forward."
+    },
+    {
+      "article_number": 1022,
+      "number": 1022,
+      "slug": "ai-dormer-design-daylight-simulation-2026",
+      "headline": "An AI Ran 2,000 Dormers on Your Roof. The Winner Was Ugly.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "started": "2026-10-06T12:07:54-07:00",
+      "completed": "2026-10-06T12:30:00-07:00",
+      "ship_after": "2027-06-12",
+      "hold_reason": "1/day rule: 2 publishes already logged 2026-10-06 (PT-day check); #1021 queued for 2027-06-11; next open slot 2027-06-12.",
+      "rounds": 0,
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 3.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-dormer-design-daylight-simulation-2026-research.md",
+      "draft_file": "drafts/ai-dormer-design-daylight-simulation-2026.html",
+      "critique_file": "drafts/ai-dormer-design-daylight-simulation-2026-critique-r0.md",
+      "hero_file": "images/ai-dormer-design-daylight-simulation-2026.jpg",
+      "hero_hash": "58352d12",
+      "hero_real_jpeg": true,
+      "word_count": 2085,
+      "primary_sources": 5,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "note": "Round 0 passed all gates (The-starters fixed 20.5%->3.4% pre-score; headline Her->Your Roof). Original contribution: orientation-beats-size daylight framing for dormers (sDA/ASE), egress-first sequencing, shed-vs-gable-vs-eyebrow cost/beauty tension; honest limit: no dormer-specific production optimizer exists, applied physics not a dormer experiment."
     }
   ]
 }
