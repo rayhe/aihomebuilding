@@ -1,7 +1,61 @@
 {
-  "current": null,
+  "current": {
+    "number": 1017,
+    "article_number": 1017,
+    "slug": "ai-smart-greywater-recycling-payback-map-2026",
+    "headline": "Your Shower Drains 20,000 Gallons a Year. Your Toilet Would Take Them Gladly.",
+    "journalist": "Priya Greenwood",
+    "phase": "SHIP",
+    "started": "2026-10-06T02:05:00-07:00",
+    "completed": "2026-10-06T02:40:00-07:00",
+    "ship_after": "2027-06-07",
+    "rounds": 0,
+    "critique_score": 8.76,
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 8.9,
+      "social_shareability": 8.7,
+      "legal_accuracy": 8.6,
+      "research_rigor": 8.9,
+      "data_presentation": 8.7
+    },
+    "hard_gates": {
+      "em_dash": {
+        "count": 0,
+        "limit": 3,
+        "passed": true
+      },
+      "the_starters": {
+        "pct": 2.6,
+        "limit": 15.0,
+        "passed": true
+      },
+      "banned_phrases": {
+        "count": 0,
+        "passed": true
+      },
+      "sentence_rhythm": {
+        "variance": 231.3,
+        "short_pct": 7.6,
+        "long_pct": 55.7,
+        "passed": true
+      }
+    },
+    "research_file": "drafts/ai-smart-greywater-recycling-payback-map-2026-research.md",
+    "draft_file": "drafts/ai-smart-greywater-recycling-payback-map-2026.html",
+    "critique_file": "drafts/ai-smart-greywater-recycling-payback-map-2026-critique-r0.md",
+    "hero_file": "images/ai-smart-greywater-recycling-payback-map-2026.jpg",
+    "hero_hash": "717ae6c0",
+    "hero_real_jpeg": true,
+    "word_count": 1913,
+    "primary_sources": 6,
+    "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+    "hold_reason": "1/day rule: #1016 queued for 2027-06-06; #1017 queued for 2027-06-07",
+    "note": "Round 0 pass. Original contribution: payback-by-tier model (20,000 gal/yr = 26.7 CCF; Grand Junction 0-140/yr -> 17yr payback vs San Diego 15-320/yr -> 6-9yr payback) + rough-in optionality play (00-500 dual plumbing at framing vs 4-16 plumber hrs/bathroom retrofit). Counterargument: multifamily-scale evidence, maintenance tax, code patchwork, embodied carbon vs water saved."
+  },
   "hero_cache_bust": null,
-  "last_completed": "2026-10-06T01:30:00-07:00",
+  "last_completed": "2026-10-06T02:40:00-07:00",
   "last_published_at": "2026-10-05T02:15:00-07:00",
   "ship_ready": [
     {
@@ -11148,6 +11202,61 @@
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "hold_reason": "1/day rule: #1015 queued for 2027-06-05; #1016 queued for 2027-06-06",
       "note": "Round 0 pass. Original contribution: bird-safe compliance ledger ($1,500-3,500 spec-stage glazing premium vs plan-check change order vs <$60 DIY for the two deadliest windows; NYC Int 1073 2030 multifamily retrofit cliff) + pattern-timing argument (2x4 rule is 2009 science, 2011/2021 code; algorithmic pattern design + ML deterrence emerging, no facade risk score in design tools yet). Counterargument: thin enforcement, Int 1073 not law, cats kill 2.4B/yr, AI prototype-stage, 60% of treated birds die anyway."
+    },
+    {
+      "number": 1017,
+      "article_number": 1017,
+      "slug": "ai-smart-greywater-recycling-payback-map-2026",
+      "headline": "Your Shower Drains 20,000 Gallons a Year. Your Toilet Would Take Them Gladly.",
+      "journalist": "Priya Greenwood",
+      "phase": "SHIP",
+      "started": "2026-10-06T02:05:00-07:00",
+      "completed": "2026-10-06T02:40:00-07:00",
+      "ship_after": "2027-06-07",
+      "rounds": 0,
+      "critique_score": 8.76,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 2.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 231.3,
+          "short_pct": 7.6,
+          "long_pct": 55.7,
+          "passed": true
+        }
+      },
+      "research_file": "drafts/ai-smart-greywater-recycling-payback-map-2026-research.md",
+      "draft_file": "drafts/ai-smart-greywater-recycling-payback-map-2026.html",
+      "critique_file": "drafts/ai-smart-greywater-recycling-payback-map-2026-critique-r0.md",
+      "hero_file": "images/ai-smart-greywater-recycling-payback-map-2026.jpg",
+      "hero_hash": "717ae6c0",
+      "hero_real_jpeg": true,
+      "word_count": 1913,
+      "primary_sources": 6,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "hold_reason": "1/day rule: #1016 queued for 2027-06-06; #1017 queued for 2027-06-07",
+      "note": "Round 0 pass. Original contribution: payback-by-tier model (20,000 gal/yr = 26.7 CCF; Grand Junction 0-140/yr -> 17yr payback vs San Diego 15-320/yr -> 6-9yr payback) + rough-in optionality play (00-500 dual plumbing at framing vs 4-16 plumber hrs/bathroom retrofit). Counterargument: multifamily-scale evidence, maintenance tax, code patchwork, embodied carbon vs water saved."
     }
   ]
 }
