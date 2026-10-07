@@ -1,13 +1,7 @@
 {
-  "current": {
-    "slug": "ai-hot-water-wait-waste-demand-recirculation-payback-2026",
-    "phase": "DRAFT",
-    "journalist": "Priya Greenwood",
-    "started": "2026-10-07T02:04:01-07:00",
-    "research_file": "drafts/ai-hot-water-wait-waste-demand-recirculation-payback-2026-research.md"
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-07T01:05:00-07:00",
+  "last_completed": "2026-10-07T02:12:04-07:00",
   "last_published_at": "2026-10-07T00:50:00-07:00",
   "ship_ready": [
     {
@@ -11661,9 +11655,63 @@
       "word_count": 2208,
       "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
       "note": "Round 0 pass (rhythm rewritten pre-score: variance 170.2->345.2, shorts 26.6%->8.6%; the-starters 19.0%->12.2%). Original contribution: substitution ledger from Component Advertiser southern-pine values (Stand/#2: 76% kept; Utility/#3: 35% kept; Spec: no values); 20-min/200-300-photo delivery audit math vs Big-D tear-out; five-field stamp decoder. Counterarguments: installed-stamp readability, lawsuit is allegation, false-positive fights, system mostly works, boring fix (reputable yards + mill certs). No shipping stamp-reading product found; framed as feasible-with-current-tech."
+    },
+    {
+      "headline": "1.46 Gallons Stand Between You and a Hot Shower. A $475 Pump Erases the Wait.",
+      "hero_hash": "0bdc102e",
+      "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-06-17), next open slot 2027-06-18.",
+      "journalist": "Priya Greenwood",
+      "number": 1028,
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-hot-water-wait-waste-demand-recirculation-payback-2026-research.md",
+      "draft_file": "drafts/ai-hot-water-wait-waste-demand-recirculation-payback-2026.html",
+      "critique_file": "drafts/ai-hot-water-wait-waste-demand-recirculation-payback-2026-critique-r0.md",
+      "hero_file": "images/ai-hot-water-wait-waste-demand-recirculation-payback-2026.jpg",
+      "hero_real_jpeg": true,
+      "rounds": 0,
+      "ship_after": "2027-06-18",
+      "slug": "ai-hot-water-wait-waste-demand-recirculation-payback-2026",
+      "started": "2026-10-07T02:04:01-07:00",
+      "word_count": 2451,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "critique_self_assessed": true,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.3,
+          "short_pct": 9.3,
+          "long_pct": 59.8,
+          "passed": true
+        }
+      },
+      "note": "Round 0 pass (rhythm rewritten pre-score across 3 passes: variance 102.0->152.8->164.1->203.3, shorts 21.9%->9.3%; the-starters 15.0%->4.6%). Original contribution: end-to-end pipe-volume payback worksheet (1.46 gal/draw for representative 2,400 sq ft home; 4,270 gal/yr wait-waste; demand-pump payback 3-20 yr by household type). Counterarguments: dollar payback loses for most homes, lukewarm cold-tap slug, behavior-change graveyard, pump-as-design-failure, Legionella. Vendor numbers (Grundfos) labeled as vendor math."
     }
   ],
-  "last_worker_run": "2026-10-07T02:04:01-07:00",
+  "last_worker_run": "2026-10-07T02:12:04-07:00",
   "last_qa": {
     "article_number": 780,
     "slug": "ai-hoa-architectural-review-ccr-delay-2026",
