@@ -1,16 +1,7 @@
 {
-  "current": {
-    "slug": "ai-weather-day-budget-noaa-normals-contract-allowance-2026",
-    "phase": "DRAFT",
-    "journalist": "Frank DeLuca",
-    "started": "2026-10-07T10:15:00-07:00",
-    "number": 1032,
-    "headline": "Your Contract Allows 5 Weather Days. The Climate Record Says 36.",
-    "research_file": "drafts/ai-weather-day-budget-noaa-normals-contract-allowance-2026-research.md",
-    "primary_sources": 11
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-07T08:36:20.073207-07:00",
+  "last_completed": "2026-10-07T10:45:00-07:00",
   "last_published_at": "2026-10-07T00:50:00-07:00",
   "ship_ready": [
     {
@@ -11877,9 +11868,61 @@
       "slug": "ai-wetland-jurisdiction-screening-lot-due-diligence-2026",
       "started": "2026-10-07T08:01:52-07:00",
       "note": "Round 0 pass (The-starters rewritten 21.6%->4.0%; rhythm rebuilt: variance 138.1->241.2, shorts 15.3%->10.0%). Original contribution: NY 100-ft adjacent-area geometry (2-acre wetland -> 5.13-acre regulated footprint, 2.56x; visible wetland is 39% of regulated land) + $450-screen-before-offer cost-timing ladder. Counterarguments: NAHB affordability case, 50-state patchwork worse than one rule, screening as private tax on public failure. Limitations: commercial screening claims unverified, JD turnaround unconfirmed, Sept 2026 SNPRM not final. Timely hook: federal comment period closes Oct 9, 2026."
+    },
+    {
+      "article_number": 1032,
+      "number": 1032,
+      "slug": "ai-weather-day-budget-noaa-normals-contract-allowance-2026",
+      "headline": "Your Contract Allows 5 Weather Days. The Climate Record Says 36.",
+      "journalist": "Frank DeLuca",
+      "phase": "SHIP_READY",
+      "started": "2026-10-07T10:15:00-07:00",
+      "completed": "2026-10-07T10:45:00-07:00",
+      "draft_file": "drafts/ai-weather-day-budget-noaa-normals-contract-allowance-2026.html",
+      "research_file": "drafts/ai-weather-day-budget-noaa-normals-contract-allowance-2026-research.md",
+      "primary_sources": 11,
+      "rounds": 1,
+      "critique_self_assessed": true,
+      "critique_score": 8.81,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 6.6,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 221.4,
+          "short_pct": 12.0,
+          "long_pct": 44.6,
+          "passed": true
+        }
+      },
+      "hero_hash": "8beb0079",
+      "hero_real_jpeg": true,
+      "ship_after": "2027-06-22",
+      "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-21), next open slot 2027-06-22.",
+      "note": "Round 1 pass (The-starters rewritten 20.3%->6.6%; rhythm rebuilt: variance 131.9->221.4, shorts 20.6%->12.0%). Original contribution: NOAA 1991-2020 normals x SOCDS build-duration weather-day budget model (Seattle Oct-start: 36 expected lost days vs 5-day scaled allowance, ~$14k beyond-allowance exposure; Phoenix: 6 expected, same allowance covers with margin) + AIA A201 15.1.6.2 'not reasonably anticipated' analysis against normals baseline. Counterarguments: owner changes/materials/permits dwarf weather, local-GC gut knowledge, padding critique, dry-in-faster fix. Limitations: 50% light-rain heuristic illustrative, full-draw loan math is peak case, ALICE results commercial/vendor-reported, one start-date scenario, normals lag current extremes, mud days unmodeled, Phoenix heat risk unmodeled."
     }
   ],
-  "last_worker_run": "2026-10-07T10:15:00-07:00",
+  "last_worker_run": "2026-10-07T10:45:00-07:00",
   "last_qa": {
     "article_number": 780,
     "slug": "ai-hoa-architectural-review-ccr-delay-2026",
