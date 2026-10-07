@@ -1,16 +1,7 @@
 {
-  "current": {
-    "slug": "ai-advanced-framing-ove-lumber-waste-takeoff-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus \"Steel\" Washington",
-    "number": 1030,
-    "ship_after": "2027-06-20",
-    "started": "2026-10-07T06:12:39.741967-07:00",
-    "research_file": "drafts/ai-advanced-framing-ove-lumber-waste-takeoff-2026-research.md",
-    "primary_sources": 8
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-07T04:06:48.097305-07:00",
+  "last_completed": "2026-10-07T06:28:41.753412-07:00",
   "last_published_at": "2026-10-07T00:50:00-07:00",
   "ship_ready": [
     {
@@ -11773,9 +11764,61 @@
       },
       "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-18), next open slot 2027-06-19.",
       "note": "Round 0 pass (The-starters rewritten 23.6%->4.3%; rhythm rebuilt across 3 passes: variance 156.7->147.6->182.9->199.9->203.3, shorts 17.3%->11.4%). Original contribution: mEDI gap worksheet for representative new-build (kitchen daytime 107 vs 250 target = 57% short; living room evening 22 vs 10 max = 2.2x over; bedroom 15 vs 10 = 1.5x over), cross-checked against Cain et al. 2020 field data (median 11.0 mlux at 10pm, range 2.4-49.6). Counterarguments: unadopted consensus targets, 50-fold individual sensitivity, daylight as cheapest fix, evening fix is behavioral, IES glare/energy trade-offs. Vendor numbers (BrainLit, Ketra, Lucibel) labeled as vendor claims."
+    },
+    {
+      "article_number": 1030,
+      "completed": "2026-10-07T06:28:41.753412-07:00",
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "critique_self_assessed": true,
+      "draft_file": "drafts/ai-advanced-framing-ove-lumber-waste-takeoff-2026.html",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 0.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 200.3,
+          "short_pct": 3.2,
+          "long_pct": 49.5,
+          "passed": true
+        }
+      },
+      "headline": "Your House Has 120 Studs It Doesn't Need. The Framer Knows. Now AI Can Prove It.",
+      "hero_hash": "a89c8daa",
+      "hero_real_jpeg": true,
+      "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-19), next open slot 2027-06-20.",
+      "journalist": "Marcus \"Steel\" Washington",
+      "number": 1030,
+      "phase": "SHIP_READY",
+      "primary_sources": 8,
+      "research_file": "drafts/ai-advanced-framing-ove-lumber-waste-takeoff-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-06-20",
+      "slug": "ai-advanced-framing-ove-lumber-waste-takeoff-2026",
+      "started": "2026-10-07T06:12:39.741967-07:00",
+      "note": "Round 0 pass (The-starters rewritten 17.7%->0.0%; rhythm rebuilt: variance 117.5->200.3, shorts 16.1%->3.2%). Original contribution: three-route lumber math for representative 2,400 sq ft home (piece-count ~$700-850, board-foot 5-10% $380-760, DOE scale ~$1,000; bracket $400-1,000/home) at Madison's Sept 2026 index $506.76/MBF. Counterarguments: stacked-framing coordination, piece-pay disincentive, 5/8 drywall payback, wind/seismic limits, post-permit VE costs, savings/risk split. Vendor takeoff claims labeled unverified. 1990s NAHB figures flagged as then-dollars."
     }
   ],
-  "last_worker_run": "2026-10-07T06:12:39.741967-07:00",
+  "last_worker_run": "2026-10-07T06:28:41.753412-07:00",
   "last_qa": {
     "article_number": 780,
     "slug": "ai-hoa-architectural-review-ccr-delay-2026",
