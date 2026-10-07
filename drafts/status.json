@@ -1,5 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ai-advanced-framing-ove-lumber-waste-takeoff-2026",
+    "phase": "DRAFT",
+    "journalist": "Marcus \"Steel\" Washington",
+    "number": 1030,
+    "ship_after": "2027-06-20",
+    "started": "2026-10-07T06:12:39.741967-07:00",
+    "research_file": "drafts/ai-advanced-framing-ove-lumber-waste-takeoff-2026-research.md",
+    "primary_sources": 8
+  },
   "hero_cache_bust": null,
   "last_completed": "2026-10-07T04:06:48.097305-07:00",
   "last_published_at": "2026-10-07T00:50:00-07:00",
@@ -11766,7 +11775,7 @@
       "note": "Round 0 pass (The-starters rewritten 23.6%->4.3%; rhythm rebuilt across 3 passes: variance 156.7->147.6->182.9->199.9->203.3, shorts 17.3%->11.4%). Original contribution: mEDI gap worksheet for representative new-build (kitchen daytime 107 vs 250 target = 57% short; living room evening 22 vs 10 max = 2.2x over; bedroom 15 vs 10 = 1.5x over), cross-checked against Cain et al. 2020 field data (median 11.0 mlux at 10pm, range 2.4-49.6). Counterarguments: unadopted consensus targets, 50-fold individual sensitivity, daylight as cheapest fix, evening fix is behavioral, IES glare/energy trade-offs. Vendor numbers (BrainLit, Ketra, Lucibel) labeled as vendor claims."
     }
   ],
-  "last_worker_run": "2026-10-07T04:06:48.097305-07:00",
+  "last_worker_run": "2026-10-07T06:12:39.741967-07:00",
   "last_qa": {
     "article_number": 780,
     "slug": "ai-hoa-architectural-review-ccr-delay-2026",
