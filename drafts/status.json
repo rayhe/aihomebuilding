@@ -1,13 +1,7 @@
 {
-  "current": {
-    "slug": "ai-circadian-lighting-medi-gap-residential-design-2026",
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "started": "2026-10-07T04:03:23.560931-07:00",
-    "number": 1029
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-07T02:12:04-07:00",
+  "last_completed": "2026-10-07T04:06:48.097305-07:00",
   "last_published_at": "2026-10-07T00:50:00-07:00",
   "ship_ready": [
     {
@@ -11715,9 +11709,64 @@
         }
       },
       "note": "Round 0 pass (rhythm rewritten pre-score across 3 passes: variance 102.0->152.8->164.1->203.3, shorts 21.9%->9.3%; the-starters 15.0%->4.6%). Original contribution: end-to-end pipe-volume payback worksheet (1.46 gal/draw for representative 2,400 sq ft home; 4,270 gal/yr wait-waste; demand-pump payback 3-20 yr by household type). Counterarguments: dollar payback loses for most homes, lukewarm cold-tap slug, behavior-change graveyard, pump-as-design-failure, Legionella. Vendor numbers (Grundfos) labeled as vendor math."
+    },
+    {
+      "article_number": 1029,
+      "number": 1029,
+      "slug": "ai-circadian-lighting-medi-gap-residential-design-2026",
+      "headline": "Your Lighting Plan Measures Everything Except the Light Your Body Reads",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-06-19",
+      "started": "2026-10-07T04:03:00-07:00",
+      "completed": "2026-10-07T04:06:48.097305-07:00",
+      "research_file": "drafts/ai-circadian-lighting-medi-gap-residential-design-2026-research.md",
+      "draft_file": "drafts/ai-circadian-lighting-medi-gap-residential-design-2026.html",
+      "hero_image": "images/ai-circadian-lighting-medi-gap-residential-design-2026.jpg",
+      "hero_hash": "c9cf1c37",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, modern great room at dusk, warm recessed lights transitioning to cool daylight through tall windows",
+      "word_count": 2060,
+      "markup": "article-hero/article-container/article-body, ../css/bootstrap.min.css + print.css",
+      "primary_sources": 5,
+      "rounds": 0,
+      "critique_self_assessed": true,
+      "critique_score": 8.79,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.3,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.3,
+          "short_pct": 11.4,
+          "long_pct": 53.4,
+          "passed": true
+        }
+      },
+      "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-18), next open slot 2027-06-19.",
+      "note": "Round 0 pass (The-starters rewritten 23.6%->4.3%; rhythm rebuilt across 3 passes: variance 156.7->147.6->182.9->199.9->203.3, shorts 17.3%->11.4%). Original contribution: mEDI gap worksheet for representative new-build (kitchen daytime 107 vs 250 target = 57% short; living room evening 22 vs 10 max = 2.2x over; bedroom 15 vs 10 = 1.5x over), cross-checked against Cain et al. 2020 field data (median 11.0 mlux at 10pm, range 2.4-49.6). Counterarguments: unadopted consensus targets, 50-fold individual sensitivity, daylight as cheapest fix, evening fix is behavioral, IES glare/energy trade-offs. Vendor numbers (BrainLit, Ketra, Lucibel) labeled as vendor claims."
     }
   ],
-  "last_worker_run": "2026-10-07T04:03:23.560972-07:00",
+  "last_worker_run": "2026-10-07T04:06:48.097305-07:00",
   "last_qa": {
     "article_number": 780,
     "slug": "ai-hoa-architectural-review-ccr-delay-2026",
