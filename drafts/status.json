@@ -1,7 +1,7 @@
 {
   "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-07T06:28:41.753412-07:00",
+  "last_completed": "2026-10-07T08:36:20.073207-07:00",
   "last_published_at": "2026-10-07T00:50:00-07:00",
   "ship_ready": [
     {
@@ -11816,9 +11816,61 @@
       "slug": "ai-advanced-framing-ove-lumber-waste-takeoff-2026",
       "started": "2026-10-07T06:12:39.741967-07:00",
       "note": "Round 0 pass (The-starters rewritten 17.7%->0.0%; rhythm rebuilt: variance 117.5->200.3, shorts 16.1%->3.2%). Original contribution: three-route lumber math for representative 2,400 sq ft home (piece-count ~$700-850, board-foot 5-10% $380-760, DOE scale ~$1,000; bracket $400-1,000/home) at Madison's Sept 2026 index $506.76/MBF. Counterarguments: stacked-framing coordination, piece-pay disincentive, 5/8 drywall payback, wind/seismic limits, post-permit VE costs, savings/risk split. Vendor takeoff claims labeled unverified. 1990s NAHB figures flagged as then-dollars."
+    },
+    {
+      "article_number": 1031,
+      "completed": "2026-10-07T08:36:20.073207-07:00",
+      "critique_score": 8.77,
+      "critique_scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "critique_self_assessed": true,
+      "draft_file": "drafts/ai-wetland-jurisdiction-screening-lot-due-diligence-2026.html",
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 4.0,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 241.2,
+          "short_pct": 10.0,
+          "long_pct": 53.8,
+          "passed": true
+        }
+      },
+      "headline": "The Supreme Court Deregulated Your Wetland in 2023. Your State Claimed It in 2025. Comments on the Rewrite Close Friday.",
+      "hero_hash": "942009ae",
+      "hero_real_jpeg": true,
+      "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-20), next open slot 2027-06-21.",
+      "journalist": "Catherine \"Code\" Chen",
+      "number": 1031,
+      "phase": "SHIP_READY",
+      "primary_sources": 10,
+      "research_file": "drafts/ai-wetland-jurisdiction-screening-lot-due-diligence-2026-research.md",
+      "rounds": 0,
+      "ship_after": "2027-06-21",
+      "slug": "ai-wetland-jurisdiction-screening-lot-due-diligence-2026",
+      "started": "2026-10-07T08:01:52-07:00",
+      "note": "Round 0 pass (The-starters rewritten 21.6%->4.0%; rhythm rebuilt: variance 138.1->241.2, shorts 15.3%->10.0%). Original contribution: NY 100-ft adjacent-area geometry (2-acre wetland -> 5.13-acre regulated footprint, 2.56x; visible wetland is 39% of regulated land) + $450-screen-before-offer cost-timing ladder. Counterarguments: NAHB affordability case, 50-state patchwork worse than one rule, screening as private tax on public failure. Limitations: commercial screening claims unverified, JD turnaround unconfirmed, Sept 2026 SNPRM not final. Timely hook: federal comment period closes Oct 9, 2026."
     }
   ],
-  "last_worker_run": "2026-10-07T06:28:41.753412-07:00",
+  "last_worker_run": "2026-10-07T08:36:20.073207-07:00",
   "last_qa": {
     "article_number": 780,
     "slug": "ai-hoa-architectural-review-ccr-delay-2026",

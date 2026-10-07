@@ -1,0 +1,38 @@
+# Research: The Wetland That Isn't Federal Anymore (But Is Regulated Anyway)
+
+**Slug:** `ai-wetland-jurisdiction-screening-lot-due-diligence-2026`
+**Journalist:** Catherine "Code" Chen (policy & regulation — turn in rotation after Washington #1030)
+**Article #:** 1031 | **Ship slot:** 2027-06-21
+**Date:** October 7, 2026
+
+## Kill test
+Does this help someone building or buying a home? **Yes.** A buyer can spend six figures on a lot that looks dry, then discover a 2-acre wetland the old maps never showed, and learn the state regulates a 100-foot ring around it — wiping out the buildable envelope. A $450 desktop wetland screen before the offer vs. a $4,000–$20,000 delineation plus 45–60 days of Corps review after closing is the cheapest insurance in land acquisition. And the federal comment period on the latest WOTUS rewrite closes October 9, 2026 — two days from now — so anyone affected has a live action item.
+
+## Thesis
+The Sacketts won 9-0 at the Supreme Court in 2023 and narrowed federal wetland jurisdiction to wetlands with a "continuous surface connection" to relatively permanent waters. But federal deregulation did not end the risk for homebuyers: states are backfilling the gap. New York's 2025 Article 24 rewrite eliminated the old 12.4-acre mapped-wetland limit, made the maps merely "informational," created a rebuttable presumption that any area meeting the definition is regulated, added small "unusual importance" wetlands of any size, and drops the size threshold to 7.4 acres in 2028. Meanwhile EPA proposed a new WOTUS definition in November 2025 (220,000+ comments by Jan 5, 2026) and a supplemental proposal on September 9, 2026 that would narrow jurisdiction further to perennial flow — comments close October 9, 2026. The same AI remote-sensing tech that maps wetlands at >90% accuracy for regulators is now available as pre-purchase lot screening for buyers.
+
+## Primary sources (10)
+
+1. **U.S. Supreme Court, Sackett v. EPA, 598 U.S. 651 (May 25, 2023):** 9-0 decision. The Sacketts bought a small lot near Priest Lake, Idaho; EPA sent a compliance order claiming backfilling violated the Clean Water Act and threatened penalties of over $40,000 per day, despite the lot being worth only about $23,000. Court adopted the "continuous surface connection" test and rejected the "significant nexus" test. URL: https://www.supremecourt.gov/opinions/22pdf/21-454_4g15.pdf (cited via https://www.texaslawblog.law/2023/08/defining-americas-wetlands-the-supreme-courts-decision-in-sackett-v-epa/)
+2. **EPA/Army Corps conforming rule (Aug 29, 2023; effective Sept 8, 2023):** amended the 2023 WOTUS definition to conform to Sackett; removed the significant nexus test. NAHB Chairman Alicia Huey: "The amended WOTUS rule represents a blow to housing affordability. It assures continued uncertainty regarding federal jurisdiction." URL: https://www.multifamilyexecutive.com/news/epa-amends-waters-of-the-united-states-definition-to-conform-to-supreme-court-decision_s
+3. **NYSDEC, "Amendments to Article 24 Freshwater Wetlands" (2022 legislation summary):** effective Jan 1, 2025, DEC freshwater wetland maps became "informational" and "not necessarily determinative"; effective Jan 1, 2028, regulated threshold drops from 12.4 acres to 7.4 acres. URL: https://extapps.dec.ny.gov/docs/wildlife_pdf/article24changes.pdf
+4. **Barclay Damon alert (April 8, 2022 legislation):** DEC permitting jurisdiction previously limited to mapped wetlands ≥12.4 acres; new law creates rebuttable presumption that mapped and unmapped areas meeting the definition are regulated, including "unusual importance" wetlands meeting 1 of 11 criteria; DEC determinations of no regulated wetlands valid 5 years. URL: https://www.barclaydamon.com/alerts/nys-legislature-expands-decs-wetlands-authority
+5. **CHA Solutions synopsis of NY proposed regs:** DEC will "rely primarily on aerial imagery and remote data" to determine state-regulated wetlands on a parcel. URL: https://www.chasolutions.com/news/changemakers/a-synopsis-of-proposed-changes-to-new-yorks-freshwater-wetland-regulations/
+6. **A3 Environmental Consultants (jurisdictional wetland determination FAQ):** full delineation starts around $2,500; $450 desktop map/database review; $600–$1,200 field assessment; Corps JD typically 45–60 days for a nationwide permit, plus 2–4 more weeks for the county/local permit. URL: https://a3e.com/jurisdictional-wetland-determination/
+7. **Fenstermaker blog:** delineation for <5 acres costs $4,000–$5,000; larger developments $15,000–$20,000. URL: https://blog.fenstermaker.com/how-long-does-a-wetland-delineation-take/
+8. **Remote Sensing 2026, 18(3), 507 (Alberta AI wetland mapping):** ML/DL models (XGBoost, Random Forest, U-Net CNN) using LiDAR, orthophotography, Sentinel-1/2 and PlanetScope; validation accuracies >70% (form), >80% (class), >90% (wetland-upland); LiDAR integration improved accuracy by up to 13%. URL: https://www.mdpi.com/2072-4292/18/3/507
+9. **Open Legal Blog Archive (Sept 15, 2026) / Ward & Smith (Sept 2026):** as of September 2026 the 2023 Conforming Rule remains current WOTUS definition; Nov 20, 2025 proposed rule drew ~220,000 comments (period closed Jan 5, 2026); Sept 9, 2026 supplemental proposal would replace the "wet season" framework with perennial flow and narrow "continuous surface connection" to perennial surface water; comments due October 9, 2026 (91 Fed. Reg. 57284). URLs: https://www.openlegalblogarchive.org/2026/09/15/wotus-update-epa-seeks-comment-on-supplemental-proposal/ and https://www.wardandsmith.com/article/wotus-2026-the-pendulum-swings-narrower-still-as-agencies-supplement-their-proposal
+10. **NYSDEC Regulatory Flexibility Analysis (6 NYCRR Part 664):** landowners may request jurisdictional determinations and wetland delineations free of charge; single-family dwelling permit application fee $300. URL: https://dec.ny.gov/sites/default/files/2024-07/wetlands_rfa_pt664.pdf
+
+## Original contribution (geometric)
+NY Article 24 regulates a 100-foot "adjacent area" around freshwater wetlands. For a circular 2-acre wetland (radius ≈ 167 ft), the regulated footprint is π(167+100)² ≈ 5.13 acres — 2.56× the visible wetland. The wetland you can see is ~39% of the land the state actually regulates. Article will show this math and the NY threshold arithmetic: 12.4 → 7.4 acres is a 40% threshold cut; every wetland between 7.4 and 12.4 acres becomes newly regulated in 2028.
+
+## Counterargument (full strength)
+NAHB's position: bright-line narrowing reduces compliance cost and uncertainty, and those costs land on homebuyers. The 220,000 comments on the 2025 proposal suggest broad regulated-community appetite for clearer, narrower federal lines. The 50-state patchwork post-Sackett is arguably worse than one federal rule: a builder operating in five states now tracks five wetland programs instead of one. AI screening is also a private tax on a public failure — buyers shouldn't need to spend $450 on remote sensing to find out what the state already regulates.
+
+## Limitations
+- AI screening accuracy figures (90%+ wetland-upland in Alberta; 77.4% for 5-class mapping in Florida) are screening-grade, not legally determinative; only a field delineation + agency JD establishes jurisdiction.
+- Sept 2026 supplemental WOTUS proposal is not final; litigation over any final rule is widely expected (Mondaq/Bracewell analysis).
+- NY-specific adjacent-area math (100 ft) does not generalize; every state has its own program and buffers.
+- NY DEC free JD program details and turnaround times were not independently verified beyond the RFA document.
+- Corps JD 45–60 day figure is a Corps goal (RGL 08-02) and consultant experience, not a guarantee.
