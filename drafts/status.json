@@ -1,12 +1,7 @@
 {
- "current": {
-  "slug": "ai-fireblocking-penetration-photo-qa-concealed-space-2026",
-  "phase": "DRAFT",
-  "journalist": "Jake Kowalski",
-  "started": "2026-10-08T00:20:00-07:00"
- },
+ "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-07T22:09:43.089726-07:00",
+ "last_completed": "2026-10-08T00:45:00-07:00",
  "last_published_at": "2026-10-07T00:50:00-07:00",
  "ship_ready": [
   {
@@ -12227,9 +12222,61 @@
    "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-27), next open slot 2027-06-28.",
    "started": "2026-10-07T22:03:55.695075-07:00",
    "note": "Round 0 pass. Original: triple-stack sizing derivation (Manual J 1.20x conservatism x contractor round-up x like-for-like change-out predicts the 1.2-1.6 field band); one-ton lifetime tax $7,000-$9,500 with stated assumptions; free AI Manual J input-audit workflow (5 most-padded inputs). Counterargument: FSEC variable-capacity oversizing data (10% peak-demand cut, 52-55% RH). FSEC 20-60%, DOE 65%/1.6 quad BTU, Proctor 20%, Lstiburek latent figures."
+  },
+  {
+   "article_number": 1039,
+   "completed": "2026-10-08T00:45:00-07:00",
+   "critique_score": 8.8,
+   "critique_scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.9,
+    "data_presentation": 8.8
+   },
+   "critique_self_assessed": true,
+   "draft_file": "drafts/ai-fireblocking-penetration-photo-qa-concealed-space-2026.html",
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 10.3,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 236.9,
+     "short_pct": 6.7,
+     "long_pct": 52.0,
+     "passed": true
+    }
+   },
+   "headline": "17,965 Fires a Year Start Inside Your Walls. A $200 Tube of Caulk Is the Fire Department.",
+   "hero_hash": "c717ddf9",
+   "hero_real_jpeg": true,
+   "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-06-28), next open slot 2027-06-29.",
+   "journalist": "Jake Kowalski",
+   "number": 1039,
+   "phase": "SHIP_READY",
+   "primary_sources": 10,
+   "research_file": "drafts/ai-fireblocking-penetration-photo-qa-concealed-space-2026-research.md",
+   "rounds": 0,
+   "ship_after": "2027-06-29",
+   "slug": "ai-fireblocking-penetration-photo-qa-concealed-space-2026",
+   "started": "2026-10-08T00:20:00-07:00",
+   "note": "Round 0 pass. Original: summed NFPA concealed-space fire total (17,965/yr, $926M, ~80 deaths, 2019-2023 avg \u2014 a sum NFPA does not publish); per-house penetration-sealing cost model ($150-$400). Counterargument: gold-plating a solved problem; smoke alarms beat caulk per marginal dollar; sprinklered homes differ. Honest gap stated: no fireblocking-specific AI inspector exists; the product is 360 capture + checklist workflow."
   }
  ],
- "last_worker_run": "2026-10-07T22:09:43.089726-07:00",
+ "last_worker_run": "2026-10-08T00:45:00-07:00",
  "last_qa": {
   "article_number": 780,
   "slug": "ai-hoa-architectural-review-ccr-delay-2026",
