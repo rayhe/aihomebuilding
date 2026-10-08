@@ -1,12 +1,7 @@
 {
- "current": {
-  "slug": "ai-sump-pump-french-drain-flood-prediction-2026",
-  "phase": "DRAFT",
-  "journalist": "Frank DeLuca",
-  "started": "2026-10-08T02:20:00-07:00"
- },
+ "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-08T00:45:00-07:00",
+ "last_completed": "2026-10-08T02:45:00-07:00",
  "last_published_at": "2026-10-07T00:50:00-07:00",
  "ship_ready": [
   {
@@ -12279,9 +12274,61 @@
    "slug": "ai-fireblocking-penetration-photo-qa-concealed-space-2026",
    "started": "2026-10-08T00:20:00-07:00",
    "note": "Round 0 pass. Original: summed NFPA concealed-space fire total (17,965/yr, $926M, ~80 deaths, 2019-2023 avg \u2014 a sum NFPA does not publish); per-house penetration-sealing cost model ($150-$400). Counterargument: gold-plating a solved problem; smoke alarms beat caulk per marginal dollar; sprinklered homes differ. Honest gap stated: no fireblocking-specific AI inspector exists; the product is 360 capture + checklist workflow."
+  },
+  {
+   "article_number": 1040,
+   "number": 1040,
+   "slug": "ai-sump-pump-french-drain-flood-prediction-2026",
+   "headline": "Your Sump Pump Died in August. The Flood Finds Out in March.",
+   "journalist": "Frank DeLuca",
+   "phase": "SHIP_READY",
+   "ship_after": "2027-06-30",
+   "research_file": "drafts/ai-sump-pump-french-drain-flood-prediction-2026-research.md",
+   "draft_file": "drafts/ai-sump-pump-french-drain-flood-prediction-2026.html",
+   "hero_hash": "bf3dedcf",
+   "hero_real_jpeg": true,
+   "primary_sources": 5,
+   "rounds": 0,
+   "started": "2026-10-08T02:20:00-07:00",
+   "completed": "2026-10-08T02:45:00-07:00",
+   "critique_self_assessed": true,
+   "critique_score": 8.9,
+   "critique_scores": {
+    "general_editor": 8.9,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 0.0,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 201.8,
+     "short_pct": 23.7,
+     "long_pct": 24.7,
+     "passed": true
+    }
+   },
+   "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-06-29), next open slot 2027-06-30.",
+   "note": "Round 0 pass. Original: 29.5% The-starters fixed via reword. Counterargument: monitoring-without-backup is an expensive flood camera; WiFi alerting dies with the power; Group I soil exemption; discharge path first. Honest gap stated: no vendor publishes a trained pump-failure model; the AI layer is telemetry + thresholds + seasonal anomaly detection."
   }
  ],
- "last_worker_run": "2026-10-08T02:20:00-07:00",
+ "last_worker_run": "2026-10-08T02:45:00-07:00",
  "last_qa": {
   "article_number": 780,
   "slug": "ai-hoa-architectural-review-ccr-delay-2026",
