@@ -1,14 +1,7 @@
 {
- "current": {
-  "number": 1038,
-  "slug": "ai-manual-j-oversizing-heat-pump-audit-2026",
-  "phase": "DRAFT",
-  "journalist": "Priya Greenwood",
-  "started": "2026-10-07T22:03:55.695075-07:00",
-  "research_file": "drafts/ai-manual-j-oversizing-heat-pump-audit-2026-research.md"
- },
+ "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-07T20:10:53.893793-07:00",
+ "last_completed": "2026-10-07T22:09:43.089726-07:00",
  "last_published_at": "2026-10-07T00:50:00-07:00",
  "ship_ready": [
   {
@@ -12179,9 +12172,59 @@
    "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-26), next open slot 2027-06-27.",
    "started": "2026-10-07T20:05:10.152525-07:00",
    "note": "Round 1 pass (added 11 inline source hyperlinks after round-0 verifiability catch). Original: CRZ lot math (30in oak -> 6,362 sq ft protection zone vs 6,000 sq ft lot); Seattle $17.87/sq-in priced one 30in tree at ~$12,630; free NAIP+AI pre-offer screening workflow. SJ $30k/tree, Woodland $1k/day, LA 4in threshold, Denver Legacy Tree bill."
+  },
+  {
+   "number": 1038,
+   "slug": "ai-manual-j-oversizing-heat-pump-audit-2026",
+   "headline": "Your Heat Pump Is Probably a Ton Too Big. That Extra Ton Costs $8,000.",
+   "journalist": "Priya Greenwood",
+   "phase": "SHIP_READY",
+   "research_file": "drafts/ai-manual-j-oversizing-heat-pump-audit-2026-research.md",
+   "draft_file": "drafts/ai-manual-j-oversizing-heat-pump-audit-2026.html",
+   "primary_sources": 10,
+   "rounds": 0,
+   "critique_self_assessed": true,
+   "critique_score": 8.84,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 2.4,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 226.5,
+     "short_pct": 9.0,
+     "long_pct": 42.3,
+     "passed": true
+    }
+   },
+   "hero_hash": "3f598ea3",
+   "hero_real_jpeg": true,
+   "ship_after": "2027-06-28",
+   "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-27), next open slot 2027-06-28.",
+   "started": "2026-10-07T22:03:55.695075-07:00",
+   "note": "Round 0 pass. Original: triple-stack sizing derivation (Manual J 1.20x conservatism x contractor round-up x like-for-like change-out predicts the 1.2-1.6 field band); one-ton lifetime tax $7,000-$9,500 with stated assumptions; free AI Manual J input-audit workflow (5 most-padded inputs). Counterargument: FSEC variable-capacity oversizing data (10% peak-demand cut, 52-55% RH). FSEC 20-60%, DOE 65%/1.6 quad BTU, Proctor 20%, Lstiburek latent figures."
   }
  ],
- "last_worker_run": "2026-10-07T22:03:55.695075-07:00",
+ "last_worker_run": "2026-10-07T22:09:43.089726-07:00",
  "last_qa": {
   "article_number": 780,
   "slug": "ai-hoa-architectural-review-ccr-delay-2026",
