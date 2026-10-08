@@ -1,7 +1,7 @@
 {
  "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-08T02:45:00-07:00",
+ "last_completed": "2026-10-08T04:09:00-07:00",
  "last_published_at": "2026-10-07T00:50:00-07:00",
  "ship_ready": [
   {
@@ -12326,9 +12326,60 @@
    },
    "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-06-29), next open slot 2027-06-30.",
    "note": "Round 0 pass. Original: 29.5% The-starters fixed via reword. Counterargument: monitoring-without-backup is an expensive flood camera; WiFi alerting dies with the power; Group I soil exemption; discharge path first. Honest gap stated: no vendor publishes a trained pump-failure model; the AI layer is telemetry + thresholds + seasonal anomaly detection."
+  },
+  {
+   "article_number": 1041,
+   "slug": "ai-3d-printed-wall-corduroy-texture-resale-design-2026",
+   "headline": "Your 3D-Printed House Has Ribbed Walls. Smoothing Them Costs $20,000.",
+   "journalist": "Elena Vasquez",
+   "phase": "SHIP_READY",
+   "ship_after": "2027-07-01",
+   "research_file": "drafts/ai-3d-printed-wall-corduroy-texture-resale-design-2026-research.md",
+   "draft_file": "drafts/ai-3d-printed-wall-corduroy-texture-resale-design-2026.html",
+   "hero_hash": "76c7b6a8",
+   "hero_real_jpeg": true,
+   "primary_sources": 6,
+   "rounds": 0,
+   "started": "2026-10-08T04:09:00-07:00",
+   "completed": "2026-10-08T04:09:00-07:00",
+   "critique_self_assessed": true,
+   "critique_score": 8.91,
+   "critique_scores": {
+    "general_editor": 8.9,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 0.0,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 238.6,
+     "short_pct": 7.1,
+     "long_pct": 46.4,
+     "passed": true
+    }
+   },
+   "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-06-30), next open slot 2027-07-01.",
+   "note": "Round 0 pass. Original contribution: 32% per-sq-ft spread across 3 Wolf Ranch resales (finishes drive resale, not the printer); ~$20k exterior smooth-wall estimate (175 lin ft x 10.5 ft = 1,837 sf at $9-14/sf); AC509/ESR/Fannie code-acceptance timeline. Counterargument: ribs are the feature (medallion collectibility, BIG design intent). Honest gaps: listing not sold prices; Ottawa stucco pricing reference; no decades-long Lavacrete field data."
   }
  ],
- "last_worker_run": "2026-10-08T02:45:00-07:00",
+ "last_worker_run": "2026-10-08T04:09:00-07:00",
  "last_qa": {
   "article_number": 780,
   "slug": "ai-hoa-architectural-review-ccr-delay-2026",
