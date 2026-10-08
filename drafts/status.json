@@ -1,12 +1,7 @@
 {
-  "current": {
-    "slug": "ai-concrete-over-order-waste-takeoff-2026",
-    "phase": "DRAFT",
-    "journalist": "Jake Kowalski",
-    "started": "2026-10-08T16:10:00-07:00"
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-08T14:45:00-07:00",
+  "last_completed": "2026-10-08T16:35:00-07:00",
   "last_published_at": "2026-10-08T06:30:00-07:00",
   "ship_ready": [
     {
@@ -12592,9 +12587,62 @@
       "slug": "ai-asbestos-renovation-survey-gap-epa-ban-2026",
       "started": "2026-10-08T14:10:00-07:00",
       "note": "Round 0 pass after rhythm-only revision (variance 136.2->221.2, short_pct 22.3->3.0 via sentence merges; no content changes). Original contribution: honest AI capability boundary (aerial CNN roof screening 87-93% real vs no published phone-photo method for interior materials; content is a lab measurement, PLM/TEM) + federal/state gap quantified on a 40-sq-ft Denver scenario (nothing federal, full CO Reg 8 Part B trigger) + survey expected-value math ($400-800 survey vs surprise abatement + weeks of stall). Counterargument: mandates as paperwork tax; municipal aerial screening more efficient than per-project mandates. Honest gaps: cost ranges market-typical not quotes; Taiwan roof stock not transferable to US suburbs; Colorado is one verified state not a 50-state map; EPA Part 2 risk-management rule pending; composite opening disclosed."
+    },
+    {
+      "article_number": 1045,
+      "number": 1045,
+      "slug": "ai-concrete-over-order-waste-takeoff-2026",
+      "headline": "Your Foundation Order Includes $1,116 of Concrete Nobody Needs",
+      "journalist": "Jake Kowalski",
+      "phase": "SHIP_READY",
+      "started": "2026-10-08T16:10:00-07:00",
+      "completed": "2026-10-08T16:35:00-07:00",
+      "research_file": "drafts/ai-concrete-over-order-waste-takeoff-2026-research.md",
+      "draft_file": "drafts/ai-concrete-over-order-waste-takeoff-2026.html",
+      "critique_file": "drafts/ai-concrete-over-order-waste-takeoff-2026-critique-r0.md",
+      "rounds": 0,
+      "critique_self_assessed": true,
+      "critique_average": 8.84,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.4,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 230.7,
+          "short_pct": 13.5,
+          "long_pct": 62.2,
+          "passed": true
+        }
+      },
+      "hero_hash": "7597b933",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, verified on-screen: mixer truck discharging into foundation formwork with rebar grid, worker in hard hat, dawn light",
+      "primary_sources": 7,
+      "hold_reason": "1/day rule: 2 publishes shipped 2026-10-08 PT; queued behind existing ship_ready queue (last ship_after 2027-07-06), next open slot 2027-07-07.",
+      "ship_after": "2027-07-07",
+      "note": "Original contribution: 62-yd3 basement foundation scenario math ($1,116 at 10% allowance vs $447 at 4%; $669 spread; ~$13,300 per 20-home subdivision). Steelman flags the category error of extrapolating plan-takeoff accuracy to poured concrete. Honest gaps: no independent study on how much allowance AI takeoff removes on residential foundations; pricing regional; NRMCA return figure mixes quality rejections with overages."
     }
   ],
-  "last_worker_run": "2026-10-08T16:10:00-07:00",
+  "last_worker_run": "2026-10-08T16:35:00-07:00",
   "last_qa": {
     "article_number": 781,
     "slug": "ai-concrete-maturity-sensors-residential-foundation-2026",
