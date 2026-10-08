@@ -1,5 +1,40 @@
 {
- "current": null,
+ "current": {
+  "slug": "ai-heritage-tree-critical-root-zone-lot-screening-2026",
+  "phase": "CRITIQUE",
+  "journalist": "Catherine \"Code\" Chen",
+  "number": 1037,
+  "started": "2026-10-07T20:05:10.152525-07:00",
+  "research_file": "drafts/ai-heritage-tree-critical-root-zone-lot-screening-2026-research.md",
+  "primary_sources": 10,
+  "round": 0,
+  "headline": "That 30-Inch Oak Owns 6,300 Square Feet of Your Lot. Cutting It Costs $30,000.",
+  "draft_file": "drafts/ai-heritage-tree-critical-root-zone-lot-screening-2026.html",
+  "hero_hash": "162287af",
+  "hero_real_jpeg": "FF D8 magic, 1920x1280, heritage coast live oak ringed by survey stakes/flagging on residential lot, golden hour",
+  "hard_gates": {
+   "em_dash": {
+    "count": 0,
+    "limit": 3,
+    "passed": true
+   },
+   "the_starters": {
+    "pct": 2.6,
+    "limit": 15.0,
+    "passed": true
+   },
+   "banned_phrases": {
+    "count": 0,
+    "passed": true
+   },
+   "sentence_rhythm": {
+    "variance": 313.4,
+    "short_pct": 9.2,
+    "long_pct": 40.8,
+    "passed": true
+   }
+  }
+ },
  "hero_cache_bust": null,
  "last_completed": "2026-10-07T18:15:00-07:00",
  "last_published_at": "2026-10-07T00:50:00-07:00",
