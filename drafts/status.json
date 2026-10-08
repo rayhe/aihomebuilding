@@ -1,14 +1,7 @@
 {
- "current": {
-  "slug": "ai-gps-timeclock-wage-theft-dol-2026",
-  "phase": "DRAFT",
-  "journalist": "Marcus Washington",
-  "number": 1042,
-  "started": "2026-10-08T07:00:00-07:00",
-  "research_file": "drafts/ai-gps-timeclock-wage-theft-dol-2026-research.md"
- },
+ "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-08T06:45:00-07:00",
+ "last_completed": "2026-10-08T07:30:00-07:00",
  "last_published_at": "2026-10-08T06:30:00-07:00",
  "ship_ready": [
   {
@@ -12336,9 +12329,60 @@
    },
    "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-06-30), next open slot 2027-07-01.",
    "note": "Round 0 pass. Original contribution: 32% per-sq-ft spread across 3 Wolf Ranch resales (finishes drive resale, not the printer); ~$20k exterior smooth-wall estimate (175 lin ft x 10.5 ft = 1,837 sf at $9-14/sf); AC509/ESR/Fannie code-acceptance timeline. Counterargument: ribs are the feature (medallion collectibility, BIG design intent). Honest gaps: listing not sold prices; Ottawa stucco pricing reference; no decades-long Lavacrete field data."
+  },
+  {
+   "article_number": 1042,
+   "slug": "ai-gps-timeclock-wage-theft-dol-2026",
+   "headline": "Your Framer Worked Saturday. Nobody Wrote It Down. The DOL Believes Him, Not You.",
+   "journalist": "Marcus Washington",
+   "phase": "SHIP_READY",
+   "ship_after": "2027-07-02",
+   "research_file": "drafts/ai-gps-timeclock-wage-theft-dol-2026-research.md",
+   "draft_file": "drafts/ai-gps-timeclock-wage-theft-dol-2026.html",
+   "hero_hash": "c5e35701",
+   "hero_real_jpeg": true,
+   "primary_sources": 9,
+   "rounds": 0,
+   "started": "2026-10-08T07:00:00-07:00",
+   "completed": "2026-10-08T07:30:00-07:00",
+   "critique_self_assessed": true,
+   "critique_score": 8.81,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.6,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 6.4,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 205.3,
+     "short_pct": 14.3,
+     "long_pct": 50.6,
+     "passed": true
+    }
+   },
+   "hold_reason": "1/day rule: queued behind existing ship_ready queue (last ship_after 2027-07-01), next open slot 2027-07-02.",
+   "note": "Round 0 pass. Original contribution: break-even math for 10-person crew ($1,200/yr GPS time clock vs $31,280 average DOL finding = 26:1; ~$150K under proposed 2x-liquidated-damages regime); Mt. Clemens burden-shifting as the employer's-alibi argument. Counterargument: surveillance backlash, off-books workers invisible to any clock, bad actors won't buy it, bills aren't law. Honest gaps: no outcome study of GPS clocks reducing DOL findings; vendor list prices; composite opening anecdote (disclosed)."
   }
  ],
- "last_worker_run": "2026-10-08T07:00:00-07:00",
+ "last_worker_run": "2026-10-08T07:30:00-07:00",
  "last_qa": {
   "article_number": 781,
   "slug": "ai-concrete-maturity-sensors-residential-foundation-2026",
