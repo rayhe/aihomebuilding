@@ -1,7 +1,7 @@
 {
  "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-07T16:45:00-07:00",
+ "last_completed": "2026-10-07T18:15:00-07:00",
  "last_published_at": "2026-10-07T00:50:00-07:00",
  "ship_ready": [
   {
@@ -12073,9 +12073,58 @@
    "ship_after": "2027-06-25",
    "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-24), next open slot 2027-06-25.",
    "note": "Round 1 pass (The-starters 31.9%->9.9%). Original: EPA new-build vs retrofit ROI ratio (~4x) + rough-in-everywhere/test-then-activate builder strategy + 83M-in-low-zones code-gap thesis."
+  },
+  {
+   "article_number": 1036,
+   "slug": "ai-attic-insulation-r-value-temperature-derate-2026",
+   "headline": "Your Attic Hit 140\u00b0F Today. Your R-49 Insulation Was Rated at 75.",
+   "journalist": "Priya Greenwood",
+   "phase": "SHIP_READY",
+   "research_file": "drafts/ai-attic-insulation-r-value-temperature-derate-2026-research.md",
+   "draft_file": "drafts/ai-attic-insulation-r-value-temperature-derate-2026.html",
+   "primary_sources": 10,
+   "rounds": 1,
+   "critique_self_assessed": true,
+   "critique_score": 8.8,
+   "critique_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.6,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.9,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dash": {
+     "count": 0,
+     "limit": 3,
+     "passed": true
+    },
+    "the_starters": {
+     "pct": 0.0,
+     "limit": 15.0,
+     "passed": true
+    },
+    "banned_phrases": {
+     "count": 0,
+     "passed": true
+    },
+    "sentence_rhythm": {
+     "variance": 201.7,
+     "short_pct": 11.7,
+     "long_pct": 55.8,
+     "passed": true
+    }
+   },
+   "hero_hash": "5eb4b33a",
+   "hero_real_jpeg": true,
+   "ship_after": "2027-06-26",
+   "hold_reason": "1/day rule: 2 publishes already on 2026-10-07 PT; queued behind existing ship_ready queue (last ship_after 2027-06-25), next open slot 2027-06-26.",
+   "note": "Round 1 pass (rhythm 160.5->201.7, The-starters 15.5%->0.0%, merged short pairs). Original: peak-day derate calc (R-49->R-42, ~14%) from ORNL 0.12 R/in/10F coefficient + FSEC 150F deck temps; LBNL 10-20% seasonal band; $5-11/yr honest counterweight; radiant-barrier/material hierarchy; Lamarr.AI + Kestrix audit angle."
   }
  ],
- "last_worker_run": "2026-10-07T16:45:00-07:00",
+ "last_worker_run": "2026-10-07T18:15:00-07:00",
  "last_qa": {
   "article_number": 780,
   "slug": "ai-hoa-architectural-review-ccr-delay-2026",
