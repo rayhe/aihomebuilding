@@ -1,55 +1,7 @@
 {
- "current": {
-  "article_number": 781,
-  "completed": "2026-09-05T11:07:41.588293+00:00",
-  "critique_score": 8.8,
-  "critique_scores": {
-   "data_presentation": 8.7,
-   "ethics_reviewer": 9.0,
-   "general_editor": 8.7,
-   "legal_accuracy": 9.0,
-   "research_rigor": 8.8,
-   "social_shareability": 8.8,
-   "voice_coach": 8.6
-  },
-  "hard_gates": {
-   "banned_phrases": {
-    "count": 0,
-    "passed": true
-   },
-   "em_dash": {
-    "count": 0,
-    "limit": 3,
-    "passed": true
-   },
-   "sentence_rhythm": {
-    "long_pct": 60.6,
-    "passed": true,
-    "short_pct": 7.0,
-    "variance": 206.2
-   },
-   "the_starters": {
-    "limit": 15.0,
-    "passed": true,
-    "pct": 3.1
-   }
-  },
-  "headline": "Your Foundation Cured Under a Tarp at 41 Degrees. Your Builder Tested a Cylinder in a 73-Degree Water Tank.",
-  "hero_hash": "4b85033f",
-  "hold_reason": "1/day rule: #779 published 2026-09-05; #747 through #781 queued for 2026-09-05 through 2026-10-08",
-  "id": 781,
-  "journalist": "Jake Kowalski",
-  "phase": "SHIP",
-  "primary_sources": 11,
-  "research_file": "drafts/ai-concrete-maturity-sensors-residential-foundation-2026-research.md",
-  "rounds": 1,
-  "ship_after": "2026-10-08",
-  "slug": "ai-concrete-maturity-sensors-residential-foundation-2026",
-  "started": "2026-09-05T04:15:00-07:00",
-  "published": "2026-10-08T06:30:00-07:00"
- },
+ "current": null,
  "hero_cache_bust": null,
- "last_completed": "2026-10-08T04:09:00-07:00",
+ "last_completed": "2026-10-08T06:45:00-07:00",
  "last_published_at": "2026-10-08T06:30:00-07:00",
  "ship_ready": [
   {
@@ -12379,11 +12331,11 @@
    "note": "Round 0 pass. Original contribution: 32% per-sq-ft spread across 3 Wolf Ranch resales (finishes drive resale, not the printer); ~$20k exterior smooth-wall estimate (175 lin ft x 10.5 ft = 1,837 sf at $9-14/sf); AC509/ESR/Fannie code-acceptance timeline. Counterargument: ribs are the feature (medallion collectibility, BIG design intent). Honest gaps: listing not sold prices; Ottawa stucco pricing reference; no decades-long Lavacrete field data."
   }
  ],
- "last_worker_run": "2026-10-08T06:30:00-07:00",
+ "last_worker_run": "2026-10-08T06:45:00-07:00",
  "last_qa": {
-  "article_number": 780,
-  "slug": "ai-hoa-architectural-review-ccr-delay-2026",
-  "at": "2026-10-07T01:05:00-07:00",
+  "article_number": 781,
+  "slug": "ai-concrete-maturity-sensors-residential-foundation-2026",
+  "at": "2026-10-08T06:45:00-07:00",
   "status": "pass",
   "story": 200,
   "hero": 200,
