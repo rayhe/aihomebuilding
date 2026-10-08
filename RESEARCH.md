@@ -1146,3 +1146,14 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: audiometry doesn't fix the 52% non-wear problem; mobile workforce breaks longitudinal data; surveillance/privacy of worker dosimetry; vendor claims unverified; technology can't fix a stalled rulemaking
 - Journalist: Marcus "Steel" Washington (workforce & labor beat)
 - **Queued SHIP 2027-06-10 as #1020:** "25% of the Crew Framing Your House Is Losing Its Hearing. An Algorithm Heard It First." (critique avg 8.80, round 0; gates: 0 em dashes, 3.0% The-starters, rhythm variance 255.8; real JPEG hero 1920x1280, hash cd8d734e)
+
+### 97. 🟢 AI Arsenic Maps & the Private Well Testing Gap (COMPLETED 2026-10-08)
+- 43M Americans (~15% of population) on private wells; SDWA does not cover private wells (EPA: not regulated, owner responsible); EPA recommends annual testing (coliform, nitrate, TDS, pH)
+- USGS national retrospective: arsenic >MCL in ~11% of 7,580 wells, nitrate ~8% of 3,465, uranium ~4%; separate program: 1 in 5 private wells exceeds a health benchmark for at least one contaminant
+- Lombard et al. 2021 (ES&T): BRT + random forest arsenic probability maps, conterminous US, public rasters; 10 ug/L BRT model 91.2% accuracy, 33.9% sensitivity, 98.2% specificity — screens, never clears
+- NJ Private Well Testing Act (2002): only point-of-sale testing mandate in US; closing barred until buyer+seller review results; landlords retest every 5 years; 134K wells tested in 20 years (~34% of NJ wells); 15.7% exceeded a primary standard; PFAS added 2022, >12% since exceeded for at least one PFAS
+- Iowa (Lade 2024, via secondary): 9% tested in past year; 40% drank untested, unfiltered well water (one-state survey, not national)
+- Original: 49-state gap framing + EV math ($300 test vs $750 expected exposure at discounted 1-in-10/$7.5K; 5x at USGS 1-in-5) + ML sensitivity paradox as honest AI frame
+- Strongest counterargument: testing creates owned information (deal-killer/disclosure); most exceedances treatable off-the-shelf; mandates work partially; models are not measurements; treatment-without-remediation-support is a rural-seller tax
+- Journalist: Priya Greenwood (sustainability/health beat)
+- **Queued SHIP 2027-07-05 as #1043:** "43 Million Americans Drink Water Nobody Is Required to Test." (critique avg 8.87, round 0; gates: 0 em dashes, 11.5% The-starters, rhythm variance 276.7; real JPEG hero 1920x1280, hash afb8b3f2)
