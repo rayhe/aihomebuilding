@@ -1,7 +1,7 @@
 {
   "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-08T16:35:00-07:00",
+  "last_completed": "2026-10-08T18:30:00-07:00",
   "last_published_at": "2026-10-08T06:30:00-07:00",
   "ship_ready": [
     {
@@ -12640,6 +12640,59 @@
       "hold_reason": "1/day rule: 2 publishes shipped 2026-10-08 PT; queued behind existing ship_ready queue (last ship_after 2027-07-06), next open slot 2027-07-07.",
       "ship_after": "2027-07-07",
       "note": "Original contribution: 62-yd3 basement foundation scenario math ($1,116 at 10% allowance vs $447 at 4%; $669 spread; ~$13,300 per 20-home subdivision). Steelman flags the category error of extrapolating plan-takeoff accuracy to poured concrete. Honest gaps: no independent study on how much allowance AI takeoff removes on residential foundations; pricing regional; NRMCA return figure mixes quality rejections with overages."
+    },
+    {
+      "article_number": 1046,
+      "number": 1046,
+      "slug": "ai-dryer-exhaust-duct-equivalent-length-35ft-code-2026",
+      "headline": "Your Dryer Vent Is 51 Feet Long on Paper. The Code Allows 35.",
+      "journalist": "Catherine Chen",
+      "phase": "SHIP_READY",
+      "started": "2026-10-08T18:05:00-07:00",
+      "completed": "2026-10-08T18:30:00-07:00",
+      "research_file": "drafts/ai-dryer-exhaust-duct-equivalent-length-35ft-code-2026-research.md",
+      "draft_file": "drafts/ai-dryer-exhaust-duct-equivalent-length-35ft-code-2026.html",
+      "critique_file": "drafts/ai-dryer-exhaust-duct-equivalent-length-35ft-code-2026-critique-r0.md",
+      "rounds": 0,
+      "critique_self_assessed": true,
+      "critique_average": 8.86,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 13.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 214.2,
+          "short_pct": 6.8,
+          "long_pct": 58.1,
+          "passed": true
+        }
+      },
+      "hero_hash": "bf10d50d",
+      "hero_real_jpeg": "FF D8 magic, 1920x1280, verified on-screen: rigid metal dryer duct snaking through exposed wall framing with multiple elbows, washer and dryer awaiting install, warm light",
+      "primary_sources": 5,
+      "hold_reason": "1/day rule: 2 publishes shipped 2026-10-08 PT (#780, #781); queued behind existing ship_ready queue (last ship_after 2027-07-07), next open slot 2027-07-08.",
+      "ship_after": "2027-07-08",
+      "note": "Original contribution: 3-scenario IRC Table M1502.4.6.1 equivalent-length math (16/38/51 ft; second-floor center-house placement = 1.46x the 35-ft cap); $30 smooth-elbow swap converts Scenario B to compliance; 2021 IRC M1502.4.5 booster-fan ban removes the cheap fix, leaving listed UL 705 power ventilators; ~$70/yr energy illustration with disclosed assumptions. Steelman: failure-to-clean (31-34%) dwarfs duct length as a fire factor; prevalence of over-long ducts inferred from placement trends, not measured. Honest gaps: no field data on real duct over-length prevalence; AI plan-check claim from public product pages."
     }
   ],
   "last_worker_run": "2026-10-08T16:35:00-07:00",
