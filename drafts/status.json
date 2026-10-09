@@ -1,13 +1,7 @@
 {
-  "current": {
-    "slug": "ai-ember-intrusion-vents-home-hardening-2026",
-    "phase": "DRAFT",
-    "journalist": "Elena Vasquez",
-    "article_number": 1050,
-    "started": "2026-10-09T02:10:00-07:00"
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-09T00:45:00-07:00",
+  "last_completed": "2026-10-09T02:45:00-07:00",
   "last_published_at": "2026-10-09T00:40:00-07:00",
   "ship_ready": [
     {
@@ -12805,6 +12799,41 @@
       },
       "publish_note": "Queued, not shipped: 2 publishes already shipped 2026-10-08 PT (one-per-day rule); queued behind existing ship_ready queue (last ship_after 2027-07-09), next open slot 2027-07-10. Kill-test passed; original contribution = starved-fan attic vent ledger (4,800 CFM needs 6.4 sq ft NFA upper venting = ~51 ft ridge vent; gable-vent-only homes starve the fan) + night-flush dollar ledger ($0.70/night vs $6.13 AC, ~3.7-yr payback at stated assumptions) + AI-gap finding (no mainstream controller does forecast-aware run-window optimization). Real JPEG hero, validated ff d8, 1920x1280. 3 hard-gate revisions (The-starters 19.8% -> 5.5%; rhythm variance 153.9 -> 203.8, short 16.9% -> 10.0%).",
       "hold_reason": "1/day rule: 2 publishes shipped 2026-10-08 PT; queued behind existing ship_ready queue (last ship_after 2027-07-09), next open slot 2027-07-10."
+    },
+    {
+      "article_number": 1050,
+      "id": 1050,
+      "slug": "ai-ember-intrusion-vents-home-hardening-2026",
+      "headline": "Embers Ignited 90% of the Homes That Burned. Your Vents Are Holding the Door Open.",
+      "journalist": "Elena Vasquez",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-07-11",
+      "completed": "2026-10-09",
+      "rounds": 0,
+      "critics": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "the_starters_pct": 8.3,
+        "banned_phrases": 0,
+        "sentence_rhythm": {
+          "variance": 200.0,
+          "short_pct": 8.3,
+          "long_pct": 45.8,
+          "passed": true
+        }
+      },
+      "primary_sources": 7,
+      "research_file": "drafts/ai-ember-intrusion-vents-home-hardening-2026-research.md",
+      "hero_hash": "3dc9dd9a",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), template-transplanted from zone-zero article 2026-10-09"
     }
   ],
   "last_worker_run": "2026-10-08T22:15:00-07:00",
