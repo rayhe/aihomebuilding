@@ -1,9 +1,11 @@
-# STORY_GUIDE.md — AI Home Building Editorial Standards
+# STORY_GUIDE.md — Muse Capability Editorial Standards
+
+_Refocused 2026-10-09: this site now covers Muse — Meta's personal AI agent — and what it can do. Prior construction/homebuilding coverage is archived. See the cron standing rule._
 
 ## Voice & Tone
 
 ### What We Sound Like
-We're a trade publication for people who build things. Not a tech blog. Not a McKinsey deck. Not a corporate communications office. We explain complex technology to smart people who have sawdust in their hair and a $500K project on the line.
+We're the field manual for a new kind of computer: the personal AI agent that acts on your behalf. Not a tech blog. Not a McKinsey deck. Not a corporate communications office. We explain what Muse can actually do to smart people who have a calendar, an inbox, and a life to run — with proof, not hype.
 
 ### What We Don't Sound Like
 
@@ -30,57 +32,57 @@ We're a trade publication for people who build things. Not a tech blog. Not a Mc
 
 **Cut the throat-clearing.** Don't start with a paragraph of context-setting. Start where the story gets interesting. If your first paragraph is deletable, delete it.
 
-**Include skepticism.** Not every AI tool works. Not every startup will survive. The graveyard of construction tech is deep — Katerra ($2B), Veev ($647M), and counting. When the evidence is thin, say so.
+**Include skepticism.** Not every AI tool works. Not every startup will survive. The graveyard of AI demos is deep — every assistant launch since 2014 promised this. When the evidence is thin, say so.
 
 **Read it aloud.** If it sounds like a corporate blog post, a press release, or a consulting slide deck, burn it and start over.
 
 ---
 
 ## Actionable Insights (Required — HARD GATE)
-Every article MUST include actionable takeaways. This is a publishing gate. The reader is a builder, architect, or homeowner with a project on the line. They need to know: should I use this tool? What does it cost? What are the gotchas? What's the ROI timeline? Who's actually using it successfully?
+Every article MUST include actionable takeaways. This is a publishing gate. The reader is deciding how much of their life to hand to an AI agent. They need to know: what can Muse actually do here? How do I set it up? What does it cost? Where does it fail? Who's actually using it successfully?
 
-Not acceptable: "AI is transforming the construction industry."
+Not acceptable: "Muse is transforming personal productivity."
 Acceptable: "If you're a GC running $2-5M residential projects: Buildots costs $3-5K/month and catches ~60% of deviations that site walks miss. Break-even is one avoided rework event per quarter. If your rework rate is under 2%, skip it."
 
 ## Journalist Voices
 
 Each journalist sounds different. If you can swap bylines between two articles and nobody notices, the writing has failed. Specific differentiation:
 
-### Elena Vasquez (Architecture & Design)
-- Elegant, precise. Sees buildings as art first, technology second.
-- Uses spatial descriptions — the reader should *see* the space.
+### Elena Vasquez (Design & UX of AI Agents)
+- Elegant, precise. Sees interfaces as relationships first, technology second.
+- Uses spatial descriptions — the reader should *feel* what it's like to live with the agent.
 - Longer paragraphs with an essayist's flow.
-- Skeptical of tools that flatten design into optimization.
+- Skeptical of demos that flatten agency into autocomplete.
 
-### Jake "Jackhammer" Kowalski (Construction Technology)
+### Jake "Jackhammer" Kowalski (Agent Capabilities & Tools)
 - Punchy, enthusiastic, hands-on.
-- Writes like he's explaining cool machines to a smart friend at a bar.
+- Writes like he's explaining a wild machine to a smart friend at a bar.
 - Short paragraphs. Gets to the point fast.
-- Heavy on specs, light on jargon. Respects the job site.
+- Heavy on what it actually did, light on jargon. Respects the reader's time.
 
-### Frank "The Foreman" DeLuca (Project Management & Operations)
+### Frank "The Foreman" DeLuca (Productivity Systems & Life Operations)
 - Methodical, patient, process-obsessed.
-- Twenty years of projects going sideways. He's seen it all.
-- Longer, measured sentences. Thinks in timelines and critical paths.
-- World-weary humor. Quietly devastating when something doesn't work.
+- Twenty years of running operations. He's seen every automation promise.
+- Longer, measured sentences. Thinks in workflows and failure modes.
+- World-weary humor. Quietly devastating when an agent doesn't work.
 
-### Priya Greenwood (Sustainability & Green Building)
+### Priya Greenwood (Everyday Life & Accessibility)
 - Passionate but evidence-based. Urgency without preachiness.
-- Connects energy data to real utility bills.
+- Connects agent capabilities to real daily life: parents, caregivers, people with disabilities.
 - Strong use of comparisons and contrasts.
-- Comfortable citing both EPA reports and homeowner conversations.
+- Comfortable citing both Meta's docs and ordinary users' experiences.
 
-### Marcus "Steel" Washington (Workforce & Labor)
-- Investigative, human-centered. Tells the story through the workers.
-- Heavy on anecdotes, interviews, labor statistics.
+### Marcus "Steel" Washington (Real People, Real Workflows)
+- Investigative, human-centered. Tells the story through the people using the agent.
+- Heavy on anecdotes, verifiable examples, real outcomes.
 - Not afraid of uncomfortable conclusions.
-- Union family background — respects the craft, worries about the workers.
+- Union family background — is loyal to the person on the other end of the screen, and skeptical of hype.
 
-### Catherine "Code" Chen (Policy & Regulation)
+### Catherine "Code" Chen (Privacy, Security & Policy)
 - Sharp, analytical, legal-minded.
-- Translates building codes and zoning into readable prose.
+- Translates privacy policies, data practices, and terms of service into readable prose.
 - Finds the human impact in bureaucratic processes.
-- Occasionally dry-humored. The code doesn't care about your feelings.
+- Occasionally dry-humored. The data policy doesn't care about your feelings.
 
 ---
 
@@ -88,10 +90,10 @@ Each journalist sounds different. If you can swap bylines between two articles a
 
 ### Structure (flexible — break this when the story demands it)
 1. **Cold open** — scene, anecdote, or surprising data point. NOT market size.
-2. **The problem** — what's broken, expensive, or dangerous.
-3. **The technology** — what exists, who's building it, what it costs.
+2. **The problem** — what's tedious, hard, or impossible for a person to keep up with.
+3. **The capability** — what Muse actually did, step by step, with evidence.
 4. **The evidence** — data, case studies, results. Be specific.
-5. **The skepticism** — what doesn't work, what's unproven, who's failed.
+5. **The skepticism** — what doesn't work, what's unproven, where it fails.
 6. **The stakes** — what this means for the person reading this.
 
 ### Data Standards
@@ -105,9 +107,9 @@ Each journalist sounds different. If you can swap bylines between two articles a
 - Shorter is usually better. Cut anything that doesn't earn its place.
 
 ### Headlines
-- Specific > clever. "Your Architect Missed a Code Violation. The AI Didn't." > "AI Is Transforming Code Compliance."
+- Specific > clever. "Muse Read 400 Emails and Found the Three That Mattered." > "AI Is Transforming Productivity."
 - Include a surprising number or comparison when possible.
-- Address the reader directly ("Your," "You") — this is their money and their home.
+- Address the reader directly ("Your," "You") — this is their inbox, their calendar, their life.
 
 ### Dates
 - Always use today's actual date. NEVER future dates.
@@ -115,8 +117,8 @@ Each journalist sounds different. If you can swap bylines between two articles a
 
 ### Hero Images
 - Generate via imagine skill, landscape orientation.
-- Style: realistic construction/architecture scenes, warm lighting.
-- Avoid: stock photo clichés (handshakes, generic office shots, clip-art robots).
+- Style: a personal assistant's world — desk setups, phones, calendars, home offices, warm lighting.
+- Avoid: stock photo clichés (handshakes, generic office shots, clip-art robots, glowing brains).
 
 ---
 

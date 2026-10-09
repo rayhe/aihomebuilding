@@ -1,6 +1,6 @@
-# generate.md — AI Home Building Content Generation
+# generate.md — Muse at Work Content Generation
 
-_How an autonomous AI agent produces, evaluates, and improves articles on the AI Home Building editorial blog._
+_How an autonomous AI agent produces, evaluates, and improves articles on the Muse at Work editorial blog (aihomebuilding.com, refocused 2026-10-09 to cover Muse — Meta's personal AI agent — and what it can do)._
 
 ## Overview
 
