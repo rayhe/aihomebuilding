@@ -846,7 +846,7 @@
 <div class="mobile-drawer-backdrop" id="mobileBackdrop" onclick="toggleMobileMenu()"></div>
 <nav class="mobile-drawer" id="mobileDrawer">
 	<a href="#" class="active" onclick="switchTabMobile('articles'); return false;"><span class="drawer-icon">📰</span> Articles</a>
-	<a href="#" onclick="switchTabMobile('tools'); return false;"><span class="drawer-icon">🔧</span> AI Tools</a>
+	<a href="#" onclick="switchTabMobile('tools'); return false;"><span class="drawer-icon">💪</span> Capabilities</a>
 	<a href="#" onclick="switchTabMobile('data'); return false;"><span class="drawer-icon">📊</span> Industry Data</a>
 	<a href="#" onclick="switchTabMobile('calculator'); return false;"><span class="drawer-icon">🧮</span> Calculator</a>
 	<a href="#" onclick="switchTabMobile('about'); return false;"><span class="drawer-icon">ℹ️</span> About</a>
@@ -7942,203 +7942,208 @@
 <!-- Back to Top -->
 <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
 
-	<!-- Tab: AI Tools -->
+	<!-- Tab: Capabilities -->
 	<div id="tab-tools" class="tab-pane" style="display:none;">
 		<div class="section-label">Muse Capability Directory</div>
 		<div style="max-width:720px; margin-bottom:24px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
 			A running directory of what Muse can actually do — verified capabilities, real workflows, and the limits we found. Rebuilt progressively; entries below this line are being re-verified under the new focus.
 		</div>
-		<div id="toolsFilterBar" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px;">
+				<div style="max-width:720px; margin-bottom:24px; color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
+			A running directory of what Muse can actually do. Every entry is tied to a source: Meta’s announcements, the Connect 2026 keynote, or independent reporting. Plans: free tier, plus <a href="https://www.layer3labs.io/guides/meta-muse-explained" target="_blank" rel="noopener">$20/mo</a> (500M weekly tokens) and $100/mo (3B). Over <a href="https://www.tbsnews.net/explainer/keys-your-accounts-how-personal-ai-agents-metas-muse-work-and-what-they-ask-users-1554066" target="_blank" rel="noopener">2.5M downloads</a> in the first month (Sensor Tower, via Reuters). Entries tagged “roadmap” were announced but not yet shipped as of Oct 9, 2026.
+		</div>
+<div id="toolsFilterBar" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px;">
 			<button class="tool-filter active" data-cat="all" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--accent); color:#fff; font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">All <span class="tool-count">20</span></button>
-			<button class="tool-filter" data-cat="design" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🎨 Design</button>
-			<button class="tool-filter" data-cat="construction" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🏗️ Construction</button>
-			<button class="tool-filter" data-cat="management" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">📋 Management</button>
-			<button class="tool-filter" data-cat="robotics" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🤖 Robotics</button>
-			<button class="tool-filter" data-cat="estimation" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">💰 Estimation</button>
-			<button class="tool-filter" data-cat="safety" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">⛑️ Safety</button>
-			<button class="tool-filter" data-cat="monitoring" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">📡 Monitoring</button>
+			<button class="tool-filter" data-cat="computer" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">💻 Your Own Computer</button>
+			<button class="tool-filter" data-cat="memory" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🧠 Memory & Context</button>
+			<button class="tool-filter" data-cat="scheduled" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">⏰ Scheduled & Background</button>
+			<button class="tool-filter" data-cat="browser" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🌐 Browser & Web Tasks</button>
+			<button class="tool-filter" data-cat="shopping" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🛒 Shopping & Payments</button>
+			<button class="tool-filter" data-cat="business" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">🏢 Business Connectors</button>
+			<button class="tool-filter" data-cat="messaging" style="padding:6px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); font-size:0.8rem; font-weight:600; cursor:pointer; transition:all 0.2s;">📱 Messaging & Voice</button>
 		</div>
-		<div class="article-grid" id="toolsGrid">
-			<!-- Design Tools -->
-			<div class="tc" data-cat="design" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🎨 Design</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Maket AI</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Generative floor plan design — describe requirements in plain English and get dozens of buildable layouts in minutes. Used by 10,000+ architects.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.maket.ai/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-architectural-design.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="design" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🎨 Design</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Finch3D</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-powered building design optimization. Evaluates floor plans for daylight, energy, cost, and livability — then suggests improvements automatically.</p>
-				<a href="https://www.finch3d.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-			</div>
-			<div class="tc" data-cat="design" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🎨 Design</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Autodesk Forma</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Cloud-based design platform with real-time AI analysis: wind, daylight, noise, energy — all computed as you sketch. The successor to Spacemaker.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.autodesk.com/products/forma/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-energy-modeling.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<!-- Construction / 3D Printing -->
-			<div class="tc" data-cat="construction" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏗️ Construction</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">ICON</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">3D-printed homes using the Vulcan printer. 100-home community in Texas (Wolf Ranch). Walls printed in 48 hours, $150–$275/sqft fully finished.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.iconbuild.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/3d-printed-homes.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="construction" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏗️ Construction</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Mighty Buildings</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Robotic 3D printing of prefab panels using thermoset composites. Light-cured materials allow for complex geometries impossible with concrete printing.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.mightybuildings.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/3d-printed-homes.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="construction" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏗️ Construction</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Autovol</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-managed robotic factory lines for modular homes. Under 1% defect rate, 20–50% faster timelines, and 10–20% cost savings vs site-built construction.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.autovol.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/modular-prefab-ai.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<!-- Management -->
-			<div class="tc" data-cat="management" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📋 Management</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Alice Technologies</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI construction scheduling. Generates thousands of scenarios and optimizes for cost, time, and resource constraints. 15–30% schedule compression.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.alicetechnologies.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-project-management.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="management" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📋 Management</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Buildots</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Hardhat-mounted 360° cameras compare as-built progress against BIM models in real time. Catches schedule slippage 3–4 weeks before humans notice.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.buildots.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-project-management.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="management" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📋 Management</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">PermitFlow</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI permit management platform. Auto-generates permit applications, tracks status across jurisdictions, and reduces approval timelines by 40–60%.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.permitflow.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-permit-automation.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<!-- Robotics -->
-			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Hadrian X (FBR)</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous bricklaying robot. 360 blocks/hour from a 3D CAD model. First US home completed in Florida (2024). Walls of a full house in ~3 days.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.fbr.com.au/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/robotic-bricklaying.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Built Robotics</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous excavators and dozers. Retrofits existing heavy equipment with AI guidance systems. Used on solar farms, pipelines, and residential grading.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.builtrobotics.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/robotic-bricklaying.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Canvas</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-controlled drywall finishing robot. Scans walls with lidar and applies joint compound with robotic precision. Acquired by Dusty Robotics parent.</p>
-				<a href="https://www.canvas.build/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-			</div>
-			<div class="tc" data-cat="robotics" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🤖 Robotics</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Dusty Robotics</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous layout robot — prints full-scale BIM floor plans directly onto concrete slabs with millimeter precision. Eliminates tape-measure layout errors.</p>
-				<a href="https://www.dustyrobotics.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-			</div>
-			<!-- Estimation -->
-			<div class="tc" data-cat="estimation" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">💰 Estimation</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Togal.AI</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Reads blueprints, auto-detects rooms, walls, and areas, then generates quantity takeoffs in minutes instead of days. 3–5% bid accuracy vs 15–25% traditional.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.togal.ai/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-cost-estimation.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="estimation" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">💰 Estimation</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">ConWize</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI bid management that analyzes historical project data to predict optimal pricing. Helps contractors win more bids at better margins.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.conwize.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/ai-cost-estimation.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<!-- Safety -->
-			<div class="tc" data-cat="safety" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">⛑️ Safety</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">EarthCam AI</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">AI-powered jobsite cameras that detect 85+ hazard types with 95%+ PPE accuracy. Automated time-lapse, progress tracking, and safety alerts.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.earthcam.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/construction-safety-ai.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="safety" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">⛑️ Safety</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Triax Spot-r</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Wearable sensor clip for construction workers. Tracks location, detects falls and near-misses, monitors environmental exposure. 20–40% reduction in recordable incidents.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.triaxtec.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/construction-safety-ai.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<!-- Monitoring -->
-			<div class="tc" data-cat="monitoring" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📡 Monitoring</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">OpenSpace</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">360° reality capture platform. Walk the site with a hardhat camera and AI maps every inch to BIM. Catches deviations, tracks progress, creates a visual timeline.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.openspace.ai/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/digital-twins.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="monitoring" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📡 Monitoring</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Skydio X10</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Autonomous drone with AI obstacle avoidance. Flies pre-programmed survey routes, generates orthomosaic maps, and detects 2cm discrepancies from plans.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://www.skydio.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/drone-site-monitoring.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
-			</div>
-			<div class="tc" data-cat="monitoring" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
-				<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📡 Monitoring</div>
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Matterport</h3>
-				<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">3D digital twin capture for buildings. Scan a space with a phone or Pro3 camera and get a navigable virtual model. Used for as-built documentation, remote inspections, and renovation planning.</p>
-				<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
-					<a href="https://matterport.com/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Visit →</a>
-					<a href="articles/digital-twins.html" style="font-size:0.75rem; color:var(--text-muted); text-decoration:none;">📰 Read article</a>
-				</div>
+<div class="article-grid" id="toolsGrid">
+		<div class="tc" data-cat="computer" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">💻 Your Own Computer</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Muse Secure VM + Sentinel</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">A dedicated virtual machine holding the agent and your data. A separate Sentinel agent approves every internet connection. Meta says Muse cannot see your passwords or payment methods and shares nothing with its ad systems.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://aistockwire.com/blog/meta-launches-muse-personal-ai-agent-secure-vm-sentinel-pricing-september-2026" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta launch announcement, via AP</span>
 			</div>
 		</div>
-		<p style="font-size:0.8rem; color:var(--text-muted); margin-top:20px;">Know a tool we should add? Reach out via our About page.</p>
+		<div class="tc" data-cat="computer" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">💻 Your Own Computer</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Its Own Files, Documents and Builds</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Persistent workspace: documents, research notes, spreadsheets, code, a searchable memory file. Asked to describe its own stack by a reporter, Muse listed a Linux VM with a shell, a real browser, subagents, skills, and cron scheduling.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.starkinsider.com/2026/09/meta-muse-vs-openclaw-personal-ai-agent.html" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Stark Insider, Sep 2026</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="memory" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🧠 Memory & Context</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Personal Memory</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Remembers details you mention once: people, preferences, recurring projects. You can inspect, edit, and download it, and opt out in settings. Training on interaction records is sanitized first.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://groundtruth.day/news/meta-muse-memory-report-raises-profiling-questions.html" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta technical disclosure, via GroundTruth</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="memory" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🧠 Memory & Context</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Goals and Ongoing Work</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Hand it a goal and it plans the steps, coordinates your time and resources, and moves the work forward on its own. A goals view shows what is in flight. Examples from Meta: selling a car for more, lowering a bill, adjusting a training plan.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://digitalmatters.me/artificial-intelligence-ai/what-is-meta-muse/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta launch materials</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="memory" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🧠 Memory & Context</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Relationship Context, With a Catch</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">A connected mailbox lets it build a relationship map that includes people who never used Muse: disputes, alliances, goals it inferred. TIME reviewed the internal instructions. The profiling questions are real and unresolved.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://groundtruth.day/news/meta-muse-memory-report-raises-profiling-questions.html" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">TIME reporting, via GroundTruth</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="scheduled" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">⏰ Scheduled & Background</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Works While You Are Away</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Long tasks continue after you close the app. Muse checks back when something changes or when it needs your approval. Background work and proactive suggestions are core to the design, not add-ons.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta Connect 2026</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="scheduled" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">⏰ Scheduled & Background</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Recurring Scheduled Tasks</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Give it a schedule: a standing brief, a weekly check, a reminder a week before a date. Recurring tasks work best with an explicit schedule, an end condition, and a clear reason to interrupt you.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.nexscope.ai/blog/what-is-meta-muse-and-how-does-its-personal-ai-agent-work" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta product documentation</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="browser" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🌐 Browser & Web Tasks</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">A Live Browser That Logs In</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Opens a real browser, fills forms, and keeps sessions between tasks. Sending an email and booking travel are the launch-day examples Meta itself uses.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://digitalmatters.me/artificial-intelligence-ai/what-is-meta-muse/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta launch announcement</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="browser" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🌐 Browser & Web Tasks</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Web Research With Receipts</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Multi-step research jobs: it opens sources, compares options, and works through the steps itself rather than describing how you could. Completion quality varies by task; verify anything it buys or files.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://openaimaster.com/muse-ai-meta-guide/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta launch materials</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="browser" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🌐 Browser & Web Tasks</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Travel Booking</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Books flights and hotels on your behalf. Expedia was announced as a coming connection. Sensitive actions like spending money ask you first.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.ai-market-watch.com/news/meta-plans-to-bring-its-muse-ai-agent-to-ai-glasses-within-months-hr1xok" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta announcements</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="browser" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🌐 Browser & Web Tasks</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Email Handling</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Reads, drafts, and sends email. A dedicated Muse email address was announced for the agent. Email is one of the three everyday tasks Meta leads with, alongside travel and shopping.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://digitalmatters.me/artificial-intelligence-ai/what-is-meta-muse/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta announcements</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="shopping" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🛒 Shopping & Payments</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Connected Retailers</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Shopping connections announced for Walmart, Best Buy, and Wayfair, with Instacart listed among productivity connections. The agent checks out; you approve the spend.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.ai-market-watch.com/news/meta-plans-to-bring-its-muse-ai-agent-to-ai-glasses-within-months-hr1xok" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta Connect 2026</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="shopping" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🛒 Shopping & Payments</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Stripe Link Checkout</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">The first AI agent covered by Link purchase protections, per Stripe. One-time-use cards keep your real card details hidden from merchants.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://digitalmatters.me/artificial-intelligence-ai/what-is-meta-muse/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Stripe, via Meta announcements</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="shopping" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🛒 Shopping & Payments</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Shop Pay and PayPal Payments</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Announced alongside Link as payment options for agent-made purchases. PayPal coverage means Muse can pay at merchants where Link is not accepted.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.ai-market-watch.com/news/meta-plans-to-bring-its-muse-ai-agent-to-ai-glasses-within-months-hr1xok" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta Connect 2026</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="business" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏢 Business Connectors</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Books and Sales Review</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Muse for Small Business is free in the US and Canada: connect QuickBooks, Stripe, and Shopify, and it analyzes sales and campaigns, flags expenses that look off, and builds a growth plan.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.linkedin.com/pulse/meta-just-offered-your-business-free-ai-employee-dont-debra-zuexe" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta, Sep 29 2026</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="business" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏢 Business Connectors</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Team Tool Connectors</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Slack, Zoom, Notion, Canva, GitHub, and Box connections announced for business users, plus Facebook and Instagram business accounts and the Meta ad account.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.ai-market-watch.com/news/meta-plans-to-bring-its-muse-ai-agent-to-ai-glasses-within-months-hr1xok" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta announcements</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="business" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">🏢 Business Connectors</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Ad Campaign Drafts</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Reviews Meta ad performance and drafts new campaigns. Think junior marketer: useful for first drafts, not a substitute for knowing your numbers.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.linkedin.com/pulse/meta-just-offered-your-business-free-ai-employee-dont-debra-zuexe" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta, Sep 29 2026</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="messaging" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📱 Messaging & Voice</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">WhatsApp and Telegram</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Talk to it the way you message a person: iOS, Android, the web at muse.ai, and WhatsApp. Telegram ships connected by default in its connector directory, alongside a custom connector option.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.starkinsider.com/2026/09/meta-muse-vs-openclaw-personal-ai-agent.html" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta announcements; Stark Insider</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="messaging" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📱 Messaging & Voice</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">Realtime Avatar (roadmap)</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">A generated face, body, and voice powered by Muse Realtime Avatar, for live video conversations with your agent. Announced at Connect 2026. Not yet shipped as of Oct 9.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">TechCrunch</span>
+			</div>
+		</div>
+		<div class="tc" data-cat="messaging" style="background:var(--bg-card); border-radius:12px; padding:24px; box-shadow:var(--shadow); transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+			<div style="display:inline-block; background:rgba(255,107,53,0.1); color:var(--accent); font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 8px; border-radius:4px; margin-bottom:8px;">📱 Messaging & Voice</div>
+			<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; margin:0 0 6px;">AI Glasses Voice (roadmap)</h3>
+			<p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px; line-height:1.6;">Coming to Meta AI glasses: speak its name and it acts on what you see, from products to flyers to school-supply lists. Also announced: Muse Charm, a pocket device with no price or ship date yet. Not yet shipped as of Oct 9.</p>
+			<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+				<a href="https://www.ai-market-watch.com/news/meta-plans-to-bring-its-muse-ai-agent-to-ai-glasses-within-months-hr1xok" target="_blank" rel="noopener" style="font-size:0.8rem; color:var(--accent); text-decoration:none; font-weight:600;">Source &rarr;</a>
+				<span style="font-size:0.75rem; color:var(--text-muted);">Meta Connect 2026</span>
+			</div>
+		</div>
+		</div>
+<p style="font-size:0.8rem; color:var(--text-muted); margin-top:20px;">Know a tool we should add? Reach out via our About page.</p>
 	</div>
 
 	<!-- Tab: Industry Data -->
