@@ -12992,9 +12992,44 @@
       "word_count": 2305,
       "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css)",
       "publish_note": "Queued, not shipped: 1/day rule, 2 publishes already 2026-10-09 PT; queue tail was 2027-07-13. Kill-test passed; original contribution = 1-in-225 tank-sweep breakeven math + VA-$500-fund vs MA-$507K state-lottery framing + ML-GPR hyperbola-detection AI layer (lab-stage, honest). Novel vs queue (Sept 13 oil-tank draft unqueued; this supersedes it). Real JPEG hero, validated ff d8, 1920x1280. 1 hard-gate revision (The-starters 22.6%->5.4%) + added NJDEP flat-rate table."
+    },
+    {
+      "article_number": 1054,
+      "completed": "2026-10-09",
+      "critics": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.8,
+        "voice_coach": 8.8
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "em_dashes": 0,
+        "sentence_rhythm": {
+          "long_pct": 50.4,
+          "passed": true,
+          "short_pct": 10.3,
+          "variance": 222.1
+        },
+        "the_starters_pct": 4.5
+      },
+      "headline": "Nobody Metered Your Studs Before the Drywall Went Up. Mold Only Needs 20% Moisture.",
+      "hero_hash": "debb309b",
+      "id": 1054,
+      "journalist": "Jake Kowalski",
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), migrated 2026-09-29",
+      "phase": "SHIP_READY",
+      "primary_sources": 7,
+      "research_file": "drafts/ai-framing-moisture-meter-drywall-mold-2026-research.md",
+      "rounds": 1,
+      "ship_after": "2027-07-15",
+      "slug": "ai-framing-moisture-meter-drywall-mold-2026"
     }
   ],
-  "last_worker_run": "2026-10-09T08:35:00-07:00",
+  "last_worker_run": "2026-10-09T10:24:00-07:00",
   "last_qa": {
     "article_number": 782,
     "slug": "ai-water-heater-anode-rod-replacement-math-2026",
