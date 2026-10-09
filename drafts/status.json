@@ -12746,9 +12746,62 @@
       },
       "publish_note": "Queued, not shipped: 2 publishes already shipped 2026-10-08 PT (one-per-day rule); queued behind existing ship_ready queue (last ship_after 2027-07-08), next open slot 2027-07-09. Kill-test passed; original contribution = trade-sequencing failure framing (painted-over alarms, untested interconnection, remodel soloist) + full-coverage cost arithmetic ($210-270 sealed / ~$600 smart), novel vs 339+ stories + 260 queued (zero prior smoke/CO alarm placement coverage). Real JPEG hero, validated ff d8, 1920x1280. 1 hard-gate revision (The-starters 18.4% -> 1.8%; rhythm variance 116.4 -> 274.8).",
       "hold_reason": "1/day rule: 2 publishes shipped 2026-10-08 PT; queued behind existing ship_ready queue (last ship_after 2027-07-08), next open slot 2027-07-09."
+    },
+    {
+      "article_number": 1048,
+      "number": 1048,
+      "slug": "ai-whole-house-fan-night-flush-starved-vent-2026",
+      "headline": "Your AC Runs All Night on the Hottest Air of the Day. A $1,800 Fan Waits for Sunset.",
+      "journalist": "Priya Greenwood",
+      "started": "2026-10-08T22:01:52-07:00",
+      "completed": "2026-10-08T22:15:00-07:00",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-07-10",
+      "rounds": 0,
+      "critique_average": 8.86,
+      "critique_self_assessed": true,
+      "critique_scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critique_file": "drafts/ai-whole-house-fan-night-flush-starved-vent-2026-critique-r0.md",
+      "draft_file": "drafts/ai-whole-house-fan-night-flush-starved-vent-2026.html",
+      "research_file": "drafts/ai-whole-house-fan-night-flush-starved-vent-2026-research.md",
+      "hero_hash": "adc9dc5f",
+      "hero_real_jpeg": true,
+      "primary_sources": 5,
+      "hard_gates": {
+        "em_dash": {
+          "count": 0,
+          "limit": 3,
+          "passed": true
+        },
+        "the_starters": {
+          "pct": 5.5,
+          "limit": 15.0,
+          "passed": true
+        },
+        "banned_phrases": {
+          "count": 0,
+          "passed": true
+        },
+        "sentence_rhythm": {
+          "variance": 203.8,
+          "short_pct": 10.0,
+          "long_pct": 55.7,
+          "passed": true
+        }
+      },
+      "publish_note": "Queued, not shipped: 2 publishes already shipped 2026-10-08 PT (one-per-day rule); queued behind existing ship_ready queue (last ship_after 2027-07-09), next open slot 2027-07-10. Kill-test passed; original contribution = starved-fan attic vent ledger (4,800 CFM needs 6.4 sq ft NFA upper venting = ~51 ft ridge vent; gable-vent-only homes starve the fan) + night-flush dollar ledger ($0.70/night vs $6.13 AC, ~3.7-yr payback at stated assumptions) + AI-gap finding (no mainstream controller does forecast-aware run-window optimization). Real JPEG hero, validated ff d8, 1920x1280. 3 hard-gate revisions (The-starters 19.8% -> 5.5%; rhythm variance 153.9 -> 203.8, short 16.9% -> 10.0%).",
+      "hold_reason": "1/day rule: 2 publishes shipped 2026-10-08 PT; queued behind existing ship_ready queue (last ship_after 2027-07-09), next open slot 2027-07-10."
     }
   ],
-  "last_worker_run": "2026-10-08T20:50:00-07:00",
+  "last_worker_run": "2026-10-08T22:15:00-07:00",
   "last_qa": {
     "article_number": 781,
     "slug": "ai-concrete-maturity-sensors-residential-foundation-2026",

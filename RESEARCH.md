@@ -1157,3 +1157,14 @@ When you discover a new topic worth covering, add it here with:
 - Strongest counterargument: testing creates owned information (deal-killer/disclosure); most exceedances treatable off-the-shelf; mandates work partially; models are not measurements; treatment-without-remediation-support is a rural-seller tax
 - Journalist: Priya Greenwood (sustainability/health beat)
 - **Queued SHIP 2027-07-05 as #1043:** "43 Million Americans Drink Water Nobody Is Required to Test." (critique avg 8.87, round 0; gates: 0 em dashes, 11.5% The-starters, rhythm variance 276.7; real JPEG hero 1920x1280, hash afb8b3f2)
+
+### 98. 🟢 AI Whole-House Fan Night-Flush Cooling & the Starved-Vent Gap (COMPLETED 2026-10-08)
+- DOE/NREL fact sheet: fan 120-600W, 1-5¢/hr; 2-ton SEER-10 AC Atlanta ~$250+/season (~20¢/hr); winter warning = "essentially a large, uninsulated hole in the ceiling"
+- CEC: 50-90% cooling energy reduction vs central AC; PG&E 63% less electricity peak months; LBNL 84°F→68°F in <15 min
+- Title 24 (2013): whole-house fans prescriptive requirement; airflow + wattage HERS-verified in field; smart vents/night-breeze alternatives CZ 8-14
+- NYSERDA: check makeup air before installing ventilation; backdrafting "can quickly cause severe injury or even death"
+- Sizing: 2 CFM/sq ft; attic venting 1 sq ft NFA per 750 CFM; costs $1,500-2,800 installed ($1,449 QuietCool starting)
+- Original: starved-fan vent ledger — 4,800 CFM needs 6.4 sq ft NFA upper venting ≈ 51 ft ridge vent; gable-vent-only homes starve the fan + night-flush dollar ledger ($0.70/night fan vs $6.13 AC, ~3.7-yr payback at 400W/5h/$0.35/kWh/90 nights/$1,800) + AI gap (no mainstream controller does forecast-aware run-window optimization)
+- Strongest counterargument: Gulf Coast/Florida nights too hot/humid, no dehumidification or filtration (smoke season shutdown), old units loud, open-window security tradeoff, lightweight construction holds cool poorly, winter hole penalty without insulated cover, backdrafting CO with atmospheric combustion appliances
+- Journalist: Priya Greenwood (sustainability/energy beat)
+- **Queued SHIP 2027-07-10 as #1048:** "Your AC Runs All Night on the Hottest Air of the Day. A $1,800 Fan Waits for Sunset." (critique avg 8.86, round 0; gates: 0 em dashes, 5.5% The-starters, rhythm variance 203.8; real JPEG hero 1920x1280, hash adc9dc5f)
