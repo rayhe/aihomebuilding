@@ -1,13 +1,5 @@
 {
-  "current": {
-    "article_number": 1051,
-    "slug": "ai-flood-opening-deficit-hydrostatic-math-2026",
-    "phase": "DRAFT",
-    "journalist": "Marcus \"Steel\" Washington",
-    "started": "2026-10-09T04:10:00-07:00",
-    "research_file": "drafts/ai-flood-opening-deficit-hydrostatic-math-2026-research.md",
-    "headline": "The Code Wants Floodwater Inside Your Garage. Yours Has No Way In."
-  },
+  "current": null,
   "hero_cache_bust": null,
   "last_completed": "2026-10-09T02:45:00-07:00",
   "last_published_at": "2026-10-09T00:40:00-07:00",
@@ -12842,9 +12834,46 @@
       "research_file": "drafts/ai-ember-intrusion-vents-home-hardening-2026-research.md",
       "hero_hash": "3dc9dd9a",
       "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), template-transplanted from zone-zero article 2026-10-09"
+    },
+    {
+      "article_number": 1051,
+      "id": 1051,
+      "slug": "ai-flood-opening-deficit-hydrostatic-math-2026",
+      "headline": "The Code Wants Floodwater Inside Your Garage. Yours Has No Way In.",
+      "journalist": "Marcus \"Steel\" Washington",
+      "phase": "SHIP_READY",
+      "ship_after": "2027-07-12",
+      "completed": "2026-10-09",
+      "rounds": 1,
+      "critics": {
+        "general_editor": 8.7,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.9,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "critique_average": 8.81,
+      "critique_self_assessed": true,
+      "critique_file": "drafts/ai-flood-opening-deficit-hydrostatic-math-2026-critique.md",
+      "hard_gates": {
+        "em_dash": {"count": 0, "limit": 3, "passed": true},
+        "the_starters": {"pct": 7.3, "limit": 15.0, "passed": true},
+        "banned_phrases": {"count": 0, "passed": true},
+        "sentence_rhythm": {"variance": 235.7, "short_pct": 12.3, "long_pct": 52.1, "passed": true}
+      },
+      "primary_sources": 5,
+      "research_file": "drafts/ai-flood-opening-deficit-hydrostatic-math-2026-research.md",
+      "draft_file": "drafts/ai-flood-opening-deficit-hydrostatic-math-2026.html",
+      "hero_hash": "e1277271",
+      "hero_real_jpeg": true,
+      "word_count": 1686,
+      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css), template-transplanted from zone-zero article 2026-10-09",
+      "publish_note": "Queued, not shipped: 1/day rule, last publish 2026-10-09 PT; queue tail was 2027-07-11. Kill-test passed; original contribution = vent-deficit ledger (576 sq in required for 24x24 garage, 8-12 conventional vents or 3 engineered) + hydrostatic math (6,739 lb / 3.4 tons at 3 ft on 24-ft wall) + AI photo-audit gap; novel vs 263 queued. Real JPEG hero, validated ff d8, 1920x1280. 2 hard-gate revisions (The-starters 16.7% -> 7.3%; rhythm variance 151 -> 235.7, short 27% -> 12.3%)."
     }
   ],
-  "last_worker_run": "2026-10-09T04:10:00-07:00",
+  "last_worker_run": "2026-10-09T04:55:00-07:00",
   "last_qa": {
     "article_number": 782,
     "slug": "ai-water-heater-anode-rod-replacement-math-2026",
