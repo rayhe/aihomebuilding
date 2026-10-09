@@ -3,44 +3,8 @@
   "hero_cache_bust": null,
   "last_completed": "2026-10-09T02:45:00-07:00",
   "last_published_at": "2026-10-09T00:40:00-07:00",
-  "ship_ready": [
-    {
-      "article_number": 1055,
-      "completed": "2026-10-09",
-      "critics": {
-        "data_presentation": 8.8,
-        "ethics_reviewer": 9.0,
-        "general_editor": 8.8,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.9,
-        "social_shareability": 8.8,
-        "voice_coach": 9.0
-      },
-      "hard_gates": {
-        "banned_phrases": 0,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 59.3,
-          "passed": true,
-          "short_pct": 10.2,
-          "variance": 270.5
-        },
-        "the_starters_pct": 5.4
-      },
-      "headline": "The Wall Between You and Your Neighbor Meets Code. It Was Never Designed for Quiet.",
-      "hero_hash": "5b66d0ff",
-      "id": 1055,
-      "journalist": "Elena Vasquez",
-      "markup": "current convention (article-hero/article-container/article-body + bootstrap.min.css)",
-      "phase": "SHIP_READY",
-      "primary_sources": 8,
-      "research_file": "drafts/ai-party-wall-stc-60-speech-privacy-gap-2026-research.md",
-      "rounds": 1,
-      "ship_after": "2027-07-16",
-      "slug": "ai-party-wall-stc-60-speech-privacy-gap-2026"
-    }
-  ],
-  "last_worker_run": "2026-10-09T12:45:00-07:00",
+  "ship_ready": [],
+  "last_worker_run": "2026-10-09T12:55:00-07:00",
   "last_qa": {
     "article_number": 782,
     "slug": "ai-water-heater-anode-rod-replacement-math-2026",
