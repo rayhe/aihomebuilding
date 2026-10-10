@@ -1,15 +1,31 @@
 {
   "current": {
     "slug": "muse-memory-what-it-keeps-2026",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Catherine Chen",
-    "started": "2026-10-10T02:15:00-07:00"
+    "started": "2026-10-10T02:15:00-07:00",
+    "round": 1,
+    "critics": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.8,
+      "rigor": 8.6,
+      "data": 8.5
+    },
+    "gates": {
+      "emdash": 0,
+      "the_starters_pct": 5.5,
+      "rhythm": "pass (var 362, short 13.7%, long 54.9%)"
+    },
+    "hero": "images/muse-memory-what-it-keeps-2026.jpg (real JPEG, cache-busted)"
   },
   "hero_cache_bust": null,
   "last_completed": "2026-10-10T00:55:00-07:00",
   "last_published_at": "2026-10-10T00:40:00-07:00",
   "ship_ready": [],
-  "last_worker_run": "2026-10-10T02:15:00-07:00",
+  "last_worker_run": "2026-10-10T02:45:00-07:00",
   "last_qa": {
     "article_number": 783,
     "slug": "muse-scheduled-tasks-work-while-asleep-2026",
