@@ -827,7 +827,7 @@
 			<a href="#" class="active" onclick="switchTab('articles', this); return false;">Articles</a>
 			<a href="#" onclick="switchTab('tools', this); return false;">Capabilities</a>
 			<a href="#" onclick="switchTab('data', this); return false;">By the Numbers</a>
-			<a href="#" onclick="switchTab('calculator', this); return false;">🧮 Calculator</a>
+			<a href="#" onclick="switchTab('calculator', this); return false;">🧮 Time Estimator</a>
 			<a href="#" onclick="switchTab('about', this); return false;">About</a>
 			<a href="writers.html">✍️ Writers</a>
 			<a href="companies.html">🏢 Companies</a>
@@ -848,7 +848,7 @@
 	<a href="#" class="active" onclick="switchTabMobile('articles'); return false;"><span class="drawer-icon">📰</span> Articles</a>
 	<a href="#" onclick="switchTabMobile('tools'); return false;"><span class="drawer-icon">💪</span> Capabilities</a>
 	<a href="#" onclick="switchTabMobile('data'); return false;"><span class="drawer-icon">📊</span> By the Numbers</a>
-	<a href="#" onclick="switchTabMobile('calculator'); return false;"><span class="drawer-icon">🧮</span> Calculator</a>
+	<a href="#" onclick="switchTabMobile('calculator'); return false;"><span class="drawer-icon">🧮</span> Time Estimator</a>
 	<a href="#" onclick="switchTabMobile('about'); return false;"><span class="drawer-icon">ℹ️</span> About</a>
 	<a href="writers.html"><span class="drawer-icon">✍️</span> Writers</a>
 	<a href="companies.html"><span class="drawer-icon">🏢</span> Companies</a>
@@ -8234,111 +8234,123 @@
 
 	<!-- Tab: About -->
 	<div id="tab-calculator" class="tab-pane" style="display:none;">
-		<div class="section-label">Cost Calculator</div>
+		<div class="section-label">Agent Time-Savings Estimator</div>
 		<div style="max-width:900px;">
-			<h2 style="font-family:'Playfair Display',Georgia,serif; font-size:2rem; font-weight:800; margin:0 0 8px; line-height:1.2;">Traditional vs. AI-Assisted Build Cost</h2>
-			<p style="font-size:0.95rem; color:var(--text-secondary); margin-bottom:28px; line-height:1.6;">Compare what a conventional home build costs against emerging AI and robotic construction methods. Estimates based on 2026 national averages — your local market may vary.</p>
+			<h2 style="font-family:'Playfair Display',Georgia,serif; font-size:2rem; font-weight:800; margin:0 0 8px; line-height:1.2;">Is a Personal AI Agent Worth It?</h2>
+			<p style="font-size:0.95rem; color:var(--text-secondary); margin-bottom:28px; line-height:1.6;">A personal agent that works while you are not looking sounds great until you price your own time, the subscription, and the hours you will spend supervising it. Enter your tedious weekly work below. Every assumption is shown, including the ones that argue against buying.</p>
 
-			<!-- Inputs -->
-			<div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-bottom:32px;">
+			<!-- Your numbers -->
+			<div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-bottom:28px;">
 				<div>
-					<label style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); display:block; margin-bottom:6px;">Square Footage</label>
-					<input id="calcSqft" type="number" value="2000" min="500" max="20000" step="100" style="width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:8px; font-size:1.1rem; font-weight:600; background:var(--bg-card); color:var(--text-primary); outline:none;" oninput="updateCalc()">
+					<label style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); display:block; margin-bottom:6px;">Your hour is worth</label>
+					<div style="display:flex; align-items:center; gap:6px;">
+						<span style="font-size:1.1rem; font-weight:600; color:var(--text-muted);">$</span>
+						<input id="estRate" type="number" value="50" min="5" max="2000" step="5" style="width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:8px; font-size:1.1rem; font-weight:600; background:var(--bg-card); color:var(--text-primary); outline:none;" oninput="updateEstimator()">
+					</div>
+					<p style="font-size:0.75rem; color:var(--text-muted); margin:6px 0 0;">Per hour. Salary &divide; 2000, your consulting rate, or what you would pay to get the hour back.</p>
 				</div>
 				<div>
-					<label style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); display:block; margin-bottom:6px;">Build Quality</label>
-					<select id="calcQuality" style="width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:500; background:var(--bg-card); color:var(--text-primary); outline:none;" onchange="updateCalc()">
-						<option value="budget">Budget ($150–200/sqft)</option>
-						<option value="standard" selected>Standard ($200–300/sqft)</option>
-						<option value="custom">Custom ($300–450/sqft)</option>
-						<option value="luxury">Luxury ($450–600+/sqft)</option>
-					</select>
+					<label style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); display:block; margin-bottom:6px;">Agent subscription</label>
+					<div style="display:flex; align-items:center; gap:6px;">
+						<span style="font-size:1.1rem; font-weight:600; color:var(--text-muted);">$</span>
+						<input id="estCost" type="number" value="20" min="0" max="5000" step="5" style="width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:8px; font-size:1.1rem; font-weight:600; background:var(--bg-card); color:var(--text-primary); outline:none;" oninput="updateEstimator()">
+					</div>
+					<p style="font-size:0.75rem; color:var(--text-muted); margin:6px 0 0;">Per month. Include compute, API, and tool costs, not just the plan price.</p>
 				</div>
 				<div>
-					<label style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); display:block; margin-bottom:6px;">Region</label>
-					<select id="calcRegion" style="width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:500; background:var(--bg-card); color:var(--text-primary); outline:none;" onchange="updateCalc()">
-						<option value="0.85">South / Midwest (−15%)</option>
-						<option value="1.0" selected>National Average</option>
-						<option value="1.15">Northeast (+ 15%)</option>
-						<option value="1.35">West Coast / Hawaii (+35%)</option>
-					</select>
+					<label style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); display:block; margin-bottom:6px;">Supervision overhead</label>
+					<div style="display:flex; align-items:center; gap:6px;">
+						<input id="estSupervision" type="number" value="20" min="0" max="100" step="5" style="width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:8px; font-size:1.1rem; font-weight:600; background:var(--bg-card); color:var(--text-primary); outline:none;" oninput="updateEstimator()">
+						<span style="font-size:1.1rem; font-weight:600; color:var(--text-muted);">%</span>
+					</div>
+					<p style="font-size:0.75rem; color:var(--text-muted); margin:6px 0 0;">Share of delegated time spent reviewing output, fixing mistakes, and setting up tasks.</p>
 				</div>
 			</div>
 
-			<!-- AI Options -->
+			<!-- Task list -->
 			<div style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:20px 24px; margin-bottom:32px;">
-				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 14px;">AI & Robotics Options</h3>
-				<div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
-					<label style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; cursor:pointer; border:1px solid var(--border); transition:border 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-						<input type="checkbox" id="calc3dPrint" onchange="updateCalc()" style="margin-top:3px; accent-color:var(--accent);">
-						<div><strong style="font-size:0.9rem;">3D-Printed Walls</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">ICON Vulcan — walls in ~48hrs. Saves ~25% on structure costs.</span></div>
-					</label>
-					<label style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; cursor:pointer; border:1px solid var(--border); transition:border 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-						<input type="checkbox" id="calcRoboBrick" onchange="updateCalc()" style="margin-top:3px; accent-color:var(--accent);">
-						<div><strong style="font-size:0.9rem;">Robotic Bricklaying</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Hadrian X — 360 blocks/hr. Saves ~20% on masonry labor.</span></div>
-					</label>
-					<label style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; cursor:pointer; border:1px solid var(--border); transition:border 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-						<input type="checkbox" id="calcAIDesign" onchange="updateCalc()" style="margin-top:3px; accent-color:var(--accent);">
-						<div><strong style="font-size:0.9rem;">AI Generative Design</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Hypar, TestFit — 30–50% faster design phase. Reduces architecture fees.</span></div>
-					</label>
-					<label style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; cursor:pointer; border:1px solid var(--border); transition:border 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-						<input type="checkbox" id="calcAIPM" onchange="updateCalc()" style="margin-top:3px; accent-color:var(--accent);">
-						<div><strong style="font-size:0.9rem;">AI Project Management</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">ALICE, Buildots — 15–20% schedule compression. Fewer overruns.</span></div>
-					</label>
-					<label style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; cursor:pointer; border:1px solid var(--border); transition:border 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-						<input type="checkbox" id="calcDrones" onchange="updateCalc()" style="margin-top:3px; accent-color:var(--accent);">
-						<div><strong style="font-size:0.9rem;">Drone Surveying</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Skydio, DJI — 80% faster site surveys. Reduces surveying costs.</span></div>
-					</label>
-					<label style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; cursor:pointer; border:1px solid var(--border); transition:border 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-						<input type="checkbox" id="calcPrefab" onchange="updateCalc()" style="margin-top:3px; accent-color:var(--accent);">
-						<div><strong style="font-size:0.9rem;">Modular / Prefab</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Factory-built components with AI QC. 20–30% faster, less waste.</span></div>
-					</label>
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 6px;">What you would hand the agent</h3>
+				<p style="font-size:0.8rem; color:var(--text-muted); margin:0 0 14px;">Edit the hours to match your week. The success rate is our estimate of how much of each task a current agent can reliably take, based on published benchmarks and our testing.</p>
+				<div id="estTasks">
+					<div style="display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:8px;">
+						<div style="flex:1;"><strong style="font-size:0.9rem;">Email triage and replies</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Sorting, drafting, flagging. You approve what goes out. Agent handles ~70%.</span></div>
+						<input id="estEmail" type="number" value="2" min="0" max="60" step="0.5" oninput="updateEstimator()" style="width:72px; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:600; background:var(--bg); color:var(--text-primary); outline:none;">
+						<span style="font-size:0.8rem; color:var(--text-muted);">hrs/wk</span>
+					</div>
+					<div style="display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:8px;">
+						<div style="flex:1;"><strong style="font-size:0.9rem;">Scheduling and calendar wrangling</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Finding times, sending invites, rescheduling. Agent handles ~60%.</span></div>
+						<input id="estSched" type="number" value="1.5" min="0" max="60" step="0.5" oninput="updateEstimator()" style="width:72px; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:600; background:var(--bg); color:var(--text-primary); outline:none;">
+						<span style="font-size:0.8rem; color:var(--text-muted);">hrs/wk</span>
+					</div>
+					<div style="display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:8px;">
+						<div style="flex:1;"><strong style="font-size:0.9rem;">Research and comparison shopping</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Reading reviews, comparing options, summarizing. Agent handles ~65%.</span></div>
+						<input id="estResearch" type="number" value="2" min="0" max="60" step="0.5" oninput="updateEstimator()" style="width:72px; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:600; background:var(--bg); color:var(--text-primary); outline:none;">
+						<span style="font-size:0.8rem; color:var(--text-muted);">hrs/wk</span>
+					</div>
+					<div style="display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:8px;">
+						<div style="flex:1;"><strong style="font-size:0.9rem;">Data entry, filing, expense reports</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Structured, repetitive, rule-based. The agent sweet spot. Handles ~85%.</span></div>
+						<input id="estData" type="number" value="1" min="0" max="60" step="0.5" oninput="updateEstimator()" style="width:72px; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:600; background:var(--bg); color:var(--text-primary); outline:none;">
+						<span style="font-size:0.8rem; color:var(--text-muted);">hrs/wk</span>
+					</div>
+					<div style="display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:8px;">
+						<div style="flex:1;"><strong style="font-size:0.9rem;">Follow-ups and reminders</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Nagging vendors, checking order status, scheduled nudges. Agent handles ~75%.</span></div>
+						<input id="estFollow" type="number" value="1" min="0" max="60" step="0.5" oninput="updateEstimator()" style="width:72px; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:600; background:var(--bg); color:var(--text-primary); outline:none;">
+						<span style="font-size:0.8rem; color:var(--text-muted);">hrs/wk</span>
+					</div>
+					<div style="display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:0;">
+						<div style="flex:1;"><strong style="font-size:0.9rem;">Travel and reservation logistics</strong><br><span style="font-size:0.8rem; color:var(--text-muted);">Flights, hotels, restaurants, itineraries. Payment approval stays with you. Agent handles ~50%.</span></div>
+						<input id="estTravel" type="number" value="0.5" min="0" max="60" step="0.5" oninput="updateEstimator()" style="width:72px; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:1rem; font-weight:600; background:var(--bg); color:var(--text-primary); outline:none;">
+						<span style="font-size:0.8rem; color:var(--text-muted);">hrs/wk</span>
+					</div>
 				</div>
 			</div>
 
 			<!-- Results -->
 			<div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:28px;">
-				<!-- Traditional -->
 				<div style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:24px; box-shadow:var(--shadow);">
-					<div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:8px;">🏗️ Traditional Build</div>
-					<div id="calcTraditionalTotal" style="font-size:2.2rem; font-weight:800; color:var(--text-primary); margin-bottom:4px;">$500,000</div>
-					<div id="calcTraditionalPsf" style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:16px;">$250 / sqft</div>
-					<div id="calcTraditionalTimeline" style="font-size:0.85rem; color:var(--text-muted); margin-bottom:16px;">⏱ 10–14 months</div>
-					<div id="calcTraditionalBreakdown" style="font-size:0.825rem; line-height:2;"></div>
+					<div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:8px;">📋 Tedious work today</div>
+					<div id="estTediousTotal" style="font-size:2.2rem; font-weight:800; color:var(--text-primary); margin-bottom:4px;">8.0 hrs/wk</div>
+					<div id="estTediousAnnual" style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:16px;">$20,800 / year of your time</div>
+					<div id="estTaskBreakdown" style="font-size:0.825rem; line-height:2;"></div>
 				</div>
-				<!-- AI-Assisted -->
 				<div style="background:var(--bg-card); border:2px solid var(--accent); border-radius:12px; padding:24px; box-shadow:var(--shadow); position:relative;">
-					<div style="position:absolute; top:-10px; right:16px; background:var(--accent); color:white; font-size:0.7rem; font-weight:700; padding:3px 10px; border-radius:20px; text-transform:uppercase; letter-spacing:0.05em;" id="calcSavingsBadge">Save 0%</div>
-					<div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); margin-bottom:8px;">🤖 AI-Assisted Build</div>
-					<div id="calcAITotal" style="font-size:2.2rem; font-weight:800; color:var(--text-primary); margin-bottom:4px;">$500,000</div>
-					<div id="calcAIPsf" style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:16px;">$250 / sqft</div>
-					<div id="calcAITimeline" style="font-size:0.85rem; color:var(--accent); margin-bottom:16px;">⏱ 10–14 months</div>
-					<div id="calcAIBreakdown" style="font-size:0.825rem; line-height:2;"></div>
+					<div style="position:absolute; top:-10px; right:16px; background:var(--accent); color:white; font-size:0.7rem; font-weight:700; padding:3px 10px; border-radius:20px; text-transform:uppercase; letter-spacing:0.05em;" id="estVerdictBadge">Net +$0/mo</div>
+					<div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); margin-bottom:8px;">🤖 With an agent</div>
+					<div id="estSavedTotal" style="font-size:2.2rem; font-weight:800; color:var(--text-primary); margin-bottom:4px;">0.0 hrs/wk</div>
+					<div id="estSavedAnnual" style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:16px;">freed up, after supervision</div>
+					<div id="estNetMonthly" style="font-size:0.825rem; line-height:2;"></div>
 				</div>
 			</div>
 
-			<!-- Savings bar -->
+			<!-- Time-freed bar -->
 			<div style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:20px 24px; margin-bottom:28px;">
 				<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-					<span style="font-size:0.85rem; font-weight:600;">Estimated Savings</span>
-					<span id="calcSavingsAmt" style="font-size:1.1rem; font-weight:800; color:var(--accent);">$0</span>
+					<span style="font-size:0.85rem; font-weight:600;">Tedious work handed off</span>
+					<span id="estHandoffPct" style="font-size:1.1rem; font-weight:800; color:var(--accent);">0%</span>
 				</div>
 				<div style="background:var(--border); border-radius:6px; height:12px; overflow:hidden;">
-					<div id="calcSavingsBar" style="height:100%; background:linear-gradient(90deg, var(--accent), #FF9B35); border-radius:6px; width:0%; transition:width 0.5s ease;"></div>
+					<div id="estHandoffBar" style="height:100%; background:linear-gradient(90deg, var(--accent), #FF9B35); border-radius:6px; width:0%; transition:width 0.5s ease;"></div>
 				</div>
 				<div style="display:flex; justify-content:space-between; margin-top:6px;">
 					<span style="font-size:0.75rem; color:var(--text-muted);">0%</span>
-					<span style="font-size:0.75rem; color:var(--text-muted);">30%+</span>
+					<span style="font-size:0.75rem; color:var(--text-muted);">100% of your tedious hours</span>
 				</div>
+				<p id="estBreakEven" style="font-size:0.85rem; color:var(--text-secondary); margin:14px 0 0; line-height:1.6;"></p>
 			</div>
 
-			<!-- Disclaimer -->
-			<p style="font-size:0.8rem; color:var(--text-muted); line-height:1.6; border-top:1px solid var(--border); padding-top:16px;">
-				<strong>Disclaimer:</strong> These estimates are based on national averages from NAHB, Census Bureau, and published case studies from ICON, FBR, ALICE Technologies, and McKinsey (2024–2026). Actual costs vary significantly by location, lot conditions, builder, and market timing. AI-assisted savings reflect best-available data from pilot projects and may not yet be achievable at scale in all markets. Land costs are excluded.
-			</p>
+			<!-- Honest assumptions -->
+			<div style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:20px 24px; margin-bottom:28px;">
+				<h3 style="font-family:'Playfair Display',Georgia,serif; font-size:1.15rem; font-weight:700; margin:0 0 12px;">What this number assumes</h3>
+				<ul style="font-size:0.85rem; color:var(--text-secondary); line-height:1.7; margin:0; padding-left:20px;">
+					<li>The success rates above are estimates from published benchmarks and our testing, not promises. Tasks needing logins you have not set up, payments you have not approved, or confirmation from the physical world stay with you.</li>
+					<li>Supervision is real. Reviewing, correcting, and re-prompting cost 10 to 30 percent of delegated time in our tests. If you never check the agent's work, set supervision to zero and accept the failure modes.</li>
+					<li>Setup time is not counted. Writing good instructions and connecting accounts takes an afternoon. We assume you did it once.</li>
+					<li>The biggest real-world savings come from scheduled autonomous work: monitoring, digests, reminders running while you sleep. If you will not configure any, cut the result in half.</li>
+					<li>Sources: METR agent task-horizon research (2025), which shows most of these sub-two-hour tasks now sit inside what agents do reliably; NBER Working Paper 31161 (Brynjolfsson, Li, Raymond, 2023), which found a 14 percent productivity gain for customer support agents using AI assistance.</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-
 	<div id="tab-about" class="tab-pane" style="display:none;">
 		<div class="section-label">About</div>
 		<div style="max-width:720px;">
@@ -8875,129 +8887,89 @@ document.addEventListener('keydown', function(e) {
 
 <!-- Calculator Script -->
 <script>
-function updateCalc() {
-	var sqft = parseInt(document.getElementById('calcSqft').value) || 2000;
-	var quality = document.getElementById('calcQuality').value;
-	var region = parseFloat(document.getElementById('calcRegion').value);
+/* Agent Time-Savings Estimator — replaced the build-cost calculator 2026-10-09 (Muse refocus) */
+var AGENT_TASKS = [
+	{ id: 'estEmail',    label: 'Email triage and replies',        rate: 0.70 },
+	{ id: 'estSched',    label: 'Scheduling and calendar',         rate: 0.60 },
+	{ id: 'estResearch', label: 'Research and comparisons',        rate: 0.65 },
+	{ id: 'estData',     label: 'Data entry and expenses',         rate: 0.85 },
+	{ id: 'estFollow',   label: 'Follow-ups and reminders',        rate: 0.75 },
+	{ id: 'estTravel',   label: 'Travel logistics',                rate: 0.50 }
+];
 
-	// Base cost per sqft by quality tier (national average, 2026)
-	var basePsf = { budget: 175, standard: 250, custom: 375, luxury: 525 };
-	var psf = basePsf[quality] * region;
+function updateEstimator() {
+	var rate = parseFloat(document.getElementById('estRate').value) || 0;
+	var cost = parseFloat(document.getElementById('estCost').value) || 0;
+	var supervision = parseFloat(document.getElementById('estSupervision').value) || 0;
+	if (supervision < 0) supervision = 0;
+	if (supervision > 100) supervision = 100;
 
-	// Cost breakdown percentages (NAHB 2024 data)
-	var breakdown = {
-		sitework: 0.06,    // site prep, excavation, grading
-		foundation: 0.10,  // concrete, footings, basement
-		framing: 0.14,     // lumber, structural
-		exterior: 0.10,    // siding, roofing, windows
-		plumbing: 0.09,    // rough + finish plumbing
-		electrical: 0.07,  // wiring, panel, fixtures
-		hvac: 0.08,        // heating, cooling, ducts
-		interior: 0.15,    // drywall, paint, trim, cabinets
-		design: 0.08,      // architect, engineering, permits
-		mgmt: 0.08,        // GC overhead, supervision
-		surveying: 0.02,   // survey, site monitoring
-		other: 0.03        // landscaping, driveway, cleanup
-	};
+	function fmt(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
+	function fmtHrs(n) { return (Math.round(n * 10) / 10).toFixed(1) + ' hrs/wk'; }
 
-	var totalTraditional = Math.round(psf * sqft);
-
-	// Timeline in months (traditional)
-	var timelines = { budget: [8, 12], standard: [10, 14], custom: [12, 18], luxury: [14, 22] };
-	var tradTimeline = timelines[quality];
-
-	// AI savings by category
-	var aiSavings = {};
-	Object.keys(breakdown).forEach(function(k) { aiSavings[k] = 0; });
-
-	var timelineSavings = 0; // percentage reduction
-
-	if (document.getElementById('calc3dPrint').checked) {
-		aiSavings.foundation = 0.25;
-		aiSavings.framing = 0.30;
-		aiSavings.exterior = 0.15;
-		timelineSavings += 0.20;
-	}
-	if (document.getElementById('calcRoboBrick').checked) {
-		aiSavings.exterior = Math.max(aiSavings.exterior, 0.20);
-		aiSavings.framing = Math.max(aiSavings.framing, 0.15);
-		timelineSavings += 0.10;
-	}
-	if (document.getElementById('calcAIDesign').checked) {
-		aiSavings.design = 0.35;
-		timelineSavings += 0.08;
-	}
-	if (document.getElementById('calcAIPM').checked) {
-		aiSavings.mgmt = 0.25;
-		aiSavings.other = 0.10;
-		timelineSavings += 0.15;
-	}
-	if (document.getElementById('calcDrones').checked) {
-		aiSavings.surveying = 0.60;
-		aiSavings.sitework = 0.10;
-		timelineSavings += 0.03;
-	}
-	if (document.getElementById('calcPrefab').checked) {
-		aiSavings.framing = Math.max(aiSavings.framing, 0.20);
-		aiSavings.interior = 0.15;
-		aiSavings.other = Math.max(aiSavings.other, 0.10);
-		timelineSavings += 0.20;
-	}
-
-	// Cap timeline savings at 45%
-	timelineSavings = Math.min(timelineSavings, 0.45);
-
-	// Compute AI total
-	var totalAI = 0;
-	Object.keys(breakdown).forEach(function(k) {
-		totalAI += (breakdown[k] * totalTraditional) * (1 - aiSavings[k]);
+	var totalHrs = 0, delegated = 0, breakHtml = '';
+	AGENT_TASKS.forEach(function(t) {
+		var hrs = parseFloat(document.getElementById(t.id).value) || 0;
+		if (hrs < 0) hrs = 0;
+		totalHrs += hrs;
+		var d = hrs * t.rate;
+		delegated += d;
+		breakHtml += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">' + t.label + ' <span style="font-size:0.75rem;color:var(--text-muted);">(' + Math.round(t.rate * 100) + '% handled)</span></span><span style="font-weight:600">' + (Math.round(d * 10) / 10).toFixed(1) + ' h</span></div>';
 	});
-	totalAI = Math.round(totalAI);
 
-	var saved = totalTraditional - totalAI;
-	var pctSaved = totalTraditional > 0 ? Math.round((saved / totalTraditional) * 100) : 0;
+	var netSaved = delegated * (1 - supervision / 100);
+	var weeklyValue = netSaved * rate;
+	var monthlyGross = weeklyValue * 52 / 12;
+	var monthlyNet = monthlyGross - cost;
+	var annualValue = netSaved * 52 * rate;
+	var handoffPct = totalHrs > 0 ? Math.round((netSaved / totalHrs) * 100) : 0;
 
-	// Format currency
-	function fmt(n) { return '$' + n.toLocaleString('en-US'); }
+	// Left card
+	document.getElementById('estTediousTotal').textContent = fmtHrs(totalHrs);
+	document.getElementById('estTediousAnnual').textContent = fmt(totalHrs * 52 * rate) + ' / year of your time';
+	document.getElementById('estTaskBreakdown').innerHTML = breakHtml;
 
-	// Update traditional side
-	document.getElementById('calcTraditionalTotal').textContent = fmt(totalTraditional);
-	document.getElementById('calcTraditionalPsf').textContent = fmt(Math.round(psf)) + ' / sqft';
-	document.getElementById('calcTraditionalTimeline').textContent = '⏱ ' + tradTimeline[0] + '–' + tradTimeline[1] + ' months';
+	// Right card
+	document.getElementById('estSavedTotal').textContent = fmtHrs(netSaved);
+	document.getElementById('estSavedAnnual').textContent = 'freed up, after ' + Math.round(supervision) + '% supervision';
+	var netLines = '';
+	netLines += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">Time value / month</span><span style="font-weight:600">' + fmt(monthlyGross) + '</span></div>';
+	netLines += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">Agent cost / month</span><span style="font-weight:600">−' + fmt(cost) + '</span></div>';
+	netLines += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">Net / month</span><span style="font-weight:800; color:' + (monthlyNet >= 0 ? 'var(--accent)' : 'var(--text-muted)') + '">' + (monthlyNet >= 0 ? '+' : '−') + fmt(Math.abs(monthlyNet)) + '</span></div>';
+	netLines += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">Net / year</span><span style="font-weight:600">' + (monthlyNet * 12 >= 0 ? '+' : '−') + fmt(Math.abs(monthlyNet * 12)) + '</span></div>';
+	document.getElementById('estNetMonthly').innerHTML = netLines;
 
-	var tradBreak = '';
-	var labels = { sitework:'Site Work', foundation:'Foundation', framing:'Framing & Structure', exterior:'Exterior Finishes', plumbing:'Plumbing', electrical:'Electrical', hvac:'HVAC', interior:'Interior Finishes', design:'Design & Permits', mgmt:'Project Management', surveying:'Surveying', other:'Other' };
-	Object.keys(breakdown).forEach(function(k) {
-		var amt = Math.round(breakdown[k] * totalTraditional);
-		tradBreak += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">' + labels[k] + '</span><span style="font-weight:600">' + fmt(amt) + '</span></div>';
-	});
-	document.getElementById('calcTraditionalBreakdown').innerHTML = tradBreak;
+	// Badge + bar
+	var badge = document.getElementById('estVerdictBadge');
+	if (monthlyNet > 0) {
+		badge.textContent = 'Net +' + fmt(monthlyNet) + '/mo';
+	} else if (totalHrs === 0) {
+		badge.textContent = 'Enter your hours';
+	} else {
+		badge.textContent = 'Not worth it yet';
+	}
+	document.getElementById('estHandoffPct').textContent = handoffPct + '%';
+	document.getElementById('estHandoffBar').style.width = Math.min(handoffPct, 100) + '%';
 
-	// Update AI side
-	document.getElementById('calcAITotal').textContent = fmt(totalAI);
-	document.getElementById('calcAIPsf').textContent = fmt(Math.round(totalAI / sqft)) + ' / sqft';
-
-	var aiMonthsLo = Math.max(4, Math.round(tradTimeline[0] * (1 - timelineSavings)));
-	var aiMonthsHi = Math.max(6, Math.round(tradTimeline[1] * (1 - timelineSavings)));
-	document.getElementById('calcAITimeline').textContent = '⏱ ' + aiMonthsLo + '–' + aiMonthsHi + ' months';
-
-	var aiBreak = '';
-	Object.keys(breakdown).forEach(function(k) {
-		var tradAmt = Math.round(breakdown[k] * totalTraditional);
-		var aiAmt = Math.round(tradAmt * (1 - aiSavings[k]));
-		var savePct = Math.round(aiSavings[k] * 100);
-		var tag = savePct > 0 ? ' <span style="color:var(--accent);font-weight:600;font-size:0.75rem;">−' + savePct + '%</span>' : '';
-		aiBreak += '<div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">' + labels[k] + tag + '</span><span style="font-weight:600">' + fmt(aiAmt) + '</span></div>';
-	});
-	document.getElementById('calcAIBreakdown').innerHTML = aiBreak;
-
-	// Savings
-	document.getElementById('calcSavingsAmt').textContent = fmt(saved);
-	document.getElementById('calcSavingsBadge').textContent = pctSaved > 0 ? 'Save ' + pctSaved + '%' : 'Same Cost';
-	document.getElementById('calcSavingsBar').style.width = Math.min(pctSaved / 30 * 100, 100) + '%';
+	// Break-even line
+	var be = document.getElementById('estBreakEven');
+	if (totalHrs === 0) {
+		be.textContent = 'Enter the hours you spend on tedious work each week to see the math.';
+	} else if (monthlyNet >= 0) {
+		var extraHrs = netSaved * 52;
+		be.textContent = 'At these numbers, the agent pays for itself and frees roughly ' + Math.round(extraHrs) + ' hours a year. The honest version: that assumes the agent actually works as estimated and that you spend the supervision time.';
+	} else {
+		var efficiency = totalHrs > 0 ? netSaved / totalHrs : 0;
+		if (efficiency <= 0) {
+			be.textContent = 'With these settings, nothing gets delegated, so the subscription never pays off. Lower the supervision overhead or raise the delegated hours.';
+		} else {
+			var needed = (cost / (52 / 12 * rate * efficiency)) - totalHrs;
+			be.textContent = 'At these numbers the subscription costs more than the time is worth. You would need about ' + (Math.round(needed * 10) / 10).toFixed(1) + ' more tedious hours per week for the agent to break even, or a cheaper plan.';
+		}
+	}
 }
 // Initialize on load
-document.addEventListener('DOMContentLoaded', updateCalc);
+document.addEventListener('DOMContentLoaded', updateEstimator);
 </script>
 <script>
 // Industry Data Charts — initialize when Chart.js loads and tab is shown
