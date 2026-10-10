@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <link rel="canonical" href="https://aihomebuilding.com/series.html" />
-  <meta property="og:site_name" content="AI Home Building" />
+  <meta property="og:site_name" content="Muse at Work" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reading Paths — AI Home Building</title>
-<meta name="description" content="Curated reading paths through 77 articles on AI in residential construction. Follow a thread from design to build to policy.">
-<meta property="og:title" content="Reading Paths — AI Home Building">
-<meta property="og:description" content="8 curated series guiding you through AI's transformation of home building.">
+<title>Reading Paths — Muse at Work</title>
+<meta name="description" content="Curated reading paths through Muse at Work's coverage of Muse, Meta's personal AI agent. Follow a thread from capability to consequence.">
+<meta property="og:title" content="Reading Paths — Muse at Work">
+<meta property="og:description" content="8 curated series on what Muse can do, what it remembers, where it fails, and what it costs.">
 <meta property="og:type" content="website">
 <link rel="icon" href="favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@ a:hover { color: var(--accent-dark); }
   font-size: 2.8rem; margin-bottom: 12px;
 }
 .page-header .subtitle {
-  font-size: 1.15rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto;
+  font-size: 1.15rem; color: var(--text-secondary); max-width: 640px; margin: 0 auto;
 }
 .back-link {
   display: inline-block; margin-bottom: 24px; font-size: 0.9rem;
@@ -110,6 +110,16 @@ html[data-theme="dark"] .series-card:hover {
   font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;
 }
 
+/* Reporting-soon rows */
+li.reporting-soon .article-number {
+  background: transparent; color: var(--text-secondary);
+  border: 2px dashed var(--border);
+}
+.reporting-title {
+  font-weight: 500; font-size: 0.92rem; color: var(--text-secondary);
+  font-style: italic; display: block; line-height: 1.4;
+}
+
 /* Theme toggle */
 .theme-toggle {
   position: fixed; top: 16px; right: 16px; z-index: 100;
@@ -140,219 +150,147 @@ html[data-theme="dark"] .series-card:hover {
 <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode" id="themeBtn">🌙</button>
 
 <div class="page-header">
-  <a href="index.html" class="back-link">← Back to AI Home Building</a>
+  <a href="index.html" class="back-link">← Back to Muse at Work</a>
   <h1>📚 Reading Paths</h1>
-  <p class="subtitle">74 articles organized into 8 curated series. Pick a thread and follow it from start to finish — each builds on the last.</p>
+  <p class="subtitle">Eight threads through our coverage of Muse, Meta&rsquo;s personal AI agent. Follow one from capability to consequence. New investigations publish once a day, and each path grows as we report.</p>
 </div>
 
 <div class="series-grid">
 
-  <!-- Series 1: The Robot Builder -->
+  <!-- Series 1: Handing Over the Keys -->
   <div class="series-card">
     <div class="series-header">
       <div class="series-emoji">🤖</div>
-      <h2>The Robot Builder</h2>
-      <p class="series-desc">From 3D-printed walls to autonomous excavators to humanoid laborers — how machines are replacing human hands on the job site.</p>
+      <h2>Handing Over the Keys</h2>
+      <p class="series-desc">What an always-on agent does while you sleep: scheduled work, delegated jobs, and the guardrails that keep autonomy from becoming chaos. Start here if you are deciding how much of your life to hand over.</p>
       <div class="series-meta">
-        <span>📄 12 articles</span>
-        <span>⏱ ~41 min read</span>
+        <span>✍️ Jake Kowalski</span>
+        <span>📄 1 investigation</span>
       </div>
     </div>
     <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/3d-printed-homes.html">A Robot Printed 100 Houses in Texas. Your Neighborhood Could Be Next.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/robotic-bricklaying.html">This Robot Lays 360 Blocks an Hour. Your Bricklayer Does 40.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/autonomous-heavy-equipment.html">The Excavator Dug Your Foundation. Nobody Was Driving It.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/modular-prefab-ai.html">Modular Housing Failed Twice. AI Factories Might Be the Third Attempt That Works.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/humanoid-robots-construction.html">A Humanoid Robot Costs $13,500. A Construction Worker Costs $72,000. Do the Math.</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/robot-operator-workforce.html">He Used to Drive the Excavator. Now He Supervises Three That Drive Themselves.</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><span class="article-number">7</span><div class="article-info"><a href="articles/ai-quality-inspection.html">Your Builder Missed 26 Defects. The AI Camera Found Every One.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">8</span><div class="article-info"><a href="articles/drone-site-monitoring.html">Drones Are Watching Your Home Get Built — And Catching Mistakes You'd Never See</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><a href="articles/drone-surveying-residential.html">Your Surveyor Spent Three Days Staking a Lot. A Drone Did It During Lunch.</a> <span class="series-meta">Jake Kowalski · 8 min</span></li>
-      <li><a href="articles/ai-construction-security.html">Your Job Site Lost $30,000 Last Weekend. The AI Camera Saw Everything.</a> <span class="series-meta">Jake Kowalski · 7 min</span></li>
-      <li><a href="articles/ai-roof-inspection.html">Your Roofer Climbed a Ladder and Eyeballed It. The Drone Found 23 Problems He Missed.</a> <span class="series-meta">Jake Kowalski · 8 min</span></li>
-      <li><a href="articles/ai-finishing-robots.html">Your Drywall Finisher&rsquo;s Shoulder Gave Out at 47. A Robot Just Did His Week&rsquo;s Work in Two Days.</a> <span class="series-meta">Jake Kowalski · 6 min</span></li>
+      <li><span class="article-number">1</span><div class="article-info"><a href="stories/muse-scheduled-tasks-work-while-asleep-2026.html">Your Agent&rsquo;s Real Job Starts at 3 AM. These Are the Rules for Handing Over the Keys.</a><div class="article-byline">Jake Kowalski</div></div></li>
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">Next installment in reporting. This thread publishes as we test each capability.</span></div></li>
     </ol>
   </div>
 
-  <!-- Series 2: Design Intelligence -->
+  <!-- Series 2: What It Remembers -->
   <div class="series-card">
     <div class="series-header">
-      <div class="series-emoji">✏️</div>
-      <h2>Design Intelligence</h2>
-      <p class="series-desc">How AI is transforming what architects draw, how clients see their future home, and what "custom" means when an algorithm can test 10,000 options.</p>
+      <div class="series-emoji">🧠</div>
+      <h2>What It Remembers</h2>
+      <p class="series-desc">An agent that never forgets is useful. It is also a record of your life sitting in files you have never opened. This thread audits Muse&rsquo;s memory: what persists, where it lives, who can read it, and how to take it back.</p>
       <div class="series-meta">
-        <span>📄 10 articles</span>
-        <span>⏱ ~38 min read</span>
+        <span>✍️ Catherine Chen</span>
+        <span>📄 First installment queued</span>
       </div>
     </div>
     <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/ai-architectural-design.html">The Architect's New Brain: How AI Is Redesigning Home Design From the Ground Up</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/parametric-design.html">Every Wall Is a Variable. Parametric Design Turns Custom Homes into Solvable Equations.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/ai-architect-client.html">Your Architect Used to Guess What You Wanted. Now AI Shows You.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-interior-design.html">Upload a Photo of Your Room. Get a New One in 10 Seconds.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/ai-daylight-optimization.html">Your Architect Guessed Where to Put the Windows. The Algorithm Tested 10,000 Options.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/ai-acoustics-design.html">Your Neighbor's TV Is 42 Decibels Too Loud. An AI Heard It Before the Walls Went Up.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">7</span><div class="article-info"><a href="articles/ai-landscape-design.html">Your Landscaper Charged $6,000 to Guess. The AI Showed You 15 Options in 30 Seconds.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><a href="articles/digital-twins-home-design.html">Your House Exists Twice. The Digital One Catches the Mistakes.</a> <span class="series-meta">Elena Vasquez · 8 min</span></li>
-      <li><span class="article-number">9</span><div class="article-info"><a href="articles/ai-floor-plan-generators.html">The AI Drew Your Floor Plan in 30 Seconds. It Forgot the Stairs.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">10</span><div class="article-info"><a href="articles/ai-interior-design-tools.html">You Hired an AI Interior Designer for $29 a Month. It Picked the Same Sofa as Everyone Else.</a><div class="article-byline">Elena Vasquez</div></div></li>
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">Deleting a Chat Doesn&rsquo;t Erase What Your Agent Learned. Read Its Files. (Catherine Chen&rsquo;s memory investigation ships in the next publish window.)</span></div></li>
     </ol>
   </div>
 
-  <!-- Series 3: The Green Build -->
+  <!-- Series 3: Trust, Then Verify -->
   <div class="series-card">
     <div class="series-header">
-      <div class="series-emoji">🌿</div>
-      <h2>The Green Build</h2>
-      <p class="series-desc">Sustainability from the ground up — embodied carbon, mass timber, energy modeling, concrete optimization, and waste reduction powered by AI.</p>
+      <div class="series-emoji">🔍</div>
+      <h2>Trust, Then Verify</h2>
+      <p class="series-desc">Agents are confident, fast, and sometimes wrong. This thread is about catching the wrong: the failure modes nobody demos, the verification habits that actually work, and what blind trust costs.</p>
       <div class="series-meta">
-        <span>📄 12 articles</span>
-        <span>⏱ ~41 min read</span>
+        <span>✍️ Marcus Washington</span>
+        <span>📄 In reporting</span>
       </div>
     </div>
     <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/embodied-carbon-ai.html">Your Home's Carbon Footprint Was Decided Before You Moved In. AI Is Finally Counting It.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/ai-concrete-optimization.html">Cement Produces 8% of Global CO₂. An Algorithm Just Cut That by a Third.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/mass-timber-ai.html">Your Next Home Could Be Built from Trees. AI Is Making Sure It Doesn't Burn Down.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-waste-sorting.html">Your Demolished House Is Worth $14,000. A Robot Just Found It in the Rubble.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/ai-energy-modeling.html">Your Architect's Energy Model Took 2 Hours. The AI Did It in 2 Seconds.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/ai-hvac-design.html">Half of America's HVAC Systems Are the Wrong Size. AI Is Fixing That Before the Drywall Goes Up.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><a href="articles/wildfire-resilient-homes.html">$2.15 Trillion in Homes at Wildfire Risk. AI Can See Which Ones Will Survive.</a> <span class="series-meta">Priya Greenwood · 8 min</span></li>
-      <li><a href="articles/building-performance-gap.html">Your Home Uses 25% More Energy Than Its Plans Promised. AI Is Finally Catching the Difference.</a> <span class="series-meta">Jake Kowalski · 8 min</span></li>
-      <li><span class="article-number">9</span><div class="article-info"><a href="articles/ai-radon-testing.html">21,000 Americans Die From Radon Every Year. Your Builder Doesn't Test for It.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">10</span><div class="article-info"><a href="articles/ai-stormwater-management.html">Your Lot Sends 27,000 Gallons of Runoff Into the Street Every Year. AI Knows Exactly Where It Goes.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">11</span><div class="article-info"><a href="articles/ai-solar-panel-design.html">Your Solar Quote Took Three Hours. The AI Did It in Five Minutes.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">12</span><div class="article-info"><a href="articles/ai-battery-storage-design.html">28% of Solar Buyers Added a Battery Last Year. Most Bought the Wrong Size.</a><div class="article-byline">Priya Greenwood</div></div></li>
-      <li><span class="article-number">13</span><div class="article-info"><a href="articles/ai-geothermal-design.html">Your Geothermal Installer Drilled 300 Feet Based on a Spreadsheet. AI Modeled Your Entire Subsurface.</a><div class="article-byline">Priya Greenwood</div></div></li>
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">First installment in reporting. One investigation a day.</span></div></li>
     </ol>
   </div>
 
-  <!-- Series 4: Smart From Day One -->
+  <!-- Series 4: The Capability Shelf -->
+  <div class="series-card">
+    <div class="series-header">
+      <div class="series-emoji">🛠️</div>
+      <h2>The Capability Shelf</h2>
+      <p class="series-desc">What can it actually do? Browser, terminal, connected accounts, skills, integrations. Each capability tested hands-on, with evidence and the honest limits. No launch-event claims.</p>
+      <div class="series-meta">
+        <span>✍️ Jake Kowalski</span>
+        <span>📄 In reporting</span>
+      </div>
+    </div>
+    <ol class="series-articles">
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">First installment in reporting. One investigation a day.</span></div></li>
+    </ol>
+  </div>
+
+  <!-- Series 5: The Operations Manual -->
+  <div class="series-card">
+    <div class="series-header">
+      <div class="series-emoji">📋</div>
+      <h2>The Operations Manual</h2>
+      <p class="series-desc">Every automation promise comes with a supervision bill. This thread runs your life like an operation: workflows, delegation systems, and the true cost of keeping an agent pointed in the right direction.</p>
+      <div class="series-meta">
+        <span>✍️ Frank DeLuca</span>
+        <span>📄 In reporting</span>
+      </div>
+    </div>
+    <ol class="series-articles">
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">First installment in reporting. One investigation a day.</span></div></li>
+    </ol>
+  </div>
+
+  <!-- Series 6: An Agent in the House -->
   <div class="series-card">
     <div class="series-header">
       <div class="series-emoji">🏠</div>
-      <h2>Smart From Day One</h2>
-      <p class="series-desc">Building intelligence into the home during construction — from smart panels and water sensors to predictive maintenance, so the house is smarter than you from the day you move in.</p>
+      <h2>An Agent in the House</h2>
+      <p class="series-desc">Parents, caregivers, kids, and anyone whose day has more tasks than hours. What changes in ordinary life when the assistant never sleeps, and who gets left out of that promise.</p>
       <div class="series-meta">
-        <span>📄 8 articles</span>
-        <span>⏱ ~30 min read</span>
+        <span>✍️ Priya Greenwood</span>
+        <span>📄 In reporting</span>
       </div>
     </div>
     <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/smart-home-construction.html">Wire It Smart During Framing or Pay 5× More Later. Here's What to Run.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/smart-wiring-ai.html">Your Breaker Box Is the Dumbest Thing in Your House. That's About to Change.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/ai-water-management.html">Your Pipes Are Dumb. They Leak 1 Trillion Gallons a Year. AI Is Finally Listening.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-predictive-maintenance.html">Your Furnace Knows It's Dying. It Just Can't Tell You Yet.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/ai-aging-in-place.html">14 Million Seniors Fall Every Year. An AI Just Scanned Their Homes.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><a href="articles/all-electric-panel-crisis.html">Your 200-Amp Panel Can't Handle Your All-Electric Future. Smart Panels Are Buying You Time.</a> <span class="series-meta">Jake Kowalski · 8 min</span></li>
-      <li><span class="article-number">7</span><div class="article-info"><a href="articles/ai-plumbing-layout.html">You Waste 11,000 Gallons a Year Waiting for Hot Water. Your Plumbing Layout Is Why.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">8</span><div class="article-info"><a href="articles/ai-mold-moisture-detection.html">47% of American Buildings Have a Moisture Problem. The Walls Won't Tell You Until It's Too Late.</a><div class="article-byline">Jake Kowalski</div></div></li>
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">First installment in reporting. One investigation a day.</span></div></li>
     </ol>
   </div>
 
-  <!-- Series 5: The Business of Building -->
+  <!-- Series 7: The Agent You Live With -->
   <div class="series-card">
     <div class="series-header">
-      <div class="series-emoji">💼</div>
-      <h2>The Business of Building</h2>
-      <p class="series-desc">How AI changes the economics — from bids and schedules to supply chains, cost estimation, and the VC money chasing construction's transformation.</p>
+      <div class="series-emoji">💬</div>
+      <h2>The Agent You Live With</h2>
+      <p class="series-desc">Interfaces are relationships. Voice, text, glasses, ambient computing: what it feels like to share your days with an always-on agent, and who designed it to feel that way.</p>
       <div class="series-meta">
-        <span>📄 12 articles</span>
-        <span>⏱ ~34 min read</span>
+        <span>✍️ Elena Vasquez</span>
+        <span>📄 In reporting</span>
       </div>
     </div>
     <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/construction-productivity-ai.html">Construction Productivity Has Been Flat for 30 Years. AI Might Finally Break the Curse.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/ai-project-management.html">From 14 Months to 10: How AI Project Management Is Compressing Home Build Timelines</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/ai-cost-estimation.html">Your Contractor's Bid Is a Guess. AI Is Making It a Science.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-contractor-bidding.html">You Got Three Bids. AI Found 14 Red Flags You Missed.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/ai-supply-chain-construction.html">90% of Builders Had Materials Show Up Late Last Year. AI Knows Why.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/ai-agents-construction.html">Your General Contractor Just Hired an AI Agent. Here's What It Does All Day.</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><span class="article-number">7</span><div class="article-info"><a href="articles/contech-vc-investment.html">Investors Poured $2 Billion Into Katerra. It Vanished. Now They're Back.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><a href="articles/supply-chain-ai.html">Lumber Went from $350 to $1,700 in a Year. Nobody Saw It Coming. AI Might.</a> <span class="series-meta">Frank DeLuca · 7 min</span></li>
-      <li><a href="articles/ai-warranty-prediction.html">Your Builder's Warranty Is 365 Days. The Failures Start at 366.</a> <span class="series-meta">Frank DeLuca · 7 min</span></li>
-      <li><a href="articles/contech-reality-check.html">I Spent 20 Years on Job Sites. Half These AI Tools Would Get Laughed Off One.</a> <span class="series-meta">Frank DeLuca · 8 min</span></li>
-      <li><a href="articles/ai-construction-scheduling.html">98% of Construction Projects Run Late. AI Recovers 42 Days on Average.</a> <span class="series-meta">Frank DeLuca · 8 min</span></li>
-      <li><span class="article-number">12</span><div class="article-info"><a href="articles/ai-construction-draw.html">Your Draw Request Took 10 Days. Your Plumber Left on Day 3.</a><div class="article-byline">Frank DeLuca</div></div></li>
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">First installment in reporting. One investigation a day.</span></div></li>
     </ol>
   </div>
 
-  <!-- Series 6: Code, Permits & Policy -->
+  <!-- Series 8: The Agent Economy -->
   <div class="series-card">
     <div class="series-header">
-      <div class="series-emoji">⚖️</div>
-      <h2>Code, Permits &amp; Policy</h2>
-      <p class="series-desc">The regulatory side — zoning algorithms, permit automation, building codes, insurance gaps, appraisal disruption, and the housing policy puzzle.</p>
+      <div class="series-emoji">💰</div>
+      <h2>The Agent Economy</h2>
+      <p class="series-desc">Subscriptions, tokens, compute. What autonomous work actually costs, who pockets the margin, and the honest math on whether an agent pays for itself.</p>
       <div class="series-meta">
-        <span>📄 12 articles</span>
-        <span>⏱ ~38 min read</span>
+        <span>✍️ Frank DeLuca</span>
+        <span>📄 In reporting</span>
       </div>
     </div>
     <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/housing-shortage-ai-policy.html">America Is 4.7 Million Homes Short. AI Won't Fix That Alone.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/ai-zoning-analysis.html">Your Backyard Could Fit an ADU. The Algorithm Already Knows.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/ai-code-compliance.html">Your Architect Missed a Code Violation. The AI Didn't.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-permit-automation.html">Your Permit Application Was Rejected. An AI Could Have Caught It Before You Submitted.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/insurance-ai-homes.html">Your Insurer Has No Idea How to Price a Robot-Built Home</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/ai-home-appraisal.html">Your Home Appraiser Drove 45 Minutes to Guess. The Algorithm Already Knew.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">7</span><div class="article-info"><a href="articles/ai-mortgage-underwriting.html">You Built a 3D-Printed Home. The Bank Has No Idea How to Finance It.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><a href="articles/ai-adu-planning.html">18 States Legalized Your Backyard Cottage. AI Will Tell You If You Can Actually Build One.</a> <span class="series-meta">Catherine Chen · 7 min</span></li>
-      <li><a href="articles/ai-building-permits.html">Your Building Permit Took Six Months. Honolulu's Takes Three Days.</a> <span class="series-meta">Catherine Chen · 7 min</span></li>
-      <li><a href="articles/construction-data-ownership.html">You Paid for the Blueprints. You Don't Own the Data.</a> <span class="series-meta">Catherine Chen · 8 min</span></li>
-      <li><span class="article-number">11</span><div class="article-info"><a href="articles/electrical-design-nec.html">The NEC Has 1,100 Pages. Your Electrician Reads Maybe 40. AI Could Read All of Them.</a><div class="article-byline">Catherine Chen</div></div></li>
-      <li><span class="article-number">12</span><div class="article-info"><a href="articles/ai-accessible-home-design.html">97% of American Homes Fail a Wheelchair. AI Won't Fix That — But It Makes Excuses Harder.</a><div class="article-byline">Catherine Chen</div></div></li>
-    </ol>
-  </div>
-
-  <!-- Series 7: The Human Side -->
-  <div class="series-card">
-    <div class="series-header">
-      <div class="series-emoji">👷</div>
-      <h2>The Human Side</h2>
-      <p class="series-desc">What happens to the 8 million people who build America's homes when AI and robots arrive — the labor gap, the new jobs, and the uncomfortable math.</p>
-      <div class="series-meta">
-        <span>📄 6 articles</span>
-        <span>⏱ ~22 min read</span>
-      </div>
-    </div>
-    <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/construction-workforce.html">The 500,000 Missing Workers: Can AI and Robots Fill Construction's Labor Gap?</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/construction-safety-ai.html">1,034 Construction Workers Died Last Year. An AI Saw It Coming.</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/humanoid-robots-construction.html">A Humanoid Robot Costs $13,500. A Construction Worker Costs $72,000. Do the Math.</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-builder-org-simulation.html">We Simulated What Happens When a 200-Person Builder Adopts AI. It's Not What the Vendors Promised.</a><div class="article-byline">Marcus Washington</div></div></li>
-      <li><a href="articles/construction-knowledge-extinction.html">The Guy Who Knows Why That Pipe Is There Is Retiring. Nobody Recorded Him.</a> <span class="series-meta">Marcus Washington · 8 min</span></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/smart-safety-wearables.html">Your Hard Hat Hasn't Changed Since 1953. The One With Sensors Might Save Your Life.</a><div class="article-byline">Marcus Washington</div></div></li>
-    </ol>
-  </div>
-
-  <!-- Series 8: The Homeowner's AI Toolkit -->
-  <div class="series-card">
-    <div class="series-header">
-      <div class="series-emoji">🧰</div>
-      <h2>The Homeowner's AI Toolkit</h2>
-      <p class="series-desc">If you're building or renovating a home today, these are the AI tools and decisions that will save you money, time, and headaches.</p>
-      <div class="series-meta">
-        <span>📄 8 articles</span>
-        <span>⏱ ~30 min read</span>
-      </div>
-    </div>
-    <ol class="series-articles">
-      <li><span class="article-number">1</span><div class="article-info"><a href="articles/ai-land-acquisition.html">Your Builder Used to Drive Every Lot. Now AI Scores 10,000 Parcels Before Breakfast.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><span class="article-number">2</span><div class="article-info"><a href="articles/ai-foundation-design.html">Your Foundation Engineer Drilled Three Holes and Guessed. The AI Modeled 10,000 Scenarios.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">3</span><div class="article-info"><a href="articles/ai-structural-engineering.html">Your Home Has 30% More Steel Than It Needs. AI Knows Exactly How Much to Remove.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">4</span><div class="article-info"><a href="articles/ai-renovation.html">You Used to Gut-Renovate on Gut Feeling. Now AI Shows You the Finished Kitchen First.</a><div class="article-byline">Elena Vasquez</div></div></li>
-      <li><span class="article-number">5</span><div class="article-info"><a href="articles/ai-disaster-resilient-homes.html">The Palisades Fire Destroyed 16,000 Homes. Robots Are Building Them Back Fireproof.</a><div class="article-byline">Jake Kowalski</div></div></li>
-      <li><span class="article-number">6</span><div class="article-info"><a href="articles/digital-twins.html">Your Home's Digital Twin Knows It Better Than You Do</a><div class="article-byline">Sasha Blueprint</div></div></li>
-      <li><span class="article-number">7</span><div class="article-info"><a href="articles/ai-contractor-bidding.html">You Got Three Bids. AI Found 14 Red Flags You Missed.</a><div class="article-byline">Frank DeLuca</div></div></li>
-      <li><a href="articles/ai-home-inspection-buyers.html">Your Home Inspector Missed the Mold. The Algorithm Found It in a Photo.</a> <span class="series-meta">Jake Kowalski · 7 min</span></li>
+      <li class="reporting-soon"><span class="article-number">·</span><div class="article-info"><span class="reporting-title">First installment in reporting. One investigation a day.</span></div></li>
     </ol>
   </div>
 
 </div>
 
-<div style="text-align:center;padding:0 24px 60px;max-width:600px;margin:0 auto">
-  <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.6">Some articles appear in multiple series because they connect multiple themes. That's the point — these topics don't exist in silos.</p>
-  <a href="index.html" style="display:inline-block;margin-top:16px;padding:12px 28px;background:var(--accent);color:#fff;border-radius:8px;font-weight:600;transition:0.2s">← Browse All 79 Articles</a>
+<div style="text-align:center;padding:0 24px 60px;max-width:640px;margin:0 auto">
+  <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.6">Muse at Work began covering Muse on October 9, 2026. Our earlier coverage of AI in residential construction is archived and still available. These paths grow one investigation at a time.</p>
+  <a href="index.html" style="display:inline-block;margin-top:16px;padding:12px 28px;background:var(--accent);color:#fff;border-radius:8px;font-weight:600;transition:0.2s">← Browse the Archive</a>
   <a href="writers.html" style="display:inline-block;margin-top:16px;margin-left:12px;padding:12px 28px;background:transparent;color:var(--accent);border:2px solid var(--accent);border-radius:8px;font-weight:600;transition:0.2s;text-decoration:none">✍️ Meet Our Writers</a>
 </div>
 
