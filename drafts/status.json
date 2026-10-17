@@ -1,9 +1,32 @@
 {
   "current": {
     "slug": "muse-skill-files-beat-prompts-2026",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Frank DeLuca",
-    "started": "2026-10-17T02:05:00-07:00"
+    "started": "2026-10-17T02:05:00-07:00",
+    "critique_round": 0,
+    "critics": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 9.0,
+      "average": 8.96
+    },
+    "gates": {
+      "em_dashes": 0,
+      "the_starters_pct": 7.8,
+      "rhythm": "PASS (variance 202.2, short 14.5%, long 53.9%)",
+      "banned_phrases": 0
+    },
+    "hero": {
+      "file": "images/muse-skill-files-beat-prompts-2026.jpg",
+      "format": "JPEG (ffd8)",
+      "hash": "0d0d53a3"
+    },
+    "ship_note": "1/day gate consumed by Publish #790 (00:08 today); parked for next run as #791"
   },
   "hero_cache_bust": null,
   "last_completed": "2026-10-17T00:10:00-07:00",
