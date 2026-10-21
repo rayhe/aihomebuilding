@@ -1,10 +1,37 @@
 {
   "current": {
     "journalist": "Frank DeLuca",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "slug": "muse-verify-before-trust-2026",
-    "started": "2026-10-21T00:15:00-07:00"
+    "started": "2026-10-21T00:15:00-07:00",
+    "critique": {
+      "round0": {
+        "General": 8.8,
+        "Voice": 8.6,
+        "Ethics": 9.0,
+        "Social": 8.7,
+        "Legal": 9.0,
+        "Rigor": 9.0,
+        "Data": 8.5,
+        "em_dashes": 0,
+        "banned": 0,
+        "the_starters_pct": 14.8
+      },
+      "round1": {
+        "General": 8.8,
+        "Voice": 8.6,
+        "Ethics": 9.0,
+        "Social": 8.7,
+        "Legal": 9.0,
+        "Rigor": 9.0,
+        "Data": 8.5,
+        "em_dashes": 0,
+        "banned": 0,
+        "the_starters_pct": 1.8
+      },
+      "revision": "round1: reworded 15 The-start sentences; The-starters 14.8% -> 1.8%; gates green both rounds"
+    }
   },
   "hero_cache_bust": null,
   "last_completed": "2026-10-21T00:05:00-07:00",
