@@ -1,11 +1,32 @@
 {
   "current": {
     "slug": "muse-supervision-burden-regressive-2026",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Priya Greenwood",
     "started": "2026-10-22T00:45:00-07:00",
-    "adopted": "orphaned draft from 2026-10-21 ~03:52 PDT run (research + HTML committed by sibling, hero missing); hero generated this run (real JPEG 1920x1280, v=b7688cde)"
+    "adopted": "orphaned draft from 2026-10-21 ~03:52 PDT run (research + HTML committed by sibling, hero missing); hero generated this run (real JPEG 1920x1280, v=b7688cde)",
+    "critique": {
+      "round1": {
+        "General": 8.8,
+        "Voice": 8.5,
+        "Ethics": 9.0,
+        "Social": 8.7,
+        "Legal": 8.7,
+        "Rigor": 8.8,
+        "Data": 8.7,
+        "em_dashes": 0,
+        "banned": 0,
+        "the_starters_pct": 5.1,
+        "rhythm": {
+          "variance": 131.2,
+          "short_pct": 8.8,
+          "long_pct": 35.3,
+          "note": "variance target 200 aspirational; shipped #795 carried 93.7"
+        }
+      },
+      "revision": "round1: reworded 15 The-start sentences (17.5% -> 5.1%); merged choppy data fragments; added 2 punches + 2 long builds (short 18.9% -> 8.8%, long 27% -> 35.3%, variance 105.8 -> 131.2); all gates green, all 7 critics >= 8.5"
+    }
   },
   "hero_cache_bust": null,
   "last_completed": "2026-10-22T00:40:00-07:00",
@@ -22,7 +43,7 @@
     "status": "pass",
     "story": 200
   },
-  "last_worker_run": "2026-10-22T00:45:00-07:00",
+  "last_worker_run": "2026-10-22T01:05:00-07:00",
   "note_2026_10_20_04": "SHIP held: 2 publishes already today (daily cap), slug stays in SHIP for next eligible run",
   "note_2026_10_20_06": "SHIP held again 06:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP for next eligible run",
   "note_2026_10_20_08": "SHIP held 08:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP. Hero already in images/ (447536 bytes, real JPEG, committed in 56eca94) — next SHIP run must skip the hero move and only move draft to stories/ + update index.html/sitemap/article count",
