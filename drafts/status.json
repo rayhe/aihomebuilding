@@ -1,54 +1,21 @@
 {
-  "current": {
-    "journalist": "Frank DeLuca",
-    "phase": "QA",
-    "round": 1,
-    "slug": "muse-verify-before-trust-2026",
-    "started": "2026-10-21T00:15:00-07:00",
-    "critique": {
-      "round0": {
-        "General": 8.8,
-        "Voice": 8.6,
-        "Ethics": 9.0,
-        "Social": 8.7,
-        "Legal": 9.0,
-        "Rigor": 9.0,
-        "Data": 8.5,
-        "em_dashes": 0,
-        "banned": 0,
-        "the_starters_pct": 14.8
-      },
-      "round1": {
-        "General": 8.8,
-        "Voice": 8.6,
-        "Ethics": 9.0,
-        "Social": 8.7,
-        "Legal": 9.0,
-        "Rigor": 9.0,
-        "Data": 8.5,
-        "em_dashes": 0,
-        "banned": 0,
-        "the_starters_pct": 1.8
-      },
-      "revision": "round1: reworded 15 The-start sentences; The-starters 14.8% -> 1.8%; gates green both rounds"
-    }
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-21T00:05:00-07:00",
-  "last_published_at": "2026-10-21T00:05:00-07:00",
+  "last_completed": "2026-10-22T00:40:00-07:00",
+  "last_published_at": "2026-10-22T00:40:00-07:00",
   "last_qa": {
-    "article_number": 794,
-    "at": "2026-10-21T00:05:00-07:00",
+    "article_number": 795,
+    "at": "2026-10-22T00:40:00-07:00",
     "hero": 200,
     "index_card": true,
-    "note": "byline/datePublished set to Oct 21, 2026 at publish time; live story 200 (17944 bytes = local); hero 200 (447536 bytes = local, real JPEG); index card live (3 refs, 791 articles); sitemap entry live (lastmod 2026-10-21); og:title/description/url/image all present; story URL 308-redirects to no-.html path (site convention), resolves 200",
+    "note": "byline/datePublished set to Oct 22, 2026 at publish time; live story 200 (13510 bytes = local); hero 200 (485337 bytes = local, real JPEG ffd8, 1920x1280, v=4d22e2a7, already in images/ - hero move skipped); index card live (3 refs, 792 articles); sitemap entry live (lastmod 2026-10-22); og:title/description/url/image all present; index.html 308-redirects to no-.html path, resolves 200 via -L",
     "og_tags": true,
     "sitemap": true,
-    "slug": "muse-wonder-active-memory-2026",
+    "slug": "muse-verify-before-trust-2026",
     "status": "pass",
     "story": 200
   },
-  "last_worker_run": "2026-10-22T00:33:00-07:00",
+  "last_worker_run": "2026-10-22T00:40:00-07:00",
   "note_2026_10_20_04": "SHIP held: 2 publishes already today (daily cap), slug stays in SHIP for next eligible run",
   "note_2026_10_20_06": "SHIP held again 06:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP for next eligible run",
   "note_2026_10_20_08": "SHIP held 08:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP. Hero already in images/ (447536 bytes, real JPEG, committed in 56eca94) — next SHIP run must skip the hero move and only move draft to stories/ + update index.html/sitemap/article count",
