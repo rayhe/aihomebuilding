@@ -1,45 +1,17 @@
 {
-  "current": {
-    "adopted": "orphaned draft from 2026-10-21 ~03:52 PDT run (research + HTML committed by sibling, hero missing); hero generated this run (real JPEG 1920x1280, v=b7688cde)",
-    "critique": {
-      "revision": "round1: reworded 15 The-start sentences (17.5% -> 5.1%); merged choppy data fragments; added 2 punches + 2 long builds (short 18.9% -> 8.8%, long 27% -> 35.3%, variance 105.8 -> 131.2); all gates green, all 7 critics >= 8.5",
-      "round1": {
-        "Data": 8.7,
-        "Ethics": 9.0,
-        "General": 8.8,
-        "Legal": 8.7,
-        "Rigor": 8.8,
-        "Social": 8.7,
-        "Voice": 8.5,
-        "banned": 0,
-        "em_dashes": 0,
-        "rhythm": {
-          "long_pct": 35.3,
-          "note": "variance target 200 aspirational; shipped #795 carried 93.7",
-          "short_pct": 8.8,
-          "variance": 131.2
-        },
-        "the_starters_pct": 5.1
-      }
-    },
-    "journalist": "Priya Greenwood",
-    "phase": "QA",
-    "round": 1,
-    "slug": "muse-supervision-burden-regressive-2026",
-    "started": "2026-10-22T00:45:00-07:00"
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-22T00:40:00-07:00",
-  "last_published_at": "2026-10-22T00:40:00-07:00",
+  "last_completed": "2026-10-23T00:06:00-07:00",
+  "last_published_at": "2026-10-23T00:06:00-07:00",
   "last_qa": {
-    "article_number": 795,
-    "at": "2026-10-22T00:40:00-07:00",
+    "article_number": 796,
+    "at": "2026-10-23T00:06:00-07:00",
     "hero": 200,
     "index_card": true,
-    "note": "byline/datePublished set to Oct 22, 2026 at publish time; live story 200 (13510 bytes = local); hero 200 (485337 bytes = local, real JPEG ffd8, 1920x1280, v=4d22e2a7, already in images/ - hero move skipped); index card live (3 refs, 792 articles); sitemap entry live (lastmod 2026-10-22); og:title/description/url/image all present; index.html 308-redirects to no-.html path, resolves 200 via -L",
+    "note": "byline/datePublished set to Oct 23, 2026 at publish time; live story 200 (15343 bytes = local); hero 200 (496766 bytes = local, real JPEG ffd8, 1920x1280, v=b7688cde, already in images/ - hero move skipped); index card live (3 refs, 793 articles); sitemap entry live (lastmod 2026-10-23); og:title/description/url/image all present",
     "og_tags": true,
     "sitemap": true,
-    "slug": "muse-verify-before-trust-2026",
+    "slug": "muse-supervision-burden-regressive-2026",
     "status": "pass",
     "story": 200
   },
