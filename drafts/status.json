@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "muse-transparency-trap-ux-2026",
+    "phase": "DRAFT",
+    "journalist": "Elena Vasquez",
+    "started": "2026-10-24T00:35:00-07:00",
+    "headline": "Your Agent Shows You Everything It Does. Good Designers Know That Is the Problem."
+  },
   "hero_cache_bust": null,
   "last_completed": "2026-10-24T00:20:00-07:00",
   "last_published_at": "2026-10-24T00:06:00-07:00",
@@ -66,5 +72,6 @@
   "note_2026_10_23_20": "SHIP held 20:02: daily cap reached (Publish #796 today, 5893e2a, 00:06 PDT; 1/day cap; git grep=10 counts 8 SHIP-held status notes + 1 QA commit, actual publishes today=1). Slug muse-subpoena-agent-memory-2026 (Catherine Chen, critique round1, all 8.5+, gates green) stays in SHIP. Draft in drafts/ (13359 bytes); hero already in images/ (353372 bytes, real JPEG ffd8, 2048x1152, v=d0a7f222) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete.",
   "note_2026_10_23_22": "SHIP held 22:02: daily cap reached (Publish #796 today, 5893e2a, 00:06 PDT; 1/day cap; git grep=11 counts 9 SHIP-held status notes + 1 QA commit, actual publishes today=1). Slug muse-subpoena-agent-memory-2026 (Catherine Chen, critique round1, all 8.5+, gates green) stays in SHIP. Draft in drafts/ (13359 bytes); hero already in images/ (353372 bytes, real JPEG ffd8, 2048x1152, v=d0a7f222) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete.",
   "note_2026_10_24_00": "Publish #797 (dc5a923): muse-subpoena-agent-memory-2026 (Catherine Chen) moved to stories/, hero already in images/ (353372 bytes, real JPEG ffd8 2048x1152, v=d0a7f222) - hero move skipped; byline/datePublished set to Oct 24, 2026 at publish time; index card prepended (policy, Policy), count 793->794, sitemap entry added with lastmod 2026-10-24.",
-  "note_2026_10_24_qa": "QA pass for Publish #797 in same run: story live 200, hero 200 real JPEG, index card live, sitemap valid with new entry; pipeline idle, current=null. Pre-existing sitemap malformation fixed (49f4e52)."
+  "note_2026_10_24_qa": "QA pass for Publish #797 in same run: story live 200, hero 200 real JPEG, index card live, sitemap valid with new entry; pipeline idle, current=null. Pre-existing sitemap malformation fixed (49f4e52).",
+  "note_2026_10_24_research": "RESEARCH complete: muse-transparency-trap-ux-2026 (Elena Vasquez) - UX of agent transparency, the data-dump vs blind-trust tension, decision-node audits; 6 primary sources (reloadux, Notch AXD, Orizon, Microsoft agentic design, Design Bootcamp 8 patterns, DesignPixil); kill test passes (reader rubric for trusting an agent with real work)."
 }
