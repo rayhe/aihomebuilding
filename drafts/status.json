@@ -1,24 +1,17 @@
 {
-  "current": {
-    "slug": "muse-transparency-trap-ux-2026",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
-    "started": "2026-10-24T00:35:00-07:00",
-    "headline": "Your Agent Shows You Everything It Does. Good Designers Know That Is the Problem.",
-    "round": 1
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-24T00:20:00-07:00",
-  "last_published_at": "2026-10-24T00:06:00-07:00",
+  "last_completed": "2026-10-25T00:10:00-07:00",
+  "last_published_at": "2026-10-25T00:03:00-07:00",
   "last_qa": {
-    "article_number": 797,
-    "at": "2026-10-24T00:20:00-07:00",
+    "article_number": 798,
+    "at": "2026-10-25T00:10:00-07:00",
     "hero": 200,
     "index_card": true,
-    "note": "byline/datePublished set to Oct 24, 2026 at publish time; live story 200 (13359 bytes = local); hero 200 (353372 bytes = local, real JPEG ffd8, 2048x1152, v=d0a7f222, already in images/ - hero move skipped); index card live (3 refs, 794 articles); sitemap entry live (lastmod 2026-10-24); og:title/description/image all present. First QA pass (00:05) failed on deploy lag (story 404, homepage/sitemap stale); story live by 00:08. Found + fixed pre-existing malformed sitemap.xml (missing </url> on muse-true-cost-supervision-tax-2026 entry, commit 49f4e52); live sitemap now VALID, 675 entries.",
+    "note": "byline/datePublished set to Oct 25, 2026 at publish time; live story 200 after Cloudflare extensionless 308 redirect (standard site behavior), 19981 bytes = local; hero 200 (403021 bytes = local, real JPEG ffd8, 1920x1280, v=293da2ac, already in images/ - hero move skipped); index card live (3 refs, 795 articles); sitemap entry live (lastmod 2026-10-25) and XML valid; og:title/description/image all present. First QA check hit deploy lag (story 404); live on re-check after ~90s.",
     "og_tags": true,
     "sitemap": true,
-    "slug": "muse-subpoena-agent-memory-2026",
+    "slug": "muse-transparency-trap-ux-2026",
     "status": "pass",
     "story": 200
   },
