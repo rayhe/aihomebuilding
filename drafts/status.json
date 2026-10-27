@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "muse-token-price-what-a-token-buys-2026",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Jake Kowalski",
     "started": "2026-10-26T02:05:00-07:00",
     "round": 0
@@ -21,7 +21,7 @@
     "sitemap": true,
     "note": "Live story 200, full body, Published 2026-10-26; hero 200 live (1920x1280, v=0b8a644e, same as local 419413-byte JPEG); index card live first (796 articles, Frank DeLuca Oct 26, 2026); sitemap live with zombie entry (lastmod 2026-10-26) and restored subpoena entry (2026-10-24); og tags present in published source (og:title/description/image, twitter card). First live check hit deploy lag (story 404); live on re-check."
   },
-  "last_worker_run": "2026-10-26T22:02:00-07:00",
+  "last_worker_run": "2026-10-27T00:05:00-07:00",
   "note_2026_10_24_14": "SHIP held 14:02: daily cap reached (Publish #797 today, dc5a923, 00:06 PDT; 1/day cap; anchored git log --grep=^Publish # count=1, actual publishes today=1). Slug muse-transparency-trap-ux-2026 (Elena Vasquez, critique round1, all 8.5+, gates green) stays in SHIP. Draft in drafts/ (19981 bytes, 0 em dashes); hero already in images/ (403021 bytes, real JPEG ffd8, 1920x1280) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete. Pre-existing modification to stories/muse-wonder-active-memory-2026.html and untracked media-generation leftovers in drafts/ left untouched.",
   "note_2026_10_20_04": "SHIP held: 2 publishes already today (daily cap), slug stays in SHIP for next eligible run",
   "note_2026_10_20_06": "SHIP held again 06:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP for next eligible run",
