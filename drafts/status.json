@@ -1,13 +1,13 @@
 {
   "current": {
     "slug": "muse-where-sites-block-your-agent-2026",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Jake Kowalski",
     "started": "2026-10-30T00:09:25-07:00",
-    "critique_round": 0,
+    "critique_round": 1,
     "gates": {
       "em_dashes": 1,
-      "the_starters_pct": 19.6,
+      "the_starters_pct": 9.8,
       "banned_phrases": 0,
       "rhythm": "pass"
     },
@@ -17,7 +17,16 @@
       "format": "JPEG",
       "dims": "1920x1280"
     },
-    "draft_bytes": 14493
+    "draft_bytes": 14533,
+    "critic_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 8.5,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.5
+    }
   },
   "hero_cache_bust": null,
   "last_completed": "2026-10-30T00:06:53-07:00",
@@ -34,7 +43,7 @@
     "sitemap": true,
     "note": "Live story 200 via pretty-URL redirect (15604 bytes, byte-identical to local); hero 200 live (460596 bytes, real JPEG ffd8, byte-identical); index card live (3 mentions); sitemap live with entry (lastmod 2026-10-30); og tags present (og:title/description/image/url)."
   },
-  "last_worker_run": "2026-10-30T00:13:19-07:00",
+  "last_worker_run": "2026-10-30T00:14:42-07:00",
   "note_2026_10_24_14": "SHIP held 14:02: daily cap reached (Publish #797 today, dc5a923, 00:06 PDT; 1/day cap; anchored git log --grep=^Publish # count=1, actual publishes today=1). Slug muse-transparency-trap-ux-2026 (Elena Vasquez, critique round1, all 8.5+, gates green) stays in SHIP. Draft in drafts/ (19981 bytes, 0 em dashes); hero already in images/ (403021 bytes, real JPEG ffd8, 1920x1280) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete. Pre-existing modification to stories/muse-wonder-active-memory-2026.html and untracked media-generation leftovers in drafts/ left untouched.",
   "note_2026_10_20_04": "SHIP held: 2 publishes already today (daily cap), slug stays in SHIP for next eligible run",
   "note_2026_10_20_06": "SHIP held again 06:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP for next eligible run",
