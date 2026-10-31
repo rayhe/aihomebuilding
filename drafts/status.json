@@ -1,26 +1,21 @@
 {
-  "current": {
-    "slug": "muse-where-sites-block-your-agent-2026",
-    "phase": "QA",
-    "journalist": "Jake Kowalski",
-    "started": "2026-10-30T00:09:25-07:00"
-  },
+  "current": null,
   "hero_cache_bust": null,
-  "last_completed": "2026-10-30T00:06:53-07:00",
-  "last_published_at": "2026-10-30T00:06:53-07:00",
+  "last_completed": "2026-10-31T00:07:00-07:00",
+  "last_published_at": "2026-10-31T00:07:00-07:00",
   "last_qa": {
-    "article_number": 803,
-    "slug": "muse-on-glasses-accessibility-2026",
+    "article_number": 804,
+    "slug": "muse-where-sites-block-your-agent-2026",
     "status": "pass",
-    "at": "2026-10-30T00:06:53-07:00",
+    "at": "2026-10-31T00:07:00-07:00",
     "story": 200,
     "hero": 200,
     "index_card": true,
     "og_tags": true,
     "sitemap": true,
-    "note": "Live story 200 via pretty-URL redirect (15604 bytes, byte-identical to local); hero 200 live (460596 bytes, real JPEG ffd8, byte-identical); index card live (3 mentions); sitemap live with entry (lastmod 2026-10-30); og tags present (og:title/description/image/url)."
+    "note": "Live story 200 via pretty-URL redirect (14533 bytes, byte-identical to local); hero 200 live (465598 bytes, real JPEG ffd8, byte-identical); index card live (3 mentions, 801 articles); sitemap live with entry (lastmod 2026-10-31); og tags present (og:title/description/image/url)."
   },
-  "last_worker_run": "2026-10-31T00:01:52-07:00",
+  "last_worker_run": "2026-10-31T00:07:00-07:00",
   "note_2026_10_24_14": "SHIP held 14:02: daily cap reached (Publish #797 today, dc5a923, 00:06 PDT; 1/day cap; anchored git log --grep=^Publish # count=1, actual publishes today=1). Slug muse-transparency-trap-ux-2026 (Elena Vasquez, critique round1, all 8.5+, gates green) stays in SHIP. Draft in drafts/ (19981 bytes, 0 em dashes); hero already in images/ (403021 bytes, real JPEG ffd8, 1920x1280) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete. Pre-existing modification to stories/muse-wonder-active-memory-2026.html and untracked media-generation leftovers in drafts/ left untouched.",
   "note_2026_10_20_04": "SHIP held: 2 publishes already today (daily cap), slug stays in SHIP for next eligible run",
   "note_2026_10_20_06": "SHIP held again 06:02: daily cap still reached (2 publishes today), slug muse-wonder-active-memory-2026 stays in SHIP for next eligible run",
@@ -156,5 +151,6 @@
   "note_2026_10_30_18": "SHIP held 18:01: Publish #803 already today (653bbad, 00:05 PDT; 1/day cap; anchored git log --grep='^Publish #' count=1, actual publishes today=1). Slug muse-where-sites-block-your-agent-2026 (Jake Kowalski, critique round 1 pass, all 7 at 8.5+, gates green: 1 em dash, The-starters 9.8%, 0 banned) stays in SHIP. Draft in drafts/ (14533 bytes); hero in drafts/ (465598 bytes, real JPEG 1920x1280 verified) - next SHIP run moves draft to stories/ + hero to images/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete.",
   "note_2026_10_30_20": "SHIP held 20:01: Publish #803 already today (653bbad, 00:05 PDT; 1/day cap; anchored git log --grep='^Publish #' count=1, actual publishes today=1). Slug muse-where-sites-block-your-agent-2026 (Jake Kowalski, critique round 1 pass, all 7 at 8.5+, gates green: 1 em dash, The-starters 9.8%, 0 banned) stays in SHIP. Draft in drafts/ (14533 bytes); hero in drafts/ (465598 bytes, real JPEG 1920x1280 verified) - next SHIP run moves draft to stories/ + hero to images/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete.",
   "note_2026_10_30_22": "SHIP held 22:01: Publish #803 already today (653bbad, 00:05 PDT; 1/day cap; anchored git log --grep='^Publish #' count=1, actual publishes today=1). Slug muse-where-sites-block-your-agent-2026 (Jake Kowalski, critique round 1 pass, all 7 at 8.5+, gates green: 1 em dash, The-starters 9.8%, 0 banned) stays in SHIP. Draft in drafts/ (14533 bytes); hero in drafts/ (465598 bytes, real JPEG 1920x1280 verified) - next SHIP run moves draft to stories/ + hero to images/ + updates index.html/sitemap/article count. All standing-rule rebuild items complete.",
-  "note_2026_10_31_00": "Publish #804 at 00:0x: slug muse-where-sites-block-your-agent-2026 (Jake Kowalski, critique round 1 pass, all 7 at 8.5+, gates green: 1 em dash, The-starters 9.8%, 0 banned) moved to stories/ + hero to images/; index.html card added (801 articles); sitemap entry lastmod 2026-10-31. Phase set to QA."
+  "note_2026_10_31_00": "Publish #804 at 00:0x: slug muse-where-sites-block-your-agent-2026 (Jake Kowalski, critique round 1 pass, all 7 at 8.5+, gates green: 1 em dash, The-starters 9.8%, 0 banned) moved to stories/ + hero to images/; index.html card added (801 articles); sitemap entry lastmod 2026-10-31. Phase set to QA.",
+  "note_2026_10_31_00_07": "QA pass for Publish #804 (84620aee): all live checks green. Pipeline idle, current=null."
 }
