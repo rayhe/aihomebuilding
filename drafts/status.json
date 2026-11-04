@@ -1,24 +1,19 @@
 {
-  "current": {
-    "slug": "muse-approval-gates-where-your-agent-stops-2026",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
-    "started": "2026-11-03T03:05:00-08:00"
-  },
+  "current": null,
   "hero_cache_bust": "6f1fe073",
-  "last_completed": "2026-11-03T01:10:00-08:00",
+  "last_completed": "2026-11-04T01:15:00-08:00",
   "last_published_at": "2026-11-04T01:05:00-08:00",
   "last_qa": {
-    "article_number": 807,
-    "slug": "muse-every-door-availability-ledger-2026",
+    "article_number": 808,
+    "slug": "muse-approval-gates-where-your-agent-stops-2026",
     "status": "pass",
-    "at": "2026-11-03T01:10:00-08:00",
+    "at": "2026-11-04T01:15:00-08:00",
     "story": 200,
     "hero": 200,
     "index_card": true,
     "og_tags": true,
     "sitemap": true,
-    "note": "Live story 200 via pretty-URL redirect (13354 bytes, byte-identical to local); hero 200 live (373798 bytes, real JPEG ffd8, 2048x1152); index card live (3 mentions, 804 articles); sitemap live with entry (lastmod 2026-11-03); og tags present (og:title/image/url, byte-identical file)."
+    "note": "Live story 200, content matches local draft; hero 200 live (1920x1280, real JPEG); index card live at top (805 articles, hero v=6f1fe073); sitemap live with entry (lastmod 2026-11-04); og tags present in published file (og:title/image/url). Index card byline corrected post-publish to Nov 3, 2026 to match the article's own date (held-over draft convention, cf. transparency-trap)."
   },
   "last_worker_run": "2026-11-03T23:02:00-08:00",
   "note_2026_11_03_21": "SHIP held 21:05: daily cap reached (Publish #807 today, 61b8ba84, anchored git log --grep=^Publish # count=1). Slug muse-approval-gates-where-your-agent-stops-2026 (Elena Vasquez, critique round 0, gates green: 1 em dash, The-starters 2.5%, banned phrases 0) stays in SHIP. Draft in drafts/ (13031 bytes); hero already in images/ (361699 bytes, real JPEG ffd8) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. Pre-existing working-tree deletions/modifications left untouched.",
