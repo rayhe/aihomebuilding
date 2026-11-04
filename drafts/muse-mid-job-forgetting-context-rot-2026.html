@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/print.css" media="print">
+	<title>Your Agent Forgot the Middle of the Job — AI Home Building</title>
+	<link rel="canonical" href="https://aihomebuilding.com/stories/muse-mid-job-forgetting-context-rot-2026.html">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Your Agent Forgot the Middle of the Job",
+		"description": "Long jobs are where personal agents quietly fail: not with a crash, but with a dropped constraint. Frank DeLuca maps context rot, drift, and lost-in-the-middle forgetting, and gives a checklist for jobs that survive their own length.",
+		"image": "https://aihomebuilding.com/images/muse-mid-job-forgetting-context-rot-2026.jpg",
+		"datePublished": "2026-11-04",
+		"author": {
+			"@type": "Person",
+			"name": "Frank DeLuca"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "AI Home Building",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://aihomebuilding.com/favicon.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://aihomebuilding.com/stories/muse-mid-job-forgetting-context-rot-2026.html"
+		}
+	}
+	</script>
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Your Agent Forgot the Middle of the Job">
+	<meta property="og:description" content="Long jobs are where personal agents quietly fail: not with a crash, but with a dropped constraint. Frank DeLuca maps context rot, drift, and lost-in-the-middle forgetting, and gives a checklist for jobs that survive their own length.">
+	<meta property="og:url" content="https://aihomebuilding.com/stories/muse-mid-job-forgetting-context-rot-2026.html">
+	<meta property="og:image" content="https://aihomebuilding.com/images/muse-mid-job-forgetting-context-rot-2026.jpg">
+	<meta property="og:site_name" content="AI Home Building">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="description" content="Long jobs are where personal agents quietly fail: not with a crash, but with a dropped constraint. Frank DeLuca maps context rot, drift, and lost-in-the-middle forgetting, and gives a checklist for jobs that survive their own length.">
+</head>
+<body>
+
+	<div class="article-hero">
+		<img src="../images/muse-mid-job-forgetting-context-rot-2026.jpg" alt="A long handwritten to-do list on a desk at dusk, its middle items faded while the first and last items stay sharp, a laptop open beside it" loading="eager">
+		<div class="overlay">
+			<span class="badge">Productivity &amp; Operations</span>
+			<h1>Your Agent Forgot the Middle of the Job</h1>
+			<div class="byline">By Frank DeLuca &middot; November 4, 2026</div>
+		</div>
+	</div>
+
+	<div class="article-container">
+		<a href="../index.html" class="back-link">&larr; Back to AI Home Building</a>
+
+		<article class="article-body">
+<p>Picture a job you would never hand to a stranger in one breath. You ask Muse to compare three vendors, track down every renewal date in your inbox, build a calendar of deadlines, and draft the cancellation letters for anything you no longer use. Twelve steps, maybe twenty, spread over a few days. On Friday the report arrives, polished and confident, and one renewal date is wrong. Not invented from nothing. Swapped with another vendor's date, from the middle of your own instructions, where you had written it plainly. Nobody crashed. Nobody warned you. Work that looked finished was finished wrong, and you only caught it because you happened to remember the number.</p>
+
+<p>Twenty years of running operations teaches a person to distrust exactly this kind of failure. Loud failures get fixed. Quiet ones get filed. An agent that stops working sends you an error, and an error is a gift. An agent that keeps working while quietly losing track of what you asked for sends you a deliverable, and a deliverable gets trusted. Long jobs are where personal agents fail quietly, because length itself degrades them, and Muse is sold precisely on long jobs: goals that advance in the background, scheduled work that runs while you sleep, plans that span days. Meta launched Muse on September 8, 2026 as an agent that keeps working after you close the app and returns when something changes or when it needs approval. That promise is real, and it carries a failure mode most users never see coming.</p>
+
+<h2>Three ways an agent forgets</h2>
+
+<p>Forgetting is not one thing. Researchers describe at least three distinct mechanisms, and each one bites a different part of your job.</p>
+
+<p>First, context rot. As a session accumulates turns, tool results, and documents, a model's reasoning gets measurably worse, even when nothing has hit a token limit. Chroma's 2025 study tested 18 frontier models, including GPT-4.1, Claude Opus 4, Gemini 2.5, and Qwen3, and found performance dropping 15 to 40 percent as context length increased, even on simple retrieval and replication tasks. (<a href="https://keepmyclaw.com/blog/ai-agent-context-rot">keepmyclaw.com</a>, summarizing Chroma's study) Read that number again, because it inverts the usual intuition. A longer brief does not make an agent more careful. Past a point, more context makes it less reliable, on easy tasks as well as hard ones. Anyone who has watched a meeting go worse the longer it runs already understands the shape of this. Attention is a budget, and a model spends it whether you notice or not.</p>
+
+<p>Second, lost in the middle. Liu and colleagues showed in 2023 that models use information at the start and end of a long context better than information in the middle, a U-shaped position bias. (<a href="https://mnemoverse.com/docs/research/ai-agent-memory-crisis">mnemoverse.com</a>) For a user, this is the cruelest of the three, because it targets exactly where careful people put their caveats. You open with the goal, you close with the deadline, and you bury the one constraint that actually matters, say, that the new vendor must support your existing hardware, in paragraph four. That paragraph is the one most likely to go soft. If your brief reads like a sandwich with the substance in the center, expect the center to be the first thing lost.</p>
+
+<p>Third, drift. Over extended interactions, an agent's understanding of the original intent shifts a little each turn, until it is operating on a subtly different job than the one you assigned. A December 2025 assessment framework for agentic systems, published as arXiv:2512.12791, reported memory retrieval of only 13.1 percent recall in complex scenarios, even when agents completed the tasks they were assigned. (<a href="https://www.channel.tel/blog/memory-silent-failure-mode">channel.tel</a>) Memory failures per session rose with complexity, from 0.67 for simple tasks to 2.33 for moderate ones to 3.67 for complex, multi-step work. Tool orchestration fared worst of all, at 7.67 average failures in complex scenarios. Completion, in other words, is not evidence of memory. An agent can finish your job and remember roughly one thing in eight that it was told along the way.</p>
+
+<p>One more number belongs in this picture. Research from Microsoft and Salesforce, as reported in 2026, found an average 39 percent performance drop when benchmark prompts were split across several chat turns instead of given all at once. (<a href="https://www.testmuai.com/blog/why-ai-agents-forget/">testmuai.com</a>) Every handoff, every resumed session, every "pick this up tomorrow" costs accuracy. Meanwhile sessions keep getting longer: Anthropic's data, as reported, shows the longest agent sessions growing from under 25 minutes at the 99.9th percentile in October 2025 to over 45 minutes by January 2026. Longer jobs, split across more turns, are precisely the direction Muse is heading.</p>
+
+<h2>What Muse's design does about it</h2>
+
+<p>None of this means long jobs are hopeless. Muse's architecture, as Meta describes it, contains three genuine defenses, and a careful user can lean on all of them.</p>
+
+<p>Work lands in files, not just in chat. Each user gets a dedicated cloud computer, the Muse Secure VM, with a browser, a filesystem, and storage, and deliverables are saved to a Library the user controls. (<a href="https://zentor.ai/blog/what-is-meta-muse">zentor.ai</a>) A plan written to a file survives a session ending. A plan kept only in conversation survives only as long as someone keeps re-sending it. If you want a job to outlast a session, insist that its brief, its constraints, and its done criteria live in a file first, and point the agent at that file at the start of every leg.</p>
+
+<p>Memory persists across sessions in files the user can read and edit. That is a real advantage over a chatbot that starts cold every morning, and it is also a trap, because a file nobody opens is a diary, not a memory. Check what Muse actually recorded about your job before you trust the next leg to it. If the record is wrong, correct the file. Correcting a file is cheap. Correcting a finished deliverable built on a wrong record is not.</p>
+
+<p>Summarization keeps long work going, and it is also a forgetting mechanism wearing a helpful coat. When an older run is summarized so a new run can start fresh, the summary keeps the gist and drops the detail, and detail is exactly where constraints live. Treat every resumed session as a new hire who read a one-page handover note. Re-brief the non-negotiables from scratch instead of assuming the new session inherited the old one's judgment calls.</p>
+
+<p>Splitting work is the strongest defense available, and it belongs to you, not to Meta. Subagents and scheduled runs each start with a narrow brief, so no single session carries the whole job. A vendor comparison split into three legs, each with its own deliverable, fails in pieces small enough to catch. A single twenty-step session fails all at once, politely, in a finished-looking document.</p>
+
+<h2>A checklist for jobs that survive their own length</h2>
+
+<p>Put this on the wall next to any job longer than a single sitting. First, write the brief to a file before the agent starts, with constraints and done criteria stated in full, and make the agent read that file at the start of each leg. Second, put non-negotiables first and repeat them at each leg, never buried in the middle of a long brief. Third, split a multi-day job into legs with a deliverable each, and verify each leg before the next one starts. Fourth, ask for the agent's own mid-job summary in writing, then compare it against your brief line by line. Drift shows up in the summary before it shows up in the deliverable, and a summary is cheaper to fix. Fifth, when a job changes hands between sessions, re-brief from scratch rather than waving at prior context and hoping it survived.</p>
+
+<p>Verification deserves its own sentence, because it is the part everyone skips. Do not verify a long job once at the end. Verify per leg, against the file, while the previous leg is still cheap to redo. An end-of-job check catches errors after they have compounded into other steps. A per-leg check catches them while they are still one wrong date.</p>
+
+<h2>Strongest case against all of this</h2>
+
+<p>Maybe the checklist is the problem, not the solution. If using an agent requires writing a formal brief, maintaining a constraints file, diffing summaries, and verifying every leg, you have rebuilt the job you were trying to delegate, with extra paperwork. A tool that demands this much supervision has not saved your time. It has moved your time from doing to auditing, and auditing is the duller job. That criticism is fair, and it sets the real bar for Muse: long jobs should get easier to trust, not harder, as the product matures. Until they do, the honest answer is that delegation has a length limit, and jobs past that limit need scaffolding or a human in the loop.</p>
+
+<h2>What this article did not prove</h2>
+
+<p>Every hard number in this article comes from general agent and model research, not from Muse itself. Meta has published no measurement of context rot, drift rate, or recall on Muse's long jobs, and no public data exists on what Muse's summaries keep or drop, or how often a resumed run contradicts an earlier one. Treat 15 to 40 percent, 13.1 percent, and 39 percent as warnings about the species, not scores for this particular animal. Splitting work also creates its own failure, handoff loss, which this site covered separately; the fix for forgetting trades against the fix for fragmentation, and no single workflow solves both. Those gaps are stated here so nobody mistakes a map of the failure for a measurement of Muse.</p>
+
+<p>Operations people learn, usually the expensive way, that a system is only as reliable as its memory of what it was asked to do. Agents are no different. Give yours a short memory on purpose: small legs, written briefs, constraints up front, a check after each leg. Your agent will still forget the middle of a long job sometimes. With that scaffolding, you will catch it while the fix is still cheap, which is the only kind of reliability that has ever actually existed.</p>
+
+		</article>
+	</div>
+
+</body>
+</html>
