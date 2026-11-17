@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "muse-voice-mode-2026",
+    "phase": "DRAFT",
+    "journalist": "Elena Vasquez",
+    "started": "2026-11-17T03:05:00-08:00"
+  },
   "hero_cache_bust": "6f1fe073",
   "last_completed": "2026-11-17T01:10:00-08:00",
   "last_published_at": "2026-11-17T01:05:00-08:00",
@@ -358,5 +363,6 @@
   "note_2026_11_16_21": "SHIP held 21:01 PST Nov 16: daily cap reached (Publish #820 today, 01:03 PST, 9b72daaf; strict grep ^Publish # count 1 today; loose body-command grep returns 9 because 8 earlier SHIP-held commits mention Publish #820 in their messages). Slug muse-agent-to-agent-mcp-a2a-2026 (Jake Kowalski, critique round0, all 7 at 8.5+, gates green) stays in SHIP. Draft in drafts/ (15342 bytes); hero already in images/ (342237 bytes, real JPEG ffd8, v=08df4c6b) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. Em dash count re-verified 1 (gate green). Pre-existing working-tree deletions/modifications and untracked media-generation leftovers left untouched.",
   "note_2026_11_16_23": "SHIP held 23:01 PST Nov 16: daily cap reached (Publish #820 today, 01:03 PST, 9b72daaf; strict grep ^Publish # count 1 today). Slug muse-agent-to-agent-mcp-a2a-2026 (Jake Kowalski, critique round0, all 7 at 8.5+, gates green) stays in SHIP. Draft in drafts/ (15342 bytes); hero already in images/ (342237 bytes, real JPEG ffd8, 1920x1280, v=08df4c6b) - next SHIP run skips hero move, moves draft to stories/ + updates index.html/sitemap/article count. Em dash count re-verified 1 (gate green). Pre-existing working-tree deletions/modifications and untracked media-generation leftovers left untouched.",
   "note_2026_11_17_01": "Publish #821: muse-agent-to-agent-mcp-a2a-2026 (Jake Kowalski) moved to stories/, hero already in images/ (342237 bytes, real JPEG ffd8 1920x1280, v=08df4c6b) - hero move skipped; byline/datePublished set to Nov 17, 2026 at publish time; index featured + grid card prepended (Capabilities), filter count 817->818, og/twitter image updated; sitemap entry added lastmod 2026-11-17; writers.html Kowalski nav 24->25, Articles 5->6, Min Total Read 51->61 (10 min read), article item prepended.",
-  "note_2026_11_17_qa": "QA pass for Publish #821: story live 200, hero 200 real JPEG, index card live, sitemap valid with new entry, writers.html live (Kowalski 25); pipeline idle, current=null. Note: .html URLs 308 to extensionless paths site-wide (same for older stories); QA fetches must follow redirects."
+  "note_2026_11_17_qa": "QA pass for Publish #821: story live 200, hero 200 real JPEG, index card live, sitemap valid with new entry, writers.html live (Kowalski 25); pipeline idle, current=null. Note: .html URLs 308 to extensionless paths site-wide (same for older stories); QA fetches must follow redirects.",
+  "note_2026_11_17_research": "RESEARCH complete: muse-voice-mode-2026 (Elena Vasquez) - Muse Voice + Realtime Avatar launched Nov 5, 2026, US only, mobile/web/Mac; 870ms latency, 448x768 @ 25fps, 12 sessions/GB200, Jolly default avatar, hears but does not see you; 8 sources (Meta newsroom, Meta AI Research, TechCrunch, PPC Land, Connect 2026, metamuseai.site, Q3 earnings call, Meta glasses help); original contributions: GPU math behind US-only rollout, approvals-by-voice gap, one-way video asymmetry, latency-for-depth trade hypothesis. Kill test passes."
 }
