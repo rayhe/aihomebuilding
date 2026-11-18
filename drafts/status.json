@@ -1,20 +1,15 @@
 {
-  "current": {
-    "slug": "muse-voice-mode-2026",
-    "phase": "QA",
-    "journalist": "Elena Vasquez",
-    "started": "2026-11-17T03:05:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "hero_cache_bust": "6f1fe073",
+  "note_2026_11_18_qa": "QA pass #822 (01:10 PST): story 200 (20068 bytes), headline + og:image + Nov 18 byline live; hero 200 real JPEG ffd8 1920x1280; index live (featured + grid card, 819 articles); sitemap entry live; writers.html live (Vasquez nav 13). current=null, last_completed updated. Pipeline idle; next run starts RESEARCH.",
   "note_2026_11_18_01": "Publish #822 (01:10 PST): muse-voice-mode-2026 (Elena Vasquez) moved to stories/, hero already in images/ (459062 bytes, real JPEG ffd8, 1920x1280) - hero move skipped; byline/datePublished set to Nov 18, 2026 at publish time; ?v= stripped from story image URLs; index featured + grid card (Design & UX, v=6f1fe073), count 818->819, og/twitter images updated; sitemap entry added with lastmod 2026-11-18; writers.html Vasquez nav 12->13, Articles 5->6, Min Total Read 59->73, 14 min read. Phase now QA; live verification next.",
-  "last_completed": "2026-11-17T01:10:00-08:00",
+  "last_completed": "2026-11-18T01:10:00-08:00",
   "last_published_at": "2026-11-18T01:10:00-08:00",
   "last_qa": {
-    "article_number": 821,
-    "slug": "muse-agent-to-agent-mcp-a2a-2026",
-    "checked": "2026-11-17T01:10:00-08:00",
-    "result": "pass: story 200 (via site-wide 308 extensionless redirect), 15342 bytes, headline + og:image live; hero 200 real JPEG ffd8; index live with featured + grid card; sitemap entry live; writers.html live, Kowalski nav-count 25"
+    "article_number": 822,
+    "slug": "muse-voice-mode-2026",
+    "checked": "2026-11-18T01:10:00-08:00",
+    "result": "pass: story 200, 20068 bytes, headline + og:image + Nov 18 byline live; hero 200 real JPEG ffd8 1920x1280; index live with featured + grid card, 819 articles; sitemap entry live; writers.html live, Vasquez nav-count 13"
   },
   "last_worker_run": "2026-11-17T23:01:52-08:00",
   "note_2026_11_14_07": "SHIP held 07:01: daily cap reached (Publish #818 today, 64a27517, 01:04 PST; anchored git log --grep=^Publish # count=1). Slug muse-spaces-describe-once-keep-it-2026 (Elena Vasquez, critique round 0, all 7 critics 8.5+, avg 8.86, gates green: 1 em dash, The-starters 3.8%, banned 0) stays in SHIP. Re-verified pre-ship this run: draft 16991 bytes, hero real JPEG ffd8 1920x1280 (312226 bytes) already in images/ (DRAFT phase placed it there; publish run moves draft to stories/ only). Rebuild section this run: Capabilities directory 38->39, added Muse Charm (coming soon) entry (Messaging & Voice) sourced to Meta's own muse-charm page (verified live Nov 14: 'The first device made for Muse', notify-me signup only) plus Reuters via Notebookcheck/solidaitech (2-inch touchscreen, built-in 5G, cannot make phone calls; Connect Sep 23 2026 reveal; Dec holiday ship target, no price, no firm date, only a few units built). All count 38->39, intro verified line updated; new content 0 em dashes (added-lines grep), banned 0. validate.sh PASSED with 1 pre-existing warning (461 files vs 693 cards, pre-pivot archive). Pre-existing working-tree deletions/modifications and untracked media-generation leftovers left untouched.",
